@@ -166,50 +166,61 @@
     </div>
 
     <!-- Filter UI Row with reduced spacing -->
-    <div class="row g-2" id="filterRow" style="display:none;">
-      <!-- Min Quality -->
-      <div class="col-auto">
-        <label for="minQuality" class="form-label">Min Quality</label>
-        <input type="number" class="form-control short-input" id="minQuality" min="0" max="10" value="7" />
+    <div class="row g-2 align-items-center" id="filterRow" style="display:none;">
+  
+      <!-- Search -->
+      <div class="col-md-auto d-flex align-items-center">
+        <label for="minQuality" class="form-label me-2 mb-0">Min Quality (1-10)</label>
+        <input type="number" class="form-control short-input" id="minQuality" min="0" max="10" value="10" />
       </div>
-
+    
       <!-- Min Relevance -->
-      <div class="col-auto">
-        <label for="minRelevance" class="form-label">Min Relevance</label>
+      <div class="col-md-auto d-flex align-items-center">
+        <label for="minRelevance" class="form-label me-2 mb-0">Min Relevance (1-10)</label>
         <input type="number" class="form-control short-input" id="minRelevance" min="0" max="10" value="7" />
       </div>
 
-      <!-- Search -->
-      <div class="col-auto">
-        <label for="searchInput" class="form-label">Search Paper</label>
+      <div class="col-md-auto d-flex align-items-center">
+        <label for="searchInput" class="form-label me-2 mb-0">Search Paper</label>
         <div class="input-group">
           <input type="text" class="form-control" id="searchInput" placeholder="Title/Author..." />
-          <button class="btn btn-outline-primary" id="applySearchBtn">Apply</button>
+          <button class="btn btn-outline-primary" id="applySearchBtn">Search/Apply Filter</button>
         </div>
       </div>
 
-      <!-- Field Filter (Collapsible) -->
-      <div class="col-auto">
-        <label class="form-label d-block">&nbsp;</label>
+    
+      <!-- Field Filter (Aligned) -->
+      <div class="col-md-auto d-flex align-items-center">
+        <label class="form-label me-2 mb-0">Filter by Field</label>
         <button class="btn btn-secondary btn-field-filter" type="button" data-bs-toggle="collapse" data-bs-target="#fieldCollapse" aria-expanded="false" aria-controls="fieldCollapse">
-          Filter by Field
+          Select Fields
         </button>
+      </div>
+    
+      <!-- Hidden Field Filter List -->
+      <div class="w-100"></div> <!-- Forces the field filter options to drop below in the next row -->
+      <div class="col-12">
         <div class="collapse mt-2" id="fieldCollapse">
           <div class="field-filter-list" id="fieldFilterContainer">
-            <!-- We'll dynamically add checkboxes here -->
+            <!-- Dynamically added checkboxes -->
           </div>
         </div>
       </div>
-
-      <!-- Export PDF Button + disclaim -->
-      <div class="col-auto">
-        <label class="form-label d-block">&nbsp;</label>
-        <button class="btn btn-primary" id="exportPdfBtn">Export Collected to PDF</button>
-        <small class="text-muted d-block mt-2">
-          Collected papers will be stored only in this browser's local storage. They will be cleared if you clear site data.
+    
+      <!-- Export PDF Button -->
+      <div class="col-md-auto d-flex align-items-center">
+        <button class="btn btn-primary" id="exportPdfBtn">Export to PDF</button>
+      </div>
+    
+      <!-- Disclaimer -->
+      <div class="col-md-auto">
+        <small class="text-muted">
+          Collected papers are stored in local storage. <b>They will be cleared on refresh.</b>
         </small>
       </div>
+      
     </div>
+    
 
     <!-- Main Paper Container -->
     <div class="row row-cols-1 row-cols-md-2 g-4 mt-3" id="papersContainer" style="display:none;"></div>
