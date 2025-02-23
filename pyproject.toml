@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "flask>=3.1.0",
     "ipdb>=0.13.13",
     "marker-pdf",
     "openai>=1.63.2",
