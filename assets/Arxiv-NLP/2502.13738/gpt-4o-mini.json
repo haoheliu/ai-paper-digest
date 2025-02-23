@@ -1,0 +1,21 @@
+{
+    "title": "Enhancing Input-Label Mapping in In-Context Learning with Contrastive Decoding",
+    "author": "Keqin Peng (Beihang University), Liang Ding (The University of Sydney), Yuanxin Ouyang (Beihang University), Meng Fang (University of Liverpool), Yancheng Yuan (The Hong Kong Polytechnic University), Dacheng Tao (Nanyang Technological University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method of In-Context Contrastive Decoding (ICCD) could enhance the effectiveness of few-shot learning paradigms, potentially applicable to audio tasks where label mappings are critical.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "In-context learning (ICL) allows models to adapt to tasks using a few examples, but often they ignore the mapping between inputs and labels, relying on their pre-trained knowledge.",
+    "contribution": "This paper introduces In-Context Contrastive Decoding (ICCD) to improve models' focus on input-label mapping by contrasting output distributions from positive and negative examples, achieving up to a 2.1% average accuracy improvement across various tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often neglect input-label mapping during ICL, leading to performance deficiencies.",
+        "novelty": "ICCD emphasizes correct mappings by utilizing both positive and negative in-context examples without additional training on models."
+    },
+    "key_innovation": "By creating negative examples that distort input-label mapping rather than altering labels directly, ICCD effectively guides the model's focus during generation.",
+    "real_world_impact": "The enhanced input-label mapping could improve various natural language understanding tasks, potentially benefiting applications in customer support and automated content generation.",
+    "limitations": "While promising, further experiments on larger models and specialized domains are necessary to validate the effectiveness and generalizability of the approach.",
+    "new_terms": {
+        "In-Context Learning": "**In-Context Learning (ICL)** refers to a paradigm in which a model can learn to perform tasks by conditioning on a few examples provided in the input context, without requiring parameter updates."
+    },
+    "open_sourcing": "The code and scripts for implementing the ICCD method will be publicly released."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Prompting a Weighting Mechanism into LLM-as-a-Judge in Two-Step: A Case Study",
+    "author": "Wenwen Xie (Databricks), Gray Gwizdz (Databricks), Dongji Feng (Gustavus Adolphus College)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed methods may enhance evaluation techniques for audio and music processing tasks, allowing for better assessment of generated audio content and increasing efficiency in validating audio generation models.",
+    "field": "Evaluation-Methodology",
+    "background": "Evaluating the quality of AI-generated text by comparing its factual accuracy to a gold standard, with a focus on adjusting the importance of different types of factual content.",
+    "contribution": "This paper introduces an explicit weighting mechanism in the evaluation prompts to improve LLM evaluations, achieving a 6% improvement in human alignment rates.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluation methods struggled to distinguish between critical and trivial details in generated text.",
+        "novelty": "This work uses a novel prompt design to explicitly assign dynamic weights to different types of errors, leading to more nuanced evaluations."
+    },
+    "key_innovation": "Incorporates an algorithm within the evaluation prompts that differentiates between critical, supporting, and trivial facts.",
+    "real_world_impact": "The improvement in accuracy for AI evaluations could have broad applications in automated content generation and correction tools, impacting industries such as software development and content creation.",
+    "limitations": "The evaluation is based on a single dataset, and effectiveness on broader datasets remains untested.",
+    "new_terms": {
+        "Human Alignment Rate (HAR)": "**Human Alignment Rate (HAR)** is a metric that measures how closely AI-generated outputs align with human evaluations or expectations.",
+        "Retrieval-Augmented Generation (RAG)": "**Retrieval-Augmented Generation (RAG)** refers to a method that improves content generation by combining retrieval of relevant information with generative models."
+    },
+    "open_sourcing": ""
+}

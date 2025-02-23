@@ -1,0 +1,22 @@
+{
+    "title": "Enhancing Audio-Visual Spiking Neural Networks through Semantic-Alignment and Cross-Modal Residual Learning",
+    "author": "Xiang He (Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences), Dongcheng Zhao (Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences), Yiting Dong (Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences), Guobin Shen (Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences), Xin Yang (CAS Key Laboratory of Molecular Imaging, Institute of Automation, Chinese Academy of Sciences), Yi Zeng (Brain-inspired Cognitive Intelligence Lab, Institute of Automation, Chinese Academy of Sciences), ..., Xin Yang (CAS Key Laboratory of Molecular Imaging, Institute of Automation, Chinese Academy of Sciences)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper proposes a novel approach in multimodal learning which could be beneficial in enhancing tasks like audio generation and audio-language modeling that Haohe is involved in.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "The paper addresses the task of integrating visual and auditory information in spiking neural networks to improve multimodal learning performance.",
+    "contribution": "This paper introduces a semantic-alignment cross-modal residual learning framework to enhance the integration of audio-visual information in spiking neural networks, achieving state-of-the-art performance on multiple datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing multimodal spiking neural networks often struggle with effective integration of audio and visual data, resorting to basic fusion methods.",
+        "novelty": "This work improves by employing a dual attention mechanism and cross-modal residual learning to better capture and utilize complementary information between modalities."
+    },
+    "key_innovation": "The introduction of a cross-modal complementary spatiotemporal spiking attention mechanism that effectively handles spatiotemporal dependencies while integrating features from two modalities.",
+    "real_world_impact": "The innovative framework could significantly impact applications in robotics and interactive AI systems where integrating sound and vision is essential for robust performance.",
+    "limitations": "No",
+    "new_terms": {
+        "cross-modal": "**Cross-modal** refers to integrating or relating different sensory modalities, such as visual and auditory data.",
+        "spatiotemporal": "**Spatiotemporal** denotes the combined consideration of spatial and temporal dimensions in data understanding and processing."
+    },
+    "open_sourcing": "The code is publicly available at https://github.com/Brain-Cog-Lab/S-CMRL"
+}

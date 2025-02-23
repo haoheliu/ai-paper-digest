@@ -1,0 +1,19 @@
+{
+    "title": "Revisiting the Generalization Problem of Low-level Vision Models Through the Lens of Image Deraining",
+    "author": "Jinfan Hu (Shenzhen Institutes of Advanced Technology), Zhiyuan You (The Chinese University of Hong Kong), Jinjin Gu (The University of Sydney), Kaiwen Zhu (Shanghai Jiao Tong University), Tianfan Xue (The Chinese University of Hong Kong), Chao Dong (Shenzhen Institutes of Advanced Technology), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The findings on generalization in low-level vision could inform strategies for improving audio processing models by analogous reasoning in audio context, such as enhancing robustness against unseen noise patterns.",
+    "field": "Applications-Vision",
+    "background": "The paper addresses the difficulty low-level vision models have in generalizing beyond seen degradation patterns when applied to real-world images.",
+    "contribution": "This paper introduces a new understanding of generalization issues in low-level vision, proposing that focusing less on complex backgrounds during training improves model performance on unseen degradations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in low-level vision often collected diverse training datasets, believing broader exposure facilitates better learning.",
+        "novelty": "This work argues that reducing background complexity instead promotes better generalization by encouraging models to focus on essential content rather than overfitting to specific degradation."
+    },
+    "key_innovation": "The study redefines how training datasets are constructed, emphasizing suitable background content complexity for enhancing model generalization.",
+    "real_world_impact": "These insights can help improve real-world applications of low-level vision models, such as deraining and denoising, by increasing their reliability in varying degradation scenarios.",
+    "limitations": "The authors do not explicitly state limitations but acknowledge the need for further exploration in deeper network architectures.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

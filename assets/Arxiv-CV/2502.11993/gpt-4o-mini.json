@@ -1,0 +1,22 @@
+{
+    "title": "MultiFlow: A unified deep learning framework for multi-vessel classification, segmentation and clustering of phase-contrast MRI validated on a multi-site single ventricle patient cohort",
+    "author": "Tina Yao, Nicole St. Clair, Gabriel F. Miller, FORCE Investigators, Jennifer A. Steeden, Rahul H. Rathod, Vivek Muthurangu, ..., Haohe Liu (University of Surrey)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods used for segmentation and clustering can inspire new approaches in audio signal processing, especially regarding temporal features and feature sharing for classification tasks.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "This study involves segmenting and classifying MRI flow images of blood vessels, aiming to improve diagnostic techniques for patients with complex congenital heart conditions.",
+    "contribution": "MultiFlow introduces a unified deep learning model to solve multi-vessel segmentation and classification in phase-contrast MRI, achieving high accuracy across five distinct vessels.",
+    "technical_comparison": {
+        "prior_work": "Previous methods utilized individual classifiers and networks for each vessel, leading to inefficiencies.",
+        "novelty": "This work combines classification and segmentation tasks in a single model, improving performance through shared feature extraction."
+    },
+    "key_innovation": "The incorporation of a tunable parameter within the segmentation model allows flexibility with input series descriptions, enhancing classification accuracy especially in varying anatomical conditions.",
+    "real_world_impact": "This methodological advancement can facilitate better clinical assessments in congenital heart disease, potentially improving patient outcomes and guiding treatment strategies.",
+    "limitations": "Model misclassifications occur in atypical anatomical conditions, particularly affecting patients with dextrocardia.",
+    "new_terms": {
+        "phase-contrast MRI": "**Phase-contrast magnetic resonance imaging (PCMR)** is a specialized MRI technique used to measure blood flow and cardiac function by encoding velocity information in the generated images.",
+        "Dice score": "**Dice score** is a statistical measure used to gauge the similarity between two samples, often utilized in evaluating the accuracy of image segmentation."
+    },
+    "open_sourcing": ""
+}

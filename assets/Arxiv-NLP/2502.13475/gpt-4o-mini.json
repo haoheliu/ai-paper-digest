@@ -1,0 +1,22 @@
+{
+    "title": "LLM SHOULD THINK AND ACTION AS A HUMAN",
+    "author": "Haun Leung, ZiNan Wang, ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper addresses the reasoning and planning capabilities of large language models, which is directly relevant to enhancing the performance of models used in audio and speech processing tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The study explores how large language models (LLMs) can be improved to handle multi-turn conversations and action tasks by simulating human-like reasoning and planning capabilities.",
+    "contribution": "This paper introduces a thinking method based on a built-in chain of thought to solve the issues in multi-turn conversations, achieving enhanced reasoning and planning capabilities in large language models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with multi-turn conversation errors and inefficient tool interactions due to limited reasoning capabilities.",
+        "novelty": "This work leverages a structured thinking method incorporating action calls and local contexts, allowing for more effective task execution and reduced error rates."
+    },
+    "key_innovation": "It utilizes built-in chains of thought encapsulated in special tokens to facilitate human-like reasoning and context-aware action planning.",
+    "real_world_impact": "Improving LLM capabilities can significantly enhance user interaction experiences across various applications, potentially benefiting sectors like customer service, entertainment, and educational tools.",
+    "limitations": "Challenges include the need for extensive datasets for reinforcement learning and the complexity of maintaining context over long conversations.",
+    "new_terms": {
+        "built-in chain of thought": "**Built-in chain of thought** refers to a structured reasoning process that models human-like thinking patterns, encapsulated in special tokens to guide LLM responses.",
+        "action calls": "**Action calls** are defined interactions within the model that allow it to perform tasks rather than simply responding to prompts."
+    },
+    "open_sourcing": ""
+}

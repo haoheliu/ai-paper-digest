@@ -1,0 +1,22 @@
+{
+    "title": "DataSciBench: An LLM Agent Benchmark for Data Science",
+    "author": "Dan Zhang (Tsinghua University), Sining Zhoubian (Tsinghua University), Min Cai (Zhipu AI), Fengzu Li (Tsinghua University), Lekang Yang (Tsinghua University), Wei Wang (Tsinghua University), Tianjiao Dong (University of California, Berkeley), Ziniu Hu (California Institute of Technology), Jie Tang (Tsinghua University), Yisong Yue (California Institute of Technology)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The benchmark provides a structured way to evaluate the performance of language models in data science, which can support the development of advanced data processing tools in Haohe Liu's research.",
+    "field": "Evaluation-Methodology",
+    "background": "Assessing the capabilities of large language models (LLMs) to perform various data science tasks using a comprehensive benchmark.",
+    "contribution": "DataSciBench introduces a novel evaluation framework to systematically assess LLMs in data science tasks, achieving detailed insights into model performance.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks often focus on single tasks with straightforward evaluation metrics, limiting their effectiveness.",
+        "novelty": "This work utilizes a semi-automated pipeline to generate ground truth and employs a Task-Function-Code (TFC) framework for more complex and diverse evaluations across multiple task types."
+    },
+    "key_innovation": "The combination of a semi-automated approach for ground truth generation and a comprehensive TFC framework allows for nuanced evaluation of LLMs on complex data science tasks.",
+    "real_world_impact": "This benchmark could enhance the application of LLMs in real-world data science workflows, promoting advancements in areas like data cleaning, visualization, and predictive modeling.",
+    "limitations": "Some metrics for data visualization tasks may lack precision, necessitating further refinement.",
+    "new_terms": {
+        "Task-Function-Code (TFC)": "**Task-Function-Code (TFC)** framework is a methodology for organizing data science tasks, functions to evaluate performance, and code to implement these functions in a structured manner.",
+        "ground truth (GT)": "**Ground truth (GT)** refers to reliable and accurate data against which the performance of models can be measured."
+    },
+    "open_sourcing": "The authors have released the code and dataset at https://github.com/THUDM/DataSciBench/"
+}

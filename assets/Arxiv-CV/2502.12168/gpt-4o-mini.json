@@ -1,0 +1,21 @@
+{
+    "title": "CFIRSTNET: Comprehensive Features for Static IR Drop Estimation with Neural Network",
+    "author": "Yu-Tung Liu (National Yang Ming Chiao Tung University), Shao-Yu Wu (National Yang Ming Chiao Tung University), Yu-Hao Cheng (National Yang Ming Chiao Tung University), Hung-Ming Chen (National Yang Ming Chiao Tung University), ..., Haohe Liu (N/A)",
+    "quality": 8,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Static IR drop estimation evaluates voltage drops across power delivery networks in circuit designs, essential for ensuring reliability and performance in integrated circuits.",
+    "contribution": "This paper introduces CFIRSTNET, a convolutional neural network model that combines image-based and netlist-based features to enhance the estimation accuracy of static IR drops in integrated circuit designs.",
+    "technical_comparison": {
+        "prior_work": "Existing methods struggle with computational efficiency and estimation accuracy, often requiring time-consuming simulations or focusing solely on specific circuit features.",
+        "novelty": "CFIRSTNET uniquely integrates both image-based and netlist-based features in its architecture, achieving a significant speedup and lower error rates compared to traditional estimation methods."
+    },
+    "key_innovation": "The integration of both image-based and netlist-based data allows the model to leverage spatial information and electrical characteristics simultaneously, improving the robustness of predictions.",
+    "real_world_impact": "This method could streamline the circuit design process by reducing the time spent on IR drop estimation, leading to faster and more reliable product development in the semiconductor industry.",
+    "limitations": "The paper does not explicitly mention significant limitations, though it could face challenges with scaling to extremely complex circuits.",
+    "new_terms": {
+        "IR drop": "**IR drop** refers to the voltage drop that occurs when current flows through the resistance of a wire, which can result in insufficient voltage supplied to electronic components causing potential malfunctions."
+    },
+    "open_sourcing": "https://github.com/jason122490/CFIRSTNET"
+}

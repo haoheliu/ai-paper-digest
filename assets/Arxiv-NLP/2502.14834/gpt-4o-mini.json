@@ -1,0 +1,22 @@
+{
+    "title": "LongWriter-V: Enabling Ultra-Long and High-Fidelity Generation in Vision-Language Models",
+    "author": "Shangqing Tu (Tsinghua University), Yucheng Wang (Tsinghua University), Daniel Zhang-Li (Tsinghua University), Yushi Bai (Tsinghua University), Jifan Yu (Tsinghua University), Yuhao Wu (Singapore University of Technology and Design), Lei Hou (Tsinghua University), Hui-Qin Liu (Tsinghua University), Zhiyuan Liu (Tsinghua University), Bin Xu (Tsinghua University), Juanzi Li (Tsinghua University)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The methods proposed for generating long outputs in vision-language models could inform new approaches in the audio domain where similar challenges exist, such as generating lengthy and coherent audio narratives from visual inputs.",
+    "field": "Applications-Vision",
+    "background": "The paper presents a framework enabling Vision-Language Models to generate extensive and coherent text based on visual inputs, addressing a current limitation in their capacity to output lengthy content.",
+    "contribution": "The paper introduces LongWriter-V-22k, a novel supervised fine-tuning dataset that allows Vision-Language Models to generate outputs exceeding 3,000 words, improving coherence and fidelity.",
+    "technical_comparison": {
+        "prior_work": "Previous models are limited to generating around 1,000 words, often struggling with coherence in longer outputs.",
+        "novelty": "This work enhances output length capabilities by utilizing a two-stage generation approach and an extensive dataset specifically designed for long outputs."
+    },
+    "key_innovation": "The introduction of the Iterative Direct Preference Optimization (IterDPO) method allows models to learn from segmented long outputs, improving fidelity through fine-grained human corrections.",
+    "real_world_impact": "This advancement enables new applications in creative and professional writing, such as detailed reports or storytelling, significantly improving user interaction with Vision-Language Models in real-world tasks.",
+    "limitations": "Potential limitations include the need for large datasets for effective training and challenges related to maintaining quality over extensive generated outputs.",
+    "new_terms": {
+        "Direct Preference Optimization (DPO)": "**Direct Preference Optimization (DPO)** refers to a method of training models based on preferences derived from human feedback, enhancing output quality by selecting better responses over weaker ones.",
+        "Iterative Direct Preference Optimization (IterDPO)": "**Iterative Direct Preference Optimization (IterDPO)** is a strategy that expands upon DPO by leveraging corrections from segmented long outputs to maximize learning efficiency."
+    },
+    "open_sourcing": "https://github.com/THU-KEG/LongWriter-V"
+}

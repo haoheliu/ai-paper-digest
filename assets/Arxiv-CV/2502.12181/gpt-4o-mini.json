@@ -1,0 +1,22 @@
+{
+    "title": "3D ReX: Causal Explanations in 3D Neuroimaging Classification",
+    "author": "Melane Navaratnarajah (King's College London), Sophie A. Martin (University College London), David A. Kelly (King's College London), Nathan Blake (University College London), Hana Chocker (King's College London), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed tool, 3D-REX, could inspire techniques for interpretable machine learning in the audio domain, particularly in enhancing explainability for complex models used in audio processing tasks.",
+    "field": "Applications-Healthcare",
+    "background": "The paper discusses the challenge of explainability in AI models for medical imaging, specifically focusing on providing interpretable insights for stroke detection using 3D MRI data.",
+    "contribution": "3D ReX introduces a causality-based post-hoc explainability tool for 3D neuroimaging models to solve the interpretability issue, achieving meaningful visualization of crucial areas related to model prediction.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on 2D saliency maps, backpropagation techniques, and required access to model weights, which limited their applicability to 3D data.",
+        "novelty": "This work develops a model-agnostic method tailored for 3D inputs without requiring internal model access, capturing more holistic explanations."
+    },
+    "key_innovation": "Combines causal reasoning with occlusion-based analysis to create responsibility maps highlighting critical 3D regions influencing stroke predictions.",
+    "real_world_impact": "This approach has the potential to improve clinician trust in AI diagnostics by providing clearer insights into model decision-making processes, ultimately enhancing patient care.",
+    "limitations": "The computational complexity in generating responsibility maps for 3D data can be significant and requires further optimization.",
+    "new_terms": {
+        "causal responsibility": "**Causal responsibility** involves attributing the cause of an event or outcome within a probabilistic framework, quantifying how certain input features influence the resultant classification.",
+        "responsibility maps": "**Responsibility maps** are visual representations indicating the contribution of each input feature, or pixel, to the final outcome of a model\u2019s decision, helping to clarify what aspects of the input are most significant."
+    },
+    "open_sourcing": ""
+}

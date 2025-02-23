@@ -1,0 +1,22 @@
+{
+    "title": "Which of These Best Describes Multiple Choice Evaluation with LLMs? A) Forced B) Flawed C) Fixable D) All of the Above",
+    "author": "Nishant Balepur (University of Maryland), Rachel Rudinger (University of Maryland), Jordan Boyd-Graber (University of Maryland), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses multiple choice question answering and its implications for evaluating large language models (LLMs), which could inform future audio and speech model evaluations by drawing on educational assessment frameworks.",
+    "field": "Evaluation-Methodology",
+    "background": "The paper critiques the use of multiple choice questions for assessing large language models, exploring their effectiveness and proposing generative alternatives.",
+    "contribution": "This paper introduces the concept of using constructed response and explanation methods to improve the assessment of LLMs, addressing shortcomings in traditional multiple choice formats.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluation methods heavily relied on multiple choice questions, which inadequately test model capabilities like generation and subjective reasoning.",
+        "novelty": "This work suggests generative formats that better align with LLM use cases, offering a more comprehensive evaluation approach."
+    },
+    "key_innovation": "The introduction of constructed response questions and explanation-based evaluations provides a more nuanced measurement of LLM capabilities beyond traditional methods.",
+    "real_world_impact": "By refining evaluation metrics for LLMs, this research could lead to better model development practices, resulting in more effective applications in real-world scenarios such as automated reasoning and user interaction.",
+    "limitations": "The paper primarily focuses on evaluation methodology without providing extensive empirical validation for the proposed assessment formats.",
+    "new_terms": {
+        "constructed response": "**Constructed response** refers to open-ended questions that require learners to generate their answers rather than selecting from given options, allowing for a broader assessment of knowledge and reasoning.",
+        "explanation MCQA": "**Explanation MCQA** involves models providing not only answers but also justifications for their choices, enhancing understanding of their reasoning processes."
+    },
+    "open_sourcing": ""
+}

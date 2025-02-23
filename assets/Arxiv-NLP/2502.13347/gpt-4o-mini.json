@@ -1,0 +1,22 @@
+{
+    "title": "CRAW4LLM: Efficient Web Crawling for LLM Pretraining",
+    "author": "Shi Yu (Tsinghua University), Zhiyuan Liu (Tsinghua University), Chenyan Xiong (Carnegie Mellon University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces a novel web crawling method that improves data selection for large language model (LLM) pretraining, which is relevant to creating sound datasets for LLMs in audio applications.",
+    "field": "Applications-Language",
+    "background": "Web crawling aims to gather data from the internet for training large language models, ensuring high-quality content that meets pretraining needs.",
+    "contribution": "This paper introduces CRAW4LLM, an efficient crawling approach that prioritizes pages based on their influence on LLM pretraining, achieving significant improvements in downstream performance with reduced crawling volume.",
+    "technical_comparison": {
+        "prior_work": "Traditional crawlers often prioritize web pages based on connectivity metrics like PageRank, leading to significant data wastage.",
+        "novelty": "CRAW4LLM improves upon this by directly scoring web pages based on their projected influence for pretraining, allowing for better-targeted data collection."
+    },
+    "key_innovation": "The method uniquely prioritizes URLs based on their estimated contribution to LLM performance rather than traditional site popularity metrics, leading to efficient and effective data gathering.",
+    "real_world_impact": "This approach promises to reduce unnecessary website traffic and computational costs associated with LLM data collection, while also improving the quality of training datasets.",
+    "limitations": "The authors mention that the simulation may not fully represent real-world crawling scenarios, necessitating further validation.",
+    "new_terms": {
+        "pretraining influence scorer": "**Pretraining influence scorer** is a derived metric that rates the potential of web pages to benefit the training of large language models based on their content quality.",
+        "oracle run": "**Oracle run** refers to the procedure of selecting the best possible dataset from a larger pool, representing a theoretical upper performance limit."
+    },
+    "open_sourcing": "The code is publicly available at https://github.com/cxcscmu/Crawl4LLM."
+}

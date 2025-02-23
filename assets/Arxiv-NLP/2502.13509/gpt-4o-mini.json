@@ -1,0 +1,22 @@
+{
+    "title": "Unlocking Multimodal Integration in EHRs: A Prompt Learning Framework for Language and Time Series Fusion",
+    "author": "Shuai Niu (Hong Kong Baptist University), Jing Ma (Hong Kong Baptist University), Hongzhan Lin (Hong Kong Baptist University), Liang Bai (Shanxi University), Zhihua Wang (Shanghai Institute for Advanced Study of Zhejiang University), Wei Bi (Manchester Metropolitan University), Yida Xu (Hong Kong Baptist University), Xian Yang (The University of Manchester)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper presents a novel framework for integrating structured and unstructured data in healthcare, which could inform similar approaches in audio-related healthcare applications, especially for audio data linked with clinical notes.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "The task involves the integration of structured time series lab test data and unstructured clinical notes to improve disease diagnosis tasks in Electronic Health Records (EHRs).",
+    "contribution": "This paper introduces ProMedTS, a prompt learning framework that integrates structured time series data and unstructured medical notes, achieving improved disease diagnosis performance on real-world EHR datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely focused on either structured data or unstructured text, struggling to effectively combine these modalities.",
+        "novelty": "This work improves by employing anomaly detection to generate descriptive prompts, facilitating a unified representation in a shared latent space for enhanced multimodal understanding."
+    },
+    "key_innovation": "Utilizes self-supervised prompt learning to create anomaly descriptions that bridge structured and unstructured data, promoting effective integration within language models.",
+    "real_world_impact": "The method shows promise for enhancing clinical decision-making and improving patient care by accurately diagnosing diseases through better data integration. This could be particularly useful in developing audio-visual healthcare systems.",
+    "limitations": "The study primarily targets higher-level disease phenotypes and may not extend easily to more granular tasks without further modification.",
+    "new_terms": {
+        "Electronic Health Records (EHRs)": "**Electronic Health Records (EHRs)** are digital versions of patients' paper charts that provide a comprehensive view of patient care, including medical history, lab results, and treatment plans.",
+        "self-supervised learning": "**Self-supervised learning** is an approach where the model learns to predict part of the input from other parts, allowing the use of unlabeled data to improve learning efficiency."
+    },
+    "open_sourcing": "The code is publicly available at [https://anonymous.4open.science/r/ProMedTS-V1-5F51/](https://anonymous.4open.science/r/ProMedTS-V1-5F51/)"
+}

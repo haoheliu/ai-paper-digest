@@ -1,0 +1,22 @@
+{
+    "title": "The Impact and Feasibility of Self-Confidence Shaping for AI-Assisted Decision-Making",
+    "author": "Takehiro Takayanagi (The University of Tokyo), Ryuji Hashimoto (The University of Tokyo), Chung-Chi Chen (National Institute of Advanced Industrial Science and Technology), Kiyoshi Izumi (The University of Tokyo), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper introduces interventions to improve human-AI collaboration, which could be applicable in optimizing decision-making processes in audio applications.",
+    "field": "Social and Economic Aspects of ML-Human-AI Interaction",
+    "background": "The study focuses on enhancing decision-making in teams that combine human judgment and artificial intelligence recommendations, particularly in high-stakes environments.",
+    "contribution": "This paper introduces self-confidence shaping interventions to solve reliance issues in AI-assisted decision-making, achieving up to 50% improvement in performance.",
+    "technical_comparison": {
+        "prior_work": "Prior methods mainly address AI-centric interventions like confidence scores without focusing on human decision-maker self-confidence.",
+        "novelty": "This work provides a human-centric approach by manipulating self-confidence to reduce over- and under-reliance on AI."
+    },
+    "key_innovation": "Employs a unique strategy to calibrate self-confidence, allowing for improved integration of AI recommendations through behavioral science methods.",
+    "real_world_impact": "Could significantly enhance decision-making performance in critical fields like finance and healthcare by allowing better use of AI assistance, potentially leading to safer and more effective outcomes.",
+    "limitations": "The assumptions of perfect control over self-confidence are unrealistic in practical scenarios.",
+    "new_terms": {
+        "self-confidence shaping": "**Self-confidence shaping** refers to the deliberate intervention aimed at adjusting a decision-maker's confidence level to improve reliance on AI recommendations.",
+        "AI-assisted decision-making": "**AI-assisted decision-making** is the integration of artificial intelligence tools to augment human judgment in making decisions."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Building Age Estimation: A New Multi-Modal Benchmark Dataset and Community Challenge",
+    "author": "Nikolaos Dionelis (European Space Agency), Nicolas Longep\u00e9 (European Space Agency), Alessandra Feliciotti (MindEarth), Mattia Marconcini (MindEarth), Devis Peressutti (Sinergise/Planet), Nika Oman Kadunc (Sinergise/Planet), JaeWan Park (TelePIX), Hagai Raja Sinulingga (TelePIX), Steve Andreas Immanuel (TelePIX), Ba Tran (Axelspace Corporation), Caroline Arnold (Helmholtz Institute Hereon)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "Estimating the construction year of buildings using multi-modal datasets to aid urban planning and sustainability efforts.",
+    "contribution": "This paper introduces the Map your City Dataset (MyCD) to solve the problem of building age estimation, achieving competitive model performance even with data from previously unseen cities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods generally used single-modal data (e.g., only street-view or satellite images) and struggled with generalizing to unseen environments.",
+        "novelty": "This work improves by utilizing a multi-modal dataset combining street-view images, high-resolution satellite images, and multispectral data, significantly enhancing generalization performance."
+    },
+    "key_innovation": "The integration of diverse data modalities allows for improved accuracy in predicting the construction year of buildings, showcasing the importance of multi-view learning.",
+    "real_world_impact": "The findings could have substantial implications for urban development and sustainability strategies by accurately estimating building energy efficiencies based on age. No immediate real-world impact.",
+    "limitations": "The paper does not detail specific limitations but suggests the potential challenge of missing data modalities during inference.",
+    "new_terms": {
+        "multi-modal data": "**Multi-modal data** refers to information that is captured through different types of modalities, such as images from various perspectives (street and top view), enhancing the range of context available for analysis."
+    },
+    "open_sourcing": "The baseline model code and dataset are available at http://github.com/AI4EO/MapYourCity."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "LESA: Learnable LLM Layer Scaling-Up",
+    "author": "Yifei Yang (Shanghai Jiao Tong University), Zouying Cao (Shanghai Jiao Tong University), Xinbei Ma (Shanghai Jiao Tong University), Yao Yao (Shanghai Jiao Tong University), Libo Qin (Central South University), Zhi Chen (ByteDance), Hai Zhao (Shanghai Jiao Tong University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed method for depth scaling-up can be integrated into audio and speech models, potentially enhancing performance through optimized neural architectures, which is valuable in developing more sophisticated audio processing techniques.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Scaling up transformer-based models to improve their performance while minimizing the need for extensive resources during continual pre-training.",
+    "contribution": "LESA introduces a method that learns inter-layer parameter patterns to improve the initialization and convergence speed of expanded LLMs, achieving better training efficiency and effectiveness.",
+    "technical_comparison": {
+        "prior_work": "Existing methods of depth scaling-up often duplicate layers based on heuristic rules, leading to slower convergence and suboptimal performance due to inadequate initialization.",
+        "novelty": "This work utilizes Singular Value Decomposition (SVD) and a neural network to predict intermediate layer parameters between existing layers, allowing for a more tailored model expansion."
+    },
+    "key_innovation": "LESA uniquely learns latent patterns between layers through SVD, enabling sophisticated parameter predictions for better initialization.",
+    "real_world_impact": "The techniques introduced can lead to more efficient training of large models, which can be applied to various real-world applications in natural language processing, speech recognition, and audio synthesis.",
+    "limitations": "The paper does not consider scaling models beyond a certain parameter limit or address challenges with mixture of experts (MoE) model construction.",
+    "new_terms": {
+        "depth scaling-up": "**Depth scaling-up** refers to increasing the number of layers in a model to enhance its capacity and performance without starting training from scratch.",
+        "Singular Value Decomposition (SVD)": "**Singular Value Decomposition (SVD)** is a mathematical technique to decompose a matrix into its constituent components, revealing important properties and patterns."
+    },
+    "open_sourcing": "https://github.com/yangyifei729/LESA"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "TabSD: Large Free-Form Table Question Answering with SQL-Based Table Decomposition",
+    "author": "Yuxiang Wang (University of Melbourne), Junhao Gan (University of Melbourne), Jianzhong Qi (University of Melbourne), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed method combines SQL query generation and table decomposition, which could enhance audio data management and retrieval tasks by providing structured querying approaches.",
+    "field": "Applications-Language",
+    "background": "The task involves answering questions based on large, free-form tables without predefined schemas, particularly in challenging contexts with noise.",
+    "contribution": "This paper introduces TABSD, a model that employs SQL-based decomposition to improve question answering accuracy using large free-form tables, achieving significant performance gains across various datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often struggled with noise in free-form tables and lacked efficient mechanisms for sub-table extraction.",
+        "novelty": "This work enhances performance by leveraging SQL queries for effective table decomposition instead of relying solely on direct execution."
+    },
+    "key_innovation": "Utilizes a multi-stage approach combining SQL generation, table decomposition, and answer generation to effectively process complex tabular data.",
+    "real_world_impact": "This method can potentially improve data retrieval and management tasks in various fields like finance and healthcare, where tabular data is prevalent.",
+    "limitations": "There may be corner cases that the rule-based Table Decomposer cannot fully address.",
+    "new_terms": {
+        "TableQA": "**Table Question Answering** refers to the task of answering questions based on the information presented in tables.",
+        "SQL Verifier": "**SQL Verifier** is an LLM-based component that checks and refines generated SQL queries to ensure their accuracy for table decomposition."
+    },
+    "open_sourcing": "The code and datasets, SLQA and SEQA, will be publicly released."
+}

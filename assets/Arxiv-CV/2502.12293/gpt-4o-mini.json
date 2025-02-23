@@ -1,0 +1,22 @@
+{
+    "title": "Data-Efficient Limited-Angle CT Using Deep Priors and Regularization",
+    "author": "Ilmari Vahteristo (LUT University), Zhi-Song Liu (LUT University), Andreas Rupp (Saarland University), ...",
+    "quality": 7,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "Reconstructing an image from its Radon transform under severe angle limitations in computed tomography.",
+    "contribution": "This paper introduces a combination of regularization methods and a gradient-based optimization pipeline to effectively reconstruct images from limited-angle data, achieving competitive results using minimal data points.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, including filtered back projection and deep learning approaches, often require a significant amount of data and can struggle with artifacts in limited-angle situations.",
+        "novelty": "This work improves by utilizing deep image priors and a combination of multiple regularization techniques, reducing the required data for effective reconstruction."
+    },
+    "key_innovation": "Combines deep learning with traditional regularization methods to create a data-efficient reconstruction process for computed tomography from sparse data.",
+    "real_world_impact": "Addresses practical limitations in medical imaging and industrial inspection, potentially reducing radiation exposure and enhancing image quality in scenarios with limited data.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "limited-angle CT": "**Limited-angle computed tomography (CT)** refers to imaging techniques that use projections from a restricted range of angles, making the reconstruction problem ill-posed.",
+        "Deep Image Prior": "**Deep Image Prior (DIP)** utilizes the structure of convolutional neural networks as an implicit prior for image reconstruction without requiring a large dataset."
+    },
+    "open_sourcing": "The implementation is available at: https://github.com/ilmari99/data-efficient-lact"
+}

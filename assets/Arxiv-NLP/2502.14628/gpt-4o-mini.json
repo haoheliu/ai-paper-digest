@@ -1,0 +1,22 @@
+{
+    "title": "PEARL: Towards Permutation-Resilient Large Language Models",
+    "author": "Liang Chen (The Chinese University of Hong Kong), Li Shen (Shenzhen Campus of Sun Yat-sen University), Yang Deng (SMU), Xiaoyan Zhao (The Chinese University of Hong Kong), Bin Liang (The Chinese University of Hong Kong), Kam-Fai Wong (The Chinese University of Hong Kong), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores robustness in language models, which can inform methods to improve generative audio processes that rely on context and order.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This paper addresses the challenge of large language models struggling with the ordering of demonstration examples during in-context learning.",
+    "contribution": "This paper introduces the Permutation-Resilient Learning (PEARL) framework to enhance the robustness of language models against input permutations, achieving significant improvements in worst-case performance.",
+    "technical_comparison": {
+        "prior_work": "Existing methods primarily focus on empirical risk minimization without addressing permutation sensitivity effectively.",
+        "novelty": "This work utilizes distributionally robust optimization to optimize performance across all possible permutations, demonstrating enhanced robustness."
+    },
+    "key_innovation": "The unique application of a permutation-proposal network that generates targeted difficult permutations, making the training process adversarially robust.",
+    "real_world_impact": "This framework can lead to more reliable large-language models in applications such as conversational AI and content generation, where input order can vary significantly.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "in-context learning": "**In-context learning** enables models to learn from provided examples without additional training, using the examples directly at inference time.",
+        "distributionally robust optimization": "**Distributionally robust optimization** is a methodology that optimizes a model's performance against the worst-case distributions of input data."
+    },
+    "open_sourcing": "The code is available at https://github.com/ChanLiang/PEARL"
+}

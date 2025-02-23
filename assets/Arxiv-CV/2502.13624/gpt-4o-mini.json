@@ -1,0 +1,22 @@
+{
+    "title": "CardiacMamba: A Multimodal RGB-RF Fusion Framework with State Space Models for Remote Physiological Measurement",
+    "author": "Zheng Wu (Great Bay University), Yiping Xie (Shenzhen University), Bo Zhao (Great Bay University), Jiguang He (Great Bay University), Fei Luo (Great Bay University), Ning Deng (Great Bay University), Zitong Yu (Great Bay University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The framework addresses the challenges of physiological signal estimation across varying conditions, which could offer insights into enhancing audio-visual integration methods applicable to audio tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Estimating heart rate through multimodal approaches that combine remote photoplethysmography and radio frequency data in a non-contact manner, minimizing biases related to environmental conditions and skin tones.",
+    "contribution": "CardiacMamba introduces a multimodal fusion framework to solve challenges in remote heart rate estimation, achieving significant improvements in accuracy and fairness across diverse demographic conditions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in RGB-only or RF-only heart rate estimation struggle with environmental variations and lack robustness against skin tone biases.",
+        "novelty": "This work improves by utilizing a unique combination of temporal differential feature extraction and bidirectional state-space models to enhance signal robustness and accuracy."
+    },
+    "key_innovation": "The integration of RGB and RF data through advanced modules like the Temporal Difference Mamba Module improves feature extraction and model performance.",
+    "real_world_impact": "This framework potentially converts remote physiological monitoring into a more reliable tool for healthcare applications, making it suitable for diverse patient populations in real-world environments.",
+    "limitations": "While the paper demonstrates robust performance, it may require further validation in more varied real-world contexts and additional demographic groups.",
+    "new_terms": {
+        "remote photoplethysmography": "**Remote photoplethysmography** is a non-contact method for measuring physiological signals like heart rate by analyzing variations in skin color caused by blood flow.",
+        "radio frequency sensors": "**Radio frequency sensors** utilize electromagnetic signals to detect bodily motion, providing physiological data independent of visible light conditions."
+    },
+    "open_sourcing": "The codes are available at: https://github.com/WuZheng42/CardiacMamba."
+}

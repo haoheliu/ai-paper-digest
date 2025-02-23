@@ -1,0 +1,22 @@
+{
+    "title": "Adapting Large Language Models for Time Series Modeling via a Novel Parameter-efficient Adaptation Method",
+    "author": "Juyuan Zhang (Nanyang Technological University, Singapore), Wei Zhu (University of Hong Kong, Hong Kong, China), Jiechao Gao (University of Virginia, VA, United States), ..., James Glass (MIT)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The framework proposed in this paper leverages large language models for time series forecasting, which could inform the generative audio models by providing insights into sequential data modeling.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The task involves forecasting future values in time series data, using a framework that combines large language models with efficient tokenization for improved predictive performance.",
+    "contribution": "This paper introduces the Time-LlaMA framework to solve time series modeling challenges, achieving state-of-the-art performance on various forecasting tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with the integration of time series data and text prompts, often treating them as separate tasks, leading to inefficient inference times.",
+        "novelty": "This work improves by employing a dynamic low-rank adaptation technique for the large language model backbone, which effectively adapts to different input samples during inference."
+    },
+    "key_innovation": "The framework dynamically selects the most suitable low-rank adaptation modules for each time series input, enhancing the model's predictive capabilities.",
+    "real_world_impact": "By enabling efficient forecasting of time series data, this framework could have significant implications in industries reliant on accurate predictions, such as finance, energy, and supply chain management.",
+    "limitations": "No",
+    "new_terms": {
+        "low-rank adaptation": "**Low-rank adaptation** refers to a parameter-efficient technique for tuning large models by introducing low-rank matrices that adjust the existing model parameters minimally.",
+        "tokenization": "**Tokenization** is the process of converting data (such as time series or text) into a sequence of smaller components, or tokens, which can be processed by machine learning models."
+    },
+    "open_sourcing": "Codes will be made public upon acceptance."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Adaptive Prototype Model for Attribute-based Multi-label Few-shot Action Recognition",
+    "author": "Juefeng Xiao (Wuhan University), Tianqi Xiang (Wuhan University), Zhigang Tu (Wuhan University), ..., Zhigang Tu (Wuhan University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The techniques for multi-attribute recognition and generalization in few-shot learning could be applicable in audio classification tasks, specifically in enhancing audio event detection where various attributes are relevant.",
+    "field": "Applications-Vision",
+    "background": "Few-shot action recognition involves identifying actions in videos based on very few annotated examples, while also recognizing multiple related attributes from a richer dataset.",
+    "contribution": "This paper introduces the Adaptive Attribute Prototype Model (AAPM) to solve the issue of attribute-bias and improve recognition accuracy in multi-label classification tasks, achieving state-of-the-art results in action recognition.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often focus on single attributes or introduce bias due to specific training conditions.",
+        "novelty": "This work employs both textual features and visual features in the recognition process while mitigating confusion between different attributes through innovative prototype construction."
+    },
+    "key_innovation": "The model incorporates a Text-Constrain Module that utilizes textual attributes to guide visual representation during training, thereby enhancing accuracy in multi-label settings.",
+    "real_world_impact": "This study could improve the accuracy of action recognition systems in real-world applications such as surveillance, sports analytics, and human-computer interaction.",
+    "limitations": "No limitations explicitly mentioned by the authors.",
+    "new_terms": {
+        "attribute-bias": "**Attribute-bias** refers to a tendency of models to favor certain attributes over others due to training conditions, which can lead to reduced generalization across diverse tasks.",
+        "prototype-confusion": "**Prototype-confusion** describes ambiguity when matching query data to multiple prototypes that share similar attributes, complicating the decision process in classification tasks."
+    },
+    "open_sourcing": "The project and dataset are available at an anonymous account https://github.com/theAAPM/AAPM"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Direct Value Optimization: Improving Chain-of-Thought Reasoning in LLMs with Refined Values",
+    "author": "Hongbo Zhang (Zhejiang University), Han Cui (Westlake University), Guangsheng Bao (Zhejiang University), Linyi Yang (University College London), Jun Wang (University College London), Yue Zhang (Westlake University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper presents a novel reinforcement learning framework that optimizes reasoning steps in Large Language Models (LLMs). Techniques from this work could be adapted for improving audio-related reasoning tasks and enhancing audio generation processes in models like AudioLDM.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Direct Value Optimization (DVO) refines how large language models align with value signals during reasoning tasks, shifting away from traditional preference labeling approaches.",
+    "contribution": "This paper introduces Direct Value Optimization to solve the limitation of reliance on preference labels in reasoning tasks, achieving notable performance improvements across various benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Prior methods, such as Direct Preference Optimization (DPO), rely on binary comparisons between generated outputs, limiting the understanding of intermediate reasoning steps.",
+        "novelty": "This work improves by utilizing detailed value signals from each reasoning step instead of merely relying on preference pairs, offering more granular feedback."
+    },
+    "key_innovation": "The method employs mean squared error loss for training, directly aligning LLM reasoning paths with estimated values derived from Monte Carlo Tree Search or outcome models.",
+    "real_world_impact": "The framework has the potential to significantly enhance reasoning accuracy in practical applications, broadening the capabilities of LLMs in complex tasks such as mathematical problem-solving and logical reasoning.",
+    "limitations": "The current implementation is confined to offline settings and may require more extensive computational resources for improved Monte Carlo Tree Search width.",
+    "new_terms": {
+        "Direct Value Optimization": "**Direct Value Optimization** is a reinforcement learning technique that enhances LLMs by utilizing estimated value signals for each reasoning step.",
+        "Monte Carlo Tree Search": "**Monte Carlo Tree Search** is a heuristic search algorithm for making decisions in AI, particularly for pathfinding and game-related tasks, by simulating random sampling of the decisions and evaluating them."
+    },
+    "open_sourcing": "Code is available at https://github.com/StevenZHB/DVO"
+}

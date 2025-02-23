@@ -1,0 +1,22 @@
+{
+    "title": "Fine-grained Fallacy Detection with Human Label Variation",
+    "author": "Alan Ramponi (Digital Humanities group, Fondazione Bruno Kessler), Agnese Daffara (Department of Humanities, University of Pavia), Sara Tonelli (Digital Humanities group, Fondazione Bruno Kessler), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods and datasets proposed for fallacy detection can be applied to enhance text-based argument analysis which has implications in areas like automated dialogue systems and misinformation detection, useful in audio-to-text relations.",
+    "field": "Applications-Language",
+    "background": "The task involves detecting various types of fallacies in social media posts through segment-level analysis, providing a new data resource for evaluating argumentation in public discourse.",
+    "contribution": "This paper introduces the FAINA dataset to solve the fallacy detection challenge by leveraging multilabel annotations, achieving over 11K fallacy spans labeled across different fallacy types.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically involved coarse-grained annotations or assumed the exclusivity of fallacies in a text segment.",
+        "novelty": "This work improves upon prior efforts by allowing for overlapping annotations and multiple plausible fallacy types within the same text, enhancing granularity in detection."
+    },
+    "key_innovation": "FAINA facilitates detection by embracing human label variation, making explicit the ambiguity in fallacy categorization that occurs naturally in discourse.",
+    "real_world_impact": "This dataset can empower educational tools and automated systems to better analyze and counteract misinformation online, promoting critical thinking and clearer public discourse.",
+    "limitations": "The dataset is limited to the Italian language, restricting applicability to broader linguistic contexts.",
+    "new_terms": {
+        "fallacy detection": "**Fallacy detection** refers to identifying arguments that seem logically valid but contain errors in reasoning, which can mislead audiences.",
+        "span-level annotation": "**Span-level annotation** involves labeling specific segments or sequences of text, as opposed to labeling entire documents or posts."
+    },
+    "open_sourcing": "Repository: https://github.com/dhfbk/faina"
+}

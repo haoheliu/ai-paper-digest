@@ -1,0 +1,22 @@
+{
+    "title": "Performance Evaluation of Sentiment Analysis on Text and Emoji Data Using End-to-End, Transfer Learning, Distributed and Explainable AI Models",
+    "author": "Sirisha Velampalli (CR Rao AIMSCS, University of Hyderabad Campus, Hyderabad, India), Chandrashekar Muniyappa (Independent Researcher, Dublin, U.S.A.), Ashutosh Saxena (CR Rao AIMSCS, University of Hyderabad Campus, Hyderabad, India)",
+    "quality": 6,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Applications-Language",
+    "background": "Sentiment analysis involves classifying opinions expressed in text or emojis as positive, negative, or neutral, often leveraging machine learning techniques.",
+    "contribution": "This paper introduces a combined approach of sentiment analysis on both text and emoji datasets using advanced sentence embeddings, demonstrating variances in accuracy based on emoji presence and unseen emoji classification.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods primarily focused on textual analysis, often neglecting the impact of emojis on sentiment classification.",
+        "novelty": "This work enhances existing sentiment analysis by incorporating emoji datasets and evaluating model behavior using explainable AI, addressing limitations in recognizing unseen emojis."
+    },
+    "key_innovation": "Utilizing Universal Sentence Encoder and Sentence Bidirectional Encoder Representations from Transformers (SBERT) for sentiment analysis on diverse datasets, aiming for more nuanced understanding of emotions expressed in text and emojis.",
+    "real_world_impact": "Improving sentiment analysis tools can significantly enhance social media monitoring and marketing strategies, allowing for better audience insights. However, the specific use of emojis in sentiment analysis remains an underexplored area, potentially benefitting future applications.",
+    "limitations": "The models significantly falter in classifying unseen emojis, resulting in a drop in accuracy, which highlights a gap in their training effectiveness.",
+    "new_terms": {
+        "Universal Sentence Encoder": "**Universal Sentence Encoder** is a machine learning model that encodes text into high-dimensional embeddings suitable for various Natural Language Processing tasks.",
+        "Sentence Bidirectional Encoder Representations from Transformers": "**SBERT** is a derivative of the BERT model, adapted for generating semantically meaningful sentence embeddings that allow for more effective comparison and clustering."
+    },
+    "open_sourcing": ""
+}

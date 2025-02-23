@@ -1,0 +1,22 @@
+{
+    "title": "From Sub-Ability Diagnosis to Human-Aligned Generation: Bridging the Gap for Text Length Control via MARKERGEN",
+    "author": "Peiwen Yuan (Beijing Institute of Technology), Chuyi Tan (Beijing Institute of Technology), Shaoxiong Feng (Xiaohongshu Inc), Yiwei Li (Beijing Institute of Technology), Xinglin Wang (Beijing Institute of Technology), Yueqi Zhang (Beijing Institute of Technology), Jiayi Shi (Beijing Institute of Technology), Boyuan Pan (Xiaohongshu Inc), Yao Hu (Xiaohongshu Inc), Kan Li (Beijing Institute of Technology)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper addresses length-controllable text generation, a significant aspect of text generation relevant to automating audio transcription, summarization, and music generation applications. The methods proposed could enhance text-to-audio generation tasks by ensuring coherent and appropriately sized outputs.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Achieving precise control over the length of generated text while maintaining semantic integrity is crucial for various applications like storytelling and summarization.",
+    "contribution": "This paper introduces MARKERGEN, a method to enhance length-controllable text generation by integrating external tools and employing a decoupled generative process, achieving significant reductions in length errors while improving content quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on end-to-end training that often failed to generalize across diverse tasks and length constraints.",
+        "novelty": "This work improves accuracy through a three-stage approach that separates semantic generation from length constraints and enhances counting accuracy with external tokenizers."
+    },
+    "key_innovation": "The unique integration of dynamically inserted markers for explicit length control during the text generation process.",
+    "real_world_impact": "The advancements in this paper can enhance various applications requiring precise text generation, such as automated content creation for marketing or storytelling in interactive narratives.",
+    "limitations": "The method currently only applies to open-source models, limiting its versatility in broader applications.",
+    "new_terms": {
+        "length-controllable text generation": "**Length-controllable text generation** refers to the ability of a language model to produce text that meets specific length requirements while maintaining semantic coherence.",
+        "decoupled generation": "**Decoupled generation** is a process that separates different aspects of text generation\u2014such as planning and actual content generation\u2014to optimize output quality."
+    },
+    "open_sourcing": "Our code has been released on https://github.com/chuyi369/MarkerGen"
+}

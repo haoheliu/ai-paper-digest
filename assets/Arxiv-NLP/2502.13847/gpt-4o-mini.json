@@ -1,0 +1,22 @@
+{
+    "title": "DH-RAG: A Dynamic Historical Context-Powered Retrieval-Augmented Generation Method for Multi-Turn Dialogue",
+    "author": "Feiyuan Zhang (Hong Kong University of Science and Technology), Dezhi Zhu (Huazhong University of Science and Technology), James Ming (University of California San Diego), Yilun Jin (University of Science and Technology of China), Di Chai (University of Science and Technology of China), Liu Yang (University of Science and Technology of China), Han Tian (Beihang University), Zhaoxin Fan (Beihang University), Kai Chen (University of Science and Technology of China)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods introduced in this paper for improving multi-turn dialogue systems through dynamic historical context could inform advancements in conversational AI and audio interactions.",
+    "field": "Applications-Language",
+    "background": "Enhancing multi-turn dialogue systems by utilizing both static knowledge and dynamic historical context to improve coherence and relevance in responses.",
+    "contribution": "DH-RAG introduces a novel approach that synthesizes long-term memory from knowledge bases and dynamic historical dialogue information, significantly improving response relevance and coherence.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly rely on static knowledge bases and do not adequately incorporate dynamic contextual information in ongoing dialogues.",
+        "novelty": "This work integrates a dynamic historical context updating mechanism alongside traditional retrieval-augmented generation approaches."
+    },
+    "key_innovation": "It combines dynamic historical context with standard retrieval-augmented generation frameworks to enhance the quality of generated responses in multi-turn dialogues.",
+    "real_world_impact": "The advancements can significantly improve user interactions in customer service AI and personal assistants, providing more relevant and context-aware responses. Potentially enhances user experience in applications involving conversational AI.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Dynamic Historical Context": "**Dynamic Historical Context** refers to the evolving information derived from previous interactions in a conversation that is continuously updated and utilized to create coherent responses.",
+        "Retrieval-Augmented Generation": "**Retrieval-Augmented Generation** is a method combining generative models with external knowledge retrieval to produce more informative and contextually relevant outputs."
+    },
+    "open_sourcing": ""
+}

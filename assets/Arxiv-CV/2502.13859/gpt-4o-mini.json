@@ -1,0 +1,21 @@
+{
+    "title": "A Large-Scale Multi-Scene Dataset for Video Camouflage Object Detection",
+    "author": "Shuyong Gao (Fudan University), Yu'ang Feng (Fudan University), Qishan Wang (Fudan University), Lingyi Hong (Fudan University), Xinyu Zhou (Fudan University), Liu Fei (Keenon Robotics Co. Ltd), Yan Wang (Fudan University), Wenqiang Zhang (Fudan University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The dataset construction methods and annotation pipelines presented in this paper could inspire similar approaches in audio dataset preparation for sound detection tasks, although the direct connection to audio/speech is limited.",
+    "field": "Applications-Vision",
+    "background": "Video camouflage object detection aims to identify camouflaged objects in videos, utilizing both appearance and motion cues to enhance detection accuracy.",
+    "contribution": "This paper introduces the MSVCOD dataset to solve the lack of diverse video camouflage datasets, achieving high-quality annotations across various scenes and object categories.",
+    "technical_comparison": {
+        "prior_work": "Previous camouflage object detection datasets focused mainly on animals and offered limited annotations primarily for bounding boxes or small-scale segments.",
+        "novelty": "This work provides comprehensive annotations at multiple levels (box, mask, instance, and category) and introduces categories beyond animals, such as humans and vehicles."
+    },
+    "key_innovation": "Develops a semi-automatic annotation pipeline that efficiently addresses the challenges of high-quality labeling in diverse video clips.",
+    "real_world_impact": "The dataset could significantly advance research in video analysis, surveillance, and other domains where camouflage detection is crucial, although its immediate applicability to audio research is limited.",
+    "limitations": "The dataset lacks sufficient medical example videos and contains many short clips, which may restrict its usability for tasks requiring long sequences.",
+    "new_terms": {
+        "camouflage object detection": "**Camouflage object detection** refers to the computational task of identifying objects that blend into their background to avoid detection, often requiring advanced computer vision techniques."
+    },
+    "open_sourcing": ""
+}

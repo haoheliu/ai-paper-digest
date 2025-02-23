@@ -1,0 +1,21 @@
+{
+    "title": "Reducing Hallucinations in Language Model-based SPARQL Query Generation Using Post-Generation Memory Retrieval",
+    "author": "Aditya Sharma (Mila), Luis Lara (Mila), Amal Zouaq (Mila), Christopher J. Pal (Mila, Canada CIFAR AI Chair, Polytechnique Montr\u00e9al), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper addresses hallucination issues in generating queries from natural language, which could inform methodologies applicable to audio language modeling tasks in generating structured audio queries.",
+    "field": "Applications-Language",
+    "background": "The paper focuses on generating SPARQL queries from natural language questions and mitigating errors caused by the model's tendency to fabricate non-existent identifiers.",
+    "contribution": "This paper introduces the Post-Generation Memory Retrieval (PGMR) framework to solve hallucination issues in SPARQL query generation, achieving near-complete elimination of incorrect Uniform Resource Identifiers (URIs).",
+    "technical_comparison": {
+        "prior_work": "Previous methods often produced incorrect URIs due to reliance solely on internal knowledge of language models.",
+        "novelty": "This work improves by incorporating a non-parametric memory retrieval module to validate and replace generated URI labels with accurate ones."
+    },
+    "key_innovation": "Combines query generation with a memory retrieval approach that separately handles the accuracy of knowledge elements.",
+    "real_world_impact": "Improves accuracy in knowledge graph querying, enhancing the reliability of applications across various domains that depend on structured data retrieval. No immediate real-world impact.",
+    "limitations": "Although PGMR successfully reduces hallucinations, the effectiveness still hinges on the underlying model's ability to generate correct query structures.",
+    "new_terms": {
+        "Post-Generation Memory Retrieval (PGMR)": "**PGMR** is a framework that enhances the generation of structured queries by verifying and correcting identifiers after initial query construction."
+    },
+    "open_sourcing": ""
+}

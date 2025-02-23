@@ -1,0 +1,21 @@
+{
+    "title": "GroundCap: A Visually Grounded Image Captioning Dataset",
+    "author": "Daniel A. P. Oliveira (INESC-ID Lisboa), Louren\u00e7o Teodoro (INESC-ID Lisboa), David Martins de Matos (INESC-ID Lisboa), ..., Instituto Superior T\u00e9cnico, Universidade de Lisboa",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed method of visually grounded image captioning could inspire similar techniques for grounding audio contexts in visual media.",
+    "field": "Applications-Vision",
+    "background": "GroundCap introduces a novel dataset for image captioning that links descriptive text to specific visual elements, improving communication clarity in visual scenes.",
+    "contribution": "GroundCap introduces a dataset of 52,016 images with structured captions that maintain object identity, enabling coherent tracking of objects and actions in descriptions.",
+    "technical_comparison": {
+        "prior_work": "Previous captioning systems often failed to link text to specific visual components reliably and could not maintain object identities across descriptions.",
+        "novelty": "This work leverages a unified grounding framework with object IDs to link actions to specific objects consistently."
+    },
+    "key_innovation": "The dataset utilizes a tagging system that maintains object identities while linking multiple visual references in captions.",
+    "real_world_impact": "Improved grounded image captioning can lead to better applications in human-computer interaction, content accessibility, and multimedia indexing.",
+    "limitations": "No major limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "grounding": "**Grounding** refers to the ability to link linguistic expressions to specific visual elements in an image or scene."
+    },
+    "open_sourcing": "The dataset and fine-tuned model are publicly available on Hugging Face."
+}

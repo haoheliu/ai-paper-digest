@@ -1,0 +1,22 @@
+{
+    "title": "Fast Data Aware Neural Architecture Search via Supernet Accelerated Evaluation",
+    "author": "Emil Njor (Technical University of Denmark), Colby Banbury (Microsoft), Xenofon Fafoutis (Technical University of Denmark), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The integration of data-aware configurations in neural architecture search may provide insights for improving model efficiency in audio-related tasks, particularly where input data parameters impact performance.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Optimizing the architecture and input configurations of machine learning models is crucial for deploying effective systems on resource-constrained devices like microcontrollers.",
+    "contribution": "This paper introduces a Data Aware Neural Architecture Search method enabled by supernets, solving the challenge of efficiently optimizing both data configurations and neural network architectures, achieving superior TinyML systems compared to traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on neural architecture without integrating data configurations, resulting in less optimal system performance under tight resource constraints.",
+        "novelty": "This work offers a unified approach that simultaneously optimizes model architecture and data configurations, with significantly faster evaluation times through supernet implementation."
+    },
+    "key_innovation": "The use of supernet techniques allows for rapid evaluation of various architectures and data configurations, enhancing the speed and quality of TinyML system discovery.",
+    "real_world_impact": "This work holds potential in diverse applications like healthcare and IoT, where resource-constrained environments benefit from efficiently optimized machine learning models.",
+    "limitations": "No",
+    "new_terms": {
+        "TinyML": "**Tiny Machine Learning (TinyML)** refers to the deployment of machine learning algorithms on small, low-power devices, enabling intelligent processing at the edge without relying on cloud resources.",
+        "supernet": "**Supernet** refers to a larger neural network model that contains various subarchitectures, allowing for fast training and evaluation of multiple architectures simultaneously."
+    },
+    "open_sourcing": ""
+}
