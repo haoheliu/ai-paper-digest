@@ -1,0 +1,22 @@
+{
+    "title": "Bridging the Gap: Transforming Natural Language Questions into SQL Queries via Abstract Query Pattern and Contextual Schema Markup",
+    "author": "Yonghui Kong (Zhipu AI), Hongbing Hu (Zhipu AI), Dan Zhang (Tsinghua University), Siyuan Chai (Zhipu AI), Fan Zhang (Zhipu AI), Wei Wang (Tsinghua University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper discusses a novel method for translating natural language into SQL queries, which could be beneficial for audio data retrieval applications, particularly in aligning audio databases with user queries.",
+    "field": "Applications-Language",
+    "background": "The paper addresses the challenge of converting complex natural language queries to executable SQL statements, focusing on improving the translation process through innovative structural and lexical mappings.",
+    "contribution": "This paper introduces PAS-SQL, a new SQL generation pipeline that utilizes Abstract Query Pattern and Contextual Schema Markup to reduce structural and lexical mapping gaps, achieving notable accuracy levels.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often struggle with complex queries due to inadequate structural and lexical mapping, leading to lower execution accuracy.",
+        "novelty": "This work improves upon existing techniques by implementing a dual-module approach that specifically targets the reduction of these gaps in complex query contexts."
+    },
+    "key_innovation": "Combines adaptable query abstraction with contextual schema linking to enhance SQL generation's accuracy and efficiency.",
+    "real_world_impact": "The advancements proposed could lead to more precise data retrieval methods in various domains, including general language processing and interactive AI systems, enhancing user productivity.",
+    "limitations": "The paper does not address decomposition of overly complex questions and potential limitations in training data coverage for unseen question types.",
+    "new_terms": {
+        "Abstract Query Pattern": "**Abstract Query Pattern (AQP)** is a method for extracting the structural essence of a SQL query by replacing specific database information with placeholders, enabling the generation of database-agnostic representations.",
+        "Contextual Schema Markup": "**Contextual Schema Markup (CSM)** refers to the process of mapping relevant parts of natural language questions to specific elements in a database schema to assist in accurate SQL generation."
+    },
+    "open_sourcing": ""
+}

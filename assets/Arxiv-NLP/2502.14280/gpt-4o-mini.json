@@ -1,0 +1,22 @@
+{
+    "title": "EpMAN: Episodic Memory AttentioN for Generalizing to Longer Contexts",
+    "author": "Subhajit Chaudhury (IBM Research), Payel Das (IBM Research), Sarathkrishna Swaminathan (IBM Research), Georgios Kollias (IBM Research), Elliot Nelson (IBM Research), Khushbu Pahwa (Rice University), Tejaswini Pedapati (IBM Research), Igor Melnyk (Capital One), Matthew Riemer (IBM Research)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper presents a novel attention mechanism that could be adapted for improved audio data processing tasks, especially in handling longer audio sequences effectively.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The research addresses the challenge of efficiently processing long contexts in large language models by implementing an episodic memory attention mechanism.",
+    "contribution": "This paper introduces the Episodic Memory Attention (EpMAN) to solve the problem of long context generalization in language models, achieving superior recall and question-answering performance across various benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous models typically rely on standard attention mechanisms which struggle with long context due to quadratic memory and time complexities.",
+        "novelty": "EpMAN significantly enhances performance by combining episodic attention with self-attention, allowing selective focus on relevant information while reducing the impact of distractions."
+    },
+    "key_innovation": "EpMAN employs a dual-level attention strategy, reweighting self-attention scores based on relevance estimates from an episodic memory, which is a unique approach to handling contextual information.",
+    "real_world_impact": "EpMAN's method could improve applications in areas requiring accurate long-context understanding like real-time transcription services, enhancing user experiences in speech-to-text systems.",
+    "limitations": "The approach may require extensive computational resources due to the storage of full key-value caches, potentially impacting processing time for large documents.",
+    "new_terms": {
+        "episodic memory": "**Episodic memory** refers to the ability to recall specific events and experiences from the past, which in this context is used to improve the processing of relevant information in large datasets.",
+        "attention mechanism": "**Attention mechanism** is a process that allows models to focus on certain parts of the input data more than others, enhancing the understanding of complex input sequences."
+    },
+    "open_sourcing": ""
+}

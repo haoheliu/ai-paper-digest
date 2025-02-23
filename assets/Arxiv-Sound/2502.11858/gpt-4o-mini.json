@@ -1,0 +1,22 @@
+{
+    "title": "Rethinking Audio-Visual Adversarial Vulnerability from Temporal and Modality Perspectives",
+    "author": "Zeliang Zhang (University of Rochester), Susan Liang (University of Rochester), Daiki Shimada (Sony Group Corporation), Chenliang Xu (University of Rochester)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses adversarial attacks in audio-visual models, which can inform Haohe Liu's work on audio processing and robustness in generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper evaluates vulnerabilities in models that integrate audio and visual inputs, exploring how these models can be misled by adversarial perturbations.",
+    "contribution": "This paper introduces two novel adversarial attack methods and an adversarial training framework to enhance model robustness against these attacks, achieving improved performance on audio-visual tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing methods mainly adapted single-modality attacks to audio-visual scenarios, lacking consideration for audio-visual temporal characteristics and intermodal correlations.",
+        "novelty": "This work crafts specific attacks based on temporal invariance and modality misalignment, significantly enhancing the effectiveness of adversarial assessments."
+    },
+    "key_innovation": "Develops tailored adversarial attacks that utilize unique properties of audio-visual data, focusing on maintaining temporal consistency and disrupting intermodal correlations.",
+    "real_world_impact": "Addresses critical security concerns in applications like autonomous systems and multimedia analysis, potentially leading to safer AI systems. No immediate real-world impact is suggested as the study is experimental.",
+    "limitations": "The paper does not mention any specific limitations; however, practical deployment in real-world systems is not discussed.",
+    "new_terms": {
+        "temporal invariance-based attack": "**Temporal invariance-based attack** is an adversarial attack that aims to exploit the consistent features of audio-visual data over time to create misleading inputs.",
+        "modality misalignment attack": "**Modality misalignment attack** refers to a strategy that disrupts the alignment between audio and visual streams in a model to induce errors in predictions."
+    },
+    "open_sourcing": ""
+}

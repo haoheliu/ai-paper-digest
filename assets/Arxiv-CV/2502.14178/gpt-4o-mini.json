@@ -1,0 +1,22 @@
+{
+    "title": "NeRF-3DTalker: Neural Radiance Field with 3D Prior Aided Audio Disentanglement for Talking Head Synthesis",
+    "author": "Xiaoxing Liu (College of Intelligence and Computing, Tianjin University), Zhilei Liu (College of Intelligence and Computing, Tianjin University), Chongke Bi (College of Intelligence and Computing, Tianjin University), ..., Chongke Bi (Corresponding Author: Tianjin University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods employed in this paper, particularly the audio disentanglement technique and integration of neural radiance fields, can offer insights into enhancing speech synthesis tasks, which is closely related to Haohe Liu's research in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on synthesizing realistic talking head videos that synchronize lip movements with audio inputs, enhancing the visual representation of speech.",
+    "contribution": "NeRF-3DTalker introduces a novel approach combining 3D prior information and audio disentanglement to solve issues in lip synchronization and view variability, achieving superior video quality and synchronicity.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often focus only on frontal faces and struggle with accurate lip-syncing due to raw audio input.",
+        "novelty": "This work improves by utilizing a conditional NeRF structure along with disentangled audio features that separate speech movements from speaking style, effectively bridging audio and visual domains."
+    },
+    "key_innovation": "The integration of a 3D Prior Aided Audio Disentanglement module allows for more accurate audio and visual alignment, enhancing the synthesis of talking head videos from various angles.",
+    "real_world_impact": "This approach could significantly improve how synthetic voices are rendered in virtual assistants and animated characters, making interactions more natural and engaging.",
+    "limitations": "No",
+    "new_terms": {
+        "Neural Radiance Fields (NeRF)": "**Neural Radiance Fields (NeRF)** is a technique used to represent 3D scenes in a neural network by predicting color and density values for each point in 3D space, allowing for high-quality image synthesis from novel views.",
+        "Audio Disentanglement": "**Audio Disentanglement** refers to the process of separating different audio features, such as speech movements and style, facilitating more effective audio-visual learning."
+    },
+    "open_sourcing": "Project page: https://nerf-3dtalker.github.io/NeRF-3Dtalker/"
+}

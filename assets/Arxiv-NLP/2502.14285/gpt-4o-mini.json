@@ -1,0 +1,21 @@
+{
+    "title": "Vulnerability of Text-to-Image Models to Prompt Template Stealing: A Differential Evolution Approach",
+    "author": "Yurong Wu (Institute of Software, Chinese Academy of Sciences), Fangwen Mu (Institute of Software, Chinese Academy of Sciences), Qiuhong Zhang (Institute of Software, Chinese Academy of Sciences), Jinjing Zhao (The University of Sydney), Xinrun Xu (Institute of Software, Chinese Academy of Sciences), Lingrui Mei (University of Chinese Academy of Sciences), Yang Wu (University of Chinese Academy of Sciences), Zhiming Ding (Institute of Software, Chinese Academy of Sciences)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed EvoStealer method may inspire novel approaches in audio generation by implementing differential evolution techniques, potentially improving quality or efficiency in similar tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Text-to-image generation involves creating images from text prompts, which can be targeted for prompt stealing, where attackers aim to extract the underlying templates to reproduce images.",
+    "contribution": "This paper introduces EvoStealer, a novel method for stealing prompt templates from text-to-image models using differential evolution, achieving enhanced accuracy and generalization from minimal samples.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically focus on reconstructing individual prompts for single images and lack generalizability across multiple samples.",
+        "novelty": "EvoStealer extracts generalizable templates from a set of images without the need for fine-tuning, leveraging evolutionary algorithms to enhance stability and performance."
+    },
+    "key_innovation": "The unique aspect of EvoStealer is its combination of differential evolution and multimodal large language models to iteratively refine prompt templates, allowing for effective template extraction.",
+    "real_world_impact": "This work highlights the intellectual property risks in prompt trading platforms, emphasizing the need for protective measures against prompt stealing attacks, which can support creators' rights.",
+    "limitations": "The authors mention that the method's performance is limited by the capabilities of the underlying multimodal large language models used for extraction.",
+    "new_terms": {
+        "differential evolution": "**Differential evolution** is an optimization algorithm that relies on mutation and crossover operations to improve a set of candidate solutions over iterations, often used for solving complex problems in various fields."
+    },
+    "open_sourcing": "The code and dataset are available at https://github.com/whitepagewu/evostealer"
+}

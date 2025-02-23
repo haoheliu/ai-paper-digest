@@ -1,0 +1,21 @@
+{
+    "title": "Audio-Based Classification of Insect Species Using Machine Learning Models: Cicada, Beetle, Termite, and Cricket",
+    "author": "Manas V Shetty (Purdue University), Yoga Disha Sendhil Kumar (Purdue University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The use of machine learning for audio classification could inform similar methods in audio generation and enhancement tasks relevant to Haohe\u2019s interests in speech and music processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on classifying various insect species based on their unique sound recordings using machine learning techniques.",
+    "contribution": "This paper introduces a combination of Mel Frequency Cepstral Coefficients (MFCCs) and different machine learning models to solve the classification of insect audio, achieving high accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches mainly relied on image-based identification or focused on limited species with mixed-feature sets.",
+        "novelty": "This work improves upon earlier methods by exploring a broader range of species and integrating multiple audio feature extraction techniques."
+    },
+    "key_innovation": "The study utilizes a blend of traditional machine learning models and advanced audio feature extraction techniques to enhance the classification accuracy of insect species.",
+    "real_world_impact": "By improving automated insect monitoring systems, this research has the potential to significantly contribute to ecological monitoring and pest management strategies, reducing economic losses in agriculture.",
+    "limitations": "No specific limitations were mentioned regarding the study, but general challenges in audio classification such as noise and environmental variability can impact results.",
+    "new_terms": {
+        "Mel Frequency Cepstral Coefficients (MFCC)": "**Mel Frequency Cepstral Coefficients (MFCC)** are features used in audio and speech processing that represent the short-term power spectrum of sound, capturing crucial spectral properties."
+    },
+    "open_sourcing": ""
+}

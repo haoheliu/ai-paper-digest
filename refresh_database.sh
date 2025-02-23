@@ -1,0 +1,1 @@
+uv run /home/lxb/Disk_SSD/projects/llm_pdf_reader/Arxiv/processes/refresh_database.py

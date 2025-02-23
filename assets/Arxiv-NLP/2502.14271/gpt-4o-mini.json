@@ -1,0 +1,22 @@
+{
+    "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "author": "Yunfan Gao (Harbin Institute of Technology), Yun Xiong (Data61), Xinyu Gao (Harbin Institute of Technology), Kangxiang Jia (Harbin Institute of Technology), Jinliu Pan (Harbin Institute of Technology), Yuxi Bi (Beijing University), Yi Dai (Harbin Institute of Technology), Jiawei Sun (Harbin Institute of Technology), Haofen Wang (Harbin Institute of Technology)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Deep Learning-Generative Models",
+    "background": "Retrieval-Augmented Generation (RAG) combines retrieval mechanisms with generative models, assisting in tasks like question answering and content generation using external knowledge sources.",
+    "contribution": "This paper introduces a comprehensive survey of RAG methods to solve the limitations of traditional generative models that struggle with factuality and context, achieving improved accuracy in generated outputs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely solely on generative capabilities without external context, leading to issues such as hallucinations and inaccuracies in generated content.",
+        "novelty": "This work improves by synergistically integrating retrieval systems with generative models, thus enhancing the reliability and factual correctness of the output."
+    },
+    "key_innovation": "The synthesis of retrieval mechanisms with generative modeling to produce informed responses improves accuracy and context awareness.",
+    "real_world_impact": "Enhances applications such as virtual assistants and educational tools, where accurate information retrieval and generation are critical. Potential for increased trust in AI systems.",
+    "limitations": "The paper does not address potential computational inefficiencies introduced by integrating retrieval with generation methods.",
+    "new_terms": {
+        "Retrieval-Augmented Generation": "**Retrieval-Augmented Generation (RAG)** is a technique that combines information retrieval and language generation to improve response accuracy by using externally fetched information.",
+        "hallucinations": "**Hallucinations** in the context of language models refer to instances where the model generates text that is factually incorrect or nonsensical."
+    },
+    "open_sourcing": ""
+}

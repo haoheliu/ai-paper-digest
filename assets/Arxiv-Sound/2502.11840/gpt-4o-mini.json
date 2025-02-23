@@ -1,0 +1,19 @@
+{
+    "title": "ChordFormer: A Conformer-Based Architecture for Large-Vocabulary Audio Chord Recognition",
+    "author": "Muhammad Waseem Akram (Department of Excellence in Robotics and AI, Sant'Anna School of Advanced Studies), Stefano Dettori (Department of Excellence in Robotics and AI, Sant'Anna School of Advanced Studies), Valentina Colla (Department of Excellence in Robotics and AI, Sant'Anna School of Advanced Studies), Giorgio Carlo Buttazzo (Department of Excellence in Robotics and AI, Sant'Anna School of Advanced Studies)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper presents a novel architecture that integrates audio processing with deep learning, which could inspire similar approaches in audio data manipulation or enhancement tasks in Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automatically recognizing musical chords from audio recordings to aid in music analysis and retrieval.",
+    "contribution": "ChordFormer introduces a hybrid conformer architecture to solve large-vocabulary chord recognition, achieving superior accuracy in identifying complex and rare chords.",
+    "technical_comparison": "Previous methods struggled with class imbalance and long-range dependencies in chord recognition. This work improves by integrating convolutional layers with self-attention mechanisms to effectively capture both local and global dependencies.",
+    "key_innovation": "The use of a structured chord representation that reflects musical theory, combined with a reweighted loss function to address imbalances in chord types.",
+    "real_world_impact": "This model could significantly enhance music transcription tools and applications for musicians and educators, enabling more accurate chord identification in diverse musical genres.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Conformer": "**Conformer** is a neural network architecture combining convolutional neural networks and transformers, designed to model sequential data effectively.",
+        "reweighted loss function": "**Reweighted loss function** assigns different weights to classes in loss calculations to mitigate the impact of class imbalance during training."
+    },
+    "open_sourcing": ""
+}

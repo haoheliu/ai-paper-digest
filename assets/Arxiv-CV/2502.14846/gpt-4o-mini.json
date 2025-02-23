@@ -1,0 +1,21 @@
+{
+    "title": "Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation",
+    "author": "Yue Yang (University of Pennsylvania), Ajay Patel (University of Pennsylvania), Matt Deitke (Allen Institute for Artificial Intelligence), Tanmay Gupta (Allen Institute for Artificial Intelligence), Luca Weihs (Allen Institute for Artificial Intelligence), Andrew Head (University of Pennsylvania), Mark Yatskar (University of Pennsylvania), Chris Callison-Burch (University of Pennsylvania), Ranjay Krishna (Allen Institute for Artificial Intelligence), Aniruddha Kembhavi (Allen Institute for Artificial Intelligence), Christopher Clark (Allen Institute for Artificial Intelligence)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods in this paper focus on generating synthetic multimodal datasets, which could enhance the diversity and quality of training data used in audio-language models, particularly in tasks involving visual and textual understanding.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task involves creating synthetic datasets combining text and images to improve vision-language model performance in interpreting text-rich visuals.",
+    "contribution": "This paper introduces the CoSyn framework to solve the challenge of generating diverse multimodal training data, achieving state-of-the-art performance on several text-rich image understanding benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with limited and biased training data, often failing to generalize to diverse visual contexts.",
+        "novelty": "This work improves by utilizing code-generation leveraging language models to synthesize richly annotated datasets, significantly increasing training data diversity and quality."
+    },
+    "key_innovation": "CoSyn employs a code-guided approach to automatically generate high-quality synthetic datasets that include rich text and corresponding visual content.",
+    "real_world_impact": "This framework could lead to improved multimodal AI applications, enhancing accessibility and usability in various fields, such as education, healthcare, and assistive technologies.",
+    "limitations": "The effectiveness of synthetic data depends heavily on the quality of prompts and rendering methods, with potential challenges in generating highly specialized data.",
+    "new_terms": {
+        "synthetic multimodal data": "**Synthetic multimodal data** refers to artificially generated datasets that include multiple forms of information, such as text and images, which can be used to train machine learning models."
+    },
+    "open_sourcing": ""
+}

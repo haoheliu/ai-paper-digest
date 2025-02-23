@@ -1,0 +1,21 @@
+{
+    "title": "Skip That Beat: Augmenting Meter Tracking Models for Underrepresented Time Signatures",
+    "author": "Giovana Morais (New York University), Brian McFee (New York University), Magdalena Fuentes (New York University), ..., (the last author not specified)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed data augmentation method for beat and downbeat tracking can be applied to enhance audio analysis models, which could be beneficial for Haohe Liu's research in audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on beat and downbeat tracking in music, particularly for underrepresented time signatures, enabling models to recognize rhythms beyond the commonly used 4/4 meter.",
+    "contribution": "This paper introduces a data augmentation technique to expand the representation of 2/4 and 3/4 time signatures in meter tracking models, achieving improved downbeat tracking performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in meter tracking primarily focus on training models with 4/4 annotated datasets, which limits their performance on diverse music genres.",
+        "novelty": "This work introduces an augmentation approach that modifies existing 4/4 annotated tracks to create new datasets representing other time signatures without requiring new annotations."
+    },
+    "key_innovation": "The unique augmentation technique allows existing beat tracking models to generalize better to non-4/4 music, enhancing their applicability across various music genres.",
+    "real_world_impact": "This augmentation can significantly improve the robustness of music analysis tools, promoting better recognition and understanding of diverse music styles globally.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "downbeat tracking": "**Downbeat tracking** refers to the identification of the initial beat in a musical bar, which is crucial for understanding the rhythmic structure of music."
+    },
+    "open_sourcing": "The authors have made augmentation and experiment code available in a GitHub repository."
+}

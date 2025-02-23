@@ -1,0 +1,23 @@
+{
+    "title": "Affinity and Diversity: A Unified Metric for Demonstration Selection via Internal Representations",
+    "author": "Mariko Kato (Japan Advanced Institute of Science and Technology), Hakaze Cho (Japan Advanced Institute of Science and Technology), Yoshihiro Sakai (Japan Advanced Institute of Science and Technology), Naoya Inoue (Japan Advanced Institute of Science and Technology, RIKEN)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed metrics of affinity and diversity targeting demonstration selection can be beneficial for enhancing audio-language alignment tasks, potentially supporting audio generation and manipulation efforts by providing a systematic approach to selecting relevant data samples.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Selecting optimal demonstrations to improve In-context Learning performance in language models, leveraging internal model representations to evaluate demonstration quality.",
+    "contribution": "This paper introduces affinity and diversity as a unified metric for demonstration selection, achieving improved correlation with test accuracy across various tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely on off-the-shelf retrievers that assess similarity to queries independently, leading to inconsistent results.",
+        "novelty": "This work improves upon previous selection methods by incorporating internal model representations for more nuanced evaluation of both similarity and diversity among demonstrations."
+    },
+    "key_innovation": "Defines metrics based on internal representations of deep learning models, focusing on the effective interaction between queries and demonstrations.",
+    "real_world_impact": "Enhances the selection of demonstrations for In-context Learning, potentially improving applications in natural language processing and related generative tasks, leading to better model performance and user experience.",
+    "limitations": "The authors acknowledge that their approach requires computational resources which may limit the evaluation of certain demonstration selection methods.",
+    "new_terms": {
+        "In-context Learning": "**In-context Learning** refers to the ability of language models to adapt to new tasks using provided prompts and examples without parameter updates.",
+        "affinity": "**Affinity** in this context measures the relevance or similarity between the query and demonstration representations.",
+        "diversity": "**Diversity** quantifies the variance in the representations of the selected demonstrations."
+    },
+    "open_sourcing": ""
+}

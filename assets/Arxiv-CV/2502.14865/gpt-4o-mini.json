@@ -1,0 +1,22 @@
+{
+    "title": "Time Travel: A Comprehensive Benchmark to Evaluate LMMs on Historical and Cultural Artifacts",
+    "author": "Sara Ghaboura (Mohamed bin Zayed University of AI), Ketan More (Mohamed bin Zayed University of AI), Ritesh Thawkar (Mohamed bin Zayed University of AI), Wafa Alghallabi (Mohamed bin Zayed University of AI), Omkar Thawakar (Mohamed bin Zayed University of AI), Fahad Shahbaz Khan (Mohamed bin Zayed University of AI), Hisham Cholakkal (Mohamed bin Zayed University of AI), Salman Khan (Mohamed bin Zayed University of AI), Rao Muhammad Anwer (Mohamed bin Zayed University of AI)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Creative AI",
+    "background": "The paper develops a benchmark to evaluate how well large multimodal models understand and analyze historical artifacts from various cultures.",
+    "contribution": "This paper introduces the TimeTravel dataset, which comprises over 10,250 expert-verified samples of historical artifacts to enhance AI's understanding of diverse cultures and their artifacts.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks primarily focus on modern objects and texts, lacking a structured approach to historical artifacts.",
+        "novelty": "This work provides a comprehensive framework for AI assessment in the context of cultural heritage preservation."
+    },
+    "key_innovation": "Combines expert-verified data with large multimodal models, providing a unique focus on historical and cultural context.",
+    "real_world_impact": "The benchmark enables more accurate AI applications in museums, education, and cultural heritage preservation, potentially enhancing public engagement with history.",
+    "limitations": "The dataset's effectiveness depends on the completeness and accuracy of input data, which may lead to contextual inaccuracies.",
+    "new_terms": {
+        "multimodal models": "**Multimodal models** are AI systems designed to process and analyze data from multiple modalities, such as text and images, generating more comprehensive understanding and insights.",
+        "expert-verified": "**Expert-verified** indicates that dataset samples have been checked and validated for accuracy and cultural relevance by subject matter experts."
+    },
+    "open_sourcing": "https://github.com/mbzuai-oryx/TimeTravel"
+}

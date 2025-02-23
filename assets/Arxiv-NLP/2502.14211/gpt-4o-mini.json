@@ -1,0 +1,19 @@
+{
+    "title": "Transfer-Prompting: Enhancing Cross-Task Adaptation in Large Language Models via Dual-Stage Prompts Optimization",
+    "author": "Yupeng Chang (School of Artificial Intelligence, Jilin University), Yi Chang (Engineering Research Center of Knowledge-Driven Human-Machine Intelligence, Jilin University), Yuan Wu (International Center of Future Science, Jilin University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed framework for prompt optimization can potentially enhance instruction-following and model adaptation, which is relevant to improving audio and language models in specific tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This study focuses on optimizing prompt generation in large language models to improve performance across various tasks, particularly in complex multi-objective scenarios.",
+    "contribution": "Transfer-Prompting introduces a two-stage framework for prompt optimization, aimed at improving cross-task adaptability while achieving better task-specific performance.",
+    "technical_comparison": "Previous methods often relied on single-stage prompt optimization or focused on minimizing specific metrics. This work improves by employing a two-stage approach that evaluates prompts through a comprehensive set of multi-dimensional metrics.",
+    "key_innovation": "The dual-stage optimization process, which integrates both source prompt construction and task-specific target prompt generation, enables more effective adaptation for diverse applications.",
+    "real_world_impact": "This framework has the potential to significantly enhance the performance of language models across various fields, including healthcare, finance, and legal sectors, where accurate responses are critical.",
+    "limitations": "The paper does not clearly mention any limitations.",
+    "new_terms": {
+        "Transfer-Prompting": "**Transfer-Prompting** refers to a novel framework that optimizes prompts in large language models through a structured two-stage process, enhancing adaptation and performance across various tasks.",
+        "cross-task adaptation": "**Cross-task adaptation** involves improving a model's performance not just on its trained tasks but across different, often related tasks, by leveraging learned knowledge and prompt optimization."
+    },
+    "open_sourcing": "The code is available at https://github.com/llm172/Transfer-Prompting"
+}

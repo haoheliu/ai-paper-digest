@@ -1,0 +1,22 @@
+{
+    "title": "SegAug: CTC-Aligned Segmented Augmentation For Robust RNN-Transducer Based Speech Recognition",
+    "author": "Khanh Le (ZaloAI), Tuan Vu Ho (ZaloAI), Dung Tran (Independent Researcher), Duc Thanh Chau (Ho Chi Minh City University of Science), ..., Duc Thanh Chau (Vietnam National University, Ho Chi Minh City)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "SegAug introduces a novel augmentation technique that targets deletion errors common in speech recognition models. This can be relevant for Haohe Liu's work on audio restoration and generation, particularly in generating high-quality speech outputs.",
+    "field": "Applications-Speech and Audio",
+    "background": "Improving speech recognition systems to reduce deletion errors and enhance overall performance, especially in challenging or underrepresented datasets.",
+    "contribution": "SegAug introduces a segmentation-based augmentation method to solve the high deletion error rates in RNN-Transducer models, achieving significant reductions in Word Error Rate (WER).",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on regularization and generic data augmentation techniques, which often affected other performance metrics.",
+        "novelty": "This work improves upon existing techniques by specifically addressing deletion errors through a focused augmentation strategy that preserves acoustic features."
+    },
+    "key_innovation": "Utilizes CTC-aligned word segmentation and four sub-augmentation methods to create diverse audio-text pairs that enhance model robustness.",
+    "real_world_impact": "The proposed approach has the potential to significantly improve user experience in ASR applications, reducing frustration from missed words during dictation and voice command scenarios.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "CTC (Connectionist Temporal Classification)": "**Connectionist Temporal Classification** is a method used in sequence-to-sequence tasks where the alignment between inputs and outputs is unknown, utilizing a special blank token for the alignment.",
+        "RNN-Transducer": "**Recurrent Neural Network Transducer** is a neural network architecture used for speech recognition that combines both acoustic and language modeling."
+    },
+    "open_sourcing": ""
+}

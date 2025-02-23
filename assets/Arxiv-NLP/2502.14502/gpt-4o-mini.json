@@ -1,0 +1,19 @@
+{
+    "title": "How Much Knowledge Can You Pack into a LoRA Adapter without Harming LLM?",
+    "author": "Sergey Pletenev (AIRI, Skoltech), Maria Marina (AIRI, Skoltech), Daniil Moskovskiy (AIRI, Skoltech), Vasily Konovalov (Moscow Institute of Physics and Technology), Pavel Braslavski (Nazarbayev University), Alexander Panchenko (AIRI, Skoltech), Mikhail Salnikov (AIRI, Skoltech)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses techniques to enhance large language models (LLMs) using low-rank adaptation (LoRA), which could inform methods for improving generative audio models and the integration of knowledge in audio processing tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The study focuses on incorporating new knowledge into large language models while preserving their pre-existing knowledge, exploring the effects of various training strategies.",
+    "contribution": "This paper introduces an investigation into knowledge integration techniques using LoRA to fine-tune large language models without causing significant degradation of previous knowledge, achieving insights into achieving a balance between new and known facts.",
+    "technical_comparison": "Previous methods of integrating new knowledge in LLMs often lead to catastrophic forgetting or performance loss on external benchmarks. This work improves by proposing a mixed approach to training data and leveraging paraphrased facts to mitigate negative impacts.",
+    "key_innovation": "The study's unique approach lies in conducting systematic experiments to evaluate how different amounts and types of knowledge affect the model\u2019s performance both intrinsically and extrinsically.",
+    "real_world_impact": "This research could lead to more robust approaches for updating LLMs, which have numerous applications in AI-driven content generation and intelligent systems that require ongoing learning.",
+    "limitations": "The primary limitation noted is the risk of performance degradation when too much new knowledge is added, particularly if biased toward specific entities.",
+    "new_terms": {
+        "LoRA": "**Low-Rank Adaptation (LoRA)** is a method for efficient fine-tuning of pre-trained language models that involves injecting trainable low-rank matrices into the layers of the model.",
+        "catastrophic forgetting": "**Catastrophic forgetting** refers to the loss of previously acquired knowledge when a model is fine-tuned on new information, particularly if the new training data is biased or overwhelming."
+    },
+    "open_sourcing": "The code and data for further usage are available at https://github.com/AIRI-Institute/knowledge-packing"
+}

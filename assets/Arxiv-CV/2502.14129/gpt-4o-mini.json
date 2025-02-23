@@ -1,0 +1,21 @@
+{
+    "title": "GlossGau: Efficient Inverse Rendering for Glossy Surface with Anisotropic Spherical Gaussian",
+    "author": "Yingwenqi Jiang (Beijing University of Technology), Jiadong Tu (Beijing University of Technology), Yuan Liu (Beijing University of Technology), Xifeng Gao (Beijing University of Technology), Xiaoxiao Long (Beijing University of Technology), Wenping Wang (The University of Hong Kong), Yuexin Ma (The University of Hong Kong), ..., George Drettakis (Inria)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "The paper addresses the challenge of reconstructing realistic glossy surfaces from multiple images of scenes with known camera poses.",
+    "contribution": "GlossGau introduces an efficient inverse rendering framework utilizing Anisotropic Spherical Gaussian to enhance the representation of specular highlights, achieving photorealistic images with lower computational costs.",
+    "technical_comparison": {
+        "prior_work": "Prior inverse rendering methods often sacrificed efficiency and failed to accurately capture specular highlights in glossy surfaces.",
+        "novelty": "This work improves the process by jointly optimizing multiple parameters while maintaining computational efficiency comparable to existing Gaussian Splatting techniques."
+    },
+    "key_innovation": "The use of Anisotropic Spherical Gaussian for modeling glossy surfaces, allowing for precise representation of complex specular lighting effects.",
+    "real_world_impact": "The proposed method enhances real-time rendering capabilities in graphics and visualization applications, making it practical for use in gaming and film industries where glossy surfaces are common.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "Anisotropic Spherical Gaussian": "**Anisotropic Spherical Gaussian** refers to a mathematical function used to model surface properties that vary independently in different directions, offering a more flexible representation for surface glossiness than isotropic models."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "MedFuncta: Modality-Agnostic Representations Based on Efficient Neural Fields",
+    "author": "Paul Friedrich (Department of Biomedical Engineering, University of Basel), Florentin Bieder (Department of Biomedical Engineering, University of Basel), Philippe Cattin (Department of Biomedical Engineering, University of Basel)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The work introduces a method to create modality-agnostic representations which can be beneficial for tasks like audio manipulation and generation, paralleling Haohe's focus on audio processing.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Creating representations of medical signals across various modalities using neural fields, allowing for continuous encoding rather than traditional grid-based methods.",
+    "contribution": "MedFuncta introduces a modality-agnostic continuous data representation using neural fields to solve the challenges of high computational load and poor scaling with grid resolution, achieving improved reconstruction quality and convergence speed.",
+    "technical_comparison": {
+        "prior_work": "Previous methods predominantly used grid-based representations which limit scalability and overlook continuous data structures.",
+        "novelty": "This work improves by utilizing meta-learning approaches and an adaptive frequency schedule that enhances representation accuracy without requiring high computational cost."
+    },
+    "key_innovation": "The introduction of a frequency schedule to address spectral bias in commonly used activation functions, which improves both training speed and reconstruction quality.",
+    "real_world_impact": "This work has the potential to advance medical imaging analysis and offers a framework that could be adapted for audio applications, such as improving audio synthesis through continuous representations.",
+    "limitations": "No specific limitations were mentioned in the provided text.",
+    "new_terms": {
+        "neural fields": "**Neural fields** are a representation technique where data is treated as a continuous function, allowing for flexible and high-resolution data encoding.",
+        "spectral bias": "**Spectral bias** refers to the phenomenon where a neural network tends to learn low-frequency patterns of signals before capturing high-frequency details, potentially hindering learning efficiency."
+    },
+    "open_sourcing": "Code is publicly available at https://github.com/pfriedri/medfuncta"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Single-image Reflectance and Transmittance Estimation from Any Flatbed Scanner",
+    "author": "Carlos Rodriguez-Pardo (Politecnico di Milano), David Pascual-Hernandez (Universidad Rey Juan Carlos), Javier Rodriguez-Vazquez (Arquimea Research Center), Jorge Lopez-Moreno (Universidad Rey Juan Carlos), Elena Garces (Adobe Research), Carlos Rodriguez-Pardo (Universidad Rey Juan Carlos)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods developed for reflectance and transmittance estimation could improve training data quality for audio tasks, specifically in generating realistic audio textures based on visual inputs.",
+    "field": "Applications-Vision",
+    "background": "Estimating the light reflectance and transmittance properties of materials from a single flatbed scanner image, enabling high-resolution material captures for use in various digital applications.",
+    "contribution": "This paper introduces a technique for accurately estimating material reflectance and transmittance from flatbed scanner images, effectively expanding the usability of common scanning devices for high-fidelity material representation.",
+    "technical_comparison": {
+        "prior_work": "Existing techniques often require specific illumination setups or expensive high-end equipment, limiting their practicality.",
+        "novelty": "This work provides a generic framework for material capture that utilizes any flatbed scanner, removing previous lighting constraints and incorporating a cycle-consistency loss mechanism."
+    },
+    "key_innovation": "The method allows for accurate material digitization using any scanner, including the estimation of transmittance and opacity, enhancing the realism of digital material representations.",
+    "real_world_impact": "This advancement can significantly enhance industries that rely on accurate material representation, such as digital art, gaming, and architecture. It democratizes high-quality material capture by making it accessible to lower-end scanning devices.",
+    "limitations": "The method relies on flat surfaces and is limited by the capabilities of the scanning device; complex materials may still present challenges.",
+    "new_terms": {
+        "SVBSDF": "**Spatially-Varying Bidirectional Scattering Distribution Function** refers to a model that describes how light is reflected and transmitted across a surface, accounting for variations in material properties across the surface.",
+        "Delighting": "**Delighting** is the process of removing shading and specular reflections from an image to achieve a clearer representation of material properties."
+    },
+    "open_sourcing": ""
+}

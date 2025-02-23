@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Research Digest</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- jsPDF (for PDF export) -->
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    #papersContainer {
+    }
+    .paper-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: zoom-in;
+      margin-bottom: 8px;
+    }
+    .card.paper-card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .card.paper-card .card-body {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .truncate-authors {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .metadata-label {
+      font-weight: 600;
+      margin-right: 5px;
+    }
+    .metadata-row {
+      margin-bottom: 0.5rem;
+    }
+    .thumbnail-row {
+      display: flex;
+      gap: 5px;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      margin-top: 10px;
+    }
+    .thumbnail-row img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      cursor: zoom-in;
+      border-radius: 4px;
+    }
+    .field-filter-list {
+      max-height: 200px;
+      overflow-y: auto;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .pagination-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .page-jump {
+      width: 80px;
+    }
+    .collect-button {
+      margin-top: auto;
+      margin-right: 10px;
+      align-self: flex-end;
+    }
+    .spinner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 30px 0;
+      font-size: 1.2rem;
+    }
+    .hidden {
+      display: none;
+    }
+
+    /* Make min-quality and min-relevance narrower (2 digits) */
+    .short-input {
+      width: 60px;
+    }
+
+    /* Align field filter button with form controls, add caret for dropdown look */
+    .btn-field-filter::after {
+      content: " \25BE"; /* caret symbol */
+      margin-left: 5px;
+      font-size: 0.8em;
+    }
+
+    .last-updated {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    /* Reduce spacing in the filter row */
+    .row.g-2 {
+      --bs-gutter-x: 0.5rem;
+      --bs-gutter-y: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar for switching between different pages (arxiv daily, conf, etc.) -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Haohe's Paper Digestion System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="topNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Dropdown for sources -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Paper Sources
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navDropdown">
+              <li><a class="dropdown-item" href="index.html">Arxiv Daily</a></li>
+              <li><a class="dropdown-item" href="nips2024.html">NIPS 2024</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <h1 class="text-center mb-2">AI Research Digest</h1>
+    <p class="last-updated" id="lastUpdated"></p>
+
+    <!-- Nav Tabs: Collected first, then Arxiv-Sound (default), Arxiv-CV, Arxiv-NLP, NIPS-2024 -->
+    <ul class="nav nav-tabs" id="categoryTabs">
+      <li class="nav-item"><a class="nav-link" data-category="Collected" href="#">Collected</a></li>
+      <li class="nav-item"><a class="nav-link active" data-category="Arxiv-Sound" href="#">Arxiv-Sound</a></li>
+      <li class="nav-item"><a class="nav-link" data-category="Arxiv-CV" href="#">Arxiv-CV</a></li>
+      <li class="nav-item"><a class="nav-link" data-category="Arxiv-NLP" href="#">Arxiv-NLP</a></li>
+      <!-- <li class="nav-item"><a class="nav-link" data-category="NIPS-2024" href="#">NIPS-2024</a></li> -->
+    </ul>
+
+    <!-- Show a loading spinner or message -->
+    <div id="loadingSpinner" class="spinner">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <span class="ms-2">Loading data, please wait...</span>
+    </div>
+
+    <!-- Filter UI Row with reduced spacing -->
+    <div class="row g-2" id="filterRow" style="display:none;">
+      <!-- Min Quality -->
+      <div class="col-auto">
+        <label for="minQuality" class="form-label">Min Quality</label>
+        <input type="number" class="form-control short-input" id="minQuality" min="0" max="10" value="7" />
+      </div>
+
+      <!-- Min Relevance -->
+      <div class="col-auto">
+        <label for="minRelevance" class="form-label">Min Relevance</label>
+        <input type="number" class="form-control short-input" id="minRelevance" min="0" max="10" value="7" />
+      </div>
+
+      <!-- Search -->
+      <div class="col-auto">
+        <label for="searchInput" class="form-label">Search Paper</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="searchInput" placeholder="Title/Author..." />
+          <button class="btn btn-outline-primary" id="applySearchBtn">Apply</button>
+        </div>
+      </div>
+
+      <!-- Field Filter (Collapsible) -->
+      <div class="col-auto">
+        <label class="form-label d-block">&nbsp;</label>
+        <button class="btn btn-secondary btn-field-filter" type="button" data-bs-toggle="collapse" data-bs-target="#fieldCollapse" aria-expanded="false" aria-controls="fieldCollapse">
+          Filter by Field
+        </button>
+        <div class="collapse mt-2" id="fieldCollapse">
+          <div class="field-filter-list" id="fieldFilterContainer">
+            <!-- We'll dynamically add checkboxes here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Export PDF Button + disclaim -->
+      <div class="col-auto">
+        <label class="form-label d-block">&nbsp;</label>
+        <button class="btn btn-primary" id="exportPdfBtn">Export Collected to PDF</button>
+        <small class="text-muted d-block mt-2">
+          Collected papers will be stored only in this browser's local storage. They will be cleared if you clear site data.
+        </small>
+      </div>
+    </div>
+
+    <!-- Main Paper Container -->
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-3" id="papersContainer" style="display:none;"></div>
+
+    <!-- Pagination -->
+    <div class="pagination-controls" id="paginationControls" style="display:none;">
+      <label for="itemsPerPage" class="form-label mb-0">Items per page:</label>
+      <select class="form-select form-select-sm" id="itemsPerPage" style="width:auto;">
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option value="8">8</option>
+        <option value="10" selected>10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+      </select>
+
+      <button class="btn btn-sm btn-outline-primary" id="prevPage">Previous</button>
+      <span>Page <span id="currentPage">1</span> of <span id="totalPages">1</span></span>
+      <button class="btn btn-sm btn-outline-primary" id="nextPage">Next</button>
+
+      <div class="input-group input-group-sm page-jump">
+        <input type="number" id="jumpToPage" class="form-control" placeholder="Go" min="1" />
+        <button class="btn btn-outline-primary" id="goToPageBtn">Go</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Zoom Modal -->
+  <div class="modal fade" id="zoomModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body p-0" id="zoomModalBody">
+          <!-- The large image will be placed here dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container">
+    <hr />
+    <p>This page is developed by <strong>Haohe Liu</strong> for personal use only.</p>
+    <p>Haohe does not promise the correctness of the information on the page. The content is mostly generated by LLM.</p>
+    <p class="text-muted">&copy; 2025</p>
+    <a href="https://info.flagcounter.com/FIt0"><img src="https://s05.flagcounter.com/count2/FIt0/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const { jsPDF } = window.jspdf;
+
+    // Automatic fill for "Page last updated" from JS date
+    const lastUpdatedElem = document.getElementById('lastUpdated');
+    (function setLastUpdatedDate(){
+      const now = new Date();
+      const yyyy = now.getFullYear();
+      const mm = String(now.getMonth() + 1).padStart(2,'0');
+      const dd = String(now.getDate()).padStart(2,'0');
+      lastUpdatedElem.textContent = `Page last updated on ${yyyy}-${mm}-${dd}`;
+    })();
+
+    // Folders for the tabs
+    // "Arxiv-Sound" (default), "Arxiv-CV", "Arxiv-NLP", "NIPS-2024"
+    // Also a special "Collected"
+    // We'll map category => subfolder name in assets/ if applicable:
+    const FOLDERS = {
+      "Arxiv-Sound": "Arxiv-Sound",
+      "Arxiv-CV": "Arxiv-CV",
+      "Arxiv-NLP": "Arxiv-NLP",
+      "NIPS-2024": "NIPS-2024",
+    };
+
+    // By default we want Arxiv-Sound to be active
+    let currentCategory = "Arxiv-Sound";
+
+    // We'll store data in this structure:
+    // paperCache[category] = [ { id, folder, info:{images}, data }... ]
+    let paperCache = {};
+
+    // Collected paper IDs in local storage
+    let stored = localStorage.getItem('collectedPaperIds');
+    let collectedPaperIds = stored ? new Set(JSON.parse(stored)) : new Set();
+
+    // State for pagination, filtering
+    let currentPage = 1;
+    let itemsPerPage = 10;
+    let filteredPapers = [];
+
+    // DOM references
+    const categoryTabs = document.getElementById('categoryTabs');
+    const minQualityInput = document.getElementById('minQuality');
+    const minRelevanceInput = document.getElementById('minRelevance');
+    const searchInput = document.getElementById('searchInput');
+    const applySearchBtn = document.getElementById('applySearchBtn');
+
+    const papersContainer = document.getElementById('papersContainer');
+    const zoomModal = new bootstrap.Modal(document.getElementById('zoomModal'), {});
+    const zoomModalBody = document.getElementById('zoomModalBody');
+    const fieldFilterContainer = document.getElementById('fieldFilterContainer');
+    const paginationControls = document.getElementById('paginationControls');
+    const prevPageBtn = document.getElementById('prevPage');
+    const nextPageBtn = document.getElementById('nextPage');
+    const currentPageSpan = document.getElementById('currentPage');
+    const totalPagesSpan = document.getElementById('totalPages');
+    const itemsPerPageSelect = document.getElementById('itemsPerPage');
+    const jumpToPageInput = document.getElementById('jumpToPage');
+    const goToPageBtn = document.getElementById('goToPageBtn');
+    const loadingSpinner = document.getElementById('loadingSpinner');
+    const filterRow = document.getElementById('filterRow');
+    const exportPdfBtn = document.getElementById('exportPdfBtn');
+
+    // All possible fields to filter
+    const ALL_FIELDS = [
+      "Applications-Vision",
+      "Applications-Language",
+      "Applications-Speech and Audio",
+      "Applications-Creative AI",
+      "Deep Learning-Neural Architectures",
+      "Deep Learning-Generative Models",
+      "Deep Learning-Optimization for Deep Networks",
+      "Deep Learning-Foundation Models",
+      "Deep Learning-Large Language Models (LLMs)",
+      "Evaluation-Methodology",
+      "Evaluation-Meta Studies",
+      "Evaluation-Replicability and Validity",
+      "Evaluation-Human-in-the-Loop",
+      "General Machine Learning-Supervised Learning",
+      "General Machine Learning-Unsupervised Learning",
+      "General Machine Learning-Online Learning",
+      "General Machine Learning-Active Learning",
+      "Infrastructure-Machine Learning Libraries",
+      "Infrastructure-Scalability",
+      "Infrastructure-Distributed Solutions",
+      "Infrastructure-Improved Implementations",
+      "Machine Learning for Sciences-Climate Science",
+      "Machine Learning for Sciences-Healthcare",
+      "Machine Learning for Sciences-Life Sciences",
+      "Machine Learning for Sciences-Physics",
+      "Machine Learning for Sciences-Social Sciences",
+      "Neuroscience and Cognitive Science-Neural Coding",
+      "Neuroscience and Cognitive Science-Brain-Computer Interfaces",
+      "Optimization-Convex and Non-Convex",
+      "Optimization-Stochastic Optimization",
+      "Optimization-Robust Optimization",
+      "Probabilistic Methods-Variational Inference",
+      "Probabilistic Methods-Causal Inference",
+      "Probabilistic Methods-Gaussian Processes",
+      "Reinforcement Learning-Decision and Control",
+      "Reinforcement Learning-Planning",
+      "Reinforcement Learning-Hierarchical RL",
+      "Reinforcement Learning-Robotics",
+      "Social and Economic Aspects of ML-Fairness",
+      "Social and Economic Aspects of ML-Interpretability",
+      "Social and Economic Aspects of ML-Human-AI Interaction",
+      "Social and Economic Aspects of ML-Privacy",
+      "Social and Economic Aspects of ML-Safety",
+      "Social and Economic Aspects of ML-Strategic Behavior",
+      "Theory-Control Theory",
+      "Theory-Learning Theory",
+      "Theory-Algorithmic Game Theory"
+    ];
+    let selectedFields = new Set(ALL_FIELDS);
+
+    // Sets up the checkboxes for field filter
+    function setupFieldFilter() {
+      let html = '';
+      ALL_FIELDS.forEach(field => {
+        const safeId = `checkbox-${CSS.escape(field)}`;
+        html += `
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="${field}" id="${safeId}" checked>
+            <label class="form-check-label" for="${safeId}">
+              ${field}
+            </label>
+          </div>
+        `;
+      });
+      fieldFilterContainer.innerHTML = html;
+
+      ALL_FIELDS.forEach(field => {
+        const checkbox = document.getElementById(`checkbox-${CSS.escape(field)}`);
+        checkbox.addEventListener('change', (e) => {
+          if (e.target.checked) {
+            selectedFields.add(field);
+          } else {
+            selectedFields.delete(field);
+          }
+          renderPapers();
+        });
+      });
+    }
+
+    // We'll load from a single index: assets/index.json.
+    // Then the structure is indexJson[folderName][paperId] => { json_path, first_image }
+
+    let mainIndex = null;
+
+    async function fetchMainIndex() {
+      // single index at assets/index.json
+      const url = 'assets/index.json';
+      const resp = await fetch(url);
+      if (!resp.ok) {
+        throw new Error('Failed to load assets/index.json');
+      }
+      mainIndex = await resp.json();
+    }
+
+    async function loadCategory(category) {
+      // special case if category=Collected
+      if (category === 'Collected') {
+        updateFiltersAndRender();
+        return;
+      }
+
+      // if we already loaded it, skip
+      if (paperCache[category]) {
+        updateFiltersAndRender();
+        return;
+      }
+
+      loadingSpinner.classList.remove('hidden');
+      try {
+        // mainIndex[category] is an object of { paperId: { json_path, first_image, images? }... }
+        const catEntries = Object.entries(mainIndex[category] || {});
+        const tasks = catEntries.map(async ([paperId, info]) => {
+          try {
+            const miniResp = await fetch(`assets/${info.json_path}`);
+            const data = await miniResp.json();
+
+            let images = [];
+            if (info.images) {
+              images = info.images;
+            } else if (info.first_image) {
+              images = [info.first_image];
+            }
+
+            return {
+              id: paperId,
+              category,
+              info: { images },
+              data
+            };
+          } catch(e) {
+            console.error('Error fetching gpt-4o-mini.json for', paperId, e);
+            return null;
+          }
+        });
+        const results = await Promise.all(tasks);
+        paperCache[category] = results.filter(r => r !== null);
+      } catch(e) {
+        console.error('Error loading category:', category, e);
+        paperCache[category] = [];
+      } finally {
+        loadingSpinner.classList.add('hidden');
+        filterRow.style.display = '';
+        papersContainer.style.display = '';
+        paginationControls.style.display = 'none';
+        updateFiltersAndRender();
+      }
+    }
+
+    function updateFiltersAndRender() {
+      currentPage = 1;
+      renderPapers();
+    }
+
+    function renderPapers() {
+      const minQ = parseInt(minQualityInput.value) || 0;
+      const minR = parseInt(minRelevanceInput.value) || 0;
+      const searchTxt = searchInput.value.toLowerCase();
+
+      if (currentCategory === 'Collected') {
+        // gather from all categories loaded
+        const all = [];
+        for (const catKey in paperCache) {
+          all.push(...paperCache[catKey]);
+        }
+        filteredPapers = all.filter(item => {
+          if (!item || !item.data) return false;
+          const { quality, relevance, field, title, author } = item.data;
+          if ((quality || 0) < minQ || (relevance || 0) < minR) return false;
+          if (field && !selectedFields.has(field)) return false;
+          const combined = (title + ' ' + (author||'')).toLowerCase();
+          if (searchTxt && !combined.includes(searchTxt)) {
+            return false;
+          }
+          // must be in collectedPaperIds
+          return collectedPaperIds.has(item.id);
+        });
+      } else {
+        // normal category
+        if (!paperCache[currentCategory]) {
+          papersContainer.innerHTML = '<div class="col">No papers found (not loaded or error)</div>';
+          paginationControls.style.display = 'none';
+          return;
+        }
+        filteredPapers = paperCache[currentCategory].filter(item => {
+          if (!item || !item.data) return false;
+          const { quality, relevance, field, title, author } = item.data;
+          if ((quality || 0) < minQ || (relevance || 0) < minR) return false;
+          if (field && !selectedFields.has(field)) return false;
+          const combined = (title + ' ' + (author||'')).toLowerCase();
+          if (searchTxt && !combined.includes(searchTxt)) {
+            return false;
+          }
+          return true;
+        });
+      }
+
+      if (filteredPapers.length === 0) {
+        papersContainer.innerHTML = '<div class="col">No papers found.</div>';
+        paginationControls.style.display = 'none';
+        return;
+      } else {
+        paginationControls.style.display = 'flex';
+      }
+
+      itemsPerPage = parseInt(itemsPerPageSelect.value);
+      const totalPages = Math.ceil(filteredPapers.length / itemsPerPage);
+      currentPage = Math.max(1, Math.min(currentPage, totalPages));
+      const start = (currentPage - 1) * itemsPerPage;
+      const end = start + itemsPerPage;
+      const pageData = filteredPapers.slice(start, end);
+
+      papersContainer.innerHTML = '';
+      pageData.forEach(({ id, category, info, data }) => {
+        const col = document.createElement('div');
+        col.className = 'col';
+
+        let imagesHTML = '';
+        if (info.images && info.images.length > 0) {
+          // the first is main
+          const mainSrc = info.images[0];
+          imagesHTML = `<img class="paper-image" src="assets/${mainSrc}" data-fullimage="assets/${mainSrc}" alt="Paper Image"/>`;
+          if (info.images.length > 1) {
+            let thumbs = '';
+            for (let i=1; i<info.images.length; i++) {
+              thumbs += `<img src="assets/${info.images[i]}" data-fullimage="assets/${info.images[i]}" alt="Paper Thumb"/>`;
+            }
+            imagesHTML += `
+              <div class="thumbnail-row mt-1">
+                ${thumbs}
+              </div>
+            `;
+          }
+        }
+
+        const shortFields = `
+          <p class="metadata-row">
+            <span class="metadata-label">Quality:</span> ${data.quality || ''}
+            <span class="mx-2">|</span>
+            <span class="metadata-label">Relevance:</span> ${data.relevance || ''}
+            <span class="mx-2">|</span>
+            <span class="metadata-label">Field:</span> ${data.field || ''}
+          </p>
+        `;
+
+        let newTerms = '';
+        if (data.new_terms && typeof data.new_terms === 'object') {
+          const collapseId = 'collapseNewTerms-' + id.replace(/\./g,'-');
+          const entriesHtml = Object.entries(data.new_terms).map(([term, defn]) => {
+            return `<p class='metadata-row'><strong>${term}:</strong> ${defn}</p>`;
+          }).join('');
+          newTerms = `
+            <button class="btn btn-sm btn-outline-secondary mt-2" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
+              Show New Terms
+            </button>
+            <div class="collapse mt-2" id="${collapseId}">
+              ${entriesHtml}
+            </div>
+          `;
+        }
+
+        let authorsHTML = '';
+        if (data.author) {
+          const authorId = 'authorText-' + id.replace(/\./g,'-');
+          authorsHTML = `
+            <div>
+              <span class="truncate-authors" id="${authorId}">${data.author}</span>
+              <a href="#" class="ms-2 small" onclick="toggleAuthorExpand('${authorId}', event)">Show More</a>
+            </div>
+          `;
+        }
+
+        let techComparison = '';
+        if (data.technical_comparison) {
+          const { prior_work, novelty } = data.technical_comparison;
+          techComparison = `
+            <p class="metadata-row"><span class="metadata-label">Prior Work:</span> ${prior_work || ''}</p>
+            <p class="metadata-row"><span class="metadata-label">Novelty:</span> ${novelty || ''}</p>
+          `;
+        }
+
+        const isCollected = collectedPaperIds.has(id);
+        const collectLabel = isCollected ? '★ Collected' : '☆ Collect';
+
+        const cardHTML = `
+          <div class="card paper-card shadow-sm h-100">
+            ${imagesHTML}
+            <div class="card-body">
+              <h5 class="card-title d-flex justify-content-between">
+                <a href="#" style="text-decoration:none;">
+                  ${data.title || ''}
+                </a>
+                <button class="btn btn-sm btn-outline-warning collect-button" onclick="toggleCollectPaper('${id}')">
+                  ${collectLabel}
+                </button>
+              </h5>
+              ${authorsHTML}
+              ${shortFields}
+              <p class="metadata-row"><span class="metadata-label">Relevance Why:</span> ${data.relevance_why || ''}</p>
+              <p class="metadata-row"><span class="metadata-label">Background:</span> ${data.background || ''}</p>
+              <p class="metadata-row"><span class="metadata-label">Contribution:</span> ${data.contribution || ''}</p>
+              ${techComparison}
+              <p class="metadata-row"><span class="metadata-label">Key Innovation:</span> ${data.key_innovation || ''}</p>
+              <p class="metadata-row"><span class="metadata-label">Real World Impact:</span> ${data.real_world_impact || ''}</p>
+              <p class="metadata-row"><span class="metadata-label">Limitations:</span> ${data.limitations || ''}</p>
+              ${newTerms}
+              <p class="metadata-row"><span class="metadata-label">Open Sourcing:</span> ${data.open_sourcing || ''}</p>
+            </div>
+          </div>
+        `;
+        col.innerHTML = cardHTML;
+        papersContainer.appendChild(col);
+      });
+
+      currentPageSpan.textContent = currentPage;
+      totalPagesSpan.textContent = Math.ceil(filteredPapers.length / itemsPerPage);
+
+      attachZoomHandlers();
+    }
+
+    function toggleAuthorExpand(authorId, event) {
+      event.preventDefault();
+      const authorElem = document.getElementById(authorId);
+      if (!authorElem) return;
+      authorElem.classList.toggle('truncate-authors');
+      const link = event.target;
+      if (link.innerText === 'Show More') {
+        link.innerText = 'Show Less';
+      } else {
+        link.innerText = 'Show More';
+      }
+    }
+
+    function toggleCollectPaper(paperId) {
+      if (collectedPaperIds.has(paperId)) {
+        collectedPaperIds.delete(paperId);
+      } else {
+        collectedPaperIds.add(paperId);
+      }
+      localStorage.setItem('collectedPaperIds', JSON.stringify(Array.from(collectedPaperIds)));
+      renderPapers();
+    }
+
+    function attachZoomHandlers() {
+      const images = document.querySelectorAll('.paper-image, .thumbnail-row img');
+      images.forEach(img => {
+        img.addEventListener('click', () => {
+          const fullImageSrc = img.getAttribute('data-fullimage');
+          zoomModalBody.innerHTML = `<img src="${fullImageSrc}" class='img-fluid'/>`;
+          zoomModal.show();
+        });
+      });
+    }
+
+    exportPdfBtn.addEventListener('click', exportCollectedPapersToPDF);
+    function exportCollectedPapersToPDF() {
+      const doc = new jsPDF({ unit: 'pt', format: 'letter' });
+
+      // gather from all known categories
+      let allPapers = [];
+      for (const catKey in paperCache) {
+        allPapers.push(...paperCache[catKey]);
+      }
+
+      // filter those that are in collectedPaperIds
+      const collectedOnly = allPapers.filter(item => collectedPaperIds.has(item.id));
+
+      const now = new Date();
+      const yyyy = now.getFullYear();
+      const mm = String(now.getMonth() + 1).padStart(2, '0');
+      const dd = String(now.getDate()).padStart(2, '0');
+      const dateStr = `${yyyy}-${mm}-${dd}`;
+      const paperCount = collectedOnly.length;
+      const filename = `${dateStr}_${paperCount}_collected_papers.pdf`;
+
+      if (paperCount === 0) {
+        alert('No papers collected yet.');
+        return;
+      }
+
+      doc.setFont('helvetica', 'normal');
+      let yPos = 40;
+      doc.setFontSize(14);
+      doc.text(`Collected Papers (${paperCount})`, 40, yPos);
+      yPos += 20;
+
+      doc.setFontSize(10);
+      collectedOnly.forEach((paper, index) => {
+        const { id, data } = paper;
+        if (yPos > 700) {
+          doc.addPage();
+          yPos = 40;
+        }
+        doc.setFont('', 'bold');
+        doc.text(`${index + 1}. Title: ${data.title || ''}`, 40, yPos);
+        yPos += 14;
+
+        doc.setFont('', 'normal');
+        if (data.author) {
+          const authors = `Authors: ${data.author}`;
+          const splitted = doc.splitTextToSize(authors, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+
+        const qrf = `Quality: ${data.quality || ''} | Relevance: ${data.relevance || ''} | Field: ${data.field || ''}`;
+        doc.text(qrf, 40, yPos);
+        yPos += 14;
+
+        if (data.relevance_why) {
+          const splitted = doc.splitTextToSize(`Relevance Why: ${data.relevance_why}`, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+        if (data.background) {
+          const splitted = doc.splitTextToSize(`Background: ${data.background}`, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+        if (data.contribution) {
+          const splitted = doc.splitTextToSize(`Contribution: ${data.contribution}`, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+        if (data.technical_comparison) {
+          const { prior_work, novelty } = data.technical_comparison;
+          if (prior_work) {
+            const splitted = doc.splitTextToSize(`Prior Work: ${prior_work}`, 500);
+            doc.text(splitted, 40, yPos);
+            yPos += splitted.length * 12 + 6;
+          }
+          if (novelty) {
+            const splitted = doc.splitTextToSize(`Novelty: ${novelty}`, 500);
+            doc.text(splitted, 40, yPos);
+            yPos += splitted.length * 12 + 6;
+          }
+        }
+        if (data.key_innovation) {
+          const splitted = doc.splitTextToSize(`Key Innovation: ${data.key_innovation}`, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+        if (data.real_world_impact) {
+          const splitted = doc.splitTextToSize(`Real World Impact: ${data.real_world_impact}`, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+        if (data.limitations) {
+          const splitted = doc.splitTextToSize(`Limitations: ${data.limitations}`, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+        if (data.new_terms) {
+          let termsStr = 'New Terms:';
+          for (const [term, definition] of Object.entries(data.new_terms)) {
+            termsStr += `\n - ${term}: ${definition}`;
+          }
+          const splitted = doc.splitTextToSize(termsStr, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+        if (data.open_sourcing) {
+          const splitted = doc.splitTextToSize(`Open Sourcing: ${data.open_sourcing}`, 500);
+          doc.text(splitted, 40, yPos);
+          yPos += splitted.length * 12 + 6;
+        }
+
+        yPos += 20;
+      });
+
+      doc.save(filename);
+    }
+
+    // pagination events
+    prevPageBtn.addEventListener('click', () => {
+      currentPage = Math.max(1, currentPage - 1);
+      renderPapers();
+    });
+    nextPageBtn.addEventListener('click', () => {
+      const totalPages = Math.ceil(filteredPapers.length / itemsPerPage);
+      currentPage = Math.min(totalPages, currentPage + 1);
+      renderPapers();
+    });
+    itemsPerPageSelect.value = '10';
+    itemsPerPageSelect.addEventListener('change', () => {
+      currentPage = 1;
+      renderPapers();
+    });
+    goToPageBtn.addEventListener('click', () => {
+      const totalPages = Math.ceil(filteredPapers.length / itemsPerPage);
+      let t = parseInt(jumpToPageInput.value);
+      if (!t || t < 1) t = 1;
+      if (t > totalPages) t = totalPages;
+      currentPage = t;
+      renderPapers();
+    });
+
+    applySearchBtn.addEventListener('click', () => {
+      currentPage = 1;
+      renderPapers();
+    });
+
+    // tab clicks
+    categoryTabs.addEventListener('click', (evt) => {
+      if (evt.target.classList.contains('nav-link')) {
+        evt.preventDefault();
+        document.querySelectorAll('#categoryTabs .nav-link').forEach(tab => tab.classList.remove('active'));
+        evt.target.classList.add('active');
+        currentCategory = evt.target.getAttribute('data-category');
+        currentPage = 1;
+        loadCategory(currentCategory);
+      }
+    });
+
+    (async function init(){
+      // load main index first
+      loadingSpinner.classList.remove('hidden');
+      try {
+        await fetchMainIndex();
+      } catch(e) {
+        console.error(e);
+      } finally {
+        loadingSpinner.classList.add('hidden');
+      }
+      setupFieldFilter();
+      // load Arxiv-Sound by default
+      loadCategory('Arxiv-Sound');
+    })();
+  </script>
+  
+</body>
+</html>

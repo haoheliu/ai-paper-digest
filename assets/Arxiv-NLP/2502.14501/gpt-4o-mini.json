@@ -1,0 +1,21 @@
+{
+    "title": "Towards a Perspectivist Turn in Argument Quality Assessment",
+    "author": "Julia Romberg (GESIS - Leibniz Institute for the Social Sciences), Maximilian Maurer (GESIS - Leibniz Institute for the Social Sciences), Henning Wachsmuth (Leibniz University Hannover), Gabriella Lapesa (GESIS - Leibniz Institute for the Social Sciences)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper discusses argument quality assessment methods which could be relevant for improving automated evaluation systems in audio-related arguments and discussions.",
+    "field": "Applications-Language",
+    "background": "This paper aims to explore subjective assessments of argument quality, acknowledging the variability in evaluation by different annotators due to personal and contextual factors.",
+    "contribution": "The paper introduces a systematic review of existing argument quality datasets to propose a framework for more diverse and representative assessments.",
+    "technical_comparison": {
+        "prior_work": "Previous argument quality assessments primarily relied on aggregated data, which often masked individual evaluator perspectives and biases.",
+        "novelty": "This work emphasizes the importance of non-aggregated annotations to better capture the variety of perspectives, allowing for more nuanced understanding and modeling of argument quality."
+    },
+    "key_innovation": "Advocates for a perspectivist approach in argument quality assessment which treats individual annotator perspectives as valuable rather than as errors.",
+    "real_world_impact": "This shift could significantly enhance the design of argument analysis tools, making them more inclusive of diverse opinions and potentially improving user engagement in discussions.",
+    "limitations": "The authors note challenges related to the lack of socio-demographic diversity and transparency in existing datasets.",
+    "new_terms": {
+        "perspectivist turn": "**Perspectivist turn** refers to an analytical approach that prioritizes multiple viewpoints and interpretations in assessing data and outcomes, particularly in subjective tasks."
+    },
+    "open_sourcing": "The resulting database of the reviewed datasets is publicly accessible at https://github.com/juliaromberg/perspectivist-turn-aq"
+}

@@ -1,0 +1,16 @@
+[project]
+name = "llm-pdf-reader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipdb>=0.13.13",
+    "marker-pdf",
+    "openai>=1.63.2",
+    "pymupdf>=1.25.3",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv.sources]
+marker-pdf = { git = "https://github.com/VikParuchuri/marker.git" }

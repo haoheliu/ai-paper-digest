@@ -1,0 +1,21 @@
+{
+    "title": "Harnessing PDF Data for Improving Japanese Large Multimodal Models",
+    "author": "Jeonghun Baek (The University of Tokyo), Akiko Aizawa (National Institute of Informatics), Kiyoharu Aizawa (The University of Tokyo)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods presented for leveraging PDF data can provide insights into data extraction techniques that may improve audio-language modeling and other tasks within Haohe Liu's research domain.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Improving performance in Japanese Large Multimodal Models by effectively harnessing information from PDFs to create high-quality training data without manual annotation.",
+    "contribution": "This paper introduces an automated pipeline for extracting image-text pairs from PDFs to enhance Japanese large multimodal model performance, achieving performance gains of up to 13.8% on specific benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Existing models often rely on translated datasets and lack culturally specific information, which limits their adaptability and performance.",
+        "novelty": "This work automates the extraction and pairing of image-text from PDFs, eliminating manual efforts and enhancing training sets with culturally relevant content."
+    },
+    "key_innovation": "Develops a fully automated pipeline for image-text extraction from various types of Japanese PDFs, increasing both the quantity and quality of training data.",
+    "real_world_impact": "Potentially improves the performance of Japanese multimodal models, which can be beneficial for applications like education, cultural preservation, and various AI-driven technologies in Japan.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "Large Multimodal Models (LMMs)": "**Large Multimodal Models (LMMs)** are AI models that process and integrate multiple forms of data, such as text and images, often used for tasks that require understanding across different modalities."
+    },
+    "open_sourcing": "The authors plan to make the source code and data publicly available upon acceptance."
+}

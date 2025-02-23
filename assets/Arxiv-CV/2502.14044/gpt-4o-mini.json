@@ -1,0 +1,22 @@
+{
+    "title": "Enhancing Cognition and Explainability of Multimodal Foundation Models with Self-Synthesized Data",
+    "author": "Yucheng Shi (University of Georgia), Quanzheng Li (Massachusetts General Hospital and Harvard Medical School), Jin Sun (University of Georgia), Xiang Li (Massachusetts General Hospital and Harvard Medical School), Ninghao Liu (University of Georgia)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses methods for improving model explainability and classification performance using generated data, which could inform techniques for enhancing audio classification models through similar self-synthesized approaches.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "The research aims to enhance large multimodal models for accurate visual explanations while reducing reliance on extensive manual labeling.",
+    "contribution": "This paper introduces a visual rejection sampling framework to improve Large Multimodal Models\u2019 cognition and explainability, achieving improved accuracy and response quality in specialized visual tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with fine-grained visual tasks due to lack of specific annotations for visual features and risked shortcut learning with inadequate training data.",
+        "novelty": "This work enhances model performance iteratively by self-synthesizing interpretable data, refining visual concept selection, and employing a reward model-free filtering method."
+    },
+    "key_innovation": "The method generates detailed visual features specific to each image, creating richer and more interpretable training data without extensive manual labeling.",
+    "real_world_impact": "The improved model retains general capabilities while being better suited for domain-specific tasks, enhancing its usefulness in applied settings like healthcare and wildlife studies where precise identification is crucial.",
+    "limitations": "No.",
+    "new_terms": {
+        "visual rejection sampling": "**Visual rejection sampling** is a technique where multiple explanations are generated, and the best-fit explanation is selected based on predefined criteria to ensure higher quality training data.",
+        "Information Bottleneck (IB)": "**Information Bottleneck (IB)** is a method that seeks a compressed representation of data which retains maximum information about the relevant variable (e.g., the image while removing irrelevant features)."
+    },
+    "open_sourcing": ""
+}

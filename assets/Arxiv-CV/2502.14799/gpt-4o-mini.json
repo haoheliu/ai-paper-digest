@@ -1,0 +1,22 @@
+{
+    "title": "A Survey on Text-Driven 360-Degree Panorama Generation",
+    "author": "Hai Wang (University College London), Xiaoyu Xiang (Meta Reality Labs), Weihao Xia (University College London), Jing-Hao Xue (University College London)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper discusses methods for generating 360-degree panoramas from text, which may inspire novel techniques for audio-data representation, potentially enhancing Haohe's audio generation work through improved visual contexts for sound-related tasks.",
+    "field": "Applications-Creative AI",
+    "background": "The paper explores the synthesis of 360-degree panoramic images directly from textual descriptions, enabling immersive visual content that can be useful in VR, AR, and other creative domains.",
+    "contribution": "This survey introduces a comprehensive overview of text-driven 360-degree panorama generation methods, identifying key algorithms and their applications while outlining current challenges and future research directions.",
+    "technical_comparison": {
+        "prior_work": "Previous studies focus on generating 2D images or limited field-of-view panoramas, often struggling with resolution and geometrical consistency in 360-degree outputs.",
+        "novelty": "This work systematically categorizes methods into two paradigms: Text-Only Generation and Text-Driven Narrow Field-of-View Outpainting, providing a clear framework for comparison."
+    },
+    "key_innovation": "Presents a structured approach to text-driven panorama generation, detailing various models and datasets, thus establishing a foundation for future work in the field.",
+    "real_world_impact": "The advancements in 360-degree panorama generation can transform content creation in virtual reality and gaming, leading to richer user experiences.",
+    "limitations": "The methods examined still face challenges in resolution and maintaining geometric fidelity, particularly at the poles of the panorama.",
+    "new_terms": {
+        "equirectangular projection": "**Equirectangular projection** is a mapping of spherical images into a rectangular format, which maintains consistent longitudinal spacing but can introduce distortions, especially at the poles.",
+        "narrow field-of-view (NFoV)": "**Narrow field-of-view (NFoV)** refers to a limited angle of sight that captures a smaller section of a scene, contrasting with the broad perspective covered by 360-degree imagery."
+    },
+    "open_sourcing": "A curated project page with relevant resources and research papers is available at https://littlewhitesea.github.io/Text-Driven-Pano-Gen/"
+}

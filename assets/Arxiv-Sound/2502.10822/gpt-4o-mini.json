@@ -1,0 +1,21 @@
+{
+    "title": "NeuroAMP: A Novel End-to-end General Purpose Deep Neural Amplifier for Personalized Hearing Aids",
+    "author": "Shafique Ahmed (unknown), Ryandhimas E. Zezario (unknown), Hui-Guan Yuan (unknown), Amir Hussain (unknown), Hsin-Min Wang (IEEE Senior Member, unknown), Wei-Ho Chung (unknown), Yu Tsao (IEEE Senior Member, unknown), ..., Amir Hussain (unknown)",
+    "quality": 8,
+    "relevance": 8,
+    "relevance_why": "The paper provides insights into using deep learning for personalized hearing aids, which aligns with Haohe Liu's research interests in audio processing and enhancement, particularly in creating adaptable solutions for various audio contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves enhancing the audio signal for individuals with hearing loss, utilizing a deep neural network approach for personalized amplification in hearing aids.",
+    "contribution": "This paper introduces NeuroAMP, a deep neural network model for end-to-end personalized amplification in hearing aids, demonstrating superior performance compared to conventional methods.",
+    "technical_comparison": {
+        "prior_work": "Conventional hearing aids rely on modular amplifier strategies that can be ineffective in dynamic acoustic environments.",
+        "novelty": "NeuroAMP uses a deep learning architecture to process audio inputs directly, providing adaptability to user-specific hearing loss profiles."
+    },
+    "key_innovation": "The ability to integrate amplification and noise reduction in a single neural network model, enabling a more seamless and effective hearing aid experience.",
+    "real_world_impact": "NeuroAMP has the potential to significantly improve the quality of life for individuals with hearing loss by enhancing speech intelligibility and providing a more user-friendly hearing aid experience.",
+    "limitations": "No direct user feedback integration mentioned, which may limit personalization over time.",
+    "new_terms": {
+        "Denoising NeuroAMP": "**Denoising NeuroAMP** refers to an extended version of the NeuroAMP model, which combines speech enhancement with amplification capabilities for improved performance in noisy environments."
+    },
+    "open_sourcing": ""
+}
