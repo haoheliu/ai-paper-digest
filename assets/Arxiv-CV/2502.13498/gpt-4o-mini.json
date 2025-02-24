@@ -1,0 +1,21 @@
+{
+    "title": "Improving Collision-Free Success Rate For Object Goal Visual Navigation Via Two-Stage Training With Collision Prediction",
+    "author": "Shiwei Lian (Peking University), Feitian Zhang (Peking University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The methods proposed can enhance navigation strategies in complex environments, which may be applicable to audio-visual integration in multi-modal tasks, potentially benefiting applications in audio generation systems.",
+    "field": "Reinforcement Learning-Robotics",
+    "background": "The task involves navigating to a specific target object using only RGB visual inputs while avoiding obstacles, a key challenge in robotic navigation.",
+    "contribution": "This paper introduces a two-stage training method with collision prediction to enhance the collision-free success rate of existing navigation models, achieving significant improvements in navigation performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often neglect collision during training, leading to conservative navigation policies that limit task success.",
+        "novelty": "This work implements a dual training stage: one for learning to predict collisions during exploration and another for navigating to the target while minimizing collision risks."
+    },
+    "key_innovation": "The integration of a collision prediction module during training stages allows agents to avoid over-conservatism while learning effective navigation paths.",
+    "real_world_impact": "The proposed methods can directly benefit robotic navigation systems in dynamic environments, potentially leading to safer and more efficient robots.",
+    "limitations": "Limitations include reliance on RGB visuals which may hinder performance in environments with poor lighting or visibility.",
+    "new_terms": {
+        "collision-free success": "**Collision-free success** refers to a navigation task being deemed successful only if the agent reaches the target without any collisions occurring along the path."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Money Recognition for the Visually Impaired: A Case Study on Sri Lankan Banknotes",
+    "author": "Akshaan Bandara (Informatics Institute of Technology, Colombo, Sri Lanka)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper discusses a method for real-time currency recognition, which employs deep learning techniques that could inspire analogous applications in audio generation or enhancement, such as analyzing audio cues or signals.",
+    "field": "Applications-Computer Vision",
+    "background": "This study aims to develop a mobile application that helps visually impaired individuals identify Sri Lankan banknotes using an object detection model trained on a custom dataset.",
+    "contribution": "This research introduces a user-friendly currency recognition system using a fine-tuned EfficientDet model to solve the identification challenges faced by visually impaired individuals, achieving an average precision of 0.9847.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for currency recognition often lacked user-friendly interfaces and were not optimized for real-time performance, limiting their practical application for visually impaired users.",
+        "novelty": "This work improves by implementing a lightweight, efficient object detection model tailored for mobile use, ensuring accurate real-time currency identification without needing internet connectivity."
+    },
+    "key_innovation": "The use of a scalable object detection model that allows for accurate real-time currency recognition, focusing on ease of use for visually impaired users.",
+    "real_world_impact": "This application significantly enhances the independence and security of visually impaired users during financial transactions by allowing them to identify banknotes accurately and quickly.",
+    "limitations": "The system struggles with low visibility conditions at night and experiences slight delays in prediction due to video feed processing.",
+    "new_terms": {
+        "EfficientDet": "**EfficientDet** is a family of scalable object detection models that optimize accuracy and efficiency for various applications, primarily on mobile devices."
+    },
+    "open_sourcing": ""
+}

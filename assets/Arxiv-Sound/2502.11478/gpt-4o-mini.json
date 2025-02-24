@@ -1,0 +1,22 @@
+{
+    "title": "TAPS: Throat and Acoustic Paired Speech Dataset for Deep Learning-Based Speech Enhancement",
+    "author": "Yunsik Kim (Pohang University of Science and Technology), Yonghun Song (Pohang University of Science and Technology), Yoonyoung Chung (Pohang University of Science and Technology), ..., Yoonyoung Chung (Pohang University of Science and Technology)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The dataset and findings about throat microphone speech enhancement can directly inform Dr. Liu's work in audio quality enhancement and restoration, especially in developing models for low-quality audio input.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a dataset of paired throat and acoustic microphone recordings from speakers to aid in training speech enhancement models aimed at improving speech intelligibility in noisy environments.",
+    "contribution": "This paper introduces the TAPS dataset to solve the challenge of lack of standardized throat microphone recordings, achieving improved speech quality and content restoration in noisy environments.",
+    "technical_comparison": {
+        "prior_work": "Previous studies often relied on limited datasets without considering microphone mismatch or high-frequency content loss.",
+        "novelty": "This work provides a comprehensive dataset specifically addressing the synchronization of throat and acoustic microphone recordings, enhancing model training and evaluation."
+    },
+    "key_innovation": "Develops a standardized dataset for throat microphone speech enhancement while addressing signal mismatch, significantly improving the quality and intelligibility of reconstructed audio.",
+    "real_world_impact": "Facilitates advancements in wearable communication technology in noisy environments, which can have applications in various fields such as security, healthcare, and emergency response.",
+    "limitations": "No specific limitations are mentioned in the paper.",
+    "new_terms": {
+        "throat microphone": "**Throat microphone** refers to a device that captures sound vibrations from the throat, typically used to enhance voice clarity in noisy environments.",
+        "speech enhancement models": "**Speech enhancement models** are algorithms designed to improve the quality of speech signals, particularly those corrupted by background noise or distortions."
+    },
+    "open_sourcing": "The TAPS dataset is available on Hugging Face Hub."
+}

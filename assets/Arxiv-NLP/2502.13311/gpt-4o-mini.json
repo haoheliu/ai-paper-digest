@@ -1,0 +1,22 @@
+{
+    "title": "Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors",
+    "author": "Jian Wang (The Hong Kong Polytechnic University), Yinpei Dai (University of Michigan), Yichi Zhang (University of Michigan), Ziqiao Ma (University of Michigan), Wenjie Li (The Hong Kong Polytechnic University), Joyce Chai (University of Michigan), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed Trace-and-Verify (TRAVER) framework for coding tutoring utilizes knowledge tracing and dialogue verification, which could inform similar methodologies in audio and speech tasks for adaptive tutoring systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on enhancing coding tutoring via a dialogue process where an Intelligent Tutoring System (ITS) guides students to complete coding tasks, while adapting to their varying levels of knowledge.",
+    "contribution": "This paper introduces the Trace-and-Verify (TRAVER) agent workflow to solve the challenge of personalized coding tutoring, achieving higher success rates in guiding students.",
+    "technical_comparison": {
+        "prior_work": "Previous tutoring agents primarily operated reactively or lacked effective evaluation methodologies, limiting their adaptability.",
+        "novelty": "This work improves tutoring by integrating turn-by-turn verification and knowledge tracing, ensuring responses are tailored to student knowledge gaps."
+    },
+    "key_innovation": "Combines knowledge state estimation and dialogue verification into a cohesive framework, enabling proactive and adaptive tutoring interactions.",
+    "real_world_impact": "The proposed framework could enhance the effectiveness of educational technologies in coding, potentially leading to better learning outcomes in programming education.",
+    "limitations": "Simulated students may not accurately represent real learners' behaviors, and the long-term effectiveness of tutoring agents with actual users remains untested.",
+    "new_terms": {
+        "Trace-and-Verify (TRAVER)": "**Trace-and-Verify (TRAVER)** is an agent workflow that integrates knowledge tracing and a verifier model to enhance dialogue-based tutoring by adapting to student responses in real-time.",
+        "knowledge tracing (KT)": "**Knowledge tracing** refers to the process of monitoring a student's knowledge state to adjust tutoring strategies appropriately."
+    },
+    "open_sourcing": "Code and data available at [https://github.com/iwangjian/Coding-Tutor](https://github.com/iwangjian/Coding-Tutor)"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Multi-vision-based Picking Point Localisation of Target Fruit for Harvesting Robots",
+    "author": "C. Beldek (University of Wollongong), E. Sariyildiz (University of Wollongong), A. Dunn (University of Wollongong), S. L. Phung (University of Wollongong), J. Cunningham (University of Wollongong), G. Alici (University of Wollongong), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The methodologies employed in this paper for fruit localization through multi-vision systems could lend insights into audio-visual integration and potentially improve audio source separation techniques using similar multi-modal approaches.",
+    "field": "Applications-Vision",
+    "background": "The task involves accurately localizing the picking point of fruits for robotic harvesting to prevent damage and increase efficiency.",
+    "contribution": "This paper introduces multi-vision-based localization strategies to enhance the picking accuracy of robotic harvesting, achieving an 88.8% success rate with a Mean Euclidean Distance of 4.40 mm.",
+    "technical_comparison": {
+        "prior_work": "Previous methods using single-camera setups were less accurate, with picking success rates around 77.7% and higher localization error.",
+        "novelty": "This work improves localization accuracy by integrating multiple RGB-D cameras and employing ensemble learning methods for prediction."
+    },
+    "key_innovation": "The combination of analytical and machine learning methods allows for more accurate detection of picking points, reducing localization errors significantly compared to traditional methods.",
+    "real_world_impact": "The findings have the potential to improve the efficiency of automated harvesting, reducing fruit damage and increasing yield in agricultural practices.",
+    "limitations": "The method may struggle with fruit varieties that have unique shapes or are partially hidden due to environmental factors.",
+    "new_terms": {
+        "RGB-D cameras": "**RGB-D Cameras** are devices that capture both color (RGB) and depth (D) information, allowing for 3D perception of scenes."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "A Racing Dataset and Baseline Model for Track Detection in Autonomous Racing",
+    "author": "Shreya Ghosh (Purdue University), Yi-Huan Chen (Purdue University), Ching-Hsiang Huang (Purdue University), Abu Shafin Mohammad Mahdee Jameel (Purdue University), Chien Chou Ho (Purdue University), Aly El Gamal (Purdue University), Samuel Labi (Purdue University), Chien Chou Ho (Purdue University)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "Detecting tracks in racing scenarios to support autonomous vehicles by recognizing track boundaries in varying visual conditions.",
+    "contribution": "This paper introduces the RoRaTrack dataset and RaceGAN to solve track detection issues in racing environments, achieving superior accuracy compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like WeBACNN and traditional lane detection techniques struggled with racing conditions due to lack of specific training data and varied environmental challenges.",
+        "novelty": "This work improves by focusing on multi-camera data collection specifically designed for autonomous racing environments, thus providing a tailored dataset and model."
+    },
+    "key_innovation": "The integration of a GAN-based approach specifically tuned for detecting tracks under challenging conditions faced in racing, including high-speed blurriness and color imbalances.",
+    "real_world_impact": "This dataset and model can significantly enhance the development of robust self-driving car systems in racing scenarios and contribute to public safety in autonomous navigation.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "RoRaTrack": "**RoRaTrack** is an open-source dataset specifically designed for autonomous racing, providing annotated multi-camera image data for track detection."
+    },
+    "open_sourcing": "The dataset and code for this work are available at github.com/RaceGAN."
+}

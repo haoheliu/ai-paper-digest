@@ -1,0 +1,22 @@
+{
+    "title": "Evaluating Machine Translation for Multilingual Bug Reports",
+    "author": "Avinash Patil (Juniper Networks Inc.), Aryan Jadon (Juniper Networks Inc.)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The study evaluates the performance of different machine translation systems, which could inform future audio-related language translation tasks by providing insights on effective translation methodologies and tools that might be adapted for audio and speech processing.",
+    "field": "Applications-Language",
+    "background": "The study focuses on translating bug reports from multiple languages to English in the software development context, highlighting the challenges of technical jargon and domain-specific terminology in machine translation.",
+    "contribution": "This research introduces a comprehensive evaluation framework for machine translation systems to tackle multilingual bug reports, achieving insights into their translation quality and effectiveness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked systematic evaluations against specialized technical texts, limiting their applicability in software engineering.",
+        "novelty": "This work evaluates multiple machine translation systems using diverse automatic metrics, providing a detailed comparative analysis in a targeted domain."
+    },
+    "key_innovation": "Establishes a framework for evaluating machine translation quality in the context of software engineering, emphasizing the need for domain adaptation.",
+    "real_world_impact": "The findings can lead to improved collaboration in global software development by enhancing the accuracy of translations in bug-triaging workflows, potentially increasing efficiency in issue resolution.",
+    "limitations": "The research is limited to bug reports from a single project, which may not generalize to other software systems or contexts.",
+    "new_terms": {
+        "machine translation (MT)": "**Machine translation (MT)** refers to the automated process of translating text or speech from one language to another using computer software.",
+        "bug reports": "**Bug reports** are documents that describe defects or issues in a software application, usually submitted by users or developers, which require resolution."
+    },
+    "open_sourcing": "The code and dataset for this study are available at GitHub [https://github.com/av9ash/gitbugs/tree/main/multilingual](https://github.com/av9ash/gitbugs/tree/main/multilingual)."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "A deep learning framework for efficient pathology image analysis",
+    "author": "Peter Neidlinger (TUD Dresden University of Technology), Tim Lenz (TUD Dresden University of Technology), Sebastian Foersch (University Medical Center Mainz), Chiara M. L. Loeffler (TUD Dresden University of Technology), Jan Clusmann (University Hospital RWTH Aachen), Marco Gustav (TUD Dresden University of Technology), Lawrence A. Shaktah (TUD Dresden University of Technology), Jakob Nikolas Kather (TUD Dresden University of Technology)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The EAGLE framework introduces an innovative method for image analysis that emphasizes feature selection and efficiency, which could inform audio feature extraction techniques by promoting focused data processing.",
+    "field": "Applications-Healthcare",
+    "background": "This research develops an efficient deep learning framework to analyze pathology images by selectively focusing on clinically relevant regions within whole slide images.",
+    "contribution": "This paper introduces EAGLE (Efficient Approach for Guided Local Examination) to solve the inefficiencies in current pathology image analysis, achieving a processing time of 2.27 seconds per slide, improving efficiency by over 99% compared to existing models.",
+    "technical_comparison": {
+        "prior_work": "Previous models required processing thousands of image tiles per whole slide image, leading to significant computational inefficiencies.",
+        "novelty": "This work improves by selectively analyzing informative regions instead of all image tiles, thereby reducing the computational load while maintaining performance."
+    },
+    "key_innovation": "EAGLE uniquely focuses on a small subset of informative tiles, mirroring pathologists' diagnostic strategies, enabling quicker and more interpretable results.",
+    "real_world_impact": "The framework enhances the efficiency of pathology workflows, allowing for real-time analysis and improving accessibility in clinical settings, which could ultimately lead to better patient outcomes.",
+    "limitations": "The performance may vary in highly heterogeneous tumors or specific tissue analyses not addressed in the study.",
+    "new_terms": {
+        "whole slide images (WSIs)": "**Whole slide images (WSIs)** are high-resolution digital representations of tissue samples used in pathology, allowing for comprehensive analysis of specimens.",
+        "AUROC (Area Under Receiver Operating Characteristic Curve)": "**AUROC** is a performance measurement for classification problems at various thresholds, reflecting the model's ability to distinguish between classes."
+    },
+    "open_sourcing": ""
+}

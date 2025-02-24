@@ -1,0 +1,22 @@
+{
+    "title": "The Self-Improvement Paradox: Can Language Models Bootstrap Reasoning Capabilities without External Scaffolding?",
+    "author": "Yutao Sun (Zhejiang University), Mingshuai Chen (Zhejiang University), Tiancheng Zhao (Binjiang Institute of Zhejiang University), Ruochen Xu (Om AI Research), Zilun Zhang (Zhejiang University), Jianwei Yin (Zhejiang University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods proposed in this paper, particularly in self-improvement of large language models, may provide insights into efficient data generation approaches relevant for audio and speech processing systems, such as generating high-quality training data for models used in audio tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research investigates whether large language models can improve their own reasoning abilities by generating synthetic question-answer pairs without relying on external data.",
+    "contribution": "This paper introduces CRESCENT, a framework for generating synthetic question-answer data that enhances reasoning capabilities in large language models, achieving improvements in mathematical reasoning.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for fine-tuning relied heavily on external seed datasets or third-party models, which limited true self-improvement potential.",
+        "novelty": "CRESCENT operates fully autonomously to create synthetic datasets that are both diverse and relevant, addressing a gap left by earlier approaches."
+    },
+    "key_innovation": "Combines bait prompting, self-deduplication, and consensus enhancement techniques to autonomously improve the reasoning capabilities of language models.",
+    "real_world_impact": "This framework could significantly reduce the need for extensive human-curated datasets in AI training, making model enhancement more efficient and scalable in real-world applications.",
+    "limitations": "The framework's effectiveness is currently evaluated only in the domain of mathematical reasoning, limiting its scalability to other domains.",
+    "new_terms": {
+        "CRESCENT": "**CRESCENT** is a framework designed for generating high-quality synthetic question-answer pairs to enable self-improvement in language models.",
+        "bait prompting": "**Bait prompting** refers to the technique of providing specific prompts to a model to elicit relevant questions or outputs in a given domain."
+    },
+    "open_sourcing": ""
+}

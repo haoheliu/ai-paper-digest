@@ -1,0 +1,21 @@
+{
+    "title": "Unshackling Context Length: An Efficient Selective Attention Approach through Query-Key Compression",
+    "author": "Haoyu Wang (Huawei Noah's Ark Lab), Tong Teng (Huawei Noah's Ark Lab), Tianyu Guo (Huawei Noah's Ark Lab), An Xiao (Huawei Noah's Ark Lab), Duyu Tang (Huawei CBG), Hanting Chen (Huawei Noah's Ark Lab), Yunhe Wang (Huawei Noah's Ark Lab)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper proposes a token-level selective attention method to improve the context length handling in Language Models, which can be applicable to tasks in audio and text generation related to comprehension and retrieval capabilities in noisy or lengthy contextual data.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The study addresses the challenge of efficiently processing long-context sequences in large language models, which is essential in tasks requiring contextual understanding and retrieval from extensive information.",
+    "contribution": "This paper introduces Efficient Selective Attention (ESA) to solve the problem of computational inefficiency in processing long-context sequences, achieving significant performance gains while reducing complexity.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for long-context attention either use permanent token eviction or fixed chunk selections, which may overlook critical information.",
+        "novelty": "ESA offers a more flexible token selection process, applying adaptive token selection without permanently discarding tokens and using compressed representations to reduce computational overhead."
+    },
+    "key_innovation": "Integrates query-key compression alongside a novel proximity influence mechanism to enhance the selection of relevant tokens without significant computational overhead.",
+    "real_world_impact": "Enhances the efficiency of language models, which can improve applications in NLP tasks requiring long-context understanding, potentially benefiting sectors such as education, customer service, and automated content generation.",
+    "limitations": "The method assumes uniform compression ratios for queries and keys across layers, which may not be optimal.",
+    "new_terms": {
+        "Efficient Selective Attention": "**Efficient Selective Attention (ESA)** is a method proposed to optimize the attention mechanism in transformer models by adaptively selecting relevant tokens based on their importance relative to the current contextual tokens."
+    },
+    "open_sourcing": ""
+}

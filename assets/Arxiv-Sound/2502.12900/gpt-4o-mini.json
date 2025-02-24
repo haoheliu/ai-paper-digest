@@ -1,0 +1,22 @@
+{
+    "title": "Soundwave: Less is More for Speech-Text Alignment in LLMs",
+    "author": "Yuhao Zhang (The Chinese University of Hong Kong, Shenzhen), Zhiheng Liu (The Chinese University of Hong Kong, Shenzhen), Fan Bu (The Chinese University of Hong Kong, Shenzhen), Ruiyu Zhang (The Chinese University of Hong Kong, Shenzhen), Benyou Wang (The Chinese University of Hong Kong, Shenzhen), Haizhou Li (The Chinese University of Hong Kong, Shenzhen)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces novel methods for efficient speech processing and text alignment, which could enhance Haohe Liu's research in text-to-audio generation and audio-language modeling by providing insights into efficient data usage.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper tackles the challenge of aligning speech and text representations in large language models while significantly reducing the amount of training data required.",
+    "contribution": "Soundwave introduces a two-stage training framework and novel architecture to solve the representation gap and sequence length inconsistency issues, achieving state-of-the-art performance with only ten thousand hours of training data.",
+    "technical_comparison": {
+        "prior_work": "Previous models like Qwen2-Audio require extensive datasets up to 500,000 hours, limiting accessibility and scalability.",
+        "novelty": "Soundwave's approach reduces the data requirement by a factor of 50, addressing the same challenges with fewer labeled samples and lower computational cost."
+    },
+    "key_innovation": "The use of an alignment adapter and a shrinking adapter effectively mitigates discrepancies between speech and text modalities, optimizing the learning process.",
+    "real_world_impact": "By reducing the data and computational requirements, this method can enable broader access to advanced speech technologies, facilitating more diverse and inclusive applications.",
+    "limitations": "Potential limitations include the model's underperformance in specific speech tasks like automatic speech recognition, which may still require larger datasets.",
+    "new_terms": {
+        "representation space gap": "**Representation space gap** refers to the difference between the learned representations (features) from two different modalities, such as speech and text, making it challenging to align outputs.",
+        "sequence length inconsistency": "**Sequence length inconsistency** describes the discrepancies in the lengths of input sequences in speech (often frame-level) versus text (often sub-word level), complicating alignment."
+    },
+    "open_sourcing": "Project is available at https://github.com/FreedomIntelligence/Soundwave"
+}

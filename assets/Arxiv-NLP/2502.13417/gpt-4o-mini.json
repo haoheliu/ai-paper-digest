@@ -1,0 +1,22 @@
+{
+    "title": "RLTHF: Targeted Human Feedback for LLM Alignment",
+    "author": "Yifei Xu (Microsoft), Tusher Chakraborty (Microsoft), Emre K\u0131c\u0131man (Microsoft), Bibek Aryal (Microsoft), Eduardo Rodrigues (Microsoft), Srinagesh Sharma (Microsoft), Roberto Estevao (Microsoft), Maria Angels de Luis Balaguer (Microsoft), ... , Ranveer Chandra (Microsoft)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The approach of combining AI feedback with strategic human annotations could be useful for enhancing alignment in audio generation tasks by refining model training datasets based on user preferences.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Fine-tuning large language models to align with user preferences efficiently while minimizing the annotation effort required from human annotators.",
+    "contribution": "RLTHF introduces a hybrid framework that leverages initial AI labeling and targeted human feedback to achieve high alignment quality with minimal human effort.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Reinforcement Learning from Human Feedback (RLHF) heavily depend on expensive human annotation, while Reinforcement Learning from AI Feedback (RLAIF) is limited by model biases.",
+        "novelty": "This work improves by using a reward model to identify samples needing human input, allowing for efficient corrections of mislabeling."
+    },
+    "key_innovation": "Utilizes reward distribution analysis to target problematic samples for human annotation, significantly reducing the amount of human input needed for model training.",
+    "real_world_impact": "Enhancing alignment in large language models with fewer resources could assist in the smoother deployment of customizable AI applications across various domains, including audio and speech.",
+    "limitations": "No",
+    "new_terms": {
+        "Reinforcement Learning from Human Feedback": "**Reinforcement Learning from Human Feedback (RLHF)** is a method where models are trained based on preferences provided by human annotators to improve alignment with user expectations.",
+        "Reinforcement Learning from AI Feedback": "**Reinforcement Learning from AI Feedback (RLAIF)** refers to using outputs from AI models as feedback for training, sidestepping the need for comprehensive human annotations but may introduce bias."
+    },
+    "open_sourcing": ""
+}

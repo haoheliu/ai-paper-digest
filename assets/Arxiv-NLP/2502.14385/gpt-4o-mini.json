@@ -1,0 +1,21 @@
+{
+    "title": "Building a Variety Specific Translation Model",
+    "author": "Hugo Sousa (Faculty of Sciences, University of Porto), Satya Almasian (Institute of Computer Science, Heidelberg University), Ricardo Campos (INESC TEC), Al\u00edpio Jorge (INESC TEC)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methodologies discussed for developing translation models specific to less-resourced language varieties could inspire similar strategies in the audio domain, especially in audio generation tasks involving various accents or dialects.",
+    "field": "Applications-Language",
+    "background": "Creating translation systems that can effectively capture the nuances of different language varieties, particularly in underrepresented dialects, to improve language model performance.",
+    "contribution": "This paper introduces a methodology for developing a neural machine translation model tailored to low-resource language varieties, achieving better performance for European Portuguese translations.",
+    "technical_comparison": {
+        "prior_work": "Previous translation models often fail to account for the specific linguistic features of regional dialects, leading to suboptimal translation quality.",
+        "novelty": "This work leverages retro-translation techniques and creates a comprehensive parallel corpus, significantly enhancing the quality of translations in European Portuguese."
+    },
+    "key_innovation": "The use of retro-translation to generate a parallel corpus that improves model performance for specific language varieties.",
+    "real_world_impact": "This research has the potential to help facilitate communication and understanding in regions where European Portuguese is spoken, particularly in sensitive areas such as healthcare and judiciary systems. No immediate real-world impact.",
+    "limitations": "No",
+    "new_terms": {
+        "retro-translation": "**Retro-translation** is the process of translating back to a resource-rich language after initial translation to improve quality and create parallel corpora."
+    },
+    "open_sourcing": "The dataset, models, and code have been made publicly available for community use."
+}

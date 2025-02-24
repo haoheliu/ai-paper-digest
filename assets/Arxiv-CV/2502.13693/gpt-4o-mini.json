@@ -1,0 +1,22 @@
+{
+    "title": "Medical Image Classification with KAN-Integrated Transformers and Dilated Neighborhood Attention",
+    "author": "Omid Nejati Manzaria (Independent Researcher), Hojat Asgariandehkordib (Concordia University), Taha Koleilatb (Concordia University), Yiming Xiaoc (Concordia University), Hassan Rivazb (Concordia University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The integration of Kolmogorov-Arnold Networks (KANs) and attention mechanisms may inspire new architectures for audio processing tasks, particularly in generative models or feature extraction.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "This study focuses on classifying medical images, exploring the resilience of models against noise and corruption common in clinical data.",
+    "contribution": "This paper introduces MedViTV2, which integrates KAN layers into a transformer architecture to enhance performance on medical image classification tasks, achieving state-of-the-art results across multiple datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous models primarily used Convolutional Neural Networks (CNNs) or traditional transformers, which struggled with corrupted inputs and model scalability.",
+        "novelty": "This work improves performance by combining KANs with Dilated Neighborhood Attention, efficiently balancing local and global feature perception without excessive computational burden."
+    },
+    "key_innovation": "The paper's unique aspect is the use of KAN layers within transformers, significantly improving computational efficiency and accuracy in handling corrupted medical images.",
+    "real_world_impact": "The advancements in model robustness may enable better deployment of AI in clinical diagnostics, leading to improved patient outcomes through more reliable image analysis.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Kolmogorov-Arnold Networks (KANs)": "**Kolmogorov-Arnold Networks (KANs)** are a type of neural network that utilize mathematical functions directly in their architecture, enabling them to capture complex relationships without extensive parameterization.",
+        "Dilated Neighborhood Attention (DiNA)": "**Dilated Neighborhood Attention (DiNA)** is a self-attention mechanism that focuses on local pixel relationships while capturing global context efficiently."
+    },
+    "open_sourcing": "Code is available at https://github.com/Omid-Nejati/MedViTV2.git"
+}

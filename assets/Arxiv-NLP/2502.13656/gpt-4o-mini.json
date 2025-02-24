@@ -1,0 +1,21 @@
+{
+    "title": "Refining Sentence Embedding Model through Ranking Sentences Generation with Large Language Models",
+    "author": "Liyang He (School of Computer Science and Technology, University of Science and Technology of China), Chenglong Liu (School of Computer Science and Technology, University of Science and Technology of China), Rui Li (School of Computer Science and Technology, University of Science and Technology of China), Zhenya Huang (School of Computer Science and Technology, University of Science and Technology of China), Shulan Ruan (School of Computer Science and Technology, University of Science and Technology of China), Jun Zhou (Ant Group), Enhong Chen (School of Computer Science and Technology, University of Science and Technology of China) ",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The method of using Large Language Models (LLMs) to generate ranking sentences could be pivotal in enhancing sentence representation tasks in audio captioning and other domains related to audio-language models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of generating high-quality sentence embeddings for various natural language processing tasks by utilizing Large Language Models to create semantically varied sentences.",
+    "contribution": "This paper introduces a method for generating ranking sentences from LLMs to refine existing sentence embedding models, achieving new state-of-the-art performance with minimal synthetic data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on generating sentence pairs, often neglecting the ranking information necessary for finer semantic distinctions.",
+        "novelty": "This work improves upon existing methods by proposing a directionally controlled generation process that ensures semantic divergence in the generated sentences."
+    },
+    "key_innovation": "Introduces a controlled generation framework that allows the synthesis of sentences with progressively increasing semantic differences, guiding the sentence embedding models to perform better.",
+    "real_world_impact": "The approach could significantly enhance tasks like semantic search, question answering, and text classification, contributing to better human-computer interaction across various applications.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "semantic divergence": "**Semantic divergence** refers to the growing differences in meanings between sentences, which helps significantly in distinguishing nuances in sentence embeddings."
+    },
+    "open_sourcing": "Our code is available at https://github.com/hly1998/RankingSentenceGeneration"
+}

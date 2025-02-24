@@ -1,0 +1,19 @@
+{
+    "title": "Entity Framing and Role Portrayal in the News",
+    "author": "Tarek Mahmoud (MBZUAI), Zhuohan Xie (MBZUAI), Dimitar Dimitrov (Sofia University \"St. Kliment Ohridski\"), Nikolaos Nikolaidis (Athens University of Economics and Business), Purifica\u00e7\u00e3o Silvano (University of Porto), Roman Yangarber (University of Helsinki), Shivam Sharma (Indian Institute of Technology Delhi), Preslav Nakov (MBZUAI)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses entity framing in news articles, which could relate to how narratives are constructed in audio content, particularly in news broadcasting and media representation.",
+    "field": "Applications-Language",
+    "background": "The study focuses on how different roles are portrayed in news articles to influence public perception through emotional framing and narrative structure.",
+    "contribution": "This paper introduces a novel multilingual hierarchical corpus annotated for entity framing and role portrayal, achieving a better understanding of how entities are represented in news media.",
+    "technical_comparison": "Previous methods focused primarily on article-level framing without a detailed taxonomy of roles for entities. This work improves on this by providing a hierarchical taxonomy of 22 archetypes that can be applied at multiple context levels.",
+    "key_innovation": "The dataset offers a unique hierarchical taxonomy inspired by storytelling elements, facilitating nuanced analysis of entity portrayals across diverse languages.",
+    "real_world_impact": "This research has implications for improving media literacy and transparency in news consumption, which could contribute to more balanced public discourse on significant issues.",
+    "limitations": "The dataset is limited to two domains (Ukraine-Russia War and Climate Change) and may not represent all media narratives.",
+    "new_terms": {
+        "entity framing": "**Entity framing** refers to the way entities are presented in narratives to shape perceptions and influence audience reactions.",
+        "hierarchical taxonomy": "**Hierarchical taxonomy** is a structured classification system that organizes categories into levels of specificity, allowing for detailed analysis of roles or types within a broader category."
+    },
+    "open_sourcing": ""
+}

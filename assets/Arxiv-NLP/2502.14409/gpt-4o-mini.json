@@ -1,0 +1,22 @@
+{
+    "title": "Unstructured Evidence Attribution for Long Context Query Focused Summarization",
+    "author": "Dustin Wright (University of Copenhagen), Zain Muhammad Mujahid (University of Copenhagen), Lu Wang (University of Michigan), Isabelle Augenstein (University of Copenhagen), David Jurgens (University of Michigan)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Language",
+    "background": "This study focuses on enhancing long-context query-based summarization by teaching models to extract and attribute unstructured evidence from the source text.",
+    "contribution": "This work introduces a synthetic dataset (SUnsET) to fine-tune large language models for improved unstructured evidence citation in summarization, achieving greater factually consistent summaries.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on structured citation methods, which had fixed granularity levels and often struggled with transparency and evidence attribution.",
+        "novelty": "This study proposes a domain-agnostic approach, enabling models to learn unstructured evidence attribution without rigid constraints, thus improving context utilization."
+    },
+    "key_innovation": "The introduction of the SUnsET dataset allows for flexible summarization and citation, enhancing the model's ability to reference pertinent information more accurately.",
+    "real_world_impact": "By improving evidence attribution and summarization quality, this research could enhance the trustworthiness of AI-generated summaries in various applications such as legal documentation and academic research.",
+    "limitations": "The authors acknowledge that generating unstructured evidence can lead to hallucinations, and the need for more targeted approaches to reduce evidence quality trade-offs remains.",
+    "new_terms": {
+        "unstructured evidence": "**Unstructured evidence** refers to text passages that do not conform to predefined citation structures, allowing for more flexible information retrieval.",
+        "SUnsET": "**SUnsET (Summaries with Unstructured Evidence Text)** is a synthetic dataset aimed at training models for better evidence citation in summarization tasks."
+    },
+    "open_sourcing": "The SUnsET dataset and generation code are publicly available for further research."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Alignment and Adversarial Robustness: Are More Human-Like Models More Secure?",
+    "author": "Blaine Hoak (University of Wisconsin-Madison), Kunyang Li (University of Wisconsin-Madison), Patrick McDaniel (University of Wisconsin-Madison), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores representational alignment and adversarial robustness, which are key factors in machine learning and could inform robust audio-visual model design in Haohe Liu's research.",
+    "field": "General Machine Learning-Supervised Learning",
+    "background": "Investigating the correlation between how closely machine learning models align with human perception and their resilience against adversarial examples that can mislead them.",
+    "contribution": "This research introduces a comprehensive analysis of 118 machine learning models to investigate the relationship between representational alignment and adversarial robustness, finding specific correlations that can inform future model designs.",
+    "technical_comparison": {
+        "prior_work": "Previous studies have only explored the relationship between alignment and robustness superficially or through limited metrics, often focusing on overall averages.",
+        "novelty": "This work systematically evaluates individual alignment benchmarks against robust accuracy, demonstrating that specific alignment measures, particularly related to texture selectivity, are strong predictors of robustness."
+    },
+    "key_innovation": "Identifies that alignment in terms of texture bias, as opposed to general alignment, is crucial for a model's robustness against adversarial attacks.",
+    "real_world_impact": "Insights from this paper could lead to the development of more secure machine learning models particularly in domains where adversarial manipulations can have significant consequences.",
+    "limitations": "The study indicates that average alignment scores offer weak predictive power for robustness and identifies varying reliability among individual alignment benchmarks.",
+    "new_terms": {
+        "representational alignment": "**Representational alignment** refers to the similarity between the internal representations of machine learning models and biological processes, particularly human perception.",
+        "adversarial examples": "**Adversarial examples** are inputs to machine learning models that have been intentionally perturbed to cause misclassification, while being nearly indistinguishable to human observers."
+    },
+    "open_sourcing": ""
+}

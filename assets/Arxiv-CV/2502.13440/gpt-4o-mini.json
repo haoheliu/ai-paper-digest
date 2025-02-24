@@ -1,0 +1,22 @@
+{
+    "title": "Semi-supervised classification of bird vocalizations",
+    "author": "Simen Hexeberg (Tropical Marine Science Institute, National University of Singapore), Mandar Chitre (Department of Electrical & Computer Engineering, National University of Singapore), Matthias Hoffmann-Kuhn (Tropical Marine Science Institute, National University of Singapore), Bing Wen Low (National Parks Board, Singapore), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's approach to semi-supervised learning and contrastive representation learning could inspire similar methodologies in audio classification tasks, aiding the development of techniques that require fewer labeled samples.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of identifying bird vocalizations in complex audio environments with minimal labeled training data, focusing on detecting overlapping sounds.",
+    "contribution": "This paper introduces a semi-supervised acoustic bird detector that leverages few labeled samples to effectively classify and detect time-overlapping bird calls, achieving a mean F0.5 score of 0.701 across 315 classes.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like BirdNET require extensive labeled datasets and struggle with overlapping calls in soundscapes.",
+        "novelty": "This work improves by utilizing semi-supervised techniques and energy-based segmentation to handle overlapping calls without extensive datasets."
+    },
+    "key_innovation": "The use of a semi-supervised approach combined with efficient representation learning allows for the detection and classification of avian vocalizations with minimal labeled training data.",
+    "real_world_impact": "The method can significantly enhance biodiversity monitoring in urban ecosystems, facilitating long-term studies without intensive human involvement. It shows promise in conserving avian diversity in rapidly urbanizing areas.",
+    "limitations": "The model faces challenges in handling the rich soundscape in urban areas, leading to potential false positives.",
+    "new_terms": {
+        "time-frequency representation": "**Time-frequency representation** (TFR) is a method for analyzing signals by representing them in terms of their frequency content over time, allowing for the examination of transient features in non-stationary signals.",
+        "contrastive learning": "**Contrastive learning** is a self-supervised learning approach where the model learns to distinguish between similar and dissimilar data points to create useful representations."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Token Adaptation via Side Graph Convolution for Temporally and Spatially Efficient Fine-tuning of 3D Point Cloud Transformers",
+    "author": "Takahiko Furuya (University of Yamanashi), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Fine-tuning a pre-trained model for 3D point cloud classification efficiently, aiming to reduce computational costs and improve adaptability to various datasets.",
+    "contribution": "This paper introduces the Side Token Adaptation on a neighborhood Graph (STAG) algorithm to solve the computational inefficiencies in fine-tuning 3D Transformers, achieving significant reductions in both memory usage and training time.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for fine-tuning 3D point cloud Transformers often inserted adaptation modules within the architecture, which led to high computational costs and complex implementations.",
+        "novelty": "This work improves by utilizing a side graph convolutional network that runs independently from the backbone, reducing the number of tunable parameters and gradient calculations."
+    },
+    "key_innovation": "STAG employs a parallel adaptation module, allowing for efficient fine-tuning with reduced computational burden, specifically by sharing parameters across layers and limiting gradient computation.",
+    "real_world_impact": "The proposed algorithm can significantly enhance the efficiency of deploying 3D point cloud models in real-time applications such as autonomous driving and robotics, where resource constraints are critical.",
+    "limitations": "No explicit limitations mentioned by the author.",
+    "new_terms": {
+        "Graph Convolution": "**Graph Convolution** is a generalization of convolutional methods for non-Euclidean data structures, using the topology of data to learn representations.",
+        "Parameter-efficient fine-tuning (PEFT)": "**Parameter-efficient fine-tuning** refers to methods that reduce the number of parameters updated during fine-tuning while maintaining model performance."
+    },
+    "open_sourcing": "Code and benchmark will be available at: https://github.com/takahikof/STAG"
+}

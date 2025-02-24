@@ -1,0 +1,22 @@
+{
+    "title": "Pitch Imperfect: Detecting Audio Deepfakes Through Acoustic Prosodic Analysis",
+    "author": "Kevin Warren (University of Sample), Daniel Olszewski (University of Sample), Seth Layton (University of Sample), Kevin Butler (University of Sample), Carrie Gates (University of Sample), Patrick Traynor (University of Sample), *Senior Member, IEEE*",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper focuses on audio analysis and detection techniques that could be useful for improving audio restoration or enhancement methods in Haohe Liu's research, especially in the context of differentiating human speech from synthetic audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting synthetic audio voices (deepfakes) using prosodic features of speech to differentiate them from real human voices.",
+    "contribution": "This paper introduces an audio deepfake detection methodology using prosodic analysis to solve discrepancies between synthetic and organic speech recognition, achieving a notable accuracy of 93%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods predominantly rely on low-level audio features and black-box machine learning models, which may lack robustness against simple adversarial attacks.",
+        "novelty": "This work uniquely utilizes high-level linguistic features (prosody) for detection, showing improved resilience against detectable perturbations present in other models."
+    },
+    "key_innovation": "Incorporates prosodic features such as pitch, jitter, and shimmer into the deepfake detection process, adding significant explainability and resistance to adversarial attacks.",
+    "real_world_impact": "The approach enhances the reliability of audio authentication systems and has practical implications in areas prone to audio deepfake manipulations, like fraud and misinformation.",
+    "limitations": "The authors acknowledge the challenge of detecting deepfakes that may exhibit unique or atypical prosodic features.",
+    "new_terms": {
+        "prosody": "**Prosody** refers to the rhythm, stress, and intonation of speech, which can convey meaning beyond just the words used.",
+        "LSTM": "**Long Short-Term Memory (LSTM)** networks are a type of recurrent neural network capable of learning long-term dependencies, often used in sequence prediction tasks."
+    },
+    "open_sourcing": ""
+}

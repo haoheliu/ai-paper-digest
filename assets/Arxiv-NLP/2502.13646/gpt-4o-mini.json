@@ -1,0 +1,22 @@
+{
+    "title": "D.Va: Validate Your Demonstration First Before You Use It",
+    "author": "Qi Zhang (Zhejiang University), Zhiqing Xiao (Zhejiang University), Ruixuan Xiao (Zhejiang University), Lirong Gao (Zhejiang University), Junbo Zhao (Zhejiang University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed Demonstration Validation (D.Va) method for self-adaptive demonstration selection could be applicable in audio datasets where contextual examples may enhance model understanding and performance.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This paper addresses the challenge of selecting effective demonstration samples in in-context learning setups to improve the output quality of large language models on new tasks.",
+    "contribution": "D.Va introduces a validation-driven selection method to identify effective demonstrations for in-context learning, achieving superior generalization across multiple language models and datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on static similarity measures or simple dynamic selection without robust validation, which limited their effectiveness.",
+        "novelty": "This work integrates a demonstration validation mechanism that leverages the language model's perplexity to qualitatively assess demonstration effectiveness."
+    },
+    "key_innovation": "Introduces a preference-based calibration mechanism that adjusts for differences in model understanding between validation and test inputs.",
+    "real_world_impact": "Has the potential to improve the adaptability and performance of language models in real-life applications by enhancing their ability to generalize from limited data. No immediate real-world impact.",
+    "limitations": "The authors did not explicitly mention limitations, though the dependence on ground-truth-like validation in unseen scenarios could impose challenges.",
+    "new_terms": {
+        "demonstration validation": "**Demonstration validation** refers to the process of assessing the effectiveness of provided examples that guide model responses without direct observation of ground-truth outputs.",
+        "perplexity": "**Perplexity** is a measurement of how well a probability distribution predicts a sample, commonly used in language modeling to evaluate model efficacy."
+    },
+    "open_sourcing": ""
+}

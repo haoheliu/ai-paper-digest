@@ -1,0 +1,22 @@
+{
+    "title": "Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors",
+    "author": "Yuguo Yin (Peking University), Yuxin Xie (Peking University), Wenyuan Yang (Sun Yat-sen University), Dongchao Yang (The Chinese University of Hong Kong), Jinghan Ru (Peking University), Xianwei Zhuang (Peking University), Liming Liang (Peking University), Yuexian Zou (Peking University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper addresses the issue of consistency in multilingual audio-text retrieval, which is closely relevant to the challenges faced in multi-modal audio generation and processing tasks that Haohe Liu is exploring.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves retrieving audio clips or multilingual texts from databases ensuring high multilingual recall and retrieval consistency across different languages.",
+    "contribution": "This paper introduces a novel approach called ATRI to solve the inconsistency in Multilingual Audio-Text Retrieval (ML-ATR), achieving improved retrieval recall and consistency metrics across multiple languages.",
+    "technical_comparison": {
+        "prior_work": "Existing ML-ATR methods struggle with random language sampling that affects model convergence and cross-modal alignment.",
+        "novelty": "This work improves by introducing 1-to-K Contrastive Learning and Audio-English Co-Anchor Contrastive Learning, which significantly reduce data distribution errors and enhance performance."
+    },
+    "key_innovation": "The approach effectively pairs audio with all corresponding texts during training rather than selecting one randomly, thus correcting alignment errors.",
+    "real_world_impact": "The findings advance the state-of-the-art in multilingual retrieval systems, enhancing applications in audio-based content retrieval and improving the user experience in multilingual environments.",
+    "limitations": "The proposal uses a theoretical upper bound based on the stochastic gradient descent optimizer and may not generalize fully to other optimization strategies.",
+    "new_terms": {
+        "Multilingual Audio-Text Retrieval (ML-ATR)": "A process that matches audio content with corresponding text across different languages.",
+        "Contrastive Learning": "A machine learning technique that learns to differentiate between similar and dissimilar pairs to map them into a common representation space."
+    },
+    "open_sourcing": "The code will be available at https://github.com/ATRI-ACL/ATRI-ACL."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "H3DE-Net: Efficient and Accurate 3D Landmark Detection in Medical Imaging",
+    "author": "Zhen Huang (University of Science and Technology of China), Ronghao Xu (School of Biomedical Engineering, USTC), Xiaoqian Zhou (School of Biomedical Engineering, USTC), Yangbo Wei (Shanghai Jiao Tong University), Suhua Wang (Changchun Humanities and Sciences College), Xiaoxin Sun (Northeast Normal University), Han Li (Technische Universitaet Muenchen), Qingsong Yao (Stanford University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Healthcare",
+    "background": "Detecting 3D anatomical landmarks from medical CT images to assist in various medical tasks like diagnosis and treatment.",
+    "contribution": "This paper introduces H3DE-Net to solve the problem of efficient and accurate 3D landmark detection, achieving state-of-the-art performance on a public CT dataset.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with balancing local feature extraction and global context modeling, especially in high-dimensional 3D data.",
+        "novelty": "This work integrates a lightweight attention mechanism with Convolutional Neural Networks (CNNs) to efficiently capture global dependencies while maintaining local detail."
+    },
+    "key_innovation": "Utilizes a Hybrid 3D Detection Network that combines CNNs with a bi-level routing attention mechanism to enhance both local and global feature extraction.",
+    "real_world_impact": "May improve the accuracy of 3D medical imaging applications, which can lead to better patient outcomes in diagnosis and treatment planning.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "CNN": "**Convolutional Neural Network** is a deep learning algorithm primarily used for image processing tasks that can automatically learn spatial hierarchies of features.",
+        "heatmap regression": "**Heatmap regression** refers to a technique where spatial predictions are made by mapping the locations of interest into a heatmap representation."
+    },
+    "open_sourcing": "The authors have made the project open-source, available at https://github.com/ECNUACRush/H3DE-Net."
+}

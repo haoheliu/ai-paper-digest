@@ -1,0 +1,22 @@
+{
+    "title": "On the logical skills of large language models: evaluations using arbitrarily complex first-order logic problems",
+    "author": "Shokhrukh Ibragimov (University of M\u00fcnster), Arnulf Jentzen (The Chinese University of Hong Kong, Shenzhen), Benno Kuckuck (University of M\u00fcnster), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The methodologies for evaluating logical reasoning in large language models can inform approaches for audio captioning models, especially in understanding complexities in logic-based reasoning.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating the performance of large language models on first-order logic problems to determine their reasoning capabilities.",
+    "contribution": "This paper introduces a method for generating first-order logic statements to create datasets for evaluating the logical reasoning of language models, demonstrating varying complexity in problem-solving.",
+    "technical_comparison": {
+        "prior_work": "Existing evaluations often focus on memorization rather than reasoning capabilities.",
+        "novelty": "This work generates problems at arbitrarily high complexity and evaluates models based on their logical reasoning performance."
+    },
+    "key_innovation": "The method of generating complex first-order logic statements that require planning and reasoning rather than mere factual recall.",
+    "real_world_impact": "Improving the evaluation benchmarks for language models can have broad implications for their applicability in critical reasoning tasks in various domains.",
+    "limitations": "No limitations explicitly mentioned by the authors.",
+    "new_terms": {
+        "first-order logic": "**First-order logic** is a formal logical system used to express statements about objects and their relationships, facilitating reasoning in mathematical and computational domains.",
+        "Zermelo\u2013Fraenkel set theory": "**Zermelo\u2013Fraenkel set theory** is a foundational system for mathematics that describes sets and their relations, serving as a basis for most of modern mathematical logic."
+    },
+    "open_sourcing": "All datasets and code used for generating them, along with data from evaluations, are publicly available at https://github.com/bkuckuck/logical-skills-of-llms."
+}

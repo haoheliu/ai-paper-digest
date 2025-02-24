@@ -1,0 +1,21 @@
+{
+    "title": "Diffusion-Sharpening: Fine-tuning Diffusion Models with Denoising Trajectory Sharpening",
+    "author": "Ye Tian (Peking University), Ling Yang (Princeton University), Xinchen Zhang (Tsinghua University), Yunhai Tong (Peking University), Mengdi Wang (Princeton University), Bin Cui (Peking University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed methods of trajectory-level optimization and reward-based fine-tuning can be applied to audio and speech tasks, where conditioning on specific audio features becomes crucial.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This work focuses on enhancing the performance of generative diffusion models by optimizing the sampling trajectories used in the denoising process, allowing for better alignment with user preferences and application-specific requirements.",
+    "contribution": "This paper introduces Diffusion-Sharpening to solve the challenge of aligning diffusion models with user preferences by analyzing and optimizing the entire sampling trajectory, achieving superior training and inference efficiency.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often focus on optimizing individual timesteps or incur high computational costs during inference.",
+        "novelty": "This work improves by employing a path integral framework to evaluate and select optimal trajectories, thus reducing inference costs while maximizing performance across diverse metrics."
+    },
+    "key_innovation": "Introduces a novel framework to refine the entire sampling trajectory rather than individual timesteps, which ensures more robust generative outcomes.",
+    "real_world_impact": "The framework can enhance various applications involving generative tasks such as image and audio synthesis, leading to higher user satisfaction and efficiency in model fine-tuning.",
+    "limitations": "No",
+    "new_terms": {
+        "path integral framework": "**Path integral framework** refers to a mathematical method that allows for the evaluation of trajectories in a stochastic process, useful in optimizing sampling paths for generative models."
+    },
+    "open_sourcing": "Code available at: https://github.com/Gen-Verse/Diffusion-Sharpening"
+}

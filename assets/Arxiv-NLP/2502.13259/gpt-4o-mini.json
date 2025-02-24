@@ -1,0 +1,22 @@
+{
+    "title": "HUMT DUMT: Measuring and controlling human-like language in LLMs",
+    "author": "Myra Cheng (Stanford University), Sunny Yu (Stanford University), Dan Jurafsky (Stanford University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper proposes a systematic way to measure and control human-like language generation in Large Language Models (LLMs), which is pertinent for enhancing the authenticity and applicability of LLMs in audio and speech tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on understanding and quantifying the human-like quality of language outputs from LLMs and developing strategies to minimize anthropomorphic language that might lead to user overreliance or misunderstanding of the technology.",
+    "contribution": "This paper introduces HUMT (Human-like Tone Metric) and DUMT (Diminishing Human-like Tone) to solve the challenges of measuring and controlling human-like language in LLM outputs, achieving a clearer and more informative interaction for users.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked a comprehensive, quantifiable approach to assess human-like language in LLMs, often relying on qualitative assessments or limited linguistic features.",
+        "novelty": "This work utilizes a metric based on LLM probabilities to evaluate and control human-like tone systematically, improving clarity and reducing emotional response implication in outputs."
+    },
+    "key_innovation": "HUMT measures the likelihood of a phrase being attributed to a human versus a non-human entity, allowing for systematic assessments of perceived human-likeness.",
+    "real_world_impact": "By providing this new metric and methodology, the research helps ensure that LLMs communicate more effectively without leading users to inappropriate dependencies or misconceptions about their capabilities.",
+    "limitations": "The study mainly focuses on English datasets, limiting the generalizability to non-English contexts or different cultural norms.",
+    "new_terms": {
+        "anthropomorphism": "**Anthropomorphism** is the attribution of human traits, emotions, or intentions to non-human entities, especially in technology, which may mislead user expectations.",
+        "human-like tone": "**Human-like tone** refers to the style of communication that resembles human conversational interaction, often implying warmth and emotional connection."
+    },
+    "open_sourcing": "Code available at https://github.com/myracheng/humtdumt"
+}

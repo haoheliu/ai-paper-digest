@@ -1,0 +1,22 @@
+{
+    "title": "Measuring the Effect of Transcription Noise on Downstream Language Understanding Tasks",
+    "author": "Ori Shapira (OriginAI), Shlomo E. Chazan (OriginAI), Amir DN Cohen (OriginAI), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper's exploration of noise effects in automatic speech recognition (ASR) and its impact on downstream tasks could inform improvements in audio generation and restoration tasks, relevant to Haohe Liu's interest in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper examines how errors introduced during the transcription of spoken language influence subsequent natural language understanding tasks.",
+    "contribution": "This paper introduces the ENDOW framework to systematically analyze the effects of transcription noise on different spoken language understanding tasks, yielding insights into model performance under noise.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on specific tasks without a generalized framework to assess the impact of transcription noise.",
+        "novelty": "This work provides a versatile framework that can adapt to various tasks, noise levels, and cleaning techniques, allowing for controlled experimentation."
+    },
+    "key_innovation": "The ENDOW framework facilitates task model analysis across multiple noise intensities and types, enabling the identification of effective transcript-cleaning methods.",
+    "real_world_impact": "This framework aids in the development of robust spoken language understanding systems, improving interactions in real-world applications such as virtual assistants, transcription services, and automated customer support.",
+    "limitations": "The authors did not specify limitations explicitly.",
+    "new_terms": {
+        "word error rate (WER)": "**Word error rate (WER)** is a common metric used to evaluate the performance of transcription systems, calculated based on the number of insertions, deletions, and substitutions required to transform a generated transcript into the reference transcript.",
+        "noise-toleration point (NTP)": "**Noise-toleration point (NTP)** denotes the threshold at which a model's performance significantly degrades due to transcription noise."
+    },
+    "open_sourcing": "Code: https://github.com/OriShapira/ENDow"
+}

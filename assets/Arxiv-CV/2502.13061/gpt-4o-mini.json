@@ -1,0 +1,21 @@
+{
+    "title": "Improved Fine-Tuning of Large Multimodal Models for Hateful Meme Detection",
+    "author": "Jingbiao Mei (University of Cambridge), Jinghong Chen (University of Cambridge), Guangyu Yang (University of Cambridge), Weizhe Lin (University of Cambridge), Bill Byrne (University of Cambridge), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The techniques discussed, particularly the two-stage fine-tuning framework and retrieval-based methods, could inspire similar approaches in audio generation and processing tasks, potentially enhancing the robustness of models in domain adaptation scenarios.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Hateful meme detection is the task of identifying memes that convey hateful or harmful content using both images and accompanying text.",
+    "contribution": "This paper introduces a novel framework, Large Multimodal Model Retrieval-Guided Contrastive Learning (LMM-RGCL), to improve the performance of large multimodal models in detecting hateful memes, achieving state-of-the-art results across multiple datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods faced challenges in generalizing to new memes and often required extensive re-training on fresh data.",
+        "novelty": "This work significantly enhances generalization through a two-stage fine-tuning approach that includes joint multimodal fine-tuning combined with retrieval-guided contrastive learning."
+    },
+    "key_innovation": "The integration of retrieval-guided techniques allows the framework to leverage previously learned examples for improved classification performance on unseen data.",
+    "real_world_impact": "The improvements in hateful meme detection have implications for online safety and automated moderation, potentially leading to safer online environments.",
+    "limitations": "The authors note that the system sometimes struggles with subtle visual details in memes.",
+    "new_terms": {
+        "retrieval-guided learning": "**Retrieval-guided learning** refers to methods that enhance model learning through the retrieval of similar examples from existing datasets to inform predictions."
+    },
+    "open_sourcing": ""
+}

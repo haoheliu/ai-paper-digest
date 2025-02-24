@@ -1,0 +1,22 @@
+{
+    "title": "A Survey on Data Contamination for Large Language Models",
+    "author": "Yuxing Cheng (Jilin University), Yi Chang (Jilin University), Yuan Wu (Jilin University), ..., Yuan Wu (Jilin University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper discusses data contamination in Large Language Models (LLMs), which is relevant to improving the robustness of machine learning models, potentially applicable to audio-related applications such as text-to-audio generation. Understanding contamination can help in ensuring the integrity of datasets used in Haohe's research.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Data contamination occurs when training data overlaps with test data, leading to inflated performance metrics in machine learning models.",
+    "contribution": "This survey introduces an overview of data contamination in LLMs and reviews methods for contamination-free evaluation, aiming to enhance the validity of model assessments.",
+    "technical_comparison": {
+        "prior_work": "Previous studies typically focus on single aspects of data contamination or evaluation methodologies, often lacking a comprehensive framework.",
+        "novelty": "This work categorizes contamination detection methods into three paradigms and emphasizes dynamic benchmarks, offering a more holistic view of the issue."
+    },
+    "key_innovation": "Provides a structured approach to understanding data contamination and its impacts on evaluation metrics, guiding future research towards more reliable evaluation frameworks.",
+    "real_world_impact": "Addressing data contamination can enhance the reliability of machine learning applications across various fields, ensuring that models developed for tasks like speech synthesis or audio processing are robust and trustworthy.",
+    "limitations": "The survey may not cover the latest emerging methods or models that address data contamination, as it reflects knowledge up to October 2023.",
+    "new_terms": {
+        "data contamination": "**Data contamination** refers to the unintentional overlap between training and testing datasets, which can lead to misleading assessments of a model's generalization ability.",
+        "dynamic benchmarks": "**Dynamic benchmarks** are evolving evaluation frameworks that adapt evaluation criteria and datasets over time to prevent contamination and ensure more reliable assessments."
+    },
+    "open_sourcing": ""
+}

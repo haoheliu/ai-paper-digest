@@ -1,0 +1,22 @@
+{
+    "title": "Improving Multi-turn Task Completion in Task-Oriented Dialog Systems via Prompt Chaining and Fine-Grained Feedback",
+    "author": "Moghis Fereidouni (University of Kentucky), Md Sajid Ahmed (Independent Researcher), Adib Mosharrof (University of Kentucky), A.B. Siddique (University of Kentucky), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The use of prompt chaining and fine-grained feedback mechanisms could inform future developments in generative audio models, enhancing dialogue interactions in audio-based applications.",
+    "field": "Applications-Language",
+    "background": "Task-oriented dialog systems assist users in completing multi-turn tasks through natural language, requiring accurate API calls and adaptation to new domains.",
+    "contribution": "This paper introduces the RealTOD framework to enhance task-oriented dialog systems by enabling zero-shot domain adaptation and improving API accuracy via feedback mechanisms.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like AutoTOD and SimpleTOD rely heavily on human-curated examples or extensive fine-tuning for each domain.",
+        "novelty": "The proposed framework utilizes prompt chaining for example generation without the need for curated data and integrates fine-grained feedback to correct API calls in real-time."
+    },
+    "key_innovation": "Combines two-step prompt generation with automatic verification of API calls to enhance performance and reduce the reliance on manually annotated datasets.",
+    "real_world_impact": "The framework is expected to significantly increase the adaptability and efficiency of task-oriented dialog systems, making them applicable across various domains without extensive manual intervention.",
+    "limitations": "The evaluation is limited to four large language models and may not generalize to all emerging models.",
+    "new_terms": {
+        "prompt chaining": "**Prompt chaining** refers to the method of sequentially linking prompts to facilitate the generation of contextually relevant outputs without prior examples.",
+        "fine-grained feedback": "**Fine-grained feedback** is a mechanism that provides detailed corrective signals for specific errors detected in generated responses or API calls."
+    },
+    "open_sourcing": "Source code will be released upon acceptance."
+}

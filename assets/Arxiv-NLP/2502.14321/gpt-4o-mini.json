@@ -1,0 +1,22 @@
+{
+    "title": "Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems",
+    "author": "Bingyu Yan (Beihang University), Xiaoming Zhang (Beihang University), Litian Zhang (Beihang University), Lian Zhang (Beihang University), Ziyi Zhou (Beihang University), Dezhuang Miao (Beihang University), Chaozhuo Li (Beijing University of Posts and Telecommunications)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The communication-centric framework could enhance coordination and collaboration strategies, which might be beneficial in improving multimodal generation tasks in audio and music processing.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper surveys the integration of Large Language Models into multi-agent systems, focusing on communication strategies to achieve complex tasks through agent interaction.",
+    "contribution": "This survey introduces a comprehensive communication framework for LLM-based multi-agent systems to understand collective intelligence and flexible collaboration.",
+    "technical_comparison": {
+        "prior_work": "Existing surveys on multi-agent systems often overlook inter-agent communication and focus mainly on system architectures or domain-specific workflows.",
+        "novelty": "This work explicitly analyzes communication strategies, goals, and architectures, presenting a detailed understanding applicable across varied multi-agent applications."
+    },
+    "key_innovation": "Presents a structured framework that distinguishes between system-level and internal communication for analyzing multi-agent interactions systematically.",
+    "real_world_impact": "By enhancing the understanding of LLM-based multi-agent systems, this survey may lead to more robust applications in areas such as autonomous agents, virtual assistants, and collaborative systems.",
+    "limitations": "No significant limitations are mentioned by the authors.",
+    "new_terms": {
+        "Large Language Models (LLMs)": "**Large Language Models** are sophisticated AI models trained on vast amounts of text data to understand and generate human-like text.",
+        "multi-agent systems (MAS)": "**Multi-agent systems** refer to systems in which multiple agents interact with each other to achieve specific goals, often requiring communication and collaboration."
+    },
+    "open_sourcing": ""
+}

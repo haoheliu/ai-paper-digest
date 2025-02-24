@@ -1,0 +1,22 @@
+{
+    "title": "RE-ALIGN: Mitigating Hallucinations in Vision Language Models via Image Retrieval",
+    "author": "Shuo Xing (Texas A&M University), Yuping Wang (University of Michigan), Peiran Li (Texas A&M University), Ruizheng Bai (Texas A&M University), Yueqi Wang (UIUC), Chengxuan Qian (Texas A&M University), Huaxiu Yao (UNC Chapel Hill), Zhengzhong Tu (Texas A&M University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed alignment method combines visual and textual signals, which could enhance techniques for audio-visual integration and multimodal learning relevant to music generation.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This research focuses on improving the reliability of Vision Language Models (VLMs) to reduce inaccurate outputs when combining visual and textual information.",
+    "contribution": "This paper introduces RE-ALIGN to solve hallucinations in Vision Language Models by integrating image retrieval, achieving enhanced model alignment and reduced hallucination rates.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for hallucination reduction primarily rely on textual data or brute-force corruptions of visual inputs, leading to less natural outcomes.",
+        "novelty": "This work improves by utilizing controlled image retrieval to create a dual-preference dataset, integrating both visual and textual preferences during optimization."
+    },
+    "key_innovation": "By leveraging image retrieval, RE-ALIGN generates more plausible and controlled hallucinations compared to previous methods that solely depended on response perturbation.",
+    "real_world_impact": "This framework can significantly enhance applications like visual question answering and assistive technology by ensuring more reliable outputs from multimodal models.",
+    "limitations": "The authors note that while RE-ALIGN improves hallucination mitigation, it does not consistently outperform vanilla models in all general tasks.",
+    "new_terms": {
+        "Vision Language Models (VLMs)": "**Vision Language Models** refer to models that integrate both visual and textual modalities to generate suitable outputs based on multimodal input.",
+        "Direct Preference Optimization (DPO)": "**Direct Preference Optimization** is a technique used to fine-tune models based on human preference signals derived from various responses."
+    },
+    "open_sourcing": "The code is available at https://github.com/taco-group/Re-Align"
+}

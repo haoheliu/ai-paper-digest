@@ -1,0 +1,21 @@
+{
+    "title": "On the application of visibility graphs in the spectral domain for speaker recognition",
+    "author": "Hernan Bocaccio (Departamento de F\u00edsica Universidad de Buenos Aires, INFINA - CONICET), Sergio Iglesias-P\u00e9rez (Departamento de Matem\u00e1tica Aplicada Universidad Rey Juan Carlos), Regino Criado (Departamento de Matem\u00e1tica Aplicada Universidad Rey Juan Carlos), Miguel Romance (Departamento de Matem\u00e1tica Aplicada Universidad Rey Juan Carlos), Gabriel B. Mindlin (Departamento de F\u00edsica Universidad de Buenos Aires, INFINA - CONICET)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper explores the use of visibility graphs for analyzing spectral data, which could inform innovative approaches in audio signal processing relevant to Dr. Liu's work in speech and audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study investigates how visualization of spectral analysis through graph theory can enhance speaker recognition abilities based on vocalizations.",
+    "contribution": "This paper introduces a method of using visibility graphs to analyze spectral profiles for speaker recognition, achieving high performance in distinguishing speakers based on their vowel articulations.",
+    "technical_comparison": {
+        "prior_work": "Most existing methods focus on traditional acoustic features like Mel-Frequency Cepstral Coefficients (MFCCs) for speaker recognition.",
+        "novelty": "This work moves beyond conventional spectral analysis by applying graph-theoretic principles to capture topological information from spectral data."
+    },
+    "key_innovation": "The unique application of visibility graphs allows for the extraction of topological metrics that serve as discriminative features for identifying speakers.",
+    "real_world_impact": "This research could significantly improve speaker recognition systems, enhancing applications in cybersecurity and personal identification technologies.",
+    "limitations": "No",
+    "new_terms": {
+        "visibility graphs": "**Visibility graphs** are graphical representations derived from time series data, where nodes represent data points and edges indicate visibility relationships based on amplitude."
+    },
+    "open_sourcing": "Data and codes required to reproduce this article are available at a public repository (https://github.com/HBocaccio/Onthe-application-of-Visibility-Graphs-in-the-Spectral-Domain-for-Speaker-Recognition)."
+}

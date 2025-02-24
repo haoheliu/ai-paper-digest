@@ -1,0 +1,21 @@
+{
+    "title": "Estimating Commonsense Plausibility through Semantic Shifts",
+    "author": "Wanqing Cui (Chinese Academy of Sciences), Keping Bi (Chinese Academy of Sciences), Jiafeng Guo (Chinese Academy of Sciences), Xueqi Cheng (Chinese Academy of Sciences), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method ComPaSS could be applied to improve the commonsense reasoning capabilities in audio-based applications through better contextual understanding.",
+    "field": "Applications-Language",
+    "background": "Commonsense plausibility estimation aims to measure whether sentences align with common human understanding of the world, crucial for tasks requiring nuanced language comprehension.",
+    "contribution": "This paper introduces ComPaSS, a method that estimates commonsense plausibility by measuring semantic shifts when augmenting sentences with commonsense-related information, achieving improved performance on fine-grained tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on generative approaches such as likelihood estimation and verbalized judgments, which struggled with fine-grained plausibility discrimination.",
+        "novelty": "This work improves upon prior methods by adopting a discriminative perspective, measuring semantic shifts rather than relying solely on generative outputs."
+    },
+    "key_innovation": "The unique aspect of ComPaSS is its ability to quantify plausibility through the minimal semantic shifts in sentence augmentations, enhancing commonsense reasoning capabilities.",
+    "real_world_impact": "Enhancing language models' commonsense reasoning could lead to more realistic and controlled outputs in AI applications, such as dialogue systems and creative AI. No immediate real-world impact.",
+    "limitations": "The method may struggle with making absolute plausibility judgments due to the inherent complexities in measuring semantic distances.",
+    "new_terms": {
+        "semantic shifts": "**Semantic shifts** refer to changes in meaning that occur when additional context or information is added to a statement, affecting its plausibility in a commonsense context."
+    },
+    "open_sourcing": ""
+}

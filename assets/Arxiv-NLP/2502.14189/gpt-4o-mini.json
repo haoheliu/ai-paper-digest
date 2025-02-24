@@ -1,0 +1,21 @@
+{
+    "title": "QUAD-LLM-MLTC: Large Language Models Ensemble Learning for Healthcare Text Multi-Label Classification",
+    "author": "Hajar Sakai (Binghamton University), Sarah S. Lam (Binghamton University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed method leverages multiple large language models to enhance multi-label classification, which could be applicable to audio data classification tasks as well, particularly in developments concerning audio annotations and processing.",
+    "field": "Applications-Healthcare",
+    "background": "The task setting involves the automatic categorization of healthcare textual data into multiple labels, addressing the challenge of limited annotated data.",
+    "contribution": "This paper introduces an ensemble learning approach utilizing four distinct Large Language Models (LLMs) to solve the problem of multi-label classification in healthcare texts, achieving significant improvements in classification scores.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized single models or traditional machine learning, which often struggled with context understanding and model flexibility.",
+        "novelty": "This work improves by employing a sequential pipeline of multiple LLMs for key token extraction, data augmentation, and classification, effectively enhancing the overall classification accuracy."
+    },
+    "key_innovation": "The combination of multiple LLMs in a pipeline format to leverage diverse strengths ensures robust classification outcomes without the need for extensive labeled datasets.",
+    "real_world_impact": "This research provides a scalable and efficient solution for the rapid classification of healthcare-related textual data, potentially transforming automated healthcare documentation processes.",
+    "limitations": "The study relies heavily on the quality and variety of prompts used for each LLM, which may affect generalization across different text types.",
+    "new_terms": {
+        "ensemble learning": "**Ensemble learning** is a technique that combines multiple models to produce better results than any single model could achieve by leveraging their individual strengths."
+    },
+    "open_sourcing": ""
+}

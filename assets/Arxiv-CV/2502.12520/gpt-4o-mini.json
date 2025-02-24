@@ -1,0 +1,20 @@
+{
+    "title": "SAFEERASER: Enhancing Safety in Multimodal Large Language Models through Multimodal Machine Unlearning",
+    "author": "Junkai Chen (The Hong Kong University of Science and Technology), Zhijie Deng (The Hong Kong University of Science and Technology), Kening Zheng (The Hong Kong University of Science and Technology), Yibo Yan (The Hong Kong University of Science and Technology), Shuliang Liu (The Hong Kong University of Science and Technology), PeiJun Wu (Southeast University), Peijie Jiang (Ant Group, Alibaba), ..., Xuming Hu (The Hong Kong University of Science and Technology)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The concepts of machine unlearning and multimodal safety can be relevant to audio-related generative models, especially if harmful audio processing or generation can be controlled or unlearned.",
+    "field": "Applications-Language",
+    "background": "Mitigating harmful knowledge stored in multimodal large language models (MLLMs) through a forgetting mechanism allows the model to forget unwanted data while retaining its general functional capabilities.",
+    "contribution": "SAFEERASER introduces a structured unlearning benchmark for multimodal large language models to enhance safety, achieving a significant reduction in over-forgetting of harmful knowledge.",
+    "technical_comparison": "Prior methods for machine unlearning generally focused on single-modality data and privacy. This work extends these methods to address multimodal safety, proposing specific metrics and techniques to measure and improve forget quality while minimizing over-forgetting.",
+    "key_innovation": "The introduction of Prompt Decouple (PD) Loss, which addresses the over-forgetting phenomenon by allowing models to fine-tune harmful prompts without losing the ability to respond to harmless queries.",
+    "real_world_impact": "Improving safety in MLLMs has broad implications for deploying these models in sensitive applications, including automated content generation and human-computer interactions, potentially reducing the risk of harm.",
+    "limitations": "The study acknowledges that the proposed solutions do not entirely eliminate the over-forgetting problem, indicating areas for further research.",
+    "new_terms": {
+        "machine unlearning": "**Machine unlearning** is a process by which a machine learning model is modified so that it forgets specific training data while retaining the ability to perform on other relevant data.",
+        "over-forgetting": "**Over-forgetting** occurs when a model forgets not only harmful knowledge but also fails to appropriately manage harmless knowledge, leading to denial of safe queries.",
+        "Safe Answer Refusal Rate (SARR)": "**Safe Answer Refusal Rate (SARR)** is a newly proposed metric measuring the frequency of refusal responses to harmless queries that are similar to ones the model was trained to forget."
+    },
+    "open_sourcing": "The code and dataset will be released upon acceptance."
+}

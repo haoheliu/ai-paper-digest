@@ -1,0 +1,21 @@
+{
+    "title": "Daily Land Surface Temperature Reconstruction in Landsat Cross-Track Areas Using Deep Ensemble Learning With Uncertainty Quantification",
+    "author": "Shengjie Liu (University of Southern California), Siqin Wang (University of Southern California), Lu Zhang (Keck School of Medicine, University of Southern California)",
+    "quality": 7,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Machine Learning for Sciences-Climate Science",
+    "background": "Reconstructing daily land surface temperature (LST) data from Landsat satellite images, particularly in urban areas where temperature can vary significantly due to local conditions.",
+    "contribution": "This paper introduces the DELAG method that combines deep ensemble learning with annual temperature cycles and Gaussian processes to efficiently reconstruct LST from satellite data.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often use coarse-resolution satellite data and struggle to reconstruct accurate daily LST in urban environments due to high cloud cover and long revisit times.",
+        "novelty": "This work improves the LST reconstruction by utilizing dual satellite observations and a more complex modeling approach that includes uncertainty quantification."
+    },
+    "key_innovation": "The proposed DELAG method uniquely integrates advanced statistical models and deep learning to provide robust LST predictions while quantifying prediction uncertainties.",
+    "real_world_impact": "The method can significantly enhance LST data accuracy for urban environmental monitoring and climate research, aiding in public health risk assessments related to temperature extremes.",
+    "limitations": "The study does not mention limitations explicitly, but potential challenges may include dependency on cloud cover and the absence of in-situ LST measurements for direct validation.",
+    "new_terms": {
+        "Gaussian processes": "**Gaussian processes** is a stochastic process used in machine learning to define a distribution over functions, allowing for modeling complex relationships with a probabilistic framework."
+    },
+    "open_sourcing": ""
+}

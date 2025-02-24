@@ -1,0 +1,22 @@
+{
+    "title": "PeerQA: A Scientific Question Answering Dataset from Peer Reviews",
+    "author": "Tim Baumg\u00e4rtner (Ubiquitous Knowledge Processing Lab, Technical University of Darmstadt), Ted Briscoe (Mohamed bin Zayed University of Artificial Intelligence), Iryna Gurevych (Ubiquitous Knowledge Processing Lab, Technical University of Darmstadt), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods and findings on question answering systems and evidence retrieval could inform approaches in audio-language modeling, especially in developing tools that leverage peer-reviewed information effectively.",
+    "field": "Applications-Language",
+    "background": "The study focuses on creating a dataset for extracting and generating answers from scientific papers based on peer review questions.",
+    "contribution": "PeerQA introduces a dataset sourced from peer reviews and annotated by paper authors to facilitate question-answering systems in the scientific domain, achieving enhanced evidence retrieval and answer generation tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets in scientific QA often relied on general crowdsourced questions or did not have expert-backed answer annotations.",
+        "novelty": "This work utilizes real peer review questions and expert answers, improving both question contextualization and answer validity."
+    },
+    "key_innovation": "Combines peer reviews with direct author input to elevate the quality and relevance of the scientific QA dataset.",
+    "real_world_impact": "By enhancing how information is extracted from scientific literature, this dataset could lead to more efficient peer review processes and greater accessibility of scientific knowledge.",
+    "limitations": "The dataset is limited in size compared to general QA datasets, which may restrict its application in broader contexts.",
+    "new_terms": {
+        "question answering (QA)": "**Question answering (QA)** systems are tools designed to automatically respond to inquiries by retrieving relevant information from a given dataset.",
+        "evidence retrieval": "**Evidence retrieval** refers to the process of identifying specific pieces of information within documents that can be used to substantiate answers to questions posed."
+    },
+    "open_sourcing": "The dataset and code are available at https://github.com/UKPLab/peerqa."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Argument-Based Comparative Question Answering Evaluation Benchmark",
+    "author": "Irina Nikishina (University of Hamburg), Saba Anwar (University of Hamburg), Nikolay Dolgov (HSE University), Maria Manina (HSE University), Daria Ignatenko (HSE University), Viktor Moskvoretskii (HSE University), Artem Shelmanov (MBZUAI), Tim Baldwin (MBZUAI), Chris Biemann (University of Hamburg)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper presents a framework for evaluating comparative question answering using machine learning methods, which could inform assessment methodologies in audio-related computational tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The study focuses on assessing the performance of Large Language Models in generating comparative answers, which is essential for understanding complex interactions in natural language.",
+    "contribution": "This paper introduces an evaluation framework comprising 15 criteria to assess comparative answers, achieving a detailed quality assessment of LLM-generated summaries.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on generating comparative answers without a structured evaluation mechanism.",
+        "novelty": "This work implements a robust LLM-based evaluation system that scores responses based on specific qualitative criteria."
+    },
+    "key_innovation": "Establishes a new benchmark for the evaluation of comparative question answering that combines both human judgment and automated LLM assessments.",
+    "real_world_impact": "The framework can enhance the development of conversational agents and customer support systems, leading to more informed decision-making processes for users.",
+    "limitations": "The small sample size in human evaluations and reliance on a single argument source for tests.",
+    "new_terms": {
+        "comparative question answering": "**Comparative question answering** involves answering user queries that require evaluating and comparing characteristics of two or more entities.",
+        "LLM-as-a-judge": "**LLM-as-a-judge** refers to employing Large Language Models as evaluators to assess the quality of generated textual content based on defined criteria."
+    },
+    "open_sourcing": "All code, datasets, and evaluation results are publicly available."
+}

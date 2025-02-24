@@ -1,0 +1,22 @@
+{
+    "title": "Multi-view Video-Pose Pretraining for Operating Room Surgical Activity Recognition",
+    "author": "Idris Hamouda (University of Strasbourg), Vinkle Srivastava (IHU Strasbourg), Muhammad Abdullah Jamal (Intuitive Surgical Inc.), Didier Mutter (University Hospital of Strasbourg), Omid Mohareri (Intuitive Surgical Inc.), Nicolas Padoy (IHU Strasbourg), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper presents a multi-modal pretraining framework that aligns video and pose data, which could inspire strategies for enhancing audio representations in video-based tasks in audio analysis.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The research focuses on recognizing surgical activities in operating rooms using video footage from multiple camera angles and human pose tracking data.",
+    "contribution": "This paper introduces the PreViPS framework to solve the challenge of surgical activity recognition using uncalibrated multi-view camera footage, achieving improved accuracy in recognizing surgical phases.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on calibrated camera setups and missed fine-grained clinician movements.",
+        "novelty": "This work uses a calibration-free approach for multiple camera perspectives and integrates pose information with video data to improve recognition tasks."
+    },
+    "key_innovation": "The framework tokenizes continuous human pose data into discrete embeddings, improving integration with video embeddings and enhancing multi-modal learning.",
+    "real_world_impact": "The ability to identify surgical activities accurately in real-time could significantly enhance surgical workflows and patient safety in operating rooms, enabling better monitoring and reduced risks.",
+    "limitations": "The paper primarily demonstrates its approach on limited datasets and the multi-view setup may require extensive computational resources.",
+    "new_terms": {
+        "surgical activity recognition": "**Surgical activity recognition** refers to the process of identifying and classifying various activities or tasks performed by clinicians during surgical procedures.",
+        "dual-encoder architecture": "**Dual-encoder architecture** is a machine learning model structure that separately processes two different data modalities, in this case, video and pose data."
+    },
+    "open_sourcing": "Code will be made available at https://github.com/CAMMA-public/PreViPS"
+}

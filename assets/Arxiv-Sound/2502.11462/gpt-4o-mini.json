@@ -1,0 +1,22 @@
+{
+    "title": "LMFCA-Net: A Lightweight Model for Multi-Channel Speech Enhancement with Efficient Narrow-Band and Cross-Band Attention",
+    "author": "Yaokai Zhang (School of Electronic Information, Wuhan University), Hanchen Pei (School of Electronic Information, Wuhan University), Wanqi Wang (School of Information Management, Wuhan University), Gongping Huang (School of Electronic Information, Wuhan University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Speech and Audio",
+    "background": "Multi-channel speech enhancement aims to improve speech clarity by reducing noise and reverberation from signals captured by an array of microphones.",
+    "contribution": "This paper introduces LMFCA-Net to solve the problem of computational efficiency in deep learning-based speech enhancement, achieving a significant reduction in complexity while maintaining performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for multi-channel speech enhancement often involve computationally intensive structures, such as recurrent units or self-attention mechanisms.",
+        "novelty": "This work improves computational efficiency through the use of decoupled fully-connected attention mechanisms, avoiding reliance on recurrent architectures."
+    },
+    "key_innovation": "Introduces time-axis and frequency-axis decoupled fully-connected attention mechanisms to enhance the model's capability while maintaining lower computational load.",
+    "real_world_impact": "Could enable more practical applications of speech enhancement technology on resource-constrained devices, such as mobile phones and hearing aids.",
+    "limitations": "No",
+    "new_terms": {
+        "decoupled fully-connected attention": "**Decoupled fully-connected attention** refers to an attention mechanism that separates the connections along different axes (time and frequency) to reduce complexity.",
+        "complex ideal ratio mask (cIRM)": "**Complex ideal ratio mask (cIRM)** is a method used for separating target signals in audio by estimating the ratio of a target signal's complex representation to the mixture."
+    },
+    "open_sourcing": ""
+}

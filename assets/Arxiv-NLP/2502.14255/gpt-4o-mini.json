@@ -1,0 +1,19 @@
+{
+    "title": "Effects of Prompt Length on Domain-specific Tasks for Large Language Models",
+    "author": "Qibang Liu (Georgia Institute of Technology), Wenzhe Wang (Nanjing University of Finance and Economics), Jeffrey Willard (Boston University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This study investigates how the length of prompts influences the performance of large language models in various domain-specific tasks, which may be important in optimizing text-to-audio generation processes by incorporating relevant background knowledge.",
+    "contribution": "This paper introduces an experimental framework to analyze the relationship between prompt length and model performance across nine domain-specific tasks, concluding that longer prompts generally enhance outcomes.",
+    "technical_comparison": {
+        "prior_work": "Most existing research focuses on optimizing prompt content or structure but does not consider the impact of prompt length.",
+        "novelty": "This work uniquely emphasizes the effects of varying prompt lengths on the efficacy of model responses in specific domains."
+    },
+    "key_innovation": "The systematic exploration of prompt length as a variable affecting language model performance is a distinctive approach in the study of large language models.",
+    "real_world_impact": "Improving prompt engineering can lead to enhanced application of language models in specialized fields, benefiting areas such as automated writing, customer service, and domain-specific analyses.",
+    "limitations": "No specific limitations are noted, but the performance of LLMs still significantly lags behind human proficiency across tasks.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh",
+    "author": "Nurkhan Laiyk (MBZUAI), Daniil Orel (MBZUAI), Rituraj Joshi (Cerebras Systems), Maiya Goloburda (MBZUAI), Yuxia Wang (MBZUAI), Preslav Nakov (MBZUAI), Fajri Koto (MBZUAI)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper directly addresses instruction tuning, which is crucial for improving language models in the audio and speech domain for low-resource languages like Kazakh. The methodologies and insights provided could enhance audio-to-text generation tasks in Kazakh.",
+    "field": "Applications-Speech and Audio",
+    "background": "Instruction tuning in low-resource languages aims to improve large language models' ability to follow human instructions with limited available data.",
+    "contribution": "This paper introduces an open-source instruction-following dataset for Kazakh that includes institutional and cultural knowledge, enhancing language model understanding in these domains.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets for instruction tuning primarily focus on larger, well-documented languages and often miss local context.",
+        "novelty": "This work utilizes LLM-assisted data generation to construct instructions relevant to local governance and culture, followed by thorough human validation, ensuring high quality."
+    },
+    "key_innovation": "Combining LLM data generation with human verification to create a culturally and institutionally relevant dataset for instruction tuning in Kazakh.",
+    "real_world_impact": "The developed dataset can significantly improve language models' capabilities in public administration and cultural tasks in Kazakhstan, which can have real-life applications in governance and education.",
+    "limitations": "The dataset does not account for regional dialects of Kazakh, potentially limiting its applicability across different speaking communities.",
+    "new_terms": {
+        "instruction tuning": "**Instruction tuning** refers to the process of refining language models using structured prompts and instructions to improve their performance on specific tasks."
+    },
+    "open_sourcing": "The dataset has been made open-source and is available for public use."
+}

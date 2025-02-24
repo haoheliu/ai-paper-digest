@@ -1,0 +1,22 @@
+{
+    "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+    "author": "Kenneth Enevoldsen (Aarhus University), Isaac Chung (Individual Contributor), Imene Kerboua (Esker), M\u00e1rton Kardos (Aarhus University), Ashwin Mathur (Individual Contributor), David Stap (University of Amsterdam), Jay Gala (MBZUAI), Wissam Siblini (Individual Contributor), ..., Niklas Muennighoff (Stanford University)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The benchmarks and methodologies introduced could aid in the development of more effective audio-text models, especially in multilingual contexts.",
+    "field": "Evaluation-Methodology",
+    "background": "Creating a comprehensive benchmark for evaluating text embedding models on over 500 tasks across 250+ languages, addressing limitations in existing benchmarks.",
+    "contribution": "MMTEB introduces an expansive multilingual benchmark to evaluate text embeddings, solving the problem of limited task diversity and language coverage, thus achieving a rich dataset for model evaluation.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks often focused narrowly on specific languages or tasks, limiting their applicability across multilingual scenarios.",
+        "novelty": "This work includes a wider language range and novel tasks, utilizing an open collaboration framework to increase dataset diversity."
+    },
+    "key_innovation": "Employs a community-driven approach alongside advanced downsampling and caching methods to enhance evaluation efficiency while maintaining model-rank sensitivity.",
+    "real_world_impact": "Provides a standardized framework that can improve the performance of language models in multilingual settings, enhancing practical applications like cross-lingual retrieval and semantic search.",
+    "limitations": "The benchmark may expose models to biases towards high-resource languages, and translating tasks could introduce English leakage.",
+    "new_terms": {
+        "text embeddings": "**Text embeddings** are numeric representations of text that capture semantic meaning, allowing models to perform tasks like search and classification.",
+        "downsampling": "**Downsampling** involves reducing the size of a dataset to manage computational demands while preserving essential characteristics."
+    },
+    "open_sourcing": "MMTEB is available as open-source code at https://github.com/embeddings-benchmark/mteb"
+}

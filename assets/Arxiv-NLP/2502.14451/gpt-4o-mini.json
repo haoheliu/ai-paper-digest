@@ -1,0 +1,22 @@
+{
+    "title": "Optimal word order for non-causal text generation with Large Language Models: the Spanish case",
+    "author": "Andrea Busto-Casti\u00f1eira (University of Vigo), Silvia Garc\u00eda-M\u00e9ndez (University of Vigo), Francisco de Arriba-P\u00e9rez (University of Vigo), Francisco J. Gonz\u00e1lez-Casta\u00f1o (University of Vigo)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses novel methods to improve non-causal text generation, which could inform similar strategies for enhancing text-to-audio or other multimodal generation tasks relevant to Haohe Liu's research.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Examining how different word orders influence the performance of natural language generation models, focusing specifically on the Spanish language.",
+    "contribution": "This paper introduces a Viterbi algorithm-based methodology to estimate optimal word order for non-causal text generation, demonstrating how causal models may limit linguistic expressiveness in Spanish.",
+    "technical_comparison": {
+        "prior_work": "Traditional generative models typically use unidirectional contexts (causal), limiting their efficiency in flexible languages like Spanish.",
+        "novelty": "This work utilizes a bi-directional approach to optimize text generation by leveraging the flexibility of word order in Spanish."
+    },
+    "key_innovation": "Applies the Viterbi algorithm in a novel way to estimate the most likely word sequence for natural language generation, focusing on non-causal methods.",
+    "real_world_impact": "Enhancing text generation capabilities in multilingual contexts could significantly improve applications such as translation, interactive chatbots, and creative writing tools, promoting richer outputs that retain linguistic diversity.",
+    "limitations": "The analysis focuses solely on the Spanish language; applicability to other languages needs to be validated.",
+    "new_terms": {
+        "non-causal language models": "**Non-causal language models** are generative models that can consider bidirectional contexts when predicting the next word, as opposed to causal models that predict only based on previous words.",
+        "Viterbi algorithm": "**Viterbi algorithm** is a dynamic programming algorithm used for finding the most probable sequence of hidden states in a Markov model, here adapted for sequence generation in language modeling."
+    },
+    "open_sourcing": ""
+}

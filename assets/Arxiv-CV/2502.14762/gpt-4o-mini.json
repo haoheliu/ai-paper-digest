@@ -1,0 +1,23 @@
+{
+    "title": "Sculpting [CLS] Features for Pre-Trained Model-Based Class-Incremental Learning",
+    "author": "Murat Onur Yildirim (TU Eindhoven), Elif Ceren Gok Yildirim (TU Eindhoven), Joaquin Vanschoren (TU Eindhoven)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods developed in this study for class-incremental learning could potentially be applied in audio tasks where continual learning is necessary, such as in adaptive audio classification systems that need to incrementally adjust to new sound categories without losing the ability to recognize previously learned sounds.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Class-incremental learning aims to enable a model to learn to classify new categories of data over time while retaining knowledge of previously learned categories.",
+    "contribution": "This paper introduces the LuCA module and the TOSCA framework to solve the problem of catastrophic forgetting in pre-trained models, achieving superior performance with fewer parameters compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often scaled linearly with model depth, requiring heavy modifications to the entire model to adapt to new tasks.",
+        "novelty": "This work improves by focusing adaptation to a single [CLS] token, allowing for efficient model modifications without compromising the pre-trained representations."
+    },
+    "key_innovation": "The core innovation lies in the strategic placement of a lightweight adaptation module on the final output token, enabling effective learning with minimal interference.",
+    "real_world_impact": "This approach offers potential applications in machine learning systems that require ongoing adaptation, such as personal assistants or autonomous systems that encounter new classes of data over time.",
+    "limitations": "The paper mentions reliance on the quality of pre-trained models as a limitation, indicating that performance could vary depending on the underlying model.",
+    "new_terms": {
+        "class-incremental learning": "**Class-incremental learning** is a process where a machine learning model learns new classes continuously while retaining knowledge of previously learned classes.",
+        "LuCA": "**Learning and Calibration (LuCA)** is a parameter-efficient fine-tuning module designed to introduce task-specific transformations and enhance features through attention mechanisms.",
+        "TOSCA": "**Token-level Sparse Calibration and Adaptation (TOSCA)** is a framework that utilizes a single adaptation module on the final token of a model to balance stability and adaptability."
+    },
+    "open_sourcing": ""
+}

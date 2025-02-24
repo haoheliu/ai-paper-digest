@@ -1,0 +1,22 @@
+{
+    "title": "ODVerse33: Is the New YOLO Version Always Better? A Multi Domain benchmark from YOLO v5 to v11",
+    "author": "Tianyou Jiang (College of Information Science and Engineering, Shandong Agricultural University), Yang Zhong (College of Information Science and Engineering, Shandong Agricultural University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper presents a benchmark across various domains, which could inform the development of computer vision models in audio and multimedia applications, enhancing my understanding of model performance in diverse contexts.",
+    "field": "Evaluation-Meta Studies",
+    "background": "The study evaluates the performance of multiple YOLO (You Only Look Once) object detection models across different tasks in various domains to understand their real-world applicability.",
+    "contribution": "ODVerse33 introduces a comprehensive benchmark of 33 datasets across 11 domains to analyze YOLO models, aiming to determine if newer YOLO versions consistently outperform their predecessors.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluations often focused solely on COCO data, limiting the understanding of cross-domain performance.",
+        "novelty": "This work broadens the evaluation scope and systematically compares models from YOLOv5 to YOLOv11 across multiple real-world datasets."
+    },
+    "key_innovation": "The introduction of the ODverse33 benchmark allows for a more nuanced analysis of YOLO models' performance in diverse conditions, highlighting the necessity of model selection based on specific application requirements.",
+    "real_world_impact": "This benchmark can guide practitioners in selecting appropriate YOLO models for their specific tasks, ultimately improving the application of object detection in various fields such as agriculture, medicine, and security.",
+    "limitations": "No",
+    "new_terms": {
+        "mean average precision (mAP)": "**Mean Average Precision (mAP)** is a metric used to evaluate the accuracy of object detection models by measuring the average precision across different recall levels.",
+        "Intersection over Union (IoU)": "**Intersection over Union (IoU)** is a performance metric that quantifies the overlap between the predicted bounding box and the ground truth bounding box."
+    },
+    "open_sourcing": "Details are available at https://github.com/SkyCol/ODverse33"
+}

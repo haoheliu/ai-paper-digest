@@ -1,0 +1,22 @@
+{
+    "title": "On the Influence of Context Size and Model Choice in Retrieval-Augmented Generation Systems",
+    "author": "Juraj Vladika (Technical University of Munich), Florian Matthes (Technical University of Munich)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper explores retrieval-augmented generation systems, which could potentially enhance performance in audio-related tasks through improved model configurations and retrieval strategies.",
+    "field": "Applications-Language",
+    "background": "Retrieval-augmented generation systems improve language model responses by dynamically retrieving relevant information, making them suitable for tasks requiring factual knowledge.",
+    "contribution": "This paper introduces a systematic evaluation of RAG components including context size and model choice, aimed at optimizing performance for long-form question answering tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods have focused primarily on short answers and questions with well-defined singular context snippets.",
+        "novelty": "This study expands the evaluation to include varying context sizes and different foundational models, providing a more comprehensive understanding of RAG system performance."
+    },
+    "key_innovation": "By analyzing how varying context sizes influence the performance of multiple large language models, this research addresses gaps in understanding RAG dynamics for nuanced tasks.",
+    "real_world_impact": "Findings may inform the design of more effective AI systems for knowledge-intensive applications, enhancing user interactions with technology through improved factuality and context usage.",
+    "limitations": "No mention of explicit limitations; however, findings may not generalize beyond the studied datasets.",
+    "new_terms": {
+        "retrieval-augmented generation": "**Retrieval-augmented generation (RAG)** refers to systems that integrate retrieval components into generative processes, improving the information quality of generated responses.",
+        "context saturation": "**Context saturation** occurs when additional context does not enhance performance and may even degrade it due to information overload."
+    },
+    "open_sourcing": "Code available in a public repository on GitHub."
+}

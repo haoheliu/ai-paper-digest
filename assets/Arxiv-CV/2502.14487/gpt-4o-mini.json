@@ -1,0 +1,22 @@
+{
+    "title": "Temporal Misalignment in ANN-SNN Conversion and Its Mitigation via Probabilistic Spiking Neurons",
+    "author": "V. X. BojWu (MBZUAI, Abu Dhabi), Velibor Bojkovic (MBZUAI, Abu Dhabi), Xiaofeng Wu (City University of Macau, Macau), Bin Gu (Jilin University, China)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed two-phase probabilistic spiking neurons could be integrated into audio processing tasks to improve the efficiency of spiking neural networks, which could enhance generative audio models similar to Haohe Liu's work.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Improving the performance of spiking neural networks (SNNs) in various machine learning tasks through efficient conversion from artificial neural networks (ANNs), focusing on temporal spike arrangement.",
+    "contribution": "This paper introduces two-phase probabilistic spiking neurons to solve the issue of temporal misalignment in ANN-SNN conversion, achieving state-of-the-art performance on image classification datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods of ANN-SNN conversion often failed to optimize spike timing and often suffered from performance drops at low latencies.",
+        "novelty": "This work presents TPP neurons that accumulate inputs and emit spikes in a probabilistic manner, significantly enhancing performance and demonstrating biological plausibility."
+    },
+    "key_innovation": "The two-phase mechanism in TPP spiking neurons allows for a more flexible and efficient spike representation, aligning more closely with biological neuron behavior.",
+    "real_world_impact": "This advancement in spiking neural networks could lead to more energy-efficient and powerful models for various applications, including event-based vision and potentially audio processing.",
+    "limitations": "No specific limitations are mentioned in the paper.",
+    "new_terms": {
+        "spiking neural networks (SNNs)": "**Spiking neural networks (SNNs)** are a class of neural networks that process information using discrete events called spikes, mimicking biological neural activity.",
+        "two-phase probabilistic spiking neurons (TPP)": "**Two-phase probabilistic spiking neurons (TPP)** are designed to accumulate input before probabilistically generating output spikes, improving model performance and efficiency."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Rumor Detection by Multi-task Suffix Learning based on Time-series Dual Sentiments",
+    "author": "Zhiwei Liu (The University of Manchester), Kailai Yang (The University of Manchester), Eduard Hovy (The University of Melbourne), Sophia Ananiadou (The University of Manchester)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed framework integrates sentiment analysis with rumor detection, which can inform sentiment-based approaches in audio-visual content recognition and manipulation, relevant to Haohe's generative audio tasks.",
+    "field": "Applications-Language",
+    "background": "The task focuses on detecting and tracking the evolution of rumors on social media by analyzing the sentiments expressed in both source messages and their responses over time.",
+    "contribution": "This paper introduces the MSuf framework to solve the problem of effective rumor detection through dual sentiment analysis, achieving significant improvements in F1 scores across multiple datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often overlook the dynamic nature of sentiments in user comments or require extensive fine-tuning of models.",
+        "novelty": "This work improves by using a multi-task suffix learning approach that captures time-series sentiments while requiring minimal parameter adjustment."
+    },
+    "key_innovation": "It uniquely leverages a combination of large language models and dual sentiment analysis to enhance rumor detection performance, particularly through a refined structure that aligns text and sentiment over time.",
+    "real_world_impact": "The framework could be applied in real-time misinformation detection to prevent the spread of false information, critical in contexts like social media, public safety, and political discourse.",
+    "limitations": "The authors note limitations regarding the computational resources, restricting their model evaluations to certain open-source large language models.",
+    "new_terms": {
+        "multi-task suffix learning": "**Multi-task suffix learning** refers to a training approach where a model learns to perform multiple tasks simultaneously, enhancing its ability to understand complex relationships in data.",
+        "dual sentiment analysis": "**Dual sentiment analysis** is an approach that simultaneously evaluates sentiments across different contexts, such as the original message and its responses, to track changes and influences."
+    },
+    "open_sourcing": ""
+}

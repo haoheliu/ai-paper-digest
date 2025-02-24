@@ -1,0 +1,22 @@
+{
+    "title": "ROI-NeRFs: Hi-Fi Visualization of Objects of Interest within a Scene by NeRFs Composition",
+    "author": "Quoc-Anh Bui (Universit\u00e9 Paris-Saclay), Gilles Rougeron (Universit\u00e9 Paris-Saclay), G\u00e9raldine Morin (Universit\u00e9 de Toulouse), Simone Gasparini (Universit\u00e9 de Toulouse), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The method combines NeRFs for high-detail object visualization, which can inspire techniques for audio-visual probes or data alignment in audio processing.",
+    "field": "Applications-Vision",
+    "background": "Enhancing the visualization of specific objects within large-scale scenes using deep learning techniques to create high-fidelity, detailed views while maintaining overall scene understanding.",
+    "contribution": "This paper introduces the ROI-NeRFs framework to solve the challenge of visualizing detailed objects in cultural heritage scenes, achieving high-resolution renderings without significantly increasing computation time.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often used a single NeRF for the entire scene, limiting detail around objects of interest.",
+        "novelty": "This work improves by decomposing the scene into a lower-detail scene NeRF and multiple higher-detail NeRFs for specific objects, leveraging automatic camera grouping for targeted training."
+    },
+    "key_innovation": "The framework allows for targeted detail enhancement only for regions of interest while maintaining efficiency, enabling the simultaneous rendering of multiple objects.",
+    "real_world_impact": "This approach has significant implications for cultural heritage preservation, museum exhibitions, and interactive applications, potentially offering enhanced educational experiences for users.",
+    "limitations": "The method may require careful camera positioning during the training phase and struggles with reflective surfaces.",
+    "new_terms": {
+        "Neural Radiance Fields (NeRFs)": "**Neural Radiance Fields (NeRFs)** are a type of deep learning model used for synthesizing novel views of complex 3D scenes by learning from a set of 2D images.",
+        "Region of Interest (ROI)": "**Region of Interest (ROI)** refers to a specific part of a visual scene that is of particular interest, often requiring higher detail and resolution during visualization."
+    },
+    "open_sourcing": ""
+}

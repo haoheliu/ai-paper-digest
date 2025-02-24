@@ -1,0 +1,22 @@
+{
+    "title": "IM360: Textured Mesh Reconstruction for Large-scale Indoor Mapping with 360\u00b0 Cameras",
+    "author": "Dongki Jung (University of Maryland), Jaehoon Choi (University of Maryland), Yonghan Lee (University of Maryland), Dinesh Manocha (University of Maryland), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper presents a novel approach for 3D reconstruction using omnidirectional cameras, which could inform techniques for audio-visual integration in immersive environments, a potential interest in Haohe's research.",
+    "field": "Applications-Vision",
+    "background": "The task focuses on reconstructing 3D indoor environments and textures from images captured with omnidirectional cameras, addressing challenges of sparse scene data and textureless regions.",
+    "contribution": "This paper introduces a complete 3D reconstruction pipeline for omnidirectional cameras to solve issues associated with traditional methods, achieving superior reconstruction quality in large-scale indoor settings.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focus on conventional cameras, which struggle in textureless and sparse conditions, often failing to register images accurately.",
+        "novelty": "This work integrates a spherical camera model across all Structural-from-Motion components, improving feature matching and camera localization in difficult scenarios."
+    },
+    "key_innovation": "Combines classical and neural rendering techniques to refine visual textures and create accurate 3D models from sparse omnidirectional input.",
+    "real_world_impact": "The approach streamlines indoor mapping processes for various applications, such as augmented reality and robotics, enhancing efficiency and effectiveness. No immediate real-world impact if used purely theoretically.",
+    "limitations": "The performance relies heavily on the effectiveness of the matching pairs during image acquisition and the accuracy of the underlying mesh geometry.",
+    "new_terms": {
+        "Structure-from-Motion": "**Structure-from-Motion** is a photogrammetry technique used to reconstruct 3D structures from a series of 2D images.",
+        "neural implicit surface reconstruction": "**Neural implicit surface reconstruction** utilizes neural networks to represent surfaces implicitly, enabling high-quality 3D modeling from sparse point cloud data."
+    },
+    "open_sourcing": "Project page: anonymousim360.github.io/"
+}

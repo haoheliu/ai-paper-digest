@@ -1,0 +1,22 @@
+{
+    "title": "LLMPopcorn: An Empirical Study of LLMs as Assistants for Popular Micro-video Generation",
+    "author": "Junchen Fu (University of Glasgow), Xuri Ge (Shandong University), Kaiwen Zheng (University of Glasgow), Ioannis Arapakis (Telef\u00f3nica Scientific Research), Xin Xin (Shandong University), Joemon M. Jose (University of Glasgow), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper explores the use of Large Language Models (LLMs) to enhance content generation, which could inform methods for audio generation and multimodal integration in Haohe Liu's work.",
+    "field": "Applications-Creative AI",
+    "background": "Utilizing advanced LLMs to assist in generating popular short videos by structuring prompts that cater to trends, aiming to optimize audience engagement.",
+    "contribution": "LLMPopcorn introduces a pipeline leveraging LLMs for generating enhanced video content, striving to improve the popularity of micro-videos comparable to human-created content.",
+    "technical_comparison": {
+        "prior_work": "Existing video generation methods mainly focus on video quality and content but overlook popular engagement factors.",
+        "novelty": "This study integrates LLMs specifically for enhancing the popularity of video content by developing a streamlined generation and evaluation pipeline."
+    },
+    "key_innovation": "The author proposes a unique pipeline that combines LLM-based prompt generation with video popularity prediction to facilitate the creation of engaging micro-videos.",
+    "real_world_impact": "This approach has potential applications in content creation, particularly on platforms like TikTok and YouTube, enhancing how videos are produced and consumed.",
+    "limitations": "While generating videos that sometimes exceed human benchmarks in predicted popularity, the overall absolute scores remain modest.",
+    "new_terms": {
+        "LLMs": "**Large Language Models** are advanced AI systems trained on extensive text data that can generate, summarize, and translate text, enhancing creative and contextual capabilities.",
+        "micro-videos": "**Micro-videos** are short video content pieces typically under one minute long, widely consumed on social media platforms."
+    },
+    "open_sourcing": "Code and datasets will be released to support future studies."
+}

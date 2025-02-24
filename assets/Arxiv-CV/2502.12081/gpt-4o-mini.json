@@ -1,0 +1,22 @@
+{
+    "title": "UNHACKABLE TEMPORAL REWARDING FOR SCAL-ABLE VIDEO MLLMS",
+    "author": "En Yu (Huazhong University of Science and Technology), Kangheng Lin (Beijing University of Posts and Telecommunications), Liang Zhao (StepFun), Yana Wei (Johns Hopkins University), Zining Zhu (University of Chinese Academy of Sciences), Haoran Wei (StepFun), Jianjian Sun (StepFun), Zheng Ge (StepFun), Xiangyu Zhang (StepFun), Jingyu Wang (Beijing University of Posts and Telecommunications), Wenbing Tao (Huazhong University of Science and Technology)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The approach to temporal modeling and the introduction of the Unhackable Temporal Rewarding (UTR) can inspire novel techniques in audio-visual alignment and modeling in Haohe Liu's work on audio generation.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "The research addresses video-language modeling issues and proposes a method to counteract shortcut learning phenomena observed in current video multimodal models.",
+    "contribution": "This paper introduces the Temporal Perplexity (TPL) score and the Unhackable Temporal Rewarding (UTR) framework to solve the problem of temporal hacking in video language models, achieving improved video comprehension.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often exploit temporal shortcuts leading to poor comprehension of the entire video content.",
+        "novelty": "This work improves upon traditional methods by systematically using spatiotemporal attribute extraction and bidirectional querying to enhance model learning across all frames."
+    },
+    "key_innovation": "The integration of spatiotemporal attributes with bidirectional querying allows for more comprehensive video frame analysis and avoids reliance on select frames.",
+    "real_world_impact": "The framework can enhance video understanding applications significantly, leading to better outcomes in fields like media analysis and content generation.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "temporal hacking": "**Temporal hacking** refers to the phenomenon where models focus only on key frames in videos, compromising the understanding of the full temporal context.",
+        "Temporal Perplexity (TPL)": "**Temporal Perplexity (TPL)** is a proposed metric to quantify the severity of shortcut learning in temporal video models."
+    },
+    "open_sourcing": ""
+}

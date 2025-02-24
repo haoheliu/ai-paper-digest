@@ -1,0 +1,21 @@
+{
+    "title": "Dehumanizing Machines: Mitigating Anthropomorphic Behaviors in Text Generation Systems",
+    "author": "Myra Cheng (Stanford University), Su Lin Blodgett (Microsoft Research), Alicia DeVrio (Carnegie Mellon University), Lisa Egede (Carnegie Mellon University), Alexandra Olteanu (Microsoft Research)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper addresses interventions to reduce anthropomorphism in AI systems, which is relevant to ethical considerations in audio and speech applications where user trust and expectations can significantly impact system design.",
+    "field": "Social and Economic Aspects of ML-Human-AI Interaction",
+    "background": "The study explores ways to alter the outputs of text generation systems to reduce human-like traits and mitigate potential negative effects users may experience.",
+    "contribution": "This paper introduces an inventory of interventions for reducing anthropomorphic behaviors in text generation systems, demonstrating various approaches for mitigating associated risks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lack empirical grounding for specific interventions and often lack clarity on operationalization.",
+        "novelty": "This work provides a detailed inventory of interventions alongside a conceptual framework, supporting clearer implementation strategies."
+    },
+    "key_innovation": "Develops a structured framework that categorizes interventions based on the anthropomorphic behaviors they address, enhancing clarity and applicability.",
+    "real_world_impact": "The findings have potential implications for designing AI systems across various applications, ensuring safer and more ethical interactions for users.",
+    "limitations": "The focus is exclusively on text outputs via conversational interfaces, limiting applicability to other forms of AI-generated content.",
+    "new_terms": {
+        "anthropomorphism": "**Anthropomorphism** is the attribution of human-like characteristics or behaviors to non-human entities, often leading to user misconceptions about the capabilities of these entities."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "myEye2Wheeler: A Two-Wheeler Indian Driver Real-World Eye-Tracking Dataset",
+    "author": "Bhaiya Vaibhaw Kumar, Deepti Rawat, Tanvi Kandalla, Aarnav Nagariya, Kavita Vemuri",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The insights into gaze behavior and the need for context-specific models can inform the development of innovations in audio-visual integration in driving assistance systems.",
+    "field": "Applications-Vision",
+    "background": "Collecting eye-tracking data from two-wheeler drivers navigating complex traffic conditions in India to analyze visual attention and decision-making.",
+    "contribution": "This paper introduces a comprehensive dataset for two-wheeler driving in Indian traffic to solve the lack of specific behavioral studies, achieving substantial gaze data across diverse driving scenarios.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets primarily focus on four-wheelers or stationary setups, limiting insights into real-world two-wheeler dynamics.",
+        "novelty": "This work captures dynamic two-wheeler driving environments, providing gaze data that reflects the unique complexities faced by drivers in Indian traffic conditions."
+    },
+    "key_innovation": "The dataset includes variations in traffic scenarios and unpackages the challenges two-wheeler drivers encounter, emphasizing real-world applicability.",
+    "real_world_impact": "This dataset can enhance understanding of two-wheeler driver behavior, contributing to improved safety measures and the development of tailored driver assistance technologies.",
+    "limitations": "Data was collected only during specific hours under uniform lighting conditions, which may not reflect broader driving contexts.",
+    "new_terms": {
+        "saliency models": "**Saliency models** are computational approaches that predict areas of interest in visual scenes based on human gaze data, aiming to understand attention allocation during tasks like driving."
+    },
+    "open_sourcing": "Data will be released in formats suitable for varied research applications with measures for participant anonymity."
+}

@@ -1,0 +1,19 @@
+{
+    "title": "eC-Tab2Text: Aspect-Based Text Generation from e-Commerce Product Tables",
+    "author": "Luis Antonio Guti\u00e9rrez Guanilo (University of Engineering and Technology), Mir Tafseer Nayeem (University of Alberta), Cristian L\u00f3pez (University of Engineering and Technology), Davood Rafiei (University of Alberta)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The fine-tuning of Large Language Models on structured e-commerce data fits within the broader context of using machine learning for data generation tasks relevant to audio research, particularly in improving data synthesis methods.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Generating natural language text from structured e-commerce product tables, specifically creating detailed reviews based on user queries about product features.",
+    "contribution": "This paper introduces the eC-Tab2Text dataset to solve the problem of generating coherent product reviews from tables, achieving significant improvements in text generation metrics and contextual accuracy.",
+    "technical_comparison": "Previous methods primarily target general-purpose datasets without domain-specific features. This work improves by using a specialized dataset that allows for detailed, aspect-based text generation tailored to products.",
+    "key_innovation": "The introduction of a domain-specific dataset combined with fine-tuned language models enhances the contextual relevance and accuracy of generated reviews.",
+    "real_world_impact": "Empowers e-commerce platforms to produce more useful and engaging product descriptions, potentially leading to improved customer satisfaction and sales. No immediate real-world impact.",
+    "limitations": "The dataset is exclusively focused on mobile phone data, which may limit generalizability to other product categories.",
+    "new_terms": {
+        "aspect-based text generation": "**Aspect-based text generation** refers to the process of generating textual content focused on specific aspects or characteristics of an item, facilitating targeted information delivery.",
+        "Large Language Models": "**Large Language Models (LLMs)** are sophisticated algorithms designed to understand and generate human-like text, trained on vast datasets to perform various natural language processing tasks."
+    },
+    "open_sourcing": "The dataset and related resources are publicly available at [eC-Tab2Text](https://github.com/Luis-ntonio/eC-Tab2Text)."
+}

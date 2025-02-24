@@ -1,0 +1,22 @@
+{
+    "title": "Dynamic Activation with Knowledge Distillation for Energy-Efficient Spiking NN Ensembles",
+    "author": "Orestis Konstantaropoulos (Archimedes, Athena Research Center), Theodoris Mallios (Archimedes, Athena Research Center), Maria Papadopouli (University of Crete, Foundation for Research & Technology-Hellas, Archimedes, Athena Research Center)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper discusses knowledge distillation for Spiking Neural Networks (SNNs), which could inform methods for audio processing and enhancement tasks that leverage neural networks.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Building energy-efficient neural networks that mimic the human brain using Spiking Neural Networks, which operate based on discrete events rather than continuous values.",
+    "contribution": "This paper introduces a Spiking Neural Ensemble (SNE) that utilizes adaptive activation and knowledge distillation to enhance the efficiency and accuracy of SNNs, achieving 20x computational savings over traditional models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often required extensive computational resources without efficient energy use, as most SNNs suffered from a performance gap compared to traditional Artificial Neural Networks (ANNs).",
+        "novelty": "This work improves by implementing a dynamic activation strategy that selectively activates only a subset of spiking models, balancing performance with energy efficiency."
+    },
+    "key_innovation": "The method adapts the number of active student models in real-time based on inference needs, leading to substantial energy savings while maintaining competitive accuracy.",
+    "real_world_impact": "This approach is significant for developing AI applications in energy-constrained environments, such as mobile devices and embedded systems, promoting wider adoption of neural networks in practical use cases.",
+    "limitations": "The paper does not explicitly mention limitations but highlights the need for further exploration into feature disentanglement for improved performance.",
+    "new_terms": {
+        "knowledge distillation": "**Knowledge distillation** is a model compression technique where a smaller model (student) is trained to replicate the behavior of a larger model (teacher).",
+        "spiking neural networks (SNNs)": "**Spiking Neural Networks (SNNs)** are a type of neural network that more closely mimics biological neural networks, operating based on discrete spikes or events rather than continuous values."
+    },
+    "open_sourcing": ""
+}

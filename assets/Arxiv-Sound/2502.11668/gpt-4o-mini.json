@@ -1,0 +1,22 @@
+{
+    "title": "NABLAFX: A FRAMEWORK FOR DIFFERENTIABLE BLACK-BOX AND GRAY-BOX MODELING OF AUDIO EFFECTS",
+    "author": "Marco Comunit\u00e0 (Queen Mary University of London), Christian J. Steinmetz (Queen Mary University of London), Joshua D. Reiss (Queen Mary University of London)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper presents a framework that supports differentiable modeling of audio effects, which can be beneficial for tasks related to audio processing and enhancement, relevant to Haohe Liu's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "Modeling audio effects involves creating algorithms that can simulate various sound alterations, such as distortion or reverb, which can improve audio quality in applications like music production.",
+    "contribution": "NablAFx introduces a comprehensive framework for audio effects modeling to solve the challenges of differentiable black-box and gray-box modeling, achieving an organized and easily configurable research environment.",
+    "technical_comparison": {
+        "prior_work": "Existing frameworks variably support black-box or gray-box methods but fall short in providing integrated functionalities like logging, conditioning methods, and flexible model structures.",
+        "novelty": "This work improves by offering a unified toolkit for both model types, enabling more robust analysis and configuration via PyTorch."
+    },
+    "key_innovation": "Introduces both differentiable signal processing blocks and neural network architectures for enhanced versatility in audio effects modeling.",
+    "real_world_impact": "Enhances the ability to design and analyze audio effects for applications in music production and audio engineering. Potential post-release improvements in audio effect algorithms may enhance user experience in various sound applications.",
+    "limitations": "No specific limitations are mentioned in the paper.",
+    "new_terms": {
+        "differentiable": "**Differentiable** refers to a mathematical property of functions that allows gradients to be computed, which is crucial for optimization in machine learning.",
+        "gray-box modeling": "**Gray-box modeling** combines both model-based methods and data-driven learning in a way that allows some interpretability while still leveraging neural networks."
+    },
+    "open_sourcing": "The code is accessible at https://github.com/mcomunita/nablafx."
+}

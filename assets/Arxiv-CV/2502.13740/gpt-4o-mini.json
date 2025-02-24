@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking of Different YOLO Models for CAPTCHAs Detection and Classification",
+    "author": "Miko\u0142aj Wysocki (ITTI Sp.z o.o.), Henryk Gierszal (Adam Mickiewicz University), Piotr Tyczka (ITTI Sp.z o.o.), George Pantelis (UBITECH), Sophia Karagiorgou (UBITECH), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods and evaluation techniques for CAPTCHA detection could lend insights into improving audio captioning systems, particularly concerning data augmentation and classification tasks.",
+    "field": "Applications-Vision",
+    "background": "The study focuses on detecting and classifying different types of CAPTCHAs on webpages using various YOLO (You Only Look Once) object detection models.",
+    "contribution": "This paper introduces a comparative analysis of YOLOv5, YOLOv8, and YOLOv10 models to enhance CAPTCHA detection, achieving improved detection metrics through dataset diversity and model tuning.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches often relied on static datasets or simplistic models that lacked real-world adaptivity.",
+        "novelty": "This work implements dynamic image slicing for oversized inputs and assesses multiple YOLO architectures to enhance performance metrics."
+    },
+    "key_innovation": "The paper proposes an image slicing mechanism to handle oversized input images, resulting in better detection accuracies without distorting CAPTCHA data.",
+    "real_world_impact": "The findings can facilitate the development of more robust web crawlers or automated systems capable of handling CAPTCHAs, thereby supporting research in various fields such as cybersecurity and automated data collection.",
+    "limitations": "The study mentions potential overfitting issues and limited diversity in certain CAPTCHA patterns affecting classification accuracy.",
+    "new_terms": {
+        "YOLO": "**You Only Look Once** is an object detection framework that enables real-time detection of objects in images by predicting bounding boxes and class probabilities in a single forward pass.",
+        "mAP": "**Mean Average Precision** is a metric used to evaluate the accuracy of object detectors, calculated as the mean of the precision scores across all classes at multiple recall levels."
+    },
+    "open_sourcing": ""
+}

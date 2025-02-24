@@ -1,0 +1,22 @@
+{
+    "title": "PhotoDoodle: Learning Artistic Image Editing from Few-Shot Pairwise Data",
+    "author": "Shijie Huang (National University of Singapore), Yiren Song (National University of Singapore), Yuxuan Zhang (Shanghai Jiao Tong University), Hailong Guo (Beijing University of Posts and Telecommunications), Xueyin Wang (Byte Dance), Mike Zheng Shou (National University of Singapore), Jiaming Liu (Tiamat)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Creative AI",
+    "background": "The paper addresses the challenge of enhancing photographs by seamlessly integrating decorative artistic elements while preserving image integrity.",
+    "contribution": "PhotoDoodle introduces an image editing framework that learns artistic styles from limited examples to solve the issue of integrating artistic elements into images, achieving high-quality edits that maintain background consistency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focus on global style transfer or regional inpainting, which can lead to distortion of backgrounds and inconsistency in the edited results.",
+        "novelty": "This work improves by utilizing a two-stage training approach and a positional encoding cloning mechanism, allowing for better integration of decorative elements."
+    },
+    "key_innovation": "The framework's unique positional encoding reuse mechanism enhances integration consistency between artistic alterations and original images without compromising the overall composition.",
+    "real_world_impact": "This method can empower artists and designers by significantly reducing the time required for manual photo editing, paving the way for more efficient workflows in creative industries.",
+    "limitations": "The need for a substantial collection of artist-curated paired datasets for effective training may limit its scalability.",
+    "new_terms": {
+        "photo doodling": "**Photo doodling** refers to the practice of enhancing photographs by adding decorative elements that blend stylistically with the original image.",
+        "positional encoding": "**Positional encoding** is a technique in machine learning that provides information about the locations of tokens in a sequence, crucial for tasks that require understanding spatial relationships."
+    },
+    "open_sourcing": "Code is released at https://github.com/showlab/PhotoDoodle"
+}

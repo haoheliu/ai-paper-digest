@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking LLMs for Political Science: A United Nations Perspective",
+    "author": "Yueqing Liang (Illinois Institute of Technology), Liangwei Yang (Salesforce), Chen Wang (University of Illinois at Chicago), Congying Xia (Meta), Rui Meng (Salesforce), Xiongxiao Xu (Illinois Institute of Technology), Haoran Wang (Emory University), Ali Payani (Cisco), Kai Shu (Emory University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The application of large language models (LLMs) to political science and decision-making processes fits well with my interest in generative models, particularly their use in nuanced, high-stakes environments like international governance, which can inform approaches in audio-based sentiment analysis and text generation.",
+    "field": "Applications-Language",
+    "background": "This study evaluates large language models in the context of United Nations decision-making by proposing a new benchmark that encompasses tasks such as coalition building and voting simulation.",
+    "contribution": "The paper introduces the United Nations Benchmark (UNBench) to evaluate LLMs across four crucial political science tasks, achieving insights into their effectiveness and limitations in simulating complex political dynamics.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks for LLM assessments largely focus on singular tasks without considering the interconnectedness of political decision-making processes.",
+        "novelty": "This work creates a comprehensive benchmark addressing multiple stages of the UN decision-making process, enhancing the evaluation scope of LLMs in real-world applications."
+    },
+    "key_innovation": "It integrates historical UN Security Council records to create interconnected tasks that assess both predictive and generative capabilities of LLMs.",
+    "real_world_impact": "The findings could improve the use of AI in diplomatic settings, aiding in coalition-building strategies and enhancing understanding of international relations dynamics.",
+    "limitations": "The dataset is limited to UN records from 1994-2024 and may not capture the full spectrum of political dynamics, and it focuses exclusively on English-language documents.",
+    "new_terms": {
+        "co-penholder": "**Co-penholder** refers to countries that jointly sponsor a draft resolution in the UN, influencing its likelihood of success.",
+        "UN Security Council (UNSC)": "**UN Security Council (UNSC)** is one of the six main organs of the United Nations, responsible for maintaining international peace and security."
+    },
+    "open_sourcing": "The benchmark can be accessed at: [https://github.com/yueqingliang1/UNBench](https://github.com/yueqingliang1/UNBench)"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Edit Once, Update Everywhere: A Simple Framework for Cross-Lingual Knowledge Synchronization in LLMs",
+    "author": "Yuchen Wu (Shanghai Jiao Tong University), Liang Ding (The University of Sydney), Li Shen (Sun Yatsen University), Dacheng Tao (Nanyang Technological University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed framework for cross-lingual knowledge synchronization could be applied to enhance language models utilized in audio and speech processing, allowing for multilingual support in audio generation tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper addresses the challenge of updating large language models with new knowledge efficiently across multiple languages without necessitating full retraining.",
+    "contribution": "This paper introduces the Cross-Lingual Knowledge Democracy Edit (X-KDE) framework to solve cross-lingual knowledge synchronization, achieving significant improvements in performance across multilingual tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically focused on monolingual knowledge editing, limiting their effectiveness in multilingual contexts.",
+        "novelty": "This work enhances cross-lingual knowledge edits by employing a two-stage process that includes specification tuning and preference optimization for maintaining consistency across languages."
+    },
+    "key_innovation": "The dual-stage approach allows for effective knowledge transfer from a dominant language to others, ensuring the LLM retains accuracy in both source and target languages.",
+    "real_world_impact": "This research could significantly improve multilingual applications, potentially impacting language-based AI systems in fields like translation services and multicultural virtual assistants.",
+    "limitations": "The authors acknowledge limitations related to the computational constraints of validation on models up to 7B parameters, with larger models remaining unexplored.",
+    "new_terms": {
+        "Cross-Lingual Knowledge Democracy Edit (X-KDE)": "This term refers to the proposed framework aimed at synchronizing knowledge across different languages in large language models efficiently."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "A Mobile Robotic Approach to Autonomous Surface Scanning in Legal Medicine",
+    "author": "Sarah Grube (Institute of Medical Technology and Intelligent Systems, Hamburg University of Technology), Sarah Latus (Institute of Medical Technology and Intelligent Systems, Hamburg University of Technology), Martin Fischer (Institute of Medical Technology and Intelligent Systems, Hamburg University of Technology), Vidas Raudonis (Faculty of Electricity and Electronics, Kaunas University of Technology), Axel Heinemann (Institute of Legal Medicine, University Medical Center Hamburg-Eppendorf), Benjamin Ondruschka (Institute of Legal Medicine, University Medical Center Hamburg-Eppendorf), Alexander Schlaefer (Institute of Medical Technology and Intelligent Systems, Hamburg University of Technology)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods for surface scanning and geometric documentation could be adapted to improve audio analysis techniques, particularly in sound event detection where 3D spatial information may be beneficial.",
+    "field": "Applications-Healthcare",
+    "background": "Developing a mobile robotic system for detailed surface scanning of human corpses to assist in legal medicine documentation.",
+    "contribution": "This paper introduces a mobile robotic system to automate RGB-D surface scanning in legal medicine, achieving an average surface coverage of 92.45% for actual corpses.",
+    "technical_comparison": {
+        "prior_work": "Previous systems were either manually operated or required fixed setups that limited mobility and automation.",
+        "novelty": "This work improves on flexibility and autonomy through a mobile robotic configuration that dynamically adjusts positions for optimal scanning."
+    },
+    "key_innovation": "The autonomous scanning system integrates flexible path planning and advanced scanning algorithms using RGB-D data to adaptively cover the body surface.",
+    "real_world_impact": "This could significantly streamline the documentation process in legal medicine, reducing the time spent on manual tasks and increasing accuracy.",
+    "limitations": "The system's effectiveness in constrained environments may be limited based on robot positioning.",
+    "new_terms": {
+        "RGB-D": "**RGB-D** refers to a color camera system that captures both RGB color images and depth information, enabling three-dimensional scene interpretation.",
+        "Iterative Closest Point (ICP)": "**Iterative Closest Point (ICP)** is an algorithm used to minimize the difference between two point clouds by iteratively matching points from one cloud to the nearest points in another."
+    },
+    "open_sourcing": ""
+}

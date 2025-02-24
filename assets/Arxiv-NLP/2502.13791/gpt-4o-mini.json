@@ -1,0 +1,19 @@
+{
+    "title": "From Tools to Teammates: Evaluating LLMs in Multi-Session Coding Interactions",
+    "author": "Nathana\u00ebl Carraz Rakotonirina (Universitat Pompeu Fabra), Mohammed Hamdy (Cohere For AI Community), Jon Ander Campos (Cohere), Lucas Weber (Universitat Pompeu Fabra), Alberto Testoni (University of Amsterdam), Marzieh Fadaee (Cohere For AI), Sandro Pezzelle (University of Amsterdam), Marco Del Tredici (Cohere)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study addresses the robustness of Large Language Models (LLMs) in multi-session coding tasks, which could inform how these models are employed in audio or speech-related coding tasks within Haohe's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating the ability of language models to remember and apply coding instructions over multiple sessions, amidst irrelevant information.",
+    "contribution": "This paper introduces the MEMORYCODE dataset to assess LLMs' performance in tracking coding instructions through multiple dialogue sessions, revealing significant limitations in their ability to collaborate effectively over long interactions.",
+    "technical_comparison": "Previous methods largely focused on isolated instruction completion without evaluating long-term retention in multi-session dialogues. This work improves by systematically analyzing LLMs' abilities to integrate and update instructions over time.",
+    "key_innovation": "The MEMORYCODE dataset uniquely simulates realistic workplace scenarios requiring prospection and information retrieval in complex conversation histories.",
+    "real_world_impact": "The findings highlight the limitations of current LLMs for continuous collaboration in real-world tasks, suggesting the need for advances in long-term memory capabilities. No immediate real-world impact from mere evaluation.",
+    "limitations": "The study relies on synthetic data, which may not fully capture real-world complexities.",
+    "new_terms": {
+        "prospective memory": "**Prospective memory** refers to the ability to remember to perform an intended action at the appropriate time in the future, which is crucial in dynamic interaction scenarios.",
+        "MEMORYCODE": "**MEMORYCODE** is a synthetic dataset designed to evaluate the performance of Large Language Models in remembering and executing coding tasks across multiple dialogues."
+    },
+    "open_sourcing": "The dataset is available under the Apache 2.0 license at https://github.com/for-ai/MemoryCode"
+}

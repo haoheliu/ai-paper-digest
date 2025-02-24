@@ -1,0 +1,22 @@
+{
+    "title": "Mean of Means: Human Localization with Calibration-free and Unconstrained Camera Settings (extended version)",
+    "author": "Tian-Yi Zhang (Hong Kong Polytechnic University), Weng-Yu Zhang (Hong Kong Polytechnic University), Xulu Zhang (Hong Kong Polytechnic University), Jiaxin Wu (Hong Kong Polytechnic University), Xiao-Yong Wei (Sichuan University), Jiannong Cao (Hong Kong Polytechnic University), Qing Li (Hong Kong Polytechnic University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This work presents a novel probabilistic framework for human localization that leverages distribution-based approaches, which could inspire similar methodologies in audio signal localization tasks.",
+    "field": "Applications-Vision",
+    "background": "Human localization using vision techniques aims to determine a person's position in a space based on pixel coordinates from cameras without requiring tags or specialized hardware.",
+    "contribution": "This paper introduces the Mean of Means framework to solve human localization problems with limited camera settings, achieving accuracy rates exceeding 96% within a tolerance of 0.3 meters.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on multi-stage solvers and rigid camera setups that were costly and complex.",
+        "novelty": "This work simplifies the process by using a probabilistic approach that collects large-scale data through mean distributions and uses an end-to-end learning framework."
+    },
+    "key_innovation": "Utilizes a probabilistic model to treat observations of human body points as a distribution, allowing for extensive sampling and improved learning scalability.",
+    "real_world_impact": "The approach has significant implications for cost-effective localization solutions in various applications, particularly in virtual environments and smart spaces where hardware limitations are a concern.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Mean of Means (MoM)": "**Mean of Means** refers to a statistical framework introduced in the paper, where the means of distributions of observations are used to facilitate learning in a human localization task.",
+        "Central Limit Theorem (CLT)": "**Central Limit Theorem** states that the distribution of the sample mean will approximate a normal distribution as the sample size becomes large, regardless of the original distribution of the data."
+    },
+    "open_sourcing": "The dataset and source code can be accessed at https://github.com/open upon acceptance."
+}

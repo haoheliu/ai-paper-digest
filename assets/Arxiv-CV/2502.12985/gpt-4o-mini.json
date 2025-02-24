@@ -1,0 +1,21 @@
+{
+    "title": "PartSDF: Part-Based Implicit Neural Representation for Composite 3D Shape Parametrization and Optimization",
+    "author": "Nicolas Talabot (EPFL), Olivier Clerc (EPFL), Arda Cinar Demirtas (Bilkent University), Doruk Oner (Bilkent University), Pascal Fua (EPFL)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This work introduces an innovative method for 3D shape representation, which could inform audio source manipulation tasks by allowing more structured and precise object modeling, applicable in sound event detection and spatial audio applications.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Representing and optimizing complex 3D shapes composed of distinct parts for applications in engineering design and simulation.",
+    "contribution": "PartSDF introduces a supervised part-aware implicit representation framework to solve the issue of structured shape representation, achieving improved shape reconstruction and manipulation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mostly utilized global shape representations or unsupervised part decomposition, which struggled with semantic coherence and consistency.",
+        "novelty": "This work improves by using a simpler decoder architecture to independently model parts while maintaining overall shape coherence, allowing for better control in reconstruction, manipulation, and optimization applications."
+    },
+    "key_innovation": "The model allows for explicit part encoding and supervision without requiring watertight segmentation, enabling better shape consistency across engineered designs.",
+    "real_world_impact": "This method supports engineering applications by providing a flexible way to optimize and control individual components of complex objects, significantly impacting design processes and simulations.",
+    "limitations": "The main limitation is the reliance on known part decompositions during training, which may restrict its applicability to datasets without predefined part structures.",
+    "new_terms": {
+        "implicit Neural Representations (INRs)": "**Implicit Neural Representations (INRs)** refer to a technique that defines 3D shapes as continuous functions, allowing for smooth and topology-agnostic shape modeling."
+    },
+    "open_sourcing": "Code available at https://github.com/cvlab-epfl/PartSDF"
+}

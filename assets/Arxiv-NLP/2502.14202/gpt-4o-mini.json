@@ -1,0 +1,21 @@
+{
+    "title": "Do LLMs Consider Security? An Empirical Study on Responses to Programming Questions",
+    "author": "Amirali Sajadi (Drexel University), Binh Le (Drexel University), Anh Nguyen (Drexel University), Kostadin Damevski (Virginia Commonwealth University), Preetha Chatterjee (Drexel University)",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The study assesses the security awareness of Large Language Models (LLMs) when handling programming queries, which can inform how LLMs like ChatGPT and others can improve their security capabilities in code generation and debugging tasks relevant to Haohe's work in audio and speech processing.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating how Large Language Models respond to programming questions that contain insecure code, determining their capability in identifying and warning about security vulnerabilities.",
+    "contribution": "This paper introduces a systematic methodology to evaluate the security consciousness of three prominent LLMs, achieving insights into their ability to warn users about coding vulnerabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous research has focused primarily on code generation accuracy and explicit vulnerability detection rather than assessing proactive security awareness in LLMs.",
+        "novelty": "This work highlights how LLMs react to user-supplied vulnerable code without explicit security prompts, showcasing their capacity (or lack thereof) to enhance developer security awareness."
+    },
+    "key_innovation": "It empirically measures LLMs' engagement with security topics through qualitative response analysis of real programming queries.",
+    "real_world_impact": "The findings underscore the need for improved security prompting in LLMs, potentially reducing the integration of insecure code across software systems, which is crucial for safer software development.",
+    "limitations": "The models studied exhibit low detection rates of security vulnerabilities and have significant gaps in proactive security awareness.",
+    "new_terms": {
+        "Large Language Models (LLMs)": "**Large Language Models** are AI models trained on vast amounts of text data to understand and generate human-like text based on input prompts."
+    },
+    "open_sourcing": ""
+}

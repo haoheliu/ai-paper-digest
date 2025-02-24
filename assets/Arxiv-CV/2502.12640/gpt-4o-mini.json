@@ -1,0 +1,22 @@
+{
+    "title": "RecDreamer: Consistent Text-to-3D Generation via Uniform Score Distillation",
+    "author": "Chenxi Zheng (South China University of Technology), Yihong Lin (South China University of Technology), Bangzhen Liu (South China University of Technology), Xuemiao Xu (South China University of Technology), Yongwei Nie (South China University of Technology), Shengfeng He (Singapore Management University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques for rectifying pose distribution may offer insights into improving audio representation, particularly in generating high-fidelity audio from text prompts.",
+    "field": "Applications-Creative AI",
+    "background": "Generating 3D models from textual descriptions while ensuring geometric consistency across different poses to avoid repetitive patterns.",
+    "contribution": "RecDreamer introduces a method for rectifying data distribution to achieve a uniform pose representation, effectively addressing the Multi-Face Janus problem in 3D generation.",
+    "technical_comparison": {
+        "prior_work": "Existing models struggle with pose consistency and often generate repeated textures due to biased data distributions.",
+        "novelty": "This work utilizes a uniform distribution for pose rectification and incorporates an auxiliary pose classifier to enhance generation quality."
+    },
+    "key_innovation": "The introduction of a uniform score distillation framework that modifies the data distribution to ensure consistency in varying poses during 3D model generation.",
+    "real_world_impact": "This approach can enhance the fidelity and usability of 3D assets in industries such as gaming and virtual reality, leading to more realistic environments and experiences.",
+    "limitations": "No specific limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "Multi-Face Janus problem": "**Multi-Face Janus problem** refers to the issue in 3D asset generation where the generated models exhibit geometric inconsistencies, especially in the representation of multiple faces when viewed from different angles.",
+        "uniform score distillation": "**Uniform score distillation** is an optimization technique aimed at aligning 3D generation processes with a distribution that provides equal representation across various attributes, such as pose."
+    },
+    "open_sourcing": "Code: https://github.com/chansey0529/RecDreamer"
+}

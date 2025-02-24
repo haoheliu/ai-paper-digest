@@ -1,0 +1,21 @@
+{
+    "title": "DAMamba: Dynamic Adaptive Scanning for Vision State Space Models",
+    "author": "Tanzhe Li (Xiamen University), Caoshuo Li (Xiamen University), Jiayi Lyu (University of Chinese Academy of Sciences), Hongjuan Pei (University of Chinese Academy of Sciences), Baochang Zhang (Beihang University), Taisong Jin (Xiamen University), Rongrong Ji (Xiamen University), ..., Haohe Liu (University of Surrey)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed Dynamic Adaptive Scan (DAS) could theoretically enhance audio processing tasks that involve complex structure representations, similar to how it captures spatial information in images, beneficial for audio source separation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Adaptive scanning mechanisms in vision models enable effective information extraction, which can be parallelly applied to extract nuanced audio features from complex audio signals.",
+    "contribution": "DAMamba introduces Dynamic Adaptive Scan (DAS) to solve the limitations of previous state space models in vision by allowing flexible region and order adaptations, achieving significant performance improvements across various vision tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing vision state space models struggled with rigid scanning patterns that impair spatial continuity and long-range dependencies.",
+        "novelty": "This paper improves upon those methods by dynamically adjusting scanning strategies based on input features, thereby enhancing feature extraction capabilities."
+    },
+    "key_innovation": "Proposes a data-driven method that learns to focus on important image features, optimizing the representation learning process.",
+    "real_world_impact": "This research paves the way for more efficient and accurate models in computer vision, which could lead to advancements in applications such as autonomous driving, surveillance, and smart assistants.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Dynamic Adaptive Scan": "**Dynamic Adaptive Scan (DAS)** refers to a mechanism that adapts the scanning order and regions during model training to enhance feature representation, improving the model\u2019s ability to capture relevant spatial information more flexibly."
+    },
+    "open_sourcing": "Code will be available at https://github.com/ltzovo/DAMamba"
+}

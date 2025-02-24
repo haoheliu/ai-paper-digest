@@ -1,0 +1,22 @@
+{
+    "title": "SIToBI - A Speech Prosody Annotation Tool for Indian Languages",
+    "author": "Preethi Thinakaran (Shiv Nadar University Chennai), Malarvizhi Muthuramalingam (Shiv Nadar University Chennai), Sooriya S (Shiv Nadar University Chennai), Anushiya Rachel Gladston (Indian Institute of Technology Madras), P. Vijayalakshmi (Sri Sivasubramaniya Nadar College of Engineering), Hema A Murthy (Indian Institute of Technology Madras), T. Nagarajan (Indian Institute of Technology Madras)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This work could help improve text-to-speech systems through enhanced prosodic modeling by integrating the SIToBI tool, which automates prosodic annotations, into existing speech synthesis frameworks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The tool provides automated prosodic annotations for Indian languages, facilitating more natural speech synthesis and recognition tasks.",
+    "contribution": "The paper introduces the SIToBI tool to solve the challenge of deriving accurate prosodic annotations for Indian languages, achieving high accuracy in prosodic labeling and segmentation.",
+    "technical_comparison": {
+        "prior_work": "Existing tools for prosody annotation predominantly focus on English, often lacking standardization for Indian languages and requiring significant manual intervention.",
+        "novelty": "SIToBI extends existing frameworks by providing automated annotation capabilities specifically tailored for Tamil, Hindi, and Indian English while being adaptable for other Indian languages."
+    },
+    "key_innovation": "The tool integrates time-aligned phonetic, syllabic, and word transcriptions with prosodic features, enabling a comprehensive analysis of speech signals.",
+    "real_world_impact": "The SIToBI tool enhances human-computer interactions across Indian languages by improving the naturalness of synthesized speech and aiding in more effective speech processing applications.",
+    "limitations": "Some inaccuracies in automatic speech recognition may lead to errors in the prosodic labeling.",
+    "new_terms": {
+        "prosody": "**Prosody** refers to the rhythm, stress, and intonation of speech, which conveys meaning beyond the individual words.",
+        "Segmentation with Intensity, Tones and Break Indices (SIToBI)": "SIToBI is a tool for automatic prosody labeling, extending the ToBI framework to accommodate Indian languages with syllable-timed characteristics.",
+        "Tones and Break Indices (ToBI)": "**ToBI** is a standardized system for prosody transcription developed for the English language."
+    }
+}

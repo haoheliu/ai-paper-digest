@@ -1,0 +1,19 @@
+{
+    "title": "Mixed Signals: A Diverse Point Cloud Dataset for Heterogeneous LiDAR V2X Collaboration",
+    "author": "Katie Z Luo (Cornell University), Minh-Quan Dao (Inria), Zhenzhen Liu (Cornell University), Mark Campbell (Cornell University), Wei-Lun Chao (The Ohio State University), Kilian Q Weinberger (Cornell University), Ezio Malis (Inria), Vincent Fremont (Ecole Centrale de Nantes)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The dataset provides high-quality, synchronized multi-sensor data that could be useful for training models in collaborative perception, which can be applicable to audio-visual tasks in multimodal systems.",
+    "field": "Applications-Vision",
+    "background": "The task setting involves collecting a comprehensive dataset of 3D point clouds and bounding boxes from multiple vehicles and roadside units using heterogeneous LiDAR setups for vehicle-to-everything communication.",
+    "contribution": "The Mixed Signals dataset introduces heterogeneous connected autonomous vehicle LiDAR configurations to support diverse real-world V2X perception scenarios, achieving high-quality data suitable for training models.",
+    "technical_comparison": "Previous methods rely on homogeneous sensor setups, limiting their applicability in real-world scenarios. This work improves by integrating different LiDAR configurations from multiple vehicles and infrastructure, enhancing diversity and realism.",
+    "key_innovation": "Combines various types of LiDAR sensors and captures data from a left-hand traffic driving country, aligning data accurately across different vehicles and environments.",
+    "real_world_impact": "The dataset could significantly improve the training and deployment of autonomous vehicle systems by providing realistic and diverse data, helping address the complexities of urban driving environments.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "LiDAR": "**Light Detection and Ranging (LiDAR)** is a remote sensing method used to examine the surface of the Earth, using pulses of light to measure distances to a target.",
+        "CAV": "**Connected Autonomous Vehicle (CAV)** refers to vehicles that communicate with other vehicles and infrastructure to enhance their awareness and navigation capabilities."
+    },
+    "open_sourcing": "Dataset and annotations are available at https://mixedsignalsdataset.cs.cornell.edu/"
+}

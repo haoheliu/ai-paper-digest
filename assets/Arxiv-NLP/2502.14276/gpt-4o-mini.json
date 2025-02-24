@@ -1,0 +1,22 @@
+{
+    "title": "STeCa: Step-level Trajectory Calibration for LLM Agent Learning",
+    "author": "Hanlin Wang (The Hong Kong Polytechnic University), Jian Wang (The Hong Kong Polytechnic University), Chak Tou Leong (The Hong Kong Polytechnic University), Wenjie Li (The Hong Kong Polytechnic University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The concepts of real-time calibration and reinforcement training of agents can be applied to enhance audio processing tasks, particularly in scenarios requiring adaptive decision-making based on feedback.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Developing agents that can dynamically adjust their decision-making in long-horizon tasks to mitigate errors in real-time interactions with their environments.",
+    "contribution": "This paper introduces Step-Level Trajectory Calibration (STeCa) to solve the issue of accumulating suboptimal actions in LLM-based agent learning, achieving significant improvements in task completion success rates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on behavior cloning and preference learning without real-time calibration capabilities, leading to error accumulation.",
+        "novelty": "This work identifies deviated actions during exploration and constructs calibrated trajectories using automated reflection, enabling dynamic corrections during task execution."
+    },
+    "key_innovation": "Integrates timely calibration of agent actions through a structured framework that combines exploration feedback and LLM-driven reflection.",
+    "real_world_impact": "The proposed method enhances agent performance in complex tasks, which could improve applications in interactive environments such as robotics and autonomous systems.",
+    "limitations": "Computational inefficiencies due to reliance on Monte Carlo sampling and potential underutilization of step rewards for broader optimization tasks.",
+    "new_terms": {
+        "calibrated trajectories": "**Calibrated trajectories** refer to paths taken by an agent that have been adjusted in real-time to correct deviations from optimal performance based on ongoing feedback.",
+        "Monte Carlo sampling": "**Monte Carlo sampling** is a statistical technique used to estimate numerical results through random sampling, often applied for risk assessment and uncertainty quantification."
+    },
+    "open_sourcing": "Code and data are available at https://github.com/WangHanLinHenry/STeCa"
+}

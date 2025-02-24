@@ -1,0 +1,22 @@
+{
+    "title": "Interpretable Text Embeddings and Text Similarity Explanation: A Primer",
+    "author": "Juri Opitz (University of Zurich), Lucas M\u00f6ller (University of Stuttgart), Andrianos Michail (University of Zurich), Simon Clematide (University of Zurich)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses methods for interpretability in text embeddings and similarity measures which could inform techniques in audio representation, especially in scenarios where audio segments can be described or analyzed textually.",
+    "field": "Social and Economic Aspects of ML-Interpretability",
+    "background": "Exploring methods for explaining how text embeddings work and the reasons behind similarity scores in natural language processing, which is critical for transparency in AI applications.",
+    "contribution": "This paper introduces a structured overview of various interpretability methods for text embeddings, addressing the challenge of understanding similarity scores in natural language processing.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often lacked a comprehensive framework for handling the interpretability of text embeddings, particularly in dealing with the interaction of two inputs to generate similarity.",
+        "novelty": "This work categorizes interpretability approaches into space-shaping, set-based, and attribution-based methods, providing clarity on their applicability and efficacy."
+    },
+    "key_innovation": "The paper provides a systematic approach to explaining why certain documents are considered similar, offering a foundation for future developments in interpretability.",
+    "real_world_impact": "Enhancing interpretability of AI models can improve user trust and legal compliance in sensitive applications, particularly in information retrieval and content analysis.",
+    "limitations": "The study acknowledges that various interpretability methods may not generalize well across different tasks and contexts.",
+    "new_terms": {
+        "Siamese network": "**Siamese network** is a type of neural network architecture that learns to differentiate between two inputs by comparing their respective embeddings, often used for similarity tasks.",
+        "probabilistic text embeddings": "**Probabilistic text embeddings** refer to representations that account for uncertainty and multiple interpretations of a text by modeling them as random variables."
+    },
+    "open_sourcing": ""
+}

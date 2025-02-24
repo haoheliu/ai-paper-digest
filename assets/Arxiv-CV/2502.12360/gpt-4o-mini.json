@@ -1,0 +1,22 @@
+{
+    "title": "Detecting Systematic Weaknesses in Vision Models along Predefined Human-Understandable Dimensions",
+    "author": "Maram Akila (Fraunhofer IAIS, Lamarr Institute), Stefan Wrobel (Fraunhofer IAIS, University of Bonn), Sujan Sai Gannamaneni (Fraunhofer IAIS), Rohil Prakash Rao (Fraunhofer IAIS), Michael Mock (Fraunhofer IAIS), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methodologies for systematic weakness detection could aid in refining robust models applicable to audio-related domains, ensuring similar levels of trustworthiness in audio classifications.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "The task involves improving deep neural networks by identifying weak performance areas in their predictions on image datasets through the development of human-understandable dimensions and metadata.",
+    "contribution": "This paper introduces a modular workflow for systematically detecting weaknesses in vision models, leveraging human-understandable dimensions and correcting for noisy metadata during evaluations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with identifying weaknesses in a coherent and actionable manner, often relying on latent embeddings without clear human semantics.",
+        "novelty": "This work improves by integrating foundational models like CLIP to generate semantic metadata that is directly aligned with safety-relevant dimensions, enhancing interpretability and actionability."
+    },
+    "key_innovation": "The integration of structured metadata from foundation models facilitates the identification of semantically coherent slices of data where performance is weak, ensuring results are understandable to human users.",
+    "real_world_impact": "This approach has the potential to enhance the reliability of AI systems in safety-critical applications such as autonomous driving, where understanding model limitations can directly contribute to safety improvements.",
+    "limitations": "The approach may be sensitive to the accuracy of the foundational model used for metadata generation, which could affect the quality of slice detection.",
+    "new_terms": {
+        "Operational Design Domains (ODDs)": "**Operational Design Domains (ODDs)** refer to the specific conditions and environments under which a given AI system is designed to operate safely.",
+        "slice discovery methods (SDMs)": "**Slice discovery methods (SDMs)** are techniques used to identify subsets of data (slices) where a machine learning model performs poorly."
+    },
+    "open_sourcing": ""
+}
