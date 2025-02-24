@@ -691,7 +691,7 @@
         });
         let result=await resp.json();
         if(result.error) throw new Error(result.error);
-        alert(`Paper is marked as read, removed from display, in list '${result.list}'.`);
+        // alert(`Paper is marked as read, removed from display, in list '${result.list}'.`);
         // update local data
         if(!paperLists["readed"]) paperLists["readed"]=[];
         if(!paperLists["readed"].includes(paperId)){
