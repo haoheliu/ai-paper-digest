@@ -94,7 +94,7 @@ body {
     width: 60px;
   }
   .btn-field-filter::after {
-    content: " \\25BE";
+    content: "⬇️";
     margin-left: 5px;
     font-size: 0.8em;
   }

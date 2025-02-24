@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Research Digest</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- jsPDF (for PDF export) -->
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="static/styles.css" />
+  <style>
+    body { background-color: #f8f9fa; }
+    .spinner { display: flex; align-items: center; justify-content: center; margin:30px 0; font-size:1.2rem; }
+    .hidden { display:none; }
+    .short-input { width:60px; }
+    .paper-image {
+      width:100%; height:200px; object-fit:cover; border-radius:8px;
+      cursor:zoom-in; margin-bottom:8px;
+    }
+    .paper-card { pointer-events:none; }
+    .paper-card>* { pointer-events:auto; }
+    .truncate-authors {
+      display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+    }
+    .thumbnail-row {
+      display:flex; gap:5px; flex-wrap:nowrap; overflow-x:auto; margin-top:10px;
+    }
+    .thumbnail-row img {
+      width:80px; height:80px; object-fit:cover; cursor:zoom-in; border-radius:4px;
+    }
+    .field-filter-list { max-height:200px; overflow-y:auto; padding:0.5rem; border:1px solid #ccc; border-radius:4px; }
+    .pagination-controls {
+      display:flex; align-items:center; gap:10px; margin-top:20px; flex-wrap:wrap;
+    }
+    .page-jump { width:80px; }
+    .last-updated {
+      font-size:0.9rem; color:#666; margin-bottom:10px; text-align:center;
+    }
+    .row.g-2 { --bs-gutter-x:0.5rem; --bs-gutter-y:0.5rem; }
+
+    /* Collapsible sections in user data tab */
+    .ud-section-title {
+      cursor:pointer; font-weight:bold; margin-top:1rem;
+    }
+    .ud-section-content {
+      margin-left:1.5rem; margin-top:0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">🔬 Haohe's Paper Digestion System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="topNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <h1 class="text-center mb-2">AI Research Digest</h1>
+    <p class="last-updated" id="lastUpdated"></p>
+    <p>This is a static page for read only.</p>
+
+    <!-- Nav Tabs -->
+    <ul class="nav nav-tabs" id="categoryTabs">
+      <li class="nav-item"><a class="nav-link active" data-category="Arxiv-Sound" href="javascript:void(0)">Arxiv-Sound</a></li>
+      <li class="nav-item"><a class="nav-link" data-category="Arxiv-CV" href="javascript:void(0)">Arxiv-CV</a></li>
+      <li class="nav-item"><a class="nav-link" data-category="Arxiv-NLP" href="javascript:void(0)">Arxiv-NLP</a></li>
+      <li class="nav-item"><a class="nav-link" data-category="Collected" href="javascript:void(0)">Collected (Ranked)</a></li>
+      <li class="nav-item"><a class="nav-link" data-category="UserData" href="javascript:void(0)">User Data</a></li>
+    </ul>
+
+    <!-- Spinner -->
+    <div id="loadingSpinner" class="spinner">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <span class="ms-2">Loading data, please wait...</span>
+    </div>
+
+    <!-- Filter UI Row -->
+    <div class="row g-2 align-items-center" id="filterRow" style="display:none;">
+      <div class="col-md-auto d-flex align-items-center">
+        <label for="searchInput" class="form-label me-2 mb-0"><b>Search Paper</b></label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="searchInput" placeholder="Title/Author..." />
+          <button class="btn btn-outline-primary" id="applySearchBtn">Search/Apply Filter</button>
+        </div>
+      </div>
+      <div class="col-md-auto d-flex align-items-center">
+        <label for="minQuality" class="form-label me-2 mb-0">Min Quality</label>
+        <input type="number" class="form-control short-input" id="minQuality" min="0" max="10" value="7"/>
+      </div>
+      <div class="col-md-auto d-flex align-items-center">
+        <label for="minRelevance" class="form-label me-2 mb-0">Min Relevance</label>
+        <input type="number" class="form-control short-input" id="minRelevance" min="0" max="10" value="7"/>
+      </div>
+      <div class="col-md-auto d-flex align-items-center">
+        <label class="form-label me-2 mb-0">Field Filter</label>
+        <button class="btn btn-secondary btn-field-filter" type="button" data-bs-toggle="collapse"
+                data-bs-target="#fieldCollapse" aria-expanded="false" aria-controls="fieldCollapse">
+          Select Fields
+        </button>
+      </div>
+      <div class="w-100"></div>
+      <div class="col-12">
+        <div class="collapse mt-2" id="fieldCollapse">
+          <div class="field-filter-list" id="fieldFilterContainer"></div>
+        </div>
+      </div>
+      <div class="col-md-auto d-flex align-items-center">
+        <button class="btn btn-primary" id="exportPdfBtn">Export PDF</button>
+      </div>
+    </div>
+
+    <!-- Paper Grid -->
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-3" id="papersContainer" style="display:none;"></div>
+
+    <!-- Pagination -->
+    <div class="pagination-controls" id="paginationControls" style="display:none;">
+      <label for="itemsPerPage" class="form-label mb-0">Items per page:</label>
+      <select class="form-select form-select-sm" id="itemsPerPage">
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option value="8">8</option>
+        <option value="10" selected>10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+      </select>
+      <button class="btn btn-sm btn-outline-primary" id="prevPage">Previous</button>
+      <span>Page <span id="currentPage">1</span> of <span id="totalPages">1</span></span>
+      <button class="btn btn-sm btn-outline-primary" id="nextPage">Next</button>
+      <div class="input-group input-group-sm page-jump">
+        <input type="number" id="jumpToPage" class="form-control" placeholder="Go" min="1"/>
+        <button class="btn btn-outline-primary" id="goToPageBtn">Go</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Zoom Modal -->
+  <div class="modal fade" id="zoomModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body p-0" id="zoomModalBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container">
+    <hr/>
+    <p>This page is developed by <strong>Haohe Liu</strong> for personal use only.</p>
+    <p class="text-muted">&copy; 2025</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const { jsPDF } = window.jspdf;
+
+    // ----- Global state loaded from server -----
+    let likedPapers = {};   // { paperId: likeCount }
+    let dislikedPapers = new Set();
+    let paperLists = {};    // { listName: [paperId,...] }
+
+    let mainIndex = null;   // The big index.json from /static/assets/index.json
+    let paperCache = {};    // paperCache[cat] => array of {id,info,data}
+    let filteredPapers = [];
+
+    // field filter
+    const ALL_FIELDS = [
+      "Applications-Vision",
+      "Applications-Language",
+      "Applications-Speech and Audio",
+      "Applications-Creative AI",
+      "Deep Learning-Neural Architectures",
+      "Deep Learning-Generative Models",
+      "Deep Learning-Optimization for Deep Networks",
+      "Deep Learning-Foundation Models",
+      "Deep Learning-Large Language Models (LLMs)",
+      "Evaluation-Methodology",
+      "Evaluation-Meta Studies",
+      "Evaluation-Replicability and Validity",
+      "Evaluation-Human-in-the-Loop",
+      "General Machine Learning-Supervised Learning",
+      "General Machine Learning-Unsupervised Learning",
+      "General Machine Learning-Online Learning",
+      "General Machine Learning-Active Learning",
+      "Infrastructure-Machine Learning Libraries",
+      "Infrastructure-Scalability",
+      "Infrastructure-Distributed Solutions",
+      "Infrastructure-Improved Implementations",
+      "Machine Learning for Sciences-Climate Science",
+      "Machine Learning for Sciences-Healthcare",
+      "Machine Learning for Sciences-Life Sciences",
+      "Machine Learning for Sciences-Physics",
+      "Machine Learning for Sciences-Social Sciences",
+      "Neuroscience and Cognitive Science-Neural Coding",
+      "Neuroscience and Cognitive Science-Brain-Computer Interfaces",
+      "Optimization-Convex and Non-Convex",
+      "Optimization-Stochastic Optimization",
+      "Optimization-Robust Optimization",
+      "Probabilistic Methods-Variational Inference",
+      "Probabilistic Methods-Causal Inference",
+      "Probabilistic Methods-Gaussian Processes",
+      "Reinforcement Learning-Decision and Control",
+      "Reinforcement Learning-Planning",
+      "Reinforcement Learning-Hierarchical RL",
+      "Reinforcement Learning-Robotics",
+      "Social and Economic Aspects of ML-Fairness",
+      "Social and Economic Aspects of ML-Interpretability",
+      "Social and Economic Aspects of ML-Human-AI Interaction",
+      "Social and Economic Aspects of ML-Privacy",
+      "Social and Economic Aspects of ML-Safety",
+      "Social and Economic Aspects of ML-Strategic Behavior",
+      "Theory-Control Theory",
+      "Theory-Learning Theory",
+      "Theory-Algorithmic Game Theory"
+    ];
+    let selectedFields = new Set(ALL_FIELDS);
+
+    let currentCategory = "Arxiv-Sound";
+    let currentPage=1, itemsPerPage=4;
+
+    // UI references
+    const loadingSpinner = document.getElementById("loadingSpinner");
+    const filterRow = document.getElementById("filterRow");
+    const papersContainer = document.getElementById("papersContainer");
+    const paginationControls = document.getElementById("paginationControls");
+    const fieldFilterContainer = document.getElementById("fieldFilterContainer");
+
+    // Filter controls
+    const categoryTabs = document.getElementById("categoryTabs");
+    const searchInput = document.getElementById("searchInput");
+    const applySearchBtn = document.getElementById("applySearchBtn");
+    const minQualityInput = document.getElementById("minQuality");
+    const minRelevanceInput = document.getElementById("minRelevance");
+    const itemsPerPageSelect = document.getElementById("itemsPerPage");
+    const prevPageBtn = document.getElementById("prevPage");
+    const nextPageBtn = document.getElementById("nextPage");
+    const currentPageSpan = document.getElementById("currentPage");
+    const totalPagesSpan = document.getElementById("totalPages");
+    const jumpToPageInput = document.getElementById("jumpToPage");
+    const goToPageBtn = document.getElementById("goToPageBtn");
+    const exportPdfBtn = document.getElementById("exportPdfBtn");
+
+    // On load
+    (async function init(){
+      setLastUpdated();
+      loadingSpinner.classList.remove("hidden");
+      try {
+        await loadServerData();   // get liked/disliked/lists from server
+        await loadMainIndex();    // load index.json
+        setupFieldFilter();
+      } catch(e){ console.error(e); }
+      finally { loadingSpinner.classList.add("hidden"); }
+      loadCategory("Arxiv-Sound");
+    })();
+
+    async function loadServerData(){
+        try {
+            // Load liked papers
+            const likedResp = await fetch('./user_data/liked_papers.json');
+            likedPapers = await likedResp.json();
+            
+            // Load disliked papers
+            const dislikedResp = await fetch('./user_data/disliked_papers.json');
+            const dislikedArray = await dislikedResp.json();
+            dislikedPapers = new Set(dislikedArray);
+
+            // Load paper lists
+            const listsResp = await fetch('./user_data/paper_lists.json');
+            paperLists = await listsResp.json();
+
+        } catch(e) {
+            console.error("Failed loading user data:", e);
+            // Fallback to empty data
+            likedPapers = {};
+            dislikedPapers = new Set();
+            paperLists = {};
+        }
+    }
+
+    async function loadMainIndex(){
+      let resp=await fetch("static/assets/index.json");
+      if(!resp.ok) throw new Error("Failed to load index.json");
+      mainIndex=await resp.json();
+    }
+
+    function setupFieldFilter(){
+      let html="";
+      ALL_FIELDS.forEach(field=>{
+        let safeId="cb-"+field.replace(/\W+/g,"_");
+        html+=`
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="${field}" id="${safeId}" checked>
+            <label class="form-check-label" for="${safeId}">${field}</label>
+          </div>
+        `;
+      });
+      fieldFilterContainer.innerHTML=html;
+      ALL_FIELDS.forEach(field=>{
+        let safeId="cb-"+field.replace(/\W+/g,"_");
+        let cb=document.getElementById(safeId);
+        cb.addEventListener("change", ()=>{
+          if(cb.checked) selectedFields.add(field); else selectedFields.delete(field);
+          renderPapers();
+        });
+      });
+    }
+
+    async function loadCategory(category){
+      if(category==="UserData"){
+        currentCategory=category;
+        renderUserData();
+        return;
+      }
+      if(category==="Collected"){
+        currentCategory=category;
+        renderPapers();
+        return;
+      }
+      if(paperCache[category]){
+        currentCategory=category;
+        renderPapers();
+        return;
+      }
+      loadingSpinner.classList.remove("hidden");
+      try {
+        let catObj=mainIndex[category]||{};
+        let tasks=Object.entries(catObj).map(async ([paperId, info])=>{
+          try {
+            let r=await fetch(`static/assets/${info.json_path}`);
+            let d=await r.json();
+            let images=info.images||(info.first_image?[info.first_image]:[]);
+            return {id:paperId,info:{images},data:d};
+          } catch(e){ console.error(e); return null; }
+        });
+        let results=await Promise.all(tasks);
+        paperCache[category]=results.filter(x=>x);
+      } catch(e){ console.error(e); paperCache[category]=[]; }
+      finally{
+        loadingSpinner.classList.add("hidden");
+        filterRow.style.display="";
+        papersContainer.style.display="";
+        paginationControls.style.display="none";
+        currentCategory=category;
+        updateFiltersAndRender();
+      }
+    }
+
+    function updateFiltersAndRender(){
+      currentPage=1;
+      renderPapers();
+    }
+
+    function renderPapers(){
+      if(currentCategory==="UserData"){
+        renderUserData();
+        return;
+      }
+      let minQ=parseInt(minQualityInput.value)||0;
+      let minR=parseInt(minRelevanceInput.value)||0;
+      let searchTxt=searchInput.value.toLowerCase().trim();
+
+      if(currentCategory==="Collected"){
+        // gather all from all categories
+        let all=[];
+        Object.keys(paperCache).forEach(cat=>all.push(...paperCache[cat]));
+        // remove disliked
+        all=all.filter(x=>!dislikedPapers.has(x.id));
+        // remove readed
+        let readedSet=new Set(paperLists["readed"]||[]);
+        all=all.filter(x=>!readedSet.has(x.id));
+
+        // keep only liked>0
+        all=all.filter(x=>(likedPapers[x.id]||0)>0);
+        // field+search
+        filteredPapers=all.filter(item=>{
+          let {quality,relevance,field,title,author}=item.data;
+          if((quality||0)<minQ) return false;
+          if((relevance||0)<minR) return false;
+          if(field&&!selectedFields.has(field)) return false;
+          let combined=(title+" "+(author||"")).toLowerCase();
+          return(!searchTxt||combined.includes(searchTxt));
+        });
+        // sort by like desc
+        filteredPapers.sort((a,b)=>{
+          let la=likedPapers[a.id]||0, lb=likedPapers[b.id]||0;
+          return lb-la;
+        });
+      } else {
+        // normal category
+        if(!paperCache[currentCategory]){
+          papersContainer.innerHTML='<div class="col">No papers found (not loaded or error)</div>';
+          paginationControls.style.display='none';
+          return;
+        }
+        let all=paperCache[currentCategory];
+        // remove disliked
+        all=all.filter(x=>!dislikedPapers.has(x.id));
+        // remove readed
+        let readedSet=new Set(paperLists["readed"]||[]);
+        all=all.filter(x=>!readedSet.has(x.id));
+
+        // apply filter
+        filteredPapers=all.filter(item=>{
+          let {quality,relevance,field,title,author}=item.data;
+          if((quality||0)<minQ) return false;
+          if((relevance||0)<minR) return false;
+          if(field&&!selectedFields.has(field)) return false;
+          let combined=(title+" "+(author||"")).toLowerCase();
+          return(!searchTxt||combined.includes(searchTxt));
+        });
+      }
+
+      if(filteredPapers.length===0){
+        papersContainer.innerHTML='<div class="col">No papers found.</div>';
+        paginationControls.style.display='none';
+        return;
+      } else {
+        paginationControls.style.display='flex';
+      }
+
+      itemsPerPage=parseInt(itemsPerPageSelect.value);
+      let totalPages=Math.ceil(filteredPapers.length/itemsPerPage);
+      currentPage=Math.max(1, Math.min(currentPage,totalPages));
+
+      let start=(currentPage-1)*itemsPerPage, end=start+itemsPerPage;
+      let pageData=filteredPapers.slice(start,end);
+
+      papersContainer.innerHTML="";
+      pageData.forEach(({id, info, data})=>{
+        let col=document.createElement("div");
+        col.className="col";
+
+        let imagesHTML="";
+        if(info.images && info.images.length>0){
+          let mainSrc=info.images[0];
+          imagesHTML=`<img class="paper-image" src="static/assets/${mainSrc}" data-fullimage="static/assets/${mainSrc}" alt="Paper Image"/>`;
+          if(info.images.length>1){
+            let thumbs="";
+            for(let i=1;i<info.images.length;i++){
+              thumbs+=`<img src="static/assets/${info.images[i]}" data-fullimage="static/assets/${info.images[i]}" alt="Thumb"/>`;
+            }
+            imagesHTML+=`
+              <div class="thumbnail-row mt-1">
+                ${thumbs}
+              </div>
+            `;
+          }
+        }
+        let cLike=likedPapers[id]||0;
+        let shortFields=`
+          <p>
+            <strong>Quality:</strong> ${data.quality||''}
+            <span class="mx-2">|</span>
+            <strong>Relevance:</strong> ${data.relevance||''}
+            <span class="mx-2">|</span>
+            <strong>Field:</strong> ${data.field||''}
+          </p>
+        `;
+        let authorsHTML="";
+        if(data.author){
+          let aId="auth-"+id.replace(/\./g,'-');
+          authorsHTML=`
+            <div class="truncate-authors" id="${aId}">${data.author}</div>
+            <a href="#" class="small" onclick="toggleAuthorExpand('${aId}',event)">Show More</a>
+          `;
+        }
+
+        let cardHTML=`
+          <div class="card paper-card shadow-sm h-100">
+            ${imagesHTML}
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="https://arxiv.org/abs/${id}" target="_blank" onclick="event.stopPropagation()">${data.title||''}</a>
+              </h5>
+              ${authorsHTML}
+              ${shortFields}
+              <p><strong>Background:</strong> ${data.background||''}</p>
+              <p><strong>Contribution:</strong> ${data.contribution||''}</p>
+
+              <div class="mt-3 d-flex justify-content-between">
+                <div>
+                  <button class="btn btn-success btn-sm" onclick="likePaper('${id}')">
+                    Like (+1) [${cLike}]
+                  </button>
+                  <button class="btn btn-danger btn-sm ms-2" onclick="dislikePaper('${id}')">
+                    Dislike
+                  </button>
+                  <button class="btn btn-warning btn-sm ms-2" onclick="markPaperRead('${id}')">
+                    Mark as Read
+                  </button>
+                </div>
+                <button class="btn btn-sm btn-outline-info" onclick="addPaperToListPrompt('${id}')">
+                  Add to List
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+        col.innerHTML=cardHTML;
+        papersContainer.appendChild(col);
+      });
+
+      currentPageSpan.textContent=currentPage;
+      totalPagesSpan.textContent=totalPages;
+      attachZoomHandlers();
+    }
+
+    // ---------- RENDER USER DATA TAB ----------
+    function renderUserData(){
+      papersContainer.innerHTML="";
+      paginationControls.style.display="none";
+      filterRow.style.display="none";
+
+      let container=document.createElement("div");
+      container.className="col-12";
+      container.innerHTML=`<h4 class="mt-3">User Data</h4>`;
+
+      // disliked => array
+      let dislikedArr=Array.from(dislikedPapers);
+      // readed => paperLists["readed"] if any
+      let readedArr=(paperLists["readed"]||[]);
+      // liked => any paper with like>0
+      let allP=[];
+      Object.keys(paperCache).forEach(cat=> allP.push(...paperCache[cat]));
+      let likedArr=[];
+      allP.forEach(obj=>{
+        let c=likedPapers[obj.id]||0;
+        if(c>0) likedArr.push(obj.id);
+      });
+
+      // custom lists => everything else in paperLists
+      let customListHtml="";
+      Object.entries(paperLists).forEach(([listName, arr])=>{
+        if(listName==="readed") return; // we handle readed separately
+        customListHtml+=buildUserDataSection(`List: ${listName}`, arr, allP);
+      });
+
+      let dislikedHtml = buildUserDataSection(`Disliked Papers`, dislikedArr, allP);
+      let readedHtml   = buildUserDataSection(`Readed Papers`, readedArr, allP);
+      let likedHtml    = buildUserDataSection(`Liked Papers`, likedArr, allP, true); // sorted by likes desc?
+
+      container.innerHTML+=`
+        ${dislikedHtml}
+        ${readedHtml}
+        ${likedHtml}
+        <hr/>
+        <h5>Other Lists</h5>
+        ${customListHtml || "<p>No custom lists yet.</p>"}
+      `;
+      papersContainer.appendChild(container);
+      papersContainer.style.display="";
+    }
+
+    // Collapsible sections for user data
+    function buildUserDataSection(title, arrOfIds, allPapers, doSortByLikes=false){
+      if(!arrOfIds || arrOfIds.length===0){
+        return `
+          <div class="ud-section-title" data-bs-toggle="collapse" data-bs-target="#ud-${title.replace(/\W+/g,'-')}" aria-expanded="false">
+            ${title} (0)
+          </div>
+          <div id="ud-${title.replace(/\W+/g,'-')}" class="collapse ud-section-content">
+            <p>No papers here.</p>
+          </div>
+        `;
+      }
+
+      // convert IDs to paper objects
+      let listObjs=arrOfIds.map(id=>{
+        let found=null;
+        for(let cat in paperCache){
+          let paper=paperCache[cat].find(x=>x.id===id);
+          if(paper) {found=paper; break;}
+        }
+        return found;
+      }).filter(x=>x);
+
+      if(doSortByLikes){
+        listObjs.sort((a,b)=>{
+          let la=likedPapers[a.id]||0, lb=likedPapers[b.id]||0;
+          return lb-la;
+        });
+      }
+
+      let lines=listObjs.map(obj=>{
+        let {id, data}=obj;
+        let c=likedPapers[id]||0;
+        let link=`https://arxiv.org/abs/${id}`;
+        return `
+          <li>
+            <a href="${link}" target="_blank"><strong>${data.title||id}</strong></a>
+            (ID: ${id}), likes:${c}
+          </li>
+        `;
+      }).join("");
+
+      return `
+        <div class="ud-section-title" data-bs-toggle="collapse" data-bs-target="#ud-${title.replace(/\W+/g,'-')}" aria-expanded="false">
+          ${title} (${arrOfIds.length})
+        </div>
+        <div id="ud-${title.replace(/\W+/g,'-')}" class="collapse ud-section-content">
+          <ul>${lines}</ul>
+        </div>
+      `;
+    }
+
+    // ---------- Actions ----------
+
+    async function likePaper(paperId){
+      try {
+        let resp=await fetch("/like", {
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({paper_id:paperId})
+        });
+        let result=await resp.json();
+        if(result.error) throw new Error(result.error);
+        likedPapers[paperId]=result.likes;
+        // if the paper was disliked but new likes >= 0 => remove from disliked
+        if(result.likes>=0 && dislikedPapers.has(paperId)){
+          dislikedPapers.delete(paperId);
+        }
+        renderPapers();
+      } catch(e){ console.error("likePaper error:", e); }
+    }
+
+    async function dislikePaper(paperId){
+      try {
+        let resp=await fetch("/dislike", {
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({paper_id:paperId})
+        });
+        let result=await resp.json();
+        if(result.error) throw new Error(result.error);
+        let newLikes=result.likes;
+        likedPapers[paperId]=newLikes;
+        if(newLikes<0){
+          dislikedPapers.add(paperId);
+        }
+        renderPapers();
+      } catch(e){ console.error("dislikePaper error:", e); }
+    }
+
+    async function markPaperRead(paperId){
+      try {
+        let resp=await fetch("/mark_read", {
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({paper_id:paperId})
+        });
+        let result=await resp.json();
+        if(result.error) throw new Error(result.error);
+        alert(`Paper is marked as read, removed from display, in list '${result.list}'.`);
+        // update local data
+        if(!paperLists["readed"]) paperLists["readed"]=[];
+        if(!paperLists["readed"].includes(paperId)){
+          paperLists["readed"].push(paperId);
+        }
+        renderPapers();
+      } catch(e){ console.error("markPaperRead error:", e); }
+    }
+
+    async function addPaperToListPrompt(paperId){
+      let listName=prompt("Enter list name:");
+      if(!listName) return;
+      try {
+        let resp=await fetch("/add_to_list", {
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({ paper_id:paperId, list_name:listName })
+        });
+        let result=await resp.json();
+        if(result.error) throw new Error(result.error);
+        alert(result.message);
+        // update local memory if we want
+        if(!paperLists[listName]) paperLists[listName]=[];
+        if(!paperLists[listName].includes(paperId)){
+          paperLists[listName].push(paperId);
+        }
+      } catch(e){
+        console.error("addPaperToList error:", e);
+      }
+    }
+
+    function toggleAuthorExpand(authorId, evt){
+      evt.preventDefault();
+      let elem=document.getElementById(authorId);
+      if(!elem) return;
+      elem.classList.toggle("truncate-authors");
+      if(evt.target.innerText==="Show More") evt.target.innerText="Show Less";
+      else evt.target.innerText="Show More";
+    }
+
+    function attachZoomHandlers(){
+      let images=document.querySelectorAll(".paper-image, .thumbnail-row img");
+      images.forEach(img=>{
+        img.addEventListener("click",()=>{
+          let full=img.getAttribute("data-fullimage");
+          document.getElementById("zoomModalBody").innerHTML=`<img src="${full}" class="img-fluid"/>`;
+          let zoomModal=new bootstrap.Modal(document.getElementById("zoomModal"), {});
+          zoomModal.show();
+        });
+      });
+    }
+
+    // ---------- PDF Export ----------
+    exportPdfBtn.addEventListener("click", exportCollectedPapersToPDF);
+    async function exportCollectedPapersToPDF(){
+      // gather all liked>0
+      let all=[];
+      Object.keys(paperCache).forEach(cat=>all.push(...paperCache[cat]));
+      // remove disliked
+      let arr=all.filter(x=>!dislikedPapers.has(x.id));
+      // remove readed
+      let readSet=new Set(paperLists["readed"]||[]);
+      arr=arr.filter(x=>!readSet.has(x.id));
+      let likedOnly=arr.filter(x=>(likedPapers[x.id]||0)>0);
+
+      if(likedOnly.length===0){
+        alert("No liked papers to export yet.");
+        return;
+      }
+      let doc=new jsPDF({unit:"pt",format:"letter"});
+      doc.setFont("helvetica","normal");
+      let yPos=40;
+      doc.setFontSize(14);
+      doc.text(`Collected Papers (${likedOnly.length})`,40,yPos);
+      yPos+=20;
+
+      doc.setFontSize(10);
+      likedOnly.forEach((p,i)=>{
+        let {id,data}=p;
+        if(yPos>700){ doc.addPage(); yPos=40; }
+        doc.setFont("","bold");
+        doc.text(`${i+1}. Title: ${data.title||id}`,40,yPos);
+        yPos+=14;
+
+        doc.setFont("","normal");
+        if(data.author){
+          let aText=`Authors: ${data.author}`;
+          let splitted=doc.splitTextToSize(aText,500);
+          doc.text(splitted,40,yPos);
+          yPos+=splitted.length*12+6;
+        }
+        let qrf=`Quality: ${data.quality||''} | Relevance: ${data.relevance||''} | Field: ${data.field||''}`;
+        doc.text(qrf,40,yPos);
+        yPos+=14;
+        yPos+=20;
+      });
+
+      let d=new Date();
+      let yyyy=d.getFullYear(), mm=String(d.getMonth()+1).padStart(2,'0'), dd=String(d.getDate()).padStart(2,'0');
+      let filename=`${yyyy}-${mm}-${dd}_${likedOnly.length}_collected_papers.pdf`;
+      doc.save(filename);
+    }
+
+    // ---------- Tab switching ----------
+    categoryTabs.addEventListener("click",(evt)=>{
+      if(!evt.target.classList.contains("nav-link")) return;
+      document.querySelectorAll("#categoryTabs .nav-link").forEach(tab=>tab.classList.remove("active"));
+      evt.target.classList.add("active");
+      let cat=evt.target.getAttribute("data-category");
+      loadCategory(cat);
+    });
+
+    // ---------- Filter/Pagination events ----------
+    applySearchBtn.addEventListener("click",()=>{ currentPage=1; renderPapers(); });
+    prevPageBtn.addEventListener("click",()=>{
+      currentPage=Math.max(1,currentPage-1); renderPapers();
+    });
+    nextPageBtn.addEventListener("click",()=>{
+      let tPages=Math.ceil(filteredPapers.length/itemsPerPage);
+      currentPage=Math.min(tPages,currentPage+1);
+      renderPapers();
+    });
+    itemsPerPageSelect.addEventListener("change",()=>{
+      currentPage=1; renderPapers();
+    });
+    goToPageBtn.addEventListener("click",()=>{
+      let tPages=Math.ceil(filteredPapers.length/itemsPerPage);
+      let t=parseInt(jumpToPageInput.value)||1;
+      if(t<1) t=1; if(t>tPages) t=tPages;
+      currentPage=t; renderPapers();
+    });
+
+    function setLastUpdated(){
+      let d=new Date();
+      let yyyy=d.getFullYear(), mm=String(d.getMonth()+1).padStart(2,'0'), dd=String(d.getDate()).padStart(2,'0');
+      document.getElementById("lastUpdated").textContent=`Page last updated on ${yyyy}-${mm}-${dd}`;
+    }
+  </script>
+</body>
+</html>
