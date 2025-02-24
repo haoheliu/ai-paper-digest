@@ -1,0 +1,22 @@
+{
+    "title": "Soybean pod and seed counting in both outdoor fields and indoor laboratories using unions of deep neural networks",
+    "author": "Tianyou Jiang (Shandong Agricultural University), Mingshun Shao (Shandong Agricultural University), Tianyi Zhang (Shandong Agricultural University), Xiaoyu Liu (Shandong Agricultural University), Qun Yu (Shandong Agricultural University, Huanghuaihai Key Laboratory of Smart Agricultural Technology), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques for counting soybean pods and seeds using deep learning could inform approaches in audio analysis tasks, particularly in automating processes and improving detection accuracy.",
+    "field": "Applications-Vision",
+    "background": "Automating the counting of soybean pods and seeds in outdoor fields and laboratories using advanced image processing techniques and deep neural networks to enhance agricultural efficiency.",
+    "contribution": "This paper introduces improved deep learning models for counting soybean pods and seeds in varied environments, achieving lower mean absolute errors compared to prior methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, primarily focused on controlled environments, struggled with occluded and overlapping objects in complex outdoor settings.",
+        "novelty": "This work employs a combination of YOLO with high-quality segmentation and domain adaptation techniques to improve robustness and counting accuracy in challenging conditions."
+    },
+    "key_innovation": "The integration of high-quality segmentation and domain adaptation into the YOLO framework for effective object detection in both outdoor and indoor settings is unique.",
+    "real_world_impact": "The proposed methods could significantly enhance yield predictions and breeding processes in agriculture, leading to increased efficiency in crop management and production.",
+    "limitations": "No",
+    "new_terms": {
+        "YOLO": "**You Only Look Once** is a real-time object detection system that detects objects in images and videos with high speed and accuracy.",
+        "domain adaptation": "**Domain adaptation** refers to techniques used to adapt a model trained on one domain (source) to perform well on a different but related domain (target)."
+    },
+    "open_sourcing": "The source codes and datasets for soybean pod and seed counting in this study are available at https://github.com/SkyCol/soybean_phenotyping_platform"
+}

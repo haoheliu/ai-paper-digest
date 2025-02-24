@@ -1,0 +1,21 @@
+{
+    "title": "Research advances on fish feeding behavior recognition and intensity quantification methods in aquaculture",
+    "author": "Shulong Zhang (National Innovation Center for Digital Fishery), Daoliang Li (Key Laboratory of Smart Farming Technologies), Jiayin Zhao (National Innovation Center for Digital Fishery), Mingyuan Yao (National Innovation Center for Digital Fishery), Yingyi Chen (Key Laboratory of Smart Farming Technologies), Yukang Huo (National Innovation Center for Digital Fishery), Xiao Liu (National Innovation Center for Digital Fishery), Haihua Wang (National Innovation Center for Digital Fishery), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper discusses advanced methods for behavior recognition in fish, which can inspire novel approaches for audio and sound behavior analysis in a broader sense.",
+    "field": "Applications-Vision",
+    "background": "The study focuses on identifying fish feeding behaviors and quantifying their intensity using various technologies such as computer vision, acoustics, and sensors.",
+    "contribution": "This research introduces multimodal techniques for fish feeding behavior recognition, optimizing aquaculture management systems and addressing feed efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mostly focused on single-modality approaches, which limited accuracy and comprehensiveness.",
+        "novelty": "This work enhances recognition effectiveness by integrating multiple data sources, enabling more robust behavior analysis and reducing feed waste."
+    },
+    "key_innovation": "The integration of computer vision, acoustic monitoring, and sensor data for a comprehensive understanding of fish behavior during feeding.",
+    "real_world_impact": "Implementing these techniques can significantly improve aquaculture practices by optimizing feeding strategies, which could enhance sustainability and reduce resource waste.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "multimodal fusion": "**Multimodal fusion** refers to the integration of information from different sources or modalities (e.g., visual, auditory, sensor data) to improve analysis accuracy and decision-making."
+    },
+    "open_sourcing": ""
+}

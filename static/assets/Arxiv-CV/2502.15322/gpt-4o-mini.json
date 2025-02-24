@@ -1,0 +1,19 @@
+{
+    "title": "SentiFormer: Metadata Enhanced Transformer for Image Sentiment Analysis",
+    "author": "Bin Feng (University of Science and Technology of China), Shulan Ruan (Shenzhen International Graduate School, Tsinghua University), Mingzheng Yang (University of Science and Technology of China), Dongxuan Han (University of Science and Technology of China), Huijie Liu (University of Science and Technology of China), Kai Zhang (University of Science and Technology of China), Qi Liu (University of Science and Technology of China), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper discusses methods for combining visual and metadata information which could inspire approaches in audio data analysis where multi-modal integration is beneficial.",
+    "field": "Applications-Vision",
+    "background": "Image sentiment analysis involves predicting the emotional tone expressed in images, utilizing both the visual data and supplementary metadata for improved accuracy.",
+    "contribution": "SentiFormer introduces a novel metadata-enhanced transformer model to fuse visual features with multiple metadata types to better analyze image sentiments, achieving superior classification performance on benchmark datasets.",
+    "technical_comparison": "Previous methods mainly focus on visual feature extraction using convolutional neural networks and do not fully leverage metadata for enhancing sentiment understanding. This work improves by integrating an adaptive relevance learning mechanism and a cross-modal fusion module to optimally utilize image and metadata information.",
+    "key_innovation": "The unique approach of combining adaptive relevance learning with cross-modal transformers allows the model to prioritize useful metadata while suppressing less relevant information.",
+    "real_world_impact": "This model could significantly enhance sentiment analysis applications in social media and marketing, providing businesses with better tools to gauge public sentiment from visual data. No immediate real-world impact.",
+    "limitations": "The paper does not address how to handle cases where metadata is partially missing, which may affect performance.",
+    "new_terms": {
+        "metadata": "**Metadata** refers to the structured data that provides information about other data, such as text descriptions and keyword tags that characterize the content of images.",
+        "cross-modal fusion": "**Cross-modal fusion** is a technique that integrates information from different modalities (in this case, visual and textual) to enhance the understanding and representation of data."
+    },
+    "open_sourcing": "All data and code are publicly available at https://github.com/MET4ISA/SentiFormer"
+}

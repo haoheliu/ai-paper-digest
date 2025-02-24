@@ -1,0 +1,21 @@
+{
+    "title": "A Survey of Safety on Large Vision-Language Models: Attacks, Defenses and Evaluations",
+    "author": "Mang Ye (Wuhan University), Xuankun Rong (Wuhan University), Wenke Huang (Wuhan University), Bo Du (Wuhan University), Nenghai Yu (University of Science and Technology of China), Dacheng Tao (Nanyang Technological University), Fellow, IEEE",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "This survey provides a comprehensive review of safety concerns in Large Vision-Language Models (LVLMs), which could inform future work on speech and audio models that similarly incorporate visual and textual modalities.",
+    "field": "Applications-Creative AI",
+    "background": "The paper reviews various attacks and defenses associated with safety in large models that process both visual and textual information.",
+    "contribution": "This paper introduces a unified framework to analyze safety in Large Vision-Language Models, covering attacks, defenses, and evaluations, thereby providing insights into model vulnerabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous surveys often focused narrowly on either attacks or defenses without integrating both aspects.",
+        "novelty": "This work provides a systematic examination of the entire safety landscape in LVLMs, presenting a holistic view of interrelated components and vulnerabilities."
+    },
+    "key_innovation": "The unified framework allows for a comprehensive understanding of safety in LVLMs, highlighting the importance of considering both attacks and defenses in tandem.",
+    "real_world_impact": "As LVLMs are increasingly deployed in critical applications, this survey offers valuable recommendations for enhancing their safety, which could have significant implications for industries like healthcare and autonomous systems.",
+    "limitations": "The survey acknowledges limitations in existing models and research gaps that leave LVLMs susceptible to various forms of attacks.",
+    "new_terms": {
+        "Large Vision-Language Models": "Large Vision-Language Models (LVLMs) refer to complex models that process and understand both visual and textual data, enabling advanced multimodal interactions."
+    },
+    "open_sourcing": "A public repository has been created to compile ongoing work on LVLM safety: https://github.com/XuankunRong/Awesome-LVLM-Safety"
+}

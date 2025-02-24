@@ -1,0 +1,21 @@
+{
+    "title": "Unveiling Reasoning Thresholds in Language Models: Scaling, Fine-Tuning, and Interpretability through Attention Maps",
+    "author": "Yen-Che Hsiao (University of Connecticut), Abhishek Dutta (University of Connecticut), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study provides insights into the reasoning abilities of language models, which could inform the design of models in audio processing by understanding how language models can be fine-tuned for enhanced reasoning capabilities in audio tasks.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "The research evaluates the reasoning capabilities of various language models based on their parameter size and fine-tuning approaches, focusing on commonsense reasoning and deductive reasoning tasks.",
+    "contribution": "This paper introduces a critical parameter threshold (\u223c1.6 billion) for reasoning abilities in language models, demonstrating significant improvements in reasoning tasks through scaling and fine-tuning.",
+    "technical_comparison": {
+        "prior_work": "Previous studies explored reasoning abilities in specific models but did not identify a concrete parameter threshold for effective reasoning across multiple models.",
+        "novelty": "This work establishes a clear parameter gap influencing the ability to reason, providing a new framework for evaluating language models."
+    },
+    "key_innovation": "The use of attention maps to interpret the reasoning processes of language models, revealing differences in how various models focus on tokens during reasoning tasks.",
+    "real_world_impact": "The findings can help in selecting appropriate models for applications requiring reasoning, enhancing the effectiveness of AI systems in tasks like dialogue generation and decision-making.",
+    "limitations": "The study does not thoroughly explore the impact of different training datasets on the observed reasoning capabilities.",
+    "new_terms": {
+        "chain-of-thought (CoT)": "**Chain-of-thought prompting** is a technique that guides language models to generate reasoning steps by providing examples of thought processes relevant to answering questions."
+    },
+    "open_sourcing": "The code is available at: https://github.com/AnnonymousForPapers/CoT_Reasoning_Test"
+}

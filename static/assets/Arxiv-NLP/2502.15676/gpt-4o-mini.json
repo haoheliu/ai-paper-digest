@@ -1,0 +1,22 @@
+{
+    "title": "AutoToM: Automated Bayesian Inverse Planning and Model Discovery for Open-ended Theory of Mind",
+    "author": "Zhining Zhang (Peking University), Chuanyang Jin (Johns Hopkins University), Mung Yao Jia (Johns Hopkins University), Tianmin Shu (Johns Hopkins University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methodology could enhance Haohe Liu's work in audio generation by incorporating Theory of Mind for more sophisticated interactions in AI audio systems, particularly in understanding user intentions.",
+    "field": "General Machine Learning-Supervised Learning",
+    "background": "Automatically constructing Bayesian models to infer others' mental states based on observed behavior in various contexts.",
+    "contribution": "AutoToM introduces a fully automated framework for open-ended Theory of Mind reasoning to confidently infer mental variables in diverse scenarios, achieving state-of-the-art performance in multiple benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Prior methods either rely on rigid Bayesian models needing manual specifications or prompting-based approaches that suffer from systematic errors in inference.",
+        "novelty": "This work automates both the proposal of Bayesian Theory of Mind models and the execution of Bayesian inverse planning, negating the need for manual intervention."
+    },
+    "key_innovation": "Integrates automated Bayesian inverse planning with large language models to adaptively model and infer mental variables in diverse scenarios.",
+    "real_world_impact": "This approach can result in more intelligent and socially aware AI systems that better interact with users by understanding their intentions and states, applicable in interactive audio systems and virtual assistants.",
+    "limitations": "The authors note that AutoToM still occasionally misinterprets ambiguous mental variable definitions and can require multiple API calls, impacting efficiency.",
+    "new_terms": {
+        "Bayesian Inverse Planning": "**Bayesian Inverse Planning** is a method that infers unobservable mental states from observed actions, modeling how agents make decisions based on their beliefs and goals.",
+        "Theory of Mind": "**Theory of Mind** refers to the ability to attribute mental states\u2014like beliefs and desires\u2014to oneself and others, essential for understanding and predicting behavior in social contexts."
+    },
+    "open_sourcing": "https://github.com/SCAI-JHU/AutoToM"
+}

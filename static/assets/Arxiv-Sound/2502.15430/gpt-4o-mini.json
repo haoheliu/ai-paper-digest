@@ -1,0 +1,22 @@
+{
+    "title": "Audio signal interpolation using optimal transportation of spectrograms",
+    "author": "David Valdivia (IRIT, Universit\u00e9 de Toulouse), Marien Renaud (IMB, Universit\u00e9 de Bordeaux), Elsa Cazelles (IRIT, CNRS, Universit\u00e9 de Toulouse), C\u00e9dric F\u00e9votte (IRIT, CNRS, Universit\u00e9 de Toulouse), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a novel method for audio signal interpolation, utilizing optimal transport techniques that can potentially enhance the quality of audio generation tasks in Dr. Liu's research on text-to-audio generation and music synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "Audio signal interpolation aims to create a seamless audio signal that transitions between two distinct source and target audio signals, providing a hybrid sound.",
+    "contribution": "This paper introduces an interpolation technique based on Wasserstein barycenters of spectrograms to generate intermediate audio signals, achieving more nuanced and realistic sound transitions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often treat audio frames independently or lack a structured approach to transport energy effectively across the time-frequency domain.",
+        "novelty": "This work improves inter-frame transportation by employing a structured cost matrix to limit distant mass displacements, enhancing audio realism."
+    },
+    "key_innovation": "The method's unique approach of using a structured cost matrix in optimal transport prevents unrealistic energy shifts in audio, maintaining the integrity of the source and target signals.",
+    "real_world_impact": "The proposed method has potential applications in audio editing, sound design, and synthesis, offering new tools for creative professionals and enhancing interactive audio experiences.",
+    "limitations": "The computational complexity of optimal transport calculations may limit applicability to very high-resolution audio signals.",
+    "new_terms": {
+        "Wasserstein barycenter": "**Wasserstein barycenter** refers to a type of average that minimizes the cost of transporting distributions in a probabilistic context, ensuring optimal similarity across spatial representations.",
+        "optimal transport": "**Optimal transport** is a mathematical theory dealing with the most cost-effective way to move distributions and ideas across a predefined space."
+    },
+    "open_sourcing": "Supplemental materials and audio samples are available online."
+}

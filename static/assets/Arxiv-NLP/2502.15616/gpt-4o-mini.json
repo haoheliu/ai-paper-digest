@@ -1,0 +1,21 @@
+{
+    "title": "Pastiche Novel Generation: Creating Fan Fiction You Love in Your Favorite Author's Style",
+    "author": "Xueran Han (MBZUAI), Yuhan Liu (Renmin University of China), Mingzhe Li (ByteDance Inc.), Wei Liu (Xiaomi), Sen Hu (Peking University), Rui Yan (Renmin University of China), Zhiqiang Xu (MBZUAI), Xiuying Chen (MBZUAI), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methodology presented for generating novels mimicking an author's style could be applied to develop novel text-to-audio systems where the narrative tone aligns with audio generation, enhancing creative audio responses.",
+    "field": "Applications-Creative AI",
+    "background": "Automated generation of fan fiction that mirrors a specific author\u2019s unique style and narrative structure, accommodating character dynamics and plot coherence.",
+    "contribution": "This paper introduces WriterAgent, an advanced model for generating pastiche novels that faithfully emulate authors' styles, achieving improved narrative coherence and stylistic fidelity compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily rely on simplistic prompts, which often lead to generic outputs lacking depth and coherence.",
+        "novelty": "This work integrates a multi-task learning framework with curriculum training, progressively mastering narrative elements and enhancing overall story quality."
+    },
+    "key_innovation": "Combines a unique learning structure that allows the model to understand and replicate literary styles through hierarchical training tasks, leading to richer, more authentic narrative generation.",
+    "real_world_impact": "Could transform creative industries by enabling nuanced story generation systems that authors and creators can use as inspiration or collaboration tools, enhancing creativity in storytelling.",
+    "limitations": "The model relies on pre-structured plots, which may not replicate the organic development of narratives found in traditional writing.",
+    "new_terms": {
+        "Pastiche Novel Generation": "**Pastiche Novel Generation** refers to the creation of literary works that imitate the style and voice of established authors while weaving in original narratives."
+    },
+    "open_sourcing": "WriterAgent is available at [WriteAgent.](https://anonymous.4open.science/r/writeragent-C0F8/)"
+}

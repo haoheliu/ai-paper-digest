@@ -1,0 +1,22 @@
+{
+    "title": "Game State and Spatio-temporal Action Detection in Soccer using Graph Neural Networks and 3D Convolutional Networks",
+    "author": "Jeremie Ochin (Centre for Robotics, MINES Paris - PSL), Guillaume Devineau (Footovision), Bogdan Stanciulescu (Centre for Robotics, MINES Paris - PSL), Sotiris Manitsaris (Centre for Robotics, MINES Paris - PSL), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The integration of structured game state information via Graph Neural Networks could enhance techniques for contextualizing audio or speech-related tasks by accounting for relationships and dynamics in team sports.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The study focuses on automating spatio-temporal action detection in soccer, integrating visual data and contextual game state to identify player actions more accurately.",
+    "contribution": "This paper introduces a method combining visual features and local game state information using Graph Neural Networks, achieving improved action detection accuracy in soccer.",
+    "technical_comparison": {
+        "prior_work": "Existing spatio-temporal action detection methods primarily rely on visual features without considering the interactions between players.",
+        "novelty": "This work improves by incorporating information on player positions and velocities, structured through Graph Neural Networks, which enhances understanding of player behaviors."
+    },
+    "key_innovation": "The method uniquely combines visual features with a graph-based representation of players' spatial configurations, facilitating richer context in action detection.",
+    "real_world_impact": "This approach can revolutionize sports analytics by providing more accurate and automated insights into player performance and tactics, subsequently assisting coaching decisions.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "spatio-temporal action detection": "**Spatio-temporal action detection** refers to identifying and localizing actions in videos over both spatial dimensions (where they occur) and temporal dimensions (when they happen).",
+        "Graph Neural Networks": "**Graph Neural Networks** are a class of neural networks designed to work with data structured as graphs, enabling the modeling of complex relationships and interactions."
+    },
+    "open_sourcing": ""
+}

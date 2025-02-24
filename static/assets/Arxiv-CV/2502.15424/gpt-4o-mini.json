@@ -1,0 +1,22 @@
+{
+    "title": "Anatomy-Informed Deep Learning and Radiomics for Automated Neurofibroma Segmentation in Whole-Body MRI",
+    "author": "Georgii Kolokolnikov (University Medical Center Hamburg-Eppendorf), Marie-Lena Schmalhofer (University Medical Center Hamburg-Eppendorf), Lennart Well (University Medical Center Hamburg-Eppendorf), Said Farschtschi (University Medical Center Hamburg-Eppendorf), Victor-Felix Mautner (University Medical Center Hamburg-Eppendorf), Inka Ristow (University Medical Center Hamburg-Eppendorf), Rene Werner (University Medical Center Hamburg-Eppendorf), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The use of deep learning techniques and ensemble methods for segmentation tasks is relevant as similar approaches could enhance audio signal processing tasks, such as sound source separation.",
+    "field": "Applications-Healthcare",
+    "background": "Automated segmentation in medical imaging aims to identify and delineate regions of interest, such as tumors, accurately from MRI scans.",
+    "contribution": "This paper introduces a three-stage pipeline that employs anatomy-informed neural networks for accurate neurofibroma segmentation, achieving significant improvements in Dice Similarity Coefficient and F1 score.",
+    "technical_comparison": {
+        "prior_work": "Previous methods had limitations in segmentation accuracy due to inconsistencies in tumor appearance and were often semi-automated, requiring user intervention.",
+        "novelty": "This work improves segmentation by using a fully automated pipeline that integrates anatomical knowledge and radiomic features to refine tumor detection and reduce false positives."
+    },
+    "key_innovation": "The incorporation of anatomy segmentation as context for the neural networks enhances the model's focus on high-risk areas for tumor development.",
+    "real_world_impact": "The method's integration into clinical platforms like 3D Slicer signals its potential for improving patient care through enhanced tumor monitoring and assessment.",
+    "limitations": "The pipeline's performance is sensitive to variations in MRI protocols and low tumor burden cases.",
+    "new_terms": {
+        "Dice Similarity Coefficient": "**Dice Similarity Coefficient** is a statistical measure used to gauge the similarity of two samples, often utilized in medical imaging to evaluate the accuracy of segmentation.",
+        "radiomic features": "**Radiomic features** are quantitative characteristics extracted from medical images that can be used for predictive modeling and analysis in various medical contexts."
+    },
+    "open_sourcing": "The code for the segmentation pipeline is publicly accessible at https://github.com/IPMI-ICNS-UKE/NFSegmentationPipeline."
+}

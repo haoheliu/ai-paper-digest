@@ -1,0 +1,22 @@
+{
+    "title": "A Rapid Test for Accuracy and Bias of Face Recognition Technology",
+    "author": "Manuel Knott (California Institute of Technology), Ignacio Serna (California Institute of Technology, Max Planck Institute for Human Development), Ethan Mann (California Institute of Technology), Pietro Perona (California Institute of Technology), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods proposed in this paper on evaluating face recognition technologies can be applied to audio recognition tasks, particularly in assessing biases which are increasingly relevant across machine learning fields, including audio.",
+    "field": "Evaluation-Methodology",
+    "background": "Developing a method for assessing the accuracy and demographic biases of face recognition systems without manual labeling, utilizing web-sourced images and automated confidence scoring.",
+    "contribution": "This paper introduces an unsupervised testing method for face recognition systems to solve challenges in manual annotation, achieving faster benchmarking and revealing demographic biases.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically require large, manually annotated datasets which are expensive and labor-intensive to create.",
+        "novelty": "This work improves on these challenges by using automated estimation of identity labels from model confidence scores, allowing for quicker and cheaper evaluations."
+    },
+    "key_innovation": "The methodology enables real-time assessment of FR system accuracy and bias without the need for extensive manual labeling, thereby democratizing access to testing these systems.",
+    "real_world_impact": "Enhances transparency and accountability in the deployment of face recognition technologies, potentially influencing regulations and promoting ethical practices in AI applications.",
+    "limitations": "The test relies on face recognition systems being accurate, limiting applicability in scenarios with poor image quality or ambiguous identities.",
+    "new_terms": {
+        "False Non-Match Rate (FNMR)": "**False Non-Match Rate (FNMR)** refers to the rate at which a face recognition system fails to recognize the same individual in two different images.",
+        "False Match Rate (FMR)": "**False Match Rate (FMR)** indicates the rate at which a face recognition system incorrectly identifies different individuals as the same person."
+    },
+    "open_sourcing": "The method is publicly accessible at https://github.com/caltechvisionlab/frt-rapid-test."
+}

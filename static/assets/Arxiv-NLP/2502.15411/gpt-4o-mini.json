@@ -1,0 +1,22 @@
+{
+    "title": "HIFI-KPI: A Dataset for Hierarchical KPI Extraction from Earnings Filings",
+    "author": "Rasmus Aavang (Aalborg University), Giovanni Rizzi (ALIPES ApS), Rasmus B\u00f8ggild (ALIPES ApS), Alexandre Iolov (ALIPES ApS), Mike Zhang (Aalborg University), Johannes Bjerva (Aalborg University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The dataset focuses on extracting key financial performance indicators from earnings filings, which can enhance audio-related financial analysis and investment strategies in the audio domain.",
+    "field": "Applications-Speech and Audio",
+    "background": "Extracting hierarchical key performance indicators (KPIs) from unstructured financial texts like earnings filings to assess corporate financial health.",
+    "contribution": "HIFI-KPI introduces a structured dataset and taxonomy-based extraction approach for financial KPIs to facilitate better financial analysis tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets often lack fine-grained labeling and structured extraction methods for financial texts.",
+        "novelty": "This research improves by providing a large-scale, hierarchical dataset that merges iXBRL tags with textual data, enabling various downstream NLP tasks."
+    },
+    "key_innovation": "The use of taxonomy-based grouping to streamline the extraction process and enhance the interpretability of financial data.",
+    "real_world_impact": "The dataset and methodologies can revolutionize how financial data is parsed and analyzed, supporting investors in making informed decisions based on quantitative financial health indicators.",
+    "limitations": "Variance in annotation quality due to differences in companies\u2019 reporting practices may impact dataset reliability.",
+    "new_terms": {
+        "iXBRL": "**Inline eXtensible Business Reporting Language** is a format for digital financial reporting that allows for easier analysis of financial documents.",
+        "KPI": "**Key Performance Indicator** refers to measurable values that demonstrate how effectively a company is achieving its key business objectives."
+    },
+    "open_sourcing": "Code and data are available at https://github.com/aaunlp/HiFi-KPI"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Reading the unreadable: Creating a dataset of 19th century English newspapers using image-to-text language models",
+    "author": "Jonathan Bourne",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper could inform methodologies for improving text extraction from archival materials, which could be beneficial for any audio-linguistic research analyzing historical documents or audio data derived from such texts.",
+    "field": "Applications-Language",
+    "background": "This research focuses on improving Optical Character Recognition (OCR) of 19th-century newspapers using advanced image-to-text language models to create a searchable digital database.",
+    "contribution": "[This paper] introduces the NCSE v2.0 dataset, significantly improving OCR accuracy on historical newspapers, achieving a character error rate as low as 1% compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Existing OCR methods for historical documents struggle with high error rates due to poor layout and image quality.",
+        "novelty": "The approach uses a multi-modal image-to-text model, Pixtral 12B, to perform OCR directly from page images, bypassing the limitations of traditional OCR methods."
+    },
+    "key_innovation": "Leverages state-of-the-art image-to-text language models to combine high-quality text extraction with improved classification of articles, making it more effective for historical context.",
+    "real_world_impact": "This dataset will facilitate enhanced historical and sociological research by providing clearer access to previously unreadable texts, potentially revolutionizing how historians interact with archival materials.",
+    "limitations": "No explicit limitations were mentioned by the author.",
+    "new_terms": {
+        "Optical Character Recognition (OCR)": "**Optical Character Recognition (OCR)** is a technology that converts different types of documents, such as scanned paper documents, PDFs, or images captured by a digital camera, into editable and searchable data."
+    },
+    "open_sourcing": "The NCSE v2.0 dataset is freely available for public use."
+}

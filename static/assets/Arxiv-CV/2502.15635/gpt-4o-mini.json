@@ -1,0 +1,22 @@
+{
+    "title": "Para-Lane: Multi-Lane Dataset Registering Parallel Scans for Benchmarking Novel View Synthesis",
+    "author": "Ziqian Ni (CaiNiao Inc.), Sicong Du (CaiNiao Inc.), Zhenghua Hou (CaiNiao Inc.), Chenming Wu (Baidu Research), Sheng Yang (CaiNiao Inc.), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods for novel view synthesis and the dataset curation could help enhance techniques for audio-visual integration, particularly in generating audio from visual inputs.",
+    "field": "Applications-Vision",
+    "background": "The task focuses on generating realistic novel views from various camera positions in autonomous driving scenarios, particularly in complex multi-lane situations.",
+    "contribution": "This paper introduces the Para-Lane dataset to solve the lack of realistic multi-lane data for evaluating novel view synthesis capabilities, achieving accurate pose alignment across sequences.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets primarily focus on single-lane or synthetic environments lacking real-world realism.",
+        "novelty": "This work provides a multi-pass data collection method and a two-phase pose optimization framework for precise multi-sensor alignment."
+    },
+    "key_innovation": "Utilizes a combination of LiDAR mapping and camera registration methods to create a comprehensive and realistic benchmark dataset.",
+    "real_world_impact": "The dataset and methodologies could significantly advance research in autonomous driving by providing valuable benchmarks for evaluating novel view synthesis techniques.",
+    "limitations": "Some limitations include potential issues with the accuracy of dynamic object segmentation and the need for increased data diversity.",
+    "new_terms": {
+        "Novel View Synthesis (NVS)": "**Novel View Synthesis (NVS)** refers to generating new images from different viewpoints based on existing captured data, crucial for applications such as autonomous driving.",
+        "LiDAR (Light Detection and Ranging)": "**LiDAR** is a technology that measures distances by illuminating a target with laser light and analyzing the reflected light, commonly used in mapping and autonomous vehicles."
+    },
+    "open_sourcing": "The dataset is publicly available at https://nizqleo.github.io/paralane-dataset/"
+}

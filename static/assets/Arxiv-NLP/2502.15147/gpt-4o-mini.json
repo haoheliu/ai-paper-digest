@@ -1,0 +1,21 @@
+{
+    "title": "Latent Factor Models Meets Instructions: Goal-conditioned Latent Factor Discovery without Task Supervision",
+    "author": "Zhouhang Xie (University of California, San Diego), Tushar Khot (Allen Institute for AI), Bhavana Dalvi Mishra (Allen Institute for AI), Harshit Surana (Allen Institute for AI), Julian McAuley (University of California, San Diego), Peter Clark (Allen Institute for AI), Bodhisattwa Prasad Majumder (Allen Institute for AI), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The approach of combining large language model (LLM) reasoning with classical latent factor modeling may provide insights into how to improve audio-related tasks such as sound event detection using user-defined goals.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This paper presents a system for discovering latent factors in data based on user-defined goals expressed as natural language, without relying on labeled data.",
+    "contribution": "This paper introduces Instruct-LF to solve the challenge of latent factor discovery under the guidance of user goals, achieving notable improvements in multiple application domains.",
+    "technical_comparison": {
+        "prior_work": "Existing latent factor models typically lack the ability to adapt their discovery process based on user instructions, limiting their flexibility and interpretability.",
+        "novelty": "This work uniquely integrates instruction-following capabilities of LLMs with traditional gradient-based methods, enhancing the discovery of informative latent factors from noisy data."
+    },
+    "key_innovation": "By generating properties through LLMs, the method efficiently estimates data-property linkages, allowing for clustering into coherent latent factors that are interpretable.",
+    "real_world_impact": "This framework can significantly improve tasks in recommendation systems and document categorization, aiding in extracting actionable insights from unstructured data.",
+    "limitations": "The method depends on the quality of LLM outputs and may struggle with extreme noise in data.",
+    "new_terms": {
+        "latent factor discovery": "**Latent factor discovery** refers to the process of uncovering hidden patterns or factors in observational data which can explain observed behaviors or characteristics."
+    },
+    "open_sourcing": "https://github.com/allenai/instructLF"
+}

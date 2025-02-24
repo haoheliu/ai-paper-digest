@@ -1,0 +1,19 @@
+{
+    "title": "What Is a Good Caption? A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Coverage of MLLMs",
+    "author": "Zhihang Liu (University of Science and Technology of China), Chen-Wei Xie (Alibaba Group), Bin Wen (Alibaba Group), Feiwu Yu (Alibaba Group), Jixuan Chen (Alibaba Group), Boqiang Zhang (University of Science and Technology of China), Nianzu Yang (Shanghai Jiao Tong University), Hongtao Xie (University of Science and Technology of China)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper proposes a new comprehensive evaluation benchmark for visual captioning, which could inform similar methodologies in audio captioning, enhancing the evaluation of multimodal models like those used in Haohe Liu's research.",
+    "field": "Evaluation-Methodology",
+    "background": "This research develops a benchmark to assess visually generated captions regarding accuracy and coverage, targeting advancements in multimodal language understanding models.",
+    "contribution": "This paper introduces CV-CapBench to solve the inadequacies of traditional visual captioning benchmarks, achieving comprehensive evaluation across multiple dimensions and metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on short captions and rule-based metrics, which lacked depth and were sensitive to style variations.",
+        "novelty": "This work utilizes precision, recall, and a hit rate metric to provide a more reliable and nuanced assessment of caption quality."
+    },
+    "key_innovation": "Defines six views and thirteen dimensions for a comprehensive evaluation, significantly broadening the assessment parameters for visual captioning.",
+    "real_world_impact": "Provides a robust tool for evaluating diverse multimodal models, potentially guiding improvements in AI applications that involve understanding and generating text from images and videos.",
+    "limitations": "No",
+    "new_terms": {},
+    "open_sourcing": "The code and data will be released."
+}

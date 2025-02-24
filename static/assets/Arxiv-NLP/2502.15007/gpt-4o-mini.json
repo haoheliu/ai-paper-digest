@@ -1,0 +1,22 @@
+{
+    "title": "LLM-Microscope: Uncovering the Hidden Role of Punctuation in Context Memory of Transformers",
+    "author": "Anton Razzhigaev (AIRI), Matvey Mikhalchuk (AIRI), Temurbek Rahmatullaev (AIRI), Elizaveta Goncharova (AIRI), Polina Druzhinina (AIRI), Ivan Oseledets (AIRI), Andrey Kuznetsov (AIRI), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The insights on how 'filler' tokens like punctuation and stopwords influence context could inform audio-language alignment tasks, especially in generating context-sensitive audio responses.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research examines how Large Language Models (LLMs) encode and store contextual information, particularly the role of often-overlooked tokens like punctuation and stopwords.",
+    "contribution": "This paper introduces the LLM-Microscope toolkit to quantify token-level contextualization and nonlinearity, identifying the critical role of seemingly trivial tokens in retaining context.",
+    "technical_comparison": {
+        "prior_work": "Existing interpretability tools often overlook minor tokens and focus on major semantic contributors, leading to an incomplete understanding of model behavior.",
+        "novelty": "The LLM-Microscope specifically assesses how minor tokens impact model predictions and memory retention, providing deeper insights into LLM functionality."
+    },
+    "key_innovation": "Offers a comprehensive framework for visualizing and analyzing how token representation contributes to context memory and prediction accuracy in LLMs.",
+    "real_world_impact": "This research provides actionable insights for enhancing LLM applications in natural language processing, potentially improving dialogue systems and contextual audio generation.",
+    "limitations": "Generalizability to all model architectures may not be ensured, and the accuracy of the contextual memory assessment could vary based on the model's internal architecture.",
+    "new_terms": {
+        "contextualization": "**Contextualization** refers to the degree to which a token incorporates information from surrounding tokens, influencing how meanings are derived from text.",
+        "nonlinearity": "**Nonlinearity** in this context describes how the relationship between layers in a model cannot be accurately represented by a single linear transformation, indicating complex interactions within the model."
+    },
+    "open_sourcing": "https://github.com/AIRI-Institute/LLM-Microscope"
+}

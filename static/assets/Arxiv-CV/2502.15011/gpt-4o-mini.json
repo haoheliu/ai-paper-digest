@@ -1,0 +1,21 @@
+{
+    "title": "CrossOver: 3D Scene Cross-Modal Alignment",
+    "author": "Sayan Deb Sarkar (Stanford University), Ondrej Miksik (Microsoft Spatial AI Lab), Marc Pollefeys (ETH Zurich), Daniel Barath (ETH Zurich), Iro Armeni (Stanford University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methodology for cross-modal alignment can be adapted to audio-language modeling tasks where different audio representations can be linked similarly to visual and textual modalities in CrossOver.",
+    "field": "Applications-Vision",
+    "background": "Cross-modal alignment aims to align and retrieve 3D scene representations across different types of data modalities like images, point clouds, and CAD models.",
+    "contribution": "CrossOver introduces a flexible scene-level modality alignment framework to improve 3D scene understanding by learning a unified embedding space without the need for complete or aligned datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often require fully aligned and consistent datasets for 3D object understanding, which is impractical in real-world scenarios.",
+        "novelty": "This work improves by utilizing a multi-stage training pipeline and dimensionality-specific encoders, enabling alignment and retrieval even with missing modalities."
+    },
+    "key_innovation": "The framework's ability to learn emergent cross-modal behaviors and map independent modalities into a shared embedding space without strict alignment requirements is a significant advancement.",
+    "real_world_impact": "CrossOver facilitates practical applications in augmented reality, robotics, and construction monitoring by enabling robust 3D scene understanding even in the presence of incomplete data.",
+    "limitations": "No explicit limitations are mentioned in the paper.",
+    "new_terms": {
+        "cross-modal alignment": "**Cross-modal alignment** is the process of linking different types of data (e.g., visual data and textual descriptions) in a common representation space to facilitate tasks like retrieval and localization."
+    },
+    "open_sourcing": ""
+}

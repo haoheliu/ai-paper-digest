@@ -1,0 +1,21 @@
+{
+    "title": "Analyze the Neurons, not the Embeddings: Understanding When and Where LLM Representations Align with Humans",
+    "author": "Masha Fedzechkina (Apple), Eleonora Gualdoni (Apple), Sinead Williamson (Apple), Katherine Metcalf (Apple), Skyler Seto (Apple), Barry-John Theobald (Apple), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's exploration of how large language models (LLMs) represent concepts can inform techniques in audio-language modeling by offering insights into hierarchical organization and representational alignment, which could be adapted for audio tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research analyzes the internal neural representations of large language models to assess their alignment with human concept representations.",
+    "contribution": "This paper introduces a method to identify expert neurons responsible for processing specific concepts in LLMs, achieving a greater understanding of how LLMs align with human-like conceptual organization.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused largely on word embeddings for assessing similarity between human and model representations, which do not reflect where concepts are stored in the model.",
+        "novelty": "This work improves upon prior methods by providing a neuron-level analysis of concept representation, allowing for hierarchical relationships to be illustrated and measured."
+    },
+    "key_innovation": "Utilizes expert neuron identification to develop a granular perspective on LLM conceptual structures and their alignment with human representations.",
+    "real_world_impact": "The findings could enhance the interpretability and reliability of LLMs in real-world applications, contributing to safer and more effective deployments in AI systems.",
+    "limitations": "The authors note that their study primarily assesses similarity rather than more complex alignment tasks, which may limit the applicability of their findings.",
+    "new_terms": {
+        "expert neurons": "**Expert neurons** refer to specific neurons within a model that are particularly effective at recognizing or processing certain concepts, improving interpretability of the model's inner workings."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Fundamental Survey on Neuromorphic Based Audio Classification",
+    "author": "Amlan Basu (Neuromorphic Sensor Signal Processing Lab, University of Strathclyde, Glasgow, U.K.), Pranav Chaudhari, Gaetano Di Caterina, ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "This survey reviews neuromorphic computing approaches like Spiking Neural Networks (SNNs), which could enhance audio classification mechanisms in Haohe Liu's audio processing work, particularly in applications requiring real-time analysis and efficiency.",
+    "field": "Applications-Speech and Audio",
+    "background": "Neuromorphic systems leverage brain-inspired architectures to facilitate efficient audio classification by mimicking biological neural networks.",
+    "contribution": "This survey introduces the current state-of-the-art in neuromorphic audio classification to solve the limitations of traditional methods, achieving insights into various techniques and hardware advancements.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods in audio classification rely on complex algorithms and manually crafted features, struggling with energy efficiency and robustness.",
+        "novelty": "This work emphasizes neuromorphic approaches that utilize asynchronous spike-based computation, improving energy consumption and real-time performance."
+    },
+    "key_innovation": "Focuses on Spiking Neural Networks and neuromorphic hardware to provide efficient solutions for audio classification, integrating both event-driven processing and bio-inspired learning methods.",
+    "real_world_impact": "The findings can facilitate advancements in audio classification tasks for applications in healthcare monitoring, surveillance, and environmental analysis.",
+    "limitations": "The survey does not specify any limitations of the discussed methods, focusing mainly on their advantages.",
+    "new_terms": {
+        "Spiking Neural Networks (SNNs)": "**Spiking Neural Networks (SNNs)** are a class of artificial neural networks that closely mimic the temporal dynamics of biological neurons, transmitting information via discrete events called spikes.",
+        "neuromorphic computing": "**Neuromorphic computing** refers to computing systems that are designed to emulate the structure and functioning of biological neural networks to enhance processing efficiency and adaptability."
+    },
+    "open_sourcing": ""
+}

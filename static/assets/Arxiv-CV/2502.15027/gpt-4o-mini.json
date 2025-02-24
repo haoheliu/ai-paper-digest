@@ -1,0 +1,22 @@
+{
+    "title": "INTERFEEDBACK: UNVEILING INTERACTIVE INTELLIGENCE OF LARGE MULTIMODAL MODELS VIA HUMAN FEEDBACK",
+    "author": "Henry Hengyuan Zhao (Show Lab, National University of Singapore), Wenqi Pei (Show Lab, National University of Singapore), Yifei Tao (Show Lab, National University of Singapore), Haiyang Mei (Show Lab, National University of Singapore), Mike Zheng Shou (Show Lab, National University of Singapore), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The examination of interactive intelligence in multimodal models could contribute to developing more responsive systems for audio generation tasks, as understanding human feedback is critical for applications in creative AI.",
+    "field": "Applications-Creative AI",
+    "background": "Evaluating how effectively Large Multimodal Models (LMMs) can improve problem-solving through interactions with human feedback in various tasks.",
+    "contribution": "This paper introduces InterFeedback-Bench to solve the lack of benchmarks for assessing LMMs' interactive intelligence, achieving insights into models' abilities to receive and act on feedback.",
+    "technical_comparison": {
+        "prior_work": "Existing evaluations of LMMs largely overlook the role of human-AI interaction during problem-solving.",
+        "novelty": "This framework uniquely focuses on interactive feedback and self-improvement capabilities, using a systematic approach to benchmark various models."
+    },
+    "key_innovation": "The paper presents a framework that allows LMMs to iteratively improve responses based on human-generated feedback, leveraging advanced models for simulating human interactions.",
+    "real_world_impact": "The findings emphasize the potential for advancing interactive AI assistants by improving how models incorporate human feedback, relevant for areas such as virtual assistants and adaptive learning systems.",
+    "limitations": "The study reveals that current LMMs generally fail to achieve high correction rates despite feedback, indicating room for improvement in their design.",
+    "new_terms": {
+        "Interactive Intelligence": "**Interactive intelligence** refers to the ability of AI systems to engage in meaningful dialogue and adapt their responses based on user feedback.",
+        "Large Multimodal Models (LMMs)": "**Large Multimodal Models (LMMs)** are AI models capable of processing and understanding information from multiple modalities, such as text, images, and audio."
+    },
+    "open_sourcing": ""
+}

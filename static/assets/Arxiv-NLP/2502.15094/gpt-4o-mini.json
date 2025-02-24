@@ -1,0 +1,22 @@
+{
+    "title": "Judging It, Washing It: Scoring and Greenwashing Corporate Climate Disclosures using Large Language Models",
+    "author": "Marianne Chuang (UC Santa Cruz), Gabriel Chuang (Columbia University), Cheryl Chuang (UC Santa Cruz), John Chuang (UC Berkeley)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The methodology of using Large Language Models (LLMs) to assess corporate climate disclosures could inform Haohe's work in audio and music processing by offering techniques for evaluating and enhancing qualitative responses, which may be applicable to improving audio generation strategies.",
+    "field": "Machine Learning for Sciences-Climate Science",
+    "background": "Evaluating corporate climate disclosures with two scoring systems to measure the effectiveness of companies' sustainability claims while addressing the issue of greenwashing.",
+    "contribution": "This paper introduces the LLM-as-a-Judge (LLMJ) methodology to score climate disclosures, achieving effective differentiation between high and low-performing companies.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in climate disclosure evaluation often lacked robustness against misleading claims and did not leverage advanced natural language processing techniques effectively.",
+        "novelty": "This work improves by implementing LLMs to perform robust evaluations that withstand attempts at greenwashing."
+    },
+    "key_innovation": "The integration of LLMs to provide nuanced scoring that considers both qualitative and quantitative aspects of corporate disclosures, with a focus on transparency and accountability.",
+    "real_world_impact": "This study enhances the ability to critically evaluate corporate sustainability claims, potentially influencing investor decisions and consumer awareness towards environmental responsibility.",
+    "limitations": "The methodology's performance varies based on the dataset used, and the findings may not generalize across different disclosure types or industries.",
+    "new_terms": {
+        "greenwashing": "**Greenwashing** refers to the deceptive practice whereby a company exaggerates or fabricates environmental benefits, misleading stakeholders about its actual sustainability efforts.",
+        "LLM-as-a-Judge (LLMJ)": "**LLM-as-a-Judge (LLMJ)** is a technique that employs large language models to evaluate qualitative content by scoring responses based on defined criteria."
+    },
+    "open_sourcing": ""
+}

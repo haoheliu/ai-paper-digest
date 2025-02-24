@@ -1,0 +1,22 @@
+{
+    "title": "Hardware-Friendly Static Quantization Method for Video Diffusion Transformers",
+    "author": "Sanghyun Yi (California Institute of Technology), Qingfeng Liu (Samsung Semiconductor Inc.), Mostafa El-Khamy (Samsung Semiconductor Inc.), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The proposed quantization methods could improve the efficiency of machine learning models for audio and video generation, which could be beneficial for Haohe Liu's research in related fields.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Developing efficient quantization methods to reduce model size and improve inference speed without retraining, specifically targeted at video diffusion transformer models.",
+    "contribution": "This paper introduces static quantization methods for video diffusion transformers to solve deployment challenges on resource-constrained devices, achieving video quality comparable to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on dynamic quantization during inference, complicating hardware optimizations, especially for Neural Processing Units (NPUs).",
+        "novelty": "This work improves by implementing static quantization that determines parameters during a calibration phase, facilitating hardware-level efficiency."
+    },
+    "key_innovation": "The approach leverages channel-wise and tensor-wise quantization, as well as smooth quantization techniques, to ensure high-quality video outputs while maintaining model efficiency.",
+    "real_world_impact": "This research could enhance the deployment of generative models on mobile devices, leading to broader accessibility and use of advanced video generation technologies in everyday applications.",
+    "limitations": "The paper does not explicitly mention any limitations, but it could imply challenges in maintaining performance at lower bit widths.",
+    "new_terms": {
+        "static quantization": "**Static quantization** refers to the process of determining quantization parameters during a calibration phase rather than adapting them during inference.",
+        "smooth quantization": "**Smooth quantization** involves techniques to smooth channel-wise variance in activation distributions, improving quantization stability and output quality."
+    },
+    "open_sourcing": ""
+}

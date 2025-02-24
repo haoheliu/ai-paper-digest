@@ -1,0 +1,22 @@
+{
+    "title": "Extreme Speech Classification in the Era of LLMs: Exploring Open-Source and Proprietary Models",
+    "author": "Sarthak Mahajan (IIIT Hyderabad), Nimmi Rangaswamy (IIIT Hyderabad), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper explores the application of Large Language Models (LLMs) for the classification of extreme speech, which could inform techniques for audio classification and speech processing tasks in my research on speech restoration and audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to classify extreme speech types, such as derogatory and dangerous speech, using Large Language Models (LLMs) to enhance automated detection methods.",
+    "contribution": "This paper introduces a framework for classifying extreme speech using different models, achieving improved classification performance through fine-tuning and evaluation of both open-source and proprietary models.",
+    "technical_comparison": {
+        "prior_work": "Existing hate speech detection models often rely on simplistic methods or limited datasets and struggle with nuanced language.",
+        "novelty": "This work improves by employing advanced LLMs and fine-tuning strategies, demonstrating significant performance gains in detecting subtle categories of extreme speech."
+    },
+    "key_innovation": "The use of fine-tuning LLMs on domain-specific data to effectively categorize extreme speech types shows adaptability to linguistic and contextual nuances.",
+    "real_world_impact": "The findings could enhance content moderation on social media, providing robust mechanisms for detecting harmful speech. This approach promotes safer online environments.",
+    "limitations": "The performance of the models may still be limited by the inherent complexities of human language and socio-cultural contexts, which could lead to misclassifications.",
+    "new_terms": {
+        "extreme speech": "**Extreme speech** encompasses harmful, provocative, or exclusionary discourse that goes beyond traditional definitions of hate speech, challenging societal norms.",
+        "Large Language Models (LLMs)": "**Large Language Models (LLMs)** are sophisticated neural network models trained on vast text data to perform a variety of language-related tasks such as understanding, generation, and classification."
+    },
+    "open_sourcing": "Code available at https://github.com/sarthak-mahajan/extreme_speech_classification"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Identifying Features that Shape Perceived Consciousness in Large Language Model-Based AI: A Quantitative Study of Human Responses",
+    "author": "Bongsu Kang (Gachon University), Tae-Rim Yun (Gachon University), Jundong Kim (Gachon University), Hyojin Bae (Seoul National University), Chang-Eop Kim (Gachon University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study's exploration of human perceptions of AI consciousness could inform the development of audio processing models that interact with users in more human-like ways, potentially enhancing user engagement and experience in audio applications.",
+    "field": "Social and Economic Aspects of ML-Human-AI Interaction",
+    "background": "Investigating how specific language features influence human perceptions of consciousness in AI systems during interactions with text from large language models.",
+    "contribution": "This paper introduces a quantitative analysis of language features such as emotionality and metacognitive self-reflection that influence the perception of consciousness in AI, revealing nuanced human attitudes towards AI systems.",
+    "technical_comparison": {
+        "prior_work": "Previous research largely focused on philosophical and computational discussions of AI consciousness without empirical data on user perceptions.",
+        "novelty": "This work bridges the gap by conducting a survey with human participants to quantify the impact of specific AI response features on perceived consciousness."
+    },
+    "key_innovation": "Utilizes a clustering approach to uncover diverse patterns in how different demographic groups perceive AI consciousness based on specific language features.",
+    "real_world_impact": "Findings can guide the development of more effective AI systems that resonate with human users, fostering better human-AI interactions in various applications, including audio processing.",
+    "limitations": "The study's sample is limited to a specific demographic group in South Korea, which may not generalize to other populations.",
+    "new_terms": {
+        "metacognitive self-reflection": "**Metacognitive self-reflection** involves recognizing oneself as a distinct entity and reflecting on internal states, which can enhance perceptions of consciousness in AI.",
+        "perceived consciousness": "**Perceived consciousness** refers to the attribution of conscious qualities to AI systems based on human interpretations of their responses."
+    },
+    "open_sourcing": ""
+}

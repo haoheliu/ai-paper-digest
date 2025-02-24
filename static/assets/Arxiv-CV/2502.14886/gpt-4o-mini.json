@@ -1,0 +1,21 @@
+{
+    "title": "Surgical Scene Understanding in the Era of Foundation AI Models: A Comprehensive Review",
+    "author": "Ufaq Khan (Mohamed Bin Zayed University of Artificial Intelligence), Umair Nawaz (Mohamed Bin Zayed University of Artificial Intelligence), Adnan Qayyum (HBKU), Shazad Ashraf (University Hospitals Birmingham), Muhammad Bilal (Birmingham City University), Junaid Qadir (Qatar University), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "This paper reviews the integration of advanced AI models in surgical video analysis to improve understanding of complex surgical scenes in minimally invasive surgery.",
+    "contribution": "This paper introduces the use of foundation models and advanced deep learning techniques to solve challenges in surgical video analysis, achieving enhanced segmentation, tracking, and workflow recognition.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized traditional image processing and less advanced deep learning approaches that struggled with data variability and real-time constraints.",
+        "novelty": "This work emphasizes the role of foundation models and vision transformers, which improve generalization across different surgical contexts and multitask capabilities beyond conventional approaches."
+    },
+    "key_innovation": "It highlights the transformative potential of foundation AI models in adapting to dynamic surgical environments, leveraging their broad pretraining to enhance real-time decision-making.",
+    "real_world_impact": "The findings suggest that while substantial progress has been made, there is a critical need for focused research and integration efforts to enhance surgical precision and patient outcomes through AI.",
+    "limitations": "The paper discusses challenges like data variability, the black-box nature of AI models, and the need for regulatory compliance without offering explicit solutions.",
+    "new_terms": {
+        "foundation models": "**Foundation models** are large-scale AI systems trained on diverse data that can be adapted for a wide range of tasks without extensive retraining."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Optimized Pap Smear Image Enhancement: Hybrid PMD Filter-CLAHE Using Spider Monkey Optimization",
+    "author": "Ach Khozaimi (Trunojoyo University of Madura), Isnani Darti (Brawijaya University), Syaiful Anam (Brawijaya University), Wuryansari Muharini Kusumawinahyu (Brawijaya University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The hybrid method for image enhancement using machine learning techniques could be adapted for audio signal processing tasks, especially for denoising and quality improvement.",
+    "field": "Applications-Healthcare",
+    "background": "The paper presents a hybrid image enhancement method combining the Perona-Malik Diffusion filter and Contrast-Limited Adaptive Histogram Equalization to improve the quality of Pap smear images for cervical cancer detection.",
+    "contribution": "This study introduces a hybrid PMD-CLAHE approach optimized with Spider Monkey Optimization to enhance image quality, achieving significant improvements in clarity and contrast.",
+    "technical_comparison": {
+        "prior_work": "Previous optimization methods for image enhancement typically relied on Particle Swarm Optimization or traditional tuning methods that may not achieve optimal results.",
+        "novelty": "This work improves by employing the Spider Monkey Optimization algorithm, which demonstrates superior performance in optimizing both PMD and CLAHE parameters, leading to better overall image quality."
+    },
+    "key_innovation": "Combines advanced image filtering techniques with a novel optimization algorithm to enhance image quality effectively.",
+    "real_world_impact": "The proposed method could significantly aid in improving cervical cancer detection accuracy, which has crucial implications for public health and diagnostic processes.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "PMD filter": "**Perona-Malik Diffusion filter** is an anisotropic diffusion method used for image smoothing while preserving edges.",
+        "CLAHE": "**Contrast-Limited Adaptive Histogram Equalization** is an image processing technique used to enhance the contrast of images."
+    },
+    "open_sourcing": ""
+}

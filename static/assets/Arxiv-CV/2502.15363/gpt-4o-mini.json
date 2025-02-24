@@ -1,0 +1,21 @@
+{
+    "title": "M2LADS Demo: A System for Generating Multimodal Learning Analytics Dashboards",
+    "author": "Alvaro Becerra (Universidad Autonoma de Madrid), Roberto Daza (Universidad Autonoma de Madrid), Ruth Cobos (Universidad Autonoma de Madrid), Aythami Morales (Universidad Autonoma de Madrid), Julian Fierrez (Universidad Autonoma de Madrid), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The multimodal approach and dashboard for analyzing learning behaviors can inform development in audio-related aspects of learning analytics, particularly in understanding how audio input influences attention and engagement.",
+    "field": "Applications-Language",
+    "background": "This study develops a web-based system for integrating and analyzing various biometric and behavioral data from learning sessions, providing insights into learner engagement through multimodal dashboards.",
+    "contribution": "M2LADS introduces a comprehensive platform for visualizing and synchronizing diverse data types collected during educational sessions, achieving improved learner performance insights.",
+    "technical_comparison": {
+        "prior_work": "Existing systems often focus on either behavioral metrics or physiological data in isolation, limiting their effectiveness in understanding the complexities of learner engagement.",
+        "novelty": "M2LADS bridges these gaps by providing a unified dashboard where all data types are accessible and synchronized, thus enhancing interpretability and usability."
+    },
+    "key_innovation": "The integration of logistical activity data with biometric signals and video into a centralized dashboard allows for comprehensive analysis of learner engagement.",
+    "real_world_impact": "M2LADS can significantly enhance educational practices by providing actionable insights into student behavior and engagement, potentially leading to improved learning outcomes.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "multimodal learning analytics": "**Multimodal Learning Analytics** refers to the analysis of data derived from multiple sources or types (like video, audio, and biometric signals) to gain insights into learning behaviors."
+    },
+    "open_sourcing": ""
+}

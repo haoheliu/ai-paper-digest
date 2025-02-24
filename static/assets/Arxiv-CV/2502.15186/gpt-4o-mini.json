@@ -1,0 +1,22 @@
+{
+    "title": "LUMINA-Net: Low-light Upgrade through Multi-stage Illumination and Noise Adaptation Network for Image Enhancement",
+    "author": "Siddiqua Namrah (Department of Artificial Intelligence Korea University), Suneung Kim (Department of Artificial Intelligence Korea University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed LUMINA-Net employs techniques that may inspire similar methods in audio and speech processing for low-light or noisy audio enhancements, particularly in generating clearer and more detailed outputs.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Enhancing images captured in low-light conditions while minimizing noise, overexposure, and color distortion.",
+    "contribution": "This paper introduces LUMINA-Net to solve low-light image enhancement challenges by integrating multi-stage illumination and noise adaptation, achieving significantly improved visual fidelity compared to state-of-the-art methods.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often struggle with noise and overexposure while enhancing details in low-light images.",
+        "novelty": "LUMINA-Net improves upon these by using a multi-module framework that includes a Channel-Guidance Module, Color Enhancement, and Over-Exposure Correction."
+    },
+    "key_innovation": "Combines reflectance enhancement via channel attention mechanisms with dynamic over-exposure adjustment, ensuring detailed and balanced image outputs.",
+    "real_world_impact": "By significantly enhancing low-light image quality, this framework can aid in various real-world applications like surveillance and autonomous driving, improving the performance of vision-based systems in challenging lighting conditions.",
+    "limitations": "No",
+    "new_terms": {
+        "Channel-Guidance Module": "**Channel-Guidance Module** refers to a component that selectively enhances feature channels to improve reflectance quality in low-light images.",
+        "Over-Exposure Correction": "**Over-Exposure Correction** is a technique aimed at adjusting excessively bright areas in images to restore detail and balance."
+    },
+    "open_sourcing": ""
+}

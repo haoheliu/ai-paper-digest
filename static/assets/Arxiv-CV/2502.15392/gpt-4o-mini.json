@@ -1,0 +1,22 @@
+{
+    "title": "Chitrarth: Bridging Vision and Language for a Billion People",
+    "author": "Shaharukh Khan (Krutrim AI, Bangalore, India), Ayush Tarun (Krutrim AI, Bangalore, India), Abhinav Ravi (Krutrim AI, Bangalore, India), Ali Faraz (Krutrim AI, Bangalore, India), Akshat Patidar (Krutrim AI, Bangalore, India), Praveen Pokala (Krutrim AI, Bangalore, India), Anagha Bhangare (Krutrim AI, Bangalore, India), Raja Kolla (Krutrim AI, Bangalore, India), ..., Chandra Khatri (Krutrim AI, Bangalore, India)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper proposes a multilingual Vision-Language Model (VLM) that could offer insights into cross-lingual understanding, which may inspire innovative approaches in audio-language integration.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "Developing a Vision-Language Model that understands and integrates concepts across multiple Indian languages, enhancing AI applicability in low-resource language settings.",
+    "contribution": "Chitrarth introduces a multilingual Vision-Language Model to solve the language diversity gap, achieving state-of-the-art results in low-resource Indian languages.",
+    "technical_comparison": {
+        "prior_work": "Previous Vision-Language Models mostly focused on high-resource languages like English, limiting their effectiveness in multilingual settings.",
+        "novelty": "Chitrarth combines a multilingual Large Language Model with a vision module, allowing for effective training on Indic languages and diverse visual tasks."
+    },
+    "key_innovation": "Integrates multilingual datasets and visual reasoning capabilities specifically for Indian languages, bridging the gap in existing AI technologies.",
+    "real_world_impact": "This model seeks to improve accessibility and usability of AI systems across India\u2019s linguistic landscape, potentially enhancing educational and communication tools for over a billion people.",
+    "limitations": "The automated translation pipeline may introduce biases that affect content accuracy, requiring further targeted evaluations and adjustments.",
+    "new_terms": {
+        "Vision-Language Model (VLM)": "**Vision-Language Model (VLM)** refers to an AI framework that integrates visual and textual data to perform tasks like image captioning and visual question answering in multiple languages.",
+        "low-resource languages": "**Low-resource languages** are languages that have limited data available for natural language processing tasks compared to high-resource languages like English."
+    },
+    "open_sourcing": "The BharatBench evaluation framework will be available to the research community upon acceptance."
+}

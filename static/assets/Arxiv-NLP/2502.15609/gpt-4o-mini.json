@@ -1,0 +1,21 @@
+{
+    "title": "On the Robustness of Transformers against Context Hijacking for Linear Classification",
+    "author": "Tianle Li (Institute of Data Science, The University of Hong Kong), Chenyang Zhang (Department of Statistics and Actuarial Science, The University of Hong Kong), Xingwu Chen (Department of Computer Science, The University of Hong Kong), Yuan Cao (Department of Statistics and Actuarial Science, The University of Hong Kong), Difan Zou (Institute of Data Science, The University of Hong Kong), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "Understanding context hijacking in transformer models can help Haohe Liu improve robustness in audio processing tasks that may be affected by model biases, particularly in time-series data like audio signals.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "The study investigates how transformers can be adversely affected by factually correct context inputs in a classification setting, which might mislead their predictions.",
+    "contribution": "This paper introduces a framework for analyzing the robustness of multi-layer transformers against context hijacking, demonstrating that deeper models exhibit improved resistance to misleading context.",
+    "technical_comparison": {
+        "prior_work": "Previous studies primarily focused on adversarial attacks involving incorrect or harmful inputs, leaving the effects of correct inputs largely unexplored.",
+        "novelty": "This work uniquely emphasizes context hijacking attacks, revealing how structural depth in transformers contributes to robustness against even correct but misleading inputs."
+    },
+    "key_innovation": "Establishes that deeper transformers can conduct more refined optimization steps that mitigate the impacts of context hijacking, enhancing their reliability in real-world applications.",
+    "real_world_impact": "The findings can influence the design of more robust transformer architectures, potentially leading to safer applications in various areas like natural language processing and audio signal processing.",
+    "limitations": "The study primarily focuses on linear transformers, which may limit the generalization of results to non-linear architectures.",
+    "new_terms": {
+        "context hijacking": "**Context hijacking** refers to the phenomenon where factually correct context inputs mislead a model's predictions, undermining its decision-making process despite the accuracy of the input data."
+    },
+    "open_sourcing": ""
+}

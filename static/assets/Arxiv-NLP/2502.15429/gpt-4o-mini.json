@@ -1,0 +1,22 @@
+{
+    "title": "Pub-Guard-LLM: Detecting Fraudulent Biomedical Articles with Reliable Explanations",
+    "author": "Lihu Chen (Imperial College London), Shuojie Fu (Imperial College London), Gabriel Freedman (Imperial College London), Cemre Zor (Amazon Web Services), Guy Martin (National Health Service), James Kinross (Imperial College London), Uddhav Vaghela (Imperial College London), Ovidiu Serban (Imperial College London), Francesca Toni (Imperial College London), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods and benchmarks developed in this paper for fraud detection in biomedical literature could inform similar techniques in audio and speech research where integrity is crucial, especially concerning data validation.",
+    "field": "Applications-Healthcare",
+    "background": "This paper addresses the growing issue of fraudulent biomedical articles by introducing a large language model-based system specifically designed to detect such articles and provide explanations for predictions.",
+    "contribution": "Pub-Guard-LLM introduces three distinct reasoning modes for fraud detection, achieving superior performance and more reliable explanations than existing baselines.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on heuristic approaches and lacked significant explainability.",
+        "novelty": "This work improves by providing a robust language model that incorporates external knowledge and produces interpretable explanations for its predictions."
+    },
+    "key_innovation": "Integrates a large language model with external metadata and utilizes various application modes that enhance detection performance and explanation reliability.",
+    "real_world_impact": "This framework could significantly enhance the integrity of biomedical publications, thus protecting public health and improving clinical decision-making by flagging fraudulent research.",
+    "limitations": "The system's reliance on specific metadata may introduce biases, and the user study had a limited participant pool.",
+    "new_terms": {
+        "PubMed Retraction": "**PubMed Retraction** is a dataset that encompasses real-world biomedical articles, including metadata and labels for fraudulent and legitimate works.",
+        "Vanilla Reasoning": "**Vanilla Reasoning** refers to the method of reasoning where predictions are made based solely on the input data without any additional context or examples."
+    },
+    "open_sourcing": "https://github.com/tigerchen52/pub_guard_llm"
+}

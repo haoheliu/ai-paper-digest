@@ -1,0 +1,22 @@
+{
+    "title": "Single-pass Detection of Jailbreaking Input in Large Language Models",
+    "author": "Leyla Naz Candogan (\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne), Yongtao Wu (\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne), Elias Abad Rocamora (\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne), Grigorios G. Chrysos (University of Wisconsin-Madison), Volkan Cevher (\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on efficient detection of adversarial input methods could contribute valuable insights into safeguarding models which are pertinent to generative audio tasks and trustworthiness in model interactions.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Detecting harmful inputs in large language models involves identifying adversarial prompts designed to elicit illegal or deleterious responses from the models.",
+    "contribution": "This paper introduces Single Pass Detection (SPD) to solve the problem of detecting jailbreaking attacks with just one forward pass, achieving both efficiency and high detection rates.",
+    "technical_comparison": {
+        "prior_work": "Previous detection methods often require multiple model passes or auxiliary models, leading to significant computational overhead.",
+        "novelty": "This work improves by utilizing logit distribution differences effectively in a single inference pass, enabling real-time detection."
+    },
+    "key_innovation": "The method leverages output logits to identify jailbreaking attempts by recognizing unusual patterns in response distributions without needing additional computational resources.",
+    "real_world_impact": "Enhances the robustness of language models against adversarial attacks, making them safer for real-world applications such as chatbots and virtual assistants. This could lead to increased trust in AI-driven systems.",
+    "limitations": "The method's effectiveness is dependent on access to logit information, which may not be available in proprietary systems.",
+    "new_terms": {
+        "jailbreaking": "**Jailbreaking** refers to techniques used to bypass restrictions in AI models that prevent harmful or unwanted content generation.",
+        "logit": "**Logit** is the logarithm of the odds, often used in machine learning to represent the probability of a certain outcome."
+    },
+    "open_sourcing": "Code and data available at https://github.com/LIONS-EPFL/SPD"
+}

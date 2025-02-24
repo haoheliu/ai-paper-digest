@@ -1,0 +1,22 @@
+{
+    "title": "LAVID: An Agentic LVLM Framework for Diffusion-Generated Video Detection",
+    "author": "Qingyuan Liu (Columbia University), Yun-Yun Tsai (Columbia University), Ruijian Zha (Columbia University), Victoria Li (Columbia University), Pengyuan Shi (Columbia University), Chengzhi Mao (Rutgers University), Junfeng Yang (Columbia University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed framework utilizes large vision-language models (LVLMs) for video detection, which could inform techniques for audio-visual synchronization and generative tasks in audio.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Detecting AI-generated videos by analyzing both visual and textual information combined with explicit knowledge tools to overcome limitations of traditional detection methods.",
+    "contribution": "LAVID introduces a novel framework that enhances video detection using large vision-language models by leveraging explicit knowledge and structured prompts, achieving notable improvements in detection accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on deep neural networks with supervised training that lacked generalization capabilities for unseen video artifacts.",
+        "novelty": "This work bypasses the need for extensive training by making use of LVLMs and an adaptive toolkit selection process."
+    },
+    "key_innovation": "The framework incorporates a self-rewriting structured prompt mechanism that adjusts based on real-time feedback, aiding in decision-making during detection tasks.",
+    "real_world_impact": "This approach enhances digital media integrity by providing tools to detect and flag manipulated videos, thereby addressing issues of misinformation and digital privacy threats.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "LVLM": "**Large Vision-Language Models (LVLMs)** are AI models designed to integrate and understand both visual and textual data, empowering complex tasks across multiple modalities.",
+        "explicit knowledge tools": "**Explicit knowledge tools** refer to supplementary information extraction tools that enhance the detection capabilities of AI models by providing relevant features from the input data."
+    },
+    "open_sourcing": ""
+}

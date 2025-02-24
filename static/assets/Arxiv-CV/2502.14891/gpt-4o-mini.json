@@ -1,0 +1,19 @@
+{
+    "title": "CoDiff: Conditional Diffusion Model for Collaborative 3D Object Detection",
+    "author": "Zhe Huang (Renmin University of China), Shuo Wang (Renmin University of China), Yongcai Wang (Renmin University of China), Deying Li (Renmin University of China), Lei Wang (University of Wollongong)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper employs diffusion models, which could inspire novel approaches in audio modeling tasks where signal denoising and feature fusion are concerned.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Collaborative 3D object detection involves multiple agents working together to improve detection accuracy, while managing challenges like pose errors and time delays.",
+    "contribution": "CoDiff introduces a conditional diffusion model to address the noise problem in collaborative perception systems, achieving improved robustness under noisy conditions.",
+    "technical_comparison": "Previous methods struggled to jointly handle pose errors and time delays, leading to noisy feature representations. This work improves by utilizing diffusion models to combine features from multiple agents in a shared latent space, effectively denoising the inputs.",
+    "key_innovation": "The integration of diffusion models in a multi-agent environment for 3D object detection is a novel concept, allowing for enhanced noise handling during feature fusion.",
+    "real_world_impact": "If successfully implemented, CoDiff could lead to better 3D object detection for autonomous vehicles, improving safety and reliability in real-world scenarios.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "conditional diffusion model": "**Conditional diffusion model** refers to a type of generative model that uses external conditions to guide the generation process, effectively learning and refining noisy inputs based on contextual information.",
+        "collaborative perception": "**Collaborative perception** refers to the process where multiple agents share their observations or computations to achieve more accurate perception results than they could independently."
+    },
+    "open_sourcing": "The authors mentioned that the code will be released."
+}

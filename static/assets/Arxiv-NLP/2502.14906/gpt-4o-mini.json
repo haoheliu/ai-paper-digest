@@ -1,0 +1,22 @@
+{
+    "title": "Beyond Words: Exploring Cultural Value Sensitivity in Multimodal Models",
+    "author": "Srishti Yadav (Dept. of Computer Science, University of Copenhagen), Zhi Zhang (ILLC, University of Amsterdam), Daniel Hershcovich (Dept. of Computer Science, University of Copenhagen), Ekaterina Shutova (ILLC, University of Amsterdam)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The exploration of cultural sensitivity in multimodal models may inform the development of audio-visual integration techniques in Haohe Liu's work, particularly in generative audio contexts.",
+    "field": "Applications-Creative AI",
+    "background": "Evaluating how well multimodal models align with cultural values using image prompts, revealing their sensitivity to cultural context within generated content.",
+    "contribution": "This paper introduces a framework to assess cultural value alignment in multimodal models using image prompts to inform responses based on the represented culture.",
+    "technical_comparison": {
+        "prior_work": "Previous models primarily focused on linguistic or single-modal cultural understanding without integrating visual context effectively.",
+        "novelty": "This work enhances the approach by utilizing images as cultural proxies and comparing alignment across various multimodal model sizes."
+    },
+    "key_innovation": "The integration of image-based cultural cues alongside textual prompts increases the models' nuanced understanding of diverse cultural values.",
+    "real_world_impact": "Improving cultural alignment in AI can enhance user experiences in content creation and representation across diverse demographics, making AI applications more inclusive.",
+    "limitations": "The paper acknowledges limitations in dataset size and the challenge of capturing the full complexity of cultural representation.",
+    "new_terms": {
+        "multimodal models": "**Multimodal models** refer to AI systems that integrate and analyze information from multiple sources or modes, such as images and text, to enhance interpretative and generative capabilities.",
+        "cultural sensitivity": "**Cultural sensitivity** involves awareness and understanding of cultural differences and values, which is crucial for fair and effective AI interactions."
+    },
+    "open_sourcing": ""
+}

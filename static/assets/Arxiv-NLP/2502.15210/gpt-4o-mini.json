@@ -1,0 +1,22 @@
+{
+    "title": "PAIRBENCH: A Systematic Framework for Selecting Reliable Judge VLMs",
+    "author": "Aarash Feizi (ServiceNow Research), Sai Rajeswar (ServiceNow Research), Adriana Romero-Soriano (McGill University), Reihaneh Rabbany (McGill University), Spandana Gella (ServiceNow Research), Valentina Zantedeschi (ServiceNow Research), Joao Monteiro (AutoDesk), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed framework PAIRBENCH is relevant as it provides systematic evaluation metrics for vision-language models (VLMs) that could be applicable to analyzing a range of data modalities including audio and speech through their multimodal capabilities.",
+    "field": "Evaluation-Methodology",
+    "background": "Assessing the reliability of vision-language models as evaluators across various tasks and datasets to determine their capability in scoring similarity between data pairs.",
+    "contribution": "This paper introduces PAIRBENCH, a low-cost framework to evaluate the reliability of vision-language models, achieving systematic ranking of these models on various similarity metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for evaluating model performance often relied on expensive human annotations or standard benchmarks, lacking control and customization.",
+        "novelty": "This work improves by providing a customizable framework that evaluates multiple metrics (MMScore, \u03b5-RelaxSym, Smoothness, Controllability) to ascertain VLMs' capabilities."
+    },
+    "key_innovation": "The creation of synthetic datasets with controlled features, alongside metrics that assess the symmetry and reliability of similarity judgments.",
+    "real_world_impact": "The framework can enhance the selection and application of VLMs in real-world scenarios, improving accuracy in automatic evaluation tasks across various industries.",
+    "limitations": "No explicit limitations are mentioned, but potential biases in VLMs may still affect their performance despite evaluation.",
+    "new_terms": {
+        "vision-language models (VLMs)": "**Vision-language models (VLMs)** are AI systems designed to understand and generate content that combines both visual and textual information.",
+        "\u03b5-RelaxSym": "**\u03b5-RelaxSym** is a metric introduced to measure the symmetry of similarity scores produced by models, allowing for a margin of error to assess model performance effectively."
+    },
+    "open_sourcing": "The four datasets created by PAIRBENCH are available for public use."
+}

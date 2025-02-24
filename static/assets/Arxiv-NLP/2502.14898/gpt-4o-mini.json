@@ -1,0 +1,22 @@
+{
+    "title": "Retrieval-augmented systems can be dangerous medical communicators",
+    "author": "Lionel Wong (MIT CSAIL), Ayman Ali (Stanford University), Raymond Xiong (Duke University), Shannon Zejiang Shen (MIT CSAIL), Yoon Kim (MIT CSAIL), Monica Agrawal (Duke University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The concepts discussed around retrieval-augmented generation and patient communication frameworks could be applied to enhance audio generation by improving how systems communicate technical results to users, particularly in healthcare contexts.",
+    "field": "Applications-Healthcare",
+    "background": "Analyzing the accuracy and clarity of AI-generated health information provided to patients through retrieval-augmented generation systems.",
+    "contribution": "This paper introduces a critical framework for understanding how retrieval-augmented systems can mislead patients despite returning factually accurate information, achieving greater insights into the implications of AI communication.",
+    "technical_comparison": {
+        "prior_work": "Previous works have focused on improving factual accuracy and grounding in AI responses, often overlooking the nuances of human communication and interpretation.",
+        "novelty": "This work emphasizes the need for systems to consider the intent behind queries and the potential downstream effects of their responses, marking a departure from merely focusing on accuracy."
+    },
+    "key_innovation": "Proposes a model for medical communicators that incorporates human-like reasoning about intentions, context, and consequences, enhancing the effectiveness of AI-generated responses.",
+    "real_world_impact": "The findings could significantly enhance the way patients receive and interpret medical information, ultimately improving patient decision-making and outcomes.",
+    "limitations": "No direct experiments or user studies were presented to validate the proposed communication model.",
+    "new_terms": {
+        "retrieval-augmented generation": "**Retrieval-augmented generation** refers to AI systems that enhance their output by retrieving and integrating information from external sources instead of generating all content solely from trained data.",
+        "pragmatic reasoning": "**Pragmatic reasoning** is the ability to understand the intended meaning behind a statement, considering factors such as context and social norms."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Do Multilingual Large Language Models Think In English?",
+    "author": "Lisa Schut (University of Oxford), Yarin Gal (University of Oxford), Sebastian Farquhar (Google DeepMind), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The exploration of language representation in LLMs is crucial for improving multilingual audio applications, particularly in understanding how these models process different languages, which is relevant for audio-language alignment tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This study investigates whether multilingual large language models primarily make semantic decisions in English when processing inputs from multiple languages.",
+    "contribution": "This paper introduces an analysis of multilingual LLMs to demonstrate that they predominantly operate in an English-centric representation space, which impacts their multilingual reasoning capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on single-token contexts and found some language-agnostic traits in model representation.",
+        "novelty": "This work expands to open-ended multi-token generation, showing that key decision-making occurs in English irrespective of input language."
+    },
+    "key_innovation": "Uses novel interpretability techniques such as the logit lens and causal tracing to reveal that models process lexical words through an English-focused representation before translating to other languages.",
+    "real_world_impact": "Understanding the English-centric bias can lead to better training methodologies to create more reliable and fair multilingual models, which is crucial for applications serving diverse linguistic populations.",
+    "limitations": "The authors acknowledge that tokenization differences across languages complicate cross-lingual comparisons.",
+    "new_terms": {
+        "logit lens": "**Logit lens** is a method for interpreting language model decisions by decoding internal representations into token outputs.",
+        "causal tracing": "**Causal tracing** is a technique used to identify where specific facts are stored within a neural network by analyzing the influence of internal states."
+    },
+    "open_sourcing": ""
+}

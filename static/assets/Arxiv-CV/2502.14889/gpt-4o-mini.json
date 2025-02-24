@@ -1,0 +1,21 @@
+{
+    "title": "Narrowing Information Bottleneck Theory for Multimodal Image-Text Representations Interpretability",
+    "author": "Zhiyu Zhu (University of Technology Sydney), Zhibo Jin (University of Technology Sydney), Jiayu Zhang (SuZhouYierqi), Nan Yang (University of Sydney), Jiahao Huang (University of Sydney), Jianlong Zhou (University of Technology Sydney), Fang Chen (University of Technology Sydney), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method enhances model interpretability, crucial for applications in audio, speech, and complex multimodal settings, which could inform future audio-language model development.",
+    "field": "Social and Economic Aspects of ML-Interpretability",
+    "background": "Improving interpretability in multimodal models that associate images and text, particularly focusing on models like CLIP, which is essential for applications where understanding model decisions is critical.",
+    "contribution": "This paper introduces the Narrowing Information Bottleneck Theory to enhance multimodal interpretability without requiring additional samples, achieving improved interpretability metrics compared to current best practices.",
+    "technical_comparison": {
+        "prior_work": "Prior methods like M2IB and RISE struggle with randomness and require additional samples, leading to biased results.",
+        "novelty": "This work enables deterministic interpretability through a redefined information bottleneck approach free from sampling randomness."
+    },
+    "key_innovation": "Elimination of random sampling and hyperparameter dependency improves the consistency and reliability of interpretability outputs for multimodal models.",
+    "real_world_impact": "The method promises greater transparency for AI applications across sensitive areas like healthcare, potentially fostering trust and wider acceptance of AI systems.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Narrowing Information Bottleneck Theory": "**Narrowing Information Bottleneck Theory** is a framework designed to refine the interpretability of machine learning models by controlling information flow without introducing randomness."
+    },
+    "open_sourcing": "Our code is publicly accessible at https://github.com/LMBTough/NIB"
+}

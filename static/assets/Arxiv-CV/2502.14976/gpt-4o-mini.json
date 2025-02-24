@@ -1,0 +1,22 @@
+{
+    "title": "EigenShield: Causal Subspace Filtering via Random Matrix Theory for Adversarially Robust Vision-Language Models",
+    "author": "Nastaran Darabi (University of Illinois at Chicago), Devashri Naik (University of Illinois at Chicago), Sina Tayebati (University of Illinois at Chicago), Dinithi Jayasuriya (University of Illinois at Chicago), Ranganath Krishnan (Intel Labs), Amit Ranjan Trivedi (University of Illinois at Chicago)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The use of Random Matrix Theory to assess high-dimensional data structures could inform audio data handling through advanced statistical methods, beneficial in my audio manipulation and enhancement tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Enhancing Vision-Language Models (VLMs) defense mechanisms to counteract adversarial attacks that manipulate inputs, potentially leading to harmful outputs.",
+    "contribution": "EigenShield introduces a new defense mechanism based on Random Matrix Theory to identify and filter out adversarial noise in VLMs, demonstrating superior robustness compared to existing approaches.",
+    "technical_comparison": {
+        "prior_work": "Current defenses often involve computationally expensive processes, rely on empirical heuristics, or require model retraining, which can reduce effectiveness and efficiency.",
+        "novelty": "EigenShield leverages a theoretical framework to analyze spectral properties of model inputs, enabling effective filtering without needing to modify model architecture or undergo retraining."
+    },
+    "key_innovation": "Utilizes the spiked covariance model to separate meaningful signal from adversarial noise, significantly improving model robustness in real-time inference.",
+    "real_world_impact": "This approach could enhance the safety and reliability of VLMs in practical applications, particularly in sensitive domains where output misalignment can have serious consequences.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Random Matrix Theory": "**Random Matrix Theory (RMT)** is a field of mathematics that studies the properties of matrices with random elements, particularly their eigenvalues and eigenvectors, which can reveal underlying structures in high-dimensional data.",
+        "spiked covariance model": "**Spiked covariance model** is a statistical model used in high-dimensional data analysis that assumes the covariance can be decomposed into a low-rank signal component and a noise component, aiding in the detection of featured patterns."
+    },
+    "open_sourcing": ""
+}

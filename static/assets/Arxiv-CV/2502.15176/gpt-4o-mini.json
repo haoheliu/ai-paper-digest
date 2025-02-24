@@ -1,0 +1,22 @@
+{
+    "title": "Methods and Trends in Detecting Generated Images: A Comprehensive Review",
+    "author": "Arpan Mahara (Knight Foundation School of Computing and Information Sciences, Florida International University), Naphtali Rishe (Knight Foundation School of Computing and Information Sciences, Florida International University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques for detecting synthetic images could be adapted for applications like audio-image alignment and other cross-modal generative tasks in Haohe Liu's research.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Detecting artificially generated images from various advanced generative models to mitigate risks associated with misinformation and societal harm.",
+    "contribution": "This paper introduces a comprehensive review of detection methodologies for AI-generated images, categorizing them and summarizing their advancements and limitations.",
+    "technical_comparison": {
+        "prior_work": "Previous reviews mainly focused on deepfake detection without thoroughly covering recent synthetic image detection methods or multimodal platforms.",
+        "novelty": "This work systematically analyzes and categorizes new detection techniques beyond deepfakes, including multimodal approaches for cross-analysis."
+    },
+    "key_innovation": "The survey not only reviews existing methodologies but also identifies commonalities among approaches and categorizes them into meaningful groups, providing references for future research.",
+    "real_world_impact": "As AI-generated content becomes ubiquitous, understanding and developing effective detection methods will contribute to enhancing data authenticity and security in various industries.",
+    "limitations": "The survey lacks empirical evaluation of specific methodologies, focusing instead on the categorization and theoretical insights.",
+    "new_terms": {
+        "Generative Adversarial Networks": "**Generative Adversarial Networks (GANs)** are a class of machine learning frameworks in which two neural networks, a generator and a discriminator, contest with each other to improve the quality of synthetic data generation.",
+        "Diffusion Models": "**Diffusion Models** are a type of generative model that progressively transforms Gaussian noise into structured data, often achieving high-quality results in various tasks including image generation."
+    },
+    "open_sourcing": ""
+}

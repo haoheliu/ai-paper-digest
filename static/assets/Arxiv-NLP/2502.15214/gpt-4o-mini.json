@@ -1,0 +1,22 @@
+{
+    "title": "The Evolving Landscape of LLM- and VLM-Integrated Reinforcement Learning",
+    "author": "Sheila Schoepp (University of Alberta), Masoud Jafaripour (University of Alberta), Yingyue Cao (University of Alberta), Tianpei Yang (Nanjing University), Fatemeh Abdollahi (University of Alberta), Shadan Golestan (Alberta Machine Intelligence Institute), Zahin Sufiyan (University of Alberta), Osmar R. Zaiane (Alberta Machine Intelligence Institute), Matthew E. Taylor (University of Alberta)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The integration of Large Language Models (LLMs) and Vision-Language Models (VLMs) into Reinforcement Learning (RL) could provide new techniques for task planning and execution in audio and speech applications, enhancing understanding and output quality in multimodal settings.",
+    "field": "Reinforcement Learning-Decision and Control",
+    "background": "Integrating LLMs and VLMs into Reinforcement Learning frameworks to enhance agents' decision-making capabilities by utilizing multimodal understanding.",
+    "contribution": "This survey introduces a taxonomy categorizing the roles of LLMs and VLMs in RL into three key areas: as Agent, Planner, and Reward, addressing significant challenges in RL such as insufficient prior knowledge and long-horizon planning.",
+    "technical_comparison": {
+        "prior_work": "Previous studies have separately focused on LLMs or VLMs in RL without a unified framework.",
+        "novelty": "This work provides a comprehensive categorization of methodologies and identifies future research directions incorporating advances in language and vision models."
+    },
+    "key_innovation": "Establishes a structured framework that categorizes and reviews the integration of multimodal models into RL, highlighting their potential to enhance agent capabilities and planning efficiency.",
+    "real_world_impact": "By advancing the understanding of how to effectively harness LLMs and VLMs in RL, this work could lead to more competent and adaptable AI agents, impacting various applications in robotics, natural language interaction, and complex decision-making scenarios.",
+    "limitations": "The survey highlights areas for improvement such as grounding, bias mitigation, and representation issues, but does not delve into specific empirical evaluations of the discussed methods.",
+    "new_terms": {
+        "taxonomy": "**Taxonomy** refers to a classification system that organizes concepts or items into categories based on shared characteristics.",
+        "grounding": "**Grounding** involves the process of linking high-level abstract concepts (like language) to real-world representations or actions to ensure meaningful interactions."
+    },
+    "open_sourcing": ""
+}

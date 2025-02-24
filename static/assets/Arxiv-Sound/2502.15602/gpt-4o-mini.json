@@ -1,0 +1,22 @@
+{
+    "title": "KAD: No More FAD! An Effective and Efficient Evaluation Metric for Audio Generation",
+    "author": "Yoonjin Chung (Gaudio Lab Inc.), Pilsun Eu (Gaudio Lab Inc.), Junwon Lee (KAIST), Keunwoo Choi (Gaudio Lab Inc.), Juhan Nam (KAIST), Ben Sangbae Chon (Gaudio Lab Inc.)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The proposed Kernel Audio Distance (KAD) directly addresses the need for robust evaluation metrics in audio generation, a domain closely aligned with Haohe Liu's research in text-to-audio generation and audio quality enhancement.",
+    "field": "Evaluation-Methodology",
+    "background": "Evaluating the effectiveness of generative audio models requires a reliable and efficient metric that accurately reflects audio quality without making strong statistical assumptions.",
+    "contribution": "This paper introduces KAD, a distribution-free metric based on Maximum Mean Discrepancy (MMD) to solve the shortcomings of the Fr\u00e9chet Audio Distance (FAD), achieving better alignment with human perceptual judgments.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like FAD are biased and limited by Gaussian assumptions, requiring large sample sizes for reliability.",
+        "novelty": "This work improves by providing an unbiased metric with lower computational complexity and faster convergence, even at smaller sample sizes."
+    },
+    "key_innovation": "KAD's dependence on a distribution-free method allows it to capture subtle differences in audio quality without biased results.",
+    "real_world_impact": "By enhancing the evaluation of generative audio models, KAD can facilitate better model development in diverse applications like virtual environments and content creation.",
+    "limitations": "No.",
+    "new_terms": {
+        "Kernel Audio Distance (KAD)": "**Kernel Audio Distance (KAD)** is a metric for evaluating audio quality that leverages the Maximum Mean Discrepancy (MMD) to avoid assumptions about the data distribution.",
+        "Maximum Mean Discrepancy (MMD)": "**Maximum Mean Discrepancy (MMD)** is a statistical measure used to determine the distance between two probability distributions based on their embeddings in a kernel-induced feature space."
+    },
+    "open_sourcing": "KAD has been open-sourced in the kadtk toolkit."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Generalizing From Short to Long: Effective Data Synthesis for Long-Context Instruction Tuning",
+    "author": "Wenhao Zhu (National Key Laboratory for Novel Software Technology, Nanjing University), Pinzhen Chen (School of Informatics, University of Edinburgh), Hanxu Hu (University of Zurich), Shujian Huang (National Key Laboratory for Novel Software Technology, Nanjing University), Fei Yuan (Shanghai Artificial Intelligence Laboratory), Jiajun Chen (National Key Laboratory for Novel Software Technology, Nanjing University), Alexandra Birch (School of Informatics, University of Edinburgh)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses instruction tuning, which is pertinent to Haohe's research on generative audio techniques, particularly in enhancing the context modeling aspect of audio generation.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This paper explores how to effectively synthesize context to enhance language models' performance in long-context tasks like document-level question answering and summarization.",
+    "contribution": "This paper introduces *context synthesis* to solve the challenge of creating effective long-context training data, achieving improved performance on document-level tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods have focused on synthesizing instruction-answer pairs without adequately considering context quality and complexity.",
+        "novelty": "This work improves by generating context tailored to enhance instruction quality and relevance, promoting better generalization to longer contexts."
+    },
+    "key_innovation": "The method leverages existing instruction-answer pairs to generate coherent background context, thus improving instruction-context alignment.",
+    "real_world_impact": "By providing an effective framework for synthesizing long-context instruction data, this approach can enhance the capabilities of language models in various practical applications, including audio generation tasks.",
+    "limitations": "The study emphasizes the necessity of high-quality instruction data, but does not address the potential biases in the generated instructions.",
+    "new_terms": {
+        "context synthesis": "**Context synthesis** refers to a novel data generation technique where background context is created to align with existing instruction-answer pairs, enhancing task performance in long-context scenarios."
+    },
+    "open_sourcing": "The project will be available at: https://github.com/NJUNLP/context-synthesis"
+}

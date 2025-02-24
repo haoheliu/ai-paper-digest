@@ -1,0 +1,22 @@
+{
+    "title": "Lung-DDPM: Semantic Layout-guided Diffusion Models for Thoracic CT Image Synthesis",
+    "author": "Yifan Jiang (Centre de recherche du CHU de Quebec-Universit\u00e9 Laval), Yannick Lemarechal (Quebec Heart & Lung Institute Research Center), Jos\u00e9e Bafaro (Quebec Heart & Lung Institute Research Center), Jessica Abi-Rjeile (Quebec Heart & Lung Institute Research Center), Philippe Joubert (Quebec Heart & Lung Institute Research Center), Philippe Despr\u00e9s (Quebec Heart & Lung Institute Research Center), Venkata Manem (Centre de recherche du CHU de Quebec-Universit\u00e9 Laval)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Generating high-fidelity synthetic thoracic computed tomography (CT) images using diffusion models guided by anatomical layouts to improve lung nodule segmentation.",
+    "contribution": "This paper introduces Lung-DDPM, a diffusion model-based approach that generates realistic synthetic thoracic CT images informed by anatomical layouts to enhance the performance of lung nodule segmentation tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods faced challenges with anatomical imprecision, imperfect blending of lung and extra-pulmonary areas, and inconsistencies between adjacent slices.",
+        "novelty": "Lung-DDPM uses an anatomically aware sampling process to blend reference images seamlessly, improving anatomical fidelity and consistency across slices."
+    },
+    "key_innovation": "The method dynamically blends synthetic and reference images during the image generation process, ensuring high-quality results that maintain anatomical accuracy.",
+    "real_world_impact": "Enhances data availability for training deep learning models in medical imaging, which can potentially improve lung cancer detection rates and patient outcomes.",
+    "limitations": "The method relies on having accurate simple lung nodule annotations, which may still require manual input or advanced pre-processing techniques.",
+    "new_terms": {
+        "Denoising Diffusion Probabilistic Models (DDPM)": "**Denoising diffusion probabilistic models** are a class of generative models that iteratively refine noise into data while maintaining probabilistic properties, allowing for high-quality image generation.",
+        "Frechet Inception Distance (FID)": "**Frechet Inception Distance** is a metric used to assess the quality of synthetic images by comparing the distribution of features derived from real and generated images."
+    },
+    "open_sourcing": "The code and pretrained models are available at https://github.com/Manem-Lab/Lung-DDPM/"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Advancing User-Voice Interaction: Exploring Emotion-Aware Voice Assistants Through a Role-Swapping Approach",
+    "author": "Yong Ma (University of Bergen), Yuchong Zhang (KTH Royal Institute of Technology), Di Fu (University of Surrey), Stephanie Zubicueta Portales (Chalmers University of Technology), Danica Kragic (KTH Royal Institute of Technology), Morten Fjeld (University of Bergen, Norwegian University of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The study explores emotion-aware voice assistants, which aligns with Dr. Liu's focus on audio and speech processing. Insights from human emotional regulation could inform the design of more adaptive audio systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating how users respond to emotional cues from voice assistants to develop systems that can better recognize and respond to human emotions.",
+    "contribution": "[The paper] introduces a role-swapping approach to user interactions with voice assistants, achieving insights into emotional regulation and improving interactions through contextual understanding.",
+    "technical_comparison": {
+        "prior_work": "Previous works have primarily focused on voice assistants responding to human emotions without deeply understanding how users regulate AI emotions.",
+        "novelty": "This study reverses roles, allowing users to regulate the assistant's emotions, providing new insights into emotional responding strategies."
+    },
+    "key_innovation": "The role-swapping approach allows for a more user-centered study on emotional responses, contributing to the development of more empathetic voice assistants.",
+    "real_world_impact": "The findings will enhance the design of emotionally aware voice assistants, improving user trust and engagement in human-AI interactions.",
+    "limitations": "The study does not detail the long-term effectiveness of the emotional strategies on diverse user demographics.",
+    "new_terms": {
+        "role-swapping": "**Role-swapping** refers to an approach where traditional roles are reversed\u2014in this context, users actively regulate the emotional expressions of AI systems."
+    },
+    "open_sourcing": ""
+}

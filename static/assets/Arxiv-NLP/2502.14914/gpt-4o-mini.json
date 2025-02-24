@@ -1,0 +1,21 @@
+{
+    "title": "What Is a Good Caption? A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Coverage of MLLMs",
+    "author": "Zhihang Liu (University of Science and Technology of China), Chen-Wei Xie (Alibaba Group), Bin Wen (Alibaba Group), Feiwu Yu (Alibaba Group), Jixuan Chen (Alibaba Group), Boqiang Zhang (University of Science and Technology of China), Nianzu Yang (Shanghai Jiao Tong University), Hongtao Xie (University of Science and Technology of China)",
+    "quality": 7,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Evaluation-Methodology",
+    "background": "Visual captioning aims to translate visual content into comprehensive textual descriptions, evaluated through metrics that consider both accuracy and coverage of generated captions.",
+    "contribution": "This paper introduces CV-CapBench to systematically evaluate visual captioning quality across 6 views and 13 dimensions, achieving a detailed assessment of Multimodal Large Language Models' (MLLMs) capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on short descriptions and simplistic accuracy metrics, often leading to vague evaluations.",
+        "novelty": "This work implements a multifaceted evaluation framework utilizing precision, recall, and hit rate metrics to assess both the correctness and the coverage of visual captions."
+    },
+    "key_innovation": "The benchmark's structured approach encompassing static and dynamic dimensions allows for a more comprehensive evaluation of captioning models than prior methods.",
+    "real_world_impact": "This framework can significantly influence the development of MLLMs, guiding improvements in generating more accurate and detailed captions in applications such as visual storytelling and multimedia search functionalities.",
+    "limitations": "While extensive, the benchmark may still overlook certain visual elements, and its effectiveness relies on the interpretability of evaluation metrics.",
+    "new_terms": {
+        "Multimodal Large Language Models (MLLMs)": "**Multimodal Large Language Models (MLLMs)** are advanced AI systems designed to process and integrate information from multiple modalities, such as text, images, and videos, to perform tasks like captioning and reasoning."
+    },
+    "open_sourcing": "The code and data will be released."
+}

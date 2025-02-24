@@ -1,0 +1,23 @@
+{
+    "title": "KOALA: Knowledge Conflict Augmentations for Robustness in Vision Language Models",
+    "author": "Peter Carragher (Carnegie Mellon University), Nikitha Rao (Carnegie Mellon University), Abhinand Jha (Carnegie Mellon University), R Raghav (Carnegie Mellon University), Kathleen M. Carley (Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The framework introduced for augmenting VQA datasets with knowledge conflicts could inspire similar methods for enhancing robustness in audio processing tasks, particularly in the context of model training under diverse input conditions.",
+    "field": "Applications-Vision",
+    "background": "Visual Question Answering (VQA) task requires a model to generate answers based on content in images and related textual input, now challenged by conflicting knowledge from various sources.",
+    "contribution": "This paper introduces the KOALA framework to solve the issue of knowledge conflicts in Vision Language Models (VLMs), achieving enhanced robustness against parametric, source, and counterfactual conflicts in VQA systems.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for addressing knowledge conflicts in unimodal question answering focused solely on text-based perturbations and did not explore multimodal settings.",
+        "novelty": "This work applies targeted image perturbations and quality checks to augment existing VQA datasets, enabling an examination of model responses to varying image-related knowledge conflicts."
+    },
+    "key_innovation": "Generates diverse forms of knowledge conflict by manipulating image properties, thereby enriching training datasets and improving model reasoning capabilities.",
+    "real_world_impact": "Enhancing robustness in VLMs could significantly improve applications involving visual understanding and decision-making, such as robotics, autonomous vehicles, and interactive AI assistants.",
+    "limitations": "The methods require manual quality checks which might introduce additional biases, and there are inherent limitations in the generative approaches used for image perturbation.",
+    "new_terms": {
+        "knowledge conflicts": "**Knowledge conflicts** refer to situations where conflicting information exists between different sources, such as a model's learned information and external data inputs.",
+        "parametric conflicts": "**Parametric conflicts** arise when the encoded parametric knowledge of a model clashes with incoming data, requiring models to adapt dynamically.",
+        "counterfactual conflicts": "**Counterfactual conflicts** are scenarios where critical information is intentionally omitted or altered, making standard responses unfeasible."
+    },
+    "open_sourcing": "https://github.com/CASOS-IDeaS-CMU/KOALA"
+}

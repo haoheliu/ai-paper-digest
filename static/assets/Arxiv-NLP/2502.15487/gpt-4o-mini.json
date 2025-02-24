@@ -1,0 +1,22 @@
+{
+    "title": "ExpliCa: Evaluating Explicit Causal Reasoning in Large Language Models",
+    "author": "Martina Miliani (University of Pisa), Serena Auriemma (University of Pisa), Alessandro Bondielli (University of Pisa), Emmanuele Chersoni (Hong Kong Polytechnic University), Lucia C. Passaro (University of Pisa), Irene Sucameli, Alessandro Lenci (University of Pisa)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores causal reasoning in large language models (LLMs), which is relevant for enhancing the AI's understanding in various applications, including audio and speech, where logical reasoning about events is crucial.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper evaluates how well large language models can understand cause-and-effect relationships through a new dataset designed for this purpose.",
+    "contribution": "ExpliCa introduces a dataset that combines causal and temporal relations to assess LLMs' reasoning capabilities, achieving insights into models' performance and limitations.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets primarily focused on either implicit causality or lacked clear temporal dimensions.",
+        "novelty": "This work uniquely integrates causal and temporal relationships with explicit linguistic markers, allowing for a thorough evaluation of models\u2019 reasoning."
+    },
+    "key_innovation": "The dataset is crowdsourced with human acceptability ratings, presenting a novel approach to assessing LLMs' causal reasoning abilities.",
+    "real_world_impact": "The findings could enhance the design of LLMs for real-world applications requiring reasoning, such as in the domains of interactive AI systems and automated reasoning tasks.",
+    "limitations": "The dataset includes only English sentences, limiting its applicability to other languages.",
+    "new_terms": {
+        "pairwise causal discovery": "**Pairwise causal discovery** refers to the task of inferring causal relationships between two events based on provided data.",
+        "iconic order": "**Iconic order** means that the order of events corresponds to their causal or temporal sequence, i.e., the cause comes before the effect."
+    },
+    "open_sourcing": "The dataset and code are available at: https://anonymous.4open.science/r/ExpliCa-6473/"
+}

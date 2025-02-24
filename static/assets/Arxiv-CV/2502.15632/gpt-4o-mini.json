@@ -1,0 +1,21 @@
+{
+    "title": "Continual Person Identification using Footstep-Induced Floor Vibrations on Heterogeneous Floor Structures",
+    "author": "Yiwen Dong (Stanford University), Hae Young Noh (Stanford University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents a novel method for person identification using structural vibrations, which aligns with the audio and sound processing aspects of Haohe Liu's research. The techniques for analyzing and transforming vibration data could be applicable to audio signal processing tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on identifying individuals based on the vibrations produced by their footsteps, using a system that learns over time without needing extensive pre-collected data.",
+    "contribution": "This paper introduces a feature transformation approach to reduce variability in footstep-induced vibrations, achieving a 90% accuracy in online person identification.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on pre-collected datasets for person identification, which are impractical in dynamic environments with new visitors.",
+        "novelty": "This work significantly improves upon those approaches by using vibration sensing that requires fewer sensors and is more privacy-friendly, achieving effective online learning through a novel representation of the vibration data."
+    },
+    "key_innovation": "Develops a new feature transformation function to minimize the influence of structural variability and enhance the distinction between individuals' data.",
+    "real_world_impact": "The method has potential applications in smart buildings for personalized services, enabling effective monitoring and management in environments frequently visited by new individuals.",
+    "limitations": "The study's scope is limited to specific building types and may not generalize across all architectural layouts and materials.",
+    "new_terms": {
+        "Dirichlet Process": "**Dirichlet Process** is a method in Bayesian nonparametric statistics that helps model data distributions without assuming a fixed number of components."
+    },
+    "open_sourcing": ""
+}

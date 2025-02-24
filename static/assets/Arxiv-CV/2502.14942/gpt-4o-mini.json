@@ -1,0 +1,22 @@
+{
+    "title": "DESIGN OF A VISUAL POSE ESTIMATION ALGORITHM FOR MOON LANDING",
+    "author": "Atakan S\u00dcSL\u00dc (Department of Aerospace Engineering, Middle East Technical University), Bet\u00fcl Rana KURAN (Department of Aerospace Engineering, Middle East Technical University), Halil Ersin S\u00d6KEN (Department of Aerospace Engineering, Middle East Technical University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The algorithm for pose estimation could inspire similar methods in audio or multimodal contexts, particularly in navigation and identification tasks relevant to audio features extraction.",
+    "field": "Applications-Vision",
+    "background": "Estimating the position and orientation of a spacecraft during its landing process on the Moon using visual data from craters observed by its onboard camera.",
+    "contribution": "This paper introduces a terrain absolute navigation method utilizing crater data to solve the challenge of accurate pose estimation for lunar landings, achieving significant estimation accuracy based on crater visibility.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on inertial measurements which accumulate error over time and may not provide accurate position data alone.",
+        "novelty": "This work integrates visual data from craters, thus providing an absolute reference that can correct inertial sensor drift."
+    },
+    "key_innovation": "The unique application of crater positions for pose estimation during lunar landing missions, leveraging nonlinear least squares and QUEST methods.",
+    "real_world_impact": "Enhances the safety and precision of lunar landing missions, providing a template that could be adapted for missions to other celestial bodies.",
+    "limitations": "The paper suggests that high computational burdens from processing large numbers of craters could limit practical implementation.",
+    "new_terms": {
+        "QUEST method": "**QUEST (Quaternion Estimation)** is an algorithm used to estimate orientation and rotation in three-dimensional space, which can be particularly beneficial in aerial navigation.",
+        "nonlinear least squares": "**Nonlinear least squares** refers to a form of least squares optimization applied when the model is a nonlinear function of the parameters to be estimated."
+    },
+    "open_sourcing": ""
+}

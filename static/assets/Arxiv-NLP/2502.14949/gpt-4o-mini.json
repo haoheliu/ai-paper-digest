@@ -1,0 +1,22 @@
+{
+    "title": "KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding",
+    "author": "Ahmed Heakl (MBZUAI), Abdullah Sohail (MBZUAI), Mukul Ranjan (MBZUAI), Rania Hossam (MBZUAI), Ghazi Ahmed (Monta AI), Mohamed El-Geish (Monta AI), Omar Maher (Monta AI), Zhiqiang Shen (MBZUAI), Fahad Khan (MBZUAI), Salman Khan (MBZUAI), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods discussed in this paper about Optical Character Recognition (OCR) and Benchmarking could be applied to audio transcription tasks, especially in generating structured data from audio text or understanding document structures.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing benchmarks for Arabic OCR systems to evaluate various aspects such as layout detection, table extraction, and text recognition in Arabic documents.",
+    "contribution": "The paper introduces KITAB-Bench, a comprehensive benchmark for Arabic OCR that systematically evaluates diverse document types and recognition tasks, achieving better performance assessments compared to existing benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks for Arabic OCR were limited in scope, primarily focusing on either handwritten text or specific document types.",
+        "novelty": "This work provides a more extensive evaluation across 9 major domains and 36 sub-domains, addressing critical issues like PDF-to-Markdown conversion and layout detection."
+    },
+    "key_innovation": "KITAB-Bench integrates diverse tasks and metrics, including unique components for handling complex Arabic scripts, thus providing a more comprehensive evaluation framework.",
+    "real_world_impact": "The development of this benchmark can significantly improve the accuracy and reliability of OCR systems for Arabic documents, leading to better data extraction and utilization in applied settings such as business intelligence and document archiving.",
+    "limitations": "The benchmark currently lacks representation for historical manuscripts and low-resource Arabic dialects.",
+    "new_terms": {
+        "Optical Character Recognition (OCR)": "**Optical Character Recognition (OCR)** is a technology that converts different types of documents, such as scanned paper documents, PDFs, or images captured by a digital camera, into editable and searchable data.",
+        "Character Error Rate (CER)": "**Character Error Rate (CER)** measures the accuracy of a character-level transcription by calculating the ratio of incorrectly recognized characters to the total number of characters."
+    },
+    "open_sourcing": "Available at https://mbzuai-oryx.github.io/KITAB-Bench/"
+}

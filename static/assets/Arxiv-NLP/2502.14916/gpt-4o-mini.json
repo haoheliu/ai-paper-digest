@@ -1,0 +1,22 @@
+{
+    "title": "MKE-Coder: Multi-Axial Knowledge with Evidence Verification in ICD Coding for Chinese EMRs",
+    "author": "Xinxin You (Tsinghua University), Xien Liu (Tsinghua University), Xue Yang (Iflytek), Ziyi Wang (Tsinghua University), Ji Wu (Tsinghua University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper discusses innovative methods for improving automatic coding of diseases, which can inform similar approaches in audio classification and text-to-audio mapping tasks that may require precise coding or labeling mechanisms.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "The task involves automating the coding of disease diagnoses using the International Classification of Diseases (ICD) system, particularly from Chinese electronic medical records (EMRs) which have unique structural challenges.",
+    "contribution": "MKE-Coder introduces a framework that leverages multi-axial knowledge and evidence verification to improve the accuracy of ICD coding in Chinese EMRs, achieving significant performance gains over previous methods.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches mainly focused on hierarchical code structures but lacked the integration of multi-axial knowledge and clinical evidence verification.",
+        "novelty": "This work enhances prior methods by implementing an evidence retrieval and evaluation module alongside a masked language modeling strategy to ensure coding validity."
+    },
+    "key_innovation": "The fusion of multi-axial knowledge with a robust evidence verification model enables a more reliable and interpretable ICD coding process.",
+    "real_world_impact": "Improving ICD coding accuracy can accelerate clinical workflows, enhance patient care, and support healthcare management systems, thereby having a positive impact on health outcomes.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "multi-axial knowledge": "**Multi-axial knowledge** refers to the diverse aspects (such as etiology and symptoms) associated with disease coding that are used to create a comprehensive understanding of a diagnosis.",
+        "masked language modeling": "**Masked language modeling** is a training technique used in natural language processing where random words in input data are masked, and the model is tasked with predicting these hidden words to learn contextual understanding."
+    },
+    "open_sourcing": ""
+}

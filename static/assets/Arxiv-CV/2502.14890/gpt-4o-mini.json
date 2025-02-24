@@ -1,0 +1,22 @@
+{
+    "title": "WeedVision: Multi-Stage Growth and Classification of Weeds using DETR and RetinaNet for Precision Agriculture",
+    "author": "Taminul Islam (School of Computing Southern Illinois University), Cristiana Bernardi Rankrape (Department of Plant Soils and Agricultural Systems Southern Illinois University), Toqi Tahamid Sarker (School of Computing Southern Illinois University), Khaled R Ahmed (School of Computing Southern Illinois University), Karla Gage (School of Agricultural Sciences / School of Biological Sciences Southern Illinois University), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper discusses advanced object detection methods, which could inspire novel approaches for improving audio processing tasks, especially in multimodal contexts.",
+    "field": "Applications-Vision",
+    "background": "Detecting different species of weeds at various growth stages to facilitate better management strategies in agriculture.",
+    "contribution": "This paper introduces the application of Detection Transformer (DETR) and RetinaNet architectures to classify 16 weed species over 11 growth weeks, achieving high accuracy and speed.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in weed detection often relied on small datasets and had limitations in real-time applicability.",
+        "novelty": "This work improves on prior methods by utilizing a large dataset of 203,567 images and comparing two state-of-the-art object detection models, showing significant performance advantages."
+    },
+    "key_innovation": "Combines advanced computer vision techniques with extensive data collection on weed growth stages for enhanced agricultural practices.",
+    "real_world_impact": "The findings could lead to more efficient weed management solutions, reducing herbicide use and promoting sustainable agriculture practices.",
+    "limitations": "The study is conducted in a controlled greenhouse environment, which may not fully represent real-world field conditions.",
+    "new_terms": {
+        "Detection Transformer (DETR)": "**Detection Transformer (DETR)** is an end-to-end object detection model that leverages transformer architecture to improve accuracy in detecting objects in images without anchor boxes.",
+        "ResNeXt-101": "**ResNeXt-101** is a convolutional neural network architecture that utilizes grouped convolutions to enhance performance and efficiency."
+    },
+    "open_sourcing": ""
+}

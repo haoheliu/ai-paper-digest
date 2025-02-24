@@ -1,0 +1,22 @@
+{
+    "title": "KOALA: Knowledge Conflict Augmentations for Robustness in Vision Language Models",
+    "author": "Peter Carragher (Carnegie Mellon University), Nikitha Rao (Carnegie Mellon University), Abhinand Jha (Carnegie Mellon University), R Raghav (Carnegie Mellon University), Kathleen M. Carley (Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The framework proposes a method for augmenting datasets to improve model robustness, which can be applicable to audio generative tasks, especially in understanding multimodal contexts.",
+    "field": "Applications-Vision",
+    "background": "The paper explores how Vision Language Models (VLMs) handle knowledge conflicts in Visual Question Answering (VQA) tasks, specifically analyzing their robustness against various types of conflicts.",
+    "contribution": "KOALA introduces a framework for augmenting VQA datasets with constructed knowledge conflicts to enhance the reasoning capabilities of VLMs.",
+    "technical_comparison": {
+        "prior_work": "Previous techniques focus mainly on unimodal knowledge conflicts, providing limited context for VLMs in multimodal settings.",
+        "novelty": "This work improves upon existing methodologies by applying targeted perturbations to visual data, facilitating a deeper investigation of knowledge conflicts within VQA."
+    },
+    "key_innovation": "Utilizes a multi-faceted approach to create situational examples of knowledge conflict by manipulating image sources and their attributes.",
+    "real_world_impact": "Enhancing VLMs' ability to deal with conflicting multimodal information can significantly improve performance in practical applications like interactive AI systems and visual content generation.",
+    "limitations": "The authors mention challenges relating to model quality checks and residual artifacts from image generation, potentially impacting the robustness of the dataset.",
+    "new_terms": {
+        "Visual Question Answering (VQA)": "**Visual Question Answering (VQA)** refers to a task where an AI system answers questions based on given images, combining comprehension of both visual and textual inputs.",
+        "knowledge conflicts": "**Knowledge conflicts** refer to discrepancies between the information encoded in models and the external information presented during inference."
+    },
+    "open_sourcing": "https://github.com/CASOS-IDeaS-CMU/KOALA"
+}

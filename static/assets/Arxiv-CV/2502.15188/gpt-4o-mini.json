@@ -1,0 +1,22 @@
+{
+    "title": "Interleaved Block-based Learned Image Compression with Feature Enhancement and Quantization Error Compensation",
+    "author": "Shiqi Jiang (Shandong University), Hui Yuan (Shandong University), Shuai Li (Shandong University), Raouf Hamzaoui (De Montfort University), Xu Wang (Shenzhen University), Junyan Huo (Xidian University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed method emphasizes learning-based techniques and feature extraction processes that could potentially enhance audio processing tasks, especially in efficient data compression and representation.",
+    "field": "Applications-Image and Audio Compression",
+    "background": "Learned image compression focuses on optimizing the process of reducing image file sizes without significantly losing quality, using deep learning techniques to enhance encoding and decoding processes.",
+    "contribution": "This paper introduces four modules: feature extraction, refinement, enhancement, and quantization error compensation to solve challenges in learned image compression, achieving improved rate-distortion performance.",
+    "technical_comparison": {
+        "prior_work": "Existing learned image compression methods rely on traditional deep learning structures that may not effectively exploit intra- and inter-image correlations.",
+        "novelty": "This work enhances feature extraction through pixel shuffling and sub-image processing, allowing for better correlation exploitation and reduced redundancy."
+    },
+    "key_innovation": "The integration of pixel shuffling and sub-image partitioning in the feature extraction process stands out as a unique approach to improving compression efficiency.",
+    "real_world_impact": "With its ability to outperform standard image compression methods, this technique holds promise for applications in effective image transmission, storage optimization, and applications related to multimedia content delivery.",
+    "limitations": "The performance might vary with different images or patch sizes, as noted in the ablation study section of the paper.",
+    "new_terms": {
+        "Learned Image Compression": "**Learned Image Compression** refers to image compression techniques that leverage machine learning algorithms, predominantly deep learning, to optimize both the compression and decompression processes.",
+        "Rate-Distortion Performance": "**Rate-Distortion Performance** is a measure of the balance between the bitrate of the compressed image and the quality of the reconstructed image, where better models achieve lower bitrates without significant quality loss."
+    },
+    "open_sourcing": ""
+}

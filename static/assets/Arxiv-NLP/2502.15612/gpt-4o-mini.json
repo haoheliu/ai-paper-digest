@@ -1,0 +1,22 @@
+{
+    "title": "LATIM: Measuring Latent Token-to-Token Interactions in Mamba Models",
+    "author": "Hugo Pitorro (Instituto de Telecomunica\u00e7\u00f5es), Marcos Treviso (Instituto de Telecomunica\u00e7\u00f5es), ..., Albert Gu (Stanford University)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The methods introduced in this paper for interpretability in state space models can be directly applicable to assessing and improving audio processing tasks, such as audio-generated synthesis and manipulation, which align with Dr. Liu's work in audio and speech.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study develops a method for analyzing and visualizing token interactions in advanced models called Mamba, focusing on improving interpretability.",
+    "contribution": "This paper introduces LATIM, a token-level decomposition method for Mamba models to enhance interpretability, showing clear token interactions in various language tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing interpretability techniques for Mamba mainly focus on attention-like approximations, which do not provide fine-grained token interactions.",
+        "novelty": "LATIM offers a direct token-to-token decomposition, allowing for a more detailed understanding of how individual tokens influence model outputs."
+    },
+    "key_innovation": "Provides a novel framework to systematically decompose and visualize token contributions in state space models, improving clarity in models that typically lack this level of detail.",
+    "real_world_impact": "This method enhances the interpretability of models used in various applications, which can improve reliability in real-world tasks such as translation and content generation.",
+    "limitations": "The study mentions that the approximated method relies on assumptions of the non-linearities inherent in the model, which may necessitate further refinement for precise applications.",
+    "new_terms": {
+        "state space models": "**State space models** are a class of statistical models that describe a system as a set of input, output, and state variables related by first-order differential equations.",
+        "token decomposition": "**Token decomposition** is the process of breaking down contributions of individual tokens in a sequence to assess their impact on the model output, akin to how attention scores work in transformer models."
+    },
+    "open_sourcing": ""
+}

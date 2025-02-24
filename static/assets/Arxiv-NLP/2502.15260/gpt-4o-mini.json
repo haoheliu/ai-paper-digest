@@ -1,0 +1,23 @@
+{
+    "title": "LightMamba: Efficient Mamba Acceleration on FPGA with Quantization and Hardware Co-design",
+    "author": "Renjie Wei (Institute for Artificial Intelligence, Peking University), Songqiang Xu (School of Software and Microelectronics, Peking University), Linfeng Zhong (School of Electronic and Computer Engineering, Peking University), Zebin Yang (Institute for Artificial Intelligence, Peking University), Qingyu Guo (School of Integrated Circuits, Peking University), Yuan Wang (Beijing Advanced Innovation Center for Integrated Circuits), Runsheng Wang (Beijing Advanced Innovation Center for Integrated Circuits), Meng Li (Institute for Artificial Intelligence, Peking University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The work focuses on efficient model acceleration using FPGA, which can be beneficial for developing real-time audio applications or embeddings for audio tasks where computational efficiency is crucial.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Mamba acceleration on FPGA aims to improve the computational efficiency of state space models during inference.",
+    "contribution": "LightMamba introduces a co-design of quantization algorithms and FPGA architecture to solve the inefficiencies in Mamba inference, achieving significantly improved energy efficiency.",
+    "technical_comparison": {
+        "prior_work": "Existing FPGA accelerators mainly focus on Transformer-based architectures and typically struggle with low-bit quantization due to scattered activation outliers.",
+        "novelty": "This work improves by proposing a rotation-assisted quantization method and a partially unrolled architecture specifically for the Mamba model."
+    },
+    "key_innovation": "The integration of rotation-assisted quantization and an FPGA-specific architecture leads to more effective and efficient computation, addressing unique challenges posed by Mamba architecture.",
+    "real_world_impact": "This approach can enhance various real-time applications by ensuring that models are more efficient and capable of operating on devices with limited computational resources.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "Mamba": "**Mamba** refers to a state space model that provides linear computational complexity, enabling efficient processing of sequences.",
+        "rotation-assisted quantization": "**Rotation-assisted quantization** is a technique that mitigates outliers in activation data by employing rotation to enhance the quantization process.",
+        "power-of-two quantization": "**Power-of-two quantization** involves quantizing values in such a way that they can be represented as powers of two, which simplifies hardware implementations."
+    },
+    "open_sourcing": ""
+}

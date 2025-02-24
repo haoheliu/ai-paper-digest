@@ -1,0 +1,21 @@
+{
+    "title": "Retrieval-Augmented Speech Recognition Approach for Domain Challenges",
+    "author": "Peng Shen (National Institute of Information and Communications Technology), Xugang Lu (National Institute of Information and Communications Technology), Hisashi Kawai (National Institute of Information and Communications Technology), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses domain mismatch in speech recognition, which is relevant for audio processing tasks that Haohe Liu is involved in, particularly in enhancing speech quality and recognition performance in specific contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on improving automatic speech recognition under conditions where there is insufficient domain-specific training data.",
+    "contribution": "This paper introduces a retrieval-augmented model that incorporates domain-specific data during inference to enhance speech recognition performance, achieving state-of-the-art accuracy on the CSJ dataset.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on training with domain-specific data or static models that do not adapt to new information during inference.",
+        "novelty": "This work dynamically retrieves relevant textual documents at inference, which allows for more contextualized understanding and improved accuracy."
+    },
+    "key_innovation": "Utilizes a two-stage optimization strategy that trains the speech recognition model to efficiently leverage retrieved domain-specific content during inference.",
+    "real_world_impact": "This research could significantly enhance the applicability of speech recognition systems in specialized fields, improving accessibility and user experience in technology-assisted communication.",
+    "limitations": "No",
+    "new_terms": {
+        "Retrieval-Augmented Generation (RAG)": "**Retrieval-Augmented Generation (RAG)** is a framework that combines retrieval mechanisms with generation models, improving performance by providing relevant external information without extensive retraining."
+    },
+    "open_sourcing": ""
+}

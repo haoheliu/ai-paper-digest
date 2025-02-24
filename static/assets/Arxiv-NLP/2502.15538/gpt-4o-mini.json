@@ -1,0 +1,22 @@
+{
+    "title": "SOTOPIA-\u03a9: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents",
+    "author": "Wenyuan Zhang (Institute of Information Engineering, Chinese Academy of Sciences), Tianyun Liu (Institute of Information Engineering, Chinese Academy of Sciences), Mengxiao Song (Institute of Information Engineering, Chinese Academy of Sciences), Xiaodong Li (Institute of Information Engineering, Chinese Academy of Sciences), Tingwen Liu (Institute of Information Engineering, Chinese Academy of Sciences), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The framework addresses strategy injection which can enhance interaction in generative models, applicable to audio generation tasks where social interactions might be relevant.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper focuses on improving agent interactions within multi-agent social tasks by dynamically injecting negotiation strategies to enhance dialogue quality.",
+    "contribution": "SOTOPIA-\u03a9 introduces a framework for dynamic strategy injection in social agents to tackle prolonged deadlocks in social interactions, significantly improving their dialogue performance.",
+    "technical_comparison": {
+        "prior_work": "Existing methods struggle with prolonged negotiations and often constrain actions or are task-specific.",
+        "novelty": "This work enhances flexibility and adaptability by dynamically adjusting strategies based on negotiation theory, overcoming traditional limitations."
+    },
+    "key_innovation": "The unique aspect of this framework is its dynamic injection of negotiation strategies into social agents' dialogue generation, leading to better engagement and resolution of deadlocks.",
+    "real_world_impact": "Improving social agent interactions could enhance applications ranging from social robotics to customer service, providing more human-like engagements in various settings.",
+    "limitations": "The paper does not explore non-verbal communication aspects, which could further enhance social interaction quality.",
+    "new_terms": {
+        "Dynamic Strategy Injection": "**Dynamic Strategy Injection** refers to the process of adaptively embedding negotiation strategies into agent dialogues to improve interaction outcomes.",
+        "Social Instruction Following (S-IF)": "**Social Instruction Following (S-IF)** is the capability of social agents to follow specific instructions to achieve social goals in dialogues."
+    },
+    "open_sourcing": "The constructed high-quality dialogue corpus and agent weights will be open-sourced to the community."
+}

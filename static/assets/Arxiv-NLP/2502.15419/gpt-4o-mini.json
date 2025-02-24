@@ -1,0 +1,21 @@
+{
+    "title": "Beyond Translation: LLM-Based Data Generation for Multilingual Fact-Checking",
+    "author": "Yi-Ling Chung (Genaios Safe AI), Aurora Cobo (Genaios Safe AI), Pablo Serna (Genaios Safe AI), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores the use of Large Language Models (LLMs) for generating multilingual datasets, which could inspire methods for audio-language alignment or assist in developing more robust models in my research area.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Generating multilingual datasets for fact-checking by creating synthetic claims based on factual knowledge sources from Wikipedia.",
+    "contribution": "This paper introduces MultiSynFact, a pipeline for generating 2.2 million multilingual claim-source pairs to support automated fact-checking.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused mainly on English datasets or relied on translation tools, which often overlook cultural nuances.",
+        "novelty": "This work combines Wikipedia as a knowledge source with LLMs to generate high-quality multilingual fact-checking data, overcoming limitations found in existing methods."
+    },
+    "key_innovation": "The integration of external knowledge sources and rigorous validation steps to enhance the focus on multilingual claims significantly differentiates this approach.",
+    "real_world_impact": "This framework can contribute to large-scale misinformation mitigation efforts across diverse languages by streamlining the creation of reliable datasets for various languages.",
+    "limitations": "The generated claims rely on Wikipedia, which may introduce biases and inaccuracies inherent in the source material.",
+    "new_terms": {
+        "MultiSynFact": "**MultiSynFact** is a novel dataset introduced for multilingual fact-checking, leveraging LLMs for synthetic claim generation based on factual knowledge."
+    },
+    "open_sourcing": "The data and full implementation of the method are available at https://github.com/Genaios/MultiSynFact."
+}

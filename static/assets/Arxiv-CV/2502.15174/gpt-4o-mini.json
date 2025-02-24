@@ -1,0 +1,22 @@
+{
+    "title": "FD-LSCIC: Frequency Decomposition-based Learned Screen Content Image Compression",
+    "author": "Shiqi Jiang (Shandong University), Hui Yuan (Shandong University), Shuai Li (Shandong University), Huanqiang Zeng (Huaqiao University), Sam Kwong (Lingnan University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "This paper introduces advanced neural network techniques for image compression that could inspire similar approaches for audio or speech compression tasks by leveraging frequency components, which is applicable to audio signal processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing an efficient compression method for screen content images, utilizing frequency decomposition and adaptive quantization to improve image quality and compression ratios over traditional methods.",
+    "contribution": "This paper introduces a multi-frequency feature decomposition method to solve inefficient screen content image compression, achieving improved image quality measured by Peak Signal-to-Noise Ratio (PSNR) and Multi-Scale Structural Similarity Index (MS-SSIM).",
+    "technical_comparison": {
+        "prior_work": "Previous methods predominantly rely on fixed quantization methods that do not account for the varying characteristics of screen content, leading to inefficiencies.",
+        "novelty": "This work improves on previous methods by employing a multi-frequency approach to optimize the quantization process based on learned noise intervals for different frequency components."
+    },
+    "key_innovation": "Utilizes a two-stage octave residual block to decompose image features into three frequency components (high, mid, low) and tailors the quantization to these components for better compression efficiency.",
+    "real_world_impact": "The advancements in screen content compression could lead to more efficient storage and transmission of visual data, significantly benefiting applications in remote work, gaming, and multimedia content delivery.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "multi-frequency decomposition": "**Multi-frequency decomposition** refers to the technique of breaking down signals (in this case, images) into different frequency components to better understand and process their unique characteristics.",
+        "octave residual block": "**Octave residual block** is a neural network architecture design that effectively separates high-frequency and low-frequency features to reduce spatial redundancy in data."
+    },
+    "open_sourcing": "The source code will be made available later at https://github.com/SunshineSki/Screen-contentimage-dataset/tree/main/SDU-SCICD10K."
+}

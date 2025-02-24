@@ -1,0 +1,22 @@
+{
+    "title": "Logit Disagreement: OoD Detection with Bayesian Neural Networks",
+    "author": "Kevin Raina (Department of Mathematics and Statistics, University of Ottawa), ..., Kevin Raina (Department of Mathematics and Statistics, University of Ottawa)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The method proposed in this paper focuses on measuring epistemic uncertainty, which is relevant to tasks involving uncertainty quantification in audio processing, such as speech enhancement and music generation.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Detection of out-of-distribution samples in deep learning models, which is crucial for ensuring model reliability in various applications.",
+    "contribution": "This paper introduces new epistemic uncertainty scores based on measuring disagreement in logit values of Bayesian Neural Networks to enhance out-of-distribution detection capabilities, achieving improved performance over traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like mutual information were limited in distinguishing noisy data effectively, leading to poor OoD detection performance.",
+        "novelty": "This work improves upon those methods by using disagreement scores derived from logit values, which better reflect model uncertainty."
+    },
+    "key_innovation": "The use of maximum logits across samples as a proxy for likelihoods to create a more reliable measure of epistemic uncertainty in Bayesian Neural Networks.",
+    "real_world_impact": "This framework can be vital for developing systems that require high reliability in uncertain environments, such as autonomous vehicles or medical diagnosis tools.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Bayesian Neural Networks": "**Bayesian Neural Networks** are neural networks that incorporate Bayesian inference principles to estimate the uncertainty in their weights and predictions.",
+        "epistemic uncertainty": "**Epistemic uncertainty** refers to the uncertainty in a model due to insufficient knowledge or data, which can potentially be reduced by gathering more training data."
+    },
+    "open_sourcing": ""
+}

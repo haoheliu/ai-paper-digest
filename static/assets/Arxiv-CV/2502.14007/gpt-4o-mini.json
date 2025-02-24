@@ -1,0 +1,22 @@
+{
+    "title": "d-Sketch: Improving Visual Fidelity of Sketch-to-Image Translation with Pretrained Latent Diffusion Models without Retraining",
+    "author": "Prasun Roy (University of Technology Sydney), Saumik Bhattacharya (Indian Institute of Technology Kharagpur), Subhankar Ghosh (University of Technology Sydney), Umapada Pal (Indian Statistical Institute Kolkata), Michael Blumenstein (University of Technology Sydney), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper's approach to leveraging latent diffusion models for image synthesis from sketches could inspire similar methods in audio generation tasks, particularly in visual-audio correspondences.",
+    "field": "Applications-Vision",
+    "background": "The paper addresses the challenge of generating realistic images from freehand sketches, a task that involves structural guidance and image quality improvement.",
+    "contribution": "d-Sketch introduces a learnable mapping network for sketch-to-image translation that utilizes pretrained latent diffusion models, achieving improved visual fidelity in generated images.",
+    "technical_comparison": {
+        "prior_work": "Existing methods primarily use Generative Adversarial Networks (GANs) or train diffusion models specifically for this task, which often struggle with structural ambiguities and require extensive training data.",
+        "novelty": "This work enhances image generation by applying a lightweight mapping network to a pretrained model, avoiding the need for retraining and capturing a richer feature space."
+    },
+    "key_innovation": "The method combines edge maps with pretrained latent diffusion models to stabilize image generation, allowing for high-resolution outputs without the downsides of direct retraining.",
+    "real_world_impact": "The findings could significantly impact content creation tools, enhancing applications requiring conversion of sketches to realistic images without extensive computational costs.",
+    "limitations": "The method relies on the quality of input sketches and may still encounter issues with unique complexities in very ambiguous sketches.",
+    "new_terms": {
+        "Latent Diffusion Model": "**Latent Diffusion Model (LDM)** is a generative model that operates in a reduced latent space, capturing high-level distributions to synthesize coherent samples.",
+        "sketch-to-image translation": "**Sketch-to-image translation** refers to the process of generating realistic images based on input sketches, often involving complex generative algorithms."
+    },
+    "open_sourcing": "Code is available at https://github.com/prasunroy/dsketch"
+}

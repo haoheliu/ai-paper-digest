@@ -1,0 +1,21 @@
+{
+    "title": "Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models",
+    "author": "Yeonjun In (KAIST), Wonjoong Kim (KAIST), Kanghoon Yoon (KAIST), Sungchul Kim (Adobe Research), Md Mehrab Tanjim (Adobe Research), Kibum Kim (KAIST), Chanyoung Park (KAIST), Chanyoung Park (KAIST)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The user-specific safety considerations introduced in this paper could be instrumental in audio generation models, especially in ensuring that these models avoid generating harmful outputs for specific user contexts.",
+    "field": "Social and Economic Aspects of ML-Safety",
+    "background": "Evaluating safety protocols for Large Language Models (LLMs) while considering specific user profiles, rather than relying solely on general safety standards.",
+    "contribution": "This paper introduces the U-SAFEBENCH framework to assess user-specific safety of LLMs, revealing significant vulnerabilities in current models.",
+    "technical_comparison": {
+        "prior_work": "Previous safety evaluations primarily focused on general safety standards, neglecting individual user circumstances in risk assessment.",
+        "novelty": "This work emphasizes user-specific safety, creating a unique benchmark that captures diverse user profiles and potential safety risks."
+    },
+    "key_innovation": "The introduction of the user-specific safety benchmarking, which evaluates how LLMs might respond differently based on individual user backgrounds.",
+    "real_world_impact": "This research has the potential to enhance the deployment of LLMs in sensitive applications where user safety is paramount, such as mental health support and legal advice.",
+    "limitations": "The models evaluated still show inadequate safety performance and may not be ready for real-world deployment.",
+    "new_terms": {
+        "user-specific safety": "**User-specific safety** refers to the concept where the safety responses of LLMs are tailored based on individual user profiles, considering their unique contexts and potential vulnerabilities."
+    },
+    "open_sourcing": "The benchmark and code are available at https://github.com/yeonjun-in/U-SafeBench."
+}

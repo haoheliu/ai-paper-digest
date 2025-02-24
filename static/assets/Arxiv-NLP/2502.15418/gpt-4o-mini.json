@@ -1,0 +1,22 @@
+{
+    "title": "MHQA: A Diverse, Knowledge Intensive Mental Health Question Answering Challenge for Language Models",
+    "author": "Suraj Racha (Indian Institute of Technology Bombay), Prashant Joshi (Indian Institute of Technology Bombay), Anshika Raman (Indian Institute of Technology Bombay), Nikita Jangid (Indian Institute of Technology Bombay), Mridul Sharma (Indian Institute of Technology Bombay), Ganesh Ramakrishnan (Indian Institute of Technology Bombay), Nirmal Punjabi (Indian Institute of Technology Bombay)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The dataset and methodologies outlined provide a foundation for benchmarking language models in answering complex mental health questions, which could enhance the understanding of natural language processing in audio applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of evaluating language models by introducing a dataset aimed at mental health question answering based on scientific literature.",
+    "contribution": "The paper introduces the MHQA dataset to solve the gap in mental health QA datasets, achieving comprehensive and diverse question-answering capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous mental health datasets mostly focused on classification or lacked complexity in question types.",
+        "novelty": "This work establishes a multi-choice QA format, integrating diverse question types and targeting specific mental health issues like anxiety and depression, improving the depth of language model evaluation."
+    },
+    "key_innovation": "The MHQA dataset includes four core mental health domains with complex question types, emphasizing reasoning and factual evaluation, distinguishing it from simpler classification datasets.",
+    "real_world_impact": "The dataset could aid in developing more effective mental health AI tools, potentially improving mental health care accessibility through advanced language models.",
+    "limitations": "While the MHQA dataset is extensive, the pseudo-labeling process may introduce some inaccuracies due to reliance on similarity scores.",
+    "new_terms": {
+        "mental health": "**Mental health** refers to cognitive, emotional, and social well-being, impacting how individuals think, feel, and act.",
+        "question-answering (QA)": "**Question-answering (QA)** is a task in which a system aims to automatically answer questions posed by humans based on provided data."
+    },
+    "open_sourcing": "The codebase and dataset have been made available at https://github.com/joshiprashanthd/mhqa"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "FOCUS on Contamination: A Geospatial Deep Learning Framework with a Noise-Aware Loss for Surface Water PFAS Prediction",
+    "author": "Jowaria Khan (University of Michigan), Alexa Friedman (Environmental Working Group), Sydney Evans (Environmental Working Group), Runzi Wang (University of California, Davis), Kaley Beins (Environmental Working Group), David Andrews (Environmental Working Group), Elizabeth Bondi-Kelly (University of Michigan), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed geospatial deep learning framework could enhance audio applications by integrating spatiotemporal data for predicting environmental impacts on sound quality or assisting in audio restoration tasks impacted by environmental conditions.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This study aims to develop a framework for predicting the contamination of surface water by per- and polyfluoroalkyl substances (PFAS) using geospatial deep learning methods and environmental data.",
+    "contribution": "The paper introduces the FOCUS framework using a noise-aware loss function to improve prediction accuracy for PFAS contamination in surface water, achieving more reliable spatial mapping.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on laboratory testing or conventional machine learning methods which often failed to capture spatial dependencies and contextual information related to contamination.",
+        "novelty": "This work utilizes deep learning models that process multi-channel raster images directly, preserving spatial context and integrating multiple environmental factors to produce dense contamination predictions."
+    },
+    "key_innovation": "FOCUS integrates a noise-aware loss function that adjusts weightings based on environmental features and uncertainties, leading to superior predictive accuracy.",
+    "real_world_impact": "The framework has significant implications for environmental monitoring and public health safety, allowing for efficient identification of PFAS hotspots and potentially influencing regulatory actions.",
+    "limitations": "The study acknowledges the reliance on limited labeled datasets leading to class imbalance issues.",
+    "new_terms": {
+        "per- and polyfluoroalkyl substances (PFAS)": "**PFAS** refers to a group of synthetic chemicals used in various industrial applications, known for their persistence in the environment and potential health risks.",
+        "noise-aware loss function": "**Noise-aware loss function** is a type of loss function that accounts for uncertainties in label correctness, leveraging contextual environmental information to improve model training."
+    },
+    "open_sourcing": ""
+}

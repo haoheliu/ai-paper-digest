@@ -1,0 +1,21 @@
+{
+    "title": "A Baseline Method for Removing Invisible Image Watermarks using Deep Image Prior",
+    "author": "Hengyue Liang (University of Minnesota, Twin Cities), Taihui Li, Ju Sun, ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The method for eliminating watermarks using deep image prior could potentially be adapted for audio restoration tasks, such as enhancing audio signals that may have been altered by watermarking, which could fit well within Haohe's research on audio quality enhancement.",
+    "field": "Applications-Creative AI",
+    "background": "This paper investigates techniques to effectively remove invisible image watermarks from photographs using neural networks without prior knowledge of the watermarking process.",
+    "contribution": "This paper introduces a black-box watermark removal technique using Deep Image Prior, achieving high-quality image recovery while evading watermark detection.",
+    "technical_comparison": {
+        "prior_work": "Previous watermark removal techniques often required knowledge of watermark patterns or were not effective against robust training-based methods.",
+        "novelty": "This work demonstrates an untrained deep neural network approach that successfully identifies and removes hidden watermarks while preserving image quality."
+    },
+    "key_innovation": "The use of Deep Image Prior allows for a unique way of image recovery focused on capturing low-frequency components more effectively than high frequencies, thus facilitating watermark removal.",
+    "real_world_impact": "This research offers insights for developing better watermarking techniques that can withstand evasion attempts, which is crucial for copyright protection in the age of AI-generated content.",
+    "limitations": "The method's performance is limited against certain watermark types that induce considerable mid- to low-frequency distortions.",
+    "new_terms": {
+        "Deep Image Prior": "**Deep Image Prior** refers to a method of using a randomly initialized deep neural network as an implicit model for image recovery tasks without requiring training on massive datasets."
+    },
+    "open_sourcing": "The code is publicly available at https://github.com/HengyueL/DIP_Watermark_Evasion."
+}

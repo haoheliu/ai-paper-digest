@@ -1,0 +1,22 @@
+{
+    "title": "Problem-Solving Logic Guided Curriculum In-Context Learning for Large Language Models",
+    "author": "Xuetao Ma (Beijing Normal University), Wenbin Jiang (Beijing Normal University), Hua Huang (Beijing Normal University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method emphasizes example selection and ordering based on problem-solving logic, which could be beneficial for enhancing audio-related tasks where complex reasoning is involved, such as audio generation or manipulation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research investigates how to improve reasoning capabilities in large language models by organizing demonstration examples in a curriculum-like manner, guiding the learning process more effectively.",
+    "contribution": "This paper introduces a curriculum in-context learning strategy guided by problem-solving logic to solve complex reasoning tasks, achieving significant improvements in performance across multiple benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically relied on simple statistical features for example selection and ordering, often lacking consideration of the intrinsic connections between tasks.",
+        "novelty": "This work enhances example selection by analyzing problem-solving logic and ordering them based on their difficulty, moving from easy to hard."
+    },
+    "key_innovation": "Integrates problem-solving logic with curriculum learning to improve the selection and ordering process of examples for enhanced reasoning in large language models.",
+    "real_world_impact": "Could improve applications in natural language processing and areas requiring advanced reasoning capabilities, supporting tasks in education and AI-assisted decision-making.",
+    "limitations": "The paper primarily evaluates LLMs at a smaller scale (8B), with potential improvements expected at larger scales untested here.",
+    "new_terms": {
+        "curriculum learning": "**Curriculum learning** is a strategy in machine learning where models are trained on examples ordered from easiest to hardest, mimicking human learning progression.",
+        "problem-solving logic": "**Problem-solving logic** refers to the structured representation of steps in solving a problem, facilitating better understanding and reasoning in task completion."
+    },
+    "open_sourcing": ""
+}

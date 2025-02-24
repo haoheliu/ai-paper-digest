@@ -1,0 +1,22 @@
+{
+    "title": "ARS: Automatic Routing Solver with Large Language Models",
+    "author": "Kai Li (Southern University of Science and Technology), Fei Liu (City University of Hong Kong), Zhenkun Wang (Southern University of Science and Technology), Xialiang Tong (Huawei Noah's Ark Lab), Xiongwei Han (Huawei Noah's Ark Lab), Mingxuan Yuan (Huawei Noah's Ark Lab), ..., Zhenkun Wang (Southern University of Science and Technology)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper presents ARS, which leverages Large Language Models (LLMs) to solve complex routing problems. Given Haohe Liu's work in generative models and AI applications, methods for automatically generating solutions to logistical challenges could inspire similar applications in audio and music generation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Automatic routing solver tools aim to optimize vehicle routes under various constraints, minimizing costs while meeting specific logistical requirements.",
+    "contribution": "This paper introduces ARS, a framework that automatically generates constraint-aware heuristics to solve vehicle routing problems, achieving a success rate of 91.67% in solving common VRP instances.",
+    "technical_comparison": {
+        "prior_work": "Existing methods primarily address simple VRPs and depend on conventional solvers, which often struggle with complex scenarios.",
+        "novelty": "ARS utilizes LLMs to enhance heuristic methods, automatically generating tailored solution strategies based on problem descriptions, allowing it to better handle real-world complexities."
+    },
+    "key_innovation": "The unique integration of Large Language Models for generating routing heuristics allows for adaptable and customized problem-solving approaches.",
+    "real_world_impact": "By effectively addressing complex vehicle routing challenges, ARS could enhance logistics, transport efficiency, and resource management in various industries.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "Vehicle Routing Problem (VRP)": "**Vehicle Routing Problem (VRP)** involves the optimization of routes for a fleet of vehicles that must deliver goods to various locations, aiming to minimize costs while satisfying multiple constraints.",
+        "Constraint-Aware Heuristic": "**Constraint-Aware Heuristic** is an algorithm that evaluates routes based on specified constraints, enabling more effective and applicable solution strategies for complex problems."
+    },
+    "open_sourcing": "https://github.com/Ahalikai/ARS-Routbench"
+}

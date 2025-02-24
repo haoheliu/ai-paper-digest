@@ -1,0 +1,22 @@
+{
+    "title": "Detecting Future-related Contexts of Entity Mentions",
+    "author": "Puneet Prashar (Rajiv Gandhi Institute of Petroleum Technology), Krishna Mohan Shukla (Rajiv Gandhi Institute of Petroleum Technology), Adam Jatowt (University of Innsbruck), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "Utilizing techniques for temporal analysis in texts could inspire new approaches in audio generation and enhancement tasks, particularly for aligning audio outputs with implicit temporal cues in narratives.",
+    "field": "Applications-Language",
+    "background": "This paper focuses on detecting implicit future references in texts that mention specific entities, aiding in tasks such as decision-making and trend forecasting.",
+    "contribution": "This paper introduces a novel dataset and methodologies to detect future-related references in entity-centric texts, achieving significant improvements in classification performance with transformer models over traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on explicit date expressions, limiting their applicability to historical and current contexts.",
+        "novelty": "This work effectively trains models to identify future orientation based purely on contextual cues by masking explicit temporal references."
+    },
+    "key_innovation": "The approach focuses on understanding future context through contextual clues rather than relying on explicit temporal markers, enhancing model learning capabilities.",
+    "real_world_impact": "This method could significantly benefit applications in corporate intelligence and urban planning by providing tools to analyze future-oriented statements, supporting enhanced forecasting and decision-making.",
+    "limitations": "No.",
+    "new_terms": {
+        "temporal entity classification": "**Temporal entity classification** is a process of categorizing entities in texts based on their associated temporal contexts, particularly to discern future-oriented mentions.",
+        "Large Language Models (LLMs)": "**Large Language Models** are advanced models designed to understand and generate human-like text based on vast amounts of data."
+    },
+    "open_sourcing": ""
+}

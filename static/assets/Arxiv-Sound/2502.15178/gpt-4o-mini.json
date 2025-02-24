@@ -1,0 +1,22 @@
+{
+    "title": "Enhancing Speech Large Language Models with Prompt-Aware Mixture of Audio Encoders",
+    "author": "Weiqiao Shan (Northeastern University), Yuang Li (Huawei Translation Services Center), Yuhao Zhang (The Chinese University of Hong Kong), Yingfeng Luo (Northeastern University), Chen Xu (Harbin Engineering University), Xiaofeng Zhao (Huawei Translation Services Center), Long Meng (Northeastern University), Tong Xiao (Northeastern University), ..., Jingbo Zhu (Northeastern University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The method of using multiple audio encoders is directly applicable to audio-language tasks, which aligns with my work on audio generation and captioning. Exploring prompt-aware mechanisms can enhance tasks like audio captioning and text-to-audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing speech models involves connecting audio encoders to large language models (LLMs) for better understanding and processing of audio tasks without transcription.",
+    "contribution": "This paper introduces the Prompt-aware Mixture (PaM) framework to merge multiple audio encoders based on task-specific prompts, achieving notable performance improvements in multiple audio understanding tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often treat all audio encoders equally, merging their outputs through simple techniques like concatenation, limiting task-specific optimizations.",
+        "novelty": "This work improves by employing a mixture of experts model that selects feature weights based on task prompts, optimizing encoder outputs for specific tasks."
+    },
+    "key_innovation": "Utilizes task-indicative prompts to selectively route and weight audio features from multiple encoders for improved task performance.",
+    "real_world_impact": "This advancement could lead to more effective applications in speech recognition, audio captioning, and consumer audio devices, broadening their functionality and usability.",
+    "limitations": "The authors note a reliance on pre-defined audio encoders and limited training data, suggesting potential overfitting or generalization issues.",
+    "new_terms": {
+        "Prompt-aware Mixture": "**Prompt-aware Mixture (PaM)** refers to a framework that dynamically adjusts the combination of audio features based on the specified task given in user prompts, allowing for more precise audio modeling.",
+        "Mixture of Experts": "**Mixture of Experts** is a model architecture in which different sections of the model (experts) specialize in different tasks, enabling efficient processing by activating only the necessary experts for each task."
+    },
+    "open_sourcing": ""
+}

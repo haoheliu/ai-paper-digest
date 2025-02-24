@@ -1,0 +1,21 @@
+{
+    "title": "BOSS: Benchmark for Observation Space Shift in Long-Horizon Tasks",
+    "author": "Yue Yang (The University of North Carolina at Chapel Hill), Linfeng Zhao (Northeastern University), Mingyu Ding (The University of North Carolina at Chapel Hill), Gedas Bertasius (The University of North Carolina at Chapel Hill), Daniel Szafir (The University of North Carolina at Chapel Hill), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The study addresses the challenges in hierarchical reinforcement learning and imitation learning, particularly in tasks that require sequential decision-making, which can be applicable in audio processing tasks that require multiple sequential actions.",
+    "field": "Reinforcement Learning-Robotics",
+    "background": "Observation Space Shift (OSS) occurs when visual changes from one task interfere with the performance of subsequent tasks in long-horizon robotic applications.",
+    "contribution": "This work introduces BOSS, a benchmark designed to evaluate the effects of Observation Space Shift on imitation learning in long-horizon robotic tasks, demonstrating significant performance drops due to OSS.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically overlook the impact of visual state changes during skill transitions and often assume continuous state reachability.",
+        "novelty": "This research rigorously quantifies the effects of OSS through a structured benchmark, revealing the inadequacy of existing data augmentation strategies to mitigate these effects."
+    },
+    "key_innovation": "Establishes a set of benchmarks categorizing OSS impacts and presents systematic evaluations to expose the vulnerabilities of state-of-the-art imitation learning algorithms.",
+    "real_world_impact": "The findings highlight critical challenges in robotic manipulation that parallel issues in sequential decision-making in other domains, potentially guiding future improvements in robotic learning methodologies.",
+    "limitations": "No.",
+    "new_terms": {
+        "Observation Space Shift (OSS)": "**Observation Space Shift (OSS)** refers to the changes in the observation space caused by previous skills that disrupt the accurate execution of subsequent visuomotor skill policies."
+    },
+    "open_sourcing": "https://boss-benchmark.github.io/"
+}

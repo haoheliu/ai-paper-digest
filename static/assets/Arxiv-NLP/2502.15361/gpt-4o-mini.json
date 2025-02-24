@@ -1,0 +1,22 @@
+{
+    "title": "Evaluating Social Biases in LLM Reasoning",
+    "author": "Xuyang Wu (Santa Clara University), Zhiqiang Tao (Rochester Institute of Technology), Jinming Nian (Santa Clara University), Yi Fang (Santa Clara University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores social biases in large language model reasoning, particularly how biases propagate through reasoning steps, which could inform bias mitigation strategies applicable to models in audio and speech applications.",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "The study assesses how demographic variables affect decision-making by large language models while considering social fairness, particularly in ambiguous contexts.",
+    "contribution": "This paper introduces a novel evaluation framework to assess the propagation of social biases in reasoning tasks performed by large language models, achieving insights into the relationship between reasoning biases and model outputs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on final outputs without evaluating the reasoning processes that lead to these outputs.",
+        "novelty": "This work systematically evaluates both the accuracy and the bias in reasoning steps, providing new insights into bias amplification during reasoning."
+    },
+    "key_innovation": "Leveraging a dual-aspect approach by assessing model outputs and the reasoning patterns that lead to those outputs, revealing how biases are amplified during reasoning.",
+    "real_world_impact": "The findings could inform the design of more equitable AI systems by identifying and mitigating social biases in reasoning processes, which is crucial in sensitive applications such as hiring or law enforcement.",
+    "limitations": "The study relies on automated evaluation methods for bias detection, which may introduce uncertainty due to the lack of human annotation.",
+    "new_terms": {
+        "chain-of-thought reasoning": "**Chain-of-thought reasoning** refers to a method where models are prompted to reason through multiple steps before arriving at a conclusion, simulating human-like logical processes.",
+        "LLM-as-a-judge methodology": "**LLM-as-a-judge methodology** utilizes large language models to evaluate the bias severity of reasoning steps, providing an automated assessment rather than relying solely on human evaluations."
+    },
+    "open_sourcing": ""
+}

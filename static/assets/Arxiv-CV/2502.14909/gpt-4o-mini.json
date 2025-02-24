@@ -1,0 +1,21 @@
+{
+    "title": "PTB-IMAGE: A SCANNED PAPER ECG DATASET FOR DIGITIZATION AND IMAGE-BASED DIAGNOSIS",
+    "author": "Cuong V. Nguyen (VinUniversity), Dung D. Pham Minh (VinUniversity), Hieu X. Nguyen (VinUniversity), Cuong D. Do (VinUniversity), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The work on ECG digitization may inspire novel models and techniques that could be applied to audio processing, especially in signal recovery and restoration tasks similar to those tackled in speech and audio enhancement.",
+    "field": "Applications-Healthcare",
+    "background": "The task is to convert paper-based electrocardiogram (ECG) images into digital time-series signals for automated analysis, overcoming challenges such as signal fidelity and scanning artifacts.",
+    "contribution": "This paper introduces the PTB-Image dataset and the VinDigitizer method to solve the challenge of digitizing paper ECGs, achieving a mean signal-to-noise ratio (SNR) of 0.01 dB in reconstruction.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for ECG digitization often lack practical datasets and handle limited variations in scans, leading to inaccuracies.",
+        "novelty": "This work improves by presenting a realistic dataset that includes 549 scanned ECGs alongside digitized signals, which offers a basis for training and evaluating new digitization techniques."
+    },
+    "key_innovation": "The introduction of a comprehensive dataset of scanned ECGs, combined with a robust digitization method that addresses various technical challenges.",
+    "real_world_impact": "Improving access to historical ECG data can enhance telemedicine capabilities and support the development of automated cardiac diagnostics, making healthcare more efficient and accessible.",
+    "limitations": "Limitations include potential distortions from the printing and scanning process, affecting the reconstruction accuracy.",
+    "new_terms": {
+        "Electrocardiogram (ECG)": "**Electrocardiogram (ECG)** is a test that measures the electrical activity of the heart over a period of time, typically using electrodes placed on the skin."
+    },
+    "open_sourcing": "The dataset and methodology are available at [HERE](https://1drv.ms/u/c/8a14ab5f35ede8f3/EW9im9wsajxGp5vZXh84wk8BPs-A5c-OyN23g7dgrWYhVg?e=O56wsa)."
+}

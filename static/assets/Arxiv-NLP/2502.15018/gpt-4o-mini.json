@@ -1,0 +1,21 @@
+{
+    "title": "Using tournaments to calculate AUROC for zero-shot classification with LLMs",
+    "author": "Wonjin Yoon (Boston Children's Hospital), Ian Bulovic (Boston Children's Hospital), Timothy A. Miller (Boston Children's Hospital, Harvard Medical School)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method of using tournaments and Elo ratings for evaluating model performance could offer insights into assessing uncertainties and confidence in models similar to those Haohe Liu develops. This ranking approach can enhance audio and speech processing tasks by providing better metrics for model evaluation.",
+    "field": "Evaluation-Methodology",
+    "background": "This research explores a new method to convert binary classification tasks into pairwise comparisons using large language models, allowing for more nuanced performance evaluation via area under the ROC curve metrics.",
+    "contribution": "This paper introduces a tournament-based comparison method to solve ambiguity in zero-shot classification, achieving improved performance metrics like F1 scores.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically evaluate only at a single threshold, limiting insights into model decision boundaries under different scenarios.",
+        "novelty": "This work enhances evaluation by incorporating multiple comparisons, allowing for confidence scores across instances, thus yielding better overall performance metrics."
+    },
+    "key_innovation": "The innovative use of Elo ratings and tournament scheduling to establish a reliable ordering and confidence levels for zero-shot classifications.",
+    "real_world_impact": "The method could significantly improve how audio and speech models are evaluated in practical applications, leading to more trustworthy decisions based on model outputs.",
+    "limitations": "The requirement for multiple rounds of comparisons might increase inference time considerably, making it less efficient compared to traditional methods.",
+    "new_terms": {
+        "Elo rating": "**Elo rating** is a statistical system used to calculate the relative skill levels of players in two-player games such as chess, where ratings are adjusted based on match outcomes."
+    },
+    "open_sourcing": ""
+}

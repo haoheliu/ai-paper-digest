@@ -1,0 +1,21 @@
+{
+    "title": "Confidence-Based Annotation Of Brain Tumours In Ultrasound",
+    "author": "Alistair Weld (Hamlyn Centre, Imperial College London), Luke Dixon (Department of Imaging, Charing Cross Hospital), Alfie Roddan (Hamlyn Centre, Imperial College London), Giulio Anichini (Department of Neurosurgery, Charing Cross Hospital), Sophie Camp (Department of Neurosurgery, Charing Cross Hospital), Stamatia Giannarou (Hamlyn Centre, Imperial College London), ..., Stamatia Giannarou (Hamlyn Centre, Imperial College London)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods proposed for handling uncertainty in tumour margins could inform techniques for audio processing tasks that involve uncertainty and ambiguity, enhancing model robustness and calibration.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This paper explores the issue of annotating brain tumours in ultrasound images, focusing on the challenges posed by diffuse tumours and utilizing a confidence-based annotation approach.",
+    "contribution": "This paper introduces a confidence-based annotation protocol to address the uncertainties in brain tumour segmentation, improving the training process for neural networks with clinically relevant soft labels.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods focus on discrete annotation, which is often ineffective for diffuse brain tumours due to poor boundary definition.",
+        "novelty": "This work improves annotation accuracy by employing a confidence map that accounts for the varying levels of certainty regarding the tumour boundaries."
+    },
+    "key_innovation": "The utilization of a confidence map that quantifies aleatoric uncertainty directly informs the annotation process in a spatially adaptive manner.",
+    "real_world_impact": "This approach may enhance surgical outcomes by providing more reliable visual aids during tumour resections, ultimately improving patient care.",
+    "limitations": "No",
+    "new_terms": {
+        "aleatoric uncertainty": "**Aleatoric uncertainty** refers to the inherent uncertainty in a model's predictions due to the stochastic nature of the world or the data itself, often seen in contexts where measurements are noisy or approximations are made."
+    },
+    "open_sourcing": ""
+}

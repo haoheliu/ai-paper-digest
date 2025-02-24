@@ -1,0 +1,21 @@
+{
+    "title": "Steering into New Embedding Spaces: Analyzing Cross-Lingual Alignment Induced by Model Interventions in Multilingual Language Models",
+    "author": "Anirudh Sundar (AI Virtual Assistant Lab, Georgia Institute of Technology), Sinead Williamson (Apple), Katherine Metcalf (Apple), Barry-John Theobald (Apple), Skyler Seto (Apple), Masha Fedzechkina (Apple), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's exploration of model interventions and their impact on multilingual language models could inform techniques for improving audio generation tasks by leveraging cross-lingual alignment.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Investigating how targeted interventions on expert neurons within multilingual language models can enhance cross-lingual representation alignment, which is essential for tasks such as translation and retrieval.",
+    "contribution": "This paper introduces the finding-experts intervention to enhance cross-lingual alignment in multilingual language models, achieving significant improvements in retrieval accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely depended on extensive fine-tuning for alignment in multilingual models, which is computationally expensive and data-intensive.",
+        "novelty": "This work improves upon prior methods by utilizing targeted model interventions, which are more data-efficient and enhance alignment without extensive retraining."
+    },
+    "key_innovation": "The unique approach of manipulating expert neurons enables more effective alignment across languages, leading to better performance in downstream tasks.",
+    "real_world_impact": "Enhancements in multilingual model alignment could improve translation systems and cross-lingual tasks, thus having potential applications in global communication technologies.",
+    "limitations": "The study is constrained by limited knowledge about the training data and pre-training processes of the models used, which affects the generalizability of the findings.",
+    "new_terms": {
+        "finding experts": "**Finding experts** refers to the process of identifying specific neurons within a neural network that are responsible for encoding particular concepts or tasks, enabling targeted interventions to influence model behavior."
+    },
+    "open_sourcing": ""
+}

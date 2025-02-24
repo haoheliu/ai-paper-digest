@@ -1,0 +1,18 @@
+{
+    "title": "Beyond No: Quantifying AI Over-Refusal and Emotional Attachment Boundaries",
+    "author": "David A. Noever (PeopleTec, Inc.), Grant Rosario (PeopleTec, Inc.)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper is highly relevant as it addresses the emotional boundary management in AI chatbots, which could inform the development of more nuanced audio interaction systems that consider emotional contexts in user interactions.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper evaluates how conversational AI models handle emotional boundary scenarios, focusing on their responses to user prompts for emotional attachment.",
+    "contribution": "This research introduces the Persona Construction Benchmark (PCB), a systematic evaluation framework to assess AI's handling of emotional boundaries, revealing significant variations across models and languages.",
+    "technical_comparison": "Previous methods often sidelined emotional nuances in user interactions. This work improves by offering a comprehensive benchmark that quantifies the emotional boundary responses of various models across multiple languages.",
+    "key_innovation": "Develops a multi-language dataset specifically targeting emotional interactions to measure how AI models manage user requests for emotional attachment.",
+    "real_world_impact": "The findings can guide the design of emotionally intelligent AI systems, which is crucial as AI companionship becomes more prevalent, potentially improving user satisfaction and reducing feelings of isolation.",
+    "limitations": "The study does not account for multi-turn interactions, which may affect the assessment of model consistency in emotional responses.",
+    "new_terms": {
+        "over-refusal": "**Over-refusal** refers to an AI's tendency to decline requests even when those requests are benign or do not pose any ethical risks."
+    },
+    "open_sourcing": "The dataset of 1156 prompts is open-source and designed for benchmark testing."
+}

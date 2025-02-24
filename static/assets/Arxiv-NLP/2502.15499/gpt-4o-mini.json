@@ -1,0 +1,21 @@
+{
+    "title": "Scale-Distribution Decoupling: Enabling Stable and Effective Training of Large Language Models",
+    "author": "Ya Wang (Seed-Foundation-Model, ByteDance), Zhijian Zhuo (Seed-Foundation-Model, ByteDance), Yutao Zeng (Seed-Foundation-Model, ByteDance), Xun Zhou (Seed-Foundation-Model, ByteDance), Jian Yang (Seed-Foundation-Model, ByteDance), Xiaoqing Li (Capital University of Economics and Business), ..., Jian Yang (Seed-Foundation-Model, ByteDance)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed Scale-Distribution Decoupling (SDD) method can enhance training stability and optimization dynamics, which may benefit audio generation and restoration models developed by Haohe Liu by providing a more robust training approach.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Enhancing the training stability of large language models by separating the scale and distribution of weight matrices to improve gradient stability and prevent common issues like gradient explosion.",
+    "contribution": "This paper introduces Scale-Distribution Decoupling (SDD) to solve training instability in large language models, achieving improved convergence speed and model robustness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with optimizing high-dimensional weight matrices due to entangled scale and distribution, leading to instability.",
+        "novelty": "This work improves by explicitly decoupling the scale and distribution of the weights in fully connected layers, ensuring better gradient conditioning."
+    },
+    "key_innovation": "Introduces a learnable scaling vector alongside a normalization mechanism to independently control the scale of activations, enhancing training stability.",
+    "real_world_impact": "Improves the efficiency and effectiveness of training large-scale transformer architectures, which could lead to more capable language and audio generation systems.",
+    "limitations": "No",
+    "new_terms": {
+        "Scale-Distribution Decoupling": "**Scale-Distribution Decoupling (SDD)** refers to the method of separating the scale and distribution of the parameters in training neural networks to stabilize training and improve optimization."
+    },
+    "open_sourcing": "Code is available at [https://github.com/kaihemo/SDD](https://github.com/kaihemo/SDD)"
+}

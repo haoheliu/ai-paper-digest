@@ -1,0 +1,22 @@
+{
+    "title": "Weakly Supervised Video Scene Graph Generation via Natural Language Supervision",
+    "author": "Kibum Kim (KAIST), Kanghoon Yoon (KAIST), Yeonjun In (KAIST), Jaehyeong Jeon (KAIST), Jinyoung Moon (ETRI), Donghyun Kim (Korea University), Chanyoung Park (KAIST), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper explores weakly supervised learning methods, which could inspire novel approaches in audio generation tasks where labeled data is limited or costly.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Video scene graph generation involves creating structured representations from video frames, identifying objects and their relationships over time, typically requiring extensive manual annotations.",
+    "contribution": "This paper introduces the Natural Language-based Video Scene Graph Generation (NL-VSGG) framework to solve the problem of high annotation costs in video scene graph generation, achieving improved performance on the Action Genome dataset.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mostly relied on fully supervised learning, requiring costly annotations or unlocalized scene graphs, limiting their applicability.",
+        "novelty": "This work improves by utilizing readily available video captions with specific modules addressing temporality and action duration variability, significantly enhancing model performance."
+    },
+    "key_innovation": "The framework uniquely combines natural language processing with video analysis to segment captions temporally and align them with actions in video frames.",
+    "real_world_impact": "This approach has potential applications in automating video content analysis, reducing costs in data annotation, and enabling broader use of video data across various fields.",
+    "limitations": "The authors acknowledge potential limitations with longer, untrimmed videos, which may affect the model's performance.",
+    "new_terms": {
+        "Weakly Supervised Learning": "**Weakly Supervised Learning** refers to training models with insufficiently labeled data, relying on available weak supervision signals.",
+        "Action Genome": "**Action Genome** is a dataset that provides annotations for actions occurring within videos, helping to standardize benchmarks for video understanding tasks."
+    },
+    "open_sourcing": "The code is available at https://github.com/rlqja1107/NL-VSGG"
+}

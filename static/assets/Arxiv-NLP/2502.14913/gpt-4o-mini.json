@@ -1,0 +1,22 @@
+{
+    "title": "OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment",
+    "author": "Xiangjin Xie (Alibaba Cloud China), LingYan Zhao (Alibaba Cloud China), Guangwei Xu (Alibaba Cloud China), Ruijie Guo (Alibaba Cloud China), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a multi-agent framework for the Text-to-SQL task, which may provide insights into improving generative models in audio tasks such as audio captioning and audio-question answering.",
+    "field": "Applications-Language",
+    "background": "The Text-to-SQL task involves automatically generating SQL queries from natural language questions, allowing users to interact with databases without needing SQL knowledge.",
+    "contribution": "This paper introduces the OpenSearch-SQL framework to solve the challenges in generating accurate SQL from natural language, achieving a state-of-the-art execution accuracy of 72.28%.",
+    "technical_comparison": {
+        "prior_work": "Previous Text-to-SQL methods often struggle with hallucination and instruction-following issues, especially in a multi-agent context.",
+        "novelty": "This work improves upon prior models by integrating a consistency alignment mechanism and a dynamic few-shot strategy to enhance SQL generation accuracy."
+    },
+    "key_innovation": "The framework's unique approach to aligning agent outputs significantly reduces hallucination during SQL generation.",
+    "real_world_impact": "Potentially streamlining database interactions for non-technical users, improving accessibility, and optimizing data retrieval processes across various applications.",
+    "limitations": "No limitations explicitly mentioned by the authors.",
+    "new_terms": {
+        "consistency alignment": "**Consistency alignment** refers to the method of aligning inputs and outputs across multiple agents to enhance coherence and reduce inaccuracies in generated results.",
+        "dynamic few-shot": "**Dynamic few-shot** learning refers to a strategy that utilizes relevant few-shot examples dynamically adjusted based on the context of the user query."
+    },
+    "open_sourcing": ""
+}

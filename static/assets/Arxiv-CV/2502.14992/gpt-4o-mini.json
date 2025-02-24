@@ -1,0 +1,22 @@
+{
+    "title": "Ultra-High-Frequency Harmony: mmWave Radar and Event Camera Orchestrate Accurate Drone Landing",
+    "author": "Haoyang Wang (Shenzhen International Graduate School, Tsinghua University), Jingao Xu (Carnegie Mellon University), Xinyu Luo (Shenzhen International Graduate School, Tsinghua University), Xuecheng Chen (Shenzhen International Graduate School, Tsinghua University), Ting Zhang (Shenzhen International Graduate School, Tsinghua University), Ruiyang Duan (Meituan Academy of Robotics Shenzhen, China), Yunhao Liu (School of Software, Tsinghua University), Xinlei Chen (Shenzhen International Graduate School, Tsinghua University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper addresses localization technology in drones, including sensor fusion methods leveraging event cameras, which could inform audio-visual modeling tasks in Haohe Liu's research, especially in improving audio localization and sound event detection.",
+    "field": "Applications-Vision",
+    "background": "The paper focuses on developing a system that utilizes millimeter-wave radar and event cameras for precise drone landing, ensuring high localization accuracy and low latency.",
+    "contribution": "This paper introduces mmE-Loc, a novel high-precision, low-latency localization system for drones that integrates event cameras with mmWave radar to improve landing accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on traditional frame cameras for localization, which suffer from low sampling rates and depth uncertainty.",
+        "novelty": "This work utilizes event cameras with high sampling frequencies, significantly enhancing drone detection speed and accuracy while reducing latency compared to traditional methods."
+    },
+    "key_innovation": "Combining the high temporal resolution of event cameras with the depth sensing capabilities of mmWave radar for harmonized sensor fusion.",
+    "real_world_impact": "The proposed method demonstrates effective localization in real-world drone delivery scenarios, enhancing operational efficiency and safety in commercial applications.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "event camera": "**Event camera** is a type of vision sensor that records changes in the scene at a high temporal resolution, allowing it to capture fast motions without motion blur.",
+        "mmWave radar": "**Millimeter-wave radar** is a remote sensing technology that uses radio waves in the millimeter wave frequency range for precise distance measurements and object detection."
+    },
+    "open_sourcing": ""
+}

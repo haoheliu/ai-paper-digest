@@ -1,0 +1,22 @@
+{
+    "title": "BP-GPT: Auditory Neural Decoding Using fMRI-prompted LLM",
+    "author": "Xiaoyu Chen (NeuBCI Group, CASIA), Changde Du (School of Artificial Intelligence, University of Chinese Academy of Sciences), Che Liu (School of Future Technology, University of Chinese Academy of Sciences), Yizhe Wang (State Key Laboratory of Multimodal Artificial Intelligence Systems, CASIA), Huiguang He (NeuBCI Group, CASIA), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents methods for decoding language from brain signals using large language models, which aligns closely with Dr. Liu's research in audio and language processing and can inspire new approaches in audio-language alignment.",
+    "field": "Neuroscience and Cognitive Science-Brain-Computer Interfaces",
+    "background": "Decoding auditory stimuli from functional magnetic resonance imaging (fMRI) data to reconstruct corresponding text or speech.",
+    "contribution": "This paper introduces Brain Prompt GPT (BP-GPT), which decodes fMRI signals into text, achieving significant performance improvements over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods used basic mappings from brain activities to stimuli without incorporating language models in the decoding process, limiting the contextual generation of language.",
+        "novelty": "This work uses a two-stage training process with large language models (GPT-2) and dynamic contrastive learning to improve accuracy in interpreting fMRI data."
+    },
+    "key_innovation": "Employs brain representation as a prompt within a large language model framework to enhance the decoding of auditory stimuli.",
+    "real_world_impact": "Improves brain-computer interfaces and has potential applications in assistive technologies and understanding human cognition, especially in speech and language.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "fMRI": "**Functional Magnetic Resonance Imaging** is a neuroimaging technique used to measure and map brain activity by detecting changes associated with blood flow.",
+        "BERT": "**Bidirectional Encoder Representations from Transformers** is a deep learning model designed to understand the context of words in a sentence."
+    },
+    "open_sourcing": "The code is available at https://github.com/1994cxy/BP-GPT."
+}

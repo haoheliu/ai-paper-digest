@@ -1,0 +1,22 @@
+{
+    "title": "Textual-to-Visual Iterative Self-Verification for Slide Generation",
+    "author": "Yunqing Xu (Xi'an Jiao Tong University), Xinbei Ma (Shanghai Jiao Tong University), Jiyang Qiu (Shanghai Jiao Tong University), Hai Zhao (Shanghai Jiao Tong University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses methods for generating visual content from textual descriptions, which could inform approaches for audio-visual generation, potentially benefiting audio-synthesis tasks that require visual context.",
+    "field": "Applications-Creative AI",
+    "background": "Automated presentation slide generation by decomposing the task into content creation and visual layout design.",
+    "contribution": "This paper introduces a dual-phase method combining text-based content generation and visual layout refinement to improve coherence and visual alignment in academic slides.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with layout consistency and refinement, often generating rigid and misaligned outputs.",
+        "novelty": "This work introduces a textual-to-visual verification process that allows for intuitive layout corrections, improving visual appeal and alignment."
+    },
+    "key_innovation": "Leveraging a Reviewer + Refiner workflow to iteratively enhance slide layouts by converting textual data into visual formats for better assessments.",
+    "real_world_impact": "This framework could significantly reduce the time required for academic presentation preparation, enhancing the way researchers communicate findings.",
+    "limitations": "The dataset used is limited to academic papers and may not generalize to other presentation formats.",
+    "new_terms": {
+        "textual-to-visual self-verification": "**Textual-to-visual self-verification** refers to the process of converting textual layout information into visual formats to allow for better human-like assessments and corrections.",
+        "LLM-based Reviewer + Refiner": "**LLM-based Reviewer + Refiner** is a framework using large language models to evaluate and refine generated content based on visual feedback."
+    },
+    "open_sourcing": ""
+}

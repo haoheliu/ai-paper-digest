@@ -1,0 +1,21 @@
+{
+    "title": "GenAI vs. Human Fact-Checkers: Accurate Ratings, Flawed Rationales",
+    "author": "Yuehong Cassandra Tai (Penn State University), Khushi Navin Patni (Penn State University), Bruce Desmarais (Penn State University), Nicholas Daniel Hemauer (Penn State University), Yu-Ru Lin (University of Pittsburgh), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper explores the capacity of Generative Artificial Intelligence models in assessing the credibility of information, which could inform methodologies in audio content analysis where misinformation detection is relevant.",
+    "field": "Applications-Language",
+    "background": "Evaluating the credibility of social media posts by U.S. politicians using Generative Artificial Intelligence models to determine misinformation accuracy.",
+    "contribution": "This paper introduces a comparative analysis of multiple Generative Artificial Intelligence models to rate content credibility, achieving comprehensive insights into their reasoning capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous works primarily focused on specific misinformation detection tasks without exploring the reasoning patterns of Generative Artificial Intelligence models.",
+        "novelty": "This work improves upon prior research by analyzing the reasoning process behind Generative Artificial Intelligence's credibility ratings, highlighting the reliance on linguistic features rather than genuine veracity."
+    },
+    "key_innovation": "Provides an in-depth examination of how Generative Artificial Intelligence models utilize different reasoning patterns, such as content quality and language objectivity, to evaluate misinformation.",
+    "real_world_impact": "The findings suggest potential applications in supporting human fact-checkers, enhancing the efficiency of misinformation detection in real-world scenarios. However, reliance solely on Generative Artificial Intelligence models is discouraged.",
+    "limitations": "The study's focus on zero-shot models limits the exploration of hybrid systems or those incorporating additional contextual knowledge.",
+    "new_terms": {
+        "Generative Artificial Intelligence (GenAI)": "**Generative Artificial Intelligence (GenAI)** refers to AI systems designed to generate new content or assessments based on learned data patterns, rather than merely categorizing or responding."
+    },
+    "open_sourcing": ""
+}

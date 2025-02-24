@@ -1,0 +1,21 @@
+{
+    "title": "UrbanSAM: Learning Invariance-Inspired Adapters for Segment Anything Models in Urban Construction",
+    "author": "Chenyu Li (Southeast University), Danfeng Hong (Chinese Academy of Sciences), Bing Zhang (Chinese Academy of Sciences), Yuxuan Li (Chinese Academy of Sciences), Gustau Camps-Valls (Universitat de Valencia), Xiao Xiang Zhu (Technical University of Munich), Jocelyn Chanussot (Univ. Grenoble Alpes), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper addresses segmentation tasks in urban environments, which could provide insights for audio-visual integration where similar spatial analysis is needed.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "Segmenting diverse urban objects in high-resolution remote sensing images to support urban planning and management.",
+    "contribution": "UrbanSAM introduces a customized version of the Segment Anything Model (SAM) incorporating learnable prompters for improved urban segmentation, achieving significant performance gains across scale-varying urban objects.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with scale variations and relied heavily on manual prompts, compromising segmentation accuracy.",
+        "novelty": "This work employs a U-scaling adapter to automatically learn scale-invariant features, significantly reducing reliance on manual intervention."
+    },
+    "key_innovation": "Utilizes a multiresolution analysis approach within a novel adapter design to achieve invariant feature learning across different scales, enhancing adaptability for urban segmentation tasks.",
+    "real_world_impact": "The proposed method has the potential to transform urban planning and monitoring by facilitating more accurate and efficient segmentation from remote sensing data, leading to better resource management.",
+    "limitations": "No specific limitations mentioned by the authors.",
+    "new_terms": {
+        "U-scaling adapters": "**U-scaling adapters** are learnable modules designed to capture scale-invariant features, improving the model's capability to segment objects at different resolutions."
+    },
+    "open_sourcing": "The datasets and codes will be openly available at https://github.com/danfenghong"
+}

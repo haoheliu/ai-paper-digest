@@ -1,0 +1,21 @@
+{
+    "title": "INTERFEEDBACK: UNVEILING INTERACTIVE INTELLIGENCE OF LARGE MULTIMODAL MODELS VIA HUMAN FEEDBACK",
+    "author": "Henry Hengyuan Zhao (Show Lab, National University of Singapore), Wenqi Pei (Show Lab, National University of Singapore), Yifei Tao (Show Lab, National University of Singapore), Haiyang Mei (Show Lab, National University of Singapore), Mike Zheng Shou (Show Lab, National University of Singapore), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper discusses interactive intelligence in Large Multimodal Models (LMMs), which could inform the design of generative models for audio and enhance audio-language integration tasks.",
+    "field": "Applications-Human-AI Interaction",
+    "background": "Evaluating the performance of large multimodal models in problem-solving through interactive feedback from human users, crucial for enhancing AI assistants' abilities.",
+    "contribution": "The paper introduces the InterFeedback framework to assess interactive problem-solving capabilities in LMMs, achieving a benchmark for model feedback integration.",
+    "technical_comparison": {
+        "prior_work": "Traditional LMM evaluation usually focuses on static problem solving without an interactive component.",
+        "novelty": "This work incorporates an interactive framework allowing LMMs to learn and adapt from human feedback, a significant shift from previous testing methods."
+    },
+    "key_innovation": "The framework allows any LMM to iteratively refine its answers based on human-like feedback, bridging a vital gap in multimodal AI evaluation.",
+    "real_world_impact": "The findings could lead to more effective human-AI interactions and improved performance in AI-driven assistance scenarios, impacting various applications, including education and healthcare.",
+    "limitations": "The models tested still struggled to effectively utilize feedback for improvement, indicating a need for further advancements in this area.",
+    "new_terms": {
+        "Large Multimodal Models": "**Large Multimodal Models (LMMs)** are advanced AI systems designed to process and understand multiple types of data, such as text, images, and audio, simultaneously."
+    },
+    "open_sourcing": ""
+}

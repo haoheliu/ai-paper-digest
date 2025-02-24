@@ -1,0 +1,21 @@
+{
+    "title": "ELIP: Enhanced Visual-Language Foundation Models for Image Retrieval",
+    "author": "Guanqi Zhan (VGG, University of Oxford), Yuanpei Liu (The University of Hong Kong), Kai Han (The University of Hong Kong), Weidi Xie (VGG, University of Oxford), Andrew Zisserman (VGG, University of Oxford), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper's focus on enhancing visual-language models through innovative architectures and data curation strategies could inspire similar methodologies in audio-language modeling and text-to-audio generation tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Improving text-to-image retrieval by re-ranking images given a text query, enhancing the relevance of results from initially retrieved candidates.",
+    "contribution": "This paper introduces the Enhanced Language-Image Pre-training (ELIP) framework to solve the problem of low accuracy in text-to-image retrieval, achieving significant performance improvements on benchmark datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like CLIP and BLIP-2 perform well in initial image ranking but lack robustness in re-ranking top candidates.",
+        "novelty": "This work improves re-ranking accuracy by integrating a text-guided visual prompting mechanism which enhances image representations during the retrieval process."
+    },
+    "key_innovation": "The introduction of a mapping network that generates visual prompts based on text queries to condition the image encoder.",
+    "real_world_impact": "The findings could lead to better retrieval systems in applications like content-based image search and multimedia databases, enhancing user experience as results become more relevant.",
+    "limitations": "No specific limitations are mentioned in the paper.",
+    "new_terms": {
+        "visual prompting": "**Visual prompting** refers to embedding visual clues into image representations to guide model attention and improve the relevance of retrieved results."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "When Compression Meets Model Compression: Memory-Efficient Double Compression for Large Language Models",
+    "author": "Weilan Wang (City University Of Hong Kong), Yu Mao (City University Of Hong Kong), Dongdong Tang (City University Of Hong Kong), Hongchao Du (City University Of Hong Kong), Nan Guan (City University Of Hong Kong), Chun Jason Xue (Mohamed bin Zayed University of Artificial Intelligence), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques explored in this paper for model compression could inform memory management strategies in audio processing models, particularly for generative or large-scale audio tasks where LLMs could be applied.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This paper presents methods to reduce the memory footprint of Large Language Models (LLMs) through advanced compression techniques without significantly degrading performance.",
+    "contribution": "This paper introduces a double compression framework to solve the memory challenge posed by Large Language Models, achieving an average compression ratio of 2.2x with minimal accuracy loss.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on individual compression techniques like quantization or pruning, often at the expense of model performance.",
+        "novelty": "This work combines memory-efficient techniques with lossless compression and emphasizes a speed-adaptive decompression strategy."
+    },
+    "key_innovation": "The integration of compression-aware quantization and pruning techniques to enhance weight compressibility while maintaining model accuracy.",
+    "real_world_impact": "This research can facilitate the deployment of Large Language Models on resource-limited devices, broadening their accessibility and usability in various applications.",
+    "limitations": "The method mainly targets INT8 quantization, potentially limiting flexibility with other quantization strategies.",
+    "new_terms": {
+        "double compression": "**Double compression** refers to a two-stage approach of applying model compression followed by more advanced lossless compression techniques to optimize memory usage."
+    },
+    "open_sourcing": ""
+}

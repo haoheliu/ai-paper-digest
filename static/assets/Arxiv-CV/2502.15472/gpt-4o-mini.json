@@ -1,0 +1,22 @@
+{
+    "title": "Aligning Task- and Reconstruction-Oriented Communications for Edge Intelligence",
+    "author": "Yufeng Diao (University of Glasgow), Yichi Zhang (University of Manchester), Changyang She (University of Sydney), Philip Guodong Zhao (University of Manchester), Emma Liying Li (University of Glasgow), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The framework proposed could influence communication system designs in speech and audio processing when considering real-time applications, potentially improving the way audio data is transmitted and processed for AI-driven tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work addresses the challenge of effectively communicating task-specific data for AI applications, particularly in edge intelligence scenarios where bandwidth and latency are critical.",
+    "contribution": "The paper introduces an Aligned Task- and Reconstruction-Oriented Communication (ATROC) framework to address the inefficiencies of traditional communication systems in AI-driven applications, achieving a 99.19% reduction in communication load without compromising task performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused primarily on reconstruction-oriented communications that do not consider task relevance, leading to inefficient use of communication resources.",
+        "novelty": "This work integrates task-oriented communication with reconstruction-oriented frameworks, optimizing data transmission without sacrificing the underlying data structure."
+    },
+    "key_innovation": "The introduction of an information reshaper that adapts the communication process to the specific needs of AI tasks while preserving data integrity.",
+    "real_world_impact": "This framework can greatly enhance the design of communication systems in autonomous driving and other real-time applications, where efficient and rapid data transfer is critical.",
+    "limitations": "The framework may require substantial integration efforts with existing communication infrastructures to be effectively implemented.",
+    "new_terms": {
+        "Aligned Task- and Reconstruction-Oriented Communication (ATROC)": "**ATROC** is a novel communication framework that combines task-specific information with reconstruction-oriented communication, aiming for efficient data transmission in AI applications.",
+        "Information Bottleneck (IB)": "**Information Bottleneck** is a principle in information theory that seeks to find a balance between preserving relevant information for a task while compressing the input data."
+    },
+    "open_sourcing": ""
+}

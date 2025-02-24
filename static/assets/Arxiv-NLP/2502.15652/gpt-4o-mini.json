@@ -1,0 +1,19 @@
+{
+    "title": "Empowering LLMs with Logical Reasoning: A Comprehensive Survey",
+    "author": "Fengxiang Cheng (Institute for Logic, Language and Computation, University of Amsterdam), Haoxuan Li (Center for Data Science, Peking University), Fenrong Liu (Department of Philosophy, Tsinghua University), Robert van Rooij (Institute for Logic, Language and Computation, University of Amsterdam), Kun Zhang (Department of Philosophy, Carnegie Mellon University), Zhouchen Lin (Institute for Artificial Intelligence, Peking University), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper surveys the logical reasoning capabilities of large language models, emphasizing their challenges in logical question answering and logical consistency across different questions.",
+    "contribution": "This paper introduces a comprehensive investigation of current methods improving logical reasoning in LLMs, summarizing challenges and proposing taxonomies of existing solutions.",
+    "technical_comparison": {
+        "prior_work": "Previous studies often focused on limited logical reasoning paradigms or specific aspects like categorical syllogisms without a broad survey.",
+        "novelty": "This work consolidates recent methodologies and proposes a structured taxonomy for improving logical reasoning in LLMs, addressing gaps in existing literature."
+    },
+    "key_innovation": "Provides a detailed taxonomy of methods enhancing logical reasoning in large language models, bridging gaps in understanding across various logical consistency metrics.",
+    "real_world_impact": "Improving logical reasoning in LLMs has the potential to enhance reliability and applicability in areas like automated decision-making and complex problem-solving.",
+    "limitations": "No explicit limitations are mentioned in the survey.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

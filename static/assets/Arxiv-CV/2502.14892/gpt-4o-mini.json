@@ -1,0 +1,22 @@
+{
+    "title": "EgoSpeak: Learning When to Speak for Egocentric Conversational Agents in the Wild",
+    "author": "Junhyeok Kim (Yonsei University), Min Soo Kim (Yonsei University), Jiwan Chung (Yonsei University), Jungbin Cho (Yonsei University), Jisoo Kim (Yonsei University), Sungwoong Kim (Yonsei University), Gyeongbo Sim (Multimodal AI Lab., NC Research, NCSOFT Corporation), Youngjae Yu (Yonsei University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores real-time speech initiation prediction, which could inform the development of audio-enhanced conversational systems, potentially applicable in speech generation and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to predict when a speaker (wearing a camera) should initiate speech during dynamic conversations captured from a first-person perspective.",
+    "contribution": "EgoSpeak introduces a framework for predicting speech initiation from egocentric video streams to enhance conversational agents' responsiveness in real-world settings, achieving significant improvements over baseline approaches.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically relied on controlled settings or audio cues alone, lacking adaptability to real-world conversational dynamics.",
+        "novelty": "This work integrates real-time multimodal processing (RGB video and audio) from a first-person perspective, allowing agents to respond more naturally to conversational turns."
+    },
+    "key_innovation": "The unique aspect of EgoSpeak is its ability to predict speaking moments in real-time by processing untrimmed video streams, making it responsive to overlapping speech and frequent interruptions.",
+    "real_world_impact": "EgoSpeak offers a robust solution for improving the interaction quality of conversational agents, making them more engaging and effective in natural settings.",
+    "limitations": "The approach relies on pre-encoded features, which could limit performance and processing speeds.",
+    "new_terms": {
+        "egocentric video": "**Egocentric video** refers to video captured from the first-person perspective, often associated with wearable cameras that provide a personal view of the environment.",
+        "turn-taking": "**Turn-taking** is a conversational mechanism where individuals alternately contribute to a dialogue, requiring cues to determine when to speak."
+    },
+    "open_sourcing": "Code and data are available at [web](https://jun297.github.io/EgoSpeak/)[site.](https://jun297.github.io/EgoSpeak/)"
+}

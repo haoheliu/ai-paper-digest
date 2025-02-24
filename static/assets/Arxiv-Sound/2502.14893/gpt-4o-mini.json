@@ -1,0 +1,22 @@
+{
+    "title": "NOTA: Multimodal Music Notation Understanding for Visual Large Language Model",
+    "author": "Mingni Tang (Wuhan University), Jiajia Li (Wuhan University), Lu Yang (Wuhan University), Zhiqiang Zhang (Wuhan University), Jinghao Tian (Wuhan University), Zuchao Li (Wuhan University), Lefei Zhang (Wuhan University), Ping Wang (Wuhan University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper addresses multimodal understanding of music notation, a relevant area for advancement in audio generation and analysis, which could support innovative approaches in Haohe Liu's audio-related research.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The study develops a dataset and model for understanding music notation across visual and text modalities, improving model performance in music information extraction and analysis based on music scores.",
+    "contribution": "NOTA introduces a large-scale dataset of 1,019,237 music scores to solve the challenge of multimodal music understanding, achieving significant improvements in extraction tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing models primarily focus on single modalities, performing poorly in music notation comprehension.",
+        "novelty": "This work supports cross-modal alignment between visual music scores and their text representations, enhancing model accuracy in musical analysis."
+    },
+    "key_innovation": "Integrates both visual and text-based approaches in a unified model for deeper music understanding.",
+    "real_world_impact": "The development of such a model could facilitate better music generation tools and improve educational tools for music theory and composition.",
+    "limitations": "The paper acknowledges limitations such as hallucinations and shallow reasoning in the models.",
+    "new_terms": {
+        "multimodal": "**Multimodal** refers to the ability to process and integrate information from multiple sources, including text, images, and other forms of data.",
+        "cross-modal alignment": "**Cross-modal alignment** is the process of connecting and relating data from different modalities, such as aligning text descriptions with their corresponding images."
+    },
+    "open_sourcing": "The datasets are available at https://huggingface.co/datasets/MYTH-Lab/NOTA-dataset."
+}

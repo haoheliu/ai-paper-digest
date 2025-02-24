@@ -1,0 +1,22 @@
+{
+    "title": "Can Hallucination Correction Improve Video-Language Alignment?",
+    "author": "Lingjun Zhao (University of Maryland, College Park), Mingyang Xie (University of Maryland, College Park), Paola Cascante-Bonilla (University of Maryland, College Park), Hal Daum\u00e9 III (University of Maryland, College Park), Kwonjoon Lee (Honda Research Institute), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper addresses hallucination correction in video-language models, which could provide insights into improving audio-language alignment tasks through related techniques.",
+    "field": "Applications-Language",
+    "background": "Aligning video content with descriptive language to improve the accuracy of understanding multi-modal data, specifically addressing issues where generated text does not match the video content.",
+    "contribution": "This paper introduces a self-training framework, Hallucination Correction for video-language Alignment (HACA), to correct mismatches between video representations and textual descriptions, achieving improved video-text alignment.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for video-language alignment often employed binary entailment tasks, which do not provide detailed feedback on the misalignments between video and text.",
+        "novelty": "HACA enhances alignment by focusing on correcting hallucinated content rather than relying solely on binary correctness indicators."
+    },
+    "key_innovation": "The method uniquely leverages hallucination correction as a training objective, thereby refining model performance in aligning video and text by allowing the model to generate corrected captions.",
+    "real_world_impact": "Improving video-language alignment has significant implications for various applications, such as autonomous systems and content generation, leading to more accurate representations in complex multi-modal scenarios.",
+    "limitations": "The method relies on the availability of ground-truth video caption annotations, which may restrict its applicability in real-world scenarios where such data is sparse.",
+    "new_terms": {
+        "hallucination": "**Hallucination** in this context refers to the generation of text that does not accurately represent the visual content, leading to misalignment in video-language models.",
+        "spatiotemporal reasoning": "**Spatiotemporal reasoning** involves understanding both spatial (static) and temporal (dynamic) elements within video data, critical for accurate interpretation of actions and events."
+    },
+    "open_sourcing": "The authors have indicated that their code and data will be available upon acceptance."
+}

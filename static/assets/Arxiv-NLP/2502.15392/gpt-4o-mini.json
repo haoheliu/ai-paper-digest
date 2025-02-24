@@ -1,0 +1,22 @@
+{
+    "title": "Chitrarth: Bridging Vision and Language for a Billion People",
+    "author": "Shaharukh Khan (Krutrim AI), Ayush Tarun (Krutrim AI), Abhinav Ravi (Krutrim AI), Ali Faraz (Krutrim AI), Akshat Patidar (Krutrim AI), Praveen Pokala (Krutrim AI), Anagha Bhangare (Krutrim AI), Raja Kolla (Krutrim AI), ..., Shubham Agarwal (Krutrim AI)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper presents advancements in multilingual vision-language models that could inform methods for aligning visual data with audio-language tasks, particularly in low-resource language scenarios.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "Developing a Vision-Language Model (VLM) that effectively understands and translates images into multiple Indian languages to enhance accessibility for diverse linguistic populations.",
+    "contribution": "Chitrarth introduces a multilingual Vision-Language Model to solve the language diversity gap in existing models, achieving state-of-the-art results on diverse benchmarks across multiple Indian languages.",
+    "technical_comparison": {
+        "prior_work": "Many existing Vision-Language Models (VLMs) focus predominantly on English or high-resource languages, limiting their applicability in low-resource scenarios.",
+        "novelty": "This work enhances capabilities by integrating multiple Indian languages into a unified VLM framework trained on a tailored dataset, improving performance in regional contexts."
+    },
+    "key_innovation": "Chitrarth is unique in its dual-stage training approach and support for multiple Indic languages, ensuring high cross-lingual performance based on robust visual-textual alignment techniques.",
+    "real_world_impact": "By improving accessibility in AI systems for over a billion people in India, Chitrarth has the potential to facilitate broader use of AI technologies in education, government, and personal applications.",
+    "limitations": "The reliance on automated translation may introduce biases and misrepresentations, affecting content accuracy in culturally specific contexts.",
+    "new_terms": {
+        "Vision-Language Model (VLM)": "**Vision-Language Model** refers to a type of AI model designed to understand and generate textual descriptions based on visual inputs.",
+        "multimodal instruction tuning": "**Multimodal instruction tuning** is a technique used to train models on multiple modalities (e.g., text and images), enabling them to follow complex instructions effectively."
+    },
+    "open_sourcing": ""
+}

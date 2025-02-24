@@ -1,0 +1,22 @@
+{
+    "title": "EvoP: Robust LLM Inference via Evolutionary Pruning",
+    "author": "Shangyu Wu (City University of Hong Kong), Hongchao Du (City University of Hong Kong), Ying Xiong (Mohammed bin Zayed University of Artificial Intelligence), Shuai Chen (Baidu), Tei-Wei Kuo (National Taiwan University), Nan Guan (City University of Hong Kong), Chun Jason Xue (Mohammed bin Zayed University of Artificial Intelligence), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The evolutionary pruning framework and calibration dataset strategies presented could be applied to optimize LLMs for audio processing tasks, enhancing efficiency and performance in audio-language models.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper proposes a framework for optimizing large language models by selectively removing components to reduce their computational demands while maintaining performance.",
+    "contribution": "EvoP introduces a cluster-based calibration dataset sampling method and an evolutionary pruning pattern search to solve the problem of efficient inference for large language models, achieving improved performance and efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods employed heuristic strategies that often led to suboptimal pruning patterns, especially in larger model spaces.",
+        "novelty": "This work introduces an evolutionary approach to systematically explore pruning patterns, significantly enhancing optimality in performance."
+    },
+    "key_innovation": "Combines evolutionary algorithms with data-driven sampling to intelligently prune components of large language models based on diverse dataset characteristics.",
+    "real_world_impact": "This framework can enable more efficient deployment of large language models in resource-constrained environments, facilitating broader accessibility and application in various domains, including speech and audio processing.",
+    "limitations": "The search time for optimal pruning patterns is longer than existing methods, requiring hours for execution.",
+    "new_terms": {
+        "Evolutionary Pruning": "**Evolutionary Pruning** refers to a method that uses evolutionary algorithms to optimize the process of removing unimportant components from neural networks.",
+        "Cluster-based Calibration Dataset Sampling": "**Cluster-based Calibration Dataset Sampling** is a technique for selecting diverse and representative samples from a dataset by grouping similar data points together."
+    },
+    "open_sourcing": "Codes are available at https://anonymous.4open.science/r/EvoP-D4DA"
+}

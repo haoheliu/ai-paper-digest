@@ -1,0 +1,22 @@
+{
+    "title": "ESPnet-SpeechLM: An Open Speech Language Model Toolkit",
+    "author": "Jinchuan Tian (Carnegie Mellon University), Jiatong Shi (Carnegie Mellon University), William Chen (Carnegie Mellon University), Siddhant Arora (Carnegie Mellon University), Yoshiki Masuyama (Mitsubishi Electric Research Laboratories), Takashi Maekaku (LY Corporation), Yihan Wu (Renmin University of China), Junyi Peng (Brno University of Technology), ..., Shinji Watanabe (Carnegie Mellon University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces a toolkit that facilitates the development of speech language models (SpeechLMs), which can directly aid Haohe Liu's research in audio and speech processing, particularly in generating and manipulating audio with text inputs.",
+    "field": "Applications-Speech and Audio",
+    "background": "ESPnet-SpeechLM is a toolkit that streamlines the tasks related to speech language models by framing them as sequential modeling problems, intending to improve the performance of automatic speech recognition, text-to-speech, and other audio applications.",
+    "contribution": "This paper introduces the ESPnet-SpeechLM toolkit to solve the challenges in developing and deploying Speech Language Models, achieving competitive performance benchmarks across multiple tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in speech model development often lacked standardization and ease-of-use, requiring significant expertise for training and evaluation.",
+        "novelty": "This work simplifies the pipeline by allowing users to define task templates and automatically handle preprocessing, training, and evaluation in a modular workflow."
+    },
+    "key_innovation": "The toolkit's ability to support multiple speech tasks in a unified framework and provide configurable options for various modeling techniques sets it apart.",
+    "real_world_impact": "This toolkit can significantly enhance the accessibility and efficiency of speech technology research and applications, leading to improvements in products like voice assistants and speech translation systems.",
+    "limitations": "No",
+    "new_terms": {
+        "Speech Language Models (SpeechLMs)": "**Speech Language Models (SpeechLMs)** are models designed to process and generate speech data, combining aspects of natural language processing with audio signal processing.",
+        "autoregressive prediction": "**Autoregressive prediction** refers to a modeling technique where future values in a sequence are predicted based on past values, commonly used in sequential data tasks."
+    },
+    "open_sourcing": "The toolkit and its recipes are fully transparent and reproducible at: https://github.com/espnet/espnet/tree/speechlm"
+}

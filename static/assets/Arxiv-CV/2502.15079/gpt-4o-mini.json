@@ -1,0 +1,21 @@
+{
+    "title": "Can Hallucination Correction Improve Video-Language Alignment?",
+    "author": "Lingjun Zhao (University of Maryland, College Park), Mingyang Xie (University of Maryland, College Park), Paola Cascante-Bonilla (Stony Brook University), Hal Daum\u00e9 III (University of Maryland, College Park), Kwonjoon Lee (Honda Research Institute), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The notion of hallucination correction and its application to improve alignment between video and language could be relevant for enhancing audio and speech processing tasks, such as ensuring the accuracy of audio descriptions in automated systems.",
+    "field": "Applications-Language",
+    "background": "Improving the alignment between video content and textual descriptions to enhance cross-modal understanding and retrieval tasks in video-language models.",
+    "contribution": "This paper introduces a self-training framework called Hallucination Correction for video-language alignment, achieving improvements in video-caption binding and text-to-video retrieval tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with fine-tuning Video-Language Models (Video-LLMs) on binary entailment tasks without addressing the misalignment of specific parts of the description.",
+        "novelty": "This work improves video-language alignment by using detailed hallucination correction tasks rather than simple binary classification."
+    },
+    "key_innovation": "Involves identifying and correcting inconsistencies between video content and descriptions, which leads to enhanced understanding of complex spatiotemporal relationships.",
+    "real_world_impact": "Enhancing video-language alignment can improve applications in various fields such as autonomous vehicles, video captioning, and interactive learning systems. No immediate real-world impact is noted.",
+    "limitations": "The method assumes the availability of accurate ground-truth annotations for training and does not address long video content limitations due to computational constraints.",
+    "new_terms": {
+        "hallucination": "**Hallucination** refers to the generation of content in textual descriptions that does not accurately reflect the actual content present in video or image inputs."
+    },
+    "open_sourcing": "Our code and data will be available upon acceptance."
+}

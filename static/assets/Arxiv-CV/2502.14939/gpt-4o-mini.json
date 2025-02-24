@@ -1,0 +1,22 @@
+{
+    "title": "Online hand gesture recognition using Continual Graph Transformers",
+    "author": "Rim Slama (CESI LINEACT, UR 7527), Wael Rabah (CESI LINEACT), Hazem Wannous (IMT Nord Europe), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed use of Transformer-based Graph Encoders for temporal feature extraction could inspire similar applications in audio data analysis, especially in capturing temporal dependencies.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Hand gesture recognition involves real-time classification of continuous sequences of movements made by the human hand, without pre-segmenting gestures.",
+    "contribution": "This paper introduces a hybrid architecture combining Spatial Graph Convolutional Networks and Transformer-based Graph Encoder to enhance the recognition of online hand gestures, improving accuracy and reducing false positives.",
+    "technical_comparison": {
+        "prior_work": "Previous skeleton-based methods focused on segment-based recognition, which are not equipped for real-time applications and often suffer from a lack of temporal coherence.",
+        "novelty": "This work integrates a continual learning mechanism into the architecture, improving adaptability to evolving data distributions in dynamic environments."
+    },
+    "key_innovation": "Employs a memory mechanism in the Transformer component to manage a continuous stream of feature vectors, enhancing real-time processing efficiency.",
+    "real_world_impact": "The framework is applicable in crucial areas like human-robot collaboration, healthcare, and assistive technologies, promoting more natural interactions between humans and machines.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "Spatial Graph Convolutional Networks": "**Spatial Graph Convolutional Networks (S-GCN)** employ graph structural data to encapsulate relationships of elements in multi-dimensional spaces for spatial feature extraction.",
+        "Transformer-based Graph Encoder": "**Transformer-based Graph Encoder (TGE)** applies the self-attention mechanism of transformers to graph-structured data for capturing sequential dependencies."
+    },
+    "open_sourcing": ""
+}

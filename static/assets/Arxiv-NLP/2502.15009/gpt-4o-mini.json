@@ -1,0 +1,19 @@
+{
+    "title": "Contextualizing Search Queries In-Context Learning for Conversational Rewriting with LLMs",
+    "author": "Raymond Wilson (National Energy University), Chase Carter (National Energy University), Cole Graham (National Energy University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The proposed method of conversational query rewriting could be adapted for use in audio-language alignment or improving interactive systems in audio applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "Transforming context-dependent user queries into context-independent queries suitable for search engines, particularly in conversational settings.",
+    "contribution": "This paper introduces Prompt-Guided In-Context Learning to solve conversational query rewriting, achieving significant performance improvements across benchmark datasets.",
+    "technical_comparison": "Previous methods relied heavily on large labeled datasets for training, which are scarce in low-resource settings. This work improves by utilizing few-shot in-context learning techniques without requiring extensive fine-tuning.",
+    "key_innovation": "Unique in its approach to leverage pre-trained Large Language Models (LLMs) for query rewriting through designed prompts without the need for explicit training.",
+    "real_world_impact": "Could enhance conversational AI interactions, making systems like voice assistants more effective in understanding user intents in lower-resource environments.",
+    "limitations": "Does not adequately address potential biases in conversational contexts or the adaptability of the model to different languages and cultures.",
+    "new_terms": {
+        "in-context learning": "**In-context learning** refers to the capability of a model to learn and adapt to new tasks by using context provided in prompts without requiring explicit parameter tuning.",
+        "prompt-guided learning": "**Prompt-guided learning** involves structuring input prompts to guide model behavior and understanding in achieving desired outputs."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Interpreting and Steering LLMs with Mutual Information-based Explanations on Sparse Autoencoders",
+    "author": "Xuansheng Wu (University of Georgia), Jiayi Yuan (Rice University), Wenlin Yao (Amazon), Xiaoming Zhai (University of Georgia), Ninghao Liu (University of Georgia), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper discusses novel methods to interpret and steer Large Language Models (LLMs) using explanations derived from sparse autoencoders, which could be applicable to text-to-audio or audio-related generation tasks requiring nuanced control.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper focuses on developing methods for interpreting and modifying the behaviors of Large Language Models to improve control and safety in responses.",
+    "contribution": "This paper introduces mutual information-based explanations for learned features in sparse autoencoders to enhance discourse-level understanding and steer LLM behaviors effectively.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely extracted surface-level linguistic patterns leading to limited explanations.",
+        "novelty": "This work overcomes the frequency bias by utilizing a fixed vocabulary and mutual information to ensure more meaningful discourse-level explanations."
+    },
+    "key_innovation": "Utilizes a structured approach to derive explanations that capture semantic meanings rather than just frequent linguistic patterns.",
+    "real_world_impact": "Enhancements in understanding and steering LLMs can improve safety and reliability in applications such as automated customer support and content generation.",
+    "limitations": "The approach builds upon existing sparse autoencoders, which may still inherit some frequency bias.",
+    "new_terms": {
+        "sparse autoencoder": "**Sparse autoencoder** is a type of neural network designed to learn a representation of data that includes many zeros in its output, focusing on capturing unique features.",
+        "frequency bias": "**Frequency bias** refers to the tendency of previous interpretation methods to prioritize commonly occurring linguistic patterns over less frequent but semantically important concepts."
+    },
+    "open_sourcing": "The authors have committed to releasing the code and data upon acceptance."
+}

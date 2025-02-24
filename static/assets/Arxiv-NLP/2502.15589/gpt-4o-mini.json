@@ -1,0 +1,21 @@
+{
+    "title": "LightThinker: Thinking Step-by-Step Compression",
+    "author": "Jintian Zhang (Zhejiang University), Yuqi Zhu (Zhejiang University), Mengshu Sun (Ant Group), Yujie Luo (Zhejiang University), Shuofei Qiao (Zhejiang University), Lun Du (Ant Group), Da Zheng (Ant Group), Huajun Chen (Zhejiang University), Ningyu Zhang (Zhejiang University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The approach of dynamically compressing intermediate thoughts during reasoning could inform similar techniques in audio processing tasks, such as efficient representation of audio features or thought-based interaction with audio content.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Improving the efficiency of Large Language Models (LLMs) in complex reasoning tasks by dynamically compressing verbose reasoning chains into succinct representations.",
+    "contribution": "LightThinker introduces a method to compress reasoning chains dynamically, significantly reducing memory usage by 70% while preserving accuracy with only a 1% drop.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in LLMs relied on static compressions or token-wise importance assessments that increased inference time and complexity.",
+        "novelty": "This work improves by enabling real-time compression tied to the thought process, allowing the model to selectively store essential information."
+    },
+    "key_innovation": "LightThinker decouples the tasks of compressing thoughts and generating subsequent reasoning, allowing for more efficient processing without significant information loss.",
+    "real_world_impact": "This method can enhance the deployment of LLMs in applications requiring quick inference from large context, potentially impacting fields like conversational agents and automated reasoning systems.",
+    "limitations": "The compression approach may lead to information loss during complex reasoning tasks, which can influence overall performance.",
+    "new_terms": {
+        "gist tokens": "**Gist tokens** are compact representations derived from verbose reasoning steps, aimed at retaining only essential semantic information for further computation."
+    },
+    "open_sourcing": "Code will be released at https://github.com/zjunlp/LightThinker"
+}

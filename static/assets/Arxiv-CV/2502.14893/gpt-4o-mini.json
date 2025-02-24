@@ -1,0 +1,22 @@
+{
+    "title": "NOTA: Multimodal Music Notation Understanding for Visual Large Language Model",
+    "author": "Mingni Tang (Wuhan University), Jiajia Li (Wuhan University), Lu Yang (Wuhan University), Zhiqiang Zhang (Wuhan University), Jinghao Tian (Wuhan University), Zuchao Li (Wuhan University), Lefei Zhang (Wuhan University), Ping Wang (Wuhan University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The proposed NOTA dataset and NotaGPT model can enhance audio and music processing tasks by providing multimodal data integration strategies, which may support future applications in audio generation and analysis.",
+    "field": "Applications-Creative AI",
+    "background": "Multimodal music understanding: teaching a model to comprehend music notation in both visual (sheet music) and textual (ABC notation) formats to facilitate deeper music analysis and interaction.",
+    "contribution": "NOTA introduces a comprehensive dataset for multimodal music understanding to solve limitations in existing models and datasets, achieving state-of-the-art performance in music information extraction tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing models primarily focus on single modalities like audio or text, limiting their understanding of music notation in visual formats.",
+        "novelty": "This work integrates visual and textual representations, allowing the model to recognize and analyze music scores more effectively."
+    },
+    "key_innovation": "The use of a unique dataset that combines over 1 million records of music scores across diverse global regions with a specific training regimen tailored for cross-modal understanding.",
+    "real_world_impact": "Facilitates advancements in music generation and analysis tools, opening avenues for improved music education technologies and interactive musical applications.",
+    "limitations": "No specific limitations were mentioned in the paper.",
+    "new_terms": {
+        "cross-modal alignment": "**Cross-modal alignment** refers to the process of matching data from different modalities (e.g., images and text) to improve comprehension and performance in tasks involving multiple data types.",
+        "multimodal large language models (MLLMs)": "**Multimodal large language models (MLLMs)** are advanced AI systems that can interpret and generate content involving various forms of data, including text, images, and audio."
+    },
+    "open_sourcing": "Datasets are open-sourced at https://huggingface.co/datasets/MYTH-Lab/NOTA-dataset"
+}

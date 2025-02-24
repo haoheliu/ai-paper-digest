@@ -1,0 +1,22 @@
+{
+    "title": "Corrections Meet Explanations: A Unified Framework for Explainable Grammatical Error Correction",
+    "author": "Jingheng Ye (Tsinghua University), Shang Qin (Tsinghua University), Yinghui Li (Tsinghua University), Hai-Tao Zheng (Tsinghua University, Peng Cheng Laboratory), Shen Wang (Squirrel Ai Learning), Qingsong Wen (Squirrel Ai Learning), ..., Hai-Tao Zheng (Tsinghua University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The framework introduces a systematic approach to integrate correction and explanation in grammatical error correction tasks, which can inspire similar strategies in audio domain tasks such as speech enhancement or restoration.",
+    "field": "Applications-Language",
+    "background": "The paper addresses the challenge of providing explainable corrections in grammatical error correction systems, especially for language learners who benefit from understanding the reasons behind corrections.",
+    "contribution": "This paper introduces EXGEC, a unified explainable grammatical error correction framework that integrates correction and explanation tasks to improve the performance and provide insights into model decisions.",
+    "technical_comparison": {
+        "prior_work": "Existing GEC systems often focus solely on corrections or provide post hoc explanations without integrating both tasks.",
+        "novelty": "EXGEC uniquely formulates the multi-task problem as a generative task, allowing for collaborative learning of corrections and explanations."
+    },
+    "key_innovation": "The framework's generative approach enables the simultaneous generation of corrections and explanations, fostering a mutual reinforcement that enhances model performance.",
+    "real_world_impact": "The design offers potential improvements in educational tools for language learners by increasing trust and understanding of GEC outputs, possibly leading to better learning outcomes in writing.",
+    "limitations": "The study relies on the EXPECT-*denoised* dataset which may not fully represent real-world language complexities, as it simplifies sentences to one distinct grammatical error.",
+    "new_terms": {
+        "evidence words": "**Evidence words** are specific words in a sentence that provide cues for corrections in grammatical error correction tasks.",
+        "EXGEC": "**EXplainable Grammatical Error Correction (EXGEC)** is a proposed unified framework that integrates correction and explanation tasks in grammatical error correction."
+    },
+    "open_sourcing": ""
+}

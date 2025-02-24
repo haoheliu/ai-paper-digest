@@ -1,0 +1,22 @@
+{
+    "title": "GneissWeb: Preparing High Quality Data for LLMs at Scale",
+    "author": "Hajar Emami Gohari (IBM Research), Swanand Ravindra Kadhe (IBM Research), Syed Yousaf Shah (IBM Research), Constantin Adam (IBM Research), Abdulhamid Adebayo (IBM Research), Praneet Adusumilli (IBM Research), Farhan Ahmed (IBM Research), Nathalie Baracaldo Angel (IBM Research), ... Bishwaranjan Bhattacharjee (IBM Research)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper presents techniques for preparing large-scale high-quality datasets for training Large Language Models (LLMs), which can improve data quality for audio-related tasks that utilize LLMs.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Generating a high-quality, large dataset (approximately 10 trillion tokens) for effectively training Large Language Models (LLMs) that improves their performance across various benchmarks.",
+    "contribution": "GneissWeb introduces a meticulous data preparation recipe that combines sharded exact substring deduplication and an ensemble of quality filters to optimize the training data, achieving higher performance than existing datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous high-quality datasets like FineWeb applied aggressive filtering that often reduced data quantity and diversity.",
+        "novelty": "This work incorporates a multi-faceted ensemble of quality filters, allowing for flexibility in filtering parameters while maintaining substantial amounts of training data."
+    },
+    "key_innovation": "The GneissWeb recipe features an ensemble of quality filters and deduplication strategies that allows for retaining more high-quality data than traditional approaches.",
+    "real_world_impact": "By significantly enhancing the quality and quantity of training datasets for LLMs, this work could drive advancements in natural language understanding tasks across various applications, including audio processing.",
+    "limitations": "No",
+    "new_terms": {
+        "Large Language Models (LLMs)": "**Large Language Models (LLMs)** are neural network models that learn from vast amounts of text data to understand and generate human-like text.",
+        "sharded exact substring deduplication": "**Sharded exact substring deduplication** refers to a method of removing duplicate text fragments from datasets in manageable sections to prevent inefficiencies during training."
+    },
+    "open_sourcing": "The dataset preparation tools will be publicly released via IBM's data-prep-kit on GitHub."
+}

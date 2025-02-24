@@ -1,0 +1,22 @@
+{
+    "title": "Improving Streaming Speech Recognition With Time-Shifted Contextual Attention And Dynamic Right Context Masking",
+    "author": "Khanh Le (Zalo AI), Duc Chau (University of Science), Duc Chau (Vietnam National University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The techniques proposed, particularly Time-Shifted Contextual Attention, could enhance speech modeling and synthesis tasks by leveraging context more efficiently, directly applicable to Haohe's work in speech and audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Real-time streaming speech recognition systems process audio input in chunks, requiring efficient modeling of both past and future audio context to improve accuracy.",
+    "contribution": "This work introduces Time-Shifted Contextual Attention and Dynamic Right Context masking to solve the limitation of chunk-based processing, achieving a relative word error rate reduction of 10 to 13.9% on the Librispeech dataset.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on historical context or static chunk sizes, potentially leading to performance loss when future contexts are needed.",
+        "novelty": "This research allows for dynamic adaptation of future context during the decoding process, optimizing contextual usage without increasing computation costs."
+    },
+    "key_innovation": "The novel masking techniques dynamically integrate future contextual frames during decoding, significantly improving the system's performance while maintaining low latency.",
+    "real_world_impact": "These advancements can lead to more accurate and responsive speech recognition systems, enhancing applications in virtual assistants and transcription services.",
+    "limitations": "The paper does not explicitly mention significant limitations; however, the system's dependence on chunk size may still impose some constraints.",
+    "new_terms": {
+        "Time-Shifted Contextual Attention": "**Time-Shifted Contextual Attention (TSCA)** is a mechanism that incorporates future context information in streaming speech recognition by caching and shifting audio frames.",
+        "Dynamic Right Context Masking": "**Dynamic Right Context Masking (DRC)** is a masking technique that allows a model to adaptively expand its context window, enhancing attention mechanisms in speech processing."
+    },
+    "open_sourcing": ""
+}

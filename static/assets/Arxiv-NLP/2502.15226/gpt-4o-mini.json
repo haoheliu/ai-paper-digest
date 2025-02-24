@@ -1,0 +1,21 @@
+{
+    "title": "Understand User Opinions of Large Language Models via LLM-Powered In-the-Moment User Experience Interviews",
+    "author": "Mengqiao Liu (Amazon), Tevin Wang (School of Computer Science, Carnegie Mellon University), Cassandra A. Cohen (School of Computer Science, Carnegie Mellon University), Sarah Li (University of California, Berkeley), Chenyan Xiong (School of Computer Science, Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses large language models (LLMs) and proposes a novel methodology for understanding user experience through in-the-moment interviews. Insights extracted from user interactions can inform and improve audio and speech models, especially regarding user engagement and satisfaction.",
+    "field": "Applications-Language",
+    "background": "The study uses large language models to conduct user experience interviews to gather insights about user interactions and opinions directly after using various LLMs.",
+    "contribution": "This paper introduces CLUE, a framework for in-the-moment user experience interviews to gather insights on user opinions of language models, capturing nuanced feedback effectively.",
+    "technical_comparison": {
+        "prior_work": "Previous user experience studies often relied on retrospective interviews or limited feedback mechanisms, which could miss immediate user sentiments.",
+        "novelty": "By leveraging LLMs for real-time interviews, this work provides a more responsive and detailed understanding of user perceptions and suggestions."
+    },
+    "key_innovation": "Utilizes LLM capabilities to automate and enhance the user interview process, allowing for large-scale data collection and immediate insights.",
+    "real_world_impact": "This method could significantly influence how developers gather user feedback on AI systems, leading to improvements in user satisfaction and functionality in AI applications.",
+    "limitations": "The study's participant pool is limited to Amazon Mechanical Turk users, which may not represent a broader audience.",
+    "new_terms": {
+        "CLUE": "**CLUE** stands for Contextualized LLM-powered User Experience understanding, a framework designed for eliciting user feedback post-interaction with language models."
+    },
+    "open_sourcing": "The authors plan to release collected chat-and-interview logs for public use."
+}

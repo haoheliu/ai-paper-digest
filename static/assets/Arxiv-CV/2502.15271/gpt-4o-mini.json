@@ -1,0 +1,21 @@
+{
+    "title": "Omnidirectional Image Quality Captioning: A Large-scale Database and A New Model",
+    "author": "Jiebin Yan (Jiangxi University of Finance and Economics), Ziwen Tan, Yuming Fang, Junjie Chen, Wenhui Jiang, Zhou Wang (University of Waterloo)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed IQCaption360 model and the methodology of generating quality captions could be beneficial in enhancing audio captioning tasks, particularly in generating descriptive audio representations based on visual quality assessments.",
+    "field": "Applications-Creative AI",
+    "background": "Creating a model for generating quality captions for omnidirectional images, which helps assess and describe visual quality in a more nuanced way, rather than simply providing a numerical score.",
+    "contribution": "This paper introduces the OIQ-10K database and the IQCaption360 model to solve the problem of omnidirectional image quality assessment and captioning, achieving improved performance over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous objective models for omnidirectional image quality assessment often oversimplified the assessment by providing a single quality score.",
+        "novelty": "This work enhances the assessment by generating detailed captions describing the quality and distortion types, offering a richer representation of image quality."
+    },
+    "key_innovation": "The unique aspect of this model is its ability to generate textual quality captions based on complex distortions in omnidirectional images, integrating visual and textual analysis.",
+    "real_world_impact": "This work can potentially improve applications in virtual reality and immersive environments by providing better quality assessments, ultimately enhancing user experiences in visual media.",
+    "limitations": "No",
+    "new_terms": {
+        "omnidirectional images": "**Omnidirectional images** are photographs that capture all 360 degrees of a scene, allowing immersive viewing experiences."
+    },
+    "open_sourcing": "The OIQ-10K database and related source codes are available at https://github.com/WenJuing/IQCaption360."
+}

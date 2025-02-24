@@ -1,0 +1,22 @@
+{
+    "title": "VaViM and VaVAM: Autonomous Driving through Video Generative Modeling",
+    "author": "Florent Bartoccioni (Valeo.ai), Elias Ramzi (Valeo.ai), Victor Besnier, Shashanka Venkataramanan, Tuan-Hung Vu, Yihong Xu, Loick Chambon, ..., Matthieu Cord (Valeo.ai & Sorbonne Universit\u00e9)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The principles of video generative modeling and imitation learning could inform audio-visual applications in generative AI, particularly in creating coherent, context-aware audio narratives.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Developing an autonomous driving framework that uses generative video models to predict future driving trajectories based on visual inputs and high-level goals.",
+    "contribution": "This paper introduces VaViM, an auto-regressive video model, and its companion VaVAM to create a perception-to-action system for autonomous driving, demonstrating the transferability of video generative pre-training to driving tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous models focused primarily on generating visually appealing videos without direct relevance to real-world applications in driving.",
+        "novelty": "This work utilizes learned video representations to drive vehicles, marking a significant step towards integrating generative models into practical autonomous systems."
+    },
+    "key_innovation": "Combines a video generative model with an action module for real-time decision-making in autonomous driving, using spatio-temporal features extracted from video inputs.",
+    "real_world_impact": "This research has the potential to advance the safety and robustness of autonomous driving systems by leveraging rich video data for enhanced decision-making.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "auto-regressive": "**Auto-regressive** modeling refers to the statistical technique where current values are predicted based on past values in a sequence.",
+        "spatio-temporal representation": "**Spatio-temporal representation** denotes a data structure that captures both spatial and temporal information, crucial for analyzing dynamic processes."
+    },
+    "open_sourcing": "The code and model weights are available at [github.com/valeoai/VideoActionModel](https://github.com/valeoai/VideoActionModel)."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "DISPLAY FIELD-OF-VIEW AGNOSTIC ROBUST CT KERNEL SYNTHESIS USING MODEL-BASED DEEP LEARNING",
+    "author": "Hemant Kumar Aggarwal (Science and Technology Organization, GE HealthCare), Antony Jerald (Science and Technology Organization, GE HealthCare), Phaneendra K. Yalavarthy (Science and Technology Organization, GE HealthCare), Rajesh Langoju (Science and Technology Organization, GE HealthCare), Bipul Das (Science and Technology Organization, GE HealthCare), ..., Rajesh Langoju (Science and Technology Organization, GE HealthCare)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The method introduces a model-based deep learning approach that integrates kernel modulation transfer functions, which can inspire similar techniques in audio processing tasks.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Injecting robust kernel synthesis to improve CT imaging quality, independent of variations in the display field of view (DFOV).",
+    "contribution": "This paper introduces a model-based deep learning framework to achieve DFOV-agnostic image kernel synthesis, improving the robustness of CT imaging against noise.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods struggle with DFOV variations and often result in decreased image quality when synthesizing from smooth to sharp kernels.",
+        "novelty": "This work significantly improves upon prior methods by incorporating a forward model that leverages kernel modulation transfer functions, enhancing noise management."
+    },
+    "key_innovation": "Explicitly incorporates physical characteristics of CT imaging into the training of deep learning models, enabling robust image synthesis across various conditions.",
+    "real_world_impact": "Enhances the diagnostic quality of CT images in healthcare, potentially leading to improved patient outcomes and more efficient imaging workflows.",
+    "limitations": "No.",
+    "new_terms": {
+        "modulation transfer functions": "**Modulation transfer functions (MTFs)** measure the capability of an imaging system to reproduce various levels of detail or contrast at different spatial frequencies.",
+        "Display Field-of-View (DFOV)": "**Display Field-of-View (DFOV)** refers to the range or area in which the CT images are displayed during imaging, affecting the detail and quality of the reconstructed images."
+    },
+    "open_sourcing": ""
+}

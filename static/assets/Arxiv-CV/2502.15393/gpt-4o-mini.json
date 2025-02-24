@@ -1,0 +1,22 @@
+{
+    "title": "LongCaptioning: Unlocking the Power of Long Caption Generation in Large Multimodal Models",
+    "author": "Hongchen Wei (Wuhan University), Zhihong Tan (Wuhan University), Yaosi Hu (Hong Kong Polytechnic University), Changwen Chen (Hong Kong Polytechnic University), Zhenzhong Chen (Wuhan University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The methodologies for generating long captions from videos could be adapted for audio and speech tasks, potentially enhancing automated audio captioning systems, which is aligned with Dr. Liu's research interests.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of generating long and informative captions for videos using Large Multimodal Models (LMMs), which typically struggle with lengthy outputs.",
+    "contribution": "This paper introduces LongCaption-Agent to synthesize long-caption data, enabling models to generate captions exceeding 1,000 words.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches to video captioning primarily focused on short captions, limiting their application in contexts requiring detailed descriptions.",
+        "novelty": "This work incorporates a novel three-stage caption synthesis framework, using frame-level and clip-level information to enhance detail and coherence in generated captions."
+    },
+    "key_innovation": "The LongCaption-Agent framework uniquely combines multi-level video descriptions to produce comprehensive long video captions, leveraging existing LMM capabilities.",
+    "real_world_impact": "By improving long caption generation, this work could enhance accessibility for visually impaired users and aid in content summarization for diverse applications.",
+    "limitations": "No specific limitations are mentioned regarding the framework or dataset construction.",
+    "new_terms": {
+        "Long Multimodal Models (LMMs)": "**Long Multimodal Models** are advanced models that can process and understand data from multiple modalities such as text, image, and video.",
+        "LongCaption-Agent": "**LongCaption-Agent** is a proposed framework for generating long video captions by aggregating details from multiple video segments."
+    },
+    "open_sourcing": "The LongCaption-10K dataset and code will be released post-publication."
+}

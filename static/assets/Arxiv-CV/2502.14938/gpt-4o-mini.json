@@ -1,0 +1,22 @@
+{
+    "title": "GS-Cache: A GS-Cache Inference Framework for Large-scale Gaussian Splatting Models",
+    "author": "Miao Tao (Shanghai Artificial Intelligence Laboratory), Yuanzhen Zhou (Shanghai Artificial Intelligence Laboratory), Haoran Xu (Shanghai Artificial Intelligence Laboratory), Zeyu He (Shanghai Artificial Intelligence Laboratory), Zhenyu Yang (Shanghai Artificial Intelligence Laboratory), Yuchang Zhang (Shanghai Artificial Intelligence Laboratory), Zhongling Su (Shanghai Artificial Intelligence Laboratory), Linning Xu (Shanghai Artificial Intelligence Laboratory), ..., Jidong Zhai (Tsinghua University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed framework addresses real-time rendering demands which could influence audio/visual synchronization and rendering quality in immersive environments, potentially beneficial for audio-visual integration tasks.",
+    "field": "Applications-Vision",
+    "background": "Optimizing the inference and rendering of large-scale 3D Gaussian models to achieve high-quality, real-time graphics, specifically for applications in virtual reality.",
+    "contribution": "This paper introduces a cache-centric rendering pipeline to optimize large-scale Gaussian splatting, achieving up to 5.35 times performance improvement and supporting high-FPS rendering for VR environments.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for 3D rendering, particularly in VR contexts, often suffer from high latency and rendering inefficiencies, lacking sufficient optimization for large scenes.",
+        "novelty": "This work improves by integrating dynamic caching strategies and elastic multi-GPU scheduling, which dynamically allocates computational resources based on scene complexity to maintain rendering performance."
+    },
+    "key_innovation": "The combination of a dynamic cache system for reusing computation results with an elastic scheduling strategy ensures efficient resource management during rendering.",
+    "real_world_impact": "The framework can significantly enhance the performance of VR applications, making immersive experiences more accessible on consumer-grade hardware. It potentially influences other domains like audio-visual synchronization in augmented reality.",
+    "limitations": "No",
+    "new_terms": {
+        "Gaussian Splatting": "**Gaussian Splatting** refers to a method for rendering complex scenes using 3D Gaussian distributions to model shapes and colors in a computationally efficient manner.",
+        "cache-centric pipeline": "**Cache-centric pipeline** describes a rendering approach that utilizes cached data from previous computations to reduce redundancy and optimize rendering speed."
+    },
+    "open_sourcing": ""
+}

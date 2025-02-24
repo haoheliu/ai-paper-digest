@@ -1,0 +1,21 @@
+{
+    "title": "FLEKE: Federated Locate-then-Edit Knowledge Editing",
+    "author": "Zongkai Zhao (Chongqing University), Guozeng Xu (Chongqing University), Xiuhua Li (Chongqing University), Kaiwen Wei (Chongqing University), Jiang Zhong (Chongqing University), ..., Zongkai Zhao (Chongqing University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces Federated Locate-then-Edit Knowledge Editing (FLEKE), which combines knowledge editing with federated learning. This could be useful for Haohe Liu's research on audio generation and management systems, where decentralized updates in collaborative training may be beneficial.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Federated learning enables multiple organizations to collaboratively train machine learning models while keeping their data private, which is particularly useful in sensitive fields.",
+    "contribution": "This paper introduces FLEKE as a framework that enhances knowledge editing efficiency across multiple clients, achieving a high accuracy in knowledge retention while minimizing computational costs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in knowledge editing operated in single-client settings, often leading to redundant computations and privacy issues.",
+        "novelty": "FLEKE allows for collaborative knowledge editing by efficiently sharing computed knowledge vectors across clients without compromising data privacy."
+    },
+    "key_innovation": "FLEKE's use of a two-stage process (editing and re-editing) minimizes redundant computation and allows clients to select and reuse knowledge representations effectively.",
+    "real_world_impact": "This work paves the way for more efficient knowledge management in decentralized scenarios, particularly in healthcare and finance, enhancing model adaptability and privacy.",
+    "limitations": "The authors acknowledge challenges with non-IID data across clients, which may cause instability in the models.",
+    "new_terms": {
+        "Federated Learning": "**Federated Learning** is a machine learning approach that allows multiple organizations to collaboratively train a model while keeping training data decentralized and secure, enhancing privacy."
+    },
+    "open_sourcing": "The code is available at https://github.com/zongkaiz/FLEKE."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "UPCMR: A Universal Prompt-guided Model for Random Sampling Cardiac MRI Reconstruction",
+    "author": "Donghang Lyu (Leiden University Medical Center), Chinmay Rao (Leiden University Medical Center), Marius Staring (Leiden University Medical Center), Matthias J.P. van Osch (Leiden University Medical Center), Mariya Doneva (Philips Innovative Technologies), Hildo J. Lamb (Leiden University Medical Center), Nicola Pezzotti (Cardiologs, Philips), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper presents a novel approach to MRI reconstruction which leverages prompt-based learning, a method that can be adapted for audio processing tasks like denoising or super-resolution in Haohe Liu's research area.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task is to reconstruct high-quality cardiac MRI images from undersampled k-space data to improve diagnostic efficiency in heart disease detection.",
+    "contribution": "UPCMR introduces a universal unrolled model that integrates learnable prompts into the UNet architecture to enhance adaptability across various random sampling scenarios in cardiac MRI reconstruction, achieving significant improvement in image quality.",
+    "technical_comparison": {
+        "prior_work": "Previous deep learning methods faced challenges adapting to varied undersampling scenarios, leading to inconsistent image quality.",
+        "novelty": "This work enhances adaptability by introducing two types of learnable prompts that guide the model according to specific undersampling configurations."
+    },
+    "key_innovation": "The integration of undersampling-specific and spatial-specific prompts within each block of the UNet architecture enhances the model's ability to generalize across different imaging conditions.",
+    "real_world_impact": "This model has potential applications in clinical settings, allowing for faster MRI scans with maintained image quality, which could significantly impact patient care and comfort.",
+    "limitations": "The model may struggle with high acceleration factors, resulting in detail loss and blurriness, indicating areas for further improvement.",
+    "new_terms": {
+        "k-space": "**k-space** is a frequency domain representation of MRI data used to reconstruct images, where sampling it forms the basis of MRI imaging.",
+        "prompt-based learning": "**Prompt-based learning** refers to the practice of utilizing additional information or 'prompts' to guide a model's performance, particularly in adapting large pre-trained models to specific tasks."
+    },
+    "open_sourcing": ""
+}

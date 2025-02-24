@@ -1,0 +1,23 @@
+{
+    "title": "A Survey of QUD Models for Discourse Processing",
+    "author": "Yingxue Fu (School of Computer Science, University of St Andrews), ..., Author last",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The QUD models discussed in this paper can be applied to enhance understanding of discourse structure, which is beneficial for tasks within speech and audio generation systems that require effective narrative comprehension.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper analyzes various computational models that utilize the Question Under Discussion (QUD) framework to better understand discourse and its processing.",
+    "contribution": "This survey introduces three primary QUD-based discourse models, detailing their theoretical foundations and practical applications, while comparing them to traditional discourse frameworks like RST and PDTB.",
+    "technical_comparison": {
+        "prior_work": "Traditional models rely on coherence relations and predefined discourse structures, which can be restrictive and complex.",
+        "novelty": "This work showcases the flexibility of QUDs in discourse representation, allowing for free-form question generation that may be easier and more intuitive for human annotators."
+    },
+    "key_innovation": "The conceptualization of discourse into a hierarchy of questions allows for a more dynamic understanding of discourse flow and interrelations between text units.",
+    "real_world_impact": "The insights gained from QUD models could guide advancements in natural language understanding, potentially improving applications in educational software, conversational agents, and narrative generation systems.",
+    "limitations": "Some challenges with inter-annotator agreement and the ambiguous nature of free-form questions may limit the robustness of QUD annotations.",
+    "new_terms": {
+        "QUD": "**Question Under Discussion** refers to implicit or explicit questions that structure discourse and guide the flow of conversation.",
+        "RST": "**Rhetorical Structure Theory** is a framework for analyzing the structure of texts based on the relationships between their constituents.",
+        "PDTB": "**Penn Discourse Treebank** is a resource that provides annotations for discourse connectives and their corresponding arguments."
+    },
+    "open_sourcing": ""
+}

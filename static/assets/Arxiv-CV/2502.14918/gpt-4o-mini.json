@@ -1,0 +1,22 @@
+{
+    "title": "RAPTOR: Refined Approach for Product Table Object Recognition",
+    "author": "Eliott THOMAS (Yooz, France), Mickael COUSTATY (La Rochelle Universit\u00e9, France), Aur\u00e9lie JOSEPH (Yooz, France), Gaspar DELOIN (Yooz, France), Vincent POULAIN D'ANDECY (Yooz, France), ..., Jean-Marc OGIER (La Rochelle Universit\u00e9, France)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper's focus on table extraction has potential applications in Hassle Liu's audio-language modeling work, particularly in data organization and retrieval contexts.",
+    "field": "Applications-Language",
+    "background": "Extracting tables from business documents involves identifying table boundaries and understanding their structure to efficiently retrieve and utilize information.",
+    "contribution": "This paper introduces RAPTOR, a modular post-processing system to improve table extraction accuracy from product tables, addressing specific detection and recognition errors.",
+    "technical_comparison": {
+        "prior_work": "Previous systems have struggled with diverse table formats, often leading to inaccuracies in area detection and overlaps.",
+        "novelty": "RAPTOR integrates Genetic Algorithms for parameter tuning and utilizes refinement modules, substantially improving extraction precision and structure recognition."
+    },
+    "key_innovation": "The modular design allows for tailored adjustments based on specific table types, enhancing performance even with limited training data.",
+    "real_world_impact": "RAPTOR could significantly streamline data extraction processes across industries like finance and logistics, improving operational efficiency and decision-making.",
+    "limitations": "The approach is heavily depended on business document characteristics, which may affect generalizability to different document contexts.",
+    "new_terms": {
+        "Table Detection (TD)": "**Table Detection (TD)** refers to the process of identifying areas in documents that contain tabular data.",
+        "Table Structure Recognition (TSR)": "**Table Structure Recognition (TSR)** involves understanding and parsing the internal layout and content of identified table areas."
+    },
+    "open_sourcing": "The authors have released a subset of the DOCILE dataset for table extraction tasks."
+}

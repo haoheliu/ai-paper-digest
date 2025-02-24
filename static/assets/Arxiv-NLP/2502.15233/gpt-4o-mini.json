@@ -1,0 +1,22 @@
+{
+    "title": "A General Pseudonymization Framework for Cloud-Based LLMs: Replacing Privacy Information in Controlled Text Generation",
+    "author": "Shilong Hou (College of Application and Technology, Shenzhen University), Ruilin Shang (College of Application and Technology, Shenzhen University), Zi Long (College of Big Data and Internet, Shenzhen Technology University), Xianghua Fu (College of Big Data and Internet, Shenzhen Technology University), Yin Chen (College of Big Data and Internet, Shenzhen Technology University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed pseudonymization framework can be beneficial for enhancing privacy in audio-related applications where sensitive information may be processed, such as in speech synthesis or audio captioning tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper explores how to safely utilize cloud-based large language models by replacing sensitive information in text prompts to mitigate privacy concerns during remote interactions.",
+    "contribution": "This paper introduces a structured pseudonymization framework for cloud-based large language models, achieving a balance between privacy protection and text generation utility.",
+    "technical_comparison": {
+        "prior_work": "Existing privacy measures focus on pre-training and fine-tuning phases, which do not address inference privacy adequately.",
+        "novelty": "This work emphasizes a pseudonymization process during the inference stage that can handle privacy-sensitive information while preserving semantic correctness."
+    },
+    "key_innovation": "The use of a controllable text generation process to ensure that replaced entities maintain the integrity of the original text enhances both privacy and utility.",
+    "real_world_impact": "The framework could significantly improve the safety of data handling in various NLP applications, potentially leading to wider acceptance of cloud-based solutions in sensitive environments.",
+    "limitations": "The framework is implemented through separate stages which might complicate end-to-end applications, and it primarily uses existing methods which may not be fully optimized.",
+    "new_terms": {
+        "pseudonymization": "**Pseudonymization** refers to the process of replacing private identifiers with fictitious names or identifiers, maintaining the data subject's privacy while allowing data analysis.",
+        "Large Language Models (LLMs)": "**Large Language Models (LLMs)** are advanced algorithms trained on vast amounts of text data, enabling them to understand and generate human-like text."
+    },
+    "open_sourcing": "The code for the proposed method is available at https://github.com/Mebymeby/Pseudonymization-Framework."
+}
