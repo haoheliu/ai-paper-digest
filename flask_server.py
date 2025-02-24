@@ -136,5 +136,41 @@ def mark_read():
 
     return jsonify({"message": "Paper marked as read", "list": "readed"})
 
+@app.route("/undo_dislike", methods=["POST"])
+def undo_dislike():
+    data = request.json
+    paper_id = data.get("paper_id")
+    if not paper_id:
+        return jsonify({"error": "Missing paper ID"}), 400
+
+    liked_papers = read_json(LIKED_PAPERS_FILE, {})
+    disliked = set(read_json(DISLIKED_PAPERS_FILE, []))
+
+    # reset likes to 0
+    liked_papers[paper_id] = 0
+    # remove from disliked
+    if paper_id in disliked:
+        disliked.remove(paper_id)
+
+    write_json(LIKED_PAPERS_FILE, liked_papers)
+    write_json(DISLIKED_PAPERS_FILE, list(disliked))
+
+    return jsonify({"message": "Undo dislike success", "likes": 0})
+
+
+@app.route("/unread", methods=["POST"])
+def unread():
+    data = request.json
+    paper_id = data.get("paper_id")
+    if not paper_id:
+        return jsonify({"error": "Missing paper ID"}), 400
+
+    paper_lists = read_json(PAPER_LISTS_FILE, {})
+    if "readed" in paper_lists and paper_id in paper_lists["readed"]:
+        paper_lists["readed"].remove(paper_id)
+
+    write_json(PAPER_LISTS_FILE, paper_lists)
+    return jsonify({"message": "Paper marked as unread"})
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8082, debug=True)

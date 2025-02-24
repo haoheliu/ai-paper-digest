@@ -49,6 +49,11 @@
     .ud-section-content {
       margin-left:1.5rem; margin-top:0.5rem;
     }
+
+    /* Grey out read papers in the collected tab */
+    .read-paper {
+      background-color: #ececec;
+    }
   </style>
 </head>
 <body>
@@ -356,6 +361,7 @@
       let minQ=parseInt(minQualityInput.value)||0;
       let minR=parseInt(minRelevanceInput.value)||0;
       let searchTxt=searchInput.value.toLowerCase().trim();
+      let readedSet=new Set(paperLists["readed"]||[]);
 
       if(currentCategory==="Collected"){
         // gather all from all categories
@@ -363,10 +369,13 @@
         Object.keys(paperCache).forEach(cat=>all.push(...paperCache[cat]));
         // remove disliked
         all=all.filter(x=>!dislikedPapers.has(x.id));
-        // remove readed
-        let readedSet=new Set(paperLists["readed"]||[]);
-        all=all.filter(x=>!readedSet.has(x.id));
-
+        // do not remove read if liked; if read but not liked => hide
+        all=all.filter(x=> {
+          if(readedSet.has(x.id) && (likedPapers[x.id]||0)<=0) {
+            return false;
+          }
+          return true;
+        });
         // keep only liked>0
         all=all.filter(x=>(likedPapers[x.id]||0)>0);
         // field+search
@@ -393,10 +402,8 @@
         let all=paperCache[currentCategory];
         // remove disliked
         all=all.filter(x=>!dislikedPapers.has(x.id));
-        // remove readed
-        let readedSet=new Set(paperLists["readed"]||[]);
+        // remove readed from these categories
         all=all.filter(x=>!readedSet.has(x.id));
-
         // apply filter
         filteredPapers=all.filter(item=>{
           let {quality,relevance,field,title,author}=item.data;
@@ -427,6 +434,13 @@
       pageData.forEach(({id, info, data})=>{
         let col=document.createElement("div");
         col.className="col";
+
+        // If in 'Collected' and read => grey out
+        if(currentCategory==="Collected"){
+          if(readedSet.has(id)){
+            col.classList.add("read-paper");
+          }
+        }
 
         let imagesHTML="";
         if(info.images && info.images.length>0){
@@ -488,6 +502,12 @@
           `;
         }
 
+        // Show read/unread button
+        let isRead = readedSet.has(id);
+        let readBtn = isRead
+          ? `<button class="btn btn-secondary btn-sm ms-2" onclick="markPaperUnread('${id}')">Unread</button>`
+          : `<button class="btn btn-warning btn-sm ms-2" onclick="markPaperRead('${id}')">Mark as Read</button>`;
+
         let cardHTML=`
           <div class="card paper-card shadow-sm h-100">
             ${imagesHTML}
@@ -526,9 +546,7 @@
                   <button class="btn btn-danger btn-sm ms-2" onclick="dislikePaper('${id}')">
                     Dislike
                   </button>
-                  <button class="btn btn-warning btn-sm ms-2" onclick="markPaperRead('${id}')">
-                    Mark as Read
-                  </button>
+                  ${readBtn}
                 </div>
                 <button class="btn btn-sm btn-outline-info" onclick="addPaperToListPrompt('${id}')">
                   Add to List
@@ -626,10 +644,17 @@
         let {id, data}=obj;
         let c=likedPapers[id]||0;
         let link=`https://arxiv.org/abs/${id}`;
+        // add undo button if we are in disliked papers
+        let extraBtn="";
+        if(title==="Disliked Papers"){
+          extraBtn=`<button class="btn btn-sm btn-outline-secondary ms-2" onclick="undoDislikePaper('${id}')">Undo Dislike</button>`;
+        }
+
         return `
           <li>
             <a href="${link}" target="_blank"><strong>${data.title||id}</strong></a>
             (ID: ${id}), likes:${c}
+            ${extraBtn}
           </li>
         `;
       }).join("");
@@ -682,6 +707,26 @@
       } catch(e){ console.error("dislikePaper error:", e); }
     }
 
+    async function undoDislikePaper(paperId){
+      try {
+        let resp=await fetch("/undo_dislike", {
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({paper_id:paperId})
+        });
+        let result=await resp.json();
+        if(result.error) throw new Error(result.error);
+        // set local likedPapers[paperId]=0
+        likedPapers[paperId]=0;
+        // remove from disliked
+        if(dislikedPapers.has(paperId)){
+          dislikedPapers.delete(paperId);
+        }
+        renderUserData();
+        renderPapers();
+      } catch(e){ console.error("undoDislikePaper error:", e);}
+    }
+
     async function markPaperRead(paperId){
       try {
         let resp=await fetch("/mark_read", {
@@ -691,14 +736,29 @@
         });
         let result=await resp.json();
         if(result.error) throw new Error(result.error);
-        // alert(`Paper is marked as read, removed from display, in list '${result.list}'.`);
-        // update local data
         if(!paperLists["readed"]) paperLists["readed"]=[];
         if(!paperLists["readed"].includes(paperId)){
           paperLists["readed"].push(paperId);
         }
         renderPapers();
       } catch(e){ console.error("markPaperRead error:", e); }
+    }
+
+    async function markPaperUnread(paperId){
+      try {
+        let resp=await fetch("/unread", {
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({paper_id:paperId})
+        });
+        let result=await resp.json();
+        if(result.error) throw new Error(result.error);
+        if(paperLists["readed"]){
+          let idx=paperLists["readed"].indexOf(paperId);
+          if(idx>=0) paperLists["readed"].splice(idx,1);
+        }
+        renderPapers();
+      } catch(e){ console.error("markPaperUnread error:", e); }
     }
 
     async function addPaperToListPrompt(paperId){
@@ -713,7 +773,6 @@
         let result=await resp.json();
         if(result.error) throw new Error(result.error);
         alert(result.message);
-        // update local memory if we want
         if(!paperLists[listName]) paperLists[listName]=[];
         if(!paperLists[listName].includes(paperId)){
           paperLists[listName].push(paperId);
@@ -752,9 +811,9 @@
       Object.keys(paperCache).forEach(cat=>all.push(...paperCache[cat]));
       // remove disliked
       let arr=all.filter(x=>!dislikedPapers.has(x.id));
-      // remove readed
+      // remove read if not liked
       let readSet=new Set(paperLists["readed"]||[]);
-      arr=arr.filter(x=>!readSet.has(x.id));
+      arr=arr.filter(x=> !(readSet.has(x.id) && (likedPapers[x.id]||0)<=0));
       let likedOnly=arr.filter(x=>(likedPapers[x.id]||0)>0);
 
       if(likedOnly.length===0){
@@ -828,6 +887,11 @@
       let d=new Date();
       let yyyy=d.getFullYear(), mm=String(d.getMonth()+1).padStart(2,'0'), dd=String(d.getDate()).padStart(2,'0');
       document.getElementById("lastUpdated").textContent=`Page last updated on ${yyyy}-${mm}-${dd}`;
+    }
+
+    function toggleDetailsText(btn){
+      let expanded = btn.getAttribute("aria-expanded") === "true";
+      btn.innerText = expanded ? "Show More" : "Show Less";
     }
   </script>
 </body>
