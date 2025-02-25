@@ -1,5 +1,13 @@
-cd /home/lxb/Disk_SSD/projects/ai-paper-digest
-uv run /home/lxb/Disk_SSD/projects/llm_pdf_reader/Arxiv/processes/refresh_database.py
-git add .
-git commit -m "refresh database $(date '+%Y-%m-%d %H:%M:%S')"
-git push origin master
+
+#!/bin/bash
+
+# Path to the script you want to run
+SCRIPT="/home/lxb/Disk_SSD/projects/ai-paper-digest/refresh_database.sh"
+LOG_FILE="/home/lxb/Disk_SSD/projects/ai-paper-digest/cron.log"
+
+# Run the script every hour indefinitely
+while true; do
+    echo "Running script at $(date)" >> "$LOG_FILE"
+    bash "$SCRIPT" >> "$LOG_FILE" 2>&1
+    sleep 3600  # Wait for 1 hour (3600 seconds)
+done
