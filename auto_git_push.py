@@ -28,4 +28,4 @@ while True:
         print(f"Error: {e}")
 
     # Wait for an hour before running again
-    time.sleep(3600)
+    time.sleep(3600 * 4)
