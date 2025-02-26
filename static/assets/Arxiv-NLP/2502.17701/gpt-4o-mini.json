@@ -1,0 +1,22 @@
+{
+    "title": "From Perceptions to Decisions: Wildfire Evacuation Decision Prediction with Behavioral Theory-informed LLMs",
+    "author": "Ruxiao Chen (Johns Hopkins University), Chenguang Wang (Johns Hopkins University), Yuran Sun (University of Florida), Xilei Zhao (University of Florida), Susu Xu (Johns Hopkins University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The integration of behavioral theory with Large Language Models (LLMs) may inspire new approaches in audio processing tasks that require personalized user interactions or adaptive system responses based on user behavior and context.",
+    "field": "Applications-Creative AI",
+    "background": "This paper develops a framework to accurately predict evacuation decisions during wildfires by reflecting on individual mental states and integrating behavioral theories with advanced language modeling.",
+    "contribution": "This study introduces *FLARE*, a framework that leverages behavioral insights to enhance evacuation decision prediction, achieving an average performance improvement of 20.47% over traditional models.",
+    "technical_comparison": {
+        "prior_work": "Existing models like the Protective Action Decision Model (PADM) focus primarily on statistical analysis but lack the ability to reason through complex human decision-making.",
+        "novelty": "This work combines behavioral theories with the advanced reasoning capabilities of LLMs, incorporating memory-based reinforcement learning to better align predictions with human behaviors."
+    },
+    "key_innovation": "The framework uniquely integrates memory mechanisms and self-reflection techniques to refine prediction accuracy based on past reasoning errors.",
+    "real_world_impact": "The implementation of this model could significantly improve emergency response strategies during wildfires, potentially leading to more effective evacuations and saving lives.",
+    "limitations": "The paper notes limitations related to the transparency of LLMs and the reliance on self-reported survey data, which may introduce biases.",
+    "new_terms": {
+        "Chain-of-Thought (CoT)": "**Chain-of-Thought (CoT)** reasoning refers to the process where models generate intermediate reasoning steps to arrive at conclusions, mimicking human-like reasoning.",
+        "Memory-based Reinforcement Learning (RL)": "**Memory-based Reinforcement Learning** involves utilizing past experiences and outcomes to inform future decision-making in models, enhancing learning and adaptability."
+    },
+    "open_sourcing": "The complete code is publicly available at https://github.com/SusuXu-s-Lab/FLARE"
+}

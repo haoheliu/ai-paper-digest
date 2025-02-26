@@ -1,0 +1,22 @@
+{
+    "title": "Brain-to-Text Decoding: A Non-invasive Approach via Typing",
+    "author": "Jarod L\u00e9vy (Meta AI), Mingfang (Lucy) Zhang (\u00c9cole Normale Sup\u00e9rieure, Universit\u00e9 PSL, CNRS), Svetlana Pinet (Basque Center on Cognition, Brain and Language), J\u00e9r\u00e9my Rapin (Meta AI), Hubert Banville (Meta AI), St\u00e9phane d'Ascoli (Meta AI), Jean-R\u00e9mi King (Meta AI), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's focus on decoding text via non-invasive brain-computer interfaces (BCIs) could inform future work in text-to-audio generation by exploring methods of mapping brain activity into speech synthesis effectively.",
+    "field": "Neuroscience and Cognitive Science-Brain-Computer Interfaces",
+    "background": "Decoding brain activity to produce text from non-invasive methods for individuals unable to communicate verbally.",
+    "contribution": "This study introduces Brain2Qwerty to solve the challenge of non-invasive text production from brain activity, achieving notable character-error rates of 32% for magnetoencephalography and 67% for electroencephalography recordings.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in brain-computer interfaces were primarily invasive, requiring surgical procedures, and often produced low decoding accuracy.",
+        "novelty": "This work improves upon prior methods by leveraging deep learning architectures, specifically combining convolutional networks and transformers, allowing for notable enhancements in character decoding during typing."
+    },
+    "key_innovation": "The use of a new three-stage deep learning architecture that combines both convolutional and transformer modules, along with a pretrained language model for enhanced accuracy.",
+    "real_world_impact": "The findings may lead to broader applications of non-invasive BCIs, enhancing communication for individuals with impairments while reducing surgical risks associated with traditional systems.",
+    "limitations": "The current model requires offline processing and is not yet operable in real time, limiting its application for immediate use in clinical scenarios.",
+    "new_terms": {
+        "magnetoencephalography (MEG)": "**Magnetoencephalography** is a non-invasive brain imaging technique that detects the magnetic fields produced by neuronal activity, providing high temporal resolution.",
+        "electroencephalography (EEG)": "**Electroencephalography** is a method for recording electrical activity of the brain through electrodes placed on the scalp."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "VVRec: Reconstruction Attacks on DL-based Volumetric Video Upstreaming via Latent Diffusion Model with Gamma Distribution",
+    "author": "Rui Lu (The Hong Kong Polytechnic University), Bihai Zhang (The Hong Kong Polytechnic University), Dan Wang (The Hong Kong Polytechnic University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods proposed for reconstructing high-quality point clouds can inspire new approaches in audio-visual alignment tasks, especially involving multimodal data processing and representation learning.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Reconstruction attacks seek to recover original volumetric video data from compromised intermediate results in a deep learning compression model, addressing potential privacy issues in video streaming applications.",
+    "contribution": "VVRec introduces a novel reconstruction attack scheme leveraging latent diffusion models and Gamma distribution to recover point clouds from interrupted data, achieving significantly improved reconstruction quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in reconstruction attacks suffered from significant distortion due to data distribution shift and inefficiencies in model training on varying datasets.",
+        "novelty": "This work utilizes advanced latent diffusion models combined with a refinement algorithm to enhance reconstruction accuracy and quality beyond existing strategies."
+    },
+    "key_innovation": "Integrates new latent diffusion models specifically tailored for point cloud data reconstruction, utilizing a Gamma distribution for improved performance in high-dimensional spaces.",
+    "real_world_impact": "This research enhances our understanding of how deep learning models can be vulnerable to privacy attacks, potentially leading to advancements in video streaming privacy safeguards and countermeasures.",
+    "limitations": "The paper acknowledges that the proposed attack is sensitive to the assumption of no latency constraints, which may limit its applicability in practical real-time scenarios.",
+    "new_terms": {
+        "volumetric video": "**Volumetric video** refers to video content that represents three-dimensional space, typically utilizing point cloud data to create a realistic viewing experience in immersive environments.",
+        "latent diffusion model": "**Latent diffusion model** is a generative modeling technique that allows for efficient data representation and sampling by operating in a reduced latent space, improving computation and quality."
+    },
+    "open_sourcing": ""
+}

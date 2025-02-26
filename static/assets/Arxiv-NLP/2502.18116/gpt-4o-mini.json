@@ -1,0 +1,21 @@
+{
+    "title": "Bayesian Optimization for Controlled Image Editing via LLMs",
+    "author": "Chengkun Cai (University of Edinburgh), Haoliang Liu (University of Manchester), Xu Zhao (University of Edinburgh), Zhongyu Jiang (University of Washington), Tianfang Zhang (Tsinghua University), Zongkai Wu (FancyTech), Jenq-Neng Hwang (University of Washington), Serge Belongie (University of Copenhagen), Lei Li (University of Copenhagen)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The integration of Bayesian Optimization with Large Language Models (LLMs) for image editing could inspire similar methodologies in multimodal audio processing tasks, particularly in generating controlled outputs from audio-conditional inputs.",
+    "field": "Applications-Creative AI",
+    "background": "The paper addresses the challenges of precise and intuitive image editing by automating parameter tuning through Bayesian Optimization, leveraging natural language instructions from users.",
+    "contribution": "This paper introduces BayesGenie to solve the limitations in current image editing techniques by enabling precise localized edits based solely on natural language descriptions, achieving high fidelity and semantic coherence in generated images.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often require manual region annotations or mask guidance, limiting usability and accuracy.",
+        "novelty": "This work improves by eliminating the need for masks and implementing automated parameter optimization, allowing for more intuitive user interactions."
+    },
+    "key_innovation": "Combines the semantic understanding of LLMs with efficient parameter tuning techniques to enhance image editing without user input constraints.",
+    "real_world_impact": "This method has potential applications in industries like marketing and design, offering tools for non-experts to create tailored visual content efficiently.",
+    "limitations": "The reliance on LLMs may introduce biases that affect editing outcomes.",
+    "new_terms": {
+        "Classifier Free Guidance (CFG)": "**Classifier Free Guidance** refers to a technique that aids generative models in adhering to user intentions during image generation without the need for separate guidance models."
+    },
+    "open_sourcing": ""
+}

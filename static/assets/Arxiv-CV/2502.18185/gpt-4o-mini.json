@@ -1,0 +1,22 @@
+{
+    "title": "VesselSAM: Leveraging SAM for Aortic Vessel Segmentation with LoRA and Atrous Attention",
+    "author": "Adnan Iltaf (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences), Rayan Merghani Ahmed (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences), Bin Li (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences), Shoujun Zhou (Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Applications-Healthcare",
+    "background": "This work addresses the segmentation of aortic vessels in medical images, which is critical for diagnosing cardiovascular diseases and planning interventions.",
+    "contribution": "VesselSAM introduces a modified version of the Segmentation Anything Model (SAM) with Atrous Attention and Low-Rank Adaptation (LoRA) to improve aortic vessel segmentation accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous models like SAM face issues with low contrast and ambiguity in medical images, often lacking fine detail capture essential for dense predictions.",
+        "novelty": "VesselSAM enhances the SAM architecture by integrating Atrous Attention for multi-scale feature extraction while applying LoRA for efficient fine-tuning, significantly increasing segmentation accuracy and efficiency."
+    },
+    "key_innovation": "Combines region-specific attention and dilated convolutions to simultaneously capture local and global features in medical images.",
+    "real_world_impact": "The method offers potential improvements in clinical diagnostics for cardiovascular diseases, enhancing the precision of interventions and monitoring. No immediate real-world impact.",
+    "limitations": "The model's performance may degrade when applied to low-quality or noisy medical images, limiting its practical utility in less controlled environments.",
+    "new_terms": {
+        "Atrous Attention": "**Atrous Attention** refers to an attention mechanism that utilizes dilated convolutions to enhance the model's receptive field, enabling better capture of multi-scale features.",
+        "Low-Rank Adaptation (LoRA)": "**Low-Rank Adaptation (LoRA)** is a technique that reduces the number of trainable parameters in neural networks, allowing for efficient adaptation of pre-trained models."
+    },
+    "open_sourcing": "The code and models are available at https://github.com/Adnan-CAS/AtrousLora"
+}

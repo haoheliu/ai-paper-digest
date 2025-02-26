@@ -1,0 +1,22 @@
+{
+    "title": "Joint Reconstruction of Spatially-Coherent and Realistic Clothed Humans and Objects from a Single Image",
+    "author": "Ayushi Dutta (University of Surrey), Marco Pesavento (University of Surrey), Marco Volino (University of Surrey), Adrian Hilton (University of Surrey), Armin Mustafa (University of Surrey), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "The paper tackles the challenging problem of generating realistic 3D models of humans and objects from a single image, including addressing occlusions.",
+    "contribution": "This paper introduces a novel framework for joint reconstruction of clothed humans and objects from single images, achieving superior spatial coherence and realism.",
+    "technical_comparison": {
+        "prior_work": "Existing methods primarily focus on either human or object reconstruction in isolation, which limits realism and detail.",
+        "novelty": "This work combines attention-based neural implicit modeling with a generative diffusion model to enhance reconstructive accuracy and detail retrieval."
+    },
+    "key_innovation": "Adapts attention mechanisms to merge features from input images and pose estimations, facilitating improved spatial coherence in the generated 3D shapes.",
+    "real_world_impact": "The approach could significantly benefit applications in virtual reality, gaming, and film production by enabling the creation of realistic 3D avatars and environments.",
+    "limitations": "The authors highlight the limitation of the method in explicitly modeling human-object interactions and handling cases where objects occlude humans.",
+    "new_terms": {
+        "generative diffusion model": "**Generative diffusion models** are a class of probabilistic models that gradually transform noise into data samples through a gradual denoising process.",
+        "neural implicit model": "**Neural implicit models** utilize deep learning to represent 3D objects as level sets of continuous functions, enabling fine-grained detail capture in reconstruction tasks."
+    },
+    "open_sourcing": ""
+}

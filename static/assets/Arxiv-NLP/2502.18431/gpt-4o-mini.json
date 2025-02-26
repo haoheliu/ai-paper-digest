@@ -1,0 +1,22 @@
+{
+    "title": "TEXTGAMES: Learning to Self-Play Text-Based Puzzle Games via Language Model Reasoning",
+    "author": "Frederikus Hudi (NAIST), Genta Indra Winata (Capital One), Ruochen Zhang (Brown University), Alham Fikri Aji (MBZUAI), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Assessing the reasoning capabilities of large language models through text-based puzzle games that require complex problem-solving and logical reasoning.",
+    "contribution": "This paper introduces TEXTGAMES as a benchmark to evaluate reasoning skills in large language models, demonstrating their proficiency and limitations in solving challenging text-based puzzles.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on single-task benchmarks for evaluating reasoning in language models but lacked comprehensive multi-turn interaction frameworks.",
+        "novelty": "This work implements a benchmark that facilitates self-reflection through multi-turn interactions, allowing models to improve responses based on feedback."
+    },
+    "key_innovation": "The benchmark enables LLMs to engage in iterative problem-solving, refining their answers in response to feedback, which is a unique approach compared to existing tasks.",
+    "real_world_impact": "By enhancing the reasoning abilities of language models, the findings could improve applications in areas like educational tools, game design, and automated reasoning systems. No immediate real-world impact.",
+    "limitations": "The paper notes that LLMs struggle with difficult tasks despite showing some improvement through self-reflection.",
+    "new_terms": {
+        "self-reflection": "**Self-reflection** refers to the capability of language models to evaluate their previous answers and make corrections based on feedback received during interaction.",
+        "multi-turn interaction": "**Multi-turn interaction** describes the ability of a model to engage in extended exchanges, where it can receive feedback and update its responses over several iterations."
+    },
+    "open_sourcing": "The code can be accessed at https://github.com/fhudi/textgames"
+}

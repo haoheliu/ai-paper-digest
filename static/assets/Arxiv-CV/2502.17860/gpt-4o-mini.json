@@ -1,0 +1,21 @@
+{
+    "title": "Unified Language-Image-3D Pretraining with Gaussian Splatting",
+    "author": "Haoyuan Li (Shenzhen campus of Sun Yat-sen University), Yanpeng Zhou (Huawei Noah's Ark Lab), Tao Tang (Shenzhen campus of Sun Yat-sen University), Jifei Song (Huawei Noah's Ark Lab), Yihan Zeng (Huawei Noah's Ark Lab), Michael Kampffmeyer (UiT The Arctic University of Norway), Hang Xu (Huawei Noah's Ark Lab), Xiaodan Liang (Shenzhen campus of Sun Yat-sen University, Peng Cheng Laboratory)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The framework proposed for 3D representation learning can enhance techniques in multi-modal applications relevant to audio-visual interactions and generative tasks, useful for audio synthesis models.",
+    "field": "Applications-Creative AI",
+    "background": "A novel framework for combining language, image, and 3D representations to improve understanding and retrieval tasks across these modalities.",
+    "contribution": "This paper introduces UniGS framework that integrates 3D Gaussian Splatting to enhance multi-modal representation, achieving state-of-the-art performance in various 3D tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on point clouds for 3D representation, which limited feature richness.",
+        "novelty": "This work employs 3D Gaussian Splatting that captures finer geometric details and relationships, leading to better alignment of multi-modal data."
+    },
+    "key_innovation": "The unique aspect of this method is the use of 3D Gaussian Splatting to represent complex 3D scenes while maintaining efficient connections with text and image domains.",
+    "real_world_impact": "The framework is poised to enhance applications in areas like 3D object retrieval and augmented reality, driving advancements in creative AI tasks.",
+    "limitations": "Current version lacks performance validation for outdoor scenarios and has a requirement for camera poses during optimization of 3D representations.",
+    "new_terms": {
+        "Gaussian Splatting": "**Gaussian Splatting** is a rendering technique where 3D scenes are represented as a collection of Gaussian functions, allowing for efficient representation of complex shapes and surfaces."
+    },
+    "open_sourcing": "https://github.com/Li-Hao-yuan/UniGS"
+}

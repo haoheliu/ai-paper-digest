@@ -1,0 +1,22 @@
+{
+    "title": "Disambiguate First Parse Later: Generating Interpretations for Ambiguity Resolution in Semantic Parsing",
+    "author": "Irina Saparina (University of Edinburgh), Mirella Lapata (University of Edinburgh)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper's approach to ambiguity resolution in semantic parsing can inform methods for audio-language integration by providing insights into handling ambiguities in multimodal contexts.",
+    "field": "Applications-Language",
+    "background": "The paper addresses the challenge of resolving ambiguous natural language queries before converting them into formal expressions, specifically focusing on text-to-SQL tasks.",
+    "contribution": "This paper introduces a modular approach to semantic parsing that resolves ambiguities by generating natural language interpretations before mapping them to SQL queries, achieving improved coverage of interpretations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often directly map ambiguous queries to SQL, leading to biases towards preferred interpretations.",
+        "novelty": "This work separates the disambiguation and parsing tasks, using initial interpretations from language models and an additional infilling model to cover missing meanings."
+    },
+    "key_innovation": "The unique approach of generating all possible meanings in natural language before converting them to SQL queries allows for greater interpretation coverage and transparency.",
+    "real_world_impact": "The proposed method could enhance the reliability of conversational AI systems, facilitating better user interactions with databases through more accurate query interpretations.",
+    "limitations": "Dependency on reference interpretations for training the infilling model might limit scalability to new domains without sufficient annotated data.",
+    "new_terms": {
+        "semantic parsing": "**Semantic parsing** refers to the process of converting natural language into a formal representation that can be understood by a machine, such as SQL queries.",
+        "infilling model": "**Infilling model** is a specialized framework designed to identify and generate missing interpretations from an ambiguous query, enhancing the overall understanding of the user's request."
+    },
+    "open_sourcing": "Code available at: https://github.com/saparina/disambiguate-then-parse"
+}

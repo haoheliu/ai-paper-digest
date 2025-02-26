@@ -1,0 +1,21 @@
+{
+    "title": "*Mind the Gesture*: Evaluating AI Sensitivity to Culturally Offensive Non-Verbal Gestures",
+    "author": "Akhila Yerukola (Carnegie Mellon University), Saadia Gabriel (University of California, Los Angeles), Nanyun Peng (University of California, Los Angeles), Maarten Sap (Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper's focus on cultural sensitivity in AI could inform protocols in speech and audio applications that require gesture recognition, contributing to the goal of developing context-aware models in audio-based scenarios.",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "This research evaluates how various AI systems interpret non-verbal gestures across cultures to prevent miscommunication and offensive content.",
+    "contribution": "This paper introduces the Multi-Cultural Set of Inappropriate Gestures and Nonverbal Signs (MC-SIGNS) dataset to solve the problem of AI systems misunderstanding cultural gestures, achieving more robust cultural sensitivity in AI applications.",
+    "technical_comparison": {
+        "prior_work": "Previous models tended to exhibit strong biases towards US-centric interpretations of gestures, leading to potential miscommunications.",
+        "novelty": "This work improves AI understanding by using a comprehensive dataset of gestures across multiple cultures to assess their offensiveness and context."
+    },
+    "key_innovation": "Provides a systematic evaluation framework through the MC-SIGNS dataset, highlighting the importance of cultural context in gesture interpretation.",
+    "real_world_impact": "The findings emphasize the necessity for culturally-aware AI systems, potentially influencing global deployment strategies for AI technologies across various industries where non-verbal communication is crucial.",
+    "limitations": "The study focuses specifically on offensive gestures, limiting its generalizability to wider gesture classifications.",
+    "new_terms": {
+        "multi-cultural set of inappropriate gestures and nonverbal signs (MC-SIGNS)": "**MC-SIGNS** is a dataset designed to catalog gestures across cultures based on their perceived offensiveness, crucial for evaluating AI cultural interpretation capabilities."
+    },
+    "open_sourcing": "https://github.com/Akhila-Yerukola/culturally-offensive-gestures"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Steering Language Model to Stable Speech Emotion Recognition via Contextual Perception and Chain of Thought",
+    "author": "Zhixian Zhao (Northwestern Polytechnical University), Xinfa Zhu (Northwestern Polytechnical University), Xinsheng Wang (Hong Kong University of Science and Technology), Shuiyuan Wang (Northwestern Polytechnical University), Xuelong Geng (Northwestern Polytechnical University), Wenjie Tian (Northwestern Polytechnical University), Lei Xie (Northwestern Polytechnical University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed C2SER model addresses hallucinations in Speech Emotion Recognition (SER) effectively and includes novel methodologies that could enhance Haohe Liu's work in audio generation and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speech Emotion Recognition (SER) aims to automatically identify the emotional state of a speaker from their speech, which is inherently complex due to varying expressions and contexts.",
+    "contribution": "This paper introduces C2SER, which incorporates contextual perception and a chain of thought approach to enhance the stability and accuracy of SER, achieving improved performance across diverse contexts.",
+    "technical_comparison": {
+        "prior_work": "Existing models often suffer from hallucinations, leading to misclassifications in SER tasks.",
+        "novelty": "C2SER mitigates this issue through a novel Contextual perception and Chain of Thought approach to improve SER processes step-by-step."
+    },
+    "key_innovation": "Utilizes a semi-supervised learning extension called Emotion2Vec-S alongside structured reasoning steps to enhance emotion recognition from speech.",
+    "real_world_impact": "C2SER demonstrates potential for practical applications in improving human-computer interaction and enhancing emotional responsiveness in automated systems.",
+    "limitations": "The authors mention imbalances in the training corpora affecting multilingual performance.",
+    "new_terms": {
+        "C2SER": "**C2SER** is a proposed model that integrates contextual perception and chain of thought for improved speech emotion recognition.",
+        "Emotion2Vec-S": "**Emotion2Vec-S** is an extension of Emotion2Vec that employs semi-supervised learning techniques for better emotional discrimination."
+    },
+    "open_sourcing": "[Hugging Face Collection](https://huggingface.co/collections/ASLP-lab/c2ser-67bc735d820403e7969fe8a0), [GitHub Repository](https://github.com/zxzhao0/C2SER)"
+}

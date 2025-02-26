@@ -1,0 +1,22 @@
+{
+    "title": "Moderation Matters: Measuring Conversational Moderation Impact in English as a Second Language Group Discussion",
+    "author": "Rena Gao (The University of Melbourne), Ming-Bin Chen (The University of Melbourne), Lea Frermann (The University of Melbourne), Jey Han Lau (The University of Melbourne)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study demonstrates an automated approach to assess dialogue quality, which could be applied to enhance conversational models in audio and voice interactions.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper examines the impact of moderators in group discussions among English as a Second Language speakers to enhance engagement and dialogue quality.",
+    "contribution": "This paper introduces a dataset and a framework to evaluate moderation strategies, achieving improved dialogue quality in ESL discussions.",
+    "technical_comparison": {
+        "prior_work": "Prior methods did not effectively assess multi-party ESL dialogues or measure moderation impact quantitatively.",
+        "novelty": "This work employs automated assessment tools combined with specific moderation strategies tailored for ESL contexts to evaluate and enhance discussion quality."
+    },
+    "key_innovation": "The research uniquely integrates automatic dialogue quality evaluation methods with a framework designed specifically for ESL group moderation, allowing for data-driven insights.",
+    "real_world_impact": "The findings can be applied to enhance educational practices and conversational AI systems, improving engagement for ESL speakers in both academic and practical settings.",
+    "limitations": "The dataset is small, limited to a specific demographic, and influenced by the moderation styles of only two moderators.",
+    "new_terms": {
+        "ESL": "**English as a Second Language** refers to the study or use of English by non-native speakers.",
+        "moderation strategies": "**Moderation strategies** are techniques employed by moderators to facilitate and enhance group discussions."
+    },
+    "open_sourcing": "Code and data are available at https://github.com/RenaGao/L2Moderator"
+}

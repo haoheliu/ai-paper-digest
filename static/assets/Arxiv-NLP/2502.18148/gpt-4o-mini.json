@@ -1,0 +1,19 @@
+{
+    "title": "NUSAAKSARA: A Multimodal and Multilingual Benchmark for Preserving Indonesian Indigenous Scripts",
+    "author": "Muhammad Farid Adilazuarda (MBZUAI), Musa Izzanardi Wijanarko (Monash University Indonesia), Lucky Susanto (Monash University Indonesia), Khumaisa Nur'aini (Monash University Indonesia), Derry Wijaya (Monash University Indonesia), Alham Fikri Aji (MBZUAI), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper focuses on preserving underrepresented languages and their scripts, which could inform methodologies for audio transcription and contextual understanding in multimodal settings.",
+    "field": "Applications-Language",
+    "background": "The paper presents a benchmark dataset aimed at preserving Indonesian indigenous scripts through various multimodal tasks including segmentation, optical character recognition, and translation.",
+    "contribution": "NUSAAKSARA introduces a comprehensive benchmark that integrates local scripts across Indonesian languages to address the underrepresentation of these scripts in natural language processing tasks.",
+    "technical_comparison": "Previous methods primarily utilized romanized datasets, which limited the representation of local scripts. This work enhances performance by incorporating authentic indigenous scripts and diverse tasks.",
+    "key_innovation": "Utilizes a mix of human expertise and modern NLP techniques to build a dataset dedicated to indigenous scripts, which are often neglected in existing natural language processing frameworks.",
+    "real_world_impact": "The dataset can serve as a critical resource for researchers and practitioners aiming to develop NLP applications that promote linguistic diversity and cultural preservation. It may positively influence educational initiatives in Indonesia.",
+    "limitations": "The dataset only includes eight of the twenty recognized local scripts, and lacks Unicode support for some scripts, notably Lampung, which complicates transcription tasks.",
+    "new_terms": {
+        "aksara": "**Aksara** is an Indonesian term that refers to the letters or characters used in various writing systems.",
+        "OCR": "**Optical Character Recognition** is a technology used to convert different types of documents, such as scanned paper documents and images captured by a digital camera, into editable and searchable data."
+    },
+    "open_sourcing": "We release our benchmark dataset in huggingface [https://huggingface.co/datasets/NusaAksara/NusaAksara]"
+}

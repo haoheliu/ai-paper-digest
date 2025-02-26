@@ -1,0 +1,21 @@
+{
+    "title": "FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models",
+    "author": "Hongzhan Lin (Hong Kong Baptist University), Yang Deng (National University of Singapore), Yuxuan Gu (Harbin Institute of Technology), Wenxuan Zhang (Singapore Management University), Jing Ma (Hong Kong Baptist University), See-Kiong Ng (National University of Singapore), Tat-Seng Chua (National University of Singapore), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores automated methodologies for fact-checking which could be applied to enhance audio-based misinformation detection tasks, particularly in developing adaptive systems that assess claims dynamically.",
+    "field": "Applications-Language",
+    "background": "The paper addresses the challenges posed by existing automated fact-checking methods due to their reliance on static datasets and limited evaluation metrics, aiming to improve LLMs\u2019 fact-checking capabilities.",
+    "contribution": "FACT-AUDIT introduces an adaptive multi-agent framework to dynamically evaluate the fact-checking capabilities of Large Language Models (LLMs), achieving more comprehensive insights into model limitations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely on static datasets and conventional classification accuracy metrics, limiting their assessment scope.",
+        "novelty": "FACT-AUDIT uses an importance sampling and iterative probing approach, enhancing adaptability and evaluation depth for LLM auditing."
+    },
+    "key_innovation": "The framework applies a multi-agent system that generates dynamic test data and evaluates both factual accuracy and justification quality, allowing for effective identification of LLM deficiencies.",
+    "real_world_impact": "By improving the evaluation processes for LLMs, this work could enhance the effectiveness of AI-driven systems in combating misinformation, particularly relevant in social media and news contexts.",
+    "limitations": "The paper acknowledges the potential biases inherent in automated evaluations and the need for continuous updates to improve framework reliability.",
+    "new_terms": {
+        "importance sampling": "**Importance sampling** is a technique used in Monte Carlo methods where samples are drawn from a distribution that is more informative than the target distribution, enhancing the efficiency of numerical estimations."
+    },
+    "open_sourcing": "The source code is released via https://github.com/DanielLin97/FACT-AUDIT"
+}

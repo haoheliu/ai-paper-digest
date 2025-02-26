@@ -1,0 +1,22 @@
+{
+    "title": "Deep-JGAC: End-to-End Deep Joint Geometry and Attribute Compression for Dense Colored Point Clouds",
+    "author": "Yun Zhang (Shenzhen Institutes of Advanced Technology), Zixi Guo (Sun Yat-Sen University), Linwei Zhu (Shenzhen Institutes of Advanced Technology), C.-C. Jay Kuo (University of Southern California), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The proposed compression methods can be adapted for audio and visual data, potentially informing approaches in audio processing with joint feature representation.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This work focuses on compressing colored point clouds, aiming to reduce data size while preserving important geometric and attribute information.",
+    "contribution": "This paper introduces a novel framework for joint geometry and attribute compression of point clouds, achieving significant reductions in bit rate compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like G-PCC and V-PCC compress geometry and attributes separately, which may overlook the correlation between them.",
+        "novelty": "This work improves by utilizing an attribute-assisted geometry encoding and optimized re-colorization to leverage geometric and attribute correlations for better compression."
+    },
+    "key_innovation": "The integration of geometry and attribute encoding with collaborative feature extraction allows the model to achieve higher efficiency in compression.",
+    "real_world_impact": "This framework enhances the storage and transmission efficiency of dense 3D point clouds, which has implications for applications in autonomous systems and virtual reality.",
+    "limitations": "The efficiency may drop in certain datasets due to inconsistent distributions between training and test data.",
+    "new_terms": {
+        "Point Cloud Compression": "**Point Cloud Compression** refers to methods for reducing the amount of data required to represent a 3D point cloud while preserving its important features.",
+        "Attribute Information Fusion Module": "**Attribute Information Fusion Module** is a component that integrates attribute data into geometry encoding to improve feature extraction by exploiting their interdependence."
+    },
+    "open_sourcing": ""
+}

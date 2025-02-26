@@ -1,0 +1,22 @@
+{
+    "title": "Detecting Knowledge Boundary of Vision Large Language Models by Sampling-Based Inference",
+    "author": "Zhuo Chen (ShanghaiTech University), Xinyu Wang (Alibaba Group), Yong Jiang (Alibaba Group), Zhen Zhang (Alibaba Group), Xinyu Geng (Alibaba Group), Pengjun Xie (Alibaba Group), Fei Huang (Alibaba Group), Kewei Tu (ShanghaiTech University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper addresses visual question answering (VQA) models' knowledge boundaries, which can inform how audio models deal with knowledge limitations in similar multimodal tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The study focuses on improving the response accuracy of visual question answering systems by identifying when outside knowledge is required for effective answers.",
+    "contribution": "This paper introduces a method to detect the knowledge boundary of Visual Large Language Models (VLLMs) to optimize the use of Retrieval Augmented Generation (RAG) techniques, achieving improved performance and reduced retrieval reliance.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often apply retrieval indiscriminately, which can slow performance and lead to irrelevant information retrieval.",
+        "novelty": "This work systematically identifies knowledge boundaries to selectively apply retrieval, significantly enhancing processing efficiency."
+    },
+    "key_innovation": "The method fine-tunes VLLMs based on automatically constructed data for better boundary detection without manual annotation.",
+    "real_world_impact": "The findings can lead to more efficient deployment of VLLMs in practical applications like interactive systems or research tools, reducing latency in retrieving external information.",
+    "limitations": "The paper does not differentiate between types of retrieval methods (e.g., text vs. image search) and lacks experiments on larger models.",
+    "new_terms": {
+        "Knowledge Boundary": "**Knowledge Boundary** refers to the limits of what a model can understand and answer based on its training data.",
+        "Retrieval Augmented Generation (RAG)": "**Retrieval Augmented Generation (RAG)** combines retrieval of external information with generative models to improve the quality of responses."
+    },
+    "open_sourcing": "Code will be released on GitHub at https://github.com/Chord-Chen-30/VLLM-KnowledgeBoundary"
+}

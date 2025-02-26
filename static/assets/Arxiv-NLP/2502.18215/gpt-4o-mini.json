@@ -1,0 +1,21 @@
+{
+    "title": "Connecting Voices: LoReSpeech as a Low-Resource Speech Parallel Corpus",
+    "author": "Samy Ouzerrout (Universit\u00e9 d'Orl\u00e9ans, France), Yanantic AI, France, ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The focus on low-resource audio corpora aligns with your interests in enhancing speech technologies for under-represented languages. The methods of aligning audio with transcriptions could be applied to your work in audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a parallel audio corpus for under-represented languages to improve speech-to-speech translation and automatic speech recognition functionalities.",
+    "contribution": "This paper introduces the LoReSpeech corpus, aiming to provide a framework for aligning low-resource audio data with their transcriptions, enabling advancements in multilingual speech processing.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily rely on large-scale audio corpora for model training, often overlooking under-represented languages due to data scarcity.",
+        "novelty": "This work emphasizes the quality of short alignments through community collaboration and robust alignment processes, rather than mass data collection."
+    },
+    "key_innovation": "Utilizes a two-step validation process for aligning long-form audio to precise verse-level segments, which is particularly critical for low-resource languages.",
+    "real_world_impact": "The LoReSpeech corpus could significantly improve accessibility and technological inclusivity for speakers of minority languages, promoting their preservation and use in modern applications.",
+    "limitations": "Dependence on the quality of prior ASR datasets and scalability challenges in extending methodologies to additional languages.",
+    "new_terms": {
+        "Montreal Forced Aligner (MFA)": "**Montreal Forced Aligner** is a tool used to align text with audio, aiding in the transcription and analysis of spoken language, crucial for constructing aligned speech datasets."
+    },
+    "open_sourcing": ""
+}

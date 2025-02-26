@@ -1,0 +1,22 @@
+{
+    "title": "Dynamic KV Cache Allocation for Efficient Multimodal Long-Context Inference",
+    "author": "Zhongwei Wan (The Ohio State University), Hui Shen (The Ohio State University), Xin Wang (The Ohio State University), Che Liu (Imperial College London), Zheda Mai (The Ohio State University), Mi Zhang (The Ohio State University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The method of dynamic KV cache allocation could be applied to enhance efficiency in audio-visual tasks and generative models, especially in long-context scenarios, which are relevant to Haohe Liu's work in audio generation.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This paper addresses the challenge of efficiently managing Key-Value (KV) caches in multimodal large language models (MLLMs) with long-context inputs involving text, images, or videos.",
+    "contribution": "This paper introduces MEDA, a method that dynamically allocates KV cache based on cross-modal attention entropy to improve inference speed and reduce memory usage while maintaining performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often used static or uniform cache allocation strategies that did not consider layer-wise attention density variations, leading to inefficient cache usage.",
+        "novelty": "MEDA improves efficiency by adapting KV cache sizes dynamically based on the observed entropy of attention, allowing for more targeted memory allocation."
+    },
+    "key_innovation": "The use of cross-modal attention entropy to inform KV cache size allocation at different layers is novel, allowing the model to better utilize memory and reduce latency.",
+    "real_world_impact": "The implementation of MEDA can lead to significant improvements in the efficiency of generative models used in applications requiring long-context reasoning, such as video understanding and complex question answering.",
+    "limitations": "The authors identify that the current method does not incorporate advanced techniques like quantization or pruning.",
+    "new_terms": {
+        "Key-Value (KV) cache": "**Key-Value cache** is a data structure used in transformer models to store key-value pairs that facilitate efficient processing of contextual information in attention mechanisms.",
+        "cross-modal attention": "**Cross-modal attention** refers to the interaction and weighting of information from different modalities, like text and images, within a neural model."
+    },
+    "open_sourcing": "The code is available at https://github.com/AIoT-MLSys-Lab/MEDA"
+}

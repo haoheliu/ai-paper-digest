@@ -1,0 +1,22 @@
+{
+    "title": "FwNet-ECA: Facilitating Window Attention with Global Receptive Fields through Fourier Filtering Operations",
+    "author": "Shengtian Mian (Capital University of Economics and Business), Ya Wang (Peking University), Nannan Gu (Capital University of Economics and Business), Yuping Wang (Capital University of Economics and Business), Xiaoqing Li (Capital University of Economics and Business), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The utilization of Fourier transforms and learnable weight matrices for enhancing cross-window communication could inspire novel architectures for audio modeling, particularly in capturing long-range dependencies in audio signals.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Enhancing attention mechanisms in computer vision tasks to improve efficiency and effectiveness in processing images by leveraging filtering operations in the frequency domain.",
+    "contribution": "This paper introduces FwNet-ECA to solve the limitations of windowed attention in capturing global information, achieving competitive performance with fewer parameters and lower computational costs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, such as windowed and shifted window attention, struggle with computational complexity and limited receptive fields.",
+        "novelty": "This work improves by employing Fourier filtering operations to facilitate inter-window connectivity while incorporating Efficient Channel Attention for better inter-channel communication."
+    },
+    "key_innovation": "The model's unique approach of using frequency domain operations to enhance attention mechanisms allows for improved efficiency without significant loss in accuracy.",
+    "real_world_impact": "This work can lead to more efficient models in computer vision tasks, which may also inspire adaptations for related fields like audio and signal processing, allowing for enhanced performance in real-time applications.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Fourier Transform": "**Fourier Transform** is a mathematical technique that transforms signals between time (or spatial) domain and frequency domain, facilitating analysis of frequency components.",
+        "Windowed Attention": "**Windowed Attention** is a mechanism that computes attention within small, localized regions of an input to reduce computational costs in models like Transformers."
+    },
+    "open_sourcing": "Code is available at https://github.com/qingxiaoli/FwNet-ECA"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Say Less, Mean More: Leveraging Pragmatics in Retrieval-Augmented Generation",
+    "author": "Haris Riaz (University of Arizona), Ellen Riloff (University of Arizona), Mihai Surdeanu (University of Arizona), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses pragmatics applied to Retrieval-Augmented Generation (RAG), potentially applicable to audio-text generation tasks where accurate retrieval is essential.",
+    "field": "Applications-Creative AI",
+    "background": "Enhancing question-answering systems using language models by reducing irrelevant information during retrieval processes to improve performance.",
+    "contribution": "This paper introduces a method to incorporate pragmatic principles into Retrieval-Augmented Generation frameworks to enhance the relevance and clarity of retrieved information.",
+    "technical_comparison": {
+        "prior_work": "Existing RAG methods often provide excessive information that can confuse models due to irrelevance.",
+        "novelty": "This work improves retrieval by focusing on highlighting relevant sentences without truncating context, thereby respecting communication principles."
+    },
+    "key_innovation": "The method dynamically highlights the most relevant evidence sentences based on semantic alignment to improve clarity and utility in knowledge retrieval.",
+    "real_world_impact": "This approach can enhance various applications like automated question answering, providing more straightforward answers and improving user experience in conversational AI systems.",
+    "limitations": "The approach struggles with queries needing arithmetic reasoning or contextual negation and relies on previously retrieved sentences, which may introduce noise.",
+    "new_terms": {
+        "pragmatics": "**Pragmatics** refers to the study of how context influences the interpretation of meaning in communication.",
+        "Retrieval-Augmented Generation (RAG)": "A framework that combines pre-trained models with external data retrieval to enhance model outputs, thereby extending the model's knowledge base."
+    },
+    "open_sourcing": "Code is available at: https://github.com/hriaz17/SayLessRAG"
+}

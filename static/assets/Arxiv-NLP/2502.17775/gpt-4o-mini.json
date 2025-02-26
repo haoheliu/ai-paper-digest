@@ -1,0 +1,22 @@
+{
+    "title": "FoREST: Frame of Reference Evaluation in Spatial Reasoning Tasks",
+    "author": "Tanawan Premsri (Michigan State University), Parisa Kordjamshidi (Michigan State University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques for improving spatial reasoning could be applied to audio tasks where spatial concepts play a role, such as spatial audio processing or sound event localization.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating the understanding of spatial relations in language and its implications for AI models in generating images based on spatial descriptions.",
+    "contribution": "FoREST introduces a benchmark for assessing Frame of Reference comprehension in language models, enhancing their performance in spatial reasoning tasks like question answering and text-to-image generation.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks often apply a fixed perspective, limiting the evaluation of models' adaptability to different spatial contexts.",
+        "novelty": "This benchmark incorporates ambiguous FoR situations, promoting detailed understanding and flexibility of models when interpreting spatial language."
+    },
+    "key_innovation": "The introduction of Spatial-Guided prompting to enhance models' identification of spatial relations and their corresponding perspectives.",
+    "real_world_impact": "Improving spatial reasoning in AI can enhance applications like navigation systems and robotic interactions, which rely on interpreting spatial instructions effectively.",
+    "limitations": "The paper primarily analyzes performance in a synthetic environment, which may not fully represent real-world complexities.",
+    "new_terms": {
+        "Frame of Reference (FoR)": "**Frame of Reference (FoR)** refers to the perspective from which spatial information is described, affecting how spatial relations are understood and interpreted.",
+        "Spatial-Guided prompting": "**Spatial-Guided prompting** is an approach that enhances language models' ability to extract and utilize spatial information effectively during reasoning tasks."
+    },
+    "open_sourcing": "Code and dataset available at [GitHub repository](https://github.com/HLR/FoREST.git)."
+}

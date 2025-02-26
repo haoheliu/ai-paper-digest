@@ -1,0 +1,21 @@
+{
+    "title": "POSTERSUM: A Multimodal Benchmark for Scientific Poster Summarization",
+    "author": "Rohit Saxena (Institute for Language, Cognition and Computation, University of Edinburgh), Pasquale Minervini (School of Informatics, University of Edinburgh), Frank Keller (School of Informatics, University of Edinburgh), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed methods for summarizing multimodal content from scientific posters can inspire similar approaches in audio-visual integration tasks in audio research.",
+    "field": "Applications-Vision",
+    "background": "This paper addresses the task of creating concise textual summaries from complex scientific posters that contain images, text, and graphics.",
+    "contribution": "POSTERSUM introduces a novel dataset consisting of 16,305 poster-abstract pairs to facilitate the research and evaluation of models for summarizing academic posters.",
+    "technical_comparison": {
+        "prior_work": "Existing multimodal large language models often struggle with complex layouts and scientific terminology in poster summarization, leading to lower accuracy.",
+        "novelty": "This work utilizes a hierarchical approach that segments posters into regions and summarizes them locally before generating a global summary, which significantly improves the summarization quality."
+    },
+    "key_innovation": "The method segments and summarizes each region of a poster independently before combining them, aligning with the structured format of the posters and enhancing detail preservation.",
+    "real_world_impact": "This work can substantially improve information dissemination in academic conferences by enabling efficient summarization of dense scientific content into easily digestible formats.",
+    "limitations": "The dataset is limited to specific machine learning conferences, potentially affecting generalization to other scientific domains.",
+    "new_terms": {
+        "hierarchical approach": "**Hierarchical approach** refers to methods that process data at multiple levels of abstraction, often breaking down a complex task into simpler sub-tasks for improved performance."
+    },
+    "open_sourcing": "The dataset is available at [rohitsaxena/PosterSum](https://huggingface.co/datasets/rohitsaxena/PosterSum) and the code is available [at this link](https://github.com/saxenarohit/postersum)."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "CLIPURE: Purification in Latent Space via CLIP for Adversarially Robust Zero-Shot Classification",
+    "author": "Mingkun Zhang (CAS Key Laboratory of AI Safety), Keping Bi (CAS Key Laboratory of Network Data Science and Technology), Wei Chen (CAS Key Laboratory of AI Safety), Jiafeng Guo (CAS Key Laboratory of Network Data Science and Technology), Xueqi Cheng (CAS Key Laboratory of AI Safety), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The proposed methods for adversarial purification in latent spaces could inspire similar approaches in audio generation and processing tasks, particularly in enhancing robustness against perturbations.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing robust zero-shot image classifiers that can perform well even when faced with adversarial attacks without requiring additional training data.",
+    "contribution": "CLIPURE introduces purification techniques in the multi-modal latent space of CLIP to enhance adversarial robustness in zero-shot classification tasks, achieving significant improvements in classification accuracy against adversarial examples.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely heavily on pixel-space purification, often struggling to generalize across different adversarial attacks and lacking efficiency.",
+        "novelty": "This work models the purification process in the latent space, making it more efficient and generalizable by utilizing the existing structure of CLIP without additional training."
+    },
+    "key_innovation": "Proposes two novel purification variants (CLIPure-Diff and CLIPure-Cos) to improve adversarial robustness, one utilizing diffusion models and the other using cosine similarity, thus leading to increased efficiency.",
+    "real_world_impact": "Improving the robustness of zero-shot classifiers can enhance applications in safety-critical areas such as autonomous driving and medical diagnosis, where reliable image classification is essential.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "purification": "**Purification** in this context refers to the process of removing adversarial perturbations from images to recover the true image distributions, enhancing classification reliability against attacks.",
+        "latent space": "**Latent space** is an abstract representation space in deep learning where data is transformed, allowing more effective processing compared to pixel space."
+    },
+    "open_sourcing": "https://github.com/TMLResearchGroup-CAS/CLIPure"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "FRIDA to the Rescue! Analyzing Synthetic Data Effectiveness in Object-Based Common Sense Reasoning for Disaster Response",
+    "author": "Mollie Shichman (University of Maryland, College Park), Claire Bonial (Army Research Lab), Austin Blodgett (Army Research Lab), Taylor Hudson (Oak Ridge Associated Universities), Francis Ferraro (University of Maryland, Baltimore County), Rachel Rudinger (University of Maryland, College Park), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses methodologies for improving small language models' understanding of physical common sense, which could be beneficial for audio and speech processing tasks requiring object reasoning.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study improves the common sense reasoning capabilities of small language models in the context of disaster response, particularly focusing on understanding objects' functions and physical states.",
+    "contribution": "This paper introduces the Field Ready Instruction Decoding Agent (FRIDA), a pipeline that generates high-quality synthetic data to enhance small language models' performance in disaster response scenarios.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often rely on larger models or social media-generated data which lacks specificity for disaster contexts.",
+        "novelty": "This work utilizes a combination of expert knowledge and synthetic data generation to fine-tune smaller models, leading to improved reasoning capabilities without requiring large computational resources."
+    },
+    "key_innovation": "The integration of domain expert knowledge with synthetic data generation to create a tailored instruction pipeline for small language models in specific disaster scenarios.",
+    "real_world_impact": "This framework has the potential to enhance the effectiveness of AI systems deployed in disaster relief, improving their ability to assist human responders in critical situations.",
+    "limitations": "The pipeline's reliance on template-generated data may introduce biases or lack variability compared to naturally occurring language.",
+    "new_terms": {
+        "synthetic data": "**Synthetic data** refers to artificially generated data that mimics real-world data, used in training models when real data is scarce or difficult to obtain.",
+        "common sense reasoning": "**Common sense reasoning** is the ability of a system to make inferences and understand everyday concepts and scenarios that humans typically know without explicit instruction."
+    },
+    "open_sourcing": ""
+}

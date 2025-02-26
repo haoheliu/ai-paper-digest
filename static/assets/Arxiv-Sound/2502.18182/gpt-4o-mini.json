@@ -1,0 +1,21 @@
+{
+    "title": "Determined Blind Source Separation with Sinkhorn Divergence-based Optimal Allocation of the Source Power",
+    "author": "Jianyu Wang (Northwestern Polytechnical University), Shanzheng Guan (Northwestern Polytechnical University), Nicolas Dobigeon (University of Toulouse), Jingdong Chen (Northwestern Polytechnical University), ..., Senior Member, IEEE, Fellow, IEEE",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed enhancements to Blind Source Separation (BSS) via Sinkhorn divergence could be relevant for optimizing audio source separation tasks, which is a key area of interest in Dr. Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on recovering distinct sound sources from their mixtures captured by multiple microphones, particularly in challenging reverberant environments.",
+    "contribution": "This paper introduces a method for improving established BSS algorithms via Sinkhorn divergence to more effectively align estimated and actual source distributions, leading to better separation performance.",
+    "technical_comparison": {
+        "prior_work": "Conventional methods like Independent Vector Analysis (IVA) and Independent Low-Rank Matrix Analysis (ILRMA) generally do not address model mismatches or inter-band dependencies effectively.",
+        "novelty": "This work incorporates Sinkhorn divergence to reallocate source power more optimally while addressing discrepancies in source models, which enhances the accuracy of source extraction."
+    },
+    "key_innovation": "Utilizes an optimal transport framework to adjust the estimated source distributions based on inter-band dependencies, providing a more accurate power allocation method.",
+    "real_world_impact": "By improving audio source separation, this work has the potential to enhance technologies in telecommunications, hearing aids, and any system relying on clear audio input under noise conditions.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "Sinkhorn divergence": "**Sinkhorn divergence** is a regularized version of the Wasserstein distance used in optimal transport theory, allowing for computationally efficient alignment of probability distributions with added entropy regularization."
+    },
+    "open_sourcing": ""
+}

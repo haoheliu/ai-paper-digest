@@ -1,0 +1,21 @@
+{
+    "title": "Sketch-1-to-3: One Single Sketch to 3D Detailed Face Reconstruction",
+    "author": "Liting Wen (Carnegie Mellon University), Zimo Yang (Nanyang Technological University), Xianlin Zhang (Beijing University of Posts and Telecommunications), Chi Ding (Beijing University of Posts and Telecommunications), Yue Zhang (Beijing University of Posts and Telecommunications), Mingdao Wang (Tsinghua University), Xueming Li (Beijing University of Posts and Telecommunications), ..., Xianlin Zhang (Beijing University of Posts and Telecommunications)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper's focus on 3D reconstruction from sketches could inspire techniques for generating spatial audio or improving audio signal reconstruction, as mimicking visual details has parallels in audio representation.",
+    "field": "Applications-Vision",
+    "background": "This research focuses on reconstructing 3D face models from single 2D sketches, addressing challenges related to limited information content in sketches compared to real images.",
+    "contribution": "Sketch-1-to-3 introduces a novel framework for high-fidelity 3D face reconstruction from single sketches, achieving significant improvement in detail extraction and model accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggle with accurate details and often require both sketches and photos for model training, which limits generalization.",
+        "novelty": "This work emphasizes a dedicated sketch-to-3D framework using a domain adaptation module and a tailored loss function, enabling direct reconstruction from sketches without relying on paired training data."
+    },
+    "key_innovation": "Integrates a Geometric Contour and Texture Detail (GCTD) module to enhance sketch input for better 3D shape and texture representation.",
+    "real_world_impact": "This approach could revolutionize applications in animation and gaming by facilitating quick and accurate 3D face generation from simple sketches, potentially influencing how characters are designed.",
+    "limitations": "No",
+    "new_terms": {
+        "GCTD": "**Geometric Contour and Texture Detail** is a module developed to enhance the clarity of facial features extracted from sketches, improving 3D reconstruction quality."
+    },
+    "open_sourcing": ""
+}

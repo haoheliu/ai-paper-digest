@@ -1,0 +1,21 @@
+{
+    "title": "Detecting Offensive Memes with Social Biases in Singapore Context Using Multimodal Large Language Models",
+    "author": "Cao Yuxuan (Independent Researcher), Bryan Shan Guanrong (Nanyang Technological University), Wu Jiayang (Independent Researcher), Theodore Lee Chong Jen (Independent Researcher), Alistair Cheong Liang Chuen (Independent Researcher), Sherman Chann Zhi Shen (Independent Researcher), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper introduces methods for detecting harmful content using multimodal approaches, which can inspire similar techniques in audio analysis for detecting harmful or misleading audio content.",
+    "field": "Applications-Vision",
+    "background": "The task involves classifying memes as offensive or not in a culturally specific context, using images and text to capture nuances and biases.",
+    "contribution": "This paper introduces the use of fine-tuned Vision-Language Models to classify memes based on cultural context, achieving 80.62% accuracy and 0.8192 AUROC.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on unimodal data or limited cultural contexts, leading to challenges in accuracy and bias detection.",
+        "novelty": "This work combines OCR (Optical Character Recognition), translation, and multimodal deep learning to improve classification effectiveness in a linguistically diverse environment."
+    },
+    "key_innovation": "Employs a comprehensive pipeline integrating multiple modalities\u2014text, images, and context-specific knowledge\u2014to enhance meme classification performance.",
+    "real_world_impact": "The research could significantly improve online content moderation efforts in diverse environments, enhancing safety on social media platforms.",
+    "limitations": "The classification system might suffer from biases inherent in the training data labeled by models, potentially affecting the accuracy of its outputs.",
+    "new_terms": {
+        "Vision-Language Models (VLMs)": "**Vision-Language Models (VLMs)** are machine learning models that process and interpret both images and text to perform tasks that require understanding of both modalities."
+    },
+    "open_sourcing": "The dataset, code, and model weights will be open-sourced at https://github.com/aliencaocao/vlm-for-memes-aisg"
+}

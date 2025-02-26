@@ -1,0 +1,19 @@
+{
+    "title": "Detecting Offensive Memes with Social Biases in Singapore Context Using Multimodal Large Language Models",
+    "author": "Cao Yuxuan (Independent Researcher, Singapore), Bryan Shan Guanrong (Nanyang Technological University, Singapore), Wu Jiayang (Independent Researcher, Singapore), Theodore Lee Chong Jen (Independent Researcher, Singapore), Alistair Cheong Liang Chuen (Independent Researcher, Singapore), Sherman Chann Zhi Shen (Independent Researcher, Singapore)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "This paper explores multimodal large language models for content moderation, which could inform similar approaches in audio-visual contexts, relevant to audio processing tasks.",
+    "field": "Applications-Language",
+    "background": "This study addresses the classification of harmful memes in a culturally diverse society using advanced multimodal models that integrate images and text.",
+    "contribution": "This paper introduces a refined dataset with 112K memes and a customized vision-language model for effective meme classification, achieving 80.62% accuracy.",
+    "technical_comparison": "Previous methods primarily focused on unimodal detection, lacking the ability to integrate contextual understanding from multimodal inputs. This work improves by employing a vision-language model that combines text and image analysis for better accuracy.",
+    "key_innovation": "The integration of OCR and translation components with a large vision-language model allows for nuanced understanding of local cultural contexts, enhancing meme classification.",
+    "real_world_impact": "This research can significantly improve content moderation systems in multicultural societies, potentially fostering better online interactions and reducing social biases.",
+    "limitations": "The paper acknowledges potential biases in the labeling process due to reliance on a single model for generating labels.",
+    "new_terms": {
+        "multimodal large language models": "**Multimodal large language models** refer to AI systems capable of processing and integrating data from multiple modalities, such as text and images, for tasks such as classification and understanding.",
+        "OCR": "**Optical Character Recognition** is a technology that converts different types of documents, such as scanned paper documents or images captured by a digital camera, into editable and searchable data."
+    },
+    "open_sourcing": "The dataset, code, and model weights will be open-sourced at https://github.com/aliencaocao/vlm-for-memes-aisg."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "DRAMA: Diverse Augmentation from Large Language Models to Smaller Dense Retrievers",
+    "author": "Xueguang Ma (University of Waterloo), Xi Victoria Lin (FAIR at Meta), Barlas Oguz (FAIR at Meta), Jimmy Lin (University of Waterloo), Wen-tau Yih (FAIR at Meta), Xilun Chen (FAIR at Meta), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper discusses novel data augmentation and model pruning techniques to improve the efficiency and generalization of retrievers, which could inform methodologies in audio and speech processing tasks, particularly in retrieval tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task involves improving dense retrieval systems by utilizing augmented data from Large Language Models (LLMs) to enhance smaller retrievers' generalization capabilities.",
+    "contribution": "This paper introduces the DRAMA framework to leverage LLMs for training smaller dense retrievers, achieving improved performance in multilingual and long-context retrieval tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing retrievers often struggle due to their reliance on larger models or limited data during supervised training.",
+        "novelty": "The DRAMA framework effectively utilizes data augmentation from LLMs and pruned models for smaller retrievers, enhancing generalization and efficiency."
+    },
+    "key_innovation": "Combines diverse data augmentation techniques with pruned LLM backbones in a unified training framework, enabling smaller, efficient retrieval models.",
+    "real_world_impact": "The advancements in retrieval effectiveness and efficiency are useful for various applications including search engines, document retrieval systems, and multilingual applications, making them more accessible and faster.",
+    "limitations": "The study acknowledges the need for further exploration in expanding language support and the efficiency of long-context data integration.",
+    "new_terms": {
+        "pruned model": "**Pruned models** refer to networks that have had certain weights or structures removed to reduce complexity and enhance efficiency while preserving performance.",
+        "InfoNCE loss": "**InfoNCE loss** is a contrastive learning objective aimed at maximizing the similarity between a positive sample and a query while pushing negative samples away in the embedding space."
+    },
+    "open_sourcing": "https://github.com/facebookresearch/dpr-scale/tree/main/drama"
+}

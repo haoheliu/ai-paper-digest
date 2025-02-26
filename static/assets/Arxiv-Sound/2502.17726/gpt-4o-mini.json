@@ -1,0 +1,23 @@
+{
+    "title": "The GigaMIDI Dataset with Features for Expressive Music Performance Detection",
+    "author": "Keon Ju Maverick Lee, Jeff Ens, Sara Adkins, Pedro Sarmento, Mathieu Barthet, Philippe Pasquier, ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The heuristics developed for detecting expressive performances from MIDI files could enhance Haohe Liu's audio processing research, particularly in generating expressive music or improving models' understanding of musical nuances.",
+    "field": "Applications-Creative AI",
+    "background": "This paper addresses the classification of MIDI tracks into expressive and non-expressive categories by utilizing a large dataset and innovative detection heuristics.",
+    "contribution": "The GigaMIDI dataset introduces a large collection of MIDI files along with heuristics for detecting expressive performances, significantly advanced from previous datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily analyzed specific aspects of expressive performance but lacked comprehensive datasets or robust detection mechanisms.",
+        "novelty": "This work improves by implementing heuristics that analyze both velocity variations and timing deviations in a large and diverse MIDI dataset."
+    },
+    "key_innovation": "Introduces novel heuristics based on distinctive note velocities and onset timings to effectively differentiate between various types of MIDI tracks, thereby enhancing expressiveness detection.",
+    "real_world_impact": "The findings could facilitate advancements in music composition software, enabling more nuanced and expressive music generation, which can benefit musicians and composers.",
+    "limitations": "Some heuristics may still struggle with tracks that mimic expressiveness through mechanical means rather than actual expressive performance.",
+    "new_terms": {
+        "MIDI": "**Musical Instrument Digital Interface** is a technical standard for electronic musical instruments to communicate through event messages encoding information like pitch and timing.",
+        "distinctive note velocity ratio": "**Distinctive Note Velocity Ratio** (DNVR) is a measure used to categorize MIDI tracks based on the variations in note velocities to differentiate between expressive and non-expressive tracks.",
+        "note onset median metric level": "**Note Onset Median Metric Level** (NOMML) is a metric that assesses the timing of note onset relative to a quantized grid, further used to classify expressiveness in MIDI performances."
+    },
+    "open_sourcing": "The GigaMIDI dataset has been made available on the Hugging Face Hub."
+}

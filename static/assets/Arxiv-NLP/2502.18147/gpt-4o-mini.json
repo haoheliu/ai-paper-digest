@@ -1,0 +1,22 @@
+{
+    "title": "Jacobian Sparse Autoencoders: Sparsify Computations, Not Just Activations",
+    "author": "Lucy Farnik (University of Bristol), Tim Lawson (University of Bristol), Conor Houghton (University of Bristol), Laurence Aitchison (University of Bristol), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed Jacobian Sparse Autoencoders (JSAEs) method focuses on sparsifying computations within neural networks, which could inform approaches in audio processing tasks, particularly in enhancing feature extraction methods and understanding learned representations in speech and audio models.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "This paper introduces a method to analyze the computations performed in transformer neural networks by training pairs of sparse autoencoders to promote sparsity in both latent activations and the corresponding computations.",
+    "contribution": "This paper introduces Jacobian Sparse Autoencoders (JSAEs) to solve the challenge of understanding computations in neural networks, achieving effective computation sparsification with minimal degradation in performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused primarily on sparsifying latent activations without considering the sparsity of the underlying computation graph.",
+        "novelty": "This work enhances interpretability by introducing sparsity in the Jacobian of the neural connections, providing insights into how inputs translate into outputs."
+    },
+    "key_innovation": "JSAEs uniquely combine the sparsification of activations with an explicit sparsity mechanism on the computation graph, boosting interpretability without sacrificing reconstruction quality.",
+    "real_world_impact": "Understanding the computations of large language models can impact the development of safer and more interpretable AI systems, improving reliability in various applications like audio processing and language understanding.",
+    "limitations": "Currently, JSAEs are limited to MLPs and focus on single-layer analysis, which restricts their applicability across entire models.",
+    "new_terms": {
+        "Jacobian": "**Jacobian** is a matrix of all first-order partial derivatives of a vector-valued function, which represents how changes in the input variables of a function affect its output variables.",
+        "Sparse Autoencoders": "**Sparse Autoencoders** are a type of neural network designed to produce a sparse representation of the input data, encouraging the network to learn a set of features that are not densely activated."
+    },
+    "open_sourcing": "https://github.com/lucyfarnik/jacobian-saes"
+}

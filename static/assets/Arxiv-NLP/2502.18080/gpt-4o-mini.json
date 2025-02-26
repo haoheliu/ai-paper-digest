@@ -1,0 +1,21 @@
+{
+    "title": "Towards Thinking-Optimal Scaling of Test-Time Compute for LLM Reasoning",
+    "author": "Wenkai Yang (Gaoling School of Artificial Intelligence, Renmin University of China), Shuming Ma (Microsoft Research, Asia), Yankai Lin (Gaoling School of Artificial Intelligence, Renmin University of China), Furu Wei (Microsoft Research, Asia), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores optimal length scaling of reasoning processes in Large Language Models (LLMs), which may provide insights that can be adapted for audio processing tasks, especially in enhancing model performance under varying computational constraints.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Optimizing the length of reasoning chains in language models to improve efficiency and accuracy in problem-solving tasks without introducing excessive computation.",
+    "contribution": "This paper introduces the Thinking-Optimal Scaling strategy to maximize reasoning efficiency for Large Language Models by teaching them to adaptively choose the optimal length of thought processes.",
+    "technical_comparison": {
+        "prior_work": "Existing models often generate excessive reasoning tokens leading to diminishing returns in accuracy, especially for simpler tasks.",
+        "novelty": "This work proposes that allowing models to determine their reasoning effort leads to improved performance by selecting the shortest correct answers from varying lengths of reasoning tokens."
+    },
+    "key_innovation": "Develops a self-improvement mechanism where the model learns to balance the depth of reasoning based on the complexity of tasks, avoiding overthinking.",
+    "real_world_impact": "The approach could lead to more efficient AI systems capable of reasoning in a smarter manner, with practical implications for applications requiring adaptive computations in real time.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Thinking-Optimal Scaling": "**Thinking-Optimal Scaling** is the strategy proposed in this paper for optimizing the reasoning lengths of language models based on task complexity, focusing on efficiency and accuracy in macro reasoning tasks."
+    },
+    "open_sourcing": ""
+}

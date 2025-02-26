@@ -1,0 +1,22 @@
+{
+    "title": "How Vital is the Jurisprudential Relevance: Law Article Intervened Legal Case Retrieval and Matching",
+    "author": "Nuo Xu (Xi'an Jiaotong University), Pinghui Wang (Xi'an Jiaotong University), Zi Liang (Xi'an Jiaotong University), Junzhou Zhao (Xi'an Jiaotong University), Xiaohong Guan (Xi'an Jiaotong University), ..., Tsinghua University",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed model LCM-LAI employs multi-task learning and focuses on legal case retrieval and matching, which could enhance Haohe Liu's work on audio-related legal applications or generative audio systems that may need structured legal frameworks.",
+    "field": "Applications-Language",
+    "background": "The paper addresses the challenge of automatically retrieving comparable legal cases from a large dataset based on a given legal query, focusing on jurisprudential relevance.",
+    "contribution": "This paper introduces the LCM-LAI framework to solve the legal case retrieval and matching tasks, achieving state-of-the-art performance by capturing legal-rational information and applying an article-aware attention mechanism.",
+    "technical_comparison": {
+        "prior_work": "Previous methods heavily relied on expert annotation or applicable law articles as input, often lacking practicality in real-world scenarios.",
+        "novelty": "This work overcomes these limitations by eliminating the need for expert-guided inputs and utilizing a multi-task learning strategy to enhance case retrieval and matching."
+    },
+    "key_innovation": "Utilizes a unique attention mechanism that evaluates legal-rational similarity based on law distribution instead of traditional semantic similarity approaches.",
+    "real_world_impact": "The proposed model can significantly improve the efficiency and accuracy of legal case retrieval systems in practical settings, assisting legal professionals in their research and decision-making.",
+    "limitations": "The model may still face challenges in cases where applicable law articles are not well-defined or when the legal text is highly ambiguous.",
+    "new_terms": {
+        "jurisprudential relevance": "**Jurisprudential relevance** refers to the significance of legal principles and rules in assessing the similarity and applicability of cases in the legal domain.",
+        "multi-task learning": "**Multi-task learning** is an approach in machine learning where multiple tasks are learned simultaneously, leveraging shared representations to improve overall model performance."
+    },
+    "open_sourcing": "The source codes are available at https://github.com/prometheusXN/LCM-LAI"
+}

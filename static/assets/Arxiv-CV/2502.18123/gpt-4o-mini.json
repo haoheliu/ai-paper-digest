@@ -1,0 +1,21 @@
+{
+    "title": "Personalized Federated Learning for Egocentric Video Gaze Estimation with Comprehensive Parameter Freezing",
+    "author": "Yuhu Feng (Hokkaido University), Keisuke Maeda (Hokkaido University), Takahiro Ogawa (Hokkaido University), Miki Haseyama (Hokkaido University), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The proposed method of comprehensive parameter freezing in federated learning could inspire new approaches in managing personalized models in audio-related tasks where user-specific characteristics are essential.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task involves estimating users' gaze in egocentric video footage through a federated learning framework while preserving the privacy of individual data.",
+    "contribution": "This paper introduces a Personalized Federated Learning framework with Comprehensive Parameters Freezing to improve gaze estimation, achieving superior performance in recall, precision, and F1-score across datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous federated learning methods may not effectively capture individual user characteristics due to selection methods that consider only single round changes.",
+        "novelty": "This work improves upon these methods by calculating average parameter changes over multiple iterations for better parameter selection, allowing for more effective personalization."
+    },
+    "key_innovation": "The unique aspect of the method is its capacity to freeze the most impactful parameters based on cumulative changes, enhancing individual client model performance.",
+    "real_world_impact": "The framework has the potential to significantly enhance gaze estimation accuracy in various real-world applications such as augmented reality, preserving user privacy while offering tailored services.",
+    "limitations": "The paper does not mention any explicit limitations.",
+    "new_terms": {
+        "comprehensive parameter freezing": "**Comprehensive parameter freezing** refers to a strategy that entails selecting and preserving the most impactful model parameters based on their change rates over multiple training iterations, ensuring effective personalization."
+    },
+    "open_sourcing": ""
+}

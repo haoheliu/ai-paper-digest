@@ -1,0 +1,21 @@
+{
+    "title": "Multi-Perspective Data Augmentation for Few-Shot Object Detection",
+    "author": "Anh-Khoa Nguyen Vu (University of Information Technology, Vietnam), Quoc-Truong Truong (University of Information Technology, Vietnam), Vinh-Tiep Nguyen (University of Information Technology, Vietnam), Thanh Duc Ngo (University of Information Technology, Vietnam), Thanh-Toan Do (Monash University, Australia), Tam V. Nguyen (University of Dayton, USA)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed framework introduces data augmentation techniques that could inspire similar approaches in audio processing tasks, particularly in generating synthetic datasets for few-shot learning applications.",
+    "field": "Applications-Vision",
+    "background": "Few-shot object detection involves recognizing objects in images after training on a very limited number of examples, usually facing challenges of overfitting and lack of diversity in datasets.",
+    "contribution": "This paper introduces a Multi-Perspective Data Augmentation framework to enhance the diversity and quality of synthetic data for few-shot object detection, significantly improving detection performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in few-shot object detection relied heavily on traditional geometric transformations and simple data augmentations.",
+        "novelty": "This work incorporates a novel approach using controllable diffusion models for generating diverse and representative synthetic samples, which enhances the capability of the model."
+    },
+    "key_innovation": "Employs a combination of advanced techniques for generating synthetic training data that incorporates both foreground and background relationships, enhancing the detection of new object classes.",
+    "real_world_impact": "Improving few-shot object detection can have significant implications in fields such as robotics and autonomous driving, where adaptability to new and unseen objects is crucial.",
+    "limitations": "Authors mention that diffusion model hallucinations can lead to poor-quality outputs, which may require filtering techniques.",
+    "new_terms": {
+        "few-shot object detection": "**Few-shot object detection** refers to the task of detecting objects in images with limited labeled instances available for training, typically only a small number of examples per class."
+    },
+    "open_sourcing": "Code is available at [github.com/nvakhoa/MPAD](https://github.com/nvakhoa/MPAD)"
+}

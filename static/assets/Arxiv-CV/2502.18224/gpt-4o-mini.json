@@ -1,0 +1,21 @@
+{
+    "title": "Multi-label out-of-distribution detection via evidential learning",
+    "author": "Eduardo Aguilar (Universidad Cat\u00f3lica del Norte), Bogdan Raducanu (Universitat Aut\u00f2noma de Barcelona), Petia Radeva (Universitat de Barcelona), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper employs evidential deep learning, which may enhance uncertainty quantification for tasks in audio generation and restoration, particularly when dealing with unseen or diverse audio inputs.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Detecting images that differ from the data used during training, especially when multiple labels may be present, presents challenges in machine learning environments.",
+    "contribution": "This paper introduces a CNN architecture utilizing a Beta Evidential Neural Network for multi-label out-of-distribution detection, achieving improved robustness in uncertain scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically focused on single-label scenarios or did not effectively incorporate uncertainty estimation for multi-label data.",
+        "novelty": "This work extends evidential deep learning to manage predictive uncertainty in multi-label classification settings, creating specialized uncertainty scores for OOD detection."
+    },
+    "key_innovation": "Proposes two new uncertainty-based scores for detecting out-of-distribution data that analyze both positive and negative evidence across multiple labels.",
+    "real_world_impact": "The framework enhances the reliability of machine learning systems in real-world applications where the presence of unseen or misclassified data can lead to failures in object recognition.",
+    "limitations": "No",
+    "new_terms": {
+        "evidential learning": "**Evidential learning** refers to a framework where uncertainty about predictions is quantified using evidence theory, allowing models to produce not only predictions but also an estimate of their reliability."
+    },
+    "open_sourcing": ""
+}

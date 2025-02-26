@@ -1,0 +1,22 @@
+{
+    "title": "Language Models' Factuality Depends on the Language of Inquiry",
+    "author": "Tushar Aggarwal (Harvard University), Kumar Tanmay (Harvard University), Ayush Agrawal (Universit\u00e9 de Montr\u00e9al), Kumar Ayush (Stanford University), Hamid Palangi (Google), Paul Pu Liang (MIT), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper investigates multilingual language models' capabilities, which could inform approaches to improve audio-language model training and evaluation methodology by understanding cross-lingual factual retrieval dynamics in diverse contexts.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating the factual recall capabilities of multilingual language models in different languages to determine their ability to transfer knowledge across linguistic boundaries.",
+    "contribution": "This paper introduces a benchmark and three novel metrics to assess factual recall and knowledge transferability across languages, highlighting deficiencies in language models' cross-lingual generalization abilities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on generic QA benchmarks for multilingual tasks without focusing explicitly on cross-lingual factual knowledge transfer.",
+        "novelty": "This work provides a dedicated framework to analyze and quantify the disparities in factual recall and transferability in language models across high-, medium-, and low-resource languages."
+    },
+    "key_innovation": "Develops specific metrics like the Cross-Lingual Factual Knowledge Transferability Score that focus on language model performance across languages.",
+    "real_world_impact": "Improves understanding of language models in multilingual applications, emphasizing the need for accurate knowledge transfer, which is vital for equitable AI systems across various languages.",
+    "limitations": "The study evaluates only 13 languages and does not include proprietary language models, which may display different behaviors.",
+    "new_terms": {
+        "Factual Recall Score": "**Factual Recall Score** is a metric that measures the accuracy of language models in recalling specific factual knowledge in response to queries.",
+        "Knowledge Transferability Score": "**Knowledge Transferability Score** quantifies how well a language model preserves factual information across multiple languages."
+    },
+    "open_sourcing": "The dataset and evaluation framework are publicly available at https://github.com/kmrtanmay/X_FaKT.git."
+}

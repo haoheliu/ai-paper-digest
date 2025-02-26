@@ -1,0 +1,22 @@
+{
+    "title": "CalibRefine: Deep Learning-Based Online Automatic Targetless LiDAR\u2013Camera Calibration with Iterative and Attention-Driven Post-Refinement",
+    "author": "Lei Cheng (University of Arizona), Lihao Guo (University of Arizona), Tianya Zhang (University of Tennessee at Chattanooga), Tam Bang (University of Tennessee at Chattanooga), Austin Harris (University of Tennessee at Chattanooga), Mustafa Hajij (University of San Francisco), Mina Sartipi (University of Tennessee at Chattanooga), Siyang Cao (University of Arizona)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "This paper addresses the calibration of LiDAR and camera sensors, which is essential for accurate data fusion in multi-sensor systems such as autonomous vehicles.",
+    "contribution": "CalibRefine introduces a fully automatic, targetless calibration framework to solve the extrinsic calibration problem, achieving high-precision alignment results with minimal human intervention.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on either manual target placement or complex preprocessing steps, often lacking adaptability to dynamic environments.",
+        "novelty": "This work improves by implementing an automatic, online calibration process that utilizes deep learning for robust feature extraction and correspondence matching without needing targets."
+    },
+    "key_innovation": "The framework integrates a Common Feature Discriminator for feature matching and employs two stages of iterative and attention-based refinement to enhance calibration precision.",
+    "real_world_impact": "This research presents a promising solution for robust sensor fusion in real-world applications like autonomous driving, enabling better perception systems with reduced setup complexities.",
+    "limitations": "No",
+    "new_terms": {
+        "Common Feature Discriminator": "**Common Feature Discriminator** refers to a deep learning model designed to effectively match features between different sensor modalities (LiDAR and camera) to establish correspondences.",
+        "Vision Transformer": "**Vision Transformer** is an architecture that applies transformer models, typically used for natural language processing, to visual data for improved contextual understanding."
+    },
+    "open_sourcing": ""
+}

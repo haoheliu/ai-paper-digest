@@ -1,0 +1,21 @@
+{
+    "title": "End-to-End Chart Summarization via Visual Chain-of-Thought in Vision-Language Models",
+    "author": "Raymond Choi (Federal University of Rio de Janeiro), Frank Burns (Federal University of Rio de Janeiro), Chase Lawrence (Federal University of Rio de Janeiro), ... , Alexander Yang (Federal University of Rio de Janeiro)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed end-to-end approach for visual reasoning and summarization could inspire similar methodologies for generating audio descriptions or annotations from visual or textual prompts in sound-related tasks.",
+    "field": "Applications-Vision",
+    "background": "Automated chart summarization involves creating text descriptions from chart images, which can help users efficiently interpret complex data.",
+    "contribution": "This paper introduces the End-to-End Visual Chain-of-Thought method to solve challenges in chart summarization, achieving significant improvements in automated evaluation metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on separate data extraction modules, leading to challenges in accuracy and coherence in generated summaries.",
+        "novelty": "This work improves by directly integrating visual reasoning into the summarization process without requiring pre-processing, enhancing both summary quality and reasoning accuracy."
+    },
+    "key_innovation": "Utilizes a visual Chain-of-Thought mechanism within Large Vision-Language Models to guide the process of real-time visual analysis and summary generation.",
+    "real_world_impact": "Improving automated summarization of charts can enhance data accessibility for users, including those with visual impairments, ultimately aiding in decision-making across various sectors.",
+    "limitations": "No",
+    "new_terms": {
+        "Chain-of-Thought": "**Chain-of-Thought** is a reasoning approach that guides the model through a series of steps to arrive at the final conclusion or output, mimicking human reasoning."
+    },
+    "open_sourcing": ""
+}

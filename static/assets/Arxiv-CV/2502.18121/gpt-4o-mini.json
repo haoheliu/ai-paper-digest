@@ -1,0 +1,22 @@
+{
+    "title": "Enhancing Reusability of Learned Skills for Robot Manipulation via Gaze and Bottleneck",
+    "author": "Ryo Takizawa (The University of Tokyo), Izumi Karino (The University of Tokyo), Koki Nakagawa (The University of Tokyo), Yoshiyuki Ohmura (The University of Tokyo), Yasuo Kuniyoshi (The University of Tokyo)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The study's insights on gaze-based object manipulation could inform similar approaches in audio-visual integration tasks, where spatial awareness and attention play crucial roles in performance.",
+    "field": "Reinforcement Learning-Robotics",
+    "background": "This research involves training robots to perform complex manipulation tasks successfully, even when they encounter objects that were not present during training.",
+    "contribution": "This paper introduces the Gaze-based Bottleneck-aware Robot Manipulation (GazeBot) framework to solve the problem of generalization in robot manipulation, achieving high reusability of learned skills in varied scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with generalizing manipulation skills to unseen object positions and end-effector poses, often requiring exhaustive demonstration datasets.",
+        "novelty": "This work utilizes gaze-centered point clouds and a bottleneck-aware action segmentation approach, enabling robust learning that can adapt to different environmental conditions."
+    },
+    "key_innovation": "The method innovatively combines gaze tracking and bottleneck segmentation to enhance the reusability of robot manipulation skills, promoting better generalization under varying physical conditions.",
+    "real_world_impact": "The framework holds potential for real-world applications in service robotics, where adaptability to diverse environments is crucial. Improved manipulation skills could lead to more effective human-robot interactions.",
+    "limitations": "The study does not address limitations regarding gaze control adaptability under partial obfuscation of objects.",
+    "new_terms": {
+        "gaze-centered point cloud": "**Gaze-centered point cloud** refers to a 3D representation of the environment around where a robot's gaze is focused, allowing for improved spatial awareness and manipulation capabilities.",
+        "bottleneck pose": "**Bottleneck pose** indicates a critical point in a manipulation task where the robot transitions from a reaching phase to a more dexterous manipulation phase."
+    },
+    "open_sourcing": "Videos and code are available at https://crumbyrobotics.github.io/gazebot"
+}

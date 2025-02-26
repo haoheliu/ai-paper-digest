@@ -1,0 +1,22 @@
+{
+    "title": "GLEAN: Generalized Category Discovery with Diverse and Quality-Enhanced LLM Feedback",
+    "author": "Henry Peng Zou (University of Illinois Chicago), Siffi Singh (AWS AI Labs), Yi Nian (AWS AI Labs), Jianfeng He (AWS AI Labs), Jason Cai (AWS AI Labs), Saab Mansour (AWS AI Labs), Hang Su (AWS AI Labs), ..., Henry Zou (Amazon)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed framework integrates large language model feedback for category discovery, which could enhance methodologies for audio-based tasks, particularly in automated categorization and classification of audio inputs.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Generalized category discovery involves automatically categorizing unlabeled data from known and unknown categories using limited labeled examples.",
+    "contribution": "GLEAN introduces a unified framework that leverages diverse and quality-enhanced large language model feedback to improve the categorization of both labeled and unlabeled data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized contrastive learning and clustering techniques without effectively incorporating additional supervisory signals like feedback from large language models.",
+        "novelty": "GLEAN improves by employing three types of feedback from large language models: similar instance selection, category characterization, and pseudo category selection and alignment."
+    },
+    "key_innovation": "GLEAN uniquely utilizes a multi-faceted approach to enhance the discovery of novel categories through continuous refinement of instance representations.",
+    "real_world_impact": "The framework can significantly boost performance in real-world applications such as customer service and e-commerce, where category dynamics often change over time.",
+    "limitations": "The approach currently focuses on textual data, limiting its applicability to other domains such as audio or visual data.",
+    "new_terms": {
+        "Generalized Category Discovery": "**Generalized Category Discovery** is a task aimed at recognizing both known and new categories in unlabeled datasets with a limited amount of labeled data.",
+        "Large Language Models": "**Large Language Models (LLMs)** are advanced AI models trained on vast datasets to understand and generate human-like text."
+    },
+    "open_sourcing": "Code is available at https://github.com/amazon-science/Glean"
+}

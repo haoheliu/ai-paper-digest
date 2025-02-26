@@ -1,0 +1,22 @@
+{
+    "title": "On Synthetic Data Strategies for Domain-Specific Generative Retrieval",
+    "author": "Haoyang Wen (Carnegie Mellon University), Jiang Guo (AWS AI), Yi Zhang (AWS AI), Jiarong Jiang (AWS AI), Zhiguo Wang (AWS AI), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The exploration of synthetic data generation could aid in improving data scarcity challenges in Haohe Liu's audio research, particularly in generating diverse audio datasets.",
+    "field": "Applications-Language",
+    "background": "The paper addresses how to generate synthetic data for generative retrieval models to improve retrieval performance in specific domains, overcoming the challenges of manual annotation.",
+    "contribution": "This paper introduces a two-stage synthetic data strategy to enhance generative retrieval effectiveness, achieving improved performance on various tasks with domain-specific corpus.",
+    "technical_comparison": {
+        "prior_work": "Previous methods heavily relied on off-the-shelf synthetic queries that may not be applicable across domains effectively.",
+        "novelty": "This work enhances those methods by incorporating multi-granular context queries and domain-relevant constraints for better retrieval performance."
+    },
+    "key_innovation": "Uniquely employs both low-level (sentence-level) and high-level (chunk-level) synthetic queries that incorporate domain-specific constraints to capture a wider array of relevancy signals.",
+    "real_world_impact": "The research demonstrates significant potential for improving the scalability of generative retrieval systems, which could lead to better user experiences in information retrieval applications.",
+    "limitations": "The paper does not explicitly mention limitations regarding the generalizability of their findings to more complex query structures.",
+    "new_terms": {
+        "generative retrieval": "**Generative retrieval** is a paradigm in information retrieval that focuses on generating ranked lists of relevant documents directly from user queries rather than using traditional indexing methods.",
+        "hard negatives": "**Hard negatives** refer to negative samples that are difficult for the model to distinguish from actual positive samples, used to improve learning during training."
+    },
+    "open_sourcing": ""
+}

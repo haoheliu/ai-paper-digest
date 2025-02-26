@@ -1,0 +1,22 @@
+{
+    "title": "Near-Shore Mapping for Detection and Tracking of Vessels",
+    "author": "Nicholas Dalhaug (Norwegian University of Science and Technology), Annette Stahl (Norwegian University of Science and Technology), Rudolf Mester (Norwegian University of Science and Technology), Edmund F\u00f8rland Brekke (Norwegian University of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper's techniques for precise mapping and object tracking may inform similar methodologies in audio data analysis, particularly for multi-modal applications linking visual and audio information.",
+    "field": "Applications-Vision",
+    "background": "The study focuses on using Light Detection and Ranging (LiDAR) data combined with image data for tracking various vessels near a docking area, particularly addressing the challenges posed by small vessels like kayaks.",
+    "contribution": "This paper introduces a method for creating precise 3D maps of docking areas using LiDAR and image data to improve the tracking of moving vessels, thereby enhancing collision avoidance for autonomous surface vehicles.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on land masking to filter dynamic objects, leading to inaccuracies in tracking close to docks.",
+        "novelty": "This work combines offline mapping using visual cues with sensor data, allowing for accurate differentiation between static and dynamic objects, which enhances early detection and tracking capability."
+    },
+    "key_innovation": "The integration of LiDAR with neural network-based segmentation techniques allows for a robust mapping system that can better handle dynamic and potentially moving objects in maritime environments.",
+    "real_world_impact": "Improving the safety and efficiency of autonomous ferries in busy harbor areas can significantly impact maritime transport operations, leading to safer interactions with smaller vessels.",
+    "limitations": "The method requires a reliable vessel detection system, and its effectiveness is contingent on proper mapping of all relevant regions.",
+    "new_terms": {
+        "LiDAR": "**Light Detection and Ranging** is a remote sensing technology that uses laser light to measure distances and create detailed 3D maps of environments.",
+        "neural network-based segmentation": "**Neural network-based segmentation** refers to using deep learning algorithms to identify and delineate objects within images."
+    },
+    "open_sourcing": ""
+}

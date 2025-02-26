@@ -1,0 +1,22 @@
+{
+    "title": "LLM Knows Geometry Better than Algebra: Numerical Understanding of LLM-Based Agents in A Trading Arena",
+    "author": "Tianmi Ma (Wuhan University of Technology), Jiawei Du (Centre for Frontier AI Research), Wenxin Huang (Hubei University), Wenjie Wang (National University of Singapore), Liang Xie (Wuhan University of Technology), Xian Zhong (Wuhan University of Technology), Joey Tianyi Zhou (Centre for Frontier AI Research), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The focus on visual representation and numerical reasoning could directly apply to generating and analyzing audio-visual data in Haohe Liu's research, especially in the context of generative models and multimodal integration.",
+    "field": "Applications-Creative AI",
+    "background": "This research evaluates the performance of large language models in numerical reasoning through a virtual trading simulation, highlighting their strengths and weaknesses when processing textual versus visual data.",
+    "contribution": "This paper introduces the *Agent Trading Arena* to solve the issue of LLMs struggling with algebraic reasoning, achieving enhanced performance with visual geometric data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily evaluated LLMs on standard mathematical benchmarks that emphasize known patterns and memorization.",
+        "novelty": "This work introduces a dynamic, competitive trading environment requiring agents to adapt in real-time, facilitating a more authentic evaluation of reasoning capabilities."
+    },
+    "key_innovation": "The integration of visual data with a reflection module enables the LLMs to achieve significantly improved reasoning by facilitating better analysis of complex relationships in data.",
+    "real_world_impact": "The findings may inform better decision-making frameworks in trading and finance, enhancing AI applications across various sectors like healthcare and scientific research.",
+    "limitations": "The study primarily evaluates performance in a controlled environment, which may limit generalizability to other domains and real-world scenarios.",
+    "new_terms": {
+        "Agent Trading Arena": "**Agent Trading Arena** is a simulated environment mimicking stock market dynamics, allowing for evaluation of LLMs' decision-making abilities through a zero-sum game format.",
+        "reflection module": "**Reflection module** refers to a mechanism facilitating agents' strategic evolution and performance evaluation based on previous actions and outcomes."
+    },
+    "open_sourcing": "Code and data are publicly available at [https://github.com/wekjsdvnm/Agent-Trading-Arena.git](https://github.com/wekjsdvnm/Agent-Trading-Arena.git)"
+}

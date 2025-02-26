@@ -1,0 +1,22 @@
+{
+    "title": "Towards Enhanced Immersion and Agency for LLM-based Interactive Drama",
+    "author": "Hongqiu Wu (Shanghai Jiao Tong University), Weiqi Wu (Shanghai Jiao Tong University), Tianyang Xu (Shanghai Jiao Tong University), Jiameng Zhang (Shanghai Jiao Tong University), Hai Zhao (Shanghai Jiao Tong University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques developed for generating dramatic narratives and interactive roles could be applied to enhance the engagement of speech and audio applications, particularly in creative storytelling and interactive systems.",
+    "field": "Applications-Creative AI",
+    "background": "This paper focuses on enhancing the interactive experience in AI-driven drama where users play a character and engage in conversation with AI-generated characters.",
+    "contribution": "This paper introduces *Playwriting-guided Generation* and *Plot-based Reflection* to solve the issues of insufficient immersion and agency in LLM-based drama, achieving a more engaging and coherent storytelling experience.",
+    "technical_comparison": {
+        "prior_work": "Traditional interactive dram applications often rely on rigid scripts and limited interactivity.",
+        "novelty": "This work leverages advanced playwriting techniques and adaptive character responses to create a more interactive and immersive narrative."
+    },
+    "key_innovation": "The integration of structured playwriting techniques into LLMs allows for dynamically generated narratives and characters that adapt to user interactions in real-time.",
+    "real_world_impact": "This could revolutionize how users engage with AI in creative industries, offering more personalized and immersive experiences in storytelling, gaming, and other interactive media.",
+    "limitations": "The paper acknowledges limitations in exploring a broader scope of playwriting techniques and the challenges in achieving coherent plot adjustments during character interactions.",
+    "new_terms": {
+        "immersive experience": "**Immersive experience** refers to the feeling of being deeply engaged and present within a narrative or environment, particularly in interactive media.",
+        "agency": "**Agency** in this context refers to the player's ability to influence the plot and characters within the interactive drama."
+    },
+    "open_sourcing": ""
+}

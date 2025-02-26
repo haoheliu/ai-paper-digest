@@ -1,0 +1,22 @@
+{
+    "title": "A Digital Eye-Fixation Biomarker Using a Deep Anomaly Scheme to Classify Parkinsonian Patterns",
+    "author": "Juan Ni\u00f1o (Universidad Industrial de Santander), Luis Guayac\u00e1n (Universidad Industrial de Santander), Santiago G\u00f3mez (Universidad Industrial de Santander), Fabio Mart\u00ednez (Universidad Industrial de Santander)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper utilizes deep learning and anomaly detection techniques, which could be applicable to audio and speech tasks, particularly in identifying patterns or anomalies in audio signals similar to how it detects Parkinsonian eye fixation patterns.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper examines eye movement patterns to classify and diagnose Parkinson's disease based on video recordings, which can potentially apply to identifying anomalies in audio patterns.",
+    "contribution": "This paper introduces a deep anomaly detection framework to classify Parkinsonian oculomotor patterns, achieving a mean AUC-ROC of 0.95 to distinguish between patients and control subjects.",
+    "technical_comparison": {
+        "prior_work": "Prior methods primarily relied on large training datasets for supervised classification and faced challenges due to class imbalance.",
+        "novelty": "This work introduces a one-class learning approach that only requires Parkinsonian data for training, facilitating classification without needing extensive labeled data."
+    },
+    "key_innovation": "The unique aspect of the method is its focus on anomaly detection within a single class of data, which limits the need for labeled samples from healthy individuals.",
+    "real_world_impact": "This work holds promise for improving early diagnosis of Parkinson's disease through non-invasive methods, which can be beneficial for clinical settings.",
+    "limitations": "The study's sample size is small, with only 13 patients and 13 controls, which may limit generalizability.",
+    "new_terms": {
+        "anomaly detection": "**Anomaly detection** is a technique used to identify rare items, events, or observations that raise suspicions by differing significantly from the majority of the data.",
+        "AUC-ROC": "**Area Under the Curve - Receiver Operating Characteristic (AUC-ROC)** is a performance measurement for classification problems, where the ROC curve is created by plotting the true positive rate against the false positive rate."
+    },
+    "open_sourcing": ""
+}

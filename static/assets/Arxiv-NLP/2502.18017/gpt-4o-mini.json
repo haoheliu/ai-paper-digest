@@ -1,0 +1,22 @@
+{
+    "title": "ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents",
+    "author": "Qiuchen Wang (MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, USTC), Ruixue Ding (Tongyi Lab, Alibaba Group), Zehui Chen (MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, USTC), Weiqi Wu (Shanghai Jiao Tong University), Shihang Wang (Tongyi Lab, Alibaba Group), Pengjun Xie (Tongyi Lab, Alibaba Group), Feng Zhao (MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, USTC), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The multi-modal hybrid retrieval and reasoning framework could enhance audio-to-text models by providing better data organization and retrieval strategies, applicable in scenarios that require understanding complex audio-visual documents.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Developing a system that augments large language models by enabling them to retrieve and reason over visually rich documents effectively.",
+    "contribution": "ViDoRAG introduces a multi-agent retrieval-augmented generation framework with dynamic reasoning agents to improve retrieval and generation from visually rich documents, achieving over 10% performance improvement on benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods struggled to integrate visual and textual features effectively, limiting context retrieval and reasoning capabilities.",
+        "novelty": "This work improves by implementing a Gaussian Mixture Model-based hybrid strategy for adaptive retrieval and multi-agent workflows for iterative reasoning."
+    },
+    "key_innovation": "Combines visual and textual retrieval in a multi-agent setup that iteratively refines answers based on feedback, significantly enhancing the reasoning process.",
+    "real_world_impact": "This framework offers a solid foundation for applications in various sectors, such as education and finance, where interpreting complex visual documents is crucial.",
+    "limitations": "Potential bias in query construction and increased computational overhead due to the multi-agent framework.",
+    "new_terms": {
+        "Retrieval-Augmented Generation (RAG)": "A method that combines retrieval of external information to assist in generating answers or text, enhancing the capabilities of language models.",
+        "Gaussian Mixture Models (GMM)": "A probabilistic model that represents a mixture of multiple Gaussian distributions, useful for clustering and density estimation."
+    },
+    "open_sourcing": "https://github.com/Alibaba-NLP/ViDoRAG"
+}

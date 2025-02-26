@@ -1,0 +1,22 @@
+{
+    "title": "VERDICT: A Library for Scaling Judge-Time Compute",
+    "author": "Nimit Kalra (Haize Labs), Leonard Tang (Haize Labs), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The modular approach for automated evaluation systems leveraging reasoning units could enhance evaluation techniques in audio and music processing tasks by enabling better quality assessments.",
+    "field": "Infrastructure-Machine Learning Libraries",
+    "background": "The paper presents a library, VERDICT, that enhances the accuracy and reliability of Large Language Model (LLM)-based evaluators by combining multiple reasoning strategies.",
+    "contribution": "VERDICT introduces a compositional library of reasoning units to solve issues related to LLM judging, achieving state-of-the-art performance in various evaluation tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly utilized single LLM prompts or fine-tuned models for evaluation, which exhibited issues with reliability and bias.",
+        "novelty": "This work improves by providing a flexible framework that assembles diverse Units for more robust evaluation through increased computational complexity at inference time."
+    },
+    "key_innovation": "The unique ability to stitch together various reasoning units allows for a more nuanced and accurate assessment of model outputs compared to traditional methods.",
+    "real_world_impact": "The framework can significantly enhance the evaluation capabilities of AI applications across various domains, including speech, by improving reliability and interpretability of automated assessments.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "LLM-as-a-judge": "**LLM-as-a-judge** refers to the use of Large Language Models to automatically evaluate and score outputs based on given criteria.",
+        "Unit": "**Unit** is a foundational building block in the VERDICT library that encapsulates prompt, model, and evaluation logic for judging tasks."
+    },
+    "open_sourcing": "Code available at https://github.com/haizelabs/verdict"
+}

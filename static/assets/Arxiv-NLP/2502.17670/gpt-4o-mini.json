@@ -1,0 +1,22 @@
+{
+    "title": "Semantics drives analogical change in Germanic strong verb paradigms: a phylogenetic study",
+    "author": "Alexandru Craevschi (Institute for the Interdisciplinary Study of Language Evolution), Sarah Babinski (Institute for the Interdisciplinary Study of Language Evolution), Chundra Cathcart (University of Zurich), ...",
+    "quality": 6,
+    "relevance": 2,
+    "relevance_why": "",
+    "field": "General Machine Learning-Unsupervised Learning",
+    "background": "This study explores how changes in the usage of present perfect constructions influence vowel alternation patterns in strong verbs across Germanic languages over time.",
+    "contribution": "This paper introduces a phylogenetic comparative model to analyze the relationship between the functional domain of present perfect constructions and the stability of vowel alternation patterns in strong verbs.",
+    "technical_comparison": {
+        "prior_work": "Previous studies have chiefly focused on limited language samples and lacked rigorous inferential statistics.",
+        "novelty": "This work utilizes a comprehensive dataset from multiple Germanic languages and a hierarchical phylogenetic model to assess broader trends in morphological change."
+    },
+    "key_innovation": "The use of a hierarchical phylogenetic model enables the study of evolutionary dependencies between linguistic features across diverse Germanic languages.",
+    "real_world_impact": "No immediate real-world impact.",
+    "limitations": "The paper may lack broader applicability beyond the studied languages, and it does not address variations in other language families.",
+    "new_terms": {
+        "morphological paradigms": "**Morphological paradigms** refer to the systematic arrangement of forms taken by a word to express grammatical functions.",
+        "phylogenetic comparative methods": "**Phylogenetic comparative methods** are statistical techniques used to study evolutionary relationships and traits among species by modeling their evolutionary history."
+    },
+    "open_sourcing": ""
+}

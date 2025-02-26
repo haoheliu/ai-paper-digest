@@ -1,0 +1,21 @@
+{
+    "title": "SYNTHEMPATHY: A Scalable Empathy Corpus Generated Using LLMs Without Any Crowdsourcing",
+    "author": "Run Chen (Columbia University), Jun Shin (Columbia University), Julia Hirschberg (Columbia University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methodologies used for generating empathetic dialogues and the corpus construction framework can inform approaches for audio-language modeling, particularly in understanding user sentiment and enhancing conversational agents.",
+    "field": "Applications-Language",
+    "background": "The task is to create a large-scale corpus of empathetic dialogues generated through a systematic process leveraging Large Language Models (LLMs), without relying on resource-intensive crowdsourcing.",
+    "contribution": "This paper introduces a novel framework for building an empathy corpus without crowdsourcing, generating 105,578 empathetic dialogue pairs from real-life scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous empathy corpora primarily utilized crowdsourcing, which limited their scalability and diversity.",
+        "novelty": "This work employs LLMs for idea generation and empathetic response crafting, significantly improving scalability and reducing reliance on human labor."
+    },
+    "key_innovation": "The approach creatively combines story brainstorming, explanation rewriting, and response generation using multiple LLMs, enabling the creation of a diverse and comprehensive empathy dataset.",
+    "real_world_impact": "The SYNTHEMPATHY corpus can enhance the development of more empathetic AI systems, potentially improving mental health applications and customer service dialogues that require understanding and compassion.",
+    "limitations": "The model's reliance on electricity consumption for LLM inference may raise concerns about sustainability and accessibility.",
+    "new_terms": {
+        "Chain of Empathy (CoE)": "**Chain of Empathy** refers to a structured prompting technique used to elicit empathetic responses by incorporating therapeutic frameworks in dialogue generation."
+    },
+    "open_sourcing": "The code and dataset will be made publicly available upon release of the final version of this paper."
+}

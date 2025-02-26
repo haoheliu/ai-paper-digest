@@ -1,0 +1,19 @@
+{
+    "title": "SYNTHIA: Novel Concept Design with Affordance Composition",
+    "author": "Xiaomeng Jin (University of Illinois Urbana-Champaign), Hyeonjeong Ha (University of Illinois Urbana-Champaign), Jeonghwan Kim (University of Illinois Urbana-Champaign), Jiateng Liu (University of Illinois Urbana-Champaign), Zhenhailong Wang (University of Illinois Urbana-Champaign), Khanh Duy Nguyen (University of Illinois Urbana-Champaign), Ansel Blume (University of Illinois Urbana-Champaign), Nanyun Peng (University of California Los Angeles), Kai-wei Chang (University of California Los Angeles), Heng Ji (University of Illinois Urbana-Champaign)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The framework's emphasis on generating functionally coherent designs aligns well with potential applications in audio and music generation, particularly in merging concepts from different audio domains.",
+    "field": "Applications-Creative AI",
+    "background": "The paper presents a framework for generating novel designs by combining different functional affordances into a single coherent concept, utilizing text-to-image models.",
+    "contribution": "SYNTHIA introduces an affordance composition framework to solve the challenge of generating functionally coherent concepts, achieving significant improvements in novelty and coherence metrics.",
+    "technical_comparison": "Previous methods primarily focused on aesthetic variations without ensuring functional integration of multiple components. This work improves by incorporating a hierarchical concept ontology and a curriculum learning approach that enhances the compositional reasoning of text-to-image models.",
+    "key_innovation": "The method uniquely integrates hierarchical affordance sampling with curriculum learning to guide the generation of visually distinctive and functionally coherent designs.",
+    "real_world_impact": "The framework could be applied to various domains to inspire creative design processes, such as in product design and architecture, enhancing the role of AI in creative industries.",
+    "limitations": "The authors acknowledge that their concept ontology may not cover all possible categories, which could limit the applicability of the proposed approach.",
+    "new_terms": {
+        "affordance": "**Affordance** refers to the potential uses or functionalities that an object offers to users, integral for guiding design processes.",
+        "hierarchical concept ontology": "**Hierarchical concept ontology** is a structured representation of concepts organized into levels that capture relationships among visual elements and their functionalities."
+    },
+    "open_sourcing": "Code is available at https://github.com/HyeonjeongHa/SYNTHIA"
+}

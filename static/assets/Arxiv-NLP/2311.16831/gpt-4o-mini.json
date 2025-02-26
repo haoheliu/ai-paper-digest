@@ -1,0 +1,22 @@
+{
+    "title": "Polarized Online Discourse on Abortion: Frames and Hostile Expressions among Liberals and Conservatives",
+    "author": "Ashwin Rao (University of Southern California Information Sciences Institute), Rong-Ching Chang (University of California, Davis), Qiankun Zhong (Max Planck Institute for Human Development), Kristina Lerman (University of Southern California Information Sciences Institute), Magdalena Wojcieszak (University of California, Davis), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Applications-Speech and Audio",
+    "background": "Analyzing hostile expressions and framing in online Twitter discourse regarding abortion, focusing on ideological divides in public discussions.",
+    "contribution": "This paper introduces a comprehensive analysis of over 3.5 million tweets about abortion to explore hostility levels and framing among political ideologies, revealing significant polarization trends.",
+    "technical_comparison": {
+        "prior_work": "Previous studies largely focused on smaller datasets or limited to specific local contexts, often lacking substantial longitudinal analysis.",
+        "novelty": "This work improves by presenting a large-scale, longitudinal examination of discourse on abortion across the United States, focusing on hostility types and framed discussions."
+    },
+    "key_innovation": "Utilizes advanced classifiers to quantify ideological stances and hostility expressions in social media discourse systematically, providing insights into the dynamics of online political polarization.",
+    "real_world_impact": "Insights from this study could inform policymakers and social platforms on managing online discourse and mitigating hostility related to highly polarizing issues such as abortion.",
+    "limitations": "The study focuses solely on Twitter, limiting its applicability to other social media contexts.",
+    "new_terms": {
+        "hostility": "**Hostility** refers to aggressive attitudes or behaviors, including anger, toxicity, insults, and hate speech in online discourse.",
+        "frames": "**Frames** are ways of structuring or presenting information on an issue, influencing how discussions are framed in political discourse."
+    },
+    "open_sourcing": ""
+}

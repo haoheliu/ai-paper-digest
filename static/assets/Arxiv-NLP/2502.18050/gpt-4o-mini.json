@@ -1,0 +1,23 @@
+{
+    "title": "Uncertainty-aware abstention in medical diagnosis based on medical texts",
+    "author": "Artem Vazhentsev (MBZUAI, Abu Dhabi, UAE), Ivan Sviridov (Sber AI Lab, Moscow, Russia), Alvard Barseghyan (YerevaNN, Yerevan, Armenia), Gleb Kuzmin (AIRI, Moscow, Russia), Alexander Panchenko (AIRI, Moscow, Russia), Aleksandr Nesterov (AIRI, Moscow, Russia), Artem Shelmanov (MBZUAI, Abu Dhabi, UAE), Maxim Panov (MBZUAI, Abu Dhabi, UAE), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper explores uncertainty quantification in medical text analysis, which may provide insights into leveraging uncertainty in audio-related tasks, especially concerning decision-making and data quality.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This task involves improving the reliability and accuracy of AI-assisted medical diagnoses by applying statistical methods to quantify uncertainty in predictions derived from medical texts.",
+    "contribution": "This paper introduces HUQ-2, a novel hybrid uncertainty quantification method to enhance reliability in selective prediction tasks, achieving improved diagnostic accuracy across several medical datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for uncertainty quantification in medical diagnosis often focused narrowly on either epistemic (model-related) or aleatoric (data-related) uncertainty, limiting predictive performance.",
+        "novelty": "This work combines both types of uncertainties in a hybrid method (HUQ-2), demonstrating effectiveness across various medical text classification tasks."
+    },
+    "key_innovation": "Suggests a comprehensive framework for selective predictions based on uncertainty quantification that significantly improves diagnostics in healthcare.",
+    "real_world_impact": "This approach can potentially reduce misdiagnosis rates, thereby improving patient outcomes in critical healthcare contexts. Its application in EHR processing could transform automated medical decision-making.",
+    "limitations": "The paper acknowledges that the methods proposed still cannot guarantee high uncertainty for all erroneous predictions.",
+    "new_terms": {
+        "selective prediction": "**Selective prediction** is a machine learning approach where the model can choose to abstain from making a prediction if it is uncertain, prioritizing reliable outputs.",
+        "epistemic uncertainty": "**Epistemic uncertainty** is the uncertainty in the model due to lack of knowledge, which can be reduced by gathering more data or improving the model.",
+        "aleatoric uncertainty": "**Aleatoric uncertainty** is the uncertainty inherent in the data itself, such as noise in labels or ambiguous cases."
+    },
+    "open_sourcing": ""
+}

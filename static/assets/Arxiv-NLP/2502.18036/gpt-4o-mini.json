@@ -1,0 +1,22 @@
+{
+    "title": "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble",
+    "author": "Zhijun Chen (Beihang University), Jingzheng Li (Zhongguancun Laboratory), Pengpeng Chen (Aviation System Engineering Institute of China), Zhuoran Li (Beihang University), Kai Sun (Xi'an Jiaotong University), Yuankai Luo (Beihang University), Qianren Mao (Zhongguancun Laboratory), Dingqi Yang (University of Macau), Hailong Sun (Beihang University), Philip S. Yu (University of Illinois at Chicago)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper discusses ensemble techniques which could optimize model performance in audio tasks, particularly useful in applications involving multiple audio processing models.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Ensemble Learning in the context of multiple Large Language Models (LLMs) aims to intelligently combine the strengths of different LLMs to improve performance on various tasks.",
+    "contribution": "This paper introduces a comprehensive taxonomy of LLM Ensemble techniques to solve issues of performance variability, achieving improved accuracy and reduced hallucinations in model responses.",
+    "technical_comparison": {
+        "prior_work": "Previous ensemble methods often focus on a single model performance without utilizing diverse strengths of multiple models.",
+        "novelty": "This work provides a systematic classification of ensemble methods, addressing pre-inference, during inference, and post-inference strategies."
+    },
+    "key_innovation": "The proposed taxonomy categorizes methods based on timing and type of ensemble, enabling targeted improvements in model selection and output quality.",
+    "real_world_impact": "This framework can significantly enhance LLM applications across various fields, including healthcare, education, and creative AI, by improving response reliability and relevance.",
+    "limitations": "The survey may not capture the full range of existing ensembles as the field is rapidly evolving.",
+    "new_terms": {
+        "Ensemble Learning": "**Ensemble Learning** is a machine learning technique that combines predictions from multiple models to improve performance compared to individual models.",
+        "hallucination": "**Hallucination** in the context of language models refers to the generation of incorrect or nonsensical outputs that are not grounded in the input data."
+    },
+    "open_sourcing": "A curated list of related papers on LLM Ensemble is available at https://github.com/junchenzhi/Awesome-LLM-Ensemble."
+}

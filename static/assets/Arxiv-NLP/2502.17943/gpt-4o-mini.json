@@ -1,0 +1,22 @@
+{
+    "title": "CaseGen: A Benchmark for Multi-Stage Legal Case Documents Generation",
+    "author": "Haitao Li (Tsinghua University), Jiaying Ye (Tsinghua University), Yiran Hu (University of Waterloo), Jia Chen (Xiaohongshu Inc), Qingyao Ai (Tsinghua University), Yueyue Wu (Tsinghua University), Junjie Chen (Tsinghua University), ..., Yiqun Liu (Tsinghua University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed CaseGen benchmark evaluates multi-stage legal document generation, which may offer insights for enhancing automated generation in related fields like audio captioning or legal text analysis.",
+    "field": "Applications-Language",
+    "background": "CaseGen is designed to facilitate the generation of legal case documents through a structured benchmark, enabling the assessment of large language models in producing legally coherent and relevant texts.",
+    "contribution": "CaseGen introduces a comprehensive framework for evaluating legal documents generation to address the challenges faced by existing models in handling complex legal reasoning, demonstrating its utility with 500 real-world case instances.",
+    "technical_comparison": {
+        "prior_work": "Prior models struggle with legal text generation, often leading to accuracy issues and logical inconsistencies.",
+        "novelty": "The CaseGen benchmark employs a multi-stage document generation approach, enhancing evaluation through frameworks that include human-like judgment using large language models."
+    },
+    "key_innovation": "CaseGen's multi-stage approach systematically aligns generation tasks with the legal writing process, improving the reliability of evaluations of legal document creation.",
+    "real_world_impact": "The framework has significant implications for the automation of legal document preparation, potentially improving efficiency in legal practices and reducing manual labor. Its approach could enhance the accuracy of generated texts in legal settings.",
+    "limitations": "The benchmark is limited to the Chinese legal domain, which may not be extensible to other legal systems without adaptation.",
+    "new_terms": {
+        "LLM": "**Large Language Model** refers to advanced AI models trained to understand and generate human-like text based on large datasets.",
+        "multi-stage generation": "**Multi-stage generation** involves breaking down the text creation process into distinct phases, allowing for more accurate and structured outputs."
+    },
+    "open_sourcing": "The dataset and code for CaseGen are publicly available at https://github.com/CSHaitao/CaseGen"
+}

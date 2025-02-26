@@ -1,0 +1,22 @@
+{
+    "title": "Perceptual Noise-Masking with Music through Deep Spectral Envelope Shaping",
+    "author": "Clementine Berger (Telecom Paris), Roland Badeau (Telecom Paris), Slim Essid (Telecom Paris), ... , Institut Polytechnique de Paris",
+    "quality": 7,
+    "relevance": 7,
+    "relevance_why": "The paper addresses enhancing music's ability to mask ambient noise, which aligns with Dr. Liu's interests in audio processing and restoration. The methods discussed could potentially inform strategies for audio quality enhancement in noisy environments.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing music playback in noisy environments to better mask surrounding noise, improving user listening experiences through perceptual audio processing.",
+    "contribution": "This paper introduces a deep neural network model that reshapes the spectral envelope of music to optimize its noise-masking ability, achieving improved auditory perceptions in noisy environments.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches like graphic equalizers do not adequately consider psychoacoustic effects or full spectral adjustment.",
+        "novelty": "This work employs a U-Net architecture optimized with a perceptual loss function, enhancing the masking capabilities more effectively while minimizing undesired alterations to the music."
+    },
+    "key_innovation": "The unique integration of a psychoacoustic model with a neural network architecture provides a substantial improvement in fine-tuning audio responses to ambient noise compared to traditional methods.",
+    "real_world_impact": "This model can significantly enhance audio playback quality in mobile scenarios, improving user satisfaction for music listeners in noisy environments and potentially influencing headphone design.",
+    "limitations": "The findings are based on simulated data, which may not capture the full complexity of real-world listening environments.",
+    "new_terms": {
+        "psychoacoustic": "**Psychoacoustic** refers to the study of the perception of sound, focusing on how physical properties of sound relate to human auditory perception.",
+        "U-Net": "**U-Net** is a convolutional neural network architecture primarily used for image segmentation, but in this context, it is applied to audio processing tasks."
+    },
+    "open_sourcing": "The code for the implementation of DPNMM is available on GitHub."
+}

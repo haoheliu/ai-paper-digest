@@ -1,0 +1,21 @@
+{
+    "title": "Evaluating the Effect of Retrieval Augmentation on Social Biases",
+    "author": "Tianhui Zhang (University of Liverpool), Yi Zhou (Cardiff University), Danushka Bollegala (University of Liverpool), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper examines how retrieval augmented generation can amplify social biases in generated texts which is relevant for creating debiased audio generation systems applicable in audio and speech tasks.",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "The study investigates how social biases from document collections affect outputs of language models when real-time retrieval is employed.",
+    "contribution": "This paper introduces a thorough evaluation of social biases in retrieval-augmented generation systems, showing that biases in document sets can amplify biases in generated outputs across multiple languages and bias types.",
+    "technical_comparison": {
+        "prior_work": "Previous research primarily focused on individual LLM biases without considering the external effects of document collections used in RAG.",
+        "novelty": "This work systematically assesses the interaction between retrieval mechanisms and underlying biases within language models."
+    },
+    "key_innovation": "Analyzes the amplification of social biases through document retrieval in multilingual contexts, revealing implications for model deployment in real-world applications.",
+    "real_world_impact": "The findings highlight the need for careful document curation in systems that utilize retrieval augmentation, informing practices to mitigate social bias in AI applications.",
+    "limitations": "The study does not explore all possible combinations of model architectures and retrieval methods or other languages outside the selected three.",
+    "new_terms": {
+        "Retrieval Augmented Generation (RAG)": "**Retrieval Augmented Generation** refers to a method that employs external document retrieval to provide information and context to language models during generation tasks, improving factual accuracy but potentially affecting bias."
+    },
+    "open_sourcing": ""
+}

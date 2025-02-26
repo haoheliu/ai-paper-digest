@@ -1,0 +1,21 @@
+{
+    "title": "Doctor-in-the-Loop: An Explainable, Multi-View Deep Learning Framework for Predicting Pathological Response in Non-Small Cell Lung Cancer",
+    "author": "Alice Natalina Caragliano (Universit\u00e0 Campus Bio-Medico di Roma), Filippo Ruffini (Universit\u00e0 Campus Bio-Medico di Roma), Carlo Greco (Universit\u00e0 Campus Bio-Medico di Roma), Edy Ippolito (Universit\u00e0 Campus Bio-Medico di Roma), Michele Fiore (Universit\u00e0 Campus Bio-Medico di Roma), Claudia Tacconi (Universit\u00e0 Campus Bio-Medico di Roma), Lorenzo Nidi (Fondazione Policlinico Universitario Campus Bio-Medico), ..., Valerio Guarrasi (Universit\u00e0 Campus Bio-Medico di Roma)",
+    "quality": 7,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This study aims to predict the pathological response in non-small cell lung cancer patients by integrating expert knowledge into a deep learning framework to enhance both prediction accuracy and explainability.",
+    "contribution": "This paper introduces the Doctor-in-the-Loop framework to solve the challenge of predicting pathological responses in cancer patients, achieving higher predictive performance and explainability.",
+    "technical_comparison": {
+        "prior_work": "Previous methods used deep learning with either post-hoc explainability or lacked integration of clinical knowledge during training.",
+        "novelty": "This work improves by incorporating expert-driven domain knowledge directly into the model training, ensuring a clinically relevant focus during learning."
+    },
+    "key_innovation": "The framework combines domain expertise with a gradual multi-view approach, allowing the model to focus on both broad anatomical regions and specific lesions.",
+    "real_world_impact": "By enhancing explainability in predictions, this framework can facilitate trust among clinicians, ultimately improving decision-making in cancer treatment strategies.",
+    "limitations": "No",
+    "new_terms": {
+        "Doctor-in-the-Loop": "**Doctor-in-the-Loop** is a machine learning framework that involves integration of expert clinical knowledge into the training and prediction processes to ensure relevance and interpretability of the model's focus."
+    },
+    "open_sourcing": ""
+}

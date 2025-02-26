@@ -1,0 +1,19 @@
+{
+    "title": "A Survey: Spatiotemporal Consistency in Video Generation",
+    "author": "Zhiyu Yin (School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen), Kehai Chen (School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen), Xuefeng Bai (School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen), Ruili Jiang (School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen), Juntao Li (School of Computer Science and Technology, Soochow University), Hongdong Li (School of Computer Science and Technology, Central South University), Jin Liu (School of Computer Science and Technology, Central South University), Yang Xiang (Peng Cheng Laboratory), Jun Yu (School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen), Min Zhang (School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "The paper reviews advancements in video generation techniques, focusing on ensuring spatiotemporal consistency across individual frames in generated videos.",
+    "contribution": "This survey introduces current advancements related to spatiotemporal consistency in video generation, achieving a comprehensive overview of existing models and approaches.",
+    "technical_comparison": {
+        "prior_work": "Previous surveys tended to overlook the specific challenges related to maintaining spatiotemporal consistency in video generation.",
+        "novelty": "This work specifically focuses on spatiotemporal consistency, mapping foundational models, representation methods, generation schemes, and evaluation metrics."
+    },
+    "key_innovation": "The survey highlights the integration of different models and techniques such as GANs, autoregressive models, and diffusion models to address spatiotemporal coherence in video generation.",
+    "real_world_impact": "Improving video generation techniques could contribute significantly to applications in entertainment, training simulations, and AI-generated content, enhancing visual experiences.",
+    "limitations": "The survey does not provide experimental evaluations or hands-on implementations of the discussed methods.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution",
+    "author": "Yuxiang Wei (FAIR at Meta), Olivier Duchenne (FAIR at Meta), Jade Copet (FAIR at Meta), Quentin Carbonneaux (FAIR at Meta), Lingming Zhang (University of Illinois Urbana-Champaign), Daniel Fried (GenAI at Meta), Gabriel Synnaeve (FAIR at Meta), Rishabh Singh (GenAI at Meta), Sida I. Wang (FAIR at Meta)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper's application of reinforcement learning (RL) to enhance large language models (LLMs) shows potential methodologies for developing advanced audio and speech processing systems, which could align with my own research interests in generative audio and speech enhancement.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Reinforcement learning is used to improve reasoning in language models by using real-world software changes to inform decision making about code fixes.",
+    "contribution": "SWE-RL introduces a novel reinforcement learning approach to improve reasoning capabilities in software engineering tasks using extensive software evolution data, achieving a 41.0% solve rate on a benchmark of verified software issues.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically focused on supervised finetuning without leveraging the full lifecycle of software evolution data, which limited their effectiveness in solving real-world issues.",
+        "novelty": "This work enhances reasoning by directly applying RL to software evolution data with rule-based rewards, which is a departure from traditional supervised learning approaches."
+    },
+    "key_innovation": "It autonomously recovers developer reasoning processes from open-source repositories, enabling models to tackle complex problem-solving based on real-world examples.",
+    "real_world_impact": "This research could facilitate improved software development tools and automate coding issue resolutions, potentially leading to more efficient programming practices and code quality advancements.",
+    "limitations": "The reward system does not account for semantic equivalence, potentially missing alternative correct solutions. Simplified localization lacks comprehensive context.",
+    "new_terms": {
+        "SWE-bench": "**SWE-bench** refers to a benchmark designed for evaluating models on real-world software engineering issues and change requests.",
+        "patch": "**Patch** in this context refers to a modification made to code to fix bugs or enhance functionality."
+    },
+    "open_sourcing": "https://github.com/facebookresearch/swe-rl"
+}

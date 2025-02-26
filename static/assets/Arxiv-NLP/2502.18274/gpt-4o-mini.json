@@ -1,0 +1,22 @@
+{
+    "title": "Citrus: Leveraging Expert Cognitive Pathways in a Medical Language Model for Advanced Medical Decision Support",
+    "author": "Guoxin Wang (JD Health International Inc.), Minyu Gao (JD Health International Inc.), Shuai Yang (JD Health International Inc.), Ya Zhang (JD Health International Inc.), Lizhi He (JD Health International Inc.), Liang Huang (JD Health International Inc.), Hanlin Xiao (JD Health International Inc.), Yexuan Zhang (JD Health International Inc.), ..., Wanyue Li (JD Health International Inc.)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses the emulation of expert cognitive pathways for medical decision support, which could enhance the generative capabilities of audio and speech applications by integrating advanced reasoning.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Developing a language model that simulates medical experts' reasoning capabilities to improve clinical diagnosis and treatment recommendations.",
+    "contribution": "This paper introduces the Citrus model, leveraging expert cognitive pathways to enhance medical reasoning and decision-making support, achieving superior performance in medical benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled with dynamic decision-making due to their reliance on static datasets.",
+        "novelty": "Citrus simulates expert cognitive processes through a training-free approach and a multi-stage training methodology, yielding significant improvements in reasoning tasks."
+    },
+    "key_innovation": "Combines trained expert reasoning processes with simulated data to create a robust model for medical language understanding and decision support.",
+    "real_world_impact": "The Citrus model can significantly enhance the efficiency and accuracy of clinical decision support systems, thereby improving patient outcomes in healthcare settings.",
+    "limitations": "The paper does not mention specific limitations, but the reliance on simulated datasets may affect real-world applicability.",
+    "new_terms": {
+        "hypothetico-deductive method": "**Hypothetico-deductive method** refers to a classical approach in scientific reasoning where hypotheses are generated and tested against observational data.",
+        "dual-processing theory": "**Dual-processing theory** posits two modes of thinking: intuitive (fast) and analytical (slow), which work together in decision-making tasks."
+    },
+    "open_sourcing": "The Citrus model and its training data are publicly available as open-source resources."
+}

@@ -1,0 +1,18 @@
+{
+    "title": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models",
+    "author": "Jake Poznanski (Allen Institute for AI), Jon Borchardt (Allen Institute for AI), Jason Dunkelberger (Allen Institute for AI), Regan Huff (Allen Institute for AI), Daniel Lin (Allen Institute for AI), Aman Rangapur (Allen Institute for AI), Christopher Wilhelm (Allen Institute for AI), Kyle Lo (Allen Institute for AI), Luca Soldaini (Allen Institute for AI), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods proposed for document processing and linearization could enhance audio-language integration by improving how textual data from related PDF documents is utilized in audio generation tasks.",
+    "field": "Applications-Language",
+    "background": "This paper presents a toolkit for extracting and linearizing textual content from PDF documents to enhance the training data for language models.",
+    "contribution": "olmOCR introduces document-anchoring, a technique that uses both visual layout and text metadata to improve text extraction quality from PDFs, achieving significant cost efficiency and scalability.",
+    "technical_comparison": "Previous methods often relied solely on rasterized images, which limited accuracy and consistency in representing underlying text. This work improves by integrating PDF metadata alongside images in extraction processes.",
+    "key_innovation": "The combination of document-anchoring and a fine-tuned vision language model allows for a more nuanced and coherent extraction of text from complex document layouts.",
+    "real_world_impact": "olmOCR offers a low-cost solution for processing vast archives of PDF documents, facilitating broader access to valuable linguistic data while supporting future advancements in AI training datasets.",
+    "limitations": "No.",
+    "new_terms": {
+        "document-anchoring": "**Document-anchoring** is a method of enhancing text extraction by using meta-information about the layout of text and images from digitized documents, in conjunction with visual representations, to achieve more accurate outputs."
+    },
+    "open_sourcing": "Code available at [allenai/olmocr](https://github.com/allenai/olmocr) and weights & data at [Hugging Face](https://huggingface.co/collections/allenai/olmocr-67af8630b0062a25bf1b54a1)."
+}

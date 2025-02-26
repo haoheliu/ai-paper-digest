@@ -1,0 +1,22 @@
+{
+    "title": "Knowledge Distillation with Training Wheels",
+    "author": "Guanlin Liu (Amazon Alexa AI), Anand Ramachandran (Amazon Alexa AI), Tanmay Gangwani (Amazon Alexa AI), Yan Fu (Amazon Alexa AI), Abhinav Sethy (Amazon Alexa AI), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper presents a novel approach to knowledge distillation, incorporating teacher use at test time, which can be applied in speech and audio applications for improving model efficiency and accuracy. Haohe Liu could adapt these ideas for tasks such as audio generation or enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Knowledge distillation trains a smaller model (the student) using the expertise of a larger model (the teacher) to enhance performance on various tasks.",
+    "contribution": "This paper introduces a new framework for knowledge distillation that allows the student to call for help from the teacher at test time while adhering to specified usage constraints, significantly improving the balance between accuracy and efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous knowledge distillation methods typically positioned the student model to work independently from the teacher during inference.",
+        "novelty": "This work allows student models to self-determine when to engage the teacher model for assistance at test time, which enhances performance without the complexity of prior speculative decoding strategies."
+    },
+    "key_innovation": "The method uniquely allows the student model to use guidance from the teacher model at runtime based on natural language instructions, thus prioritizing when to seek help based on learned difficulties in tasks.",
+    "real_world_impact": "This framework could lead to developing more efficient models with improved accuracy in applications requiring language processing, ultimately advancing the capabilities in audio and speech processing.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "knowledge distillation": "**Knowledge distillation** is a technique in machine learning where a smaller model is trained to replicate a larger model\u2019s output, facilitating efficient learning.",
+        "constrained reinforcement learning": "**Constrained reinforcement learning** refers to a branch of reinforcement learning that limits the actions taken by the agent based on predefined constraints, ensuring adherence to specific operational requirements."
+    },
+    "open_sourcing": ""
+}

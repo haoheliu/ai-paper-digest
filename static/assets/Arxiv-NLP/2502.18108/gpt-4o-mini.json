@@ -1,0 +1,21 @@
+{
+    "title": "Uncertainty Quantification in Retrieval Augmented Question Answering",
+    "author": "Laura Perez-Beltrachini (Institute for Language, Cognition and Computation, University of Edinburgh), Mirella Lapata (Institute for Language, Cognition and Computation, University of Edinburgh), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper's approach to uncertainty quantification in question answering could inform adaptive audio systems that need to determine when to make confident decisions based on retrieved data or similar contextual information.",
+    "field": "Applications-Language",
+    "background": "This study analyzes how retrieval augmented question answering models utilize retrieved passages to inform their answers and aims to quantify the uncertainty of these models regarding their predictions.",
+    "contribution": "This paper introduces a lightweight neural model to predict the utility of passages provided to question answering models, achieving improved accuracy and reduced uncertainty in their generated answers.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely on sampling-based solutions for uncertainty estimation, often computationally intensive and less efficient.",
+        "novelty": "This work offers a contrastive learning based utility predictor that does not depend on extensive sampling, rendering it more efficient and practical for production use."
+    },
+    "key_innovation": "The use of utility scores from a small neural model trained on passage effectiveness allows for efficient uncertainty estimation in question answering contexts.",
+    "real_world_impact": "The findings could enhance the reliability of AI systems in real-world applications where factual accuracy is critical, such as automated customer service or information retrieval systems.",
+    "limitations": "The authors note that their method primarily targets short-form question answering and may not directly extend to more complex, multi-hop reasoning tasks.",
+    "new_terms": {
+        "retrieval augmented QA": "**Retrieval augmented Question Answering** refers to techniques that enhance question answering models by providing them with retrieved passages of information to improve answer accuracy."
+    },
+    "open_sourcing": "Code and data are available at https://github.com/lauhaide/ragu"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Protein Large Language Models: A Comprehensive Survey",
+    "author": "Yijia Xiao (UCLA), Wanjia Zhao (Stanford), Junkai Zhang (UCLA), Yiqiao Jin (Georgia Tech), Han Zhang (UCLA), Zhicheng Ren (UCLA), Renliang Sun (UCLA), Haixin Wang (UCLA), ..., Wei Wang (UCLA)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This survey covers diverse methodologies and applications of Protein Large Language Models (Protein LLMs), which are relevant for deepening understanding of sequence-function relationships, crucial in audio analysis tasks involving biological datasets.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper provides a comprehensive overview of Protein LLMs, focusing on their architectures, training methodologies, and applications in protein science, enabling more efficient protein analysis and design.",
+    "contribution": "The survey introduces a structured taxonomy of Protein LLMs and analyzes their use of large protein datasets for enhanced accuracy, contributing to advancements in protein engineering and biomedical research.",
+    "technical_comparison": {
+        "prior_work": "Previous surveys addressed only specific aspects or applications of Protein LLMs, often lacking depth in architecture and training data exploration.",
+        "novelty": "This work systematically analyzes over 100 articles, providing a structured overview of diverse architectures and evaluation metrics, significantly enhancing the understanding of Protein LLMs' capabilities."
+    },
+    "key_innovation": "Presents a comprehensive taxonomy and in-depth analysis of the evolution of Protein LLMs and their practical implications across various protein research applications.",
+    "real_world_impact": "This survey positions Protein LLMs as vital tools for advancing protein science, potentially accelerating discoveries in fields such as drug design and molecular biology.",
+    "limitations": "The survey focuses mainly on Protein LLMs and does not extensively cover the interactions between proteins and other molecules, which could provide a broader perspective on protein research.",
+    "new_terms": {
+        "Protein Large Language Models (Protein LLMs)": "**Protein Large Language Models (Protein LLMs)** refer to models designed to understand and predict protein behavior based on large-scale protein sequence data, utilizing techniques from language modeling to analyze biological structures and functions."
+    },
+    "open_sourcing": "Resources are maintained at https://github.com/Yijia-Xiao/Protein-LLM-Survey"
+}

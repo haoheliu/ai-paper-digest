@@ -1,0 +1,21 @@
+{
+    "title": "WiCkeD: A Simple Method to Make Multiple Choice Benchmarks More Challenging",
+    "author": "Ahmed Elhady (HiTZ Center, University of the Basque Country), Eneko Agirre (HiTZ Center, University of the Basque Country), Mikel Artetxe (HiTZ Center, University of the Basque Country, Reka AI), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a novel method to augment multiple choice question (MCQ) benchmarks by including *'None of the above'*, which can enhance the assessment of reasoning in language models, relevant for tasks in audio-language alignment and processing.",
+    "field": "Evaluation-Methodology",
+    "background": "Multiple choice question benchmarks assess the capabilities of language models in various tasks by providing a set of answers; this research seeks to improve the challenge level of such assessments without needing additional answer options.",
+    "contribution": "WiCkeD introduces the Wild-Card Distractor (*None of the above*) to replace one option in multiple choice questions, significantly increasing the difficulty of existing benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for enhancing MCQ benchmarks involved creating harder distractors, which often require substantial manual effort and verification.",
+        "novelty": "This work improves by automatically integrating a simple distractor ('None of the above') to create challenging variants while maintaining coherence in the questions."
+    },
+    "key_innovation": "Utilizes a straightforward algorithm to change the difficulty of MCQs without complicating the original question structure or requiring extensive manual annotation.",
+    "real_world_impact": "This method could lead to better evaluations of AI models in real-world applications, particularly in scenarios needing critical reasoning and knowledge capture, enhancing reliability in language processing tasks.",
+    "limitations": "The applicability of WiCkeD is confirmed on some popular benchmarks but may need further validation for others; the impact on closed models like GPT-4 is unexplored.",
+    "new_terms": {
+        "Wild-Card Distractor": "**Wild-Card Distractor** is an additional response option in MCQs that typically signifies 'None of the above'; it is introduced to assess the model's reasoning ability when the correct answer is absent."
+    },
+    "open_sourcing": "The code and data are available at https://github.com/ahmedselhady/wicked-benchmarks"
+}

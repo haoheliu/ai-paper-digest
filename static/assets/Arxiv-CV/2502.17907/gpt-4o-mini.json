@@ -1,0 +1,21 @@
+{
+    "title": "BD Currency Detection: A CNN-Based Approach with Mobile App Integration",
+    "author": "Syed Jubayer Jaman (Manarat International University), Md. Zahurul Haque (Manarat International University), Md Robiul Islam (Manarat International University), Usama Abdun Noor (Manarat International University), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "Detecting and classifying Bangladeshi banknotes using a deep learning model integrated into a mobile application for efficient currency recognition.",
+    "contribution": "This paper introduces a Convolutional Neural Network (CNN) for recognizing Bangladeshi banknotes, achieving an accuracy of 98.5%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods faced challenges with accuracy under varying conditions and were often not optimized for mobile use.",
+        "novelty": "This work improves by optimizing the CNN for real-time performance on mobile devices, converting it to TensorFlow Lite format."
+    },
+    "key_innovation": "Integrates a highly accurate CNN model for currency recognition into a mobile app that operates offline, utilizing efficient inference through TensorFlow Lite.",
+    "real_world_impact": "Enhances financial accessibility and security for users, particularly in remote areas with limited internet connectivity, benefiting visually impaired individuals and small businesses.",
+    "limitations": "No information on potential limitations was explicitly mentioned.",
+    "new_terms": {
+        "TensorFlow Lite": "**TensorFlow Lite** is a lightweight version of TensorFlow designed for mobile and embedded devices, allowing neural network models to run efficiently on such platforms."
+    },
+    "open_sourcing": ""
+}

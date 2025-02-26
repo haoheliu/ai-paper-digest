@@ -1,0 +1,22 @@
+{
+    "title": "DATA-DRIVEN PSEUDO-SPECTRAL FULL WAVEFORM INVERSION VIA DEEP NEURAL NETWORKS",
+    "author": "Christopher Zerafa (Department of Geosciences, University of Malta), Pauline Galea (Department of Geosciences, University of Malta), Cristiana Sebu (Department of Geosciences, University of Malta), ... , Christopher Zerafa (Department of Geosciences, University of Malta)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper discusses the use of deep learning for seismic inversion, which could inspire similar approaches in audio processing tasks, particularly in areas such as sound reconstruction and audio analysis, leveraging data-driven methods.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task involves reconstructing subsurface geological models from seismic data using inversion techniques that optimize a cost function based on measured and simulated data.",
+    "contribution": "This paper introduces a novel deep neural network framework for pseudo-spectral full waveform inversion to optimize subsurface models, outperforming classical techniques in challenging environments.",
+    "technical_comparison": {
+        "prior_work": "Traditional full waveform inversion methods can suffer from modeling errors and constraints from ray-tracing.",
+        "novelty": "This work reduces the influence of forward modeling errors by employing a data-driven deep learning approach rather than conventional physical modeling."
+    },
+    "key_innovation": "Integrates a data-driven method with pseudo-spectral approaches to overcome limitations of classical inversion techniques in complex geological settings.",
+    "real_world_impact": "Improves subsurface imaging quality, which is crucial for applications in oil and gas exploration, civil engineering, and environmental monitoring.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "pseudo-spectral": "**Pseudo-spectral** methods refer to a numerical approach used in solving differential equations by representing the functions in the spectral domain, allowing higher accuracy in wave propagation modeling.",
+        "full waveform inversion": "**Full waveform inversion (FWI)** is an advanced technique used to update subsurface models by minimizing differences between observed and modeled seismic data."
+    },
+    "open_sourcing": ""
+}

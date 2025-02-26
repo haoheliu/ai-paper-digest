@@ -1,0 +1,22 @@
+{
+    "title": "3D Anatomical Structure-Guided Deep Learning for Accurate Diffusion Microstructure Imaging",
+    "author": "Xinrui Ma (Paul C. Lauterbur Research Center for Biomedical Imaging), Jian Cheng (State Key Laboratory of Software Development Environment), Wenxin Fan (Paul C. Lauterbur Research Center for Biomedical Imaging), Ruoyou Wu (Paul C. Lauterbur Research Center for Biomedical Imaging), Yongquan Ye (United Imaging Healthcare), Shanshan Wang (Paul C. Lauterbur Research Center for Biomedical Imaging), ...",
+    "quality": 8,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Applications-Healthcare",
+    "background": "This study focuses on using diffusion magnetic resonance imaging to estimate brain tissue microstructure, leveraging deep learning methods to improve efficiency and accuracy.",
+    "contribution": "This paper introduces a deep learning framework that integrates anatomical information to enhance the estimation of microstructural parameters from diffusion MRI, achieving a 15\u00d7 acceleration compared to traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, such as traditional model-based tissue microstructure reconstruction techniques, require extensive data sampling and are time-consuming.",
+        "novelty": "This work improves by employing an anatomical prior module that guides the parameter estimation process, thereby maintaining high accuracy while reducing the need for dense diffusion sampling."
+    },
+    "key_innovation": "Incorporates anatomical tissue probability maps from T1-weighted images to refine the prediction of diffusion MRI parameters and improve boundary delineation.",
+    "real_world_impact": "This framework could significantly enhance clinical applications of diffusion MRI by providing quicker and more accurate assessments of brain microstructure, potentially aiding in diagnoses and treatment planning.",
+    "limitations": "No",
+    "new_terms": {
+        "diffusion magnetic resonance imaging": "**Diffusion magnetic resonance imaging (dMRI)** is a non-invasive imaging technique used to visualize microstructural properties of brain tissue by measuring the motion of water molecules.",
+        "anatomical prior module": "**Anatomical prior module** is a component of the framework that uses prior anatomical knowledge to guide and improve the accuracy of deep learning predictions in the context of diffusion MRI."
+    },
+    "open_sourcing": ""
+}

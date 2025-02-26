@@ -1,0 +1,21 @@
+{
+    "title": "METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling",
+    "author": "Bingxuan Li (University of California, Los Angeles), Yiwei Wang (University of California, Merced), Jiuxiang Gu (Adobe Research), Kai-Wei Chang (University of California, Los Angeles), Nanyun Peng (University of California, Los Angeles), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The framework's multi-agent design and iterative refinement process for chart generation could inspire similar methods in audio data visualization or representation tasks, enhancing audio-language modeling by visually grounding interpretability.",
+    "field": "Applications-Vision",
+    "background": "The task is to automatically generate visualization code for charts based on reference images, requiring complex visual understanding and programming skills.",
+    "contribution": "This paper introduces the METAL framework to solve the chart generation problem, achieving a 5.2% improvement in accuracy and demonstrating test-time scaling benefits.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on direct prompting of vision-language models, which often led to inaccuracies in chart structure and detail.",
+        "novelty": "METAL improves by employing a multi-agent approach that divides tasks among specialized agents for generation, critique, and revision, enhancing accuracy through iterative collaboration."
+    },
+    "key_innovation": "The unique aspect of this method is the collaborative and iterative approach involving specialized agents that can critique and revise each other's outputs, leading to superior chart generation quality.",
+    "real_world_impact": "This framework has the potential to empower professionals in creating accurate visualizations for reports across fields such as finance and education, enhancing decision-making processes.",
+    "limitations": "The framework's reliance on extensive computational resources during inference can limit its accessibility.",
+    "new_terms": {
+        "test-time scaling": "**Test-time scaling** refers to the observation that model performance improves with increased computational resources and iterative refinement during the inference process."
+    },
+    "open_sourcing": "https://metal-chart-generation.github.io"
+}

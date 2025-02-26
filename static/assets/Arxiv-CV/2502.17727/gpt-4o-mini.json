@@ -1,0 +1,21 @@
+{
+    "title": "CAN SCORE-BASED GENERATIVE MODELING EFFECTIVELY HANDLE MEDICAL IMAGE CLASSIFICATION?",
+    "author": "Sushmita Sarker (University of Nevada, Reno), Prithul Sarker (University of Nevada, Reno), George Bebis (University of Nevada, Reno), Alireza Tavakkoli (University of Nevada, Reno)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The generative approach and the application of score-based models could inspire new methods for audio restoration and enhancement tasks, particularly in handling limited or imbalanced data.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "The study investigates the efficacy of score-based generative models for classifying medical images, specifically mammograms, where data is limited and imbalanced.",
+    "contribution": "This paper introduces a score-based generative model for medical image classification to address challenges of limited data, achieving improved accuracy compared to traditional discriminative models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on discriminative models that can falter when class distributions overlap significantly, leading to overfitting.",
+        "novelty": "This work employs score-based generative models to capture underlying class distributions, enhancing robustness even with limited or imbalanced datasets."
+    },
+    "key_innovation": "Utilizes score-based generative modeling to effectively handle challenging classification tasks in medical imaging, allowing for improved accuracy without requiring extensive data.",
+    "real_world_impact": "The findings could significantly enhance diagnostic accuracy in healthcare settings by leveraging limited data more effectively through generative modeling techniques.",
+    "limitations": "No",
+    "new_terms": {
+        "score-based generative models": "**Score-based generative models** are a class of generative models that represent the data distribution using the gradients of the probability density function, allowing for effective sampling and representation in complex data spaces."
+    },
+    "open_sourcing": "The code is publicly available at https://github.com/sushmitasarker/sgc_for_medical_image_classification"
+}

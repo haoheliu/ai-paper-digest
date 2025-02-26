@@ -1,0 +1,21 @@
+{
+    "title": "Can Large Language Models Identify Implicit Suicidal Ideation? An Empirical Evaluation",
+    "author": "Tong Li (Provable Responsible AI and Data Analytics Lab, King Abdullah University of Science and Technology), Shu Yang (King Abdullah University of Science and Technology), Junchao Wu (University of Macau), Jiyao Wei (Institute of Computing Technology, Chinese Academy of Sciences), Lijie Hu (King Abdullah University of Science and Technology), Mengdi Li (King Abdullah University of Science and Technology), Derek F. Wong (University of Macau), Di Wang (King Abdullah University of Science and Technology)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper discusses the applicability of Large Language Models (LLMs) to mental health, which could be adapted for analyzing emotional content in audio or other modalities relevant to Haohe's work.",
+    "field": "Applications-Language",
+    "background": "Evaluating the capability of Large Language Models to detect subtle signs of suicidal ideation and provide empathetic responses in order to inform mental health interventions.",
+    "contribution": "This study introduces DeepSuiMind, a dataset to assess LLMs' ability to identify implicit suicidal ideation and provide appropriate supportive responses, achieving insights that highlight current model limitations.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches primarily focus on explicit suicidal content detection, with insufficient evaluation of subtle, implicit ideation.",
+        "novelty": "This work addresses this gap by using a novel dataset and evaluation framework to analyze LLM performance on implicit triggers of suicidal thoughts."
+    },
+    "key_innovation": "Develops a dataset that includes subtle, abstract, and metaphorical expressions of suicidal ideation, providing a new baseline for evaluating LLMs in mental health support.",
+    "real_world_impact": "Understanding LLM capabilities in detecting suicidal ideation could lead to better implementation of these models in mental health support systems, potentially reducing risks associated with untreated psychological distress.",
+    "limitations": "The study is limited to English, potentially affecting generalizability across languages and cultures.",
+    "new_terms": {
+        "implicit suicidal ideation": "**Implicit suicidal ideation** refers to subtle expressions of thoughts related to self-harm or suicide that do not explicitly resort to direct or clear statements of suicidal intent."
+    },
+    "open_sourcing": ""
+}

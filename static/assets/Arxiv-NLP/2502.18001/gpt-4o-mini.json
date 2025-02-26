@@ -1,0 +1,21 @@
+{
+    "title": "Unveiling the Key Factors for Distilling Chain-of-Thought Reasoning",
+    "author": "Xinghao Chen (The Hong Kong Polytechnic University), Zhijing Sun (Ningbo Digital Twin Institute), Wenjin Guo (Ningbo Digital Twin Institute), Miaoran Zhang (Saarland University), Yanjun Chen (The Hong Kong Polytechnic University), Yirong Sun (Ningbo Digital Twin Institute), Hui Su (Meituan Inc.), Wenjie Li (The Hong Kong Polytechnic University), Xiaoyu Shen (Ningbo Digital Twin Institute)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The insights on optimizing reasoning processes and model distillation techniques could inform audio-language models' training to better handle reasoning tasks in audio data.",
+    "field": "Applications-Language",
+    "background": "The paper investigates methods for enhancing reasoning capabilities in Small Language Models (SLMs) through Chain-of-Thought (CoT) distillation.",
+    "contribution": "This paper introduces a systematic framework for optimizing Chain-of-Thought distillation in Small Language Models, achieving improved reasoning capabilities across various tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focus on direct prompting for reasoning tasks without exploring the nuanced factors of teacher selection, granularity, and format.",
+        "novelty": "This work systematically analyzes these three factors, providing insights on their varying impacts on model performance, especially concerning model strength."
+    },
+    "key_innovation": "The distinct relationships between reasoning granularity and model strength, showing that weaker models benefit from simpler annotations while stronger models gain from detailed reasoning.",
+    "real_world_impact": "This research can significantly improve the efficiency of SLMs in reasoning tasks, making advanced AI applications more accessible in resource-limited environments.",
+    "limitations": "Some tasks faced safety concerns that limited the diversity of generated reasoning chains.",
+    "new_terms": {
+        "Chain-of-Thought (CoT)": "**Chain-of-Thought (CoT)** prompting is a technique in AI where models generate intermediate reasoning steps to enhance decision-making and interpretability in responses."
+    },
+    "open_sourcing": "The code and datasets are available at https://github.com/EIT-NLP/Distilling-CoT-Reasoning."
+}

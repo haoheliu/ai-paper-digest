@@ -1,0 +1,22 @@
+{
+    "title": "Towards Conditioning Clinical Text Generation for User Control",
+    "author": "Osman Alperen Kora\u015f (Institute for AI in Medicine, University Hospital Essen), Rabi Bahnan (Institute for AI in Medicine, University Hospital Essen), Jens Kleesiek (Cancer Research Center Cologne Essen), Amin Dada (Institute for AI in Medicine, University Hospital Essen), ..., Amin Dada (Institute for AI in Medicine, University Hospital Essen)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper improves controlled text generation methods that could be adapted to audio-related tasks requiring structured outputs, like speech generation with specific styles or guidelines.",
+    "field": "Applications-Language",
+    "background": "The paper focuses on generating clinical text summaries that are controlled both in content and stylistic aspects to ensure accuracy and relevance, crucial in clinical settings.",
+    "contribution": "This paper introduces a system that separates content generation from stylistic guidelines to enable structured clinical text generation, achieving new state-of-the-art results with 34% relative improvement through dataset augmentation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in clinical text generation often lacked user control and relied on end-to-end generation, resulting in less flexibility and higher cognitive burden for clinicians.",
+        "novelty": "This work incorporates topic segmentation and authoring guidelines, allowing iterative control during generation, which enhances the relevance and factual accuracy of the outputs."
+    },
+    "key_innovation": "It allows clinicians to interactively refine generated outputs through structured generation, improving the adherence to clinical communication standards.",
+    "real_world_impact": "Potentially enhances the accuracy and efficiency of clinical documentation processes, reducing the cognitive load on clinicians and improving patient care outcomes.",
+    "limitations": "No significant limitations were mentioned by the authors.",
+    "new_terms": {
+        "LLMs": "**Large Language Models** are advanced machine-learning models capable of understanding and generating human-like text, often used in tasks involving natural language processing.",
+        "nucleus sampling": "**Nucleus sampling** is a method in text generation where the model selects words from the top percentile of probable next words, allowing for more coherent and relevant outputs."
+    },
+    "open_sourcing": ""
+}

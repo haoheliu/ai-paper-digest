@@ -1,0 +1,22 @@
+{
+    "title": "Self-Adjust Softmax",
+    "author": "Chuanyang Zheng (The Chinese University of Hong Kong), Yihang Gao (National University of Singapore), Guoxuan Chen (The University of Hong Kong), Han Shi (Noah's Ark Lab), Jing Xiong (The University of Hong Kong), Xiaozhe Ren (Noah's Ark Lab), Chao Huang (The University of Hong Kong), Xin Jiang (Noah's Ark Lab), Zhenguo Li (Noah's Ark Lab), Yu Li (The Chinese University of Hong Kong)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed Self-Adjusting Softmax could potentially enhance the performance of audio-related models that rely on attention mechanisms, such as those used in text-to-audio generation and audio classification tasks by improving gradient stability.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper addresses the gradient vanishing issue encountered in softmax attention mechanisms, particularly in deep learning models, proposing a new approach to enhance gradient flow during training.",
+    "contribution": "This paper introduces Self-Adjusting Softmax to solve the issue of gradient vanishing in traditional softmax, achieving improved gradient propagation and model performance across various datasets and tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often struggle with vanishing gradients when softmax outputs are highly peaked, leading to ineffective learning.",
+        "novelty": "This work improves by modifying the attention mechanism to scale softmax outputs with their inputs, allowing for better gradient flow and preserving the probabilistic nature of attention scores."
+    },
+    "key_innovation": "The method modifies the softmax function output to include a scaling factor based on the input, allowing for enhanced gradient propagation even in extreme cases.",
+    "real_world_impact": "The improved softmax mechanism could enhance performance in language models and audio generation systems, making them robust for longer contexts and complex tasks.",
+    "limitations": "The requirement to compute the maximum and minimum values for normalization could introduce additional computational overhead.",
+    "new_terms": {
+        "gradient vanishing": "**Gradient vanishing** refers to the phenomenon where gradients become extremely small, leading to ineffective training in deep networks, particularly in layers with many transformations.",
+        "Self-Adjusting Softmax": "**Self-Adjusting Softmax** is a proposed variant of the softmax function that enhances gradient flow by incorporating an input-dependent scaling factor."
+    },
+    "open_sourcing": "Code available at: https://github.com/chuanyang-Zheng/SA-Softmax"
+}

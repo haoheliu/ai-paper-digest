@@ -1,0 +1,19 @@
+{
+    "title": "Using Graph Convolutional Networks to Address fMRI Small Data Problems",
+    "author": "Thomas Screven (University of California, Davis), Jason Smucny (University of California, Davis), Andr\u00e1s Necz (University of California, Davis), Ian Davidson (University of California, Davis)",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Predicting treatment responses in recent-onset schizophrenia patients using functional magnetic resonance imaging (fMRI) data, employing graph convolutional networks (GNNs) to improve performance despite limited data.",
+    "contribution": "This paper introduces a graph convolutional neural network approach to improve prognosis accuracy from fMRI data, achieving a subject-wise accuracy of 72.2% in treatment response prediction.",
+    "technical_comparison": "Previous methods primarily focused on traditional neural networks that fail to capitalize on the inter-subject relationships due to small data limitations. This work improves by using a graph convolutional framework, which effectively shares information between subjects to better inform predictions.",
+    "key_innovation": "The study employs a spectral embedding representation of brain connectivity, which reduces overfitting and smooths data by closing triangle inequality violations, enhancing predictive accuracy.",
+    "real_world_impact": "The findings could lead to improved methodologies for treatment response predictions in clinical settings, benefiting resource allocation for patient care. However, the impact is contingent on further validation in larger cohorts.",
+    "limitations": "The dataset is relatively small (82 subjects), which may limit the generalizability of the findings and could warrant further investigations with larger samples.",
+    "new_terms": {
+        "graph convolutional networks": "**Graph convolutional networks (GCNs)** are a type of neural network specifically designed to process data structured as graphs, allowing for the learning of node representations by aggregating information from neighboring nodes.",
+        "spectral embedding": "**Spectral embedding** is a technique that transforms data into a spectral space where the geometric properties can be exploited for better representation, particularly useful in data smoothing."
+    },
+    "open_sourcing": ""
+}

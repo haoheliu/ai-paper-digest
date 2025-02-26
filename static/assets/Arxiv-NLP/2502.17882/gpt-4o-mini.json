@@ -1,0 +1,22 @@
+{
+    "title": "Science Across Languages: Assessing LLM Multilingual Translation of Scientific Papers",
+    "author": "Hannah Calzi Kleidermacher (Stanford University), James Zou (Stanford University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper presents methods for multilingual translation of scientific articles, which could improve accessibility in scientific communication and support Haohe Liu's research in audio and music processing by enhancing dissemination across language barriers.",
+    "field": "Applications-Language",
+    "background": "The paper addresses the challenge of translating scientific articles from English into 28 other languages while preserving formatting and ensuring accuracy.",
+    "contribution": "This study introduces a novel question-and-answer benchmarking method for evaluating translation quality alongside a multilingual translation framework, achieving an impressive average accuracy of 95.9% across various languages.",
+    "technical_comparison": {
+        "prior_work": "Previous machine translation systems focused primarily on plain text or lacked specialized evaluation methods for scientific content.",
+        "novelty": "This work employs a question-and-answer evaluation framework, allowing automated assessment of key scientific details and maintaining journal article formatting during translation."
+    },
+    "key_innovation": "Utilizes large language models to preserve XML formatting while translating, enabling seamless integration of translated materials into academic publishing workflows.",
+    "real_world_impact": "By making scientific literature more accessible, the findings could foster collaboration among researchers from diverse linguistic backgrounds, ultimately promoting global scientific innovation and dialogues.",
+    "limitations": "Some inconsistencies in technical term translations were noted, leading to preferences for retaining English terms in certain contexts.",
+    "new_terms": {
+        "JATS XML": "**Journal Article Tag Suite XML** is a standardized format for tagging scientific articles to maintain structural integrity in digital publishing.",
+        "QA benchmarking": "**Question-and-answer benchmarking** refers to a method of evaluating translation effectiveness by generating questions from source content and assessing if the translated text answers these questions correctly."
+    },
+    "open_sourcing": "The code and translated articles are available at hankleid.github.io/ProjectMundo."
+}

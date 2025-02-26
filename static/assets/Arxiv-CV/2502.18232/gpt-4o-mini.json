@@ -1,0 +1,22 @@
+{
+    "title": "A Reverse Mamba Attention Network for Pathological Liver Segmentation",
+    "author": "Jun Zeng (Chongqing University of Posts and Telecommunications), Ulas Bagci (Northwestern University), Debesh Jha (University of South Dakota), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The integration of attention mechanisms in the proposed architecture could inform methods in audio segmentation and enhancement tasks, where precise delineation of features is crucial.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Pathological liver segmentation involves accurately identifying and delineating liver tissues in medical images, which is essential for diagnosis and treatment planning.",
+    "contribution": "This paper introduces the Reverse Mamba Attention module to solve the issue of capturing long-range dependencies in images while maintaining local feature accuracy, achieving state-of-the-art performance in liver segmentation.",
+    "technical_comparison": {
+        "prior_work": "Existing segmentation methods often struggle with long-range dependencies due to computational limitations and feature loss.",
+        "novelty": "This work improves by integrating a dual-mechanism approach that combines hierarchical processing with targeted feature refinement."
+    },
+    "key_innovation": "The architecture uniquely blends a selective scanning mechanism with reverse attention capabilities, allowing effective boundary delineation in medical imaging.",
+    "real_world_impact": "This technique could significantly enhance the accuracy and efficiency of liver disease diagnosis and monitoring, potentially improving patient outcomes.",
+    "limitations": "No",
+    "new_terms": {
+        "reverse attention": "**Reverse attention** refers to an attention mechanism that enhances boundary detection by focusing on the surrounding contextual information during image processing.",
+        "reverse mamba attention": "**Reverse Mamba Attention** is a novel approach combining selective scanning with reverse attention principles for improved segmentation in medical imaging."
+    },
+    "open_sourcing": "The source code of the proposed RMA-Mamba is available at https://github.com/JunZengz/RMAMamba"
+}

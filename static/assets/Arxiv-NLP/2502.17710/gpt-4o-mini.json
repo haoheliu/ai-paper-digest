@@ -1,0 +1,22 @@
+{
+    "title": "Mind the Gesture: Evaluating AI Sensitivity to Culturally Offensive Non-Verbal Gestures",
+    "author": "Akhila Yerukola (Carnegie Mellon University), Saadia Gabriel (University of California, Los Angeles), Nanyun Peng (University of California, Los Angeles), Maarten Sap (Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The insights from this paper on culturally sensitive AI can be leveraged to enhance speech and audio processing models, particularly in understanding social cues or emotional contexts that vary across cultures.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study evaluates how AI systems interpret non-verbal gestures, which can vary significantly in meaning across different cultures and can lead to miscommunication or offense.",
+    "contribution": "This paper introduces the Multi-Cultural Set of Inappropriate Gestures and Nonverbal Signs (MC-SIGNS) dataset to improve AI cultural sensitivity in gesture interpretation, revealing significant biases in current models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on detecting explicit threats in AI outputs, neglecting the subtleties of cultural offensiveness.",
+        "novelty": "This work emphasizes the need for datasets that capture cultural nuances in gestures and evaluates multiple AI models' performance across different cultural contexts."
+    },
+    "key_innovation": "Establishes a dataset for evaluating offensive gestures across cultures, specifically assessing AI models' biases and their ability to recognize nuanced social contexts.",
+    "real_world_impact": "Improves safety and cultural inclusivity in AI applications used globally, potentially preventing miscommunication in advertising, travel advisory, and communication technologies.",
+    "limitations": "The dataset has limited coverage of gestures and focuses exclusively on offensive interpretations without considering positivity or neutral meanings.",
+    "new_terms": {
+        "emblematic gestures": "**Emblematic gestures** are gestures that convey specific meanings independent of speech, highly influenced by cultural context.",
+        "cultural sensitivity": "**Cultural sensitivity** refers to the awareness and understanding of cultural differences and their impact on communication and interpretation."
+    },
+    "open_sourcing": "https://github.com/Akhila-Yerukola/culturally-offensive-gestures"
+}

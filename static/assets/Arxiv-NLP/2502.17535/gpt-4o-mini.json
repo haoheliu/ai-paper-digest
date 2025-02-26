@@ -1,0 +1,22 @@
+{
+    "title": "THE LOTTERY LLM HYPOTHESIS, RETHINKING WHAT ABILITIES SHOULD LLM COMPRESSION PRESERVE?",
+    "author": "Zhenheng Tang (CSE, The Hong Kong University of Science and Technology), Xiang Liu (DSA, The Hong Kong University of Science and Technology Guangzhou), Qian Wang (National University of Singapore), Peijie Dong (DSA, The Hong Kong University of Science and Technology Guangzhou), Bingsheng He (National University of Singapore), Xiaowen Chu (DSA, The Hong Kong University of Science and Technology Guangzhou), Bo Li (CSE, The Hong Kong University of Science and Technology), ..., Bo Li (CSE, The Hong Kong University of Science and Technology)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper discusses model compression and capabilities of language models, which may contribute to improving efficiency and performance in speech and audio applications through advanced LLM implementations.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This paper investigates how to effectively compress Large Language Models (LLMs) while preserving essential reasoning and retrieval capabilities needed for high-performance outputs.",
+    "contribution": "This work introduces the Lottery LLM hypothesis, which suggests a smaller model can achieve the same performance by leveraging advanced reasoning strategies and external knowledge tools.",
+    "technical_comparison": {
+        "prior_work": "Previous compression techniques focused primarily on reducing model parameters without enhancing operational capabilities.",
+        "novelty": "This approach integrates multi-step reasoning and external tools to maintain model efficiency without compromising performance."
+    },
+    "key_innovation": "Proposes the use of retrieval-augmented generation and external tools as part of the reasoning process, which supports complex problem-solving.",
+    "real_world_impact": "If adopted, this could significantly lower the energy and resource costs associated with LLM deployment, making advanced AI more accessible and environmentally sustainable.",
+    "limitations": "No specific limitations were mentioned in the paper.",
+    "new_terms": {
+        "Lottery LLM hypothesis": "**Lottery LLM hypothesis** proposes that a smaller model can achieve equivalent performance to a larger model through enhanced reasoning and use of external resources.",
+        "KV cache compression": "**Key-Value cache compression** refers to optimizing the storage of key-value pairs that assist LLMs in managing learned information more effectively."
+    },
+    "open_sourcing": ""
+}

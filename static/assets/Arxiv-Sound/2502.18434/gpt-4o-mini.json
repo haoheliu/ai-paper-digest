@@ -1,0 +1,22 @@
+{
+    "title": "Exploring Gender Disparities in Automatic Speech Recognition Technology",
+    "author": "Hend ElGhazaly (University of Sheffield), Bahman Mirheidari (University of Sheffield), Nafise Sadat Moosavi (University of Sheffield), Heidi Christensen (University of Sheffield), ... , Hend ElGhazaly (University of Sheffield)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The exploration of gender disparities in Automatic Speech Recognition (ASR) technology is highly relevant, particularly in examining how speech characteristics and training data composition can impact performance. This insights into gender ratios and pitch distributions could enhance Haohe Liu's work in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates how variations in gender representation in training datasets for Automatic Speech Recognition systems affect their performance and fairness.",
+    "contribution": "This paper introduces the analysis of gender distribution, pitch variability, and semantic similarity in training datasets to solve performance disparities in ASR systems, achieving insights into optimal training set compositions.",
+    "technical_comparison": {
+        "prior_work": "Previous research largely concentrated on simple gender ratios in datasets without considering other factors like pitch variability and text difficulty.",
+        "novelty": "This work broadens the focus by incorporating multiple influencing factors, revealing non-linear relationships that better explain ASR performance disparities across genders."
+    },
+    "key_innovation": "The study combines gender proportions, pitch distributions, and semantic content analysis to derive nuanced insights into ASR fairness and performance, moving beyond simple demographic considerations.",
+    "real_world_impact": "Improves the design of ASR systems, ensuring fairer recognition across genders, which is crucial for applications in customer service, accessibility tools, and overall AI impartiality.",
+    "limitations": "The study is limited to the English language and may not generalize to other languages or dialects.",
+    "new_terms": {
+        "Automatic Speech Recognition (ASR)": "**Automatic Speech Recognition (ASR)** is a technology that enables machines to recognize and understand human speech, converting spoken words into text.",
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a common metric used to evaluate the performance of speech recognition systems by measuring the percentage of words incorrectly recognized."
+    },
+    "open_sourcing": ""
+}

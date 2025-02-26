@@ -1,0 +1,22 @@
+{
+    "title": "Proactive Privacy Amnesia for Large Language Models: Safeguarding PII with Negligible Impact on Model Utility",
+    "author": "Martin Kuo (Duke University), Jingyang Zhang (Duke University), Jianyi Zhang (Duke University), Minxue Tang (Duke University), Louis DiValentin (Accenture), Aolin Ding (Accenture), Jingwei Sun (Duke University), William Chen (Cary Academy), ..., Hai Li (Duke University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The techniques outlined for protecting personally identifiable information (PII) in language models can be adapted to enhance privacy in audio-related tasks that involve sensitive data.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Developing a privacy-preserving method for large language models that reduces the risk of exposing sensitive personal data while minimizing the impact on the models' performance.",
+    "contribution": "This paper introduces Proactive Privacy Amnesia (PPA) to safeguard personally identifiable information in large language models, achieving a complete prevention of phone number exposure and a significant reduction in physical address exposure.",
+    "technical_comparison": {
+        "prior_work": "Prior methods such as gradient ascent and descent techniques either compromised model utility or provided inadequate protection against data exposure.",
+        "novelty": "PPA focuses on selectively forgetting key elements associated with PII, thus minimizing loss in model performance while enhancing privacy safeguards."
+    },
+    "key_innovation": "The unique combination of sensitivity analysis, selective forgetting, and memory implanting enables targeted deletion of sensitive data without extensive performance loss.",
+    "real_world_impact": "This approach could significantly enhance user privacy in applications utilizing large language models, addressing an urgent need in AI ethics and data protection.",
+    "limitations": "No",
+    "new_terms": {
+        "Proactive Privacy Amnesia": "**Proactive Privacy Amnesia** refers to a method aimed at forgetting specific sensitive information in machine learning models to protect user privacy without losing overall functionality.",
+        "memorization factor": "**Memorization factor** quantifies how crucial a particular token is for a model's understanding and retention of information, aiding in targeted unlearning."
+    },
+    "open_sourcing": ""
+}

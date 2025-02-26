@@ -1,0 +1,22 @@
+{
+    "title": "OmniAlign-V: Towards Enhanced Alignment of MLLMs with Human Preference",
+    "author": "Xiangyu Zhao (Shanghai Jiaotong University), Shengyuan Ding (Shanghai AI Laboratory), Zicheng Zhang (Shanghai Jiaotong University), Haian Huang (Shanghai AI Laboratory), Maosong Cao (Shanghai AI Laboratory), Weiyun Wang (Fudan University), Jiaqi Wang (Shanghai AI Laboratory), ..., Kai Chen (Shanghai AI Laboratory)",
+    "quality": 8,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper focuses on improving the alignment of multimodal large language models (MLLMs) with human preferences through the creation of a comprehensive training dataset and evaluation benchmarks.",
+    "contribution": "This paper introduces OmniAlign-V, a diverse dataset and MM-AlignBench benchmark, to solve the issue of alignment in multimodal large language models, achieving improved performance in human preference tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing multimodal datasets primarily focus on basic capabilities and lack a strong emphasis on human preference alignment, often featuring simplistic question and answer pairs.",
+        "novelty": "This work enhances multimodal datasets by introducing complex, open-ended questions and varied response formats, providing a more robust framework for MLLM training."
+    },
+    "key_innovation": "Introduces a tailored dataset specifically designed for multimodal training that emphasizes human preference alignment, including diverse question types and response styles.",
+    "real_world_impact": "The contributions could enhance the user experience in multimodal interactions by aligning AI models more closely with human values, making them more suitable for practical applications in conversational AI.",
+    "limitations": "No",
+    "new_terms": {
+        "OmniAlign-V": "**OmniAlign-V** refers to a comprehensive dataset created to improve the alignment of multimodal large language models with human preferences by utilizing complex questions and diverse response formats.",
+        "MM-AlignBench": "**MM-AlignBench** is a benchmark developed to evaluate the alignment capabilities of multimodal large language models with human values."
+    },
+    "open_sourcing": "The datasets, benchmark, code, and checkpoints have been released at https://github.com/PhoenixZ810/OmniAlign-V"
+}

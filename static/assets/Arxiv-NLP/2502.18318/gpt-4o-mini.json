@@ -1,0 +1,22 @@
+{
+    "title": "MAPPING OF SUBJECTIVE ACCOUNTS INTO INTERPRETED CLUSTERS (MOSAIC): TOPIC MODELLING AND LLM APPLIED TO STROBOSCOPIC PHENOMENOLOGY",
+    "author": "Romy Beaut\u00e9 (University of Sussex), David J. Schwartzman (University of Sussex), Guillaume Dumas (University of Montreal), Jennifer Crook (Collective Act), Fiona Macpherson (University of Glasgow), Adam B. Barrett (University of Sussex), Anil K. Seth (University of Sussex), ..., Jennifer Crook (Collective Act)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methodology of using Topic Modelling and Large Language Models may provide insights on analyzing subjective experience data that could be applied to audio-related domains, such as analyzing auditory experiences.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The task involves identifying and categorizing experiential topics in open-ended subjective reports related to stroboscopic light stimulation.",
+    "contribution": "This paper introduces a novel pipeline, MOSAIC, for analyzing and interpreting subjective accounts using Topic Modelling and Large Language Models, achieving a structured understanding of phenomenological reports.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on predefined questionnaires and qualitative assessments that may overlook nuanced experiences.",
+        "novelty": "This work improves by employing BERTopic and LLM-driven labeling, allowing for a richer exploration of subjective data without bias from predetermined categories."
+    },
+    "key_innovation": "The integration of advanced machine learning techniques for analyzing qualitative phenomenological data offers deeper insights beyond conventional methods.",
+    "real_world_impact": "Potentially enhances understanding of human consciousness and subjective experiences, which could influence therapeutic practices and immersive experiences.",
+    "limitations": "The study may have limitations regarding the generalizability of findings beyond the specific context of stroboscopic light stimulation.",
+    "new_terms": {
+        "MOSAIC": "**MOSAIC** stands for Mapping Of Subjective Accounts into Interpreted Clusters, a framework for analyzing open-ended phenomenological reports.",
+        "BERTopic": "**BERTopic** is a topic modeling technique that utilizes transformer-based models to capture contextual relationships within text."
+    },
+    "open_sourcing": "The analytical workflow is available at https://github.com/romybeaute/MOSAIC"
+}

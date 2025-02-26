@@ -1,0 +1,21 @@
+{
+    "title": "Sample Selection via Contrastive Fragmentation for Noisy Label Regression",
+    "author": "Chris Dongjoo Kim (Seoul National University), Sangwoo Moon (Seoul National University), Jihwan Moon (Seoul National University), Dongyeon Woo (Seoul National University), Gunhee Kim (Seoul National University, LG AI Research), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed ConFrag framework could influence audio-related generative models by improving how noisy labels in datasets are managed, which can be applied to tasks like music generation or audio restoration.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The research addresses how to effectively manage noisy labels in regression tasks, which is common in real-world datasets, via a new framework that enhances sample selection.",
+    "contribution": "This paper introduces the Contrastive Fragmentation (ConFrag) framework to solve the issues posed by noisy labels in regression, achieving improved selection of clean samples and enhanced predictive performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for handling noisy labels have primarily focused on classification settings, often requiring knowledge of noise rates or shown performance limitations in regression contexts.",
+        "novelty": "This work uniquely transforms the regression problem into multiple binary classifications guided by the contrastive fragment pairs, allowing more robust training without knowing the noise rate."
+    },
+    "key_innovation": "The ConFrag framework leverages the natural relationships between labels and features by employing contrastive pairs to identify and select clean data samples effectively.",
+    "real_world_impact": "The framework can lead to more accurate predictive models in various applications, such as finance or medicine, by better handling erroneous labels in training datasets.",
+    "limitations": "The proposed method relies on the assumption that continuous labels are available and does not explicitly handle cases of extreme label noise.",
+    "new_terms": {
+        "contrastive fragment pairs": "**Contrastive fragment pairs** refer to pairs of data fragments that are significantly different in label space, used to improve the generalization of models against noisy labels during training."
+    },
+    "open_sourcing": "The code is available at https://github.com/cdjkim/ConFrag"
+}

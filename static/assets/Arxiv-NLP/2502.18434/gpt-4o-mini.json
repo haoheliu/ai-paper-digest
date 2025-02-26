@@ -1,0 +1,22 @@
+{
+    "title": "Exploring Gender Disparities in Automatic Speech Recognition Technology",
+    "author": "Hend ElGhazaly (University of Sheffield), Bahman Mirheidari (University of Sheffield), Nafise Sadat Moosavi (University of Sheffield), Heidi Christensen (University of Sheffield), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses gender bias in Automatic Speech Recognition (ASR) systems, which directly relates to Haohe Liu's focus on optimizing audio processing techniques and improving speech technology.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study investigates the effects of gender representation in training data on the performance and fairness of Automatic Speech Recognition systems.",
+    "contribution": "This paper introduces an analysis of gender distribution, text content, and pitch variability to solve ASR performance disparities, achieving insights that can enhance fairness and accuracy in speech recognition systems.",
+    "technical_comparison": {
+        "prior_work": "Previous studies primarily focused on demographic factors without a comprehensive approach to other influences on ASR performance.",
+        "novelty": "This work combines gender ratios, content readability, semantic similarity, and pitch analysis to provide a multi-faceted understanding of ASR biases."
+    },
+    "key_innovation": "Integrates multiple influencing factors beyond simple gender ratios, emphasizing the complex interplay in training data that impacts ASR outcomes.",
+    "real_world_impact": "The findings can inform better dataset curation for ASR systems, potentially leading to more equitable and effective speech recognition applications across different demographics.",
+    "limitations": "The study is based on English language data; results may not generalize to other languages or dialects without further validation.",
+    "new_terms": {
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a metric used to measure the accuracy of an ASR system, calculated by comparing the number of incorrect words in the recognized text to the total number of words in the reference text.",
+        "semantic similarity": "**Semantic similarity** refers to the degree to which two texts share meaning or content, often assessed using various computational models."
+    },
+    "open_sourcing": ""
+}

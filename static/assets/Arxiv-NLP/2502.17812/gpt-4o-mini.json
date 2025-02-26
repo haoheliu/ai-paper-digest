@@ -1,0 +1,22 @@
+{
+    "title": "Can Multimodal LLMs Perform Time Series Anomaly Detection?",
+    "author": "Xiongxiao Xu (Illinois Institute of Technology), Haoran Wang (Emory University), Yueqing Liang (Illinois Institute of Technology), Philip S. Yu (University of Illinois Chicago), Yue Zhao (University of Southern California), Kai Shu (Emory University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses the application of Multimodal Large Language Models (MLLMs) for time series anomaly detection, which might provide insights or methodologies transferable to audio and speech domains where irregularities and anomalies need to be detected.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Time series anomaly detection involves identifying unusual patterns in sequential data, which can be crucial for applications in various fields, including finance and healthcare.",
+    "contribution": "This paper introduces the VISUALTIMEANOMALY benchmark to systematically evaluate the effectiveness of MLLMs in detecting time series anomalies.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused primarily on traditional deep learning approaches for time series analysis which may not utilize visual data effectively.",
+        "novelty": "This work improves by transforming time series data into image format, enabling MLLMs to leverage both visual and textual information for anomaly detection."
+    },
+    "key_innovation": "The integration of image-based representations of time series data with MLLMs enhances the ability to detect various types of anomalies.",
+    "real_world_impact": "The findings indicate that MLLMs can efficiently handle real-world time series anomalies, offering robust solutions for anomaly detection in various domains like healthcare and IoT.",
+    "limitations": "The paper does not address the potential biases in the MLLMs used or the generalization capabilities across different datasets.",
+    "new_terms": {
+        "visualization": "**Visualization** refers to the graphical representation of data to make it more understandable, in this case transforming time series into images for analysis.",
+        "variance-wise anomalies": "**Variate-wise anomalies** are defined as deviations in the behavior of entire variates in multivariate time series, which are larger-scale anomalies compared to point-wise anomalies."
+    },
+    "open_sourcing": "The dataset and code are available at https://github.com/mllm-ts/VisualTimeAnomaly"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Correlating and Predicting Human Evaluations of Language Models from Natural Language Processing Benchmarks",
+    "author": "Rylan Schaeffer (Stanford Computer Science), Punit Singh Koura (Meta GenAI), Binh Tang (Meta GenAI), Ranjan Subramanian (Meta GenAI), Aaditya K. Singh (University College London), Todor Mihaylov (Meta GenAI), Prajjwal Bhargava (Meta GenAI), ... Sharan Narang (Meta GenAI)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper provides insights into the evaluation metrics for language models, which can inform better assessment methods for audio-language alignment and generative tasks in audio research.",
+    "field": "Evaluation-Methodology",
+    "background": "The study explores the correlation between human evaluations and automated NLP benchmarks for language models, examining how benchmarks can predict user satisfaction.",
+    "contribution": "This paper introduces a correlation analysis framework to assess the relationship between NLP benchmarks and human evaluations, achieving a robust understanding of model performance assessment.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on either human evaluations or standalone benchmarks without investigating their interrelationship.",
+        "novelty": "This work uniquely combines large-scale human evaluation data with benchmark scores to derive predictive models, offering a way to anticipate human preferences."
+    },
+    "key_innovation": "Leverages overparameterized linear regression models to predict human evaluations from benchmark scores, improving the efficiency of performance assessment for language models.",
+    "real_world_impact": "The findings provide a pathway to reduce expensive human annotation costs while maintaining rigorous evaluation standards, which could enhance the deployment of conversational AI systems.",
+    "limitations": "The small sample size and the assumptions of linearity may limit the generalizability of these findings to other language models or evaluation settings.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

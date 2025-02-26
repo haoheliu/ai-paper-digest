@@ -1,0 +1,21 @@
+{
+    "title": "Test-Time Compute for Reranking in Information Retrieval",
+    "author": "Orion Weller (Johns Hopkins University), Kathryn Ricci (Johns Hopkins University), Eugene Yang (Johns Hopkins University), Andrew Yates (Johns Hopkins University), Dawn Lawrie (Johns Hopkins University), Benjamin Van Durme (Johns Hopkins University), ..., Andrew Yates (Johns Hopkins University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper discusses advancements in reranking models that leverage reasoning processes. This could improve audio retrieval systems where logical reasoning about user queries and audio context is beneficial.",
+    "field": "Applications-Speech and Audio",
+    "background": "Reranking models enhance information retrieval by reassessing the relevance of documents after an initial search, employing complex reasoning to produce better results.",
+    "contribution": "This paper introduces RANK1, a reasoning model for reranking in information retrieval that employs test-time computation to enhance performance in selecting relevant documents.",
+    "technical_comparison": {
+        "previous_work": "Previous reranking models primarily focused on text-matching without deep reasoning capabilities, limiting their adaptability in complex query contexts.",
+        "novelty": "This work incorporates reasoning language models that utilize test-time compute to generate reasoning chains, which enhance the precision of reranking processes."
+    },
+    "key_innovation": "Combines reasoning capabilities with reranking in information retrieval, allowing for explainable decision-making with robust performance.",
+    "real_world_impact": "This model can significantly improve search engine accuracy, particularly in specialized domains like legal or medical information retrieval. No immediate real-world impact if deployed hastily without proper testing.",
+    "limitations": "The model's inference speed is impacted due to its reliance on test-time compute, which may slow down user-facing applications.",
+    "new_terms": {
+        "test-time compute": "**Test-time compute** refers to the additional computational resources allocated during the inference phase of a model, allowing it to process and generate reasoning in real time."
+    },
+    "open_sourcing": "Models, code, and data are available at https://github.com/orionw/rank1"
+}

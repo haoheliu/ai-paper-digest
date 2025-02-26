@@ -1,0 +1,21 @@
+{
+    "title": "Your Language Model May Think Too Rigidly: Achieving Reasoning Consistency with Symmetry-Enhanced Training",
+    "author": "Yihang Yao (Carnegie Mellon University), Zhepeng Cen (Carnegie Mellon University), Miao Li (Carnegie Mellon University), William Han (Carnegie Mellon University), Yuyou Zhang (Carnegie Mellon University), Emerson Liu (AHN), Zuxin Liu (Salesforce), Chuang Gan (UMass Amherst), ..., Ding Zhao (Carnegie Mellon University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This work enhances language model robustness and consistency, which is relevant to audio generation and processing tasks where query variations in natural language can affect model performance.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Improving language models' reasoning consistency by addressing sensitivity to various natural language query forms while ensuring the underlying semantic meaning remains the same.",
+    "contribution": "This paper introduces the syMmetry-ENhanceD (MEND) Data Augmentation to solve reasoning consistency issues in language models, achieving improved robustness and generalization to out-of-distribution settings.",
+    "technical_comparison": {
+        "prior_work": "Prior methods focus on enhancing reasoning chains or adapting models, often overlooking symmetry in query transformations, leading to overfitting and inconsistent reasoning.",
+        "novelty": "MEND shifts focus from reasoning chain augmentation to symmetry-enhanced query augmentation, thereby promoting better semantic understanding across different query forms."
+    },
+    "key_innovation": "MEND exploits symmetry in query descriptions to create diverse training examples, ensuring models can maintain performance despite variations in phrasing.",
+    "real_world_impact": "The findings could significantly improve the application of language models in real-world tasks, enhancing their effectiveness in understanding and generating natural language across different contexts.",
+    "limitations": "The paper primarily emphasizes arithmetic and logical reasoning tasks, which may limit the applicability of findings to more complex domains.",
+    "new_terms": {
+        "syMmetry-ENhanceD (MEND)": "**MEND** refers to the proposed data augmentation technique that incorporates symmetry information into the training of language models to improve their reasoning consistency and robustness."
+    },
+    "open_sourcing": ""
+}

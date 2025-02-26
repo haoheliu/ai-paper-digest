@@ -1,0 +1,22 @@
+{
+    "title": "Weakly Supervised Pixel-Level Annotation with Visual Interpretability",
+    "author": "Basma Nasir (COMSATS University Islamabad), Tehseen Zia (COMSATS University Islamabad), Muhammad Nawaz (University of Technology Sydney), Catarina Moreira (University of Technology Sydney), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The integration of uncertainty quantification and weakly supervised learning methods could inspire similar approaches in audio and speech-related tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task involves automatically annotating medical images at a pixel level using only image-level labels while ensuring that the predictions can be interpreted by human experts.",
+    "contribution": "This paper introduces an automated explainable annotation system that combines ensemble learning with visual explainability and uncertainty quantification to achieve pixel-level annotation from image-level labels.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on costly pixel-level annotations or struggle with open-set problems, which can affect the robustness of medical image analysis.",
+        "novelty": "The proposed method enhances interpretability through XGrad-CAM and estimates uncertainty via Monte Carlo Dropout, effectively producing reliable pixel-level masks without the need for extensive manual labeling."
+    },
+    "key_innovation": "The novel combination of ensemble learning, visual explanations, and uncertainty quantification improves the accuracy and reliability of medical image annotations while reducing reliance on detailed manual annotations.",
+    "real_world_impact": "This approach can significantly expedite the medical image annotation process, enhancing diagnostic efficiency in healthcare settings, particularly where skilled professionals are scarce.",
+    "limitations": "The paper does not specify limitations explicitly.",
+    "new_terms": {
+        "XGrad-CAM": "**XGrad-CAM** is an advanced variant of Class Activation Mapping that provides more informative and accurate visual explanations by utilizing gradient information from a deep learning model.",
+        "Monte Carlo Dropout": "**Monte Carlo Dropout** is a technique used in deep learning for uncertainty estimation, where dropout is applied during inference to simulate various model outcomes and quantify prediction uncertainty."
+    },
+    "open_sourcing": ""
+}

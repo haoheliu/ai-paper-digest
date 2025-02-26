@@ -1,0 +1,22 @@
+{
+    "title": "LAM: Large Avatar Model for One-shot Animatable Gaussian Head",
+    "author": "Yisheng He (Tongyi Lab, Alibaba Group), Xiaodong Gu (Tongyi Lab, Alibaba Group), Xiaodan Ye (Tongyi Lab, Alibaba Group), Chao Xu (Tongyi Lab, Alibaba Group), Zhengyi Zhao (Tongyi Lab, Alibaba Group), Yuan Dong (Tongyi Lab, Alibaba Group), Weihao Yuan (Tongyi Lab, Alibaba Group), Zilong Dong (Tongyi Lab, Alibaba Group), Liefeng Bo (Tongyi Lab, Alibaba Group), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores animatable Gaussian avatars, which could inspire similar concepts in audio and video processing tasks, especially in generating avatars for audio interaction or meeting simulations.",
+    "field": "Applications-Creative AI",
+    "background": "This paper addresses the challenge of creating 3D animatable head avatars from a single image, aiming to enable real-time rendering and animation without extensive preprocessing.",
+    "contribution": "LAM introduces a framework that generates animatable Gaussian head avatars from one image, enabling instant animation and rendering, which facilitates seamless integration into existing systems.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely heavily on extensive training data or additional networks for animation, which slow down rendering and limit real-time application.",
+        "novelty": "This work simplifies the pipeline by producing animatable head models directly in a single network pass, without the need for further neural processing."
+    },
+    "key_innovation": "Utilizes a Transformer-based architecture to leverage image features and prior shape information to efficiently generate detailed canonical Gaussian representations.",
+    "real_world_impact": "The model paves the way for real-time applications in virtual interactions, gaming, and online communications, allowing for realistic avatars even on mobile devices.",
+    "limitations": "The model may struggle with expressions not represented in the FLAME model, such as sticking out the tongue, which limits expressiveness.",
+    "new_terms": {
+        "Gaussian avatar": "**Gaussian avatar** refers to a type of 3D representation defined by Gaussian properties to create a visually consistent and smoothly animatable head model.",
+        "FLAME model": "**FLAME** stands for the **Facial Landmark Model**, a blendshape-based model used for 3D facial animation and reconstruction."
+    },
+    "open_sourcing": ""
+}

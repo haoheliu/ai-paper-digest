@@ -1,0 +1,22 @@
+{
+    "title": "SynthRAD2025 Grand Challenge dataset: generating synthetic CTs for radiotherapy",
+    "author": "Adrian Thummerer (LMU University Hospital), Erik van der Bijl (Radboud University Medical Center), Arthur Jr Galapon (University Medical Center Groningen), Florian Kamp (University Hospital of Cologne), Mark Savenije (University Medical Center Utrecht), Christina Muijs (University Medical Center Groningen), Shafak Aluwini (University Medical Center Groningen), ..., Matteo Maspero (University Medical Center Utrecht)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods for synthetic CT generation could inspire analogous approaches in audio generation, particularly in creating high-quality representations and enhancing detail which is crucial in sound synthesis.",
+    "field": "Applications-Healthcare",
+    "background": "Generating synthetic computed tomography (CT) images from magnetic resonance imaging (MRI) or cone-beam computed tomography (CBCT) data for improved radiotherapy applications.",
+    "contribution": "The paper introduces a large-scale dataset and challenge to facilitate advancements in synthetic CT generation algorithms, achieving standardized benchmarking across diverse cancer imaging scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets were limited in scope and lacked diversity across anatomical sites.",
+        "novelty": "This work presents a comprehensive dataset from multiple centers encompassing various imaging techniques, allowing for more robust training of synthetic imaging models."
+    },
+    "key_innovation": "Establishes a large multi-center dataset specifically designed for synthesizing CT images from MRI and CBCT data, addressing a critical gap in radiotherapy imaging.",
+    "real_world_impact": "This dataset and associated challenge are expected to significantly enhance the development of synthetic imaging techniques, ultimately leading to more personalized and effective cancer treatment strategies.",
+    "limitations": "The dataset's applicability is limited to the specific anatomical regions covered, potentially reducing its generalizability to other areas.",
+    "new_terms": {
+        "synthetic CT (sCT)": "**Synthetic computed tomography (sCT)** refers to CT images generated from other imaging modalities, like MRI, without additional dose exposure, aimed at improving treatment planning in radiotherapy.",
+        "cone-beam computed tomography (CBCT)": "**Cone-beam computed tomography (CBCT)** is an imaging technique that utilizes cone-shaped X-rays to produce a 3D image of the target region, typically used for precise patient positioning in radiation therapy."
+    },
+    "open_sourcing": "Dataset available at https://doi.org/10.5281/zenodo.14918089"
+}

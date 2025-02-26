@@ -1,0 +1,22 @@
+{
+    "title": "IBURD: Image Blending for Underwater Robotic Detection",
+    "author": "Jungseok Hong (University of Minnesota-Twin Cities), Sakshi Singh (University of Minnesota-Twin Cities), Junaed Sattar (University of Minnesota-Twin Cities), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a methodology for generating synthetic datasets for object detection that could inspire techniques for audio data augmentation in similar challenging environments.",
+    "field": "Applications-Vision",
+    "background": "Creating synthetic images to train models for detecting underwater debris, addressing challenges such as limited data and harsh conditions.",
+    "contribution": "This paper introduces an image blending pipeline, IBURD, to solve the data scarcity problem in underwater detection, achieving improved detection performance through realistic synthetic image generation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on manual image collection or generative techniques that required extensive annotations.",
+        "novelty": "IBURD combines Poisson editing and style transfer to autonomously create high-quality synthetic images with pixel-level annotations efficiently."
+    },
+    "key_innovation": "The pipeline allows for blending transparent objects into complex underwater backgrounds without visual artifacts, enhancing the realism of synthetic data.",
+    "real_world_impact": "This work enhances the capability of autonomous underwater vehicles by enabling effective computer vision training in challenging conditions, aiding environmental conservation efforts.",
+    "limitations": "The authors mention the dependency on the quality and diversity of the source images used for blending.",
+    "new_terms": {
+        "Poisson editing": "**Poisson editing** is a technique for seamlessly blending image patches into an image by applying constraints on gradient fields, creating smooth transitions.",
+        "style transfer": "**Style transfer** is a method in computer vision that modifies an image to adopt the visual appearance of another image while preserving its core content."
+    },
+    "open_sourcing": ""
+}

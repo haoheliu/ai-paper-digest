@@ -1,0 +1,21 @@
+{
+    "title": "ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents",
+    "author": "Qiuchen Wang (MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, USTC), Ruixue Ding (Tongyi Lab, Alibaba Group), Zehui Chen (MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, USTC), Weiqi Wu (Shanghai Jiao Tong University), Shihang Wang (Tongyi Lab, Alibaba Group), Pengjun Xie (Tongyi Lab, Alibaba Group), Feng Zhao (MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, USTC), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper introduces a multi-agent framework that integrates visual and textual information, which could enhance systems in audio-language tasks by leveraging similar modeling principles.",
+    "field": "Applications-Speech and Audio",
+    "background": "Retrieval-augmented generation (RAG) systems aim to enhance language models by retrieving and utilizing relevant external knowledge from large collections of visually rich documents.",
+    "contribution": "The paper introduces ViDoRAG, a multi-agent Retrieval-Augmented Generation framework, to solve challenges in processing visually rich documents, achieving significant improvements in reasoning and retrieval performance.",
+    "technical_comparison": {
+        "prior_work": "Prior RAG systems typically struggled with integrating visual and textual data efficiently and lacked adequate reasoning capabilities.",
+        "novelty": "This work integrates a Gaussian Mixture Model-based retrieval strategy and a multi-agent iterative reasoning approach, enhancing retrieval accuracy and reasoning depth."
+    },
+    "key_innovation": "The framework's multi-agent design allows for dynamic adjustments of retrieval strategies based on query context, significantly improving response relevance and accuracy.",
+    "real_world_impact": "This framework has potential applications in domains like education and finance, where effective retrieval and generation from complex documents are critical.",
+    "limitations": "The multi-agent framework may introduce additional computational overhead, limiting scalability for real-time applications.",
+    "new_terms": {
+        "Gaussian Mixture Model": "**Gaussian Mixture Model (GMM)** is a probabilistic model that assumes all data points are generated from a mixture of several Gaussian distributions with unknown parameters."
+    },
+    "open_sourcing": "Dataset & Code: https://github.com/Alibaba-NLP/ViDoRAG"
+}

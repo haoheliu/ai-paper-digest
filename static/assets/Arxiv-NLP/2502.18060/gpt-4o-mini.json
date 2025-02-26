@@ -1,0 +1,22 @@
+{
+    "title": "Defining bias in AI-systems: Biased models are fair models",
+    "author": "Chiara Lindloff (Otto von Guericke University Magdeburg, Germany), Ingo Siegert (Otto von Guericke University Magdeburg, Germany)",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "The paper discusses the definitions of bias and fairness in AI systems, arguing that bias and discrimination are distinct and exploring how bias mitigation affects perceptions of fairness.",
+    "contribution": "This paper introduces a nuanced perspective on bias in AI, clarifying its technical and social meanings, thus fostering a better understanding of fairness.",
+    "technical_comparison": {
+        "prior_work": "Previous studies have often conflated bias with unfairness without adequately distinguishing between technical bias and social bias.",
+        "novelty": "This work emphasizes the importance of context and proposes a framework to differentiate between societal biases and necessary model adjustments for fairness."
+    },
+    "key_innovation": "The paper shifts the dialogue from equating unbiased models with fairness to recognizing that fairness requires accommodating relevant differences among individuals.",
+    "real_world_impact": "By redefining bias and fairness in AI, this work can inform better bias mitigation strategies, potentially leading to more equitable outcomes in AI applications across various domains.",
+    "limitations": "The paper does not provide empirical data to support the theoretical claims made about bias and discrimination.",
+    "new_terms": {
+        "sampling bias": "**Sampling bias** refers to a systematic error that occurs when some members of a population are more likely to be selected than others, leading to an unrepresentative sample.",
+        "capital D Discrimination": "**Capital D Discrimination** denotes unfair treatment based on irrelevant characteristics, impacting outcomes and perpetuating societal inequalities."
+    },
+    "open_sourcing": ""
+}

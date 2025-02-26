@@ -1,0 +1,21 @@
+{
+    "title": "FetchBot: Object Fetching in Cluttered Shelves via Zero-Shot Sim2Real",
+    "author": "Weiheng Liu (Institute of Automation, Chinese Academy of Sciences), Yuxuan Wan (CFCS, School of Computer Science, Peking University), Jilong Wang (CFCS, School of Computer Science, Peking University), Yuxuan Kuang (CFCS, School of Computer Science, Peking University), Xuesong Shi (Galbot), Haoran Li (Institute of Automation, Chinese Academy of Sciences), Dongbin Zhao (Institute of Automation, Chinese Academy of Sciences), Zhizheng Zhang (Galbot), He Wang (CFCS, School of Computer Science, Peking University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The sim-to-real framework and method for object manipulation in cluttered environments could be highly relevant for improving audio-visual integration in generative tasks, particularly in handling complex scenarios.",
+    "field": "Applications-Vision",
+    "background": "The task involves a robot fetching objects from complex, cluttered shelves while minimizing disruption to surrounding items, a challenge heightened by limited visibility and spatial constraints.",
+    "contribution": "This paper introduces FetchBot, a new framework for safe object fetching in cluttered environments, achieving a high success rate of 81.46% in simulation and 76.67% in real-world scenarios.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often focus on basic grasping or collision-free paths without accounting for complex dynamics and occlusions.",
+        "novelty": "This work improves upon previous techniques by implementing a dynamics-aware reinforcement learning policy in a highly structured environment, allowing for robust collision avoidance and real-time performance."
+    },
+    "key_innovation": "Utilizes voxel-based representations for generating scenes and a vision policy that processes multi-view depth data to enhance object retrieval in dynamic settings.",
+    "real_world_impact": "The approach offers significant potential for real-world applications in robotics, improving efficiency in environments like warehouses and retail, where safe and effective object management is crucial.",
+    "limitations": "The reliance on a suction-based mechanism may limit its applicability to certain object types and conditions, and performance could deteriorate with highly complex environments.",
+    "new_terms": {
+        "sim-to-real": "**Sim-to-real** refers to the transfer of policies or models learned in simulated environments to real-world applications, addressing discrepancies that arise from differences in simulation and reality."
+    },
+    "open_sourcing": ""
+}

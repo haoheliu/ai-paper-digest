@@ -1,0 +1,23 @@
+{
+    "title": "Predicting Through Generation: Why Generation Is Better for Prediction",
+    "author": "Md Kowsher (University of Central Florida), Nusrat Jahan Prottasha (University of Central Florida), Prakash Bhat (DotStar Inc), Chun-Nam Yu (Nokia Bell Labs), Mojtaba Soltanalian (University of Illinois Chicago), Ivan Garibay (University of Central Florida), Ozlem Garibay (University of Central Florida), Chen Chen (University of Central Florida), ..., Niloofar Yousefi (University of Central Florida)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The generative modeling approach discussed in this paper may be applicable to Haohe Liu's work on audio generation, particularly in structuring outputs from audio prompts.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper proposes a framework for structuring predictions using generative token-level approaches instead of traditional pooled representations, focusing on preserving information relevant to prediction tasks.",
+    "contribution": "This paper introduces PredGen to solve the limitations of pooling mechanisms in prediction tasks, achieving improved structured output generation through token-level generation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on pooled representations which lead to information loss and structured prediction challenges.",
+        "novelty": "This work integrates scheduled sampling and a task adapter within a generation framework to mitigate exposure bias and improve output structure."
+    },
+    "key_innovation": "Combines autoregressive token generation with a task-specific adaptation mechanism to improve predictions across various classification and regression tasks.",
+    "real_world_impact": "By enhancing prediction accuracy through generative modeling techniques, this framework has the potential to improve a wide range of applications, reinforcing the utility of LLMs in predicting structured outputs.",
+    "limitations": "The generative approach may face increased inference latency due to the sequential nature of token generation.",
+    "new_terms": {
+        "exposure bias": "**Exposure bias** refers to the limitation in generative models where the model conditions on ground-truth tokens during training and its own predictions during inference, which may lead to compounding errors.",
+        "scheduled sampling": "**Scheduled sampling** is a training strategy where the model gradually shifts from using ground-truth tokens to relying on its own generated tokens over the course of training.",
+        "task adapter": "**Task adapter** is a component that transforms generated outputs from a model into the required structured format for specific tasks."
+    },
+    "open_sourcing": ""
+}

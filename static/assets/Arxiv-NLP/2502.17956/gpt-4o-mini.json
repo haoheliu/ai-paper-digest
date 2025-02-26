@@ -1,0 +1,18 @@
+{
+    "title": "Towards Better Understanding of Program-of-Thought Reasoning in Cross-Lingual and Multilingual Environments",
+    "author": "Patomporn Payoungkhamdee (School of Information Science and Technology, VISTEC), Pume Tuchinda (School of Information Science and Technology, VISTEC), Jinheon Baek (KAIST), Samuel Cahyawijaya (Cohere), Can Udomcharoenchaikit (School of Information Science and Technology, VISTEC), Potsawee Manakul (SCB 10X), Peerat Limkonchotiwat (AI Singapore), Ekapol Chuangsuwanich (Department of Computer Engineering, Chulalongkorn University), ..., Sarana Nutanong (School of Information Science and Technology, VISTEC)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper explores multi-step reasoning in multilingual environments, which directly aligns with the audio-language integration work by improving reasoning capabilities in generative models, potentially enhancing audio generation tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper addresses the challenge of achieving effective multi-step reasoning in non-English languages using Program-of-Thought prompting, separating reasoning from execution in a multilingual framework.",
+    "contribution": "This work introduces a framework that separates multilingual reasoning from code execution to improve alignment between questions and programmatic reasoning, resulting in better performance in multilingual environments.",
+    "technical_comparison": "Previous methods signal issues with multilingual reasoning particularly in Chain-of-Thought prompting, where reasoning and computation are entangled. This work improves by decoupling reasoning from computation, allowing clearer program generation.",
+    "key_innovation": "Implements a two-stage reasoning framework that distinguishes between problem-solving steps and their execution, enhancing accuracy across multiple languages without sacrificing computational efficiency.",
+    "real_world_impact": "This framework could significantly improve the performance of language models in practical applications like automated translation, educational tools, and multi-language support systems, thereby broadening accessibility.",
+    "limitations": "The effectiveness of the proposed methods is limited to the datasets used; thus, results may vary when applied to different reasoning tasks.",
+    "new_terms": {
+        "Program-of-Thought (PoT)": "**Program-of-Thought (PoT)** prompting separates reasoning and execution in language models, facilitating the generation of code from multi-step reasoning tasks without merging them into a single process."
+    },
+    "open_sourcing": ""
+}

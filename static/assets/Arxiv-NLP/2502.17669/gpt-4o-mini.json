@@ -1,0 +1,25 @@
+{
+    "title": "Towards Human Cognition: Visual Context Guides Syntactic Priming in Fusion-Encoded Models",
+    "author": "Bushi Xiao (University of Florida), Michael Bennie (University of Florida), Jayetri Bardhan (University of Florida), Daisy Zhe Wang (University of Florida), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper explores multimodal models and their syntactic priming capabilities, which could influence how generative systems like text-to-audio generation might handle linguistic structures and contextual cues in audio content.",
+    "field": "Applications-Language",
+    "background": "The research examines how visual elements can influence sentence generation structures in multimodal language models, assessing their performance against syntactic priming effects.",
+    "contribution": "This paper introduces the PRISMATIC dataset to evaluate syntactic priming in multimodal settings, achieving insights into structural preservation capabilities in language models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on probability prediction tasks with fixed targets, limiting the exploration of models' generative capabilities.",
+        "novelty": "This work introduces a reference-free evaluation metric for structural priming that does not require predetermined sentences, thus enabling a more comprehensive analysis of syntactic influences."
+    },
+    "key_innovation": "Develops a new metric based on the tree kernel algorithm to quantify structural priming effects in an innovative way, measuring syntactic similarities directly.",
+    "real_world_impact": "The insights gained may lead to improved designs in multimodal generative models, enhancing their ability to integrate different modalities in a more human-like manner, particularly in creative applications.",
+    "limitations": "The dataset size is limited due to the complexity of generating appropriate syntactic structures and cannot assess outputs deviating from expected syntactic forms.",
+    "new_terms": {
+        "syntactic priming": "**Syntactic priming** is a phenomenon in language processing where the structure of one sentence influences the construction of subsequent sentences.",
+        "tree kernel": "**Tree kernel** is a method for measuring the structural similarity between parse trees, allowing for comparison of sentence structures."
+    },
+    "open_sourcing": {
+        "code": "https://github.com/michaelbennieUFL/2025MLLM",
+        "data": "https://github.com/kitayamachingtak/PRISMATIC"
+    }
+}

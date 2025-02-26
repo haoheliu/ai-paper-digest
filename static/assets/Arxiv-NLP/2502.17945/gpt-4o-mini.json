@@ -1,0 +1,22 @@
+{
+    "title": "7 Points to Tsinghua but 10 Points to \u6e05\u534e? Assessing Large Language Models in Agentic Multilingual National Bias",
+    "author": "Qianying Liu (National Institute of Informatics, Japan), Katrina Qiyao Wang (Kyoto University, Japan), Fei Cheng (University of Wisconsin\u2014Madison, USA), Sadao Kurohashi (University of Kyoto, Japan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The exploration of multilingual bias in Large Language Models (LLMs) is directly relevant to improving fairness and equity in AI applications within my work on audio generation where similar biases may exist based on cultural contexts.",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "The study investigates how large language models exhibit nationality bias when providing recommendations across languages, affecting user decision-making processes.",
+    "contribution": "This paper introduces a comprehensive assessment framework that quantifies multilingual nationality bias in LLMs, achieving significant insights into how biases manifest across various tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous studies largely focused on immediate context preferences and lexical biases in monolingual settings.",
+        "novelty": "This work expands the understanding of biases to encompass multilingual, reasoning-based tasks and evaluates demographic factors impacting bias."
+    },
+    "key_innovation": "The study employs a unique assessment methodology inspired by psychophysics to evaluate how biases differ across languages and demographics.",
+    "real_world_impact": "The research highlights significant implications for AI applications in education, travel, and career planning, promoting awareness and strategies for bias mitigation across diverse cultural contexts.",
+    "limitations": "The study is limited to SOTA models and languages with rich datasets, thus findings may not generalize well to under-researched languages.",
+    "new_terms": {
+        "multilingual nationality bias": "**Multilingual nationality bias** refers to the tendency of language models to favor or disadvantage certain nationalities when providing advice or recommendations based on the language used.",
+        "Chain-of-Thought (CoT)": "**Chain-of-Thought prompting** is a technique that encourages models to provide reasoning or explanations step-by-step, aimed at improving decision-making processes in AI."
+    },
+    "open_sourcing": ""
+}

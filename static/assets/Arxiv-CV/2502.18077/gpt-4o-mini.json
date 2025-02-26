@@ -1,0 +1,22 @@
+{
+    "title": "Examining the Threat Landscape: Foundation Models and Model Stealing",
+    "author": "Ankita Raj (Indian Institute of Technology Delhi), Deepankar Varma (Thapar Institute of Engineering and Technology), Chetan Arora (Indian Institute of Technology Delhi), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "This paper discusses foundation models and their vulnerability to model stealing attacks, which could provide insights into securing audio models from similar attacks.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "This paper investigates the susceptibility of image classification models, particularly those fine-tuned from foundation models, to model stealing attacks, where an adversary replicates a model's behavior by querying it.",
+    "contribution": "This paper introduces an empirical analysis of model stealing threats associated with foundation models, highlighting their vulnerabilities compared to traditional architectures.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often focused on conventional architectures' vulnerabilities or did not analyze foundation models explicitly.",
+        "novelty": "This work specifically reveals that models fine-tuned from foundation models are more susceptible to theft due to their shared representation strength with attackers."
+    },
+    "key_innovation": "The method offers a systematic study of the security risks tied to deploying foundation models in commercial applications, emphasizing the trade-off between accuracy and privacy.",
+    "real_world_impact": "This research highlights necessary precautions manufacturers should take when deploying foundation models, stressing the importance of robust security protocols in commercial API offerings.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "foundation models": "**Foundation models** are large-scale, pre-trained models that serve as a basis for fine-tuning on specific downstream tasks, offering broad applicability due to their rich representations.",
+        "model stealing": "**Model stealing** refers to the technique by which an adversary aims to replicate a victim\u2019s model behavior through querying its predictions on various inputs."
+    },
+    "open_sourcing": "Code is available at https://github.com/rajankita/foundation_model_stealing"
+}

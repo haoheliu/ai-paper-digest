@@ -1,0 +1,22 @@
+{
+    "title": "Uncertainty Modeling in Multimodal Speech Analysis Across the Psychosis Spectrum",
+    "author": "Morteza Rohanian (Department of Quantitative Biomedicine, University of Zurich), Roya M. H\u00fcppi (Department of Adult Psychiatry and Psychotherapy, University of Zurich), Farhad Nooralahzadeh (Department of Quantitative Biomedicine, University of Zurich), Noemi Dannecker (Department of Adult Psychiatry and Psychotherapy, University of Zurich), Yves Pauli (Department of Adult Psychiatry and Psychotherapy, University of Zurich), Werner Surbeck (Department of Adult Psychiatry and Psychotherapy, University of Zurich), Iris Sommer (Department of Neuroscience, University Medical Center Groningen), Philipp Homan (Neuroscience Center Zurich, University of Zurich and ETH Zurich)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper explores speech analysis techniques that could enhance applications in speech generation and processing in psychosis-related contexts, aligning well with Dr. Liu's research interests.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates speech patterns to determine psychosis-related traits through a multimodal analysis combining acoustic and linguistic features.",
+    "contribution": "This paper introduces an uncertainty-aware model to predict symptom severity across the psychosis spectrum, achieving an F1-score of 83% with improved calibration characteristics.",
+    "technical_comparison": {
+        "prior_work": "Previous techniques in speech analysis often ignored the inherent uncertainty in speech data, leading to reduced accuracy in model predictions.",
+        "novelty": "This work enhances performance by integrating uncertainty modeling, dynamic contextual weighting of features, and advanced fusion strategies."
+    },
+    "key_innovation": "The research uniquely employs Temporal Context Fusion with uncertainty estimates to improve predictions of psychosis traits and symptom severity based on speech data.",
+    "real_world_impact": "The insights from this study could significantly improve earlier detection of psychosis and personalized treatment through better speech analysis methods in clinical settings.",
+    "limitations": "The study may require additional data from diverse populations for validation to ensure robustness across different demographic groups.",
+    "new_terms": {
+        "Temporal Context Fusion": "**Temporal Context Fusion** is a method that integrates information over time from different modalities, enhancing predictive accuracy in machine learning tasks.",
+        "Uncertainty Modeling": "**Uncertainty Modeling** quantifies the confidence in predictions made by a model, accounting for noise in input data and variations in conditions."
+    },
+    "open_sourcing": ""
+}

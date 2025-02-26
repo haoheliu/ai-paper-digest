@@ -1,0 +1,22 @@
+{
+    "title": "Silent Speech Sentence Recognition with Six-Axis Accelerometers using Conformer and CTC Algorithm",
+    "author": "Yudong Xie (Department of Electronic Engineering, Tsinghua University), Zhifeng Han (Department of Electronic Engineering, Tsinghua University), Qinfan Xiao (Department of Electronic Engineering, Tsinghua University), Liwei Liang (School of Integrated Circuits, Beijing National Research Center for Information Science and Technology), Lu-Qi Tao (School of Integrated Circuits, Beijing National Research Center for Information Science and Technology), Tian-Ling Ren (School of Integrated Circuits, Beijing National Research Center for Information Science and Technology), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods proposed, especially the Conformer architecture and the use of six-axis accelerometers, could be applied to improve audio and speech processing tasks by enhancing silent speech recognition, relevant to audio-related research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Silent speech recognition is a technique to decode speech from non-acoustic signals, to help individuals with speech impairments communicate effectively.",
+    "contribution": "This paper introduces a novel method for silent speech recognition using a Conformer-based neural network with the Connectionist Temporal Classification algorithm, achieving an impressive accuracy of 97.17%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely focused on word classification rather than sentence-level recognition and often required rigid word boundaries.",
+        "novelty": "This work effectively utilizes dynamic context understanding for segmenting and recognizing sentences, improving overall recognition accuracy."
+    },
+    "key_innovation": "Combines local multi-head self-attention and convolutional layers to dynamically segment and recognize sentences from facial motion captured by six-axis accelerometers.",
+    "real_world_impact": "This system has significant potential to enhance communication for individuals with speech impairments, making silent communication more accessible and effective in daily life.",
+    "limitations": "The study primarily tests a limited set of participants and may not generalize to all users, and the dataset is relatively small.",
+    "new_terms": {
+        "Conformer": "**Conformer** is a neural network architecture that combines convolutional layers with transformers to effectively capture both local and global contextual information.",
+        "Connectionist Temporal Classification (CTC)": "**Connectionist Temporal Classification (CTC)** is a neural network training algorithm used for mapping sequences of inputs to sequences of outputs when the alignment is unknown."
+    },
+    "open_sourcing": ""
+}

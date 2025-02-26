@@ -1,0 +1,22 @@
+{
+    "title": "ECG-Expert-QA: A Benchmark for Evaluating Medical Large Language Models in Heart Disease Diagnosis",
+    "author": "Xu Wang (Shandong Jianzhu University), Jiaju Kang (FUXI AI Lab), Puyu Han (Southern University of Science and Technology), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper provides a comprehensive multi-modal dataset specifically designed for improving diagnostic capabilities in electrocardiogram analysis, which can inform development and evaluation of AI models relevant to Haohe Liu's interests in audio and signal processing.",
+    "field": "Applications-Healthcare",
+    "background": "The paper introduces a large dataset that combines real and synthetic electrocardiogram data for training and evaluating language models on heart disease diagnosis.",
+    "contribution": "This paper introduces the ECG-Expert-QA benchmark to solve evaluation challenges in electrocardiogram interpretation, achieving a dataset with 47,211 diverse question-answer pairs.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets in the ECG domain lacked sufficient complexity and diversity for rigorous testing of models.",
+        "novelty": "This work enhances existing resources by providing synthetic cases that simulate rare cardiac conditions and incorporate ethical considerations in diagnostic tasks."
+    },
+    "key_innovation": "The integration of expert knowledge with language model capabilities to generate high-quality, clinically useful question-answer pairs focuses on real-world medical scenarios.",
+    "real_world_impact": "This dataset could significantly contribute to AI-assisted healthcare by advancing the training and assessment of models used in clinical systems for ECG interpretation and diagnosis.",
+    "limitations": "Challenges remain in ensuring the dataset accurately represents diverse patient populations and the implementation of quality control for continual updates.",
+    "new_terms": {
+        "multimodal dataset": "**Multimodal dataset** refers to a collection of data that includes multiple sources or types of data, such as text and medical images together.",
+        "synthetic cases": "**Synthetic cases** are artificially created data points that simulate real-world scenarios, aiding in expanding datasets where real examples are limited."
+    },
+    "open_sourcing": "The dataset is openly available at https://github.com/Zaozzz/ECG-Expert-QA."
+}

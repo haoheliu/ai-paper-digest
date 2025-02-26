@@ -1,0 +1,19 @@
+{
+    "title": "Debt Collection Negotiations with Large Language Models: An Evaluation System and Optimizing Decision Making with Multi-Agent",
+    "author": "Xiaofeng Wang (Shanghai Jiao Tong University), Zhixin Zhang (Ant Group), Jinguang Zheng (Ant Group), Yiming Ai (Shanghai Jiao Tong University), Rui Wang (Shanghai Jiao Tong University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores the use of large language models (LLMs) in optimizing decision-making, which could be applied to improve the efficiency and effectiveness of audio processing tasks, particularly in the context of automated dialogue systems.",
+    "field": "Applications-Language",
+    "background": "Automating debt collection negotiations using advanced AI language models to balance the needs of creditors and debtors through multi-agent interactions.",
+    "contribution": "This paper introduces a multi-agent framework that enhances negotiation performance in debt collection scenarios, achieving better decision-making outcomes for both creditors and debtors.",
+    "technical_comparison": "Previous methods mainly utilized fixed formats and lacked dynamic negotiation capabilities. This work improves by implementing a multi-agent system with planning and judging functionalities to optimize decision-making in real-time.",
+    "key_innovation": "Utilizes a multi-agent framework that allows for self-planning and self-adjustment during negotiations, improving overall negotiation outcomes.",
+    "real_world_impact": "The developed framework has the potential to significantly enhance automation in debt recovery, increasing efficiency and reducing losses for financial institutions in real-world applications.",
+    "limitations": "The simplicity of the current multi-agent framework may not capture all complexities of real-world negotiations and requires further refinement.",
+    "new_terms": {
+        "multi-agent framework": "**Multi-agent framework** refers to a system where multiple intelligent agents interact and collaborate to achieve specific goals, improving the decision-making process.",
+        "large language models (LLMs)": "**Large language models (LLMs)** are advanced AI algorithms capable of understanding and generating human-like text based on vast amounts of data."
+    },
+    "open_sourcing": "The synthetic data used in this paper is publicly available."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "AIR: Complex Instruction Generation via Automatic Iterative Refinement",
+    "author": "Wei Liu (Alibaba Group), Yancheng He (Alibaba Group), Hui Huang (Alibaba Group), Chengwei Hu (Alibaba Group), Jiaheng Liu (Alibaba Group), Shilong Li (Alibaba Group), Wenbo Su (Alibaba Group), Bo Zheng (Alibaba Group)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The framework proposed in this paper could inspire innovative approaches in audio and speech processing tasks, particularly in refining prompts and constraints for generating high-quality audio content.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Generating complex instructions for tasks using Large Language Models, enabling them to better adhere to specified constraints within real-world contexts.",
+    "contribution": "This paper introduces the Automatic Iterative Refinement (AIR) framework to solve the challenge of generating complex instructions, achieving significant improvements in LLMs' ability to follow intricate tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with scalability and often generated simplistic instructions without real-world relevance.",
+        "novelty": "This work enhances instruction generation through an iterative refinement process that uses feedback from LLMs and document-based context knowledge."
+    },
+    "key_innovation": "The AIR framework uniquely combines document knowledge with an iterative refinement process, allowing for the generation of more complex and relevant instructions tailored to user needs.",
+    "real_world_impact": "The framework enables more effective AI behavior in following complex user instructions, which has potential applications in various domains like customer service, education, and content creation.",
+    "limitations": "The iterative nature of the framework requires multiple rounds of model inference, resulting in higher computational demands, which may not be feasible for all users.",
+    "new_terms": {
+        "Automatic Iterative Refinement (AIR)": "**Automatic Iterative Refinement (AIR)** is a proposed framework for generating complex instructions via guided iterative refinement, making use of LLMs and document knowledge."
+    },
+    "open_sourcing": "Codes are openly available at https://github.com/WeiLiuAH/AIR-Automatic-Iterative-Refinement"
+}

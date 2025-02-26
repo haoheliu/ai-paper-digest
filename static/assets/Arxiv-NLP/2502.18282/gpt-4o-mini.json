@@ -1,0 +1,22 @@
+{
+    "title": "Better Aligned with Survey Respondents or Training Data? Unveiling Political Leanings of LLMs on U.S. Supreme Court Cases",
+    "author": "Shanshan Xu (Technical University of Munich), Santosh T.Y.S.S (Technical University of Munich), Yanai Elazar (Allen Institute for AI), Quirin Vogel (Technical University of Munich), Barbara Plank (IT University of Copenhagen), Matthias Grabmair (Technical University of Munich), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods proposed could offer insights on aligning models with human values, applicable to audio and music-based generative models, although the primary focus is on political leanings.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating the political influence of large language models (LLMs) on public opinion by comparing their stances on U.S. Supreme Court cases against human survey responses.",
+    "contribution": "This paper introduces a methodology to quantitatively evaluate political leanings in training corpora to assess LLM outputs' alignments with surveyed human opinions and training data.",
+    "technical_comparison": {
+        "prior_work": "Previous research largely focused on assessing LLM outputs against human opinions without analyzing the political leanings in the training data explicitly.",
+        "novelty": "This work innovates by analyzing the political biases in training data and provides a comprehensive comparison with human survey responses."
+    },
+    "key_innovation": "Utilizes a structured pipeline to retrieve relevant documents from the training corpora, assigns political stance scores, and quantitatively compares LLM outputs with both human and training corpus distributions.",
+    "real_world_impact": "Highlights the necessity for responsible training data curation and evaluation metrics in LLMs, which could influence future AI governance and model deployment strategies.",
+    "limitations": "Focuses primarily on U.S. Supreme Court cases, limiting its applicability to broader political contexts globally.",
+    "new_terms": {
+        "Large Language Models (LLMs)": "**Large Language Models (LLMs)** are artificial intelligence models trained on large text datasets to generate human-like text, often exhibiting biases reflective of their training data.",
+        "political leanings": "**Political leanings** refer to the ideological biases or preferences that models or individuals might exhibit, often influenced by cultural or contextual factors."
+    },
+    "open_sourcing": ""
+}

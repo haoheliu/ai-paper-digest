@@ -1,0 +1,19 @@
+{
+    "title": "MM-POISONRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks",
+    "author": "Hyeonjeong Ha (University of Illinois Urbana-Champaign), Qiusi Zhan (University of Illinois Urbana-Champaign), Jeonghwan Kim (University of Illinois Urbana-Champaign), Dimitrios Bralios (University of Illinois Urbana-Champaign), Saikrishna Sanniboina (University of Illinois Urbana-Champaign), Nanyun Peng (University of California Los Angeles), Kai-wei Chang (University of California Los Angeles), ..., Heng Ji (University of Illinois Urbana-Champaign)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The research explores adversarial attacks on multimodal systems, which could provide insights for improving robustness in audio and speech processing systems used for multimodal generative tasks.",
+    "field": "General Machine Learning-Unsupervised Learning",
+    "background": "The paper investigates vulnerabilities in multimodal retrieval-augmented generation systems by introducing poisoning attacks that disrupt their ability to generate accurate outputs.",
+    "contribution": "This paper introduces the MM-POISONRAG framework to expose how adversarial knowledge can poison retrieval processes, achieving significant disruption in model outputs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods examined knowledge poisoning primarily in text-based models but did not specifically address the risks in multimodal retrieval frameworks.",
+        "novelty": "This work implements a two-strategy attack (Localized and Globalized Poisoning Attacks) tailored for multimodal contexts, showcasing new vulnerabilities unique to these systems."
+    },
+    "key_innovation": "The dual-attack strategy enabling precise manipulation of answers for specific queries as well as widespread disruption across multiple queries distinguishes this framework.",
+    "real_world_impact": "The findings highlight essential security risks in multimodal RAG systems, necessitating the development of robust defenses against misinformation and biased outputs.",
+    "limitations": "The study mainly focuses on QA tasks without exploring its applicability across other multimodal settings.",
+    "new_terms": {},
+    "open_sourcing": "Code is available at https://github.com/HyeonjeongHa/MM-PoisonRAG"
+}

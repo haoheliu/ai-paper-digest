@@ -1,0 +1,22 @@
+{
+    "title": "From Vision to Sound: Advancing Audio Anomaly Detection with Vision-Based Algorithms",
+    "author": "Manuel Barusco (University of Padova, Italy), Francesco Borsatti (University of Padova, Italy), Davide Dalle Pezze (University of Padova, Italy), Francesco Paissan, Elisabetta Farella (Fondazione Bruno Kessler, Italy), Gian Antonio Susto (University of Padova, Italy), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper explores the adaptation of Visual Anomaly Detection techniques to the audio domain, which aligns with Haohe Liu's interest in innovative approaches for audio signal processing and anomaly detection.",
+    "field": "Applications-Speech and Audio",
+    "background": "Audio anomaly detection seeks to identify unexpected or out-of-distribution sounds in audio sequences, with applications in industrial quality control and environmental surveillance.",
+    "contribution": "This paper introduces a framework that employs vision-based algorithms for localized anomaly detection in audio spectrograms, achieving improved explainability and precision in identifying anomalous regions.",
+    "technical_comparison": {
+        "prior_work": "Previous audio anomaly detection methods typically classify samples without providing insight into specific anomalous features, limiting their usability and interpretability.",
+        "novelty": "This work enhances explainability by providing fine-grained temporal-frequency localization of anomalies within the spectrogram, enabling the identification of specific segments contributing to anomaly scores."
+    },
+    "key_innovation": "Utilizes embeddings from pre-trained vision models to create localized anomaly maps in audio spectrograms, bridging insights from visual techniques into audio processing.",
+    "real_world_impact": "Improving anomaly detection systems in audio signals could enhance predictive maintenance in industrial settings and increase urban safety through better detection of unusual acoustic events.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "Visual Anomaly Detection": "**Visual Anomaly Detection (VAD)** refers to the techniques used to identify unexpected patterns in visual data, which are then adapted to analyze audio signals.",
+        "spectrogram": "**Spectrogram** is a visual representation of the spectrum of frequencies in a sound signal as it varies with time."
+    },
+    "open_sourcing": ""
+}

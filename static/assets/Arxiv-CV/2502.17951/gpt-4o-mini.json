@@ -1,0 +1,22 @@
+{
+    "title": "Robust Polyp Detection and Diagnosis through Compositional Prompt-Guided Diffusion Models",
+    "author": "Jia Yu (Zhejiang University), Yan Zhu (Shanghai Key Laboratory of MICCAI, Fudan University), Peiyao Fu (Shanghai Key Laboratory of MICCAI, Fudan University), Tianyi Chen (Shanghai Collaborative Innovation Center of Endoscopy), Junbo Huang (Shanghai Collaborative Innovation Center of Endoscopy), Quanlin Li (Shanghai Key Laboratory of MICCAI, Fudan University), Pinghong Zhou (Shanghai Key Laboratory of MICCAI, Fudan University), ..., Xian Yang (Data Science Institute, Imperial College London)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The integration of diverse clinical annotations and the use of diffusion models could inspire similar methodologies in audio generation tasks, particularly in enhancing context and diversity in generated outputs.",
+    "field": "Applications-Healthcare",
+    "background": "Generating synthetic images of polyps from clinical data, enhancing the robustness of models used for polyp detection and classification during colonoscopy.",
+    "contribution": "This paper introduces the Progressive Spectrum Diffusion Model (PSDM) to solve challenges in polyp detection and diagnosis by synthesizing images with integrated clinical annotations, achieving improved robustness and accuracy in various clinical scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily used segmentation masks for image generation, limiting the semantic diversity and clinical relevance of generated images.",
+        "novelty": "This work integrates multiple types of clinical annotations into a unified framework, allowing for both coarse and fine detail generation in synthetic images."
+    },
+    "key_innovation": "Utilizes a compositional prompting approach to combine diverse medical annotations, focusing on both structural and clinical details in generated images to improve diagnostic accuracy.",
+    "real_world_impact": "The method has the potential to drastically improve polyp detection frameworks in real clinical settings, which may lead to better early diagnosis and treatment of colorectal cancer.",
+    "limitations": "No",
+    "new_terms": {
+        "Progressive Spectrum Diffusion Model (PSDM)": "A novel framework that integrates diverse clinical annotations to enhance the robustness and accuracy of synthetic medical image generation.",
+        "compositional prompting": "A method of combining multiple types of data inputs as prompts to improve the generative capabilities of models."
+    },
+    "open_sourcing": "The code and datasets associated with the experiments can be accessed at https://github.com/Jia7878/compositional-prompt-diffusion-for-polyp-generation"
+}

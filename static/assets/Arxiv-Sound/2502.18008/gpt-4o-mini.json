@@ -1,0 +1,21 @@
+{
+    "title": "NotaGen: Advancing Musicality in Symbolic Music Generation with Large Language Model Training Paradigms",
+    "author": "Yashan Wang (Central Conservatory of Music, China), Shangda Wu (Central Conservatory of Music, China), Jianhuai Hu (Central Conservatory of Music, China), Xingjian Du (University of Rochester, USA), Yueqi Peng (Beijing Flowingtech Ltd., China), Yongxin Huang (Independent Researcher), Shuai Fan (Beihang University, China), ..., Maosong Sun (Tsinghua University, China)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The innovations in musical style generation and data augmentation techniques could enhance audio generation tasks, especially given the relationship between music composition and audio synthesis.",
+    "field": "Applications-Creative AI",
+    "background": "Generating symbolic music that adheres to specific styles and instrumentation through a structured training pipeline involving pre-training and reinforcement learning.",
+    "contribution": "NotaGen introduces a model that combines pre-training and reinforcement learning to produce high-quality classical sheet music, achieving improved musical aesthetics and controllability.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in symbolic music generation often faced issues like data scarcity and insufficient focus on musical structure.",
+        "novelty": "This work integrates reinforcement learning via the CLaMP-DPO method, optimizing music generation without relying on human annotations."
+    },
+    "key_innovation": "The approach effectively utilizes large datasets and reinforcement learning to enhance music generation quality while maintaining controllability over the output style.",
+    "real_world_impact": "This research could facilitate advancements in creative AI applications for music, benefiting composers, educators, and music technology developers.",
+    "limitations": "Modeling orchestral music generation presents greater challenges compared to smaller ensembles, indicating room for improvement.",
+    "new_terms": {
+        "CLaMP-DPO": "**CLaMP-DPO** stands for Contrastive Learning and Direct Preference Optimization, a novel reinforcement learning technique used to enhance music generation without explicit human feedback."
+    },
+    "open_sourcing": "The project homepage is https://electricalexis.github.io/notagen-demo."
+}

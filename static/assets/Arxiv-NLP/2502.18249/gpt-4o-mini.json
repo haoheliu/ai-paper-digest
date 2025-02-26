@@ -1,0 +1,22 @@
+{
+    "title": "Iterative Counterfactual Data Augmentation",
+    "author": "Mitchell Plyler (North Carolina State University), Min Chi (North Carolina State University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methodology of iterative counterfactual data augmentation can enhance the training of models in Haohe Liu's research on audio processing by improving robustness against spurious correlations in training datasets.",
+    "field": "General Machine Learning-Supervised Learning",
+    "background": "The paper discusses a method for generating augmented datasets through iterative counterfactual techniques, aiming to reduce biases in machine learning models' training data.",
+    "contribution": "This paper introduces Iterative Counterfactual Data Augmentation (ICDA) to reduce spurious signals and improve model reasoning, achieving higher precision in rationale alignment with human annotations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like single-instance counterfactual augmentation only address biases in initial datasets without iterative improvements.",
+        "novelty": "ICDA iteratively improves the rationale models used for counterfactual generation, which progressively lowers misalignment with target signals throughout the augmentation process."
+    },
+    "key_innovation": "The approach leverages rationale networks in an iterative framework, allowing them to self-correct and converge to a more reliable representation of meaningful signals.",
+    "real_world_impact": "This technique could significantly improve the performance of models in various applications, including speech and audio recognition, by training on data that better aligns with human interpretations.",
+    "limitations": "The methodology may be computationally expensive due to multiple iterations and reliance on generating new rationales.",
+    "new_terms": {
+        "counterfactual data augmentation": "**Counterfactual data augmentation (CDA)** refers to the process of generating examples in which certain attributes are modified to create a balanced dataset addressing specific biases.",
+        "maximum mutual information (MMI)": "**Maximum mutual information (MMI)** is a criterion used in machine learning to identify the most informative subset of data relevant to a given task."
+    },
+    "open_sourcing": "Code is available at https://github.com/mlplyler/ICDA"
+}

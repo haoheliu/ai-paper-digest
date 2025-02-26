@@ -1,0 +1,22 @@
+{
+    "title": "Comparative Judgment in Human Evaluation for Machine Translation: A Meta-Analysis",
+    "author": "Yixiao Song (Manning College of Information and Computer Sciences, UMass Amherst), Parker Riley (Google), Daniel Deutsch (Google), Markus Freitag (Google), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses methods of human evaluation in machine translation, specifically using comparative judgment which could enhance evaluation strategies for Haohe Liu's audio-related work, especially in areas where subjective assessment is pivotal.",
+    "field": "Evaluation-Methodology",
+    "background": "Human evaluation methods for machine translation (MT) assess translation quality by comparing outputs, which introduces comparative judgment to improve naming and categorization of translation errors.",
+    "contribution": "This paper introduces comparative judgment methods, specifically side-by-side and relative ranking approaches, to enhance inter-annotator agreement and error annotation reliability in machine translation evaluations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like the Multidimensional Quality Metrics (MQM) mainly utilized point-wise evaluations among translators, often resulting in low inter-annotator agreement.",
+        "novelty": "The new side-by-side comparative judgment methods notably improve agreement and consistency by allowing direct comparisons between translations, reducing ambiguity."
+    },
+    "key_innovation": "It leverages comparative judgment to minimize noise and enhance consistency in error marking and overall system ranking for machine translation annotations.",
+    "real_world_impact": "The findings could significantly improve evaluation practices in machine translation, ultimately contributing to better training of models with enhanced quality assurance processes.",
+    "limitations": "The study's insights are limited to specific language pairs and may not generalize to all languages or more extensive datasets.",
+    "new_terms": {
+        "comparative judgment": "**Comparative judgment** is an evaluation process in which two items are compared directly against each other to make assessments, typically yielding more reliable decisions than evaluating items in isolation.",
+        "inter-annotator agreement": "**Inter-annotator agreement** measures the degree to which different annotators give consistent ratings or decisions on the same items, crucial for ensuring quality in subjective evaluations."
+    },
+    "open_sourcing": "Triply annotated datasets comprising 377 ZhEn and 104 EnDe examples are available at https://github.com/google/wmt-mqm-human-evaluation/tree/main/generalMT2023."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "URO-Bench: A Comprehensive Benchmark for End-to-End Spoken Dialogue Models",
+    "author": "Ruiqi Yan (Shanghai Jiao Tong University), Xiquan Li (Shanghai Jiao Tong University), Wenxi Chen (Shanghai Jiao Tong University), Zhikang Niu (Shanghai Jiao Tong University), Chen Yang (Shanghai Jiao Tong University), Ziyang Ma (Shanghai Jiao Tong University), Kai Yu (Shanghai Jiao Tong University), Xie Chen (Shanghai Jiao Tong University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper provides a detailed benchmark for evaluating spoken dialogue models, which are crucial for advancements in audio-language tasks that Haohe Liu works on, especially in audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a benchmark named URO-Bench, designed to address the evaluation of end-to-end spoken dialogue models, especially focusing on aspects like multilingualism and paralinguistics.",
+    "contribution": "URO-Bench introduces a comprehensive evaluation framework for spoken dialogue models to solve significant gaps in existing benchmarks, achieving a multifaceted assessment of model capabilities.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks primarily focus on specific aspects of spoken dialogue without covering multilingual or complex interaction evaluations sufficiently.",
+        "novelty": "URO-Bench distinguishes itself by including multiple tests across different dimensions of spoken dialogue capabilities and offering tasks that assess complex understanding, reasoning, and oral conversation."
+    },
+    "key_innovation": "The benchmark facilitates a structured approach to evaluate and compare diverse spoken dialogue models through a variety of tasks, including understanding paralinguistic features.",
+    "real_world_impact": "This work is likely to inspire enhancements in spoken dialogue systems, leading to more natural and robust interactions in real-world applications such as virtual assistants and conversational agents.",
+    "limitations": "The paper does not address the specifics of how to improve models based on benchmark results, nor does it provide standardized evaluation pipelines for all tested aspects.",
+    "new_terms": {
+        "paralinguistics": "**Paralinguistics** refers to the aspects of vocal communication that convey meaning beyond the words spoken, such as tone, pitch, and emotional nuance."
+    },
+    "open_sourcing": "All related code and datasets of URO-Bench have been released."
+}

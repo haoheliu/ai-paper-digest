@@ -1,0 +1,22 @@
+{
+    "title": "Automatic Vehicle Detection using DETR: A Transformer-Based Approach for Navigating Treacherous Roads",
+    "author": "Istiaq Ahmed Fahad (Institute of Information Technology, University of Dhaka), Nazmus Sakib Ahmed (Institute of Information Technology, University of Dhaka), Abdullah Ibne Hanif Arean (Dept. of Computer Science and Engineering, University of Dhaka), Mahmudul Hasan (Dept. of Computer Science and Engineering, University of Dhaka), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper focuses on automatic vehicle detection, which could provide insights into robust model design and adaptation methods for audio processing tasks that involve categorizing environmental sounds.",
+    "field": "Applications-Vision",
+    "background": "Implementing a detection system for autonomous vehicles that identifies objects in complex driving environments, focusing on overcoming challenges such as varying lighting and road types.",
+    "contribution": "This study introduces the Collaborative Hybrid Assignments Training (Co-DETR) method using the DETR model to solve automatic vehicle detection challenges, achieving improved accuracy in diverse driving conditions.",
+    "technical_comparison": {
+        "prior_work": "Traditional object detection methods like YOLO and Faster R-CNN had difficulties with complex environments, especially in detecting various vehicle types under challenging conditions.",
+        "novelty": "This work utilizes a hybrid training scheme that enhances feature learning and attention mechanisms, improving model efficiency and effectiveness compared to existing techniques."
+    },
+    "key_innovation": "The Co-DETR method enhances standard DETR with versatile label assignments and parallel auxiliary heads for improved training outcomes.",
+    "real_world_impact": "The research has potential real-world applications in autonomous navigation, improving road safety and efficiency in vehicle detection on complex roadways.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "DETR": "**DEtection TRansformer** is a novel architecture that applies Transformer structures to object detection tasks, allowing for global context understanding without relying on handcrafted components.",
+        "Co-DETR": "**Collaborative Hybrid Assignments Training** is a specific training methodology that enhances DETR\u2019s performance through improved feature learning strategies."
+    },
+    "open_sourcing": ""
+}
