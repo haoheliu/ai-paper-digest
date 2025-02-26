@@ -1,0 +1,21 @@
+{
+    "title": "SwimVG: Step-wise Multimodal Fusion and Adaption for Visual Grounding",
+    "author": "Liangtao Shi (Hefei University of Technology), Ting Liu (National University of Defense Technology), Xiantao Hu (Nanjing University of Science and Technology), Yue Hu (National University of Defense Technology), Quanjun Yin (National University of Defense Technology), Richang Hong (Hefei University of Technology)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper introduces an efficient multimodal fusion strategy that could potentially be adapted for audio-visual tasks relevant to Haohe Liu's research.",
+    "field": "Applications-Vision",
+    "background": "Visual grounding involves locating a bounding box around an object in an image based on a textual description, requiring precise alignment between visual and linguistic information.",
+    "contribution": "This paper introduces a step-wise multimodal prompts and cross-modal interactive adapters to solve visual grounding efficiently, achieving state-of-the-art performance with significantly fewer tunable parameters.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically fine-tuned large models using heavyweight vision-language encoders, which limited interaction and incurred high computational costs.",
+        "novelty": "This work replaces traditional heavy encoders with lightweight adapters and step-wise fusion methods, enhancing model efficiency and reducing the number of tunable parameters."
+    },
+    "key_innovation": "Proposes a step-wise approach to integrate multimodal inputs that allows more precise visual-text alignment without requiring full fine-tuning of large pre-trained models.",
+    "real_world_impact": "The proposed method could improve applications in fields such as robot navigation and visual question answering, by enabling faster and more accurate visual grounding in practical systems.",
+    "limitations": "No",
+    "new_terms": {
+        "multimodal prompts": "**Multimodal prompts** are learnable tokens introduced during model training to facilitate interaction between different types of data inputs, such as visual and textual information."
+    },
+    "open_sourcing": "Our code is available at https://github.com/liuting20/SwimVG."
+}

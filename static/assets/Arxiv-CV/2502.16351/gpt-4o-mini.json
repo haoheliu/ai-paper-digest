@@ -1,0 +1,22 @@
+{
+    "title": "AquaNeRF: Neural Radiance Fields in Underwater Media with Distractor Removal",
+    "author": "Luca Gough (Visual Information Laboratory, University of Bristol), Adrian Azzarelli (University of Bristol), Fan Zhang (University of Bristol), Nantheera Anantrasirichai (University of Bristol), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The innovations presented for improving visual rendering in underwater environments could inspire similar techniques for audio rendering and enhancement tasks in mixed or complex audio environments.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Modeling underwater scenes to improve visualization of static objects while reducing the influence of dynamic artifacts and particles in footage.",
+    "contribution": "AquaNeRF introduces a novel renderer and optimization scheme for rendering underwater scenes, achieving improved performance by reducing visual artifacts and enhancing static target details.",
+    "technical_comparison": {
+        "prior_work": "Existing methods like SeaThru-NeRF and RobustNeRF struggle with dynamic occlusions and transient clutter, producing artifacts in renders.",
+        "novelty": "This work utilizes a single Gaussian distribution to model transmittance, significantly stabilizing optimization by focusing on static geometry rather than dynamic distractions."
+    },
+    "key_innovation": "The method effectively confines the rendering focus to a single surface per ray, reducing noise from moving objects and enhancing visualization quality.",
+    "real_world_impact": "By improving underwater scene rendering, this research has potential applications in marine biology, underwater archaeology, and environmental monitoring, aiding in better visual analysis of ocean life.",
+    "limitations": "The method may struggle with rays from distant cameras that attenuate, leading to blurred and less color-accurate reconstructions.",
+    "new_terms": {
+        "Neural Radiance Fields (NeRF)": "**Neural Radiance Fields (NeRF)** is a method for representing and rendering scenes using a neural network to model volumetric scene properties and view-dependent appearance.",
+        "Gaussian weight function": "**Gaussian weight function** is a statistical function used to describe the distribution of transmittance around a mean point, allowing for better surface geometry modeling in rendering tasks."
+    },
+    "open_sourcing": ""
+}

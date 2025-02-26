@@ -1,0 +1,22 @@
+{
+    "title": "Supervised Contrastive Learning from Weakly-Labeled Audio Segments for Musical Version Matching",
+    "author": "Joan Serra (Sony AI), R. Oguz Araz (Music Technology Group, Universitat Pompeu Fabra), Dmitry Bogdanov (Music Technology Group, Universitat Pompeu Fabra), Yuki Mitsufuji (Sony Group Corporation), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper introduces a novel approach to weakly-supervised learning and contrastive loss tailored for audio analysis, which could enhance Haohe's research in audio generation and restoration contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves identifying different renditions of the same musical piece from weakly-labeled audio segments, focusing on segment-level matching rather than full tracks.",
+    "contribution": "This paper introduces a method combining contrastive learning with weak audio supervision to improve version matching, achieving state-of-the-art results for both track and segment levels.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on full-track matching and leveraged traditional classification and triplet loss approaches, which do not efficiently handle segment-level mismatches.",
+        "novelty": "This work proposes new distance reduction strategies and a redesigned contrastive loss function that captures segment-level correlations without requiring segment-level annotations."
+    },
+    "key_innovation": "The innovative pairwise distance reduction strategies and a tailored contrastive loss effectively enable segment-based learning from weak annotations.",
+    "real_world_impact": "Improves applications in music version detection and retrieval, enhancing musical discovery, copyright management, and supporting creativity in music generation.",
+    "limitations": "No specific limitations are mentioned in the text.",
+    "new_terms": {
+        "weakly-labeled": "**Weakly-labeled** refers to data where annotations are only available at a coarse level (e.g., track level) instead of fine-grained data (e.g., segment level).",
+        "contrastive loss": "**Contrastive loss** is a loss function that encourages similar instances to be closer together in the embedding space while pushing apart dissimilar instances."
+    },
+    "open_sourcing": "Code and model checkpoints are shared in an anonymous GitHub link."
+}

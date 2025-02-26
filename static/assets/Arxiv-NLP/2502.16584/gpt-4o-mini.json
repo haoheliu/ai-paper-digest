@@ -1,0 +1,19 @@
+{
+    "title": "Audio-FLAN: A Preliminary Release",
+    "author": "Liumeng Xue (The Hong Kong University of Science and Technology), Ziya Zhou (The Hong Kong University of Science and Technology), Jiahao Pan (The Hong Kong University of Science and Technology), Zixuan Li (Inner Mongolia University), Shuai Fan (Beihang University), Yinghao Ma (The Hong Kong University of Science and Technology), Sitong Cheng (The Chinese University of Hong Kong), ..., Wei Xue (The Hong Kong University of Science and Technology)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper introduces Audio-FLAN, a large-scale instruction-tuning dataset that integrates audio understanding and generation tasks, aligning closely with my work on audio-language modeling and generative approaches in audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a comprehensive dataset that merges various audio tasks, including recognition and generation, to facilitate the training of unified audio-language models for tasks like transcription and music generation.",
+    "contribution": "Audio-FLAN introduces a dataset encompassing 80 diverse tasks across audio domains to solve the fragmentation in audio-language models, achieving over 100 million instances for support in both understanding and generation tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches typically addressed audio tasks separately, lacking a unified framework for both understanding and generation.",
+        "novelty": "This work consolidates a comprehensive array of tasks into one dataset, allowing simultaneous training for diverse audio applications, which enhances generalization capabilities across tasks."
+    },
+    "key_innovation": "The dataset's unique structure integrates tasks from multiple audio domains into one instruction-driven corpus, fostering the development of versatile models.",
+    "real_world_impact": "Audio-FLAN has the potential to accelerate advancements in audio processing technologies and generative AI applications in music, sound design, and voice interfaces, influencing both academic and industrial fields.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {},
+    "open_sourcing": "The Audio-FLAN dataset is available on HuggingFace and GitHub."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "M3DA: Benchmark for Unsupervised Domain Adaptation in 3D Medical Image Segmentation",
+    "author": "Boris Shirokikh (AIRI, Skoltech), Anvar Kurmukov (AUMI.AI), Mikhail Belyaev (AUMI.AI), Mariia Donskova (IITP RAS), Valentin Samokhin (IITP RAS, AIRI), Ivan Oseledets (AIRI, Skoltech), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This research introduces domain adaptation techniques that could potentially enhance audio and speech signal processing through improved robustness against different data distributions.",
+    "field": "General Machine Learning-Unsupervised Learning",
+    "background": "The paper addresses the segmentation of 3D medical images, tackling challenges in domain adaptation between varying imaging modalities, which could have valuable implications in audio signal processing for handling diverse datasets.",
+    "contribution": "This paper introduces the M3DA benchmark to evaluate domain adaptation methods in 3D medical image segmentation, achieving a structured assessment of existing algorithms.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked a comprehensive benchmark to evaluate domain adaptation approaches effectively within the context of medical imaging.",
+        "novelty": "This work establishes a standardized framework encompassing various domain shift scenarios across multiple segmentation tasks."
+    },
+    "key_innovation": "The benchmark is publicly available and includes practical domain shift scenarios that mirror real clinical challenges, facilitating easier comparisons of adaptation techniques.",
+    "real_world_impact": "The benchmark could lead to valuable advancements in domain adaptation techniques applicable within healthcare settings, thereby enhancing medical image analysis systems. No immediate real-world impact noted.",
+    "limitations": "While the study addresses several domain shifts, it does not cover all potential shifts relevant to medical imaging, such as certain CT reconstruction variations.",
+    "new_terms": {
+        "domain adaptation": "**Domain adaptation** is a subfield of machine learning where a model trained on one dataset (source domain) is adapted to work effectively on a different dataset (target domain).",
+        "3D medical image segmentation": "**3D medical image segmentation** refers to the process of identifying and delineating structures or regions of interest in three-dimensional medical images, which is crucial in many diagnostic applications."
+    },
+    "open_sourcing": "The M3DA benchmark is publicly available at https://github.com/BorisShirokikh/M3DA"
+}

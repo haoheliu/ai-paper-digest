@@ -1,0 +1,22 @@
+{
+    "title": "Retrieval-Augmented Visual Question Answering via Built-in Autoregressive Search Engines",
+    "author": "Xinwei Long (Tsinghua University), Zhiyuan Ma (Tsinghua University), Ermo Hua (Tsinghua University), Kaiyan Zhang (Tsinghua University), Biqing Qi (Shanghai Artificial Intelligence Laboratory), Bowen Zhou (Tsinghua University)*",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Applications-Vision",
+    "background": "Visual Question Answering (VQA) requires systems to provide answers to questions based on the content of an image, increasingly relying on external knowledge to generate accurate responses.",
+    "contribution": "This paper introduces ReAuSE, a framework that integrates knowledge retrieval into a generative multi-modal large language model for visual question answering, achieving better retrieval and answer generation performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically used separate retrieval and generation stages, which limited performance optimization due to the lack of integration between models.",
+        "novelty": "This work improves by seamlessly integrating a knowledge retriever with a generative model, using autoregressive search to generate document identifiers directly."
+    },
+    "key_innovation": "ReAuSE's unique approach combines retrieval and answer generation into a single model, allowing for more efficient and relevant document retrieval based on the input query.",
+    "real_world_impact": "The model demonstrates significant enhancements in VQA performance, which can improve applications in education, customer service, and automated content generation.",
+    "limitations": "The paper does not explicitly mention limitations, but potential challenges may include scalability to extremely large knowledge bases and handling very complex queries.",
+    "new_terms": {
+        "Retrieval-Augmented Generation (RAG)": "**Retrieval-Augmented Generation (RAG)** combines traditional retrieval methodologies with generative models to enhance performance on information-heavy tasks.",
+        "multi-modal large language model (MLLM)": "**Multi-modal Large Language Model (MLLM)** refers to models capable of processing multiple input types (e.g., text and images) for tasks requiring understanding across domains."
+    },
+    "open_sourcing": "The code will be available at https://github.com/xinwei666/ReAuSE"
+}

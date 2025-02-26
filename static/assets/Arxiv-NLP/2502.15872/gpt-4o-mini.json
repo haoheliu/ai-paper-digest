@@ -1,0 +1,22 @@
+{
+    "title": "MUTAGREP: Execution-Free Repository-Grounded Plan Search for Code-Use",
+    "author": "Zaid Khan (University of North Carolina, Chapel Hill), Ali Farhadi (Allen Institute for Artificial Intelligence), Ranjay Krishna (Allen Institute for Artificial Intelligence), Luca Weihs (Vercept AI), Mohit Bansal (University of North Carolina, Chapel Hill), Tanmay Gupta (Allen Institute for Artificial Intelligence), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces a framework that enables efficient code generation from a code repository, which can enhance audio-related applications by facilitating integration of audio processing libraries and improving development speed.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper explores the ability of large language models to decompose coding tasks into manageable steps using information from a code repository without executing any code.",
+    "contribution": "MUTAGREP introduces a novel search approach for repository-grounded coding tasks, achieving significant reductions in context usage while maintaining high coding performance.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often require feeding the entire repository into the model, leading to inefficient context usage and potential reasoning errors.",
+        "novelty": "This work allows for more efficient use of context by focusing on essential components and generating structured plans based on user requests and available symbols in the codebase."
+    },
+    "key_innovation": "Utilizes a tree search algorithm guided by a language model to derive actionable coding plans from user queries, efficiently linking natural language intents to corresponding code components.",
+    "real_world_impact": "This method has the potential to streamline software development processes, making it easier for developers to leverage existing libraries, saving time and resources in creating code solutions.",
+    "limitations": "User specified budget for search could limit the effectiveness of the generated plans in more complex coding scenarios.",
+    "new_terms": {
+        "repository-grounded": "**Repository-grounded** refers to techniques or models that utilize information derived from a specific code repository to inform or enhance code generation tasks.",
+        "execution-free": "**Execution-free** indicates that the proposed approach does not require executing code to generate coding plans but instead relies on pure analysis and search methods."
+    },
+    "open_sourcing": "Project page: zaidkhan.me/MutaGReP"
+}

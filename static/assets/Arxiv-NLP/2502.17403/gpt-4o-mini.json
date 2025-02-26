@@ -1,0 +1,21 @@
+{
+    "title": "Large Language Models are Powerful EHR Encoders",
+    "author": "Stefan Hegselmann (Center for Digital Health, Berlin Institute of Health), Georg von Arnim (Center for Digital Health, Berlin Institute of Health), Tillmann Rheude (Center for Digital Health, Berlin Institute of Health), Noel Kronenberg (Center for Digital Health, Berlin Institute of Health), David Sontag (Computer Science and Artificial Intelligence Laboratory), Gerhard Hindricks (German Heart Center of the Charit\u00e9), Roland Eils (Center for Digital Health, Berlin Institute of Health), Benjamin Wild (Center for Digital Health, Berlin Institute of Health), ..., Benjamin Wild (Center for Digital Health, Berlin Institute of Health)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This work provides insights into effectively using Large Language Models (LLMs) for encoding Electronic Health Records (EHRs), which could inform methods for audio-language alignment and manipulation tasks in healthcare contexts.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Improving clinical outcomes using machine learning models trained on Electronic Health Record data to predict patient outcomes based on complex medical information.",
+    "contribution": "This paper introduces the use of pre-trained Large Language Models as effective encoders for Electronic Health Records, achieving competitive performance across several clinical prediction tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous models mainly focused on EHR-specific foundations trained on limited datasets, which often did not generalize well.",
+        "novelty": "This work leverages general-purpose LLMs, pre-trained on diverse text data, to encode EHRs without needing proprietary datasets, facilitating better generalization and interoperability."
+    },
+    "key_innovation": "The method systematically serializes EHR data into text, allowing LLMs to utilize their extensive training to generate effective representations of healthcare data.",
+    "real_world_impact": "This approach could enhance predictive modeling in healthcare by efficiently utilizing existing EHR data, potentially leading to improved patient care and reduced costs.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "EHR": "**Electronic Health Records** are digital versions of patients' paper charts, providing real-time patient-centered records and going beyond standard data that includes a patient's medical history, diagnoses, medications, treatment plans, immunization dates, allergies, radiology images, and laboratory test results."
+    },
+    "open_sourcing": ""
+}

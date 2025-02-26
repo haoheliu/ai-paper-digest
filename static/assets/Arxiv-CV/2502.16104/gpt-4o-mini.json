@@ -1,0 +1,22 @@
+{
+    "title": "Set a Thief to Catch a Thief: Combating Label Noise through Noisy Meta Learning",
+    "author": "Hanxuan Wang (Xi'an Jiaotong University), Na Lu (Xi'an Jiaotong University), Xueying Zhao (Xi'an Jiaotong University), Yuxuan Yan (Xi'an Jiaotong University), Kaipeng Ma (Xi'an Jiaotong University), Kwoh Chee Keong (Nanyang Technological University), Gustavo Carneiro (University of Surrey), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The techniques introduced for correcting labels in datasets with noise could be applicable to audio-related tasks where noisy labels are prevalent, such as audio classification or speech recognition.",
+    "field": "General Machine Learning-Supervised Learning",
+    "background": "The research deals with the challenge of learning from datasets contaminated with noisy labels, which can negatively impact model performance.",
+    "contribution": "This paper introduces the STCT framework to solve the problem of noisy labels by using the same noisy data for validation, achieving significant improvements in label correction and classification performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods generally required clean validation sets to improve their label correction capabilities, resulting in extra annotation costs.",
+        "novelty": "This work utilizes a noisy validation set sampled from the training data to estimate model performance, sidestepping the need for any clean data."
+    },
+    "key_innovation": "The use of a noisy validation set that is independent of extra clean datasets allows for better label correction and model performance estimation.",
+    "real_world_impact": "This framework could effectively enable machine learning applications to utilize low-cost, noisy datasets without requiring extensive clean labeling, thereby expanding the accessibility and utility of machine learning techniques in various fields.",
+    "limitations": "Some limitations include the dependency on the size of the sampled noisy validation set, which affects model performance evaluation.",
+    "new_terms": {
+        "noisy labels": "**Noisy labels** refer to incorrect or misleading labels that do not accurately represent the true class of the training data.",
+        "bi-level optimization": "**Bi-level optimization** is a hierarchical structure of optimization problems where one problem is nested within another, often used in meta-learning frameworks."
+    },
+    "open_sourcing": ""
+}

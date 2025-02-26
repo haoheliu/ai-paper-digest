@@ -1,0 +1,21 @@
+{
+    "title": "Dependency Parsing with the Structuralized Prompt Template",
+    "author": "Keunha Kim (SungKyunKwan University), Youngjoong Ko (SungKyunKwan University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The explored method of utilizing structured prompts for parsing can inspire novel techniques in audio signal processing or data structuring, especially for hierarchical data relationships.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Dependency parsing aims to analyze the syntactic relationships among words in a sentence, transforming it into a structure that represents these relationships.",
+    "contribution": "This paper introduces a novel dependency parsing method using structured prompts to transform sentences into a format suitable for encoder models, achieving competitive parsing performance.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods often relied on complex architectures with additional processing layers for parsing tasks, which could lead to increased processing times and reduced efficiency.",
+        "novelty": "This work simplifies the process using a single encoder model with novel prompts, significantly improving inference speed and maintaining high accuracy without additional layers."
+    },
+    "key_innovation": "The method effectively integrates dependency parsing information directly into text sequences, allowing for efficient and straightforward processing.",
+    "real_world_impact": "The proposed method could facilitate faster and more efficient natural language processing applications, which can be beneficial for real-time systems requiring dependency parsing, such as chatbots and virtual assistants.",
+    "limitations": "The method may struggle with longer sentences due to increased complexity from prompt addition and may require further optimization.",
+    "new_terms": {
+        "Structuralized Prompt Template": "**Structuralized Prompt Template** refers to a technique where prompts are structured to embed syntactic information directly into the text, facilitating dependency parsing through a new encoding method."
+    },
+    "open_sourcing": ""
+}

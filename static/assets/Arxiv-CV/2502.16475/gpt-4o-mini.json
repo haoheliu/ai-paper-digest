@@ -1,0 +1,22 @@
+{
+    "title": "Dragen3D: Multiview Geometry Consistent 3D Gaussian Generation with Drag-Based Control",
+    "author": "Jinbo Yan (Tencent, China), Alan Zhao (Tencent, China), Yixin Hu (Tencent America, USA), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods for 3D Gaussian generation and manipulation could enhance audio-visual integration tasks where spatially consistent 3D models are required, applicable in audio-visual synthesis.",
+    "field": "Applications-Creative AI",
+    "background": "Generating 3D models from single-view images while ensuring geometric consistency across multiple viewpoints and allowing for intuitive user editing.",
+    "contribution": "This paper introduces the Anchor-GS Variational Autoencoder (VAE) and a Seed-Point-Driven strategy to solve the challenge of controllable geometrically consistent 3D generation, achieving significant improvements in multi-view consistency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on 2D diffusion models that can introduce inconsistencies in multi-view generation and lack direct user control in 3D editing.",
+        "novelty": "This work achieves controllable 3D Gaussian generation without the need for 2D priors, enabling intuitive editing through seed point manipulation."
+    },
+    "key_innovation": "Integrates a unique drag-based editing approach for 3D models that allows users to interactively modify geometries linked to latent representations.",
+    "real_world_impact": "This approach enhances creative processes in 3D modeling and digital content creation, making it easier to generate and manipulate high-quality 3D models from minimal input.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "3D Gaussian Splatting": "**3D Gaussian Splatting** is a method of representing scenes using anisotropic Gaussian primitives, allowing for high-quality, real-time rendering of complex 3D scenes.",
+        "Variational Autoencoder (VAE)": "**Variational Autoencoder (VAE)** is a generative model that learns complex data distributions by encoding data into a latent space and reconstructing it back to the original space."
+    },
+    "open_sourcing": "The implementation of the method and the trained models will be open-sourced."
+}

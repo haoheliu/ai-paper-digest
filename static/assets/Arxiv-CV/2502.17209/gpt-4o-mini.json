@@ -1,0 +1,22 @@
+{
+    "title": "Motion-Robust T\u2217 2 Quantification from Gradient Echo MRI with Physics-Informed Deep Learning",
+    "author": "Hannah Eichhorn (Institute of Machine Learning in Biomedical Imaging, Helmholtz Munich), Veronika Spieker (Institute of Machine Learning in Biomedical Imaging, Helmholtz Munich), Kerstin Hammernik (Institute of Machine Learning in Biomedical Imaging, Helmholtz Munich), Elisa Saks (School of Medicine & Health, Technical University of Munich), Lina Felsner (Institute of Machine Learning in Biomedical Imaging, Helmholtz Munich), Kilian Weiss (Philips GmbH Market DACH), Christine Preibisch (School of Medicine & Health, Technical University of Munich), ..., Julia A. Schnabel (School of Biomedical Engineering & Imaging Sciences, King's College London)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses advanced techniques for motion correction in MRI, which could be relevant for applications in audio-visual integration and real-time enhancement in audio processing associated with moving subjects.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This research addresses the challenge of accurately quantifying T\u2217 2 values in magnetic resonance imaging, especially in the presence of patient motion during scans.",
+    "contribution": "This paper introduces a motion correction method that utilizes physics-informed deep learning approaches to improve the quality of T\u2217 2 magnetic resonance imaging despite subject movement, effectively reducing errors and improving image quality.",
+    "technical_comparison": {
+        "prior_work": "Previous motion correction methods often require redundant data acquisition and struggle with variable motion artifacts.",
+        "novelty": "This method achieves comparable performance to state-of-the-art techniques while significantly reducing acquisition time by over 40%, thus improving efficiency."
+    },
+    "key_innovation": "Combines physics-informed deep learning with optimized motion detection protocols to improve robustness against varying levels of motion distortion.",
+    "real_world_impact": "The method can significantly enhance MRI diagnostics in clinical settings, providing faster and more reliable imaging for patients, ultimately improving patient outcomes.",
+    "limitations": "No specific limitations are mentioned in the paper.",
+    "new_terms": {
+        "T\u2217 2 mapping": "**T\u2217 2 mapping** refers to the process of measuring the effective transverse relaxation time in MRI, which is critical for understanding tissue properties and improving diagnostic accuracy.",
+        "physics-informed": "**Physics-informed** approaches integrate physical laws into machine learning models, allowing for more robust solutions that adhere to known scientific principles."
+    },
+    "open_sourcing": "The authors mentioned that their code is publicly available at https://github.com/compai-lab/2025-mrm-eichhorn"
+}

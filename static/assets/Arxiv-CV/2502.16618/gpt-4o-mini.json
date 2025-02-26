@@ -1,0 +1,22 @@
+{
+    "title": "Can Large Vision-Language Models Detect Images Copyright Infringement from GenAI?",
+    "author": "Qipan Xu (Rutgers University), Zhenting Wang (Rutgers University), Xiaoxiao He (Rutgers University), Ligong Han (Rutgers University), Ruixiang Tang (Rutgers University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "This paper discusses large vision-language models (LVLMs) in the context of intellectual property rights, which may intersect with audio-related copyright issues in generative media.",
+    "field": "Applications-Creative AI",
+    "background": "The paper evaluates the ability of LVLMs to identify potential copyright infringement in generated images, focusing on well-known intellectual property figures.",
+    "contribution": "This paper introduces a benchmark dataset to evaluate LVLM's ability to detect copyright infringement, achieving notable insights into the models' performance limitations.",
+    "technical_comparison": {
+        "prior_work": "Existing models lack a robust framework for assessing copyright infringement detection capabilities.",
+        "novelty": "This work provides a systematic evaluation using a newly created dataset with both infringing and non-infringing examples, improving upon the lack of comprehensive benchmarks."
+    },
+    "key_innovation": "Constructs a dedicated benchmark dataset combining generated positive and negative samples to rigorously assess the performance of LVLMs in detecting copyright infringement.",
+    "real_world_impact": "The findings can inform the development of more effective AI content moderation tools, supporting the protection of intellectual property in the digital age.",
+    "limitations": "The authors acknowledge that the evaluation may not align perfectly with legal definitions of copyright infringement due to subjective annotation processes.",
+    "new_terms": {
+        "large vision-language models (LVLMs)": "Models that integrate visual and textual data to perform tasks involving understanding and generating content from both modalities.",
+        "IP infringement": "Intellectual Property infringement refers to the unauthorized use or reproduction of protected intellectual property, including copyrights."
+    },
+    "open_sourcing": ""
+}

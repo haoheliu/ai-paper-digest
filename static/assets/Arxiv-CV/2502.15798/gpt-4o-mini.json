@@ -1,0 +1,22 @@
+{
+    "title": "MaxSup: Overcoming Representation Collapse in Label Smoothing",
+    "author": "Yuxuan Zhou (University of Mannheim), Heng Li (University of Washington), Zhi-Qi Cheng (University of Washington), Xudong Yan (University of Washington), Mario Fritz (CISPA Helmholtz Center for Information Security), Margret Keuper (University of Mannheim), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces Max Suppression (MaxSup), a new regularization method that addresses representation collapse in neural networks, which can be extended to improve audio-related generative models and classification tasks that require robust feature representation.",
+    "field": "Deep Learning-Regularization",
+    "background": "Improving neural network predictions by preventing overconfidence and enhancing feature representation without eroding class distinctions.",
+    "contribution": "MaxSup introduces a novel regularization method that mitigates the overconfidence effect of Label Smoothing, achieving better accuracy and generalization in image classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, such as Label Smoothing, help reduce overconfidence but can inadvertently reinforce errors in misclassified predictions and lead to tighter feature clusters.",
+        "novelty": "This work replaces ground-truth logit penalties with penalties on the highest logit, providing consistent regularization irrespective of prediction correctness."
+    },
+    "key_innovation": "MaxSup uniformly applies regularization to the most confident predictions, avoiding the detrimental effects of eroded class distinctions found in other regularization methods.",
+    "real_world_impact": "MaxSup has the potential to enhance the robustness and accuracy of various machine learning tasks, improving applications in image classification, audio generation, and possibly real-time systems where prediction confidence matters.",
+    "limitations": "The work primarily focuses on deep learning applications in computer vision, with less emphasis on direct applicability to audio tasks or settings outside traditional image processing.",
+    "new_terms": {
+        "Label Smoothing": "**Label Smoothing** is a form of regularization that reduces model overconfidence in classification tasks by softening the targets.",
+        "Max Suppression": "**Max Suppression** is a proposed regularization method that penalizes the strongest predictions rather than the ground-truth label to maintain diversity in feature representation."
+    },
+    "open_sourcing": "Code is available at: https://github.com/ZhouYuxuanYX/Maximum-Suppression-Regularization"
+}

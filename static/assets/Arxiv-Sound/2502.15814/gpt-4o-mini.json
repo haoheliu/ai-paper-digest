@@ -1,0 +1,22 @@
+{
+    "title": "*Slamming*: Training a Speech Language Model on One GPU in a Day",
+    "author": "Gallil Maimon (The Hebrew University of Jerusalem), Avishai Elmakies (The Hebrew University of Jerusalem), Yossi Adi (The Hebrew University of Jerusalem), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on training efficient Speech Language Models (SLMs) using synthetic data and innovative architecture could inform Haohe Liu's work on audio generation and restoration, specifically in developing more efficient training techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "Training high-quality Speech Language Models efficiently within limited computational resources to enhance accessibility in speech research.",
+    "contribution": "This paper introduces *Slam*, a training recipe for efficiently training high-quality Speech Language Models within a 24-hour period on a single GPU, achieving competitive results comparable to state-of-the-art models that utilize far more computing resources.",
+    "technical_comparison": {
+        "prior_work": "Existing SLMs often require extensive computational resources, such as large datasets and powerful hardware setups.",
+        "novelty": "This work improves upon previous methods by employing techniques like TWIST initialization, synthetic data, and adaptive optimization strategies to boost performance while minimizing resource demands."
+    },
+    "key_innovation": "The paper's unique approach lies in combining various empirical strategies\u2014such as leveraging synthetic training data and preference optimization\u2014to enable effective SLM training under strict computational constraints.",
+    "real_world_impact": "The findings could democratize access to cutting-edge SLM technology, allowing smaller research teams to conduct meaningful experiments without extensive resources, potentially leading to advancements in speech processing applications.",
+    "limitations": "The authors acknowledge that while their trained SLMs perform well, they may have limitations in evaluating acoustic or prosodic features.",
+    "new_terms": {
+        "Slam": "**Slam** refers to a method for training Speech Language Models efficiently on limited computational resources, focusing on empirical strategies that enhance model performance.",
+        "TWIST initialization": "**TWIST initialization** is a technique that utilizes pretrained text models to improve the convergence speed of speech model training."
+    },
+    "open_sourcing": "All code, models, training recipes, and synthetic datasets are open-sourced at https://pages.cs.huji.ac.il/adiyoss-lab/slamming."
+}

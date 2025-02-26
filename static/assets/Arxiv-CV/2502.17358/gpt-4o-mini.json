@@ -1,0 +1,21 @@
+{
+    "title": "DIS-CO: Discovering Copyrighted Content in VLMs Training Data",
+    "author": "Andre V. Duarte (Carnegie Mellon University), Xuandong Zhao (UC Berkeley), Arlindo L. Oliveira (INESC-ID / Instituto Superior Tecnico, ULisboa), Lei Li (Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methodologies for detecting copyrighted content may inform ethical frameworks and compliance tools for audio-related AI research, particularly in terms of data usage and copyright adherence.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The study investigates how to determine if copyrighted content was utilized in training vision-language models (VLMs) using specific image frames from target media.",
+    "contribution": "DIS-CO introduces a novel approach for inferring the inclusion of copyrighted material during model training, achieving significant improvements in detection accuracy over previous methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Membership Inference Attacks were not tailored for VLMs and faced limitations in black-box scenarios.",
+        "novelty": "This work applies an unconstrained free-form text generation framework to detect copyrighted material, enabling better accuracy than multi-choice settings."
+    },
+    "key_innovation": "DIS-CO employs a creative use of prompting models to generate specific responses based on image inputs, significantly reducing the chance of incorrect detections arising from guessing.",
+    "real_world_impact": "This research has the potential to shape compliance and ethical practices in AI model training, addressing legal concerns surrounding copyrighted content in VLMs.",
+    "limitations": "The reliance on existing models\u2019 architecture may limit the applicability of DIS-CO to models lacking specific functionalities.",
+    "new_terms": {
+        "Vision-Language Models (VLMs)": "**Vision-Language Models** integrate visual and textual data for understanding and tasks involving both modalities."
+    },
+    "open_sourcing": "https://github.com/avduarte333/DIS-CO"
+}

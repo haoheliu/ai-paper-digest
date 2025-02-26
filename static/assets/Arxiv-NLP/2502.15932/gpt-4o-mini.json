@@ -1,0 +1,22 @@
+{
+    "title": "CVE-LLM: Ontology-Assisted Automatic Vulnerability Evaluation Using Large Language Models",
+    "author": "Rikhiya Ghosh (Siemens Healthineers USA), Hans-Martin von Stockhausen (Siemens Healthineers Germany), Martin Schmitt (Siemens AG Germany), George Marica Vasile (Siemens AG Romania), Sanjeev Kumar Karn (Siemens Healthineers USA), Oladimeji Farri (Siemens Healthineers USA), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The integration of large language models (LLMs) for vulnerability evaluation could be beneficial in enhancing automated solutions for audio-related security vulnerabilities due to the extensive reliance on software components in audio systems.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Automatically assessing vulnerabilities in software systems through the use of large language models trained on historical data and cybersecurity knowledge.",
+    "contribution": "This paper introduces a novel LLM specifically tailored for the automatic evaluation of software vulnerabilities in medical devices, achieving an efficiency that significantly reduces the manual labor involved.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in cybersecurity often relied on manually curated evaluations for assessing vulnerabilities, which are time-consuming and error-prone.",
+        "novelty": "This work leverages a fine-tuned large language model with ontology enrichment, enabling it to assess vulnerabilities quickly and accurately without needing extensive manual input."
+    },
+    "key_innovation": "The use of cybersecurity ontologies to enrich vulnerability descriptions, allowing the model to generalize better to new threats without retraining.",
+    "real_world_impact": "The deployment of this system can drastically reduce the workload for cybersecurity experts in medical device assessments, enhancing response times to vulnerabilities and ultimately improving patient safety.",
+    "limitations": "Potential challenges include addressing hallucinations in generated comments and generalizing to unseen vulnerabilities.",
+    "new_terms": {
+        "CVE": "**Common Vulnerabilities and Exposures** - A list of publicly disclosed cybersecurity vulnerabilities and exposures.",
+        "LLM": "**Large Language Model** - A type of model that uses deep learning techniques to understand and generate human-like text."
+    },
+    "open_sourcing": ""
+}

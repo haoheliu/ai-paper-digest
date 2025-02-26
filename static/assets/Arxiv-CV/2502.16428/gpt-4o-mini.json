@@ -1,0 +1,21 @@
+{
+    "title": "Visual Reasoning Evaluation of Grok, Deepseek's Janus, Gemini, Qwen, Mistral, and ChatGPT",
+    "author": "Nidhal Jegham (Tunis Business School, University of Tunis), Marwan Abdelatti (University of Rhode Island), Abdeltawab Hendawi (University of Rhode Island), ..., ChatGPT Model Team",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "The paper discusses multimodal large language models and visual reasoning evaluations, which may contribute insights into model robustness that could be relevant for audio and speech applications.",
+    "field": "Evaluation-Methodology",
+    "background": "This study evaluates various multimodal language models on their performance in visual reasoning tasks using a benchmark that incorporates multi-image reasoning and entropy metrics.",
+    "contribution": "The paper introduces a novel benchmark to evaluate reasoning capabilities in visual reasoning tasks, achieving detailed insights into model accuracy and uncertainty calibration.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluation benchmarks have focused mainly on single-image tasks and lack comprehensive metrics for contextual understanding and reasoning stability.",
+        "novelty": "This work improves evaluations by introducing multi-image contexts, rejection mechanisms, and entropy calculations for assessing reasoning consistency."
+    },
+    "key_innovation": "The integration of entropy as a metric for quantifying reasoning consistency across different answer orders makes this evaluation approach unique.",
+    "real_world_impact": "This framework could better assess AI systems' real-world applicability by ensuring models engage in genuine comprehension rather than exploiting positional biases.",
+    "limitations": "The study may not account for all possible biases in model training and evaluation, and its focus on visual reasoning limits its applicability in audio contexts.",
+    "new_terms": {
+        "entropy": "**Entropy** is a measure of uncertainty or randomness in a probability distribution, which in this context assesses the stability of model responses across different answer orders."
+    },
+    "open_sourcing": ""
+}

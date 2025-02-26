@@ -1,0 +1,22 @@
+{
+    "title": "AutoMedPrompt: A New Framework for Optimizing LLM Medical Prompts Using Textual Gradients",
+    "author": "Sean Wu (Keck Data Science Institute, Pepperdine University), Michael Koo (Department of Medicine, University of California, Los Angeles), Fabien Scalzo (Keck Data Science Institute, Pepperdine University), Ira Kurtz (Brain Research Institute, University of California, Los Angeles)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents a method that can enhance the performance of large language models (LLMs) for medical applications, which aligns closely with Haohe Liu's focus on innovations in audio, speech, and language processing.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Optimizing prompts for medical question-answering tasks using textual gradients instead of relying on traditional methods such as fine-tuning or manual prompt engineering.",
+    "contribution": "AutoMedPrompt introduces textual gradient optimization to refine medical prompts, achieving improved accuracy on several medical benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like fine-tuning and manual prompt engineering are computationally intensive and require high domain expertise.",
+        "novelty": "This work utilizes automatic differentiation with textual gradients to dynamically optimize prompts for medical tasks."
+    },
+    "key_innovation": "The framework allows for real-time prompt refinement using generated textual feedback to enhance LLM responses for specific medical queries.",
+    "real_world_impact": "By democratizing access to high-performing LLMs in healthcare, this method could significantly improve medical decision-making tools without extensive fine-tuning resources.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "textual gradients": "**Textual gradients** refer to a technique that utilizes gradients derived from language models to inform the optimization of prompts for enhancing response quality.",
+        "chain-of-thought prompting": "**Chain-of-thought prompting** involves guiding models to follow structured reasoning steps before answering questions, enhancing logical reasoning."
+    },
+    "open_sourcing": "All code and data are open-source and available on the authors' GitHub."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Detecting OOD Samples via Optimal Transport Scoring Function",
+    "author": "Heng Gao (ISTBI Fudan University), Zhuolin He (School of Computer Science Fudan University), Jian Pu (ISTBI Fudan University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method for out-of-distribution detection could be beneficial in audio and speech applications, especially for ensuring reliable real-world performance of models trained on audio data.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to identify whether a test sample in deep learning comes from the in-distribution or is an unseen out-of-distribution sample during its inference phase.",
+    "contribution": "This paper introduces a novel out-of-distribution detection method based on optimal transport theory to enhance performance without needing additional training data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on softmax probabilities or logits, which can be limited in capturing the underlying geometric relationships of data distributions.",
+        "novelty": "This work employs Wasserstein distances from optimal transport theory to better characterize the discrepancies between in-distribution and out-of-distribution samples."
+    },
+    "key_innovation": "Integrates feature, logits, and softmax probability spaces to calculate out-of-distribution scores, leveraging optimal transport distances.",
+    "real_world_impact": "The findings improve the reliability of machine learning models in real-world applications by enhancing their ability to detect unknown inputs, which could mitigate risks in safety-critical systems.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Wasserstein distance": "**Wasserstein distance** is a measure of the distance between two probability distributions, often used to assess the similarity between distributions in machine learning contexts.",
+        "optimal transport": "**Optimal transport** refers to a mathematical theory for finding the most efficient way to transform one distribution into another."
+    },
+    "open_sourcing": "Code is available at https://github.com/HengGao12/OTOD."
+}

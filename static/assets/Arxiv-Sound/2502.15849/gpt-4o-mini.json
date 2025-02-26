@@ -1,0 +1,22 @@
+{
+    "title": "Synthesizing Composite Hierarchical Structure from Symbolic Music Corpora",
+    "author": "Ilana Shapiro (University of California, San Diego), Ruanqianqian Huang (University of California, San Diego), Zachary Novack (University of California, San Diego), Cheng-i Wang (AudioShake), Hao-Wen Dong (University of California, San Diego), Taylor Berg-Kirkpatrick (University of California, San Diego), Shlomo Dubnov (University of California, San Diego), ..., Sorin Lerner (University of California, San Diego)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed structural temporal graph (STG) and centroid derivation method could potentially enhance understanding and generation of music structures, which is relevant to Haohe Liu's work in audio generation.",
+    "field": "Applications-Creative AI",
+    "background": "The study focuses on analyzing and synthesizing hierarchical musical structures from symbolic music datasets.",
+    "contribution": "This paper introduces the structural temporal graph (STG) to synthesize a representative musical structure from a corpus, achieving the derivation of a centroid STG that accurately characterizes the overall structure.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely focus on single levels of musical hierarchy and lack integration for generating structured music from multiple pieces.",
+        "novelty": "This work combines comprehensive hierarchical representation with a novel measure of structural distance and centroid derivation using simulated annealing."
+    },
+    "key_innovation": "Develops a unified k-partite directed acyclic graph to encapsulate musical structures across multiple levels, facilitating enhanced music analysis and generation.",
+    "real_world_impact": "The work lays a foundation for improved music generation systems, potentially aiding composers and enhancing generative AI's capacity in creative fields.",
+    "limitations": "The study mentions challenges related to fully capturing rhythmic contour, which is excluded from the analysis due to a lack of accessible algorithms.",
+    "new_terms": {
+        "structural temporal graph": "**Structural temporal graph (STG)** is a hierarchical model representing musical structures across different levels, encoding both the structural hierarchy and temporal relationships.",
+        "centroid STG": "**Centroid STG** refers to a representative graph derived from a corpus of STGs that characterizes the overarching structure of the musical pieces."
+    },
+    "open_sourcing": "All code can be accessed in the GitHub repository: github.com/ilanashapiro/constraints"
+}

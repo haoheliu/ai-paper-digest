@@ -1,0 +1,22 @@
+{
+    "title": "Mobile-Agent-V: Learning Mobile Device Operation Through Video-Guided Multi-Agent Collaboration",
+    "author": "Junyang Wang (Beijing Jiaotong University), Haiyang Xu (Alibaba Group), Xi Zhang (Alibaba Group), Ming Yan (Alibaba Group), Ji Zhang (Alibaba Group), Fei Huang (Alibaba Group), Jitao Sang (Beijing Jiaotong University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The framework's approach to knowledge extraction from video demonstrations can inspire methodologies for generating synthesized audio or speech based on visual cues, relevant to Haohe Liu's work in generative audio.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task involves using video recordings to autonomously learn and execute mobile device operations through a multi-agent framework.",
+    "contribution": "Mobile-Agent-V introduces a video-guidance framework to solve the problem of limited operational knowledge in mobile automation, achieving a 30% performance improvement over existing systems.",
+    "technical_comparison": {
+        "prior_work": "Existing mobile automation frameworks often rely on limited operational knowledge or manual processes, leading to inefficiencies.",
+        "novelty": "This work employs video inputs for knowledge injection, streamlining the learning process without requiring extensive prior instructions."
+    },
+    "key_innovation": "The use of video guidance allows the system to autonomously derive operational knowledge, reducing the need for conventional instructional documentation.",
+    "real_world_impact": "The framework can enhance user interactions with mobile devices, making operations more intuitive and efficient, especially as mobile applications continue to evolve.",
+    "limitations": "The reliance on video quality and the potential for overlooking critical frames during task execution were noted as limitations.",
+    "new_terms": {
+        "video-agent": "**Video agent** refers to the component that dynamically selects relevant video segments for decision-making based on the current task context.",
+        "deep-reflection agent": "**Deep-reflection agent** is responsible for validating and refining decisions based on a historical analysis of decisions made during task execution."
+    },
+    "open_sourcing": ""
+}

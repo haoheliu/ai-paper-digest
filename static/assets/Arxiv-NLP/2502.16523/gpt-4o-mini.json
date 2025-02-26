@@ -1,0 +1,22 @@
+{
+    "title": "Pay Attention to Real World Perturbations! Natural Robustness Evaluation in Machine Reading Comprehension",
+    "author": "Yulong Wu (University of Manchester), Viktor Schlegel (Imperial College London), Riza Batista-Navarro (University of Manchester), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper investigates robustness in Machine Reading Comprehension systems, which can provide insights into improving model resilience against naturally occurring variations in data that could be applicable to audio and speech applications.",
+    "field": "Evaluation-Methodology",
+    "background": "Evaluating the robustness of machine reading comprehension systems against naturally occurring text modifications based on Wikipedia edits.",
+    "contribution": "This paper introduces a framework for generating naturally perturbed reading comprehension datasets to assess model robustness, revealing significant performance drops in state-of-the-art models.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluations mainly utilized synthetic perturbations which may not reflect real-world scenarios.",
+        "novelty": "This research leverages authentic Wikipedia revisions to create perturbations, allowing for more realistic assessment of MRC systems."
+    },
+    "key_innovation": "The unique approach of utilizing Wikipedia revision history for generating natural text perturbations provides a novel method for evaluating MRC models.",
+    "real_world_impact": "Enhancing the robustness of MRC models against natural text variations could improve their performance in real-world applications, such as information retrieval and question answering systems.",
+    "limitations": "The method is limited to Wikipedia-based benchmarks and may not generalize to other datasets.",
+    "new_terms": {
+        "Machine Reading Comprehension (MRC)": "**Machine Reading Comprehension (MRC)** refers to the task of reading a passage of text and answering questions about it, requiring a deep understanding of the content.",
+        "natural perturbations": "**Natural perturbations** are realistic changes in text that occur in natural settings, as opposed to synthetic alterations designed for testing robustness."
+    },
+    "open_sourcing": ""
+}

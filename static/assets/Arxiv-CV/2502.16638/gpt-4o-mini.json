@@ -1,0 +1,22 @@
+{
+    "title": "Automatic Joint Structured Pruning and Quantization for Efficient Neural Network Training and Compression",
+    "author": "Xiaoyi Qu (Lehigh University), David Aponte (Microsoft), Colby Banbury (Microsoft), Daniel P. Robinson (Lehigh University), Tianyu Ding (Microsoft), Kazuhito Koishida (Microsoft), Ilya Zharkov (Microsoft), Tianyi Chen (Microsoft)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The techniques of structured pruning and quantization can contribute to model efficiency in audio and speech applications, potentially applicable to Haohe Liu's work in audio generation and enhancement.",
+    "field": "Deep Learning-Optimization for Deep Networks",
+    "background": "This paper outlines methods to compress deep neural networks while maintaining performance, targeting both structured pruning and quantization techniques to achieve resource efficiency.",
+    "contribution": "This paper introduces the GETA framework to solve the challenge of jointly applying structured pruning and quantization in neural networks, achieving significant compression and efficiency improvements.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often executed pruning and quantization separately, leading to high sensitivity and inefficiency.",
+        "novelty": "GETA improves this by implementing a unified framework that automates the joint processes, significantly simplifying execution and enhancing stability."
+    },
+    "key_innovation": "The unique aspect of GETA lies in its automated approach to integrate structured pruning and quantization, along with a new optimizer called QASSO for managing bit width and sparsity effectively.",
+    "real_world_impact": "The proposed methods have potential applications in deploying efficient neural networks on resource-constrained devices, improving accessibility and performance in various applications, including mobile and embedded systems.",
+    "limitations": "No",
+    "new_terms": {
+        "GETA": "**GETA** refers to the framework that stands for General and Efficient Training framework that Automates joint structured pruning and quantization-aware training.",
+        "QASSO": "**QASSO** stands for Quantization-Aware Structured Sparse Optimizer, a method introduced to manage parameter groups for optimizing structured pruning and quantization jointly."
+    },
+    "open_sourcing": "Source code available at https://github.com/microsoft/geta"
+}

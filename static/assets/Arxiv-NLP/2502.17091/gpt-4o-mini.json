@@ -1,0 +1,22 @@
+{
+    "title": "WILDFRAME: Comparing Framing in Humans and LLMs on Naturally Occurring Texts",
+    "author": "Gili Lior (The Hebrew University of Jerusalem), Liron Naccache (The Hebrew University of Jerusalem), Gabriel Stanovsky (The Hebrew University of Jerusalem), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods used to analyze framing effects could inspire similar techniques in audio-visual contexts, particularly in response generation for music or speech.",
+    "field": "Applications-Language",
+    "background": "This study explores how the framing effect influences sentiment perception in both humans and Large Language Models (LLMs) using a dataset of naturally occurring statements.",
+    "contribution": "WILDFRAME introduces a dataset of 1,000 reframed statements to analyze the framing effect, demonstrating strong correlations in behavior between humans and LLMs.",
+    "technical_comparison": {
+        "prior_work": "Previous studies on cognitive biases in LLMs typically use synthetic data or focus on isolated frameworks, lacking direct comparisons with human performance.",
+        "novelty": "This work evaluates LLMs in a real-world context, providing valuable insight into sentiment analysis based on nuanced framing."
+    },
+    "key_innovation": "The dataset construction combines real-world sentiment-rich statements with systematic reframing, allowing a direct comparison of human and LLM responses.",
+    "real_world_impact": "Understanding framing effects can help in developing applications that either utilize or mitigate these biases, enhancing decision-making tools or conversational agents.",
+    "limitations": "The study is limited to Amazon reviews, which may not generalize to other domains or types of statements.",
+    "new_terms": {
+        "framing effect": "**Framing effect** is a cognitive bias where people's decisions are influenced by how information is presented rather than just the information itself.",
+        "LLMs": "**Large Language Models (LLMs)** are advanced artificial intelligence systems designed to understand and generate human-like text based on massive text datasets."
+    },
+    "open_sourcing": "WILDFRAME data available at https://huggingface.co/datasets/gililior/WildFrame"
+}

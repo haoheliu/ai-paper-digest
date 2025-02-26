@@ -1,0 +1,22 @@
+{
+    "title": "Real Time Offside Detection using a Single Camera in Soccer",
+    "author": "Shounak Desai (Rochester Institute of Technology)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper discusses image processing techniques that could inform methodologies for audio-related visual recognition tasks, enhancing understanding of spatial and movement patterns.",
+    "field": "Applications-Vision",
+    "background": "Detecting offside positions in soccer using a single broadcast camera, leveraging image processing and keypose estimation to track player positions.",
+    "contribution": "This paper introduces a novel framework for offside detection using keypose estimation and line detection, achieving efficiency with a reduced camera setup.",
+    "technical_comparison": {
+        "prior_work": "Prior methods utilize multiple cameras (e.g., VAR system) for high accuracy in offside detection, which involves complex setups and high costs.",
+        "novelty": "This work reduces the technological requirements by relying on a single camera while maintaining accuracy through advanced image processing techniques."
+    },
+    "key_innovation": "The approach uniquely combines segmentation, line detection, and vanishing point calculations to derive offside lines from a single perspective.",
+    "real_world_impact": "This innovation could democratize access to offside detection technology in soccer, making it feasible for lower-budget teams and enhancing the fairness of officiating.",
+    "limitations": "The method may be limited by the reliability of single-camera perspectives and accuracy based on camera positioning.",
+    "new_terms": {
+        "vanishing point": "**Vanishing point** is the point in an image where parallel lines appear to converge, aiding in understanding spatial relationships in a 2D representation.",
+        "keypose estimation": "**Keypose estimation** refers to the process of identifying specific points on a human body in an image, crucial for applications like motion analysis and activity recognition."
+    },
+    "open_sourcing": ""
+}

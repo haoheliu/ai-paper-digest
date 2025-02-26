@@ -1,0 +1,20 @@
+{
+    "title": "Analysis of Emotion in Rumour Threads on Social Media",
+    "author": "Rui Xing (The University of Melbourne), Boyang Sun (Mohamed bin Zayed University of Artificial Intelligence), Kun Zhang (Carnegie Mellon University), Timothy Baldwin (The University of Melbourne), Jey Han Lau (The University of Melbourne), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's insights on emotional dynamics in social media could enhance Haohe's work in audio-related generative models, particularly regarding emotion-aware content creation.",
+    "field": "Applications-Creative AI",
+    "background": "Examining how different emotions manifest in social media discussions related to rumors to inform content and behavioral analysis.",
+    "contribution": "This paper introduces a comprehensive emotion analysis framework to solve the challenge of understanding emotional influences in social media rumor propagation, achieving insights into negative and positive emotional dynamics.",
+    "technical_comparison": "Previous methods focused primarily on single-bin emotion analysis without differentiating between rumor and non-rumor content. This work improves by offering a multi-faceted exploration of emotion transitions, trajectories, and causal relationships in social media.",
+    "key_innovation": "Employs a holistic emotion detection framework that not only identifies sentiment but analyzes emotion transitions, leading to a richer understanding of emotional contagion in threaded discussions.",
+    "real_world_impact": "Insights from the analysis could have significant implications for improving the design of platforms that manage user interactions and information sharing, particularly in critical situations like misinformation during crises.",
+    "limitations": "No.",
+    "new_terms": {
+        "emotional contagion": "**Emotional contagion** refers to the phenomenon where emotions can spread from one person to another, influencing group dynamics and interactions.",
+        "cumulative emotion trajectory": "**Cumulative emotion trajectory** refers to the tracking of how emotions accumulate and evolve over time in a series of interactions.",
+        "causal analysis": "**Causal analysis** is a method to determine the cause-effect relationships between different variables."
+    },
+    "open_sourcing": ""
+}

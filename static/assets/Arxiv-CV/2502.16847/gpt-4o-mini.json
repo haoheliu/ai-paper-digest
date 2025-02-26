@@ -1,0 +1,19 @@
+{
+    "title": "Characterizing Structured versus Unstructured Environments based on Pedestrians' and Vehicles' Motion Trajectories",
+    "author": "Mahsa Golchoubian (Department of Systems Design Engineering, University of Waterloo, Canada), Moojan Ghafurian (Department of Electrical and Computer Engineering, University of Waterloo, Canada), Nasser Lashgarian Azad (Department of Systems Design Engineering, University of Waterloo, Canada), Kerstin Dautenhahn (Department of Systems Design Engineering, University of Waterloo, Canada), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods on trajectory feature extraction and clustering can potentially enhance motion prediction algorithms in audio-related applications, especially in the context of movement interactions in music or audio scene understanding.",
+    "field": "Applications-Creative AI",
+    "background": "Analyzing and comparing trajectory behaviors of pedestrians and vehicles to classify environments into structured and unstructured categories, thereby improving prediction algorithms for autonomous vehicles.",
+    "contribution": "This paper introduces quantitative features for classifying environments based on motion trajectories, achieving a meaningful categorization of existing datasets to inform trajectory prediction models.",
+    "technical_comparison": "Previous methods focused mainly on qualitative definitions of structured and unstructured environments, which lacked clarity and were less applicable. This work improves by offering quantitative features that can systematically differentiate between environment types based on trajectory analysis.",
+    "key_innovation": "Applies clustering and regression to establish a quantitative framework for differentiating between structured and unstructured environments using motion trajectories.",
+    "real_world_impact": "The findings can significantly enhance the design and training of autonomous systems, facilitating better interaction prediction in various environments where vehicles and pedestrians coexist.",
+    "limitations": "The lack of diverse datasets for unstructured environments limits the robustness of the proposed classification framework.",
+    "new_terms": {
+        "trajectory variability": "**Trajectory variability** refers to the measure of how much pedestrian movement deviates from a consistent path over time, impacting predictions in motion trajectories.",
+        "stop fraction": "**Stop fraction** is the proportion of time an agent remains stationary during its trajectory, which can signify behavioral patterns in different environments."
+    },
+    "open_sourcing": ""
+}

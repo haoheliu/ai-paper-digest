@@ -1,0 +1,19 @@
+{
+    "title": "MambaFlow: A Novel and Flow-guided State Space Model for Scene Flow Estimation",
+    "author": "Jiehao Luo (South China Normal University), Jintao Cheng (South China Normal University), Xiaoyu Tang (South China Normal University), Qingwen Zhang (KTH Royal Institute of Technology), Bohuan Xue (South China Normal University), Rui Fan (Tongji University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The approach of integrating spatio-temporal coupling and attention modeling with efficient decoding methods could provide insights into similar multilayered modeling in audio or music processing tasks, especially in analyzing dynamic changes in audio waves.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Scene flow estimation aims to capture the 3D motion of points in a point cloud extracted from multiple frames, providing essential motion data for applications such as autonomous driving.",
+    "contribution": "MambaFlow introduces a novel scene flow estimation architecture that leverages a state space model to efficiently capture and represent dynamic point cloud features, achieving state-of-the-art performance on benchmark datasets.",
+    "technical_comparison": "Previous methods struggled with feature loss due to voxelization and inefficient spatio-temporal modeling. This work improves by employing a flow-guided state space model that enhances voxel-to-point feature mapping and maintains real-time processing capabilities.",
+    "key_innovation": "The unique aspect of MambaFlow is its ability to learn distinct voxel-to-point patterns while incorporating a scene-adaptive loss function that automatically adjusts based on observed motion patterns in the data.",
+    "real_world_impact": "The advancements presented in MambaFlow can significantly enhance real-time environmental perception in autonomous systems, potentially improving safety and decision-making in complex driving environments.",
+    "limitations": "No.",
+    "new_terms": {
+        "scene flow": "**Scene flow** is a vector field describing the motion of 3D points between two frames, similar to optical flow in 2D images.",
+        "state space model": "**State space model** is a mathematical framework used to model dynamic systems, capturing temporal dependencies and allowing for efficient computation."
+    },
+    "open_sourcing": "code is available at https://github.com/SCNU-RISLAB/MambaFlow"
+}

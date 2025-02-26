@@ -1,0 +1,22 @@
+{
+    "title": "VISFACTOR: Benchmarking Fundamental Visual Cognition in Multimodal Large Language Models",
+    "author": "Jen-Tse Huang (The Chinese University of Hong Kong), Dasen Dai (The Chinese University of Hong Kong), Jen-Yuan Huang (Peking University), Youliang Yuan (The Chinese University of Hong Kong, Shenzhen), Xiaoyuan Liu (The Chinese University of Hong Kong, Shenzhen), Wenxuan Wang (The Chinese University of Hong Kong), Wenxiang Jiao (Tencent AI Lab), Zhaopeng Tu (Tencent AI Lab)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The benchmark established can be useful for evaluating visual cognition tasks related to audio-visual integration, which is applicable in generation and understanding of multimodal content.",
+    "field": "Applications-Vision",
+    "background": "The study develops a benchmark to evaluate the visual cognitive abilities of multimodal large language models, analyzing performance in tasks like spatial reasoning and pattern recognition.",
+    "contribution": "This paper introduces VISFACTOR to solve the lack of evaluation frameworks for multimodal large language models' visual cognition, achieving a systematic assessment of fundamental visual tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused primarily on downstream applications and lacked standardized testing frameworks for basic visual cognitive abilities.",
+        "novelty": "This work digitizes established cognitive tests, creating a comprehensive benchmarking model that allows direct comparisons between model outputs and human performance."
+    },
+    "key_innovation": "Provides a digitalized version of the Factor-Referenced Cognitive Test, facilitating a rigorous evaluation of cognitive capabilities in visual reasoning for multimodal large language models.",
+    "real_world_impact": "Reveals critical shortcomings in the visual cognition capabilities of current models, informing future research and development to enhance their foundational abilities, which can aid in various applications including content creation and interactive systems.",
+    "limitations": "The models assessed showed close to random guessing on fundamental tasks, indicating a significant gap in their visual cognition capabilities.",
+    "new_terms": {
+        "VISFACTOR": "**VISFACTOR** is a benchmark designed to evaluate visual cognition in Multimodal Large Language Models by translating psychological tests into digital formats.",
+        "Factor-Referenced Cognitive Test": "**Factor-Referenced Cognitive Test (FRCT)** is a psychometric assessment that evaluates distinct cognitive faculties, including visual processing and reasoning."
+    },
+    "open_sourcing": "The VISFACTOR benchmark is publicly available at https://github.com/CUHK-ARISE/VisFactor."
+}

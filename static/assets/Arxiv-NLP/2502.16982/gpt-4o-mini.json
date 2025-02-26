@@ -1,0 +1,22 @@
+{
+    "title": "Scaling Up the Muon Optimizer for Large Scale Language Model Training",
+    "author": "Jingyuan Liu (Moonshot AI), Jianlin Su (Moonshot AI), Xingcheng Yao (UCLA), Zhejun Jiang (Moonshot AI), Guokun Lai (Moonshot AI), Yulun Du (Moonshot AI), Yidao Qin (Moonshot AI), Weixin Xu (Moonshot AI), ..., Zhilin Yang (Moonshot AI)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper tackles optimization for large-scale language models, which is relevant for high-performance audio and speech processing models that similarly require efficient training methodologies.",
+    "field": "Deep Learning-Optimization for Deep Networks",
+    "background": "Optimizing the training of large-scale language models using advanced optimizers like Muon to achieve better efficiency compared to traditional methods.",
+    "contribution": "This paper introduces scaling techniques for the Muon optimizer to train large models effectively, achieving significant improvements in computational efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like AdamW faced limitations in scaling to larger models, often requiring extensive hyperparameter tuning and not maintaining efficient training dynamics.",
+        "novelty": "This work improves functionality by integrating weight decay and modifying per-parameter update scales, thus allowing Muon to operate more effectively on large scales without the need for extensive tuning."
+    },
+    "key_innovation": "The key innovation lies in the modified Muon optimizer that adapts to large-scale model dynamics while maintaining high training efficiency and stability.",
+    "real_world_impact": "This advancement is poised to significantly reduce the computational costs and resources needed for training sophisticated models, accelerating advancements in natural language processing and related fields.",
+    "limitations": "The original performance gains diminish as model size increases without addressing certain scaling challenges fully, such as specific datasets and tasks.",
+    "new_terms": {
+        "Muon optimizer": "**Muon optimizer** is a novel optimization algorithm designed for training neural networks, leveraging matrix orthogonalization techniques for improved gradient updates.",
+        "Mixture-of-Expert (MoE)": "**Mixture-of-Expert (MoE)** refers to a model architecture where only a subset of expert models is activated for each individual forward pass, allowing efficient computation and scalability."
+    },
+    "open_sourcing": "The authors have released their distributed Muon implementation, model checkpoints, and training resources for future research."
+}

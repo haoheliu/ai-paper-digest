@@ -1,0 +1,22 @@
+{
+    "title": "Interrogating LLM design under a fair learning doctrine",
+    "author": "Johnny Tian-Zheng Wei (University of Southern California), Maggie Wang (Princeton University), Ameya Godbole (University of Southern California), Jonathan H. Choi (University of Southern California), Robin Jia (University of Southern California), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "The paper explores how large language models (LLMs) can be designed in a way that respects copyright law while being fair in their learning processes.",
+    "contribution": "This paper introduces a structural perspective on LLM training to operationalize the notion of 'fair learning', achieving a more comprehensive assessment of LLM copyright implications.",
+    "technical_comparison": {
+        "prior_work": "Previous studies primarily focused on behavioral aspects, mainly assessing whether model outputs were similar to training data, which is insufficient for addressing copyright risks.",
+        "novelty": "This work emphasizes the importance of training design choices and their effects on memorization, providing a framework to evaluate fairness in LLM training."
+    },
+    "key_innovation": "Presents an interdisciplinary approach that combines legal analysis with technical training design to explore fair learning standards for LLMs.",
+    "real_world_impact": "Offers insights for legal adjudication concerning copyright issues arising from LLMs, potentially guiding future regulations around AI and copyright law.",
+    "limitations": "The paper mainly focuses on one specific LLM (Pythia) and may not generalize well to all language models without further empirical studies.",
+    "new_terms": {
+        "substantial similarity": "**Substantial similarity** refers to the legal criterion for determining whether a piece of work is infringing copyright by being too similar to the original work.",
+        "fair learning": "**Fair learning** is a proposed framework that assesses whether training decisions for models substantially affect their ability to memorize copyrighted material."
+    },
+    "open_sourcing": ""
+}

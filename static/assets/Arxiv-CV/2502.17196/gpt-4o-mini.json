@@ -1,0 +1,22 @@
+{
+    "title": "Disentangling Visual Transformers: Patch-level Interpretability for Image Classification",
+    "author": "Guillaume Jeanneret (ISIR - Sorbonne Universite), Lo\u00efc Simon (Normandy University, ENSICAEN, UNICAEN, CNRS, GREYC), Fr\u00e9d\u00e9ric Jurie, ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods proposed for patch-level interpretability could influence audio analysis tasks, particularly in understanding local features in audio representation, paralleling how visual features are untangled in images.",
+    "field": "Social and Economic Aspects of ML-Interpretability",
+    "background": "This research aims to improve the interpretability of image classification models, particularly focusing on how different parts of an image contribute to the final classification decision.",
+    "contribution": "This paper introduces the Hindered Transformer (HiT) to solve the issue of interpretability in visual transformers, achieving a method to decompose classification results into contributions from individual image patches.",
+    "technical_comparison": {
+        "prior_work": "Traditional visual transformers, such as the Vision Transformer (ViT), mix information across patches, leading to challenges in interpretability.",
+        "novelty": "HiT limits the interactions between patches, allowing the classification token to reflect individual patch contributions without relying on post-hoc methods."
+    },
+    "key_innovation": "The ability to directly derive saliency maps from classification tokens without complex post-processing enables clearer insights into model decisions.",
+    "real_world_impact": "This work provides a significant step towards creating interpretable models in high-stakes scenarios like healthcare and autonomous vehicles, where understanding model decisions is critical.",
+    "limitations": "The potential challenges in capturing complex dependencies and slower convergence during training are acknowledged.",
+    "new_terms": {
+        "Hindered Transformer (HiT)": "**Hindered Transformer** is a novel neural architecture designed to enhance interpretability in vision tasks by preventing the mixing of information across patches.",
+        "patch-level information": "**Patch-level information** refers to data granularity where an image is analyzed in smaller segments or patches rather than as a whole."
+    },
+    "open_sourcing": "The authors plan to release their code and pretrained weights upon publication."
+}

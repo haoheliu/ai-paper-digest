@@ -1,0 +1,22 @@
+{
+    "title": "Efficient 4D Gaussian Stream with Low Rank Adaptation",
+    "author": "Zhenhuan Liu (Shanghai Jiao Tong University), Shuai Liu (Shanghai Jiao Tong University), Yidong Lu (Shanghai Jiao Tong University), Yirui Chen (Shanghai Jiao Tong University), Jie Yang (Shanghai Jiao Tong University), Wei Liu (Shanghai Jiao Tong University), ..., Zhenhuan Liu (Shanghai Jiao Tong University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods proposed in this paper, specifically low-rank adaptation and efficient representation of dynamic scenes, could inspire new approaches for audio models especially in areas involving visual-audio integration.",
+    "field": "Applications-Vision",
+    "background": "Dynamic novel view synthesis aims at generating new camera views of scenes represented by video sequences, which is valuable in applications like virtual reality and autonomous driving.",
+    "contribution": "The paper introduces a 3D Gaussian-based method combined with low-rank adaptation to enhance scalability and reduce streaming bandwidth while preserving rendering quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, while successful, either require significant memory for offline processing or compromise quality in real-time settings.",
+        "novelty": "This method reduces the streaming bandwidth by 90% with continual learning capabilities, outperforming previous solutions in dynamic environments."
+    },
+    "key_innovation": "Integrates low-rank adaptation in a 3D Gaussian framework to enable efficient real-time rendering without excessive memory usage.",
+    "real_world_impact": "The proposed method demonstrates practical applications in VR and gaming, making dynamic content generation more efficient, which could lead to enhanced user experiences.",
+    "limitations": "The authors noted limitations in generalizing across different scenes, which presents a challenge in dynamic view synthesis.",
+    "new_terms": {
+        "low-rank adaptation": "**Low-rank adaptation** is a technique used in machine learning to reduce the complexity of models by approximating them with lower-dimensional representations.",
+        "3D Gaussian Splatting": "**3D Gaussian Splatting** refers to a method of representing scenes as clouds of 3D Gaussian distributions for efficient rendering."
+    },
+    "open_sourcing": ""
+}

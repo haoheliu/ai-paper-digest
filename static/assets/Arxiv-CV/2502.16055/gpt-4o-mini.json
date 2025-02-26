@@ -1,0 +1,21 @@
+{
+    "title": "MedForge: Building Medical Foundation Models Like Open Source Software Development",
+    "author": "Zheling Tan (Shanghai Jiao Tong University), Kexin Ding (Rutgers University), Jin Gao (Shanghai Jiao Tong University), Mu Zhou (Rutgers University), Dimitris Metaxas (Rutgers University), Shaoting Zhang (Shanghai Jiao Tong University), Dequan Wang (Shanghai Jiao Tong University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed method of medical foundation model merging can inform audio-language model integration by adopting collaborative and privacy-conscious strategies similar to those in medical data sharing.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "The task involves creating a collaborative framework for developing medical foundational models while ensuring patient data privacy and facilitating contributions from multiple medical centers.",
+    "contribution": "MedForge introduces a cooperative framework that allows collaborative development of medical foundation models (FMs) while preventing raw patient data leakage and synchronization issues across medical institutions, achieving superior performance on various clinical datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing methods such as federated learning struggle with synchronous updates and often rely on raw data, risking privacy breaches.",
+        "novelty": "MedForge allows for asynchronous contributions and utilizes parameter-efficient fine-tuning techniques, enabling incremental integration of task-specific knowledge without raw data transmission."
+    },
+    "key_innovation": "The framework fosters a community-driven approach to model development by allowing institutions to contribute to a shared model in a scalable and flexible manner while protecting sensitive data.",
+    "real_world_impact": "By enabling safe collaboration among healthcare institutions, MedForge could significantly improve the development of comprehensive medical AI systems, enhancing patient care and operational efficiency in clinical settings.",
+    "limitations": "No specific limitations were mentioned in the abstract.",
+    "new_terms": {
+        "Low-Rank Adaptation (LoRA)": "**Low-Rank Adaptation (LoRA)** is a technique that reduces the number of parameters updated in a fine-tuning process by decomposing weight matrices into lower-dimensional representations, thereby enabling efficient adaptations of large language models."
+    },
+    "open_sourcing": "Our code is publicly available at https://github.com/TanZheling/MedForge"
+}

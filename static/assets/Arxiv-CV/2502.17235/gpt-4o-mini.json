@@ -1,0 +1,22 @@
+{
+    "title": "Tidiness Score-Guided Monte Carlo Tree Search for Visual Tabletop Rearrangement",
+    "author": "Hogun Kee (Seoul National University), Wooseok Oh (Seoul National University), Minjae Kang (Seoul National University), Hyemin Ahn (UNIST), ..., Songhwai Oh (Seoul National University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The method for evaluating tidiness through a score-giving discriminator could inform similar metric-driven approaches in the audio domain, particularly in assessing audio scene organization or clarity.",
+    "field": "Applications-Vision",
+    "background": "The study addresses the problem of autonomously rearranging objects on a tabletop to achieve a tidier arrangement without explicit target configurations.",
+    "contribution": "This paper introduces Tidiness Score-guided Monte Carlo Tree Search (TSMCTS) to solve the tabletop tidying problem, achieving a tidying success rate of 88.5% in simulations and 85% in real robot experiments.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often specified explicit goals for object rearrangement or relied on limited datasets, making them less adaptable to diverse scenarios.",
+        "novelty": "TSMCTS uses a learned tidiness score function as a flexible utility measure instead of strict target positions, allowing for a broader range of tidy configurations."
+    },
+    "key_innovation": "Combines a tidiness discriminator trained on diverse environment data with Monte Carlo Tree Search to find optimal object arrangements without predefined goals.",
+    "real_world_impact": "TSMCTS demonstrates robust capabilities in various real-world scenarios, indicating potential deployment in assistive robotics for household tidiness tasks.",
+    "limitations": "The method assumes a 2D arrangement and may struggle with configurations requiring vertical stacking or complex multi-layer tidiness.",
+    "new_terms": {
+        "tidiness score": "**Tidiness score** is a numerical representation of how organized a set of objects on a surface appears, ranging from completely messy (0) to perfectly tidy (1).",
+        "Monte Carlo Tree Search (MCTS)": "**Monte Carlo Tree Search (MCTS)** is a heuristic search algorithm used to make decisions in some AI applications, employing random sampling and simulation to evaluate potential outcomes."
+    },
+    "open_sourcing": "The TTU dataset is available at: [https://github.com/rllab-snu/TTU-Dataset](https://github.com/rllab-snu/TTU-Dataset)"
+}

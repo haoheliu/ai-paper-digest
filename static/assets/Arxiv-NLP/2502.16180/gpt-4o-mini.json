@@ -1,0 +1,22 @@
+{
+    "title": "OrderSum: Semantic Sentence Ordering for Extractive Summarization",
+    "author": "Taewan Kwon (Dongguk University), Sangyong Lee (Korea University), ..., Taewan Kwon (Dongguk University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methodology of integrating sentence order into the summarization process could enhance audio and speech document summarization projects by improving the coherence and relevance of generated summaries.",
+    "field": "Applications-Language",
+    "background": "Extractive summarization aims to select sentences from a document to create a coherent summary, and this paper introduces a model that also considers the order of these sentences.",
+    "contribution": "OrderSum introduces a new representation method and objective function to semantically order sentences in extractive summaries, achieving state-of-the-art performance in both sentence inclusion and order.",
+    "technical_comparison": {
+        "prior_work": "Previous extractive summarization models often focused only on selecting the best sentences, neglecting the importance of their order, which can degrade summary readability.",
+        "novelty": "This work significantly improves by incorporating a multi-task learning approach that includes both sentence relevance and order in its training process."
+    },
+    "key_innovation": "The model generates multiple candidate summaries with varied sentence orders and uses a cosine similarity metric in the semantic space to evaluate and select the best summary.",
+    "real_world_impact": "This research could enhance web content summarization tools, making them more effective for information extraction in news articles and other document types, thus improving user experience in information retrieval.",
+    "limitations": "The paper does not discuss the potential computational complexity associated with generating and evaluating multiple candidate summaries.",
+    "new_terms": {
+        "cosine similarity": "**Cosine similarity** is a metric used to measure how similar two vectors are, calculated as the cosine of the angle between them, often used in high-dimensional spaces to find document similarity.",
+        "extractive summarization": "**Extractive summarization** refers to the process of selecting a subset of sentences from a text document to create a summary, using techniques that prioritize sentences based on relevance."
+    },
+    "open_sourcing": "Our code and the model parameters are available at https://github.com/Espresso-AI/OrderSum"
+}

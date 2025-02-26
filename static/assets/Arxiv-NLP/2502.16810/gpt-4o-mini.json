@@ -1,0 +1,22 @@
+{
+    "title": "Grounded Persuasive Language Generation for Automated Marketing",
+    "author": "Jibang Wu (University of Chicago), Chenghao Yang (University of Chicago), Simon Mahns, Chaoqi Wang, Hao Zhu (Stanford University), Fei Fang (Carnegie Mellon University), Haifeng Xu..., Simon Mahns",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper explores the application of Large Language Models (LLMs) in generating persuasive content, a technique that could enhance the personalization and engagement of audio-related marketing strategies in Haohe Liu's research.",
+    "field": "Applications-Creative AI",
+    "background": "The paper develops an AI-driven framework to automate the creation of persuasive marketing content, focusing on real estate listings while ensuring factual accuracy and alignment with user preferences.",
+    "contribution": "This paper introduces an agentic framework for grounded persuasive language generation to address the challenges in automated marketing, achieving higher persuasiveness compared to traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often lacked personalization and grounding in factual data, leading to less effective marketing content.",
+        "novelty": "This work employs a triadic module approach (Grounding, Personalization, Marketing) that ensures accuracy and relevance in generated content."
+    },
+    "key_innovation": "The use of an LLM-based agent with dedicated modules to mimic human expertise in feature selection and content personalization provides a unique and scalable approach to automated marketing.",
+    "real_world_impact": "Potentially revolutionizes automated marketing in real estate and other sectors, improving engagement rates and consumer trust through responsible and targeted communication.",
+    "limitations": "No major limitations were specifically mentioned, but the complexity of the model could pose challenges in scaling across other domains.",
+    "new_terms": {
+        "grounded persuasion": "**Grounded persuasion** refers to a type of persuasion based on factual information and tailored to the audience's preferences and context.",
+        "agentic framework": "**Agentic framework** indicates a structured system designed to operate autonomously in generating targeted communications."
+    },
+    "open_sourcing": ""
+}

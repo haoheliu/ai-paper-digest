@@ -1,0 +1,19 @@
+{
+    "title": "A survey of datasets for computer vision in agriculture",
+    "author": "Nico Heider (Leipzig University), Lorenz Gunreben (Leipzig University), Sebastian Z\u00fcrner (Leipzig University), Martin Schieck (Leipzig University), ..., J. D\u00f6rr (Gesellschaft f\u00fcr Informatik)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The categorization of datasets based on agricultural tasks and their potential application in various fields may inform the development of multimodal systems that integrate audio, text, and visual data in common agricultural environments.",
+    "field": "General Machine Learning-Supervised Learning",
+    "background": "This paper reviews and catalogs publicly available RGB image datasets utilized in various agricultural computer vision tasks, highlighting their importance for the development of deep learning models.",
+    "contribution": "This survey introduces a comprehensive catalog of 45 high-quality RGB image datasets from natural field scenes to enhance the research in agricultural computer vision.",
+    "technical_comparison": {
+        "prior_work": "Previous reviews mainly focused on algorithms or covered fewer datasets, with significant gaps in publicly available data for agricultural applications.",
+        "novelty": "The authors present a curated list of datasets categorized based on specific tasks and plant species, making it easier for researchers to find relevant data."
+    },
+    "key_innovation": "The survey emphasizes the organization of datasets by task and crop type, promoting their use for model training and general-purpose computer vision research.",
+    "real_world_impact": "The findings aim to bridge the gap in agricultural data availability, potentially accelerating advancements in precision agriculture and encouraging collaborations across fields.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {},
+    "open_sourcing": "The dataset list is available online at https://smartfarminglab.github.io/field_dataset_survey/"
+}

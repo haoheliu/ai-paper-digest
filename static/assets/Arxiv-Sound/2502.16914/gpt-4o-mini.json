@@ -1,0 +1,21 @@
+{
+    "title": "ENACT-Heart \u2013 ENsemble-based Assessment Using CNN and Transformer on Heart Sounds",
+    "author": "Jiho Han (Industrial AI Lab SimPlatform Co. Ltd., Geumcheon-gu, Seoul, Republic of Korea), Adnan Shaout (Department of Electrical and Computer Engineering, The University of Michigan \u2013 Dearborn, Dearborn, MI, USA), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The combination of Convolutional Neural Networks (CNN) and Vision Transformer (ViT) in the ENACT-Heart model provides insights into effective integration of audio-visual modalities, which could inspire innovative approaches in audio generation and classification tasks such as those Haohe Liu is working on.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research focuses on classifying heart sounds into different categories using an ensemble method that combines CNN and Vision Transformer architectures.",
+    "contribution": "ENACT-Heart introduces a Mixture of Experts ensemble method to diagnose heart sound anomalies, achieving a classification accuracy of 97.52%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on single model architectures such as Transformers or CNNs for audio classification but did not leverage the strengths of both models in a combined manner.",
+        "novelty": "This work improves classification accuracy by effectively integrating CNN and ViT capabilities through an ensemble approach that combines independent predictions adaptively."
+    },
+    "key_innovation": "The unique aspect of the ENACT-Heart method is its use of an ensemble strategy that combines distinctive strengths of CNNs and ViTs to capture both local and global features of heart sounds.",
+    "real_world_impact": "This approach could significantly enhance diagnostic capabilities and precision in cardiovascular health monitoring, particularly in low-resource settings where advanced diagnostic tools may be limited.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "Mixture of Experts (MoE)": "**Mixture of Experts (MoE)** is an ensemble learning technique that utilizes multiple models (experts) to improve predictive performance by adaptively selecting the most relevant models based on input data."
+    },
+    "open_sourcing": ""
+}

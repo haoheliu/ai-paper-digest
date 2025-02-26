@@ -1,0 +1,23 @@
+{
+    "title": "LCV2I: Communication-Efficient and High-Performance Collaborative Perception Framework with Low-Resolution LiDAR",
+    "author": "Xinxin Feng (Fuzhou University), Haoran Sun (Fuzhou University), HaiFeng Zheng (Fuzhou University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed collaborative perception framework and its methodologies for sensor data fusion may inspire approaches to enhance the audio processing tasks by integrating visual and spatial contextual information, particularly in audio embedded tasks like speech recognition and music separation.",
+    "field": "Applications-Vision",
+    "background": "Enhancing the perceptual capabilities of vehicles using low-resolution LiDAR data in collaboration with infrastructure sensors to improve object detection capabilities.",
+    "contribution": "This paper introduces the LCV2I framework to solve the challenges posed by low-resolution LiDAR, achieving high-performance object detection through effective data fusion and bandwidth-efficient communication.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on high-resolution LiDAR, which led to increased costs and communication inefficiencies.",
+        "novelty": "This work innovatively employs multi-modal data and specialized modules for feature enhancement and selection, improving detection precision despite reduced sensor quality."
+    },
+    "key_innovation": "The framework utilizes low-resolution LiDAR in conjunction with camera inputs, employing specific modules to enhance feature quality and optimize data transmission, which uniquely balances cost and performance.",
+    "real_world_impact": "The successful implementation of low-cost sensors for collaborative perception could lead to wider adoption in smart transportation, significantly reducing costs for deploying autonomous vehicles while maintaining accuracy in object detection.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "Voxel-Wise Fusion Module": "**Voxel-Wise Fusion Module** is a component that integrates voxel-level features from LiDAR with image features to improve object detection accuracy.",
+        "Feature Offset Correction Module": "**Feature Offset Correction Module** is used to adjust feature weights after data fusion to enhance the accuracy of object detection.",
+        "Regional Feature Enhancement Algorithm": "**Regional Feature Enhancement Algorithm** enhances the distinguishing features of objects in a region to facilitate better perception."
+    },
+    "open_sourcing": ""
+}

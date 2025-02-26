@@ -1,0 +1,22 @@
+{
+    "title": "Improving the Inclusivity of Dutch Speech Recognition by Fine-tuning Whisper on the JASMIN-CGN Corpus",
+    "author": "Golshid Shekoufandeh (University of Amsterdam), Paul Boersma (University of Amsterdam), Antal van den Bosch (Utrecht University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The research focuses on enhancing Automatic Speech Recognition (ASR) systems for diverse demographics, which aligns well with Haohe Liu's interest in speech and audio processing, particularly in developing more inclusive tech for varied populations.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study aims to improve speech transcription accuracy for children, elderly, and non-native Dutch speakers using an advanced ASR model, Whisper, fine-tuned on a diverse corpus.",
+    "contribution": "This paper introduces a fine-tuning approach to the Whisper model to solve the problem of speech recognition accuracy among underrepresented Dutch speakers, achieving a substantial reduction in Word Error Rate (WER) across demographics.",
+    "technical_comparison": {
+        "prior_work": "Previous ASR systems were limited to adult speakers with standard pronunciation, leading to poor performance for diverse demographic groups.",
+        "novelty": "This research fine-tunes Whisper on a dataset that includes children, the elderly, and non-native speakers, demonstrating significant WER improvements compared to default models."
+    },
+    "key_innovation": "The study emphasizes the importance of training ASR models on datasets that represent a broad range of speaker characteristics, including age and linguistic familiarity.",
+    "real_world_impact": "The findings can lead to better speech recognition systems for educational tools, customer service applications, and accessibility features for a wider population.",
+    "limitations": "The fine-tuning experiment may have introduced bias due to an imbalance in data hours across demographic groups.",
+    "new_terms": {
+        "Word Error Rate": "**Word Error Rate (WER)** is a common metric for evaluating the performance of ASR systems, calculated as the number of errors per words transcribed.",
+        "fine-tuning": "**Fine-tuning** refers to the process of further training a pre-trained model on a specific dataset to improve performance on closely related tasks."
+    },
+    "open_sourcing": "The Whisper model is accessible on Hugging Face and its associated code is available on GitHub."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "GuidedBench: Equipping Jailbreak Evaluation with Guidelines",
+    "author": "Ruixuan Huang (The Hong Kong University of Science and Technology), Xunguang Wang (The Hong Kong University of Science and Technology), Zongjie Li (The Hong Kong University of Science and Technology), Daoyuan Wu (The Hong Kong University of Science and Technology), Shuai Wang (The Hong Kong University of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Evaluation-Methodology",
+    "background": "Evaluating the effectiveness of jailbreak methods for preventing misuse of large language models by comparing various techniques across a standardized benchmark.",
+    "contribution": "This paper introduces the GuidedBench evaluation framework to enhance jailbreak assessment, providing a structured dataset and scoring guidelines.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks often produce inconsistent results due to reliance on binary success rates and subjective evaluations.",
+        "novelty": "GuidedBench improves upon these methodologies by introducing detailed evaluation guidelines and a curated harmful question dataset."
+    },
+    "key_innovation": "Establishes an objective and detailed scoring system for assessing jailbreak success, moving away from binary evaluations to a more nuanced approach.",
+    "real_world_impact": "This framework could significantly enhance the safety evaluation of AI systems by providing clearer insights into vulnerability assessment, which can help build more robust language models.",
+    "limitations": "The paper does not address potential biases in the evaluation process stemming from the subjective nature of human evaluators.",
+    "new_terms": {
+        "GuidedBench": "**GuidedBench** is a new evaluation framework introduced for assessing jailbreak methods in language models, focusing on structured datasets and evaluation guidelines."
+    },
+    "open_sourcing": ""
+}

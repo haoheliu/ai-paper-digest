@@ -1,0 +1,22 @@
+{
+    "title": "A Performance Analysis of You Only Look Once Models for Deployment on Constrained Computational Edge Devices in Drone Applications",
+    "author": "Lucas Rey (Universidad Polit\u00e9cnica de Madrid), Ana M. Bernardo (Universidad Polit\u00e9cnica de Madrid), Andrzej D. Dobrzycki (Universidad Polit\u00e9cnica de Madrid), David Carrami\u00f1ana (Universidad Polit\u00e9cnica de Madrid), Luca Bergesio (Universidad Polit\u00e9cnica de Madrid), Juan A. Besada (Universidad Polit\u00e9cnica de Madrid), Jos\u00e9 Ram\u00f3n Casar (Universidad Polit\u00e9cnica de Madrid), ..., Ana M. Bernardo (Universidad Polit\u00e9cnica de Madrid)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study explores object detection models suitable for drones, which can parallel the challenges faced in audio-visual systems, particularly for autonomous operations.",
+    "field": "Applications-Vision",
+    "background": "The paper examines the implementation of YOLO object detection models on edge devices, focusing on real-time processing capabilities suitable for drone applications.",
+    "contribution": "This study introduces a comparative analysis of YOLOv8 models deployed on various edge devices to solve the challenge of real-time object detection, achieving insights into performance trade-offs.",
+    "technical_comparison": {
+        "prior_work": "Previous research primarily focused on individual edge devices without a comprehensive evaluation of real-time latency interactions.",
+        "novelty": "This work integrates an extensive comparison between YOLO models across multiple edge devices while considering quantization techniques, providing guidelines for deployment in constrained environments."
+    },
+    "key_innovation": "The study effectively combines model optimization and deployment on heterogeneous edge devices, addressing both performance and energy efficiency.",
+    "real_world_impact": "The findings can enhance autonomous UAV operations by providing practical recommendations for real-time object detection in constrained environments, improving applications in monitoring and emergency response.",
+    "limitations": "The Raspberry Pi 5 was unable to meet real-time processing requirements despite being suitable for low-energy applications.",
+    "new_terms": {
+        "Post-Training Quantization (PTQ)": "**Post-Training Quantization** is a technique used to convert trained models to lower precision, thus enhancing speed and reducing memory usage without the need for retraining.",
+        "TensorRT": "**TensorRT** is an NVIDIA SDK that optimizes deep learning models for inference, enabling high-performance execution on NVIDIA GPUs."
+    },
+    "open_sourcing": ""
+}

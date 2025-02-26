@@ -1,0 +1,22 @@
+{
+    "title": "Subpixel edge localization based on converted intensity summation under stable edge region",
+    "author": "Yingyuan Yang (Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences), Guoyuan Liang (Guangdong Provincial Key Laboratory of Robotics and Intelligent System), Xianwen Wang (Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences), Kaiming Wang (Guilin University of Technology), Can Wang (Guangdong Provincial Key Laboratory of Robotics and Intelligent System), Xiaojun Wu (Harbin Institute of Technology at Shenzhen), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The method introduces innovative edge localization techniques that could inspire similar accuracy improvements in audio signal processing tasks, especially in sound event detection.",
+    "field": "Applications-Vision",
+    "background": "Subpixel edge localization aims to identify the precise location of an image edge within a pixel to enhance measurement accuracy in critical applications.",
+    "contribution": "The paper introduces Converted Intensity Summation to solve subpixel edge localization issues, achieving higher accuracy and speed compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous subpixel edge localization methods relied on fitting and interpolation techniques, which often lacked robustness against local interference.",
+        "novelty": "This work utilizes a straightforward integral mapping approach and incorporates Stable Edge Regions to enhance robustness and parameter estimation."
+    },
+    "key_innovation": "Combines converted intensity summation with stable edge regions for robust and efficient subpixel edge localization.",
+    "real_world_impact": "Potential applications in industrial inspection, remote sensing, and medical imaging could enhance accuracy and efficiency in critical measurements.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "subpixel edge localization": "**Subpixel edge localization** refers to the process of determining the exact position of an edge within the pixel grid of an image, improving measurement accuracy beyond standard pixel resolutions.",
+        "stable edge region": "**Stable Edge Region** describes a local area near the edge where intensity patterns exhibit statistical consistency, helping to mitigate interference during edge localization."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "AdverX-Ray: Ensuring X-Ray Integrity Through Frequency-Sensitive Adversarial VAEs",
+    "author": "Francisco Caetano (Eindhoven University of Technology), Christiaan Viviers (Eindhoven University of Technology), Lena Filatova (Philips IGT), Peter H.N. de With (Eindhoven University of Technology), Fons van der Sommen (Eindhoven University of Technology), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on detecting out-of-distribution (OOD) data in medical imaging could inform techniques applicable in audio processing, especially in improving reliability in generative models for sound.",
+    "field": "Applications-Healthcare",
+    "background": "Detecting anomalies in medical X-ray images caused by covariate shifts from different imaging settings, which may compromise diagnosis.",
+    "contribution": "AdverX-Ray introduces an Adversarial Variational Autoencoder framework to effectively assess and ensure the integrity of X-ray images, achieving a high degree of accuracy in OOD detection.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on statistical representations but fail to accurately capture high-frequency noise patterns present in medical images.",
+        "novelty": "This work utilizes a discriminator focused on both generated and reconstructed images to improve detection capabilities for OOD covariate shifts."
+    },
+    "key_innovation": "It combines insights from generative models and adversarial training to create a specialized framework that emphasizes frequency sensitivity in image patches.",
+    "real_world_impact": "The model enhances the reliability and safety of medical imaging systems, potentially improving diagnostic outcomes in healthcare settings.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "covariate shift": "**Covariate shift** refers to changes in the input distribution of a model that can affect its performance, causing it to mispredict outputs when learning underlying patterns from training data.",
+        "Adversarial Variational Autoencoder": "**Adversarial Variational Autoencoder (VAE)** is a type of generative model that combines principles of variational inference and adversarial training to effectively model complex data distributions."
+    },
+    "open_sourcing": "The code and pretrained models are publicly available at https://github.com/caetas/AdverX"
+}

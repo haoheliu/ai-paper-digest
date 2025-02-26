@@ -1,0 +1,19 @@
+{
+    "title": "UNB StepUP: A footStep database for gait analysis and recognition using Underfoot Pressure",
+    "author": "Robyn Larracy (University of New Brunswick), Angkoon Phinyomark (University of New Brunswick), Ala Salehi (University of New Brunswick), Eve MacDonald (University of New Brunswick), Saeed Kazemi (University of New Brunswick), Shikder Shafiul Bashar (University of New Brunswick), Aaron Tabor (University of New Brunswick), ..., Erik Scheme (University of New Brunswick)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The dataset provides rich underfoot pressure data which could be useful for audio event recognition, especially in environments where identifying footstep sounds is relevant. Haohe can leverage this for building models that require understanding of gait-related audio signals.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on building a comprehensive database for gait analysis using underfoot pressure measurements to facilitate research in gait recognition.",
+    "contribution": "This paper introduces the UNB StepUP-P150 dataset to solve the scarcity of publicly available foot pressure data, achieving over 200,000 footsteps from 150 individuals with varied walking conditions.",
+    "technical_comparison": {
+        "prior_work": "Previous gait datasets relied on limited samples from either motion capture or video systems, hampering thorough analysis of gait patterns.",
+        "novelty": "This work improves upon existing datasets by providing extensive data across multiple walking speeds and footwear types, enabling better training for biometric systems."
+    },
+    "key_innovation": "The dataset combines high-resolution pressure sensing technology with a large participant pool and diverse covariate conditions, enhancing the comprehensiveness of gait analysis.",
+    "real_world_impact": "This dataset can significantly advance biometric systems and applications in healthcare, security, and sports science by providing more accurate gait recognition tools.",
+    "limitations": "No explicit limitations mentioned regarding the dataset, though future covariate studies may reveal challenges in data consistency or variability.",
+    "new_terms": {},
+    "open_sourcing": "Dataset is available on Figshare at https://doi.org/10.6084/m9.figshare.28143686."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Make Literature-Based Discovery Great Again through Reproducible Pipelines",
+    "author": "Bojan Cestnik (Jo\u017eef Stefan Institute), Andrej Kastrin (University of Ljubljana), Boshko Koloski (Jo\u017eef Stefan Institute), Nada Lavra\u010d (Jo\u017eef Stefan Institute), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper outlines reproducible workflows and techniques for literature-based discovery, which could enhance hypothesis generation relevant to audio and speech, particularly in cross-domain applications.",
+    "field": "Applications-Language",
+    "background": "Literature-based discovery identifies novel hypotheses by connecting disparate literature sources, useful for drawing insights that could apply to audio and speech research.",
+    "contribution": "This paper introduces reproducible pipelines to enhance literature-based discovery processes, achieving improved transparency in scientific findings.",
+    "technical_comparison": {
+        "prior_work": "Previous literature-based discovery methods often lack reproducibility and consistency in datasets and analysis techniques.",
+        "novelty": "This work significantly improves reproducibility through the integration of Jupyter Notebooks and dockerized environments that standardize workflows."
+    },
+    "key_innovation": "The development of a comprehensive set of Jupyter Notebooks that facilitate reproducible experiments in literature-based discovery, making it accessible to a broader research community.",
+    "real_world_impact": "The paper's tools and methodologies can potentially lead to more robust scientific discoveries across various domains, enhancing interdisciplinary research efforts.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "literature-based discovery": "**Literature-based discovery (LBD)** is a research area focusing on uncovering hidden connections across scientific literature to generate new hypotheses.",
+        "bisociative reasoning": "**Bisociative reasoning** involves drawing parallels between seemingly unrelated concepts to generate novel insights."
+    },
+    "open_sourcing": "The accompanying code and datasets are available on GitHub."
+}

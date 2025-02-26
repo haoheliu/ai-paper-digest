@@ -1,0 +1,21 @@
+{
+    "title": "Mojito: LLM-Aided Motion Instructor with Jitter-Reduced Inertial Tokens",
+    "author": "Ziwei Shan (ShanghaiTech University), Yaoyu He (ShanghaiTech University), Chengfeng Zhao (ShanghaiTech University), Jiashen Du (ShanghaiTech University), Jingyan Zhang (ShanghaiTech University), Qixuan Zhang (ShanghaiTech University), Jingyi Yu (ShanghaiTech University), Lan Xu (ShanghaiTech University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The integration of motion analysis with large language models could enhance the contextual understanding of audio-visual interactions, making it relevant for advancing multimodal generative approaches in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper presents a system that integrates inertial measurement units (IMUs) for real-time motion capture and analysis, facilitating user interactions through large language models.",
+    "contribution": "Mojito introduces a jitter-reduced inertial token representation and integrates it with a large language model for interactive motion analysis, achieving improved motion capture performance under noisy conditions.",
+    "technical_comparison": {
+        "prior_work": "Existing IMU-based methods often struggle with noise and sensor drift, relying heavily on continuous representations.",
+        "novelty": "This work improves by utilizing a discrete latent space for IMU signals, effectively mitigating noise and allowing for more robust motion capture."
+    },
+    "key_innovation": "The unique combination of a jitter-reduced tokenizer and the integration with large language models enables contextual feedback for user motions.",
+    "real_world_impact": "Mojito paves the way for more accessible and personalized fitness coaching and rehabilitation therapies through real-time motion analysis and interaction.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "inertial measurement units (IMUs)": "**Inertial measurement units (IMUs)** are sensors used to capture motion data by measuring accelerations and angular velocity, allowing for the reconstruction of motion in three-dimensional space."
+    },
+    "open_sourcing": "Code and data will be released at [our project page](https://koyui.github.io/mojito/)."
+}

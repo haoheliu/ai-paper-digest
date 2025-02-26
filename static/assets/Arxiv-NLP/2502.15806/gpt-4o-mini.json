@@ -1,0 +1,22 @@
+{
+    "title": "A Mousetrap: Fooling Large Reasoning Models for Jailbreak with Chain of Iterative Chaos",
+    "author": "Yang Yao (Shanghai Artificial Intelligence Laboratory), Xuan Tong (Shanghai Artificial Intelligence Laboratory), Ruofan Wang (Shanghai Artificial Intelligence Laboratory), Yixu Wang (Shanghai Artificial Intelligence Laboratory), Lujundong Li (The Hong Kong University of Science and Technology (Guangzhou)), Liang Liu (The University of Hong Kong), Yan Teng (Shanghai Artificial Intelligence Laboratory), Yingchun Wang (Shanghai Artificial Intelligence Laboratory)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The framework proposed in this paper, Mousetrap, showcases innovative techniques such as the Chaos Machine which could inspire new methodologies in audio-related generative tasks, particularly enhancing complex reasoning needed in text-to-audio applications.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Developing methods to conduct jailbreak attacks on advanced reasoning models using iterative techniques, potentially exposing vulnerabilities in security protocols.",
+    "contribution": "This paper introduces the Mousetrap framework, utilizing a Chaos Machine for generating complex reasoning chains to effectively execute jailbreak attacks on Large Reasoning Models (LRMs), achieving high success rates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on simpler models or had limited approaches against LLMs with reasoning capabilities, relying on singular mappings and direct prompts.",
+        "novelty": "This work enhances attack efficacy by incorporating iterative reasoning processes and a diverse array of chaos mappings, significantly improving the unpredictability and complexity of attacks."
+    },
+    "key_innovation": "The integration of the Chaos Machine allows for the creation of diverse and complex perturbations in input prompts that are tailored to bypass reasoning defenses in LRMs.",
+    "real_world_impact": "Revealing vulnerabilities in Large Reasoning Models can inform developers on enhancing safety measures, thus potentially reducing harmful misuse in AI applications.",
+    "limitations": "The paper does not evaluate specific defense mechanisms against the proposed jailbreak framework.",
+    "new_terms": {
+        "Mousetrap": "A framework designed to exploit reasoning models by embedding chaos mappings in iterative prompts to induce harmful outputs.",
+        "Chaos Machine": "An innovative component generating various transformations of input prompts to confuse and mislead large reasoning models into unsafe responses."
+    },
+    "open_sourcing": ""
+}

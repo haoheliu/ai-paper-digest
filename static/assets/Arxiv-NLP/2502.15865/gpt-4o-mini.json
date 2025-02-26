@@ -1,0 +1,22 @@
+{
+    "title": "Standard Benchmarks Fail \u2013 LLM Agents Present Overlooked Risks for Financial Applications",
+    "author": "Zichen Chen (University of California, Santa Barbara), Jiaao Chen (Georgia Institute of Technology), Jianda Chen (Nanyang Technological University), Misha Sra (University of California, Santa Barbara), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper highlights the vulnerabilities of Large Language Models (LLMs) in high-stakes environments, which can inform designs for more reliable audio and speech processing systems by emphasizing the need for rigorous evaluation metrics.",
+    "field": "Applications-Language",
+    "background": "The study explores the inadequacy of current benchmarks in evaluating LLMs utilized in finance, focusing on safety, reliability, and robustness, and introduces a new evaluation framework.",
+    "contribution": "This paper introduces the Safety-Aware Evaluation Agent (SAEA) to address the oversight in traditional LLM benchmarks, achieving a more comprehensive assessment of safety risks in financial applications.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on task-specific metrics like accuracy and F1 scores that fail to account for critical safety risks in dynamic applications.",
+        "novelty": "This work proposes a three-dimensional framework assessing intrinsic capabilities, workflow reliability, and system robustness to capture hidden vulnerabilities."
+    },
+    "key_innovation": "The introduction of risk-aware evaluation metrics that go beyond conventional task performance metrics to address systemic safety and reliability in LLMs for financial applications.",
+    "real_world_impact": "Emphasizing a risk-aware evaluation paradigm could significantly improve the deployment of LLMs in finance, reducing potential financial losses from erroneous outputs. No immediate real-world impact.",
+    "limitations": "The framework's practicality in real-time financial systems and its dependency on accurate real-time data feeds could pose challenges.",
+    "new_terms": {
+        "hallucination": "**Hallucination** refers to the tendency of LLMs to generate incorrect or fabricated information, which can mislead decision-making.",
+        "temporal awareness": "**Temporal awareness** is the capability of a model to understand and utilize time-sensitive information relevant to rapidly changing environments."
+    },
+    "open_sourcing": ""
+}

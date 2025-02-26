@@ -1,0 +1,21 @@
+{
+    "title": "MULTITAT: Benchmarking Multilingual Table-and-Text Question Answering",
+    "author": "Xuanliang Zhang (Harbin Institute of Technology), Dingzirui Wang (Harbin Institute of Technology), Keyan Xu (Harbin Institute of Technology), Qingfu Zhu (Harbin Institute of Technology), Wanxiang Che (Harbin Institute of Technology), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper develops a multilingual dataset for table-and-text question answering, which could be valuable for improving audio-language models by enabling better understanding and processing of non-English data formats.",
+    "field": "Applications-Speech and Audio",
+    "background": "Multilingual question answering combines information from both tables and textual data in various languages to provide accurate responses.",
+    "contribution": "This paper introduces the MULTITAT dataset to address the challenges faced in multilingual table-and-text question answering, achieving better assessment of model performance across different languages.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets for table-and-text question answering primarily focus on English, limiting their applicability to real-world multilingual contexts.",
+        "novelty": "This work proposes the first multilingual dataset by translating existing English datasets, facilitating evaluations in diverse languages."
+    },
+    "key_innovation": "MULTITAT is unique for its extensive multi-language coverage and the introduction of a new baseline method (OURS) which integrates reasoning in English with non-English linking.",
+    "real_world_impact": "The dataset's multilingual focus can enhance natural language processing applications in diverse domains, particularly in finance and science, expanding the usability of question answering systems worldwide.",
+    "limitations": "The dataset currently includes only single-turn dialogues and does not cover as many languages as could be beneficial.",
+    "new_terms": {
+        "Table-and-Text Question Answering": "**Table-and-Text Question Answering (TATQA)** refers to the task of extracting information from a combination of structured (table) and unstructured (text) data in response to user queries."
+    },
+    "open_sourcing": "Our data is available at github.com/zhxlia/MULTITAT"
+}

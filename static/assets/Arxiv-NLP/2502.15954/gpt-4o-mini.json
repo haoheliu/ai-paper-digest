@@ -1,0 +1,22 @@
+{
+    "title": "MMRAG: Multi-Mode Retrieval-Augmented Generation with Large Language Models for Biomedical In-Context Learning",
+    "author": "Zaifu Zhan (University of Minnesota), Jun Wang (University of Minnesota), Shuang Zhou (University of Minnesota), Jiawen Deng (University of Minnesota), Rui Zhang (University of Minnesota), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed multi-mode retrieval strategies for in-context learning could enhance tasks such as automated text classification or audio captioning where context retrieval is vital.",
+    "field": "Applications-Healthcare",
+    "background": "The paper addresses the optimization of in-context learning in biomedical natural language processing by proposing a framework that selects examples from existing datasets.",
+    "contribution": "This paper introduces the Multi-Mode Retrieval-Augmented Generation (MMRAG) framework to solve example selection challenges in biomedical NLP, achieving significant improvements in model efficiency and accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in biomedical NLP primarily focused on single-mode or random selection of examples, limiting adaptability and relevance.",
+        "novelty": "This work implements four distinct retrieval strategies that enhance the selection process, allowing for improved adaptability to specific NLP tasks."
+    },
+    "key_innovation": "The introduction of four distinct example selection modes (Random, Top, Diversity, Class) allows for contextually enhanced retrieval suited for differing biomedical applications.",
+    "real_world_impact": "By effectively addressing data scarcity in biomedical NLP, this approach enhances healthcare applications, enabling better patient insights and clinical information extraction.",
+    "limitations": "No explicit limitations are mentioned in the paper.",
+    "new_terms": {
+        "in-context learning": "**In-context learning** refers to the ability of models to learn and adapt from a few examples provided in the input prompt without requiring retraining.",
+        "retrieval-augmented generation": "**Retrieval-augmented generation** combines traditional retrieval methods with generative models, enhancing response quality through relevant context retrieval."
+    },
+    "open_sourcing": ""
+}

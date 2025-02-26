@@ -1,0 +1,22 @@
+{
+    "title": "What I Can Understand, I Can Put into Words: Chain-of-Description Prompting for Multi-Modal Large Language Models",
+    "author": "Jiaxin Guo (Huawei Translation Services Center), Daimeng Wei (Huawei Translation Services Center), Zongyao Li (Huawei Translation Services Center), Hengchao Shang (Huawei Translation Services Center), Yuanchang Luo (Huawei Translation Services Center), Hao Yang (Huawei Translation Services Center), ..., Qwen Team (Huawei)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed Chain-of-Description (CoD) Prompting concept could enhance understanding and explanatory power in audio-language models relevant to tasks in speech recognition and audio captioning, which align with my own research focus.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper investigates how Multi-Modal Large Language Models can enhance task performance by generating detailed descriptions of audio and visual inputs before answering relevant questions.",
+    "contribution": "This paper introduces Chain-of-Description Prompting to solve the problem of inadequate context understanding in audio and visual inputs, achieving improved model reasoning and accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for audio and vision comprehension typically lack structured input processing before generating outputs, which can lead to suboptimal responses.",
+        "novelty": "This work synthesizes detailed descriptions of inputs prior to response generation, significantly enhancing the alignment of answers with expected ground truth."
+    },
+    "key_innovation": "CoD Prompting first establishes a thorough understanding of input data, thereby facilitating higher-quality output generation.",
+    "real_world_impact": "The proposed method has practical applications in areas like automated audio transcription and more accurate multimedia analysis tools, potentially improving user experience in AI-assisted communication platforms.",
+    "limitations": "The study does not evaluate every available Multi-Modal Large Language Model, limiting generalizability across all contexts.",
+    "new_terms": {
+        "Multi-Modal Large Language Models": "**Multi-Modal Large Language Models** refer to AI models that can process and understand multiple types of input, including text, audio, and images, enhancing communication and comprehension tasks.",
+        "Chain-of-Description": "**Chain-of-Description** is a prompting strategy that involves generating a detailed understanding of input data before producing outputs, particularly in multi-modal contexts."
+    },
+    "open_sourcing": ""
+}

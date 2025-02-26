@@ -1,0 +1,21 @@
+{
+    "title": "Mind the Gap! Static and Interactive Evaluations of Large Audio Models",
+    "author": "Minzhi Li (National University of Singapore), William Held (Georgia Institute of Technology), Michael J. Ryan (Stanford University), Kunat Pipatanakul (SCB 10X, SCBX Group), Potsawee Manakul (SCB 10X, SCBX Group), Hao Zhu (Stanford University), Diyi Yang (Stanford University), ..., Institute for Infocomm Research (I2R), A*STAR",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper focuses on evaluating Large Audio Models (LAMs), which is directly aligned with my research on audio processing and generative models in speech and music.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research evaluates large audio models' interaction capabilities and user preferences compared to static benchmarks, providing insights into user expectations and model performance.",
+    "contribution": "This paper introduces an interactive evaluation framework for Large Audio Models to identify performance gaps between static benchmarks and user interactions, revealing insights into user preferences.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on static benchmarks for evaluating audio models, which did not consistently reflect user satisfaction.",
+        "novelty": "This work integrates an interactive evaluation method that collects user preference data, highlighting the limitations of current benchmarks in predicting real-world performance."
+    },
+    "key_innovation": "The interactive evaluation approach captures diverse user interactions and preferences, establishing a new standard for assessing audio models beyond static metrics.",
+    "real_world_impact": "The findings can significantly enhance the development of LAMs, making them more user-oriented and effective in real-world applications, thereby improving user experience in voice interactions.",
+    "limitations": "The study focuses only on single-turn interactions and includes biases related to the participant pool and their familiarity with the models.",
+    "new_terms": {
+        "Large Audio Models (LAMs)": "**Large Audio Models (LAMs)** are AI systems designed to process and understand audio inputs directly and efficiently, integrating capabilities from both audio and text understanding."
+    },
+    "open_sourcing": ""
+}

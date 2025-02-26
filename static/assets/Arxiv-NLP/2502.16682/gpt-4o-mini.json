@@ -1,0 +1,22 @@
+{
+    "title": "Automatic Input Rewriting Improves Translation with Large Language Models",
+    "author": "Dayeon Ki (University of Maryland), Marine Carpuat (University of Maryland), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses input rewriting strategies for machine translation, which could enhance audio-related tasks that rely on translated content or user instructions in audio processing applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study examines how rewriting text inputs can facilitate the translation process in Large Language Models, focusing on improving readability, translatability, and meaning preservation.",
+    "contribution": "This paper introduces various input rewriting methods leveraging Large Language Models (LLMs) to enhance machine translation quality, achieving significant improvements in translatability and overall translation output.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on post-editing outputs after translation, often failing to optimize the input for better translation outcomes.",
+        "novelty": "This work emphasizes input rewriting methods that can enhance translation quality by simplifying input text, leading to better understanding and fluency in translated outputs."
+    },
+    "key_innovation": "It highlights the effectiveness of using input simplification as a prime strategy over task-aware methods for improving machine translation results.",
+    "real_world_impact": "The findings suggest that improved input rewriting techniques can lead to more accurate translations, potentially benefiting multilingual communication tools, healthcare translations, and various applications that rely on clear understanding of translated content.",
+    "limitations": "The study is limited to specific models and languages, which may affect the generalizability of the results to broader contexts.",
+    "new_terms": {
+        "MT": "**Machine Translation (MT)** refers to the computational process of automatically translating text from one language to another.",
+        "LLMs": "**Large Language Models (LLMs)** are computational models trained on vast text data to understand and generate human-like text."
+    },
+    "open_sourcing": "The authors have released their code and dataset at https://github.com/dayeonki/rewrite_mt"
+}

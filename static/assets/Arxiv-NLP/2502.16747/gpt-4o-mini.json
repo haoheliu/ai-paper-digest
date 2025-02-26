@@ -1,0 +1,22 @@
+{
+    "title": "SQLong: Enhanced NL2SQL for Longer Contexts with LLMs",
+    "author": "Dai Quoc Nguyen (Oracle Corporation), Cong Duy Vu Hoang (Oracle Corporation), Duy Vu (Oracle Corporation), Gioacchino Tangari (Oracle Corporation), Thanh Tien Vu (Oracle Corporation), Don Dharmasiri (Oracle Corporation), Yuan-Fang Li (Oracle Corporation), Long Duong (Oracle Corporation)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper introduces novel data augmentation techniques for handling large database schemas, which could inspire new approaches in audio/language processing tasks that require complex data manipulation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The task involves translating natural language questions into Structured Query Language (SQL) queries, specifically in scenarios with large database schemas to improve usability and accuracy.",
+    "contribution": "SQLong introduces a data augmentation framework to solve the limitations of existing models in processing long-context input for NL2SQL tasks, achieving significant performance improvements on benchmark datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing models struggle with large schemas due to limited context handling and lack diverse augmented datasets.",
+        "novelty": "SQLong enhances model training by augmenting data through schema variety, allowing for effective management of larger contexts."
+    },
+    "key_innovation": "The method constructs long-context finetuning datasets by sampling and extending existing database schemas, thereby significantly improving LLM performance in NL2SQL tasks.",
+    "real_world_impact": "This work has practical applications in developing more robust database query interfaces, potentially increasing accessibility for non-expert users interacting with complex databases.",
+    "limitations": "No",
+    "new_terms": {
+        "NL2SQL": "**Natural Language to SQL** refers to the process of converting natural language queries into SQL code, enabling users to interact with databases using everyday language.",
+        "data augmentation": "**Data Augmentation** involves creating new training examples by modifying existing data in various ways, enhancing model robustness and performance."
+    },
+    "open_sourcing": "The data will be made publicly available upon paper acceptance."
+}

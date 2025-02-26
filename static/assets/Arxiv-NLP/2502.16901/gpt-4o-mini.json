@@ -1,0 +1,22 @@
+{
+    "title": "*Char*-mander Use mBackdoor! A Study of Cross-lingual Backdoor Attacks in Multilingual LLMs",
+    "author": "Himanshu Beniwal (Indian Institute of Technology Gandhinagar), Sailesh Panda (Indian Institute of Technology Gandhinagar), Mayank Singh (Indian Institute of Technology Gandhinagar), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods and findings on vulnerabilities in multilingual models may inform approaches to enhancing audio and speech applications by improving interpretability and security measures.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Exploring vulnerabilities in multilingual large language models by investigating how malicious backdoors inserted in one language can affect outputs in others.",
+    "contribution": "This paper introduces cross-lingual backdoor attacks (X-BAT) to solve the problem of compromised multilingual systems, achieving significant attack success rates across different languages.",
+    "technical_comparison": {
+        "prior_work": "Previous research on backdoor attacks primarily focused on monolingual settings.",
+        "novelty": "This work expands the scope to multilingual systems, demonstrating that a backdoor can propagate across languages without language-specific retraining."
+    },
+    "key_innovation": "Utilizes rare tokens as triggers that can transfer their malice across different languages due to shared embedding spaces in multilingual models.",
+    "real_world_impact": "Highlights significant security vulnerabilities in multilingual models used in applications like translation and cross-lingual knowledge retrieval, necessitating improved detection and mitigation strategies.",
+    "limitations": "The study was limited to six languages and specific model architectures; thus, its findings may not generalize to all multilingual models or languages.",
+    "new_terms": {
+        "cross-lingual backdoor attacks (X-BAT)": "**Cross-lingual backdoor attacks (X-BAT)** refers to a form of attack where harmful triggers can mislead model outputs in multiple languages, leveraging shared representation spaces.",
+        "shared embedding spaces": "**Shared embedding spaces** are regions in the model's learned representation where semantically similar tokens across different languages are mapped close together."
+    },
+    "open_sourcing": "https://github.com/himanshubeniwal/X-BAT"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Patch Stitching Data Augmentation for Cancer Classification in Pathology Images",
+    "author": "Jiamu Wang (School of Electrical Engineering, Korea University), Chang-Su Kim (School of Electrical Engineering, Korea University), Jin Tae Kwak (School of Electrical Engineering, Korea University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed data augmentation technique for pathology images can inspire novel methods for audio-data scarcity issues, particularly in tasks like audio generation where labeled data is limited.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "The task involves enhancing classification accuracy for colorectal cancer pathology images using synthesized data from existing labeled images to combat data scarcity and imbalance.",
+    "contribution": "This paper introduces the Patch Stitching image Synthesis (PaSS) method to solve the problem of data scarcity in computational pathology, achieving improved classification accuracy in colorectal cancer detection.",
+    "technical_comparison": {
+        "prior_work": "Traditional data augmentation methods are limited to simpler transformations (e.g., flipping, rotation), which may not sufficiently enrich datasets.",
+        "novelty": "This work improves by creating synthetic images from different segments of existing images, thereby providing more diverse training data than conventional methods."
+    },
+    "key_innovation": "Generates new synthetic images by stitching together identical regions from multiple pathology images within the same category.",
+    "real_world_impact": "Improves diagnostic accuracy in colorectal cancer pathology, which can facilitate faster and more reliable cancer detection in clinical settings.",
+    "limitations": "The paper does not explicitly mention limitations but the synthetic data may not fully capture the variability in unseen data from different sources.",
+    "new_terms": {
+        "Patch Stitching image Synthesis (PaSS)": "**Patch Stitching image Synthesis (PaSS)** is a data augmentation technique designed to enhance the training dataset by creating synthetic images from existing ones through segment stitching."
+    },
+    "open_sourcing": ""
+}

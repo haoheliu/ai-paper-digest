@@ -1,0 +1,22 @@
+{
+    "title": "AAD-LLM: Neural Attention-Driven Auditory Scene Understanding",
+    "author": "Xilin Jiang (Columbia University), Sukru Samet Dindar (Columbia University), Vishal Choudhari (Columbia University), Stephan Bickel (Hofstra Northwell School of Medicine), Ashesh Mehta (The Feinstein Institutes for Medical Research), Guy M McKhann (Columbia University), Adeen Flinker (New York University), Daniel Friedman (New York University), Nima Mesgarani (Columbia University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The integration of neural attention decoding into auditory models has significant implications for enhancing audio processing in various applications such as assistive hearing devices and speech recognition, aligning closely with Haohe's focus on audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study addresses the challenge of human selective auditory attention in complex auditory environments by integrating brain signals to improve machine understanding of attended speech.",
+    "contribution": "AAD-LLM introduces a framework for Intention-Informed Auditory Scene Understanding, using brain signals to decode listener attention and adaptively generate audio responses based on the attended speaker.",
+    "technical_comparison": {
+        "prior_work": "Existing auditory models process all sounds equally without regard for listener attention, leading to suboptimal performance in complex settings.",
+        "novelty": "This work improves by integrating neural attention decoding, allowing for responses that prioritize the attended speaker instead of treating all audio inputs uniformly."
+    },
+    "key_innovation": "Combines brain-computer interface technology with large language models to create a dynamic auditory understanding system that aligns machine responses with human perceptual focus.",
+    "real_world_impact": "The approach offers potential advancements in assistive technologies for individuals with hearing impairments, improving communication in noisy environments.",
+    "limitations": "The reliance on invasive intracranial EEG recordings limits the practical application of the current system, and further development is necessary to enhance usability with non-invasive methods.",
+    "new_terms": {
+        "auditory attention decoding": "**Auditory attention decoding** refers to techniques that infer a listener's focus on specific sound sources based on neural activity.",
+        "intracranial electroencephalography (iEEG)": "**Intracranial electroencephalography** is a method that measures electrical activity in the brain using electrodes implanted within the skull, providing high-resolution data."
+    },
+    "open_sourcing": "https://aad-llm.github.io"
+}

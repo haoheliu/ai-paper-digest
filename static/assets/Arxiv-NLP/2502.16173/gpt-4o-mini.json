@@ -1,0 +1,22 @@
+{
+    "title": "Mapping 1,000+ Language Models via the Log-Likelihood Vector",
+    "author": "Momose Oyama (Kyoto University), Hiroaki Yamagiwa (Kyoto University), Yusuke Takase (Kyoto University), Hidetoshi Shimodaira (Kyoto University, RIKEN), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The method of mapping language models based on log-likelihood could help inform feature selection for audio-related natural language processing tasks.",
+    "field": "Applications-Language",
+    "background": "This paper explores a method to compare and visualize various autoregressive language models using log-likelihood scores from a predefined text set.",
+    "contribution": "This paper introduces a model mapping technique based on log-likelihood vectors to solve the challenge of model comparison, achieving a structured representation of over 1,000 models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often required generating text, leading to high computational costs for model comparisons.",
+        "novelty": "This work circumvents the need for text generation by deriving model coordinates from log-likelihood scores directly, allowing for efficient large-scale analysis."
+    },
+    "key_innovation": "The approach employs log-likelihood vectors to represent models geometrically in a probability distribution space, facilitating easier visualization of model relationships.",
+    "real_world_impact": "This study can influence model selection and evaluation strategies in various applications, potentially improving performance in natural language tasks and ensuring better model deployment.",
+    "limitations": "The methodology's effectiveness may be compromised if the text set used is not representative of the models' training data, leading to over-optimistic log-likelihood scores.",
+    "new_terms": {
+        "log-likelihood": "**Log-likelihood** is a statistical measure that quantifies how well a statistical model explains observed data, often used to determine the probability of data given a certain model.",
+        "Kullback-Leibler divergence": "**Kullback-Leibler divergence** is a measure of how one probability distribution diverges from a second expected probability distribution, commonly used in information theory."
+    },
+    "open_sourcing": ""
+}

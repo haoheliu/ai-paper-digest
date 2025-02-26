@@ -1,0 +1,22 @@
+{
+    "title": "Trunk-Branch Contrastive Network with Multi-View Deformable Aggregation for Multi-View Action Recognition",
+    "author": "Yingyuan Yang (Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences), Guoyuan Liang (Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences), Can Wang (Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences), Xiaojun Wu (Harbin Institute of Technology at Shenzhen), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods proposed, particularly the trunk-branch contrastive learning and multi-view deformable aggregation, could inform new approaches in audio-visual integration tasks in Haohe Liu's research, especially in areas involving complex audio recognition from various perspectives.",
+    "field": "Applications-Vision",
+    "background": "Multi-view action recognition involves identifying activities from videos captured from multiple camera angles, which poses challenges due to varying perspectives.",
+    "contribution": "This paper introduces a trunk-branch contrastive network to enhance multi-view action recognition by fusing global features and refining them with detailed view-specific information, achieving state-of-the-art performance on several benchmark datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often focused on integrating features from different views without effectively capturing local details from each view, leading to suboptimal classification accuracy.",
+        "novelty": "This work improves by utilizing a two-block architecture that first aggregates features globally before refining them through contrastive learning, leading to a more comprehensive and informative representation."
+    },
+    "key_innovation": "The introduced trunk-branch architecture efficiently combines global and local feature extraction processes, benefiting from contrastive learning to retain critical details specific to each view.",
+    "real_world_impact": "This method could significantly improve action recognition systems in real-world applications such as surveillance and human-computer interaction, enhancing overall accuracy and robustness.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "trunk-branch architecture": "**Trunk-branch architecture** is a network design that separates feature extraction into two distinct pathways: a trunk for global feature aggregation and a branch for detailed local features, allowing them to complement each other.",
+        "multi-view deformable aggregation": "**Multi-view deformable aggregation** refers to the technique of adaptively fusing features from multiple perspectives while considering spatial-temporal relationships across views for better performance."
+    },
+    "open_sourcing": ""
+}

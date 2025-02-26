@@ -1,0 +1,22 @@
+{
+    "title": "A Hybrid Approach to Information Retrieval and Answer Generation for Regulatory Texts",
+    "author": "Jhon Rayo (Universidad de los Andes), Ra\u00fal de la Rosa (Universidad de los Andes), Mario Garrido (Universidad de los Andes), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on information retrieval techniques and answer generation using regulatory texts aligns with potential applications in audio data compliance tasks where thorough knowledge retrieval is critical.",
+    "field": "Applications-Language",
+    "background": "The study explores effective methods for retrieving relevant information and generating responses from complex regulatory documents to aid in compliance-related tasks.",
+    "contribution": "This paper introduces a hybrid information retrieval system integrating lexical and semantic techniques to enhance information extraction from regulatory texts, achieving significant performance improvements.",
+    "technical_comparison": {
+        "prior_work": "Traditional systems lag in handling nuanced regulatory language, primarily relying on keyword matching.",
+        "novelty": "This work combines BM25 for lexical retrieval with a fine-tuned sentence transformer for semantic understanding, greatly enhancing retrieval accuracy."
+    },
+    "key_innovation": "The integration of both lexical and semantic approaches allows for more nuanced understanding and retrieval of regulatory information.",
+    "real_world_impact": "This system can significantly improve regulatory compliance processes, making it easier for professionals to access accurate information, ultimately promoting adherence to complex regulations.",
+    "limitations": "The entailment score (Es) of generated answers indicates potential areas for improvement in ensuring that outputs are well-aligned with retrieved passages.",
+    "new_terms": {
+        "Lexical retrieval": "**Lexical retrieval** refers to searching for documents that contain specific terms or phrases matching the query, focusing on precise word matches.",
+        "Semantic search": "**Semantic search** involves understanding the meaning and context and finding documents that are conceptually relevant, regardless of exact wording."
+    },
+    "open_sourcing": "The fine-tuned model and methodology are available on Hugging Face Hub and GitHub."
+}

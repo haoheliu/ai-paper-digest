@@ -1,0 +1,22 @@
+{
+    "title": "Code Summarization Beyond Function Level",
+    "author": "Vladimir Makharev (Innopolis University), Vladimir Ivanov (Research Center of the Artificial Intelligence Institute Innopolis University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The exploration of code summarization models at higher levels such as class and repository contexts could provide insights applicable to few-shot learning tasks and data structuring in audio processing.",
+    "field": "Applications-Software Engineering",
+    "background": "Enhancing code summarization involves generating concise descriptions for code snippets at various levels of abstraction, including classes and entire repositories, which is critical for understanding complex codebases.",
+    "contribution": "This paper introduces a framework that utilizes additional context from class and repository levels to improve code summarization quality, achieving enhanced performance metrics such as BLEURT and METEOR.",
+    "technical_comparison": {
+        "prior_work": "Existing models typically focused only on function-level summarization, limiting contextual understanding and performance.",
+        "novelty": "This work improves upon previous methods by integrating class and repository information into the summarization process, combining large language models with few-shot learning techniques."
+    },
+    "key_innovation": "The study uniquely combines retrieval-augmented generation with few-shot learning to adaptively enhance code summarization models.",
+    "real_world_impact": "Improved code summarization techniques could significantly aid developers by making repositories more readable and maintainable, thus fostering better software development practices.",
+    "limitations": "The study notes that repository-level summarization requires substantial computational resources and did not meet initial performance expectations.",
+    "new_terms": {
+        "few-shot learning": "**Few-shot learning** refers to a machine learning paradigm where the model is trained to make predictions based on a limited number of training examples.",
+        "retrieval-augmented generation": "**Retrieval-augmented generation (RAG)** involves enhancing the generation capabilities of models by retrieving relevant information or examples as contextual support during the generation process."
+    },
+    "open_sourcing": "All study details, code, datasets, and evaluation results are published on GitHub [https://github.com/kilimanj4r0/code-summarization-beyond-function-level](https://github.com/kilimanj4r0/code-summarization-beyond-function-level)."
+}

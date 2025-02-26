@@ -1,0 +1,21 @@
+{
+    "title": "Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization",
+    "author": "Keane Ong (National University of Singapore), Rui Mao (Nanyang Technological University), Deeksha Varshney (National University of Singapore), Erik Cambria (Nanyang Technological University), Gianmarco Mengaldo (National University of Singapore)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a novel dataset and methodology for analyzing environmental, social, and governance (ESG) claims, which could inform better audio and speech applications focused on corporate sustainability narratives.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper introduces a method for dissecting sustainability reports to distinguish genuine environmental claims from misleading greenwashing tactics, improving analysis of corporate ESG performance.",
+    "contribution": "This paper introduces A3CG, a dataset and framework that facilitates more transparent ESG analysis, improving the reliability of insights extracted from sustainability reports.",
+    "technical_comparison": {
+        "prior_work": "Existing natural language processing methods for ESG analysis often overlook greenwashing, leading to inaccurate insights based on misleading claims.",
+        "novelty": "This work enhances previous approaches by linking specific sustainability aspects to their corresponding actions and emphasizing robust generalization capabilities across various sustainability categories."
+    },
+    "key_innovation": "The A3CG dataset includes explicit aspect-action pairs, allowing for a more structured approach to evaluate sustainability claims while minimizing the risk of greenwashing.",
+    "real_world_impact": "The findings can significantly aid organizations in crafting clearer sustainability narratives while enabling analysts to more effectively scrutinize corporate ESG communications for authenticity.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "greenwashing": "**Greenwashing** refers to deceptive marketing practices that mislead consumers about the environmental benefits of a product or practice, often leading to an inflated perception of a company's environmental performance."
+    },
+    "open_sourcing": "The dataset and experimental code will be made publicly available after the review process."
+}

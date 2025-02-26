@@ -1,0 +1,21 @@
+{
+    "title": "Improving the Inclusivity of Dutch Speech Recognition by Fine-tuning Whisper on the JASMIN-CGN Corpus",
+    "author": "Golshid Shekoufandeh (University of Amsterdam), Paul Boersma (University of Amsterdam), Antal van den Bosch (Utrecht University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper discusses fine-tuning speech recognition models, which is directly relevant to Haohe Liu's research involving audio, speech, and generative models. The methodologies used here may enhance audio processing models by incorporating diversity in training data.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to improve the accuracy of Automatic Speech Recognition (ASR) systems for underrepresented demographic groups, including children, elderly, and non-native speakers.",
+    "contribution": "This research introduces a fine-tuning methodology for the Whisper model, targeting specific demographic groups to achieve significant reductions in Word Error Rates, especially for native children.",
+    "technical_comparison": {
+        "prior_work": "Previous ASR systems generally showed a performance decline when faced with diverse speaker demographics due to their training on homogeneous datasets.",
+        "novelty": "This work fine-tunes an existing model using a diverse dataset that includes spontaneous speech, improving inclusivity across multiple speaker characteristics."
+    },
+    "key_innovation": "Demonstrates the importance of adapting ASR systems to reflect the complexities of real-world speech from diverse age groups and linguistic backgrounds.",
+    "real_world_impact": "The advancements made can lead to more accessible technology for varied demographic groups, thus enhancing interaction in real-life applications like education and customer service.",
+    "limitations": "The study acknowledges potential biases in training due to unequal representation among demographic groups.",
+    "new_terms": {
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a common metric used to evaluate the performance of ASR systems, calculated based on the proportion of errors in the transcription of spoken language."
+    },
+    "open_sourcing": "The Whisper model is available on Hugging Face."
+}

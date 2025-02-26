@@ -1,0 +1,22 @@
+{
+    "title": "HIPPO: Enhancing the Table Understanding Capability of Large Language Models through Hybrid-Modal Preference Optimization",
+    "author": "Zhenghao Liu (Northeastern University), Haolan Wang (Northeastern University), Xinze Li (Northeastern University), Qiushi Xiong (Northeastern University), Xiaocui Yang (Northeastern University), Yu Gu (Northeastern University), Yukun Yan (Tsinghua University), ..., Maosong Sun (Tsinghua University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a method that combines text and image modalities to enhance reasoning capabilities over tabular data, potentially useful for tasks in audio-language alignment and data structuring for audio-visual integration.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research focuses on improving how Large Language Models understand and reason with tabular data by integrating both text-based and image-based representations.",
+    "contribution": "The paper introduces the Hybrid-Modal Preference Optimization (HIPPO) model to solve the issue of limited reasoning capability in LLMs when only unimodal table representations are used, achieving a 4% performance improvement over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized either text or image representations, limiting the models' understanding of the full semantic structure of tables.",
+        "novelty": "HIPPO enhances the model's performance by combining insights from both modalities and employing a modality-consistent sampling approach for training."
+    },
+    "key_innovation": "The integration of text and image-based table representations in a hybrid framework that optimizes reasoning by addressing modality bias during training.",
+    "real_world_impact": "The framework has potential applications in various fields that utilize tabular data, enhancing the ability of models to perform tasks such as question answering and fact verification more accurately.",
+    "limitations": "The reliance on multi-modal data may require additional computational resources compared to unimodal approaches.",
+    "new_terms": {
+        "hybrid-modal preference optimization": "**Hybrid-modal preference optimization** refers to a training methodology that leverages both text-based and image-based data to improve performance on tasks that require understanding complex structures, such as tables.",
+        "modality bias": "**Modality bias** occurs when a model shows preferential behavior towards one modality over others, which can lead to suboptimal performance in multi-modal tasks."
+    },
+    "open_sourcing": "All data and codes are available at https://github.com/NEUIR/HIPPO"
+}

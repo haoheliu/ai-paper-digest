@@ -1,0 +1,22 @@
+{
+    "title": "Parameter Efficient Merging for Multimodal Large Language Models with Complementary Parameter Adaptation",
+    "author": "Fanhu Zeng (State Key Laboratory of Multimodal Artificial Intelligence Systems), Haiyang Guo (State Key Laboratory of Multimodal Artificial Intelligence Systems), Fei Zhu (Centre for Artificial Intelligence and Robotics), Li Shen (School of Cyber Science and Technology, Sun Yat-sen University), Hao Tang (School of Computer Science, Peking University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses techniques for model merging that could be valuable for improving multimodal AI systems that Haohe Liu might develop, particularly in audio and music generation contexts.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "This paper explores a method for merging multiple expert models into one comprehensive model that can handle various tasks without the need for retraining on new data.",
+    "contribution": "This paper introduces CoPA-Merging, a training-free parameter efficient merging approach, to solve the merging issues in parameter efficient tuning, achieving notable improvements in both seen and unseen tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for model merging primarily focus on full fine-tuning approaches, which can lead to significant performance drops when applied to parameter-efficient models.",
+        "novelty": "This work demonstrates that maintaining directionality of parameters and using complementary scaling techniques effectively address the interference problems encountered in traditional merging methods."
+    },
+    "key_innovation": "The method uniquely combines component pruning with adaptive parameter scaling and cross-task normalization to optimize performance across seen and unseen tasks.",
+    "real_world_impact": "The findings can enhance state-of-the-art performance in multimodal AI applications, potentially leading to more robust and versatile AI systems in real-world tasks such as audio and music generation.",
+    "limitations": "The authors do not explicitly mention any limitations.",
+    "new_terms": {
+        "CoPA-Merging": "**CoPA-Merging** is a model merging technique that integrates various expert models into a unified framework, emphasizing efficiency in adapting pre-trained AI models to new tasks.",
+        "parameter efficient tuning": "**Parameter efficient tuning** refers to methods that adjust only a small subset of a model's parameters to adapt it to specific tasks while keeping the majority frozen."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluation in Low-Resource Settings",
+    "author": "Layba Fiaz (Center for Language Engineering, University of Engineering and Technology), Munief Hassan Tahir (Center for Language Engineering, University of Engineering and Technology), Sana Shams (Center for Language Engineering, University of Engineering and Technology), Sarmad Hussain (Center for Language Engineering, University of Engineering and Technology), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Creating a specialized language model for Urdu, which is a low-resource language, focusing on improving performance through dataset curation and machine translation capabilities.",
+    "contribution": "This paper introduces UrduLLaMA 1.0 to solve the representation problem in Urdu NLP by pretraining and fine-tuning an existing multilingual model, achieving significant improvements in translation quality.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled with inadequate data representation and poor translation quality due to the lack of tailored training.",
+        "novelty": "This work offers a framework that features continual pretraining and specific task-focused fine-tuning, significantly enhancing Urdu's language model capabilities."
+    },
+    "key_innovation": "Combines a large dataset with targeted fine-tuning strategies to optimize the performance of a language model specifically for Urdu.",
+    "real_world_impact": "Enhances the usability of LLMs for Urdu speakers and has potential applications in enhancing translation services, educational tools, and cultural content accessibility.",
+    "limitations": "The model is trained on a limited portion of available data, leading to knowledge gaps in Urdu cultural and literary nuances.",
+    "new_terms": {
+        "Low-Rank Adaptation (LoRA)": "**Low-Rank Adaptation (LoRA)** is a technique that enables efficient adaptation of pre-trained models by introducing low-rank updates to the existing weight matrices, reducing the computational cost and enhancing training efficiency."
+    },
+    "open_sourcing": ""
+}

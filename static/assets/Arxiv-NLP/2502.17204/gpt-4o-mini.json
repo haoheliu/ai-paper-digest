@@ -1,0 +1,22 @@
+{
+    "title": "Order Matters: Investigate the Position Bias in Multi-constraint Instruction Following",
+    "author": "Jie Zeng (Fudan University), Qianyu He (Fudan University), Qingyu Ren (Fudan University), Jiaqing Liang (Fudan University), Yanghua Xiao (Fudan University), Weikang Zhou (Ant Group), Zeye Sun (Ant Group), Fei Yu (Ant Group)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper investigates the position bias in multi-constraint instructions, which could be relevant for improving instruction-following capabilities in audio-related tasks or systems that need structured outputs, such as text-to-audio generation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The study examines how the order of multiple constraints impacts the performance of language models when generating instructions, which can be crucial for tasks requiring specific output structures.",
+    "contribution": "This paper introduces the Constraint Difficulty Distribution Index (CDDI) to quantitatively measure the disparity of constraint orders, achieving better understanding and performance in multi-constraint instruction following.",
+    "technical_comparison": {
+        "prior_work": "Previous studies have qualitatively analyzed constraint orders in language models without a systematic or quantitative approach to difficulty variance.",
+        "novelty": "This work quantifies constraint difficulty and integrates it into model performance evaluations, showing that language models perform better with a 'hard-to-easy' constraint order."
+    },
+    "key_innovation": "The introduction of CDDI provides a new metric for evaluating the impact of constraint orders on language model responses, enhancing interpretability in model performance.",
+    "real_world_impact": "This research can improve the reliability of language models in real-world applications involving complex instructions, such as audio synthesis and automated content creation.",
+    "limitations": "The constraints studied are primarily parallel, ignoring the impact of sequential dependency between constraints, which warrants further exploration.",
+    "new_terms": {
+        "Constraint Difficulty Distribution Index (CDDI)": "**Constraint Difficulty Distribution Index (CDDI)** is a novel metric introduced to measure the effective difficulty distribution of constraints in multi-constraint instructions for better performance evaluation.",
+        "position bias": "**Position bias** refers to the performance disparity exhibited by models based on the order of presented information or constraints."
+    },
+    "open_sourcing": "Code and dataset are publicly available at https://github.com/meowpass/PBIF"
+}

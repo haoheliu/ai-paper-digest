@@ -1,0 +1,22 @@
+{
+    "title": "NeurFlow: Interpreting Neural Networks Through Neuron Groups and Functional Interactions",
+    "author": "Tue M. Cao (Hanoi University of Science and Technology), Nhat X. Hoang (University of Florida), Hieu H. Pham (VinUniversity), Phi Le Nguyen (Hanoi University of Science and Technology), My T. Thai (University of Florida), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The framework's focus on interpreting neural networks aligns with improving the transparency and reliability of deep learning models, which can be beneficial for enhancing audio-related tasks like speech and music processing through better model understanding.",
+    "field": "Social and Economic Aspects of ML-Interpretability",
+    "background": "Understanding the internal mechanisms of deep neural networks to enhance their interpretability and effectiveness by analyzing neuron groups and their connections.",
+    "contribution": "NeurFlow introduces a framework that analyzes groups of neurons rather than individuals to uncover their functional interactions, achieving improved interpretability in neural networks.",
+    "technical_comparison": {
+        "prior_work": "Prior methods focus heavily on individual neuron interpretations and suffer from scalability and ambiguity due to polysemantic neurons.",
+        "novelty": "This work enhances interpretability by clustering neurons into groups, simplifying analysis across layers and emphasizing functional interactions."
+    },
+    "key_innovation": "The approach automates the identification and interaction analysis of neuron groups, allowing comprehensive understanding without predefined concept labels.",
+    "real_world_impact": "Framework can assist in areas like image debugging and concept labeling, ultimately leading to more interpretable models in AI applications relevant to various domains, including audio processing.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "core concept neurons": "**Core concept neurons** refer to a specific subset of neurons that play a significant role in defining concepts within a neural network.",
+        "hypertree": "**Hypertree** is a hierarchical structure where child-parent connections can have multiple edges representing different interactions."
+    },
+    "open_sourcing": "Source code: https://github.com/tue147/neurflow"
+}

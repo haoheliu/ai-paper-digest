@@ -1,0 +1,22 @@
+{
+    "title": "Experimental validation of UAV search and detection system in real wilderness environment",
+    "author": "Stella Dumen\u010di\u0107a (Faculty of Engineering, University of Rijeka), Luka Lan\u010daa (Faculty of Engineering, University of Rijeka), Karlo Jakaca (Faculty of Engineering, University of Rijeka), Stefan Ivi\u0107a (Faculty of Engineering, University of Rijeka)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents advancements in unmanned aerial vehicles (UAV) for search and rescue operations, which could inform methods for audio analysis in search scenarios, particularly in contextualizing audio cues related to rescue efforts.",
+    "field": "Applications-Vision",
+    "background": "The paper explores the efficacy of UAVs to autonomously search for individuals in challenging terrains using computer vision and motion control strategies, providing a detailed validation of a framework aimed at improving search and rescue missions.",
+    "contribution": "This paper introduces a probabilistic search model and a UAV motion control system to improve search effectiveness in Search and Rescue missions, achieving enhanced detection capabilities in complex environments.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in SAR lacked robust, tailored datasets and often did not integrate effective computer vision models with UAV motion control.",
+        "novelty": "This work combines the Heat equation-driven area coverage (HEDAC) control method with machine learning based object detection, specifically using the YOLO model for real-time applications in an integrated manner."
+    },
+    "key_innovation": "The integration of a probabilistic search framework with UAV motion algorithms using real-world experimental data strengthens the overall search strategy for SAR scenarios.",
+    "real_world_impact": "The findings could lead to improved efficiency in SAR missions, providing new methodologies for real-time detection and location of individuals in wilderness environments, with potential applications in emergency response.",
+    "limitations": "The study's findings may be limited by environmental variances, as the experiments were conducted in specific terrains which might not cover all SAR scenarios.",
+    "new_terms": {
+        "HEDAC": "**Heat equation-driven area coverage** is an ergodic control method that directs UAV search efforts based on a probabilistic distribution of likely target locations.",
+        "YOLO": "**You Only Look Once** is a real-time object detection system, which is efficient in detecting and classifying multiple objects in an image in one pass."
+    },
+    "open_sourcing": ""
+}

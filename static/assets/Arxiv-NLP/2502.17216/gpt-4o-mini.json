@@ -1,0 +1,21 @@
+{
+    "title": "Making LLMs Reason? The Intermediate Language Problem in Neurosymbolic Approaches",
+    "author": "Alexander G. Beiser (TUWien, Vienna, Austria), David Penz (TUWien, Vienna, Austria), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores the neurosymbolic integration of Large Language Models (LLMs) with symbolic reasoners, which could help improve logical reasoning in audio-related tasks, such as understanding and processing audio instructions.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The task involves using LLMs to translate natural language logical reasoning problems into formal representations, which are then solved by symbolic reasoning systems.",
+    "contribution": "This paper introduces the intermediate language problem, highlighting how the choice of formal representation can significantly affect the performance of LLMs in logical reasoning tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous neurosymbolic approaches, like Logic-LM, did not sufficiently address the impact of intermediate language choice on LLM performance.",
+        "novelty": "This work empirically demonstrates that different formal languages can lead to significant differences in accuracy and execution rates when solving logical reasoning problems."
+    },
+    "key_innovation": "The introduction of context-aware intermediate languages that enhance the translation capability of LLMs to improve logical reasoning performance.",
+    "real_world_impact": "Improving LLMs' reasoning capabilities can have practical applications in areas such as automated reasoning systems, legal analysis, and any domain requiring logical inference.",
+    "limitations": "The study is limited to experiments with a specific LLM variant and may not generalize across all language models or reasoning tasks.",
+    "new_terms": {
+        "intermediate language problem": "**Intermediate language problem** refers to the challenge of selecting a suitable formal representation that facilitates effective communication between LLMs and symbolic reasoners, impacting the overall performance in logical reasoning tasks."
+    },
+    "open_sourcing": ""
+}

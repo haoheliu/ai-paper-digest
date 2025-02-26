@@ -1,0 +1,22 @@
+{
+    "title": "HVIS: A Human-like Vision and Inference System for Human Motion Prediction",
+    "author": "Kedi Lyu (Jilin University), Haipeng Chen (Jilin University), Zhenguang Liu (Zhejiang University), Yifang Yin (A*STAR), Yukang Lin (Tsinghua Shenzhen International Graduate School), Yingying Jiao (Jilin University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper addresses human motion prediction using concepts that can be translated to the audio domain, particularly in the integration of temporal and spatial information which is critical for audio processing tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Human motion prediction involves forecasting future positions of human joints based on previously observed joint movements.",
+    "contribution": "This paper introduces the Human-like Vision and Inference System (HVIS), which simulates human observation to enhance the prediction of future human motions, achieving state-of-the-art results on benchmark datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with high dimensionality and error accumulation in recurrent networks.",
+        "novelty": "This work improves by employing a two-module system (human-like vision and motion inference) that separates spatio-temporal processing and incorporates adversarial learning to enhance motion prediction accuracy."
+    },
+    "key_innovation": "Utilizes a novel structure that imitates the human visual system for motion encoding, leading to better understanding of motion dynamics.",
+    "real_world_impact": "This framework could enhance applications in robotics, animation, and augmented reality by providing accurate human motion predictions.",
+    "limitations": "No",
+    "new_terms": {
+        "HVIS": "**Human-like Vision and Inference System** refers to a dual-component system developed to emulate human visual and cognitive processes for motion prediction.",
+        "adversarial learning": "**Adversarial learning** involves training models using adversarial techniques to improve the robustness of predictions."
+    },
+    "open_sourcing": ""
+}

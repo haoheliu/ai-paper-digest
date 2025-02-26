@@ -1,0 +1,22 @@
+{
+    "title": "Sentiment Analysis of Texts from Social Networks Based on Machine Learning Methods for Monitoring Public Sentiment",
+    "author": "Tolebay Arsen Nurlanuly (Astana IT University), A.K. Zhumadillaeva (Astana IT University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed methods for sentiment analysis, especially using transformer-based models, can be beneficial in audio applications where sentiment detection is important, such as in analyzing user feedback on audio content.",
+    "field": "Applications-Language",
+    "background": "Analyzing sentiment in social media text to gauge public mood in real-time, addressing the challenges posed by informal language and dynamic content.",
+    "contribution": "This paper introduces a combined machine learning framework using traditional methods alongside transformers to enhance real-time sentiment analysis accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on lexicon-based or basic supervised learning classifiers, which struggled with subtleties like sarcasm and context.",
+        "novelty": "This work improves by integrating advanced transformer models (DistilBERT, RoBERTa) which offer enhanced contextual understanding and reduce misclassifications."
+    },
+    "key_innovation": "Combines traditional machine learning models with transformer architectures for a more nuanced sentiment analysis approach.",
+    "real_world_impact": "The findings have implications for real-time sentiment monitoring by corporations and governments, potentially influencing policymaking and marketing strategies. This can improve engagement and response strategies based on public sentiment trends.",
+    "limitations": "The performance can be hampered by computational overhead and data quality issues, particularly with domain-specific jargon.",
+    "new_terms": {
+        "transformer-based architectures": "**Transformer-based architectures** are deep learning models that leverage self-attention mechanisms to better understand the context in language processing tasks, providing enhancements over traditional recurrent neural networks.",
+        "TF-IDF": "**Term Frequency-Inverse Document Frequency (TF-IDF)** is a statistical measure used to evaluate the importance of a word in a document relative to a collection or corpus, helping to identify salient features for text analysis."
+    },
+    "open_sourcing": ""
+}

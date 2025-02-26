@@ -1,0 +1,22 @@
+{
+    "title": "PPC-GPT: Federated Task-Specific Compression of Large Language Models via Pruning and Chain-of-Thought Distillation",
+    "author": "Tao Fan (The Hong Kong University of Science and Technology), Guoqiang Ma (WeBank Co., Ltd), Yuanfeng Song (WeBank Co., Ltd), Lixin Fan (WeBank Co., Ltd), Kai Chen (The Hong Kong University of Science and Technology), Qiang Yang (The Hong Kong University of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed methods for data privacy and model compression could have applications in audio processing tasks, where safeguarding sensitive data is paramount, similar to handling sensitive audio data in fine-tuning models.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Compressing large pre-trained language models into smaller task-specific models while preserving privacy through a federated learning framework.",
+    "contribution": "The paper introduces the PPC-GPT framework to solve the challenge of compressing large language models into task-specific smaller models, achieving competitive performance while ensuring data privacy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often required direct access to local private data for training, resulting in privacy concerns.",
+        "novelty": "PPC-GPT appraises privacy-preserving mechanisms by using synthetic data generation instead of direct training on sensitive datasets."
+    },
+    "key_innovation": "Uses a federated learning approach with differential privacy to securely generate synthetic data for training, combining model pruning with Chain-of-Thought distillation for enhanced performance.",
+    "real_world_impact": "Potentially transforms how organizations deploy language models by enabling them to leverage powerful pre-trained models without compromising sensitive data, thus widening access to AI tools.",
+    "limitations": "The paper acknowledges that excessive pruning may lead to performance degradation and is contingent on the quality of the underlying large language models.",
+    "new_terms": {
+        "Chain-of-Thought (COT) distillation": "**Chain-of-Thought distillation** refers to a method where a model learns to generate reasoning steps alongside answers to improve understanding and accuracy.",
+        "differential privacy": "**Differential privacy** is a formal framework that ensures the privacy of individual data points in a dataset, enabling statistical analysis while providing strong guarantees against unauthorized data exposure."
+    },
+    "open_sourcing": ""
+}

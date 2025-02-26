@@ -1,0 +1,21 @@
+{
+    "title": "Towards Hierarchical Rectified Flow",
+    "author": "Yichi Zhang (University of Illinois Urbana-Champaign), Yici Yan (University of Illinois Urbana-Champaign), Alex Schwing (University of Illinois Urbana-Champaign), Zhizhen Zhao (University of Illinois Urbana-Champaign), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The hierarchical nature of the proposed model could be applied to improve generative modeling techniques in audio, particularly in synthesizing complex audio signals from simpler distributions.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Hierarchical rectified flow aims to model multimodal data distributions through a series of ordinary differential equations, enabling more efficient sampling from complex distributions.",
+    "contribution": "This paper introduces a hierarchical rectified flow to solve the problem of modeling multimodal distributions, achieving straight integration paths during data generation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods such as classic rectified flow capture only the expected velocity, leading to unnecessarily curved paths.",
+        "novelty": "This work models the full velocity distribution and allows for intersecting paths, leading to less curvy integration trajectories and fewer neural function evaluations."
+    },
+    "key_innovation": "The method allows for modeling velocity distributions in a hierarchical manner, enabling more accurate generation of data samples compared to existing approaches that only estimate expected velocities.",
+    "real_world_impact": "This approach could significantly enhance the efficiency and quality of generative models used in various applications, including audio and image synthesis, while minimizing computational costs.",
+    "limitations": "The authors mention reliance on the Euler method for sampling, indicating potential room for improvement in numerical methods.",
+    "new_terms": {
+        "hierarchical rectified flow": "**Hierarchical rectified flow** is a generative model that uses multiple linked ordinary differential equations to capture complex data distributions more effectively than traditional methods."
+    },
+    "open_sourcing": "Code is available at: https://riccizz.github.io/HRF/"
+}

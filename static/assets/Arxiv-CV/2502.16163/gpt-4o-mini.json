@@ -1,0 +1,22 @@
+{
+    "title": "Large Language Model for Lossless Image Compression with Visual Prompts",
+    "author": "Junhao Du (Shanghai Jiao Tong University), Chuqin Zhou (Shanghai Jiao Tong University), Ning Cao (China Telecommunications Corporation), Gang Chen (China Telecommunications Corporation), Yunuo Chen (Shanghai Jiao Tong University), Zhengxue Cheng (Shanghai Jiao Tong University), Li Song (Shanghai Jiao Tong University), Guo Lu (Shanghai Jiao Tong University), ..., Wenjun Zhang (Shanghai Jiao Tong University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper introduces a novel approach of using Large Language Models (LLMs) integrated with visual prompts for image compression, which may inspire innovative approaches in audio-visual data processing.",
+    "field": "Applications-Vision",
+    "background": "The study of lossless image compression aimed at reducing image file size without loss of quality, utilizing novel methods involving Large Language Models to enhance traditional compression techniques.",
+    "contribution": "This paper introduces the combination of lossy and lossless compression methods using Large Language Models with visual prompts to effectively predict residual pixel distributions, achieving state-of-the-art compression performance compared to existing codecs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on traditional lossless codecs or directly used pixel values without leveraging the contextual semantic understanding of LLMs.",
+        "novelty": "This work enhances the compression process by using visual embeddings and generating compressed representations from lossy reconstructions, while also leveraging the autoregressive capabilities of LLMs."
+    },
+    "key_innovation": "The integration of visual prompts from lossy image reconstructions to guide Large Language Models in predicting residual distributions enhances compression efficiency in novel ways.",
+    "real_world_impact": "This research could significantly improve the efficiency of image data transmission and storage in various applications, including medical imaging and high-resolution photography.",
+    "limitations": "The computational complexity of decoding with LLMs remains a concern, as it is slower than traditional codecs.",
+    "new_terms": {
+        "Gaussian Mixture Model (GMM)": "**Gaussian Mixture Model (GMM)** is a probabilistic model that assumes all data points are generated from a mixture of several Gaussian distributions with unknown parameters.",
+        "autocoding": "**Autoregressive modeling** is a framework where the output of a model is dependent on its previous outputs, commonly used in sequence generation tasks."
+    },
+    "open_sourcing": ""
+}

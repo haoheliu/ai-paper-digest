@@ -1,0 +1,22 @@
+{
+    "title": "Imprinto: Enhancing Infrared Inkjet Watermarking for Human and Machine Perception",
+    "author": "Martin Feick (DFKI & Saarland University), Alexandru Luchianov (MIT CSAIL), Xuxin Tang (Virginia Tech & MIT CSAIL), Roderick Wei Xiao Huang (MIT CSAIL), Alexa Siu (Adobe Research), Raul Garcia-Martin (Universidad Carlos III de Madrid & MIT CSAIL), Chang Xiao (Adobe Research), Mustafa Doga Dogan (Adobe Research), ...",
+    "quality": 8,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Applications-Creative AI",
+    "background": "The paper presents a new method for embedding invisible digital watermarks in printed documents that are only detectable with infrared cameras, merging physical documents with augmented reality experiences.",
+    "contribution": "Imprinto introduces an infrared inkjet watermarking technique to solve the problem of embedding hidden digital information in documents, achieving high data capacity while remaining invisible to the human eye.",
+    "technical_comparison": {
+        "prior_work": "Existing watermarking methods often compromise the visual aesthetics of printed documents or require complex fabrication techniques.",
+        "novelty": "This work leverages off-the-shelf infrared inks and conventional inkjet printing to create seamless invisible watermarks without impacting document design."
+    },
+    "key_innovation": "The ability to utilize the entire document surface, including text and images, for embedding IR content while maintaining invisibility and high information capacity.",
+    "real_world_impact": "This technique facilitates new applications in fields such as education, security, and art by allowing for interactive, augmented experiences without cluttering document design. No immediate real-world impact.",
+    "limitations": "The experiments conducted focused on specific background colors and lighting conditions, which may limit generalizability.",
+    "new_terms": {
+        "infrared inkjet watermarking": "**Infrared inkjet watermarking** refers to a technique of embedding digital content into printed materials using inks that absorb infrared light, making the markings invisible to the naked eye but detectable with infrared sensors.",
+        "psychophysical experiment": "**Psychophysical experiment** is a method used to evaluate human perception and detection thresholds regarding sensory stimuli, aiding in understanding visibility limits."
+    },
+    "open_sourcing": "The machine learning pipeline used for binarizing captured infrared watermarks will be made open-source."
+}

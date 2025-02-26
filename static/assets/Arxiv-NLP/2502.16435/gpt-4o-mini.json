@@ -1,0 +1,22 @@
+{
+    "title": "VISFACTOR: Benchmarking Fundamental Visual Cognition in Multimodal Large Language Models",
+    "author": "Jen-Tse Huang (The Chinese University of Hong Kong), Dasen Dai (The Chinese University of Hong Kong), Jen-Yuan Huang (Peking University), Youliang Yuan (The Chinese University of Hong Kong, Shenzhen), Xiaoyuan Liu (The Chinese University of Hong Kong, Shenzhen), Wenxuan Wang (The Chinese University of Hong Kong), Wenxiang Jiao (Tencent AI Lab), Zhaopeng Tu (Tencent AI Lab)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The method's focus on visual cognition could be applicable in improving audio-visual integration in models, which is relevant to generative audio tasks in Haohe Liu's research.",
+    "field": "Applications-Vision",
+    "background": "This study aims to systematically evaluate the fundamental visual cognitive abilities of Multimodal Large Language Models (MLLMs) through a benchmark derived from established cognitive tests.",
+    "contribution": "VISFACTOR introduces a novel benchmark for evaluating fundamental visual cognition in MLLMs, achieving a systematic assessment of visual reasoning capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacking rigorous evaluation frameworks often focus on broad downstream applications without addressing core visual cognition.",
+        "novelty": "This work implements a digitized version of the Factor-Referenced Cognitive Test (FRCT) to assess visual cognition in a structured manner."
+    },
+    "key_innovation": "It digitizes vision-related tests from cognitive science, offering automated assessments with controlled visual perturbations to evaluate model robustness.",
+    "real_world_impact": "The findings suggest significant gaps in MLLMs' visual cognition abilities, highlighting areas for potential development that may improve future model performance.",
+    "limitations": "No specific limitations were detailed; however, the study indicates that current models perform close to random guessing, suggesting foundational weaknesses.",
+    "new_terms": {
+        "Multimodal Large Language Models": "**Multimodal Large Language Models (MLLMs)** are AI models that process and generate text while also understanding non-text modalities like images and sounds.",
+        "Factor-Referenced Cognitive Test": "**Factor-Referenced Cognitive Test (FRCT)** is a psychometric assessment designed to evaluate distinct cognitive faculties, including visual recognition and reasoning."
+    },
+    "open_sourcing": "The VISFACTOR benchmark is publicly available at https://github.com/CUHK-ARISE/VisFactor"
+}

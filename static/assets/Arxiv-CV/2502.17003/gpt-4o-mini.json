@@ -1,0 +1,21 @@
+{
+    "title": "Improving the Transferability of Adversarial Examples by Inverse Knowledge Distillation",
+    "author": "Wenyuan Wu (College of Computer Science, Sichuan University), Zheng Liu (Sichuan Newstrong UHD Video Technology Company Ltd.), Yong Chen (Institute of Optics and Electronics, Chinese Academy of Sciences), Chao Su (College of Computer Science, Sichuan University), Dezhong Peng (College of Computer Science, Sichuan University), Xu Wang (College of Computer Science, Sichuan University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The method of enhancing adversarial transferability could be applicable in audio adversarial attacks, which is relevant for audio processing and robustness tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The study focuses on improving the robustness of neural networks against adversarial attacks by enhancing the transferability of adversarial examples across different models.",
+    "contribution": "This paper introduces the Inverse Knowledge Distillation (IKD) method to solve the overfitting issue in adversarial transferability, achieving improved success rates in generating robust adversarial examples.",
+    "technical_comparison": {
+        "prior_work": "Previous methods predominantly relied on gradient-based optimization to generate adversarial examples but often overfit specific surrogate models, leading to poor performance against target models.",
+        "novelty": "This work incorporates a distillation-inspired approach, promoting gradient diversity in adversarial sample generation, preventing overfitting, and enhancing transferability."
+    },
+    "key_innovation": "Utilizes a novel loss function that combines hard and soft label losses to diversify gradients during adversarial example generation.",
+    "real_world_impact": "By improving the effectiveness of adversarial attacks, the findings could inform the development of more secure neural network models, potentially impacting security protocols across applications such as autonomous driving and facial recognition.",
+    "limitations": "The paper acknowledges that while IKD improves transferability, there may still be instances where its performance slightly lags behind some existing methods.",
+    "new_terms": {
+        "Inverse Knowledge Distillation (IKD)": "**Inverse Knowledge Distillation** is a proposed method that enhances adversarial transferability by modifying the loss function to focus not only on the primary classification task but also the divergence between the output distributions of benign and adversarial examples."
+    },
+    "open_sourcing": ""
+}

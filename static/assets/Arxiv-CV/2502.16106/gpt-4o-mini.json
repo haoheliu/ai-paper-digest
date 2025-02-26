@@ -1,0 +1,22 @@
+{
+    "title": "AnxietyFaceTrack: A Smartphone-Based Non-Intrusive Approach for Detecting Social Anxiety Using Facial Features",
+    "author": "Nilesh Kumar Sahu (Author Institute), Snehil Gupta (Author Institute), Haroon R. Lone (Author Institute), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The study presents a method for continuous anxiety monitoring using facial features from videos, which could inspire similar techniques in audio-related applications, particularly in enhancing emotional recognition systems in audio signals.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting social anxiety through facial videos in real-world social settings to allow for unobtrusive mental health assessment.",
+    "contribution": "The paper introduces AnxietyFaceTrack as a tool for real-time anxiety detection using facial video analysis, achieving up to 91% accuracy in classifying anxiety levels in participants.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on structured tasks and high-end equipment, limiting their applicability in non-controlled environments.",
+        "novelty": "This work utilizes low-cost smartphones to collect facial data in natural settings, highlighting the importance of accessibility and ecological validity."
+    },
+    "key_innovation": "AnxietyFaceTrack leverages smartphone technology for real-time video analysis of facial features to detect social anxiety reliably.",
+    "real_world_impact": "This approach could serve as a practical tool for continuous mental health monitoring, enabling early interventions for individuals exhibiting signs of anxiety in everyday situations.",
+    "limitations": "The study is based on a relatively small participant dataset and records in a controlled environment, which might limit generalizability.",
+    "new_terms": {
+        "Social Anxiety Disorder": "**Social Anxiety Disorder** is a mental health condition characterized by a significant fear of social interactions, leading to distress and avoidance behaviors.",
+        "Random Forest Classifier": "**Random Forest Classifier** is an ensemble learning method that constructs multiple decision trees during training and outputs the mode of their predictions."
+    },
+    "open_sourcing": ""
+}

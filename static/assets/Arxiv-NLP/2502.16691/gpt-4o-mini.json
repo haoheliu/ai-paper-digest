@@ -1,0 +1,22 @@
+{
+    "title": "Toward Responsible Federated Large Language Models: Leveraging a Safety Filter and Constitutional AI",
+    "author": "Eunchung Noh (Samsung Electronics), Jeonghun Baek (The University of Tokyo), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses methods for enhancing the safety of large language models, which can be beneficial in contexts like audio captioning and text-to-audio generation by ensuring the generated outputs are safe and non-harmful.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Federated learning allows independent clients to collaboratively train a shared model while keeping their data decentralized and private, but poses risks with harmful content potentially degrading model safety.",
+    "contribution": "This paper introduces the application of a safety filter and constitutional AI to improve safety in federated large language models, achieving over a 20% enhancement in safety metrics.",
+    "technical_comparison": {
+        "prior_work": "Prior methods lack robust mechanisms to filter out harmful responses during federated training, potentially leading to unsafe models.",
+        "novelty": "This work integrates two established responsible AI methods into the federated framework, significantly enhancing the safety of the output without severely increasing computational costs."
+    },
+    "key_innovation": "Combines a safety filter and constitutional AI with federated learning to proactively mitigate the risks of harmful content in language model responses.",
+    "real_world_impact": "Enhancing safety in federated large language models has significant implications for applications in customer service, automated content generation, and any sector relying on AI-driven communications.",
+    "limitations": "The computational overhead of constitutional AI in every federated learning round is a concern, although a cost-efficient approach has been proposed.",
+    "new_terms": {
+        "federated learning": "**Federated learning** is a machine learning technique that allows decentralized training of models by enabling clients to learn from their data without sharing it directly.",
+        "constitutional AI": "**Constitutional AI** involves guiding AI behavior by a set of defined principles or rules, enabling self-critique and adherence to ethical standards."
+    },
+    "open_sourcing": ""
+}

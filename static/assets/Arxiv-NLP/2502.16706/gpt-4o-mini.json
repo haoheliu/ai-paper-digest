@@ -1,0 +1,22 @@
+{
+    "title": "DISC: Dynamic Decomposition Improves LLM Inference Scaling",
+    "author": "Jonathan Light (Rensselaer Polytechnic Institute), Wei Cheng (NEC Laboratories America), Wu Yue (Princeton University), Masafumi Oyamada (NEC Corporation), Mengdi Wang (Princeton University), Santiago Paternain (Rensselaer Polytechnic Institute), Haifeng Chen (NEC Laboratories America), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods proposed in this paper for dynamic decomposition can improve the efficiency of inference scaling in large language models, which could be beneficial for optimizing tasks like text-to-audio generation and audio-caption alignment.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Improving the efficiency of inference in large language models by adaptively breaking down problems into smaller steps based on their complexity and required computational resources.",
+    "contribution": "This paper introduces DISC, a method for dynamic problem decomposition which enhances inference efficiency by focusing computational resources on the most challenging parts of a task.",
+    "technical_comparison": {
+        "prior_work": "Previous methods utilize fixed or manual heuristics for decomposition, leading to inefficiencies when handling complex tasks.",
+        "novelty": "This work improves by implementing a recursive, adaptive partitioning strategy that identifies and focuses computational effort on more difficult steps during inference."
+    },
+    "key_innovation": "The ability to dynamically adjust the size of problem decomposition during inference allows for more effective use of computational resources.",
+    "real_world_impact": "This framework can significantly enhance the performance of large language models in various applications, including coding and reasoning tasks, making them more efficient and responsive in real-world AI scenarios.",
+    "limitations": "No",
+    "new_terms": {
+        "dynamic decomposition": "**Dynamic decomposition** refers to the technique of adaptively partitioning a task into manageable pieces based on the complexity and difficulty of each piece during computation.",
+        "autoregressive": "**Autoregressive** models are designed to predict future values based on past values in a sequence, often used in natural language processing and time series prediction."
+    },
+    "open_sourcing": ""
+}

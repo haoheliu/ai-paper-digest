@@ -1,0 +1,21 @@
+{
+    "title": "MemeIntel: Explainable Detection of Propagandistic and Hateful Memes",
+    "author": "Mohamed Bayan Kmainasi (Qatar University), Abul Hasnat (Blackbird.AI), Md Arid Hasan (University of New Brunswick), Ali Ezzat Shahroor (Qatar Computing Research Institute), Firoj Alam (Qatar Computing Research Institute), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methodologies discussed in the paper, particularly the use of Vision-Language Models (VLMs) and explanation generation techniques, could inform better approaches to audio-related tasks by integrating multimodal content understanding.",
+    "field": "Applications-Language",
+    "background": "Detecting propaganda and hate speech in memes through a combination of visual and textual analysis, requiring a nuanced understanding of both modalities.",
+    "contribution": "MemeIntel introduces a novel dataset, MemeXplain, to enhance the detection of both propaganda and hateful content in memes, achieving state-of-the-art results in classification while providing natural language explanations.",
+    "technical_comparison": {
+        "prior_work": "Previous models mostly focused on either text or image analysis separately, lacking integrated multimodal approaches that are essential for understanding meme context.",
+        "novelty": "This research improves upon previous work by utilizing a multi-stage optimization approach with VLMs that enhances both classification accuracy and explanation quality."
+    },
+    "key_innovation": "The ability to provide interpretable explanations alongside the classification of memes, making it easier for users to understand the model's reasoning.",
+    "real_world_impact": "This work can significantly aid platforms in moderating harmful content by offering clearer understanding and classification of malicious memes, which is vital for online safety.",
+    "limitations": "The dataset exhibits a substantial class imbalance, particularly with the 'Not propaganda' category, which could impact model performance.",
+    "new_terms": {
+        "Vision-Language Models (VLMs)": "**Vision-Language Models (VLMs)** are AI models designed to understand and generate content that involves both visual and textual modalities, enhancing multimodal learning capabilities."
+    },
+    "open_sourcing": "The MemeXplain dataset and experimental resources will be made publicly available."
+}

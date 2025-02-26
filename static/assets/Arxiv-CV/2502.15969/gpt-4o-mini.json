@@ -1,0 +1,21 @@
+{
+    "title": "Forgotten Polygons: Multimodal Large Language Models are Shape-Blind",
+    "author": "William Rudman (Brown University), Michal Golovanesky (Brown University), Amir Bar (Tel Aviv University), Vedant Palit (IIT Kharagpur), Yann LeCun (New York University), Carsten Eickhoff (University of T\u00fcbingen), Ritambhara Singh (Brown University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper explores how multimodal large language models (MLLMs) integrate visual and mathematical reasoning, which could inform approaches to enhance audio processing models in terms of multimodal integration.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This study examines the ability of multimodal large language models to recognize geometric shapes and perform mathematical reasoning based on those shapes.",
+    "contribution": "This paper introduces Visually-Cued Chain-of-Thought (VC-CoT) prompting to enhance visual reasoning in MLLMs, significantly improving accuracy in side counting tasks involving irregular polygons.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled significantly with recognizing shapes and count sides accurately, often defaulting to memorized associations.",
+        "novelty": "This work utilizes structured visual annotations within prompts to effectively engage deeper reasoning processes in models."
+    },
+    "key_innovation": "By integrating visual cues into the reasoning process, the approach encourages models to transition from simple memorization to analytical reasoning when interpreting visual data.",
+    "real_world_impact": "Improving how models comprehend visual information can enhance numerous applications in fields involving graphical data analysis, such as educational tools, visual assistants, and interactive learning environments.",
+    "limitations": "The authors acknowledge that current models still fall short in generalizing their reasoning capabilities beyond familiar shapes.",
+    "new_terms": {
+        "Visually-Cued Chain-of-Thought (VC-CoT)": "**Visually-Cued Chain-of-Thought (VC-CoT)** is a prompting technique designed to guide language models in reasoning tasks by incorporating explicit visual references."
+    },
+    "open_sourcing": "Code available at: https://github.com/rsinghlab/Shape-Blind"
+}

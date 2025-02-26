@@ -1,0 +1,22 @@
+{
+    "title": "Feature Space Perturbation: A Panacea to Enhanced Transferability Estimation",
+    "author": "Prafful Kumar Khoba (UQ\u2013IITD Research Academy, New Delhi, India), Zijian Wang (The University of Queensland, Brisbane, Australia), Chetan Arora (Indian Institute of Technology Delhi, New Delhi, India), Mahsa Baktashmotlagh (The University of Queensland, Brisbane, Australia)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods proposed for enhancing transferability in pre-trained models might be applicable to audio-related tasks where model transferability is crucial, especially in domains with limited labeled data.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Estimating how well pre-trained models adapt to new tasks without needing extensive retraining, which is critical in many machine learning applications.",
+    "contribution": "This paper introduces a novel feature perturbation method to improve transferability estimation, achieving significant performance boosts in existing metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on statistical relationships between embeddings and labels but often ignored model robustness under perturbations.",
+        "novelty": "This work systematically alters the feature space to assess both intra-class and inter-class variations, enhancing the robustness of transferability metrics."
+    },
+    "key_innovation": "The combined Spread and Attract operations create controlled perturbations in feature embeddings, improving model ranking based on robustness to variations.",
+    "real_world_impact": "Improves the selection process for pre-trained models in practical applications, leading to better performance in dynamic real-world scenarios.",
+    "limitations": "The paper does not explicitly mention limitations of the proposed methods.",
+    "new_terms": {
+        "feature perturbation": "**Feature perturbation** refers to the deliberate modification of the feature representations in a model to test its robustness and adaptability under different conditions.",
+        "Spread operation": "**Spread operation** increases internal class variability, making classification more challenging by pushing data points away from their centroids."
+    },
+    "open_sourcing": "The implementation is available at https://github.com/prafful-kumar/enhancing_TE.git"
+}

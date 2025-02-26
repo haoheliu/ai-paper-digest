@@ -1,0 +1,22 @@
+{
+    "title": "VideoGrain: Modulating Space-Time Attention for Multi-Grained Video Editing",
+    "author": "Xiangpeng Yang (University of Technology Sydney), Linchao Zhu (Zhejiang University), Hehe Fan (Zhejiang University), Yi Yang (Zhejiang University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This work addresses multi-grained editing, which can inspire techniques for manipulating sound or music data in a controlled manner, applicable to Haohe's audio generation tasks.",
+    "field": "Applications-Creative AI",
+    "background": "The paper explores multi-grained video editing which involves editing at class, instance, and part levels based on textual descriptions.",
+    "contribution": "VideoGrain introduces Spatial-Temporal Layout-Guided Attention to solve the challenge of semantic misalignment and feature coupling in video editing, achieving state-of-the-art results.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often struggle with feature mixing and fail to maintain instance-specific attributes.",
+        "novelty": "This work improves by modulating both cross-attention and self-attention mechanisms to achieve fine-grained control and separation of features across instances."
+    },
+    "key_innovation": "Utilizes novel attention modulation to ensure that local edits focus precisely on intended regions while avoiding interference between different features.",
+    "real_world_impact": "This advanced technique can enhance video editing applications, providing tools for filmmakers and content creators to achieve greater control over the editing process.",
+    "limitations": "No",
+    "new_terms": {
+        "Spatial-Temporal Layout-Guided Attention": "**Spatial-Temporal Layout-Guided Attention** refers to a mechanism that adjusts how attention is distributed among various regions in a video, allowing for precise control over which parts are edited based on textual prompts.",
+        "text-to-region control": "**Text-to-region control** involves using text prompts to dictate modifications to specific areas or objects within a video, rather than applying uniform edits."
+    },
+    "open_sourcing": "Code, data, and demos are available on the project page."
+}

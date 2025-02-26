@@ -1,0 +1,22 @@
+{
+    "title": "JUREX-4E: Juridical Expert-Annotated Four-Element Knowledge Base for Legal Reasoning",
+    "author": "Huanghai Liu (School of Law, Tsinghua University), Quzhe Huang (Peking University), Qingjing Chen (University of Bologna), Yiran Hu (School of Law, Tsinghua University), Jiayu Ma (School of Law, Tsinghua University), Yun Liu (School of Law, Tsinghua University), Weixing Shen (School of Law, Tsinghua University), Yansong Feng (Peking University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper presents a structured legal knowledge base that can enhance reasoning capabilities in legal tasks, which aligns with the need for precise information processing in audio-language applications.",
+    "field": "Applications-Language",
+    "background": "The study constructs a legal knowledge base that specifies the framework for crime ontology based on the Four-Element Theory used in criminal law, facilitating better legal reasoning.",
+    "contribution": "JUREX-4E introduces an expert-annotated knowledge base to improve the understanding and application of the Four-Element Theory in legal AI tasks, achieving substantial enhancements in model performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on Large Language Models (LLMs) without comprehensive verification of their understanding of legal theories.",
+        "novelty": "This work systematically integrates expert-validated legal elements into the knowledge base, significantly improving the accuracy of charge distinction and case retrieval tasks."
+    },
+    "key_innovation": "Creates a hierarchical legal interpretation system that combines varied interpretive approaches to ensure a robust representation of legal knowledge.",
+    "real_world_impact": "The findings indicate potential for improved legal case analysis and retrieval systems, which could enhance the efficiency and fairness of legal proceedings.",
+    "limitations": "The knowledge base is limited to 155 charges under Chinese Criminal Law, which may restrict broader applicability across different legal systems.",
+    "new_terms": {
+        "Four-Element Theory": "**Four-Element Theory** is a legal framework that decomposes criminal conduct into four definitional elements: Subject, Object, Subjective aspect, and Objective aspect.",
+        "Hierarchical Legal Interpretation System": "**Hierarchical Legal Interpretation System** refers to the structured approach used to analyze and annotate legal texts based on their source validity and interpretational methods."
+    },
+    "open_sourcing": "Code available at: https://github.com/THUlawtech/JUREX"
+}

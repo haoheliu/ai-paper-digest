@@ -1,0 +1,21 @@
+{
+    "title": "Real-time Monitoring of Economic Shocks using Company Websites",
+    "author": "Michael K\u00f6nig (ETH Zurich), Jakob Rauch (Vrije Universiteit Amsterdam), Martin W\u00f6rter (ETH Zurich), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper's use of Large Language Models (LLMs) for real-time economic monitoring and the extraction of information from textual data can inform audio-visual applications, particularly in data alignment or crisis response modeling in audio generation frameworks.",
+    "field": "Applications-Creative AI",
+    "background": "Developing a tool that quantifies the impact of economic shocks on companies by analyzing text data from their websites to facilitate timely responses and decision-making in policy and business environments.",
+    "contribution": "This paper introduces the Web-Based Affectedness Indicator (WAI) to solve the problem of timely economic monitoring, achieving accurate real-time assessments of company performance during economic shocks.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods rely on surveys and administrative data, which are often delayed and limited in scope.",
+        "novelty": "This work improves by leveraging continuous web-sourced data and LLM classification to provide real-time insights at an unprecedented scale."
+    },
+    "key_innovation": "Utilizes advanced natural language processing techniques on large datasets to dynamically assess economic impacts at the firm level, enabling faster and more accurate responses than conventional methods.",
+    "real_world_impact": "The methodology offers significant potential for enhancing economic resilience and policy-making during crises, allowing stakeholders to react promptly to emerging challenges.",
+    "limitations": "The effectiveness of WAI may vary in regions with less internet access or lower English proficiency due to the dataset's underlying assumptions.",
+    "new_terms": {
+        "Web-Based Affectedness Indicator": "**Web-Based Affectedness Indicator (WAI)** is a newly developed tool that analyzes company website data to assess the impact of external economic shocks in real time."
+    },
+    "open_sourcing": "The tool for downloading and processing website data is published open source on GitHub."
+}

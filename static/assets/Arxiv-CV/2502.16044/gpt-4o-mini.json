@@ -1,0 +1,22 @@
+{
+    "title": "A Multi-Scale Isolation Forest Approach for Real-Time Detection and Filtering of FGSM Adversarial Attacks in Video Streams of Autonomous Vehicles",
+    "author": "Richard Abhulimhena (Benedict College), Negash Begashaw (North Carolina A&T State University), Gurcan Comert (North Carolina A&T State University), Chunheng Zhao (Clemson University), Pierluigi Pisu (Clemson University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The method for detecting adversarial images and applying filtering techniques could be adapted for improving the robustness of audio models against adversarial manipulation, which aligns with Haohe Liu's work in audio processing.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Detecting and mitigating adversarial attacks in video streams from autonomous vehicles, specifically using the Fast Gradient Sign Method (FGSM) to manipulate images.",
+    "contribution": "This paper introduces a novel multi-scale anomaly detection method employing Isolation Forest to identify and filter FGSM adversarial attacks in video streams, achieving high accuracy in detection.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on traditional image processing or singular anomaly detection techniques, often leading to inefficiencies or inaccuracies under varying perturbation intensities.",
+        "novelty": "This work enhances detection capabilities by integrating multi-scale features and robust anomaly detection frameworks, significantly improving real-time processing and accuracy."
+    },
+    "key_innovation": "Combines advanced machine learning techniques with real-time video processing, allowing for a more effective defense against adversarial perturbations.",
+    "real_world_impact": "This method holds potential for improving the safety and reliability of autonomous systems, reducing the risks of misinterpretation due to adversarial attacks.",
+    "limitations": "The effectiveness hinges on the chosen parameters for Isolation Forest and may require fine-tuning for varying applications.",
+    "new_terms": {
+        "Fast Gradient Sign Method": "**Fast Gradient Sign Method (FGSM)** is a technique for generating adversarial examples by making small, calculated perturbations to input data to deceive machine learning models.",
+        "Isolation Forest": "**Isolation Forest** is an anomaly detection algorithm that isolates outliers instead of profiling normal data points, making it particularly effective for identifying rare events."
+    },
+    "open_sourcing": "The source code is publicly available on GitHub."
+}

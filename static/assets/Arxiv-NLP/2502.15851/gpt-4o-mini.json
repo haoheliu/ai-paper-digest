@@ -1,0 +1,21 @@
+{
+    "title": "Control Illusion: The Failure of Instruction Hierarchies in Large Language Models",
+    "author": "Yilin Geng (The University of Melbourne), Haonan Li (MUZUAI), Honglin Mu (MUZUAI), Xudong Han (MUZUAI), Timothy Baldwin (The University of Melbourne), Omri Abend (The Hebrew University of Jerusalem), Eduard Hovy (The University of Melbourne), Lea Frermann (The University of Melbourne)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper discusses instruction hierarchies in Large Language Models (LLMs), which could inform approaches to managing multi-modal data interactions in audio-related applications, potentially improving instruction following in audio task settings.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper investigates how Large Language Models handle conflicting instructions from different sources, specifically focusing on the effectiveness of hierarchical structures in guiding model behavior.",
+    "contribution": "This paper introduces a systematic evaluation framework to assess model adherence to hierarchical instructions, revealing significant deficiencies in existing models' ability to prioritize constraints effectively.",
+    "technical_comparison": {
+        "prior_work": "Previous models have implemented hierarchical prompt structures without systematic evaluation of their effectiveness in managing instruction conflicts.",
+        "novelty": "This work introduces rigorous metrics and experiments to quantify models' prioritization capabilities, highlighting their shortcomings in following developer-imposed instructions over user prompts."
+    },
+    "key_innovation": "The authors propose both a systematic framework and specialized metrics for studying instruction hierarchies in LLMs, advancing understanding of model behavior under conflicting directives.",
+    "real_world_impact": "Understanding how LLMs prioritize instructions can enhance their reliability in practical applications, leading to more dependable interactions in multi-modal environments.",
+    "limitations": "The study focuses on single-turn interactions and predefined constraints, which may not generalize well to complex multi-turn dialogue settings.",
+    "new_terms": {
+        "instruction tuning": "**Instruction tuning** refers to the process of fine-tuning language models to follow specific instructions more effectively, often through data designed to elicit desired responses."
+    },
+    "open_sourcing": "The code and dataset are publicly available on GitHub: https://github.com/yilin-geng/llm_instruction_conflicts"
+}

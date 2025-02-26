@@ -1,0 +1,19 @@
+{
+    "title": "CodeCriticBench: A Holistic Code Critique Benchmark for Large Language Models",
+    "author": "Alexander Zhang (M-A-P), Marcus Dong (M-A-P), Jiaheng Liu (NJU, M-A-P), Wei Zhang (BUAA), Yejie Wang (BUPT), Jian Yang (CASIA), Ge Zhang (M-A-P), Tianyu Liu (M-A-P), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed evaluation framework could help in assessing audio-related code for generative models or other audio applications, improving the accuracy of code evaluate systems in this domain.",
+    "field": "Applications-Creative AI",
+    "background": "Developing a benchmark for assessing the critique capabilities of Large Language Models (LLMs) in the context of code generation and code question answering.",
+    "contribution": "CodeCriticBench introduces a dual-evaluation framework for code critique tasks, achieving a more rigorous assessment of LLM critique capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks often focused on basic properties like code correctness and primarily revolved around simple code generation tasks.",
+        "novelty": "This work enhances evaluation by integrating both basic and advanced critique evaluations, providing detailed scoring across multiple dimensions."
+    },
+    "key_innovation": "It uniquely merges critique evaluation for both code generation and code QA tasks, allowing comprehensive assessment of model performance in challenging scenarios.",
+    "real_world_impact": "The framework may facilitate the enhancement of coding assistance tools, leading to better automated code reviews and improved coding practices in software development.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {},
+    "open_sourcing": "https://github.com/multimodal-art-projection/CodeCriticBench"
+}

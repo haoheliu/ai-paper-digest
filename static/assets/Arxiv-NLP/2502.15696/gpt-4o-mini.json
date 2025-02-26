@@ -1,0 +1,21 @@
+{
+    "title": "Integrating Domain Knowledge into Large Language Models for Enhanced Fashion Recommendations",
+    "author": "Zhan Shi (Santa Clara University), Shanglin Yang (Santa Clara University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The integration of large language models for dynamic recommendations may inspire similar methodologies in audio captioning or generative audio tasks, particularly in adapting to user preferences.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Utilizing models that leverage vast amounts of linguistic data to provide personalized fashion recommendations, while dynamically adapting to individual preferences through advanced training and retrieval methods.",
+    "contribution": "This paper introduces a Fashion Large Language Model (FLLM) to solve the limitation of traditional supervised learning methods in fashion recommendations, achieving improved accuracy and adaptability in generating recommendations.",
+    "technical_comparison": {
+        "prior_work": "Traditional fashion recommendation systems rely heavily on fixed datasets and supervised learning, often failing to adapt to new styles or user preferences.",
+        "novelty": "This work improves by employing retrieval-augmented generation and auto-prompt strategies, allowing the model to dynamically adjust recommendations based on individual user inputs and current fashion trends."
+    },
+    "key_innovation": "The combination of auto-prompt generation and retrieval augmentation in a large language model to enhance the personalization and relevance of fashion recommendations.",
+    "real_world_impact": "This approach can potentially revolutionize personalized fashion retail by dynamically adjusting recommendations based on real-time data and user preferences, improving customer experience and engagement.",
+    "limitations": "No.",
+    "new_terms": {
+        "retrieval-augmented generation": "**Retrieval-augmented generation** is a technique that enhances generative models by incorporating external retrieval mechanisms to access relevant information, improving the quality and specificity of generated outputs."
+    },
+    "open_sourcing": ""
+}

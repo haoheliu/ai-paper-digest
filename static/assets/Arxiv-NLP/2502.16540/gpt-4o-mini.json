@@ -1,0 +1,21 @@
+{
+    "title": "Advanced Chain-of-Thought Reasoning for Parameter Extraction from Documents Using Large Language Models",
+    "author": "Hong Cai Chen (Southeast University), Yi Pin Xu (Southeast University), Yang Zhang (National University of Defense Technology)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed techniques for parameter extraction using Chain-of-Thought reasoning could inspire novel approaches in audio data processing tasks, such as generating audio models or enhancing retrieval mechanisms in audio-language datasets.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task involves automating the extraction of parameters from technical documentation to improve efficiency in electronic design automation, facilitating quicker model generation.",
+    "contribution": "This paper introduces a framework using Chain-of-Thought techniques\u2014Targeted Document Retrieval, Iterative Retrieval Optimization, and Preference Optimization\u2014to solve the challenge of high-dimensional parameter extraction, achieving significant improvements in retrieval precision and processing latency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with semantic complexities in technical documents and often relied on manual extraction.",
+        "novelty": "This work enhances retrieval processes by integrating CoT reasoning to streamline information extraction and automate model creation."
+    },
+    "key_innovation": "The framework combines different reasoning and retrieval techniques to refine parameter extraction processes, making it efficient without requiring model fine-tuning.",
+    "real_world_impact": "The proposed method can significantly accelerate electronic design workflows by automating potentially tedious and error-prone parameter retrieval, impacting industries that rely on integrated circuit design and simulation.",
+    "limitations": "No",
+    "new_terms": {
+        "Chain-of-Thought (CoT)": "A reasoning method that allows models to break down complex tasks into manageable steps, improving performance on difficult problems."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Cross-Model Transferability of Adversarial Patches in Real-time Segmentation for Autonomous Driving",
+    "author": "Prashant Shekhar (Embry-Riddle Aeronautical University), Bidur Devkota (Embry-Riddle Aeronautical University), Laxima Niure Kandel (Embry-Riddle Aeronautical University), Dumindu Samaraweera (Embry-Riddle Aeronautical University), Manoj Babu (University of Warwick), ..., James Glass (MIT)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The investigation of adversarial attacks is relevant to the robustness and security of deep learning models, including those applied in audio and speech processing, as adversarial principles could apply in scenarios where audio models are also deployed in autonomous systems.",
+    "field": "Applications-Vision",
+    "background": "Evaluating the robustness of adversarial patches against various semantic segmentation models in autonomous driving, aiming to understand their effectiveness and transferability across different model architectures.",
+    "contribution": "This paper introduces a novel Expectation Over Transformation based adversarial patch attack to investigate the transferability of adversarial patches across different semantic segmentation models, revealing significant insights into model architecture vulnerabilities.",
+    "technical_comparison": {
+        "prior_work": "Existing adversarial attacks often focus on image-specific perturbations or pixel-wise manipulations that do not generalize well to unseen images.",
+        "novelty": "This work employs a generalized expectation framework to create adaptable adversarial patches that are effective across a range of model architectures, showcasing different susceptibility to attacks based on their design."
+    },
+    "key_innovation": "The adaptability of adversarial patches through a simplified loss function and the exploration of cross-model transferability provides novel insights into adversarial vulnerabilities.",
+    "real_world_impact": "The findings highlight critical security implications for autonomous driving systems, emphasizing the necessity for robust defenses against such adversarial threats to ensure safety in real-time applications.",
+    "limitations": "No",
+    "new_terms": {
+        "Expectation Over Transformation": "**Expectation Over Transformation (EOT)** is a framework used in adversarial attack strategies to account for variability in input transformations, enhancing robustness against changes that occur in real-world environments."
+    },
+    "open_sourcing": "The code for the project is available at: https://github.com/p-shekhar/adversarial-patch-transferability"
+}

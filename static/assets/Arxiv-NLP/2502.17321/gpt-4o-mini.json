@@ -1,0 +1,21 @@
+{
+    "title": "Turning Conversations into Workflows: A Framework to Extract and Evaluate Dialog Workflows for Service AI Agents",
+    "author": "Prafulla Kumar Choubey (Salesforce AI Research), Xiangyu Peng (Salesforce AI Research), Shilpa Bhagavath (Salesforce AI Research), Caiming Xiong (Salesforce AI Research), Shiva Kumar Pentyala (Salesforce AI Research), Chien-Sheng Wu (Salesforce AI Research), ... , James Glass (MIT)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed framework for workflow extraction and evaluation might provide methodologies applicable to structuring workflows in audio processing tasks, improving interactions in automated music generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Extracting structured workflows from historical customer-agent conversations to improve automated service responses.",
+    "contribution": "This paper introduces a two-step framework to automatically extract and evaluate dialog workflows from customer conversations, achieving improved macro accuracy over traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on manual efforts, often leading to outdated workflows without systematic extraction techniques.",
+        "novelty": "This work improves by utilizing a retrieval process to filter relevant conversations based on procedural elements, combined with a structured question-answer-based prompting approach."
+    },
+    "key_innovation": "The use of a multi-agent debate approach (QA-CoT) to iteratively refine the workflow based on contextual insights from historical interactions.",
+    "real_world_impact": "The framework could enhance customer service efficiency by enabling service AI agents to respond more accurately and consistently, potentially improving customer satisfaction.",
+    "limitations": "The method is primarily designed for service AI agents, which may limit its applicability in more complex domains.",
+    "new_terms": {
+        "QA-CoT": "**Question-Answer-based Chain-of-Thought (QA-CoT)** prompting is a method where a Guide agent formulates questions to clarify and refine the contextual understanding of workflows through iterative exchanges."
+    },
+    "open_sourcing": ""
+}

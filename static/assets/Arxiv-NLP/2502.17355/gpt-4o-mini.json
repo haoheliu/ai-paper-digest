@@ -1,0 +1,21 @@
+{
+    "title": "On Relation-Specific Neurons in Large Language Models",
+    "author": "Yihong Liu (Center for Information and Language Processing, LMU Munich), Runsheng Chen (Technical University of Munich), Lea Hirlimann (Center for Information and Language Processing, LMU Munich), Ahmad Dawar Hakimi (Center for Information and Language Processing, LMU Munich), Mingyang Wang (Center for Information and Language Processing, LMU Munich), Amir Hossein Kargaran (Center for Information and Language Processing, LMU Munich), Sascha Rothe (Google DeepMind), Fran\u00e7ois Yvon (Sorbonne Universit\u00e9, CNRS, ISIR), Hinrich Sch\u00fctze (Center for Information and Language Processing, LMU Munich)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This study explores the function of relation-specific neurons in large language models, providing insights into how such mechanisms can be utilized in audio-language processing, particularly in the context of generating and understanding factual content related to audio.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper investigates how certain neurons in large language models can specifically encode relational knowledge from factual data during training, impacting the model's ability to generate accurate responses when queried.",
+    "contribution": "On Relation-Specific Neurons in Large Language Models introduces the concept of neurons that are specific to relationships rather than entities, achieving a deeper understanding of how these models process and recall relational facts.",
+    "technical_comparison": {
+        "prior_work": "Previous studies focused mainly on knowledge neurons that encoded both relations and entities without distinguishing their functions in the model architecture.",
+        "novelty": "This work identifies and demonstrates distinct functionalities of relation-specific neurons using a systematic deactivation strategy during model evaluation."
+    },
+    "key_innovation": "The identification of relation-specific neurons that improve the generation of relational facts while allowing for shared usage across multiple relations in different languages.",
+    "real_world_impact": "This research may enhance the credibility and accuracy of conversational agents and models used for factual information retrieval in audio and text contexts, leading to better user experiences in intelligent systems.",
+    "limitations": "The study focuses on a limited set of 12 relations, which may restrict the generalizability of the findings.",
+    "new_terms": {
+        "relation-specific neurons": "**Relation-specific neurons** are neurons in large language models that focus on encoding specific relational knowledge independently of entities involved in that relation."
+    },
+    "open_sourcing": "The code will be publicly available at https://github.com/cisnlp/relation-specific-neurons"
+}

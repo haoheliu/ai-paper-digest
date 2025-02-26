@@ -1,0 +1,22 @@
+{
+    "title": "Language Model Fine-Tuning on Scaled Survey Data for Predicting Distributions of Public Opinions",
+    "author": "Joseph Suh (University of California, Berkeley), Erfan Jahanparast (University of California, Berkeley), Suhong Moon (University of California, Berkeley), Minwoo Kang (University of California, Berkeley), Serina Chang (University of California, Berkeley, Microsoft Research), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed method for fine-tuning large language models on structured survey data could be applied to enhance audio-language models by leveraging public opinion data, informing audio generation tasks with valid socio-demographic insights.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Fine-tuning a large language model to accurately predict survey response distributions based on subpopulation data, improving the model's ability to simulate human opinions across various demographics.",
+    "contribution": "This paper introduces SubPOP, a large-scale dataset and fine-tuning method to align language model predictions with human response distributions, achieving significant reductions in prediction error.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on prompt engineering which struggled to capture the intricacies of human opinion distributions accurately.",
+        "novelty": "This work employs a fine-tuning approach using direct survey response data to enhance LLM performance without extensive prompt optimization."
+    },
+    "key_innovation": "Directly fine-tuning large language models on survey data allows for more nuanced predictions reflecting demographic variations in opinions.",
+    "real_world_impact": "This approach can significantly streamline survey design processes, offering researchers effective preliminary insights into public opinion without necessitating full-scale surveys.",
+    "limitations": "While the paper demonstrates generalized performance, it does not explore limitations regarding specific demographic intersections or future shifts in public opinion.",
+    "new_terms": {
+        "fine-tuning": "**Fine-tuning** is a technique in machine learning where a pre-trained model is further trained on a specific task or dataset to improve its performance in that context.",
+        "SubPOP": "**SubPOP** refers to the newly introduced dataset containing subpopulation-response pairs designed for fine-tuning language models on opinion predictions."
+    },
+    "open_sourcing": "Code available at https://github.com/JosephJeesungSuh/subpop"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Gaussian Difference: Find Any Change Instance in 3D Scenes",
+    "author": "Binbin Jiang (College of Computer Science and Technology, Civil Aviation University of China), Rui Huang (College of Computer Science and Technology, Civil Aviation University of China), Qingyi Zhao (College of Computer Science and Technology, Civil Aviation University of China), Yuxiang Zhang (College of Computer Science and Technology, Civil Aviation University of China), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper presents a method for detecting changes in 3D scenes that utilizes Gaussian distributions, which could inspire novel approaches in audio analysis tasks related to spatial changes and representations.",
+    "field": "Applications-Vision",
+    "background": "Instance-level change detection in 3D scenes involves identifying modifications in a scene over time using image data from different perspectives.",
+    "contribution": "This paper introduces Gaussian Difference, a 4D Gaussian Splatting-based change detection framework to solve the challenge of detecting changes in 3D scenes under variable lighting, achieving improved detection accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like C-NERF rely heavily on paired image sequences and struggle with inconsistent lighting conditions, often requiring manual threshold settings.",
+        "novelty": "This work improves by utilizing 4D Gaussians, which embed multiple images into a unified representation, allowing for better handling of lighting variations and faster change detection."
+    },
+    "key_innovation": "The method integrates change detection through Gaussian distributions with a unique segmentation and instance tracking approach, facilitating robust change detection from varied viewpoints.",
+    "real_world_impact": "The approach could enhance applications in surveillance and environmental monitoring by providing a more accurate understanding of spatial changes without controlled settings.",
+    "limitations": "No.",
+    "new_terms": {
+        "4D Gaussian Splatting": "**4D Gaussian Splatting** is a representation technique that models spatial and temporal changes in 3D scenes using Gaussian distributions, allowing for efficient visualization and identification of dynamic elements.",
+        "instance-level change detection": "**Instance-level change detection** refers to the task of discerning modifications of individual objects or features within a scene over time."
+    },
+    "open_sourcing": ""
+}

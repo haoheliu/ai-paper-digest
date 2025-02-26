@@ -1,0 +1,23 @@
+{
+    "title": "BiDeV: Bilateral Defusing Verification for Complex Claim Fact-Checking",
+    "author": "Yuxuan Liu (Gaoling School of Artificial Intelligence, Renmin University of China), Hongda Sun (Gaoling School of Artificial Intelligence, Renmin University of China), Wenya Guo (Nankai University), Xinyan Xiao (Baidu Inc.), Cunli Mao (Kunming University of Science and Technology), Zhengtao Yu (Kunming University of Science and Technology), Rui Yan (Gaoling School of Artificial Intelligence, Renmin University of China)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on developing a framework that simplifies complex claims could inform methodologies for improving clarity in audio-visual content where complex narratives are involved, which is relevant for music and audio processing.",
+    "field": "Applications-Language",
+    "background": "The task of fact-checking involves verifying claims by gathering and assessing relevant evidence to establish their truthfulness.",
+    "contribution": "BiDeV introduces a novel framework combining Vagueness Defusing and Redundancy Defusing to enhance the process of verifying complex claims, achieving significant performance improvements in challenging datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often struggle with vague information in claims and overload evidence with irrelevant content, leading to confusion during fact-checking.",
+        "novelty": "This work improves by incorporating role-played large language models to iteratively simplify claims and filter evidence effectively."
+    },
+    "key_innovation": "The integration of two distinct defusing modules allows for a structured, multi-step approach to clearing up vagueness and redundancy that reflects expert human reasoning.",
+    "real_world_impact": "The framework could significantly enhance automated fact-checking systems in tackling disinformation, thereby improving the quality of information consumed by the public.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "Bilateral Defusing Verification": "**Bilateral Defusing Verification** is a novel framework that focuses on simplifying complex claims and filtering out redundant evidence for effective fact-checking.",
+        "Vagueness Defusing": "**Vagueness Defusing** refers to identifying and clarifying unclear aspects in claims to facilitate better understanding and verification.",
+        "Redundancy Defusing": "**Redundancy Defusing** indicates the process of filtering irrelevant information from evidence to prioritize pertinent content during claim verification."
+    },
+    "open_sourcing": "Code: https://github.com/EthanLeo-LYX/BiDeV"
+}

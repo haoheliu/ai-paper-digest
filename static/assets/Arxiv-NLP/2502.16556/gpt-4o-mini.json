@@ -1,0 +1,19 @@
+{
+    "title": "Beyond Words: How Large Language Models Perform in Quantitative Management Problem-Solving",
+    "author": "Jonathan Kuzmanko",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper assesses the performance of Large Language Models in quantitative decision-making, which could provide insights on how generative AI could be leveraged for audio-related decision tasks, such as audio generation or restoration.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating the effectiveness of Large Language Models in solving quantitative management decisions through various presentation formats and complexity levels.",
+    "contribution": "This study introduces an analysis of Large Language Models' performance in quantitative management scenarios, revealing their limitations and potential for enhancing decision-making accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous research indicated that information presentation and task complexity significantly impacted model performance, often leading to inaccuracies.",
+        "novelty": "This work emphasizes the strong influence of scenario complexity on accuracy but surprisingly finds that models handle multi-step tasks better than previously expected."
+    },
+    "key_innovation": "The study identifies the limitations of Large Language Models in quantitative reasoning while demonstrating their unexpected strengths in handling multi-step reasoning tasks.",
+    "real_world_impact": "Insights from this research can inform organizations on the effective deployment of Large Language Models in operational decision-making, potentially enhancing efficiency in various managerial contexts.",
+    "limitations": "The models showed a consistent performance across iterations without significant learning improvement, highlighting a potential stagnation in model capabilities over time.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

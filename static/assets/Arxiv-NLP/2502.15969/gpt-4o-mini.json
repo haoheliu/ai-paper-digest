@@ -1,0 +1,21 @@
+{
+    "title": "Forgotten Polygons: Multimodal Large Language Models are Shape-Blind",
+    "author": "William Rudman (Brown University), Michal Golovanesky (Brown University), Amir Bar (Tel Aviv University), Vedant Palit (IIT Kharagpur), Yann LeCun (New York University), Carsten Eickhoff (University of T\u00fcbingen), Ritambhara Singh (Brown University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The findings about multimodal models' limitations in visual reasoning could inform new strategies in audio-visual integration or encourage innovations in data processing pipelines involving visual elements in audio-related tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research investigates the ability of Multimodal Large Language Models (MLLMs) to reason mathematically with visual inputs, focusing on their proficiency with geometric shapes and counting sides.",
+    "contribution": "This paper introduces Visually Cued Chain-of-Thought prompting to enhance the visual reasoning capabilities of MLLMs, achieving significant improvements in side counting accuracy from 7% to 93%.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled with basic geometric reasoning and did not effectively process visual cues.",
+        "novelty": "This work employs structured prompts that leverage visual information to guide reasoning, improving accuracy in visual mathematics tasks."
+    },
+    "key_innovation": "The innovative use of visual cues in prompts helps models better connect visual information with reasoning tasks.",
+    "real_world_impact": "Enhancing MLLM capabilities in visual reasoning could improve applications in educational tools, automated visual inspection systems, and accessibility technologies.",
+    "limitations": "The paper mainly evaluates models in controlled synthetic settings, and may not generalize to complex real-world applications.",
+    "new_terms": {
+        "Visually Cued Chain-of-Thought": "**Visually Cued Chain-of-Thought prompting** is a method that explicitly incorporates visual annotations in prompts to guide models through reasoning tasks, facilitating better integration of visual information."
+    },
+    "open_sourcing": "Code available at: https://github.com/rsinghlab/Shape-Blind"
+}

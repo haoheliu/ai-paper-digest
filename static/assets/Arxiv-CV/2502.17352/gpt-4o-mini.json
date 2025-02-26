@@ -1,0 +1,21 @@
+{
+    "title": "Leveraging Procedural Knowledge and Task Hierarchies for Efficient Instructional Video Pre-training",
+    "author": "Irfan Essa (Georgia Institute of Technology), Karan Samel (Georgia Institute of Technology), Nitish Sontakke (Georgia Institute of Technology), ..., Irfan Essa (Google DeepMind)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques of leveraging task hierarchies and procedural steps could inspire methodologies for structuring audio generation tasks or step-based transformations in Haohe Liu's research on audio synthesis.",
+    "field": "Applications-Creative AI",
+    "background": "The paper focuses on improving the pre-training of instructional video models to effectively predict tasks and steps, enabling better video recommendations and user engagement.",
+    "contribution": "This paper introduces a model called Pivot which combines procedural knowledge and hierarchical task data to enhance instructional video pre-training, achieving improved performance on downstream tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on implicit learning of video relationships, which can be inefficient and data-intensive.",
+        "novelty": "This work explicitly leverages prior knowledge about task hierarchies and procedural steps, enabling effective training even with limited data."
+    },
+    "key_innovation": "Utilizes explicit task hierarchies and procedural step mining for pre-training, leading to a more efficient model capable of understanding complex video content.",
+    "real_world_impact": "The improved pre-training of models for instructional videos can enhance user experiences in educational platforms, making it easier to learn tasks through video content.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "MIL-NCE": "**Multiple Instance Learning with Noise Contrastive Estimation** is a method used to improve the training of embeddings by leveraging noise samples during learning."
+    },
+    "open_sourcing": ""
+}

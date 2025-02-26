@@ -1,0 +1,22 @@
+{
+    "title": "Logic Haystacks: Probing LLMs Long-Context Logical Reasoning (Without Easily Identifiable Unrelated Padding)",
+    "author": "Damien Sileo (Univ. Lille, Inria, CNRS, Centrale Lille), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed methodology for generating long logical reasoning inputs and evaluating LLMs' capabilities could inform the design of more robust audio processing models that require logical reasoning.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating the logical reasoning capabilities of large language models over long contexts, particularly in tasks like contradiction detection among lengthy statements.",
+    "contribution": "This paper introduces a novel dataset construction method for logical reasoning tasks to effectively probe large language models, revealing their limitations in handling realistic distractors.",
+    "technical_comparison": {
+        "prior_work": "Previous studies typically either submerged relevant information in clearly identifiable unrelated padding or employed simple tasks that do not reflect complex reasoning.",
+        "novelty": "This work generates homogenous logical statements with controlled distractors, enabling a more realistic evaluation of long-context reasoning capabilities."
+    },
+    "key_innovation": "The use of satisfiable merging of logical premises enables the generation of long text inputs that challenge models more realistically than previous methods.",
+    "real_world_impact": "By providing a more accurate evaluation of logical reasoning in LLMs, this methodology might enhance the development of models that require complex reasoning and understanding in various applications, including audio processing.",
+    "limitations": "The dataset generation process is computationally expensive and may not cover all aspects of natural language reasoning.",
+    "new_terms": {
+        "premise": "A foundational statement or set of statements from which a conclusion is drawn in logical reasoning.",
+        "satisfiable merging": "Combining multiple logical statements in a way that ensures they do not contradict each other."
+    },
+    "open_sourcing": "[data:HF-datasets](https://hf.co/datasets/sileod/LogicHaystacks)"
+}

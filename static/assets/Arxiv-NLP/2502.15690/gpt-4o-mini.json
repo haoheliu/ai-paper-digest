@@ -1,0 +1,19 @@
+{
+    "title": "Level-Navi Agent: A Framework and benchmark for Chinese Web Search Agents",
+    "author": "Chuanrui Hu (360 AI Research), Shichong Xie (School of Artificial Intelligence, Anhui University), Baoxin Wang (360 AI Research), Bin Chen (360 AI Research), Xiaofeng Cong (360 AI Research), Jun Zhang (School of Artificial Intelligence, Anhui University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The framework's ability to gather and process information from web searches could be beneficial for applications in audio generation and speech processing, where context and information retrieval are crucial.",
+    "field": "Applications-Language",
+    "background": "The task involves implementing a framework for an AI search agent that rapidly collects and processes information from the web, focused on Chinese queries.",
+    "contribution": "This paper introduces the Level-Navi Agent framework to solve the challenges in evaluating Chinese web search agents, achieving a structured and efficient approach to information retrieval.",
+    "technical_comparison": "Previous methods in AI search generally relied on fine-tuning models or were limited to English contexts, which restricted flexibility and accessibility. This work improves by providing a training-free framework specifically designed for Chinese web searches.",
+    "key_innovation": "The method stands out by dynamically adjusting search strategies based on user queries and maintaining a cost-effective approach without the need for extensive model training.",
+    "real_world_impact": "The framework can significantly enhance the effectiveness of information retrieval in Chinese web searches, potentially improving various applications such as customer support, content generation, and news aggregation.",
+    "limitations": "The study mentions issues like 'overconfidence' of models leading to incomplete responses and low task fidelity during execution.",
+    "new_terms": {
+        "Level-Navi Agent": "**Level-Navi Agent** is a proposed framework that organizes the execution of web searches across multiple levels to gather comprehensive information efficiently.",
+        "Retrieve-Augmented Generation (RAG)": "**Retrieve-Augmented Generation** refers to patterns where AI systems enhance responses by incorporating retrieved data from the web, improving context and accuracy."
+    },
+    "open_sourcing": "Source code is available at https://github.com/chuanruihu/Level-Navi-Agent-Search"
+}

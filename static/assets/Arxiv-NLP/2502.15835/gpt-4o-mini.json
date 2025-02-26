@@ -1,0 +1,23 @@
+{
+    "title": "Pragmatic Reasoning improves LLM Code Generation",
+    "author": "Zhuchen Cao (Max Planck Institute for Informatics), Sven Apel (Department of Computer Science, Saarland University), Adish Singla (Max Planck Institute for Software Systems), Vera Demberg (Department of Computer Science, Saarland University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed CodeRSA method for pragmatic reasoning and candidate reranking may provide insights into enhancing audio-language tasks, particularly in the context of generating structured audio representations from natural language.",
+    "field": "Applications-Language",
+    "background": "Reranking various program code candidates generated from natural language instructions to improve the quality of code generation by addressing ambiguities in user input.",
+    "contribution": "This paper introduces CodeRSA, a reranking method that utilizes pragmatic reasoning to refine the selection of code candidates based on inferred user intentions, achieving higher accuracy in code generation tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Coder and CoderReviewer fail to fully capture user intent, often selecting generic code solutions.",
+        "novelty": "CodeRSA implements a two-tiered reasoning model that includes both a literal listener and a pragmatic speaker, enabling better alignment between the generated code and user instructions."
+    },
+    "key_innovation": "Integrates a Rational Speech Act framework into code candidate evaluation, allowing models to more accurately interpret and fulfill user instructions.",
+    "real_world_impact": "Enhancing code generation systems could improve software development efficiency, reducing errors in coding tasks and thereby increasing productivity in programming applications.",
+    "limitations": "The computational complexity of CodeRSA is significant, making it challenging to scale efficiently for larger datasets or more complex coding tasks.",
+    "new_terms": {
+        "Rational Speech Act (RSA)": "**Rational Speech Act** refers to a theoretical framework for understanding communication that models how speakers choose their expressions based on listeners' interpretations and understanding.",
+        "pragmatic reasoning": "**Pragmatic reasoning** is the cognitive process whereby individuals interpret language not just based on literal meanings but also considering context, intent, and possible alternatives.",
+        "degenerate solutions": "**Degenerate solutions** refer to overly generic or repetitive outputs that, while plausible, do not effectively satisfy the user's specific request."
+    },
+    "open_sourcing": ""
+}

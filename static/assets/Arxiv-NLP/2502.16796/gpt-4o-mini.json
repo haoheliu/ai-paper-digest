@@ -1,0 +1,22 @@
+{
+    "title": "MobileSteward: Integrating Multiple App-Oriented Agents with Self-Evolution to Automate Cross-App Instructions",
+    "author": "Yuxuan Liu (Renmin University of China), Hongda Sun (Renmin University of China), Bo Du (Wuhan University), Wei Liu (Xiaomi AI Lab), Jian Luan (Xiaomi AI Lab), Rui Yan (Renmin University of China), ..., Rui Yan (Wuhan University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed framework could enhance audio and speech applications by automating tasks across mobile platforms, potentially streamlining processes related to audio processing and synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses automated task execution on mobile phones, specifically focusing on complex instructions that require actions across multiple applications.",
+    "contribution": "MobileSteward introduces a multi-agent framework that integrates specialized agents to automate cross-application tasks, achieving improved task completion rates.",
+    "technical_comparison": {
+        "prior_work": "Prior methods struggled with cross-app instructions due to limited error handling and task recognition across diverse applications.",
+        "novelty": "This work integrates a centralized StewardAgent with app-specific StaffAgents, significantly enhancing task scheduling and execution accuracy between applications."
+    },
+    "key_innovation": "The self-evolving mechanism allows for continuous learning from past executions, improving future task handling without manual intervention.",
+    "real_world_impact": "This framework holds potential for practical applications in mobile devices, allowing users to automate complex workflows seamlessly, impacting user experience in productivity tools.",
+    "limitations": "No limitations were explicitly mentioned in the paper.",
+    "new_terms": {
+        "StaffAgent": "**StaffAgent** refers to a specialized agent in the framework assigned to execute tasks within specific mobile applications.",
+        "StewardAgent": "**StewardAgent** is the central coordinator that manages task scheduling and evaluation across the various StaffAgents."
+    },
+    "open_sourcing": "Code will be available at: https://github.com/XiaoMi/MobileSteward"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Learning to Reason from Feedback at Test-Time",
+    "author": "Yanyang Li (The Chinese University of Hong Kong), Michael R. Lyu (The Chinese University of Hong Kong), Liwei Wang (The Chinese University of Hong Kong), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on feedback utilization could enhance audio processing tasks where incremental adjustments based on prior attempts are beneficial, similar to improving audio generation or restoration processes.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "An iterative process where a model generates attempts to solve a problem, receives feedback on each attempt, and uses this feedback to improve its subsequent attempts.",
+    "contribution": "This paper introduces Feedback-based Test-Time Training (FTTT) and a learnable test-time optimizer (OPTUNE) to enhance reasoning capabilities of language models during inference, achieving improved performance across several tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods either relied on long sequences of context to correct mistakes or independently generated answers without learning from past attempts.",
+        "novelty": "This work allows the model to adjust its weights based on feedback, enabling it to utilize past experiences without significant computational overhead."
+    },
+    "key_innovation": "Utilizes a test-time optimization framework that updates model weights based on real-time feedback, contrasting with earlier methods that primarily focused on in-context adjustments or independent outputs.",
+    "real_world_impact": "This approach could lead to more effective applications of language models in real-time tasks such as interactive dialogue systems or responsive coding assistants, enhancing user experience and solution accuracy.",
+    "limitations": "The approach currently relies on binary feedback, limiting the complexity of information that can be extracted from each interaction.",
+    "new_terms": {
+        "Feedback-based Test-Time Training (FTTT)": "**Feedback-based Test-Time Training (FTTT)** is a method to optimize model performance during runtime using feedback from previous attempts to inform and improve future predictions."
+    },
+    "open_sourcing": "https://github.com/LaVi-Lab/FTTT"
+}

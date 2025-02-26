@@ -1,0 +1,20 @@
+{
+    "title": "CHEEMS: A Practical Guidance for Building and Evaluating Chinese Reward Models from Scratch",
+    "author": "Xueru Wen (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Jie Lou (University of Chinese Academy of Sciences), Zichao Li (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Yaojie Lu (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), XingYu (University of Chinese Academy of Sciences), Yuqiu Ji (University of Chinese Academy of Sciences), Guohai Xu (University of Chinese Academy of Sciences), Ben He (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methodology for training reward models (RMs) aligns with Haohe Liu's focus on generative audio models, as human feedback integration could enhance audio generation tasks.",
+    "field": "Reinforcement Learning-Human-in-the-Loop",
+    "background": "This research introduces a framework for developing effective reward models that capture human preferences, specifically targeting the Chinese language context, emphasizing the importance of human annotation.",
+    "contribution": "CHEEMS introduces the CheemsBench evaluation benchmark and CheemsPreference dataset to enhance the development of Chinese reward models, achieving significant improvements in performance via human supervision.",
+    "technical_comparison": "Previous methods predominantly focus on English datasets that rely heavily on synthetic data for preference modeling, which limited their applicability. This work improves by creating a fully human-annotated dataset and evaluation benchmark tailored to the Chinese language.",
+    "key_innovation": "Introducing a multi-response evaluation mechanism and a novel conflict-resolving algorithm during the annotation process to ensure high-quality and consistent model training.",
+    "real_world_impact": "The work contributes to closing the gap in high-quality reward modeling for Chinese language processing, potentially enhancing various applications such as chatbots and personalized AI systems.",
+    "limitations": "The authors acknowledge potential biases from the annotator pool and the specific cultural context of the dataset.",
+    "new_terms": {
+        "reward model (RM)": "**Reward Models (RMs)** are models used to align AI outputs with human preferences by quantifying the desirability of output responses.",
+        "CheemsBench": "**CheemsBench** is a benchmark specifically designed for evaluating reward models in the Chinese language context.",
+        "CheemsPreference": "**CheemsPreference** is a dataset consisting of human preferences collected for training reward models."
+    },
+    "open_sourcing": ""
+}

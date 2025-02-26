@@ -1,0 +1,22 @@
+{
+    "title": "Pleno-Generation: A Scalable Generative Face Video Compression Framework with Bandwidth Intelligence",
+    "author": "Bolin Chen (City University of Hong Kong), Hanwei Zhu (Nanyang Technological University), Shanzhi Yin (City University of Hong Kong), Lingyu Zhu (City University of Hong Kong), Jie Chen (Alibaba Group), Ru-Ling Liao (Alibaba Group), Shiqi Wang (City University of Hong Kong), ..., Yan Ye (Alibaba Group)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed framework's focus on generative compression and bandwidth intelligence could inform methods for high-quality audio processing and generation, particularly in applications where video and audio are integrated, such as in visual storytelling or VR environments.",
+    "field": "Applications-Creative AI",
+    "background": "This research addresses video compression with an emphasis on maintaining high visual fidelity while managing bandwidth intelligently, particularly for generative models in face video coding.",
+    "contribution": "This paper introduces the Pleno-Generation (PGen) framework to solve the problem of limited bitrate coverage in generative video compression, achieving high-fidelity and faithful face video reconstruction.",
+    "technical_comparison": {
+        "prior_work": "Existing generative face video compression methods typically only perform well within a narrow bitrate range and can suffer from quality issues like temporal inconsistency.",
+        "novelty": "PGen significantly extends bitrate coverage and utilizes multi-granularity representations to improve robustness and quality, addressing the limitations seen in prior generative coding approaches."
+    },
+    "key_innovation": "Combines scalable representation and layered reconstruction to intelligently allocate bandwidth for improved video quality across various bitrates, representing a shift towards more flexible generative video codecs.",
+    "real_world_impact": "This work has the potential to enhance video communication platforms, enabling higher quality interactions in applications like teleconferencing or live streaming, especially as bandwidth varies.",
+    "limitations": "No explicit limitations were mentioned.",
+    "new_terms": {
+        "pleno-generation": "**Pleno-Generation** refers to a new framework designed for video compression that emphasizes comprehensive use of available bandwidth to optimize the quality of generative video outputs.",
+        "scalable representation": "**Scalable representation** involves creating video data that can be progressively refined during transmission to match varying bandwidth capacities."
+    },
+    "open_sourcing": ""
+}

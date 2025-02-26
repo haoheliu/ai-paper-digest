@@ -1,0 +1,22 @@
+{
+    "title": "LACTOSE: Linear Array of Conditions, TOpologies with Separated Error-backpropagation - The Differentiable \"IF\" Conditional for Differentiable Digital Signal Processing",
+    "author": "Christopher Johann Clarke (The University of Electro-Communications)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed LACTOSE algorithm focuses on enhancing neural network adaptability to conditions, which could have implications for audio processing models that require similar adaptable parameter exchanges based on condition inputs.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Integrating conditional statements within neural network models while ensuring effective backpropagation during training, especially useful in digital signal processing tasks.",
+    "contribution": "The paper introduces the LACTOSE algorithm to address challenges in using conditional statements in neural networks, achieving separated error backpropagation through conditionally stored parameters.",
+    "technical_comparison": {
+        "prior_work": "Many existing conditional models either require fixed computational graphs or suffer from gradient vanishing issues when passing through conditions.",
+        "novelty": "LACTOSE dynamically loads model parameters based on conditions, enabling adaptive learning without loss of information due to branching."
+    },
+    "key_innovation": "The algorithm's ability to store separate model parameters for different conditions and dynamically access them during training is a unique approach not widely adopted in current frameworks.",
+    "real_world_impact": "This innovation could enhance the robustness of machine learning models applied in real-time audio and signal processing applications, allowing for more efficient and accurate predictions.",
+    "limitations": "Currently limited to batch size of 1 during training, which may affect scalability and efficiency.",
+    "new_terms": {
+        "Differentiable Digital Signal Processing (DDSP)": "**Differentiable Digital Signal Processing (DDSP)** refers to the integration of differentiable methods within traditional signal processing tasks, enabling the use of gradient-based optimization in audio and signal processing.",
+        "Conditional Modelling (CM)": "**Conditional Modelling (CM)** encompasses techniques that incorporate conditions into model architecture to tailor outputs based on specific input criteria."
+    },
+    "open_sourcing": ""
+}

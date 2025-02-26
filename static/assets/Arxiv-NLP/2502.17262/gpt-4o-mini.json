@@ -1,0 +1,22 @@
+{
+    "title": "Unveiling Downstream Performance Scaling of LLMs: A Clustering-Based Perspective",
+    "author": "Chengyin Xu (Seed-LLM, ByteDance), Kaiyuan Chen (Seed-LLM, ByteDance), Xiao Li (Seed-LLM, ByteDance), Ke Shen (Seed-LLM, ByteDance), Chenggang Li (Seed-LLM, ByteDance), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed Clustering-On-Difficulty framework for predicting downstream performance of large language models could be adapted to improve audio-language models in terms of optimizing their training resources and enhancing prediction accuracy.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Predicting how well large language models will perform on various tasks based on smaller model performance, especially in contexts where task difficulty varies significantly.",
+    "contribution": "This paper introduces the Clustering-On-Difficulty framework to enhance predictions of downstream performance for large language models, achieving an absolute mean deviation of 1.36% on a 70B-parameter model.",
+    "technical_comparison": {
+        "prior_work": "Previous methods either failed to capture the emergent behaviors of large language models or struggled with high variability due to uneven task difficulties.",
+        "novelty": "This work improves upon prior methods by clustering tasks based on difficulty and deriving a mapping function for performance metrics, leading to more robust predictions."
+    },
+    "key_innovation": "The use of a clustering technique that filters out non-scalable and non-emergent tasks allows for improved prediction accuracy across a variety of downstream tasks.",
+    "real_world_impact": "This framework could substantially optimize the training and resource allocation of large language models, enhancing their applicability in real-world scenarios without extensive computational costs.",
+    "limitations": "The method relies on the assumption that clustered tasks follow similar scaling patterns, which might not hold true for highly diverse tasks.",
+    "new_terms": {
+        "emergence phenomenon": "**Emergence phenomenon** in large language models refers to the condition where the model's abilities are only realized after sufficient training, impacting performance predictions.",
+        "Clustering-On-Difficulty (COD)": "**Clustering-On-Difficulty** is a framework proposed to improve accuracy in predicting the performance of models by grouping tasks based on their difficulty levels."
+    },
+    "open_sourcing": ""
+}

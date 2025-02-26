@@ -1,0 +1,21 @@
+{
+    "title": "MQADet: A Plug-and-Play Paradigm for Enhancing Open-Vocabulary Object Detection via Multimodal Question Answering",
+    "author": "Caixiong Li (Qinghai Institute of Technology), Xiongwei Zhao (Harbin Institute of Technology), Jinhang Zhang (Harbin Institute of Technology), Xing Zhang (Qinghai University), Zhou Wu (Eryuan Digital Technology Co., Ltd.)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper introduces a multimodal question answering pipeline that could improve object detection accuracy, which can inform similar methodologies in audio-visual processing for generating or understanding audio from complex queries.",
+    "field": "Applications-Vision",
+    "background": "Open-vocabulary object detection is the task of identifying and classifying objects in images based on complex textual descriptions, including those not seen during training.",
+    "contribution": "MQADet introduces a plug-and-play paradigm leveraging multimodal question answering to improve open-vocabulary detection accuracy without extensive retraining, thereby addressing challenges like visual-textual misalignment and category imbalances.",
+    "technical_comparison": {
+        "prior_work": "Existing open-vocabulary detectors struggle with complex text alignment and often require retraining to integrate new categories.",
+        "novelty": "This work enhances detection capabilities by employing a structured three-stage model that integrates multimodal reasoning with existing object detectors, allowing seamless operation without additional training."
+    },
+    "key_innovation": "The method uniquely applies a three-stage process to effectively extract subjects from text, guide object positioning, and optimize object selection, thus addressing textual complexity in a modular workflow.",
+    "real_world_impact": "This approach provides a robust solution for various applications requiring dynamic object recognition, benefiting sectors like autonomous driving and surveillance, where understanding complex commands is critical.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "open-vocabulary detection": "**Open-vocabulary detection** refers to the capability of a model to identify and classify objects that were not represented in the training data, primarily through the interpretation of textual queries."
+    },
+    "open_sourcing": "The authors plan to publicly release their code."
+}

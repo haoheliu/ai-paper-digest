@@ -1,0 +1,22 @@
+{
+    "title": "Exploring Causes and Mitigation of Hallucinations in Large Vision Language Models",
+    "author": "Yaqi Sun (Kyoto University), Kyohei Atarashi (Kyoto University), Koh Takeuchi (Kyoto University), Hisashi Kashima (Kyoto University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods proposed in this study for detecting and mitigating hallucinations in Large Vision Language Models (LVLMs) may inspire analogous strategies in addressing similar issues in audio models, particularly in applications of audio captioning and generation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper investigates hallucinations in image captioning tasks where models generate descriptions that mismatch the input visuals, aiming to develop methods to reduce such inaccuracies.",
+    "contribution": "This paper introduces an automated pipeline for hallucination detection in LVLMs and a token-level classifier which together mitigate hallucination rates in generated captions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely heavily on training-based modifications or manual parameter tuning to adjust hallucination rates.",
+        "novelty": "This work utilizes a model-specific classifier trained on automatically labeled data, providing a lighter and more efficient framework to control hallucinations at inference time."
+    },
+    "key_innovation": "The development of a pipeline that employs multiple open-vocabulary object detection tools to automatically identify hallucinated content in image captions, coupled with a token-level classifier for on-the-fly evaluation.",
+    "real_world_impact": "This framework could improve the reliability of LVLM applications, particularly in domains requiring high accuracy in visual content descriptions, thus enhancing user trust and performance in real-world settings.",
+    "limitations": "The performance of the method may depend on the quality of the hallucination detection pipeline and classifier which are based on existing models.",
+    "new_terms": {
+        "hallucination in AI": "**Hallucination in AI** refers to the generation of content (text or descriptions) that does not align with the true input data, often leading to incorrect or misleading outputs.",
+        "token-level classifier": "**Token-level classifier** is a model that identifies which specific generated tokens in a sequence are likely to be hallucinated, allowing for targeted corrections."
+    },
+    "open_sourcing": ""
+}

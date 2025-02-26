@@ -1,0 +1,21 @@
+{
+    "title": "ThinkBench: Dynamic Out-of-Distribution Evaluation for Robust LLM Reasoning",
+    "author": "Shulin Huang (Zhejiang University), Linyi Yang (University College London), Yan Song (University College London), Shuang Chen (Zhejiang University), Leyang Cui (Westlake University), Ziyu Wan (Shanghai Jiao Tong University), Qingcheng Zeng (Northwestern University), ..., Yue Zhang (Westlake University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper discusses evaluation frameworks for large language models (LLMs), specifically focusing on reasoning capabilities, which could inform the development of improved evaluation methods in audio and speech tasks.",
+    "field": "Evaluation-Methodology",
+    "background": "The paper aims to create a benchmark that dynamically generates out-of-distribution datasets to assess the reasoning capabilities of large language models under different conditions.",
+    "contribution": "ThinkBench introduces a method for dynamic out-of-distribution dataset generation to evaluate reasoning in LLMs, achieving a robust assessment of model performance amidst potential data leakage.",
+    "technical_comparison": {
+        "prior_work": "Previous models often rely on static datasets prone to data contamination and do not effectively measure generalization performance.",
+        "novelty": "This work improves upon existing methods by dynamically generating challenging datasets that address issues of data leakage and testing the generalization of reasoning capabilities."
+    },
+    "key_innovation": "Employs dynamic generation techniques for semi-factual reasoning evaluation, allowing for robust testing against out-of-distribution scenarios.",
+    "real_world_impact": "The proposed framework can enhance the reliability of model evaluations in practical applications, improving performance assessments in fields that utilize LLMs for complex reasoning tasks.",
+    "limitations": "The focus is primarily on math and science reasoning tasks, limiting generalizability across other reasoning domains.",
+    "new_terms": {
+        "out-of-distribution (OOD)": "**Out-of-distribution (OOD)** refers to samples that differ from the training distribution, used to evaluate a model's robustness and generalization capabilities."
+    },
+    "open_sourcing": ""
+}

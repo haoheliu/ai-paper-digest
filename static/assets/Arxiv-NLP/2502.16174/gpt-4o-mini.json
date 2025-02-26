@@ -1,0 +1,22 @@
+{
+    "title": "Maybe I Should Not Answer That, But... Do Large Language Models Understand the Safety of Their Inputs?",
+    "author": "Maciej Chrab\u0142aszcz (NASK - National Research Institute), Bartosz W\u00f3jcik (Jagiellonian University), Filip Szatkowski (Warsaw University of Technology IDEAS NCBR), Jan Dubinski (Warsaw University of Technology IDEAS NCBR), Tomasz Trzcinski (Warsaw University of Technology Tooploox), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores methods to improve Large Language Model (LLM) safety, which can inform advancements in audio-language models by applying similar safety detection strategies in audio-related tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research investigates the effectiveness of safety classifiers in detecting unsafe prompts for Large Language Models, balancing between safe interactions and high-quality output generation.",
+    "contribution": "This paper introduces a two-step framework using a lightweight classifier to assess prompt safety prior to applying a safety-adapted LLM, achieving high safety detection performance with minimal impact on output quality.",
+    "technical_comparison": {
+        "prior_work": "Existing safety adaptation methods often compromise model performance or fail to generalize beyond training distributions.",
+        "novelty": "This approach distinguishes between safe and unsafe prompts for targeted safety adaptation, enhancing overall performance."
+    },
+    "key_innovation": "The final hidden state of LLMs is utilized for prompt safety detection, streamlining the classification process and mitigating performance trade-offs.",
+    "real_world_impact": "Improving safety mechanisms in LLMs can lead to safer AI interactions in real-world applications, enhancing user experience and trust.",
+    "limitations": "The reliance on prompt quality and the potential for false negatives in identifying unsafe prompts can limit the practical applicability of the approach.",
+    "new_terms": {
+        "safety classifier": "**Safety classifier** is a machine learning model designed to evaluate the safety of input prompts, distinguishing between safe and potentially harmful inputs.",
+        "LoRA (Low-Rank Adaptation)": "**LoRA** is a technique for efficiently adapting large pre-trained language models by only fine-tuning a small number of parameters, reducing computational costs in training."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Pointmap Association and Piecewise-Plane Constraint for Consistent and Compact 3D Gaussian Segmentation Field",
+    "author": "Wenhao Hu (ZJU-UIUC Institute, Zhejiang University), Wenhao Chai (University of Washington), Shengyu Hao (ZJU-UIUC Institute, Zhejiang University), Xiaotong Cui (ZJU-UIUC Institute, Zhejiang University), Xuexiang Wen (ZJU-UIUC Institute, Zhejiang University), Jenq-Neng Hwang (University of Washington), Gaoang Wang (ZJU-UIUC Institute, Zhejiang University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques for segmentation and point cloud optimization could inspire novel methods for improving audio signal processing and sound event detection through spatial-temporal analysis.",
+    "field": "Applications-Vision",
+    "background": "The task involves creating a 3D segmentation field for scenes represented in images, ensuring that object identities remain consistent across different views.",
+    "contribution": "This paper introduces CCGS, a method that integrates pointmap association and a piecewise-plane constraint to address segmentation inconsistencies, achieving enhanced segmentation accuracy and compactness in 3D scenes.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often fail to maintain segmentation consistency in challenging views and do not integrate optimization with semantic information effectively.",
+        "novelty": "This work implements a piecewise-plane constraint to improve structural integrity during optimization, reducing issues like floating points and ambiguous boundaries."
+    },
+    "key_innovation": "Combining spatial pixel correspondence with local plane constraints to optimize a 3D Gaussian segmentation field, ensuring consistent object identities across multiple views.",
+    "real_world_impact": "The proposed method enhances 3D scene analysis applications, which could be useful in fields like robotics and augmented reality. No immediate real-world impact is stated but the framework indicates potential practical applications.",
+    "limitations": "The authors did not explicitly mention any limitations in the paper.",
+    "new_terms": {
+        "pointmap": "**Pointmap** refers to a dense mapping of 2D image pixels to their corresponding 3D coordinates, providing spatial relationships essential for segmentation tasks.",
+        "piecewise-plane constraint": "**Piecewise-plane constraint** involves fitting local planes to groups of points in order to maintain structural integrity during optimization processes."
+    },
+    "open_sourcing": "Project Page: https://whuechoscript.github.io/CCGS"
+}

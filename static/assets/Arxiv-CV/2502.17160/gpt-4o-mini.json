@@ -1,0 +1,21 @@
+{
+    "title": "A Pragmatic Note on Evaluating Generative Models with Fr\u00e9chet Inception Distance for Retinal Image Synthesis",
+    "author": "Yuli Wu (Institute of Imaging & Computer Vision, RWTH Aachen University), Fucheng Liu (Institute of Imaging & Computer Vision, RWTH Aachen University), R\u00fcveyda Yilmaz (Institute of Imaging & Computer Vision, RWTH Aachen University), Henning Konermann (Institute of Imaging & Computer Vision, RWTH Aachen University), Peter Walter (Department of Ophthalmology, RWTH Aachen University), Johannes Stegmaier (Institute of Imaging & Computer Vision, RWTH Aachen University)",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper evaluates generative models for retinal image synthesis using the Fr\u00e9chet Inception Distance (FID) and discusses its limitations in aligning with downstream task performance.",
+    "contribution": "This paper introduces a critical examination of FID as a generative model evaluation metric, emphasizing the need for metrics aligned with practical applications in downstream tasks.",
+    "technical_comparison": {
+        "prior_work": "Traditional metrics like FID are widely used but often misalign with task-specific performance metrics in the biomedical field.",
+        "novelty": "This work highlights inconsistencies between commonly used evaluation metrics and actual application performance, suggesting that downstream task assessment is a superior evaluation approach."
+    },
+    "key_innovation": "It underscores the disconnect between generative model evaluation metrics and their efficacy in real-world applications, advocating for prioritizing task performance in evaluations.",
+    "real_world_impact": "This study could influence how researchers evaluate generative models in medical imaging, potentially leading to improved outcomes in training for specific biomedical tasks.",
+    "limitations": "The paper may not consider all generative evaluation metrics beyond those discussed, potentially overlooking other relevant methodologies.",
+    "new_terms": {
+        "Fr\u00e9chet Inception Distance (FID)": "**Fr\u00e9chet Inception Distance (FID)** is a metric that measures the difference between two probability distributions \u2014 real and generated images \u2014 based on their features extracted from a neural network."
+    },
+    "open_sourcing": ""
+}

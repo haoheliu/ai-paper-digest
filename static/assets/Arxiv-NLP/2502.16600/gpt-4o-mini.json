@@ -1,0 +1,21 @@
+{
+    "title": "Revealing the Pragmatic Dilemma for Moral Reasoning Acquisition in Language Models",
+    "author": "Guangliang Liu (Michigan State University), Lei Jiang (University of Illinois), Xitong Zhang (Michigan State University), Kristen Marie Johnson (Michigan State University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The exploration of moral reasoning acquisition in language models can inform how audio models can integrate ethical concerns and improve their contextual decision-making aspects, relevant for tasks such as audio generation and manipulation where ethical considerations might apply.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This study investigates the acquisition of moral reasoning capabilities in large language models, emphasizing the challenges these models face due to the pragmatic nature of moral discourse.",
+    "contribution": "This paper introduces the concept of the *pragmatic dilemma*, which affects how models generalize moral reasoning based on their training data, highlighting limitations in existing models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused mainly on fine-tuning language models using curated datasets to improve moral reasoning.",
+        "novelty": "This work identifies that improvements in moral reasoning performance still largely depend on distributional semantics rather than a true understanding of morality."
+    },
+    "key_innovation": "The notion of the *pragmatic dilemma* adds a new dimension to the understanding of moral reasoning in AI, emphasizing the gap between pragmatic moral considerations and empirical training.",
+    "real_world_impact": "By better understanding moral reasoning in AI, this work can lead to safer and more aligned AI applications in sensitive areas, such as healthcare and education.",
+    "limitations": "The framework primarily focuses on single moral foundation cases, leaving the exploration of multi-foundation scenarios for future research.",
+    "new_terms": {
+        "pragmatic dilemma": "**Pragmatic dilemma** refers to the challenges faced by language models in applying moral reasoning, stemming from the inherent differences between the distributional semantics captured by these models and the pragmatic nature of moral discourse."
+    },
+    "open_sourcing": ""
+}

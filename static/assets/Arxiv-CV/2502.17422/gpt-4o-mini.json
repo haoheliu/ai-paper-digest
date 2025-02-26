@@ -1,0 +1,22 @@
+{
+    "title": "MLLMS KNOW WHERE TO LOOK: TRAINING-FREE PERCEPTION OF SMALL VISUAL DETAILS WITH MULTIMODAL LLMS",
+    "author": "Jiarui Zhang (University of Southern California), Mahyar Khayatkhoei (University of Southern California), Prateek Chhikara (University of Southern California), Filip Ilievski (Vrije Universiteit Amsterdam), ..., Team et al. (Vrije Universiteit Amsterdam)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed methods for enhancing the perception of small visual details using multimodal large language models could inspire new approaches for audio-visual integration and improve audio synthesis tasks involving visual information.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research investigates whether multimodal large language models can accurately perceive small visual details in images and proposes methods to enhance this capability without retraining.",
+    "contribution": "This work introduces automatic visual cropping techniques utilizing attention and gradient maps to resolve the perception limitations of multimodal large language models, demonstrating significant accuracy improvements.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled with recognizing small visual details, often deteriorating in performance based on object size.",
+        "novelty": "This paper enhances performance through training-free methods leveraging internal model states, providing a scalable solution to perception challenges."
+    },
+    "key_innovation": "The use of the model's own attention and gradient insights to create bounding boxes that focus on small visual elements allows for a smart application of existing knowledge without additional training.",
+    "real_world_impact": "This research could improve various applications that rely on visual understanding, such as robotics and autonomous vehicles, enhancing their capability to interact with the environment more accurately.",
+    "limitations": "The methods primarily focus on enhancing perception for single regions and may not effectively address questions requiring multiple visual references simultaneously.",
+    "new_terms": {
+        "multimodal large language models": "**Multimodal large language models** are advanced AI models capable of processing and integrating information across various modes, including text and visual data.",
+        "visual cropping": "**Visual cropping** refers to the technique of selectively resizing and focusing on a specific region of an image to improve the performance of models in recognizing visual details."
+    },
+    "open_sourcing": "Our code is available at https://github.com/saccharomycetes/mllms_know"
+}

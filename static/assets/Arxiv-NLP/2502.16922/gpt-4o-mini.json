@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking Temporal Reasoning and Alignment Across Chinese Dynasties",
+    "author": "Zhenglin Wang (School of Computer Science and Engineering, Southeast University), Jialong Wu (School of Computer Science and Engineering, Southeast University), Pengfei Li (School of Computer Science and Engineering, Southeast University), Yong Jiang (Tongyi Lab, Alibaba Group), Deyu Zhou (School of Computer Science and Engineering, Southeast University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The benchmark developed could facilitate advancements in audio-language alignment by improving contextually grounded reasoning through temporal awareness, which could be useful in tasks involving historical narratives in audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Assessing temporal reasoning capabilities of models using a benchmark that focuses on Chinese dynastic chronology through various question-answering tasks.",
+    "contribution": "This paper introduces the Chinese Time Reasoning (CTM) benchmark to evaluate temporal reasoning in large language models, achieving a structured evaluation across historically grounded questions.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks mainly rely on rule-based structures with limited contextual understanding and temporal scope.",
+        "novelty": "CTM leverages a large repository of culturally relevant entities and contextualized reasoning, enhancing evaluation depth and breadth."
+    },
+    "key_innovation": "The emphasis on cross-entity relationships and collaboration through a game-like format makes this benchmark unique.",
+    "real_world_impact": "The benchmark aims to enhance understanding in cultural contexts, potentially benefiting applications in media storytelling and educational tools. Additionally, it provides insights into improving large language models' temporal reasoning.",
+    "limitations": "The authors acknowledge potential biases in the dataset construction and limitations in the ability of smaller models to grasp temporal relationships effectively.",
+    "new_terms": {
+        "Chinese Time Reasoning (CTM)": "**Chinese Time Reasoning (CTM)** is a benchmark designed to evaluate the temporal reasoning capabilities of large language models within the context of Chinese history and cultural contexts.",
+        "Timeline Ito Game": "**Timeline Ito Game** is an interactive reasoning task designed to assess collaborative temporal reasoning among participants regarding historical entities."
+    },
+    "open_sourcing": "Code and dataset available at https://github.com/Linking-ai/ctm_bench"
+}

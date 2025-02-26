@@ -1,0 +1,22 @@
+{
+    "title": "Speech Enhancement Using Continuous Embeddings of Neural Audio Codec",
+    "author": "Haoyang Li (Nanyang Technological University), Tianyu Fan (Nanyang Technological University), Jia Qi Yip (Nanyang Technological University), Eng Siong Chng (Nanyang Technological University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper's focus on speech enhancement using a Neural Audio Codec aligns closely with Dr. Liu's research on audio quality enhancement and restoration, particularly in developing innovative methods for improving speech signals in noisy environments.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speech enhancement involves improving speech signals by reducing noise and distortion, often using advanced deep learning techniques.",
+    "contribution": "This paper introduces a novel approach to speech enhancement by leveraging pre-quantization outputs from a Neural Audio Codec, achieving significant efficiency in computational requirements and comparable results to baseline models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods utilized discrete speech tokens and complicated language models for speech enhancement, which tended to be computationally expensive.",
+        "novelty": "This work stands out by performing enhancement directly in the continuous embedding space of the Neural Audio Codec, resulting in a substantial reduction in complexity and improving real-time processing capabilities."
+    },
+    "key_innovation": "The use of a lightweight speech enhancement module operating on compressed continuous embeddings, which allows for fast processing while maintaining high quality.",
+    "real_world_impact": "The framework could significantly improve speech clarity and usability in real-time applications such as telecommunications and cloud-based audio processing, addressing challenges in current enhancement methods.",
+    "limitations": "The dataset used for training is relatively small compared to other state-of-the-art models, which may affect generalization across diverse acoustic environments.",
+    "new_terms": {
+        "Neural Audio Codec": "**Neural Audio Codec** refers to a model that compresses audio data into a smaller representation while retaining key information necessary for quality reconstruction, allowing for efficient transmission.",
+        "embedding-level loss": "**Embedding-level loss** is a loss function designed to optimize the model's performance in the latent space of a codec, improving the overall quality of the speech enhancement process."
+    },
+    "open_sourcing": ""
+}

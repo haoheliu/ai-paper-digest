@@ -1,0 +1,23 @@
+{
+    "title": "PlanGEN: A Multi-Agent Framework for Generating Planning and Reasoning Trajectories for Complex Problem Solving",
+    "author": "Mihir Parmar (Arizona State University), Xin Liu (Google), Palash Goyal (Google), Yanfei Chen (Google), Long Le (Google), Swaroop Mishra (Google), Hossein Mobahi (Google), Jindong Gu (Google), ..., Hamid Palangi (Google)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The multi-agent framework focuses on problem-solving and planning, which could enhance aspects of audio-related task generation and reasoning, particularly in coordinating tasks and optimizing audio generation workflows.",
+    "field": "Applications-Creative AI",
+    "background": "Generating effective natural plans to address complex problem-solving in various domains such as scientific and financial reasoning.",
+    "contribution": "This paper introduces a multi-agent framework, PlanGEN, to address complex planning and reasoning tasks, achieving significant performance improvements over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with verifying plans or reasoning accurately, typically relying on template-based solutions that lack adaptability.",
+        "novelty": "PlanGEN integrates constraint, verification, and selection agents that enhance the adaptability and performance of inference-time algorithms."
+    },
+    "key_innovation": "Combines distinct agent roles to guide planning and reasoning through a feedback loop that optimizes algorithm selection based on task complexity.",
+    "real_world_impact": "The framework has the potential to improve complex reasoning capabilities in AI systems, thus aiding applications in areas like resource management, project planning, and AI-driven creative processes.",
+    "limitations": "The authors mention potential computational overhead and the reliance on predefined heuristics for algorithm selection as areas needing further optimization.",
+    "new_terms": {
+        "constraint agent": "**Constraint agent** refers to a component that identifies specific limitations and rules necessary for evaluating planning tasks.",
+        "verification agent": "**Verification agent** evaluates the quality and feasibility of generated plans against the established constraints.",
+        "selection agent": "**Selection agent** dynamically chooses the most suitable inference algorithm based on historical and current task complexity."
+    },
+    "open_sourcing": ""
+}

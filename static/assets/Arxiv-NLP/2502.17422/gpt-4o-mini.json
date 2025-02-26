@@ -1,0 +1,22 @@
+{
+    "title": "MLLMs Know Where to Look: Training-Free Perception of Small Visual Details with Multimodal LLMs",
+    "author": "Jiarui Zhang (University of Southern California), Mahyar Khayatkhoei (Vrije Universiteit Amsterdam), Prateek Chhikara (University of Southern California), Filip Ilievski (Vrije Universiteit Amsterdam), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper's findings about enhancing perception of small visual details in images could inform methodologies for audio-visual tasks, particularly in linking images and audio contexts.",
+    "field": "Applications-Vision",
+    "background": "Analyzing how well Multimodal Large Language Models can identify small visual details in images while answering related questions.",
+    "contribution": "This paper introduces training-free visual cropping methods to enhance perception of small visual details, achieving significant improvements in accuracy without the need for additional training.",
+    "technical_comparison": {
+        "prior_work": "Previous models often struggled with small visual components, showing decreased accuracy without tailored interventions.",
+        "novelty": "This work utilizes internal attention mechanisms to perform visual cropping dynamically, improving detail perception without model retraining."
+    },
+    "key_innovation": "Employs existing model attention maps and gradients to inform automated visual cropping strategies, enhancing rapid and effective detection of small visual details.",
+    "real_world_impact": "Improved visual recognition accuracy in applications such as security and healthcare, which rely on precise detail recognition, enhancing overall reliability.",
+    "limitations": "The proposed visual cropping methods may not significantly improve models on tasks requiring global understanding of images. Additionally, the time overhead for cropping techniques might still be a concern.",
+    "new_terms": {
+        "Multimodal Large Language Models (MLLMs)": "**Multimodal Large Language Models** are advanced AI systems capable of processing and understanding both text and image data simultaneously.",
+        "visual cropping": "**Visual cropping** refers to the technique of isolating and focusing on a specific area of an image to improve recognition performance in visual tasks."
+    },
+    "open_sourcing": "Code available at https://github.com/saccharomycetes/mllms_know"
+}

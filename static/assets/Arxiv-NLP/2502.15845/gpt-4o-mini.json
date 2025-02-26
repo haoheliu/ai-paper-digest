@@ -1,0 +1,21 @@
+{
+    "title": "Verify when Uncertain: Beyond Self-Consistency in Black Box Hallucination Detection",
+    "author": "Yihao Xue (University of California, Los Angeles), Kristjan Greenewald (MIT-IBM Watson AI Lab), Youssef Mroueh (IBM Research), Baharan Mirzasoleiman (University of California, Los Angeles), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper's exploration of hallucination detection methods has potential applications in audio and speech domains, especially in ensuring the accuracy of generated content.",
+    "field": "Applications-Language",
+    "background": "The paper addresses hallucinations in large language models (LLMs), where generated responses appear plausible but contain inaccuracies, particularly in black-box settings.",
+    "contribution": "This paper introduces a budget-friendly, two-stage detection algorithm that combines self-consistency and cross-model consistency with verifier models to improve hallucination detection performance.",
+    "technical_comparison": {
+        "prior_work": "Existing methods have primarily relied on self-consistency-based approaches that are close to ceiling performance.",
+        "novelty": "This work advances detection by integrating a verifier model, demonstrating improved performance over self-consistency alone."
+    },
+    "key_innovation": "The method uniquely balances computational efficiency with improved detection accuracy through selective use of cross-model consistency.",
+    "real_world_impact": "The proposed approach could enhance the reliability of LLMs in practical applications across various domains, potentially reducing the risks associated with misinformation.",
+    "limitations": "The necessity for model selection and the computational overhead for the verifier model could restrict usability in certain contexts.",
+    "new_terms": {
+        "black-box setting": "**Black-box setting** refers to scenarios where the internal workings of the model are not accessible, and only the inputs and outputs are observable."
+    },
+    "open_sourcing": ""
+}

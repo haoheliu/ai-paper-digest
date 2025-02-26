@@ -1,0 +1,22 @@
+{
+    "title": "Evaluating Expert Contributions in a MoE LLM for Quiz-Based Tasks",
+    "author": "Andrei Chernov (Independent Researcher)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper analyzes expert contributions in a Mixture of Experts (MoE) model, which could inform optimization strategies for audio generation models. Insights on expert activation and accuracy can enhance performance in tasks similar to audio manipulation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Investigating the activation and performance of individual experts in a Mixture of Experts model during quiz-based evaluations.",
+    "contribution": "This paper introduces a comprehensive evaluation of expert contributions in a large language model, uncovering patterns that reveal most experts remain inactive during inference, which could inform improved model training strategies.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focus on MoE configurations but often overlook the post-evaluation analysis of expert contributions after training.",
+        "novelty": "This work performs a comparative analysis of expert activation and performance, providing a unique focus on output distribution uniformity versus sparsity."
+    },
+    "key_innovation": "Reveals that the gating output distribution is closer to uniform rather than sparse, impacting expert activation across model layers.",
+    "real_world_impact": "Findings could lead to more efficient training practices for LLMs, potentially making them more adaptable and quicker in quiz-based settings. Such optimizations are relevant across various AI applications, including audio and speech tasks.",
+    "limitations": "The study is limited to a single model and benchmark, which may restrict the generalizability of findings to other LLMs.",
+    "new_terms": {
+        "Mixture of Experts (MoE)": "**Mixture of Experts (MoE)** is a neural network architecture that activates only a subset of parameters (experts) for a given input, allowing for more efficient computation while maintaining performance.",
+        "Top-K gating mechanism": "**Top-K gating mechanism** is a selection process in MoE models that activates only the top K experts based on their probability scores for a given task."
+    },
+    "open_sourcing": "The OLMoE model is available at https://huggingface.co/allenai/OLMoE-1B-7B-0125-Instruct"
+}

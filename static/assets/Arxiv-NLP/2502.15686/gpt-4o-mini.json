@@ -1,0 +1,22 @@
+{
+    "title": "V-SQL: A View-based Twostage Text-to-SQL Framework",
+    "author": "Zeshun You (Guangzhou Huaweisoft Co. Ltd), Jiebin Yao (Guangzhou Huaweisoft Co. Ltd), Dong Cheng (Guangzhou Huaweisoft Co. Ltd), Zhiwei Wen (Guangzhou Huaweisoft Co. Ltd), Zhiliang Lu (Guangzhou Huaweisoft Co. Ltd), Xianyi Shen (Guangzhou Huaweisoft Co. Ltd), ..., Xianyi Shen (Guangzhou Huaweisoft Co. Ltd)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The framework introduces a novel view-based approach that simplifies complex data relationships, which could help in large-scale audio data management and integrate database interactions for tasks like audio captioning.",
+    "field": "Applications-Language",
+    "background": "Converting natural language queries into executable SQL statements enables easier access to databases for users without technical skills.",
+    "contribution": "V-SQL introduces a two-stage text-to-SQL framework and a novel view-based schema strategy to address the hallucination problem in Large Language Models (LLMs), achieving competitive performance on the Bird dataset.",
+    "technical_comparison": {
+        "prior_work": "Existing LLM-based text-to-SQL methods struggle with complex foreign key relationships in databases, leading to incorrect mappings during schema linking.",
+        "novelty": "This work improves upon previous methods by utilizing view-based schemas to decouple table relationships, reducing hallucinations and improving SQL generation accuracy."
+    },
+    "key_innovation": "The introduction of view-based schemas simplifies the schema by merging related tables into views, thereby helping LLMs to correctly interpret the database structure.",
+    "real_world_impact": "This framework could facilitate more accurate SQL generation from natural language queries, enhancing user experiences in data querying applications and possibly benefiting AI-driven customer service or reporting tools.",
+    "limitations": "The design of table mappings currently requires manual effort.",
+    "new_terms": {
+        "view-based schema": "**View-based schema** refers to the creation of virtual tables that simplify complex database relationships, allowing for easier data manipulation without directly using original tables.",
+        "LLMs": "**Large Language Models** are neural network architectures trained on vast text datasets that can perform various language-related tasks, such as text generation and understanding."
+    },
+    "open_sourcing": ""
+}

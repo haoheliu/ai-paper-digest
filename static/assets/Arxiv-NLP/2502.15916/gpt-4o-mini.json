@@ -1,0 +1,22 @@
+{
+    "title": "The Esethu Framework: Reimagining Sustainable Dataset Governance and Curation for Low-Resource Languages",
+    "author": "Jenalea Rajab (Lelapa AI), Anuoluwapo Aremu (Lelapa AI), Everlyn Asiko Chimoto (Lelapa AI), Dale Dunbar (Way With Words), Graham Morrissey (Way With Words), Fadel Thior (Lelapa AI), Luandrie Potgieter (Lelapa AI), ..., Benjamin Rosman (RAIL Lab \u2013 University of the Witwatersrand)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The framework discusses sustainable data curation and licensing, which could inform ethical data practices in Haohe Liu\u2019s audio-related research, especially concerning data ownership and empowerment of local communities.",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "Creating automatic speech recognition systems requires high-quality speech datasets, but low-resource languages often suffer from data scarcity and exploitation of creators.",
+    "contribution": "This paper introduces the Esethu Framework to solve the sustainable governance of datasets for low-resource languages, achieving community empowerment and economic benefits for data creators.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on data acquisition for machine learning without giving due consideration for community benefits or ethical licensing.",
+        "novelty": "This work establishes a comprehensive framework that reinvests licensing revenues back into dataset development while maintaining community ownership."
+    },
+    "key_innovation": "Integrates a self-sustaining economic model for data curation where local communities directly benefit from their linguistic resources.",
+    "real_world_impact": "This framework could transform the landscape for low-resource languages in data technology, promoting fairness and inclusivity in speech technology while fostering local economic growth.",
+    "limitations": "No",
+    "new_terms": {
+        "Esethu Framework": "**Esethu Framework** refers to a model designed for sustainable governance and ethical curation of datasets, focusing on community involvement and benefit-sharing.",
+        "automatic speech recognition (ASR)": "**Automatic Speech Recognition (ASR)** is a technology that enables the conversion of spoken language into text by machines."
+    },
+    "open_sourcing": "The Vuk'uzenzele isiXhosa Speech Dataset is available under the Esethu License."
+}

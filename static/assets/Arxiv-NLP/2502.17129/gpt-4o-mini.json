@@ -1,0 +1,22 @@
+{
+    "title": "Thus Spake Long-Context Large Language Model",
+    "author": "Xiaoran Liu (Shanghai AI Lab), Ruixiao Li (School of Computer Science Fudan University), Mianqiu Huang (School of Computer Science Fudan University), Zhigeng Liu (School of Computer Science Fudan University), Yuerong Song (School of Computer Science Fudan University), Qipeng Guo (Shanghai AI Lab), Siyang He (School of Computer Science Fudan University), Xipeng Qiu (Shanghai AI Lab)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores long-context capabilities of Large Language Models (LLMs), which can be adapted to enhance audio representation tasks through better context understanding, potentially improving audio generation frameworks like AudioLDM.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The research focuses on extending the context capacity of Large Language Models, addressing performance and efficiency challenges as context length increases.",
+    "contribution": "This survey introduces a comprehensive framework for understanding long-context LLMs from multiple perspectives, showcasing advances in architectures, infrastructure, training, and evaluation.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches primarily addressed limited context lengths, often neglecting comprehensive lifecycle considerations for extended contexts.",
+        "novelty": "This work presents an integrated overview across architectural techniques and evaluation metrics for long-context capabilities, enabling better-informed model optimizations."
+    },
+    "key_innovation": "Offers a holistic view of long-context technologies in LLMs, emphasizing both architectural advancements and practical applications in various learning stages.",
+    "real_world_impact": "The findings may enhance applications requiring extensive contextual processing, potentially improving user interactions in AI systems and enabling novel applications in generative tasks.",
+    "limitations": "The survey highlights ten unresolved questions in the realm of long-context LLMs but does not provide solutions or empirical evidence addressing these gaps.",
+    "new_terms": {
+        "long-context": "**Long-context** refers to the capacity of a model to understand and process longer sequences of information, significantly affecting its performance across different tasks.",
+        "Key-Value (KV) cache": "**Key-Value cache** is a mechanism in Transformers allowing the model to retrieve previously computed data efficiently, essential for optimizing memory usage in long-context processing."
+    },
+    "open_sourcing": ""
+}

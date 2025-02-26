@@ -1,0 +1,22 @@
+{
+    "title": "Multi-Target Federated Backdoor Attack Based on Feature Aggregation",
+    "author": "Lingguag Hao (Donghua University), Kuangrong Hao (Donghua University), Bing Wei (Donghua University), Xue-song Tang (Donghua University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method of feature aggregation and intra-class attacks for backdoor triggers could be adapted to enhance the robustness of audio generation models, especially in tasks where data integrity is crucial.",
+    "field": "General Machine Learning-Unsupervised Learning",
+    "background": "Federated backdoor attacks aim to manipulate training data across distributed clients, leading to a compromised global model that misclassifies specific inputs with hidden triggers.",
+    "contribution": "This paper introduces the Multi-Target Federated Backdoor Attack (MT-FBA) to solve the limitations of traditional patch-based attacks, achieving a backdoor attack success rate of 77.39%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on fixed trigger patches and do not effectively capture data distribution among clients, resulting in low success rates and high detectability.",
+        "novelty": "This work improves by utilizing feature aggregation for trigger training and minimizing pixel boundaries, allowing for dynamic trigger diversity across multiple target classes."
+    },
+    "key_innovation": "Employs feature aggregation to create backdoor triggers consistent with input images and develops triggers for multiple target classes simultaneously.",
+    "real_world_impact": "Enhances the stealth and effectiveness of backdoor attacks in federated learning systems, potentially impacting security mechanisms in various machine learning applications.",
+    "limitations": "The method's effectiveness is contingent on the number of compromised clients, which could limit its applicability in less compromised environments.",
+    "new_terms": {
+        "intra-class attack": "**Intra-class attack** refers to the strategy of generating backdoor triggers for each class separately to improve the effectiveness of the backdoor attack.",
+        "feature aggregation": "**Feature aggregation** involves combining learned features from multiple clients to create a more singular and comprehensive model representation."
+    },
+    "open_sourcing": ""
+}

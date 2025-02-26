@@ -1,0 +1,21 @@
+{
+    "title": "CODESYNC: Synchronizing Large Language Models with Dynamic Code Evolution at Scale",
+    "author": "Chenlong Wang (Huazhong University of Science and Technology), Zhaoyang Chu (Huazhong University of Science and Technology), Zhengxiang Cheng (Huazhong University of Science and Technology), Xuyi Yang (Wuhuan University), Kaiyue Qiu (Huazhong University of Science and Technology), Yao Wan (Huazhong University of Science and Technology), Zhou Zhao (Zhejiang University), Xuanhua Shi (Huazhong University of Science and Technology), Dongping Chen (Huazhong University of Science and Technology)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The benchmarking of Large Language Models (LLMs) in handling code updates could inform approaches to improve audio-related programming tasks, especially in audio-language models where API evolution may similarly affect functionality.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Assessing the adaptability of large language models to evolving API knowledge from third-party libraries in software engineering.",
+    "contribution": "CODESYNC introduces a systematic method for real-time collection of code updates to benchmark LLMs against the evolving API landscape, achieving the identification of over 6,000 API updates and a comprehensive assessment structure with 3,300 test cases.",
+    "technical_comparison": {
+        "prior_work": "Previous models evaluated API updates without considering real-world changes, often relying on synthetic data.",
+        "novelty": "This work employs a real-time data engine for systematic tracking of API changes and interaction with actual code, enhancing the LLMs' ability to generate accurate and up-to-date code."
+    },
+    "key_innovation": "Provides a dynamic framework that not only benchmarks API adaptation but also synthesizes new code invocations based on authentic data from live software environments.",
+    "real_world_impact": "Potentially improves the reliability of automated coding tools for developers by ensuring generated code remains compatible with the latest library APIs, thus enhancing productivity.",
+    "limitations": "The authors note that there are challenges related to the performance of models and the complexity of some API usage, particularly method APIs.",
+    "new_terms": {
+        "Dynamic Code Evolution": "**Dynamic code evolution** refers to the ongoing modifications and updates made to software libraries and frameworks, which can affect code usability and performance."
+    },
+    "open_sourcing": "The experimental code and dataset are publicly available at: https://github.com/Lucky-voyage/Code-Sync"
+}

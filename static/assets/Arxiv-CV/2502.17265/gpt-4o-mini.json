@@ -1,0 +1,22 @@
+{
+    "title": "Continuous Wrist Control on the Hannes Prosthesis: a Vision-based Shared Autonomy Framework",
+    "author": "Federico Vasile (Istituto Italiano di Tecnologia), Elisa Maiettini (Istituto Italiano di Tecnologia), Giulia Pasquale (Istituto Italiano di Tecnologia), Nicolo Boccardo (Istituto Italiano di Tecnologia), Lorenzo Natale (Istituto Italiano di Tecnologia), ..., M. Laffranchi (Istituto Italiano di Tecnologia)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents an innovative approach to continuous control of prosthetic devices using vision, which may inspire methodologies for audio-visual integration in sound generation tasks.",
+    "field": "Applications-Vision",
+    "background": "The study focuses on enhancing prosthetic grasping by using a vision-based system that allows for shared control between the user and the prosthesis, improving natural movements during object manipulation.",
+    "contribution": "This paper introduces a vision-based shared autonomy framework for controlling wrist motions in prosthetic arms to improve natural grasping, achieving a significant reduction in cognitive load during use.",
+    "technical_comparison": {
+        "prior_work": "Previous prosthetic control systems primarily relied on switching modes for different degrees of freedom, limiting intuitive user control.",
+        "novelty": "This work offers a continuous grasping pipeline that integrates vision and user intent, allowing for smoother and more natural interactions."
+    },
+    "key_innovation": "The combination of real-time visual servoing and user-triggered configuration enhances the responsiveness and adaptability of prosthetic devices during grasping tasks.",
+    "real_world_impact": "The proposed system has the potential to significantly improve the quality of life for prosthetic users by making control more intuitive and reducing the physical strain associated with compensatory movements.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "shared autonomy": "**Shared autonomy** refers to a collaborative control approach where both the user and an automated system share control over a device to enhance performance.",
+        "visual servoing": "**Visual servoing** is a technique used in robotics where visual information is used to control the motion of a robot in real-time."
+    },
+    "open_sourcing": "Code and videos are available at https://hsp-iit.github.io/hannes-wrist-control"
+}

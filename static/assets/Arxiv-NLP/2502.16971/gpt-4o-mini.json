@@ -1,0 +1,22 @@
+{
+    "title": "LongSafety: Evaluating Long-Context Safety of Large Language Models",
+    "author": "Yida Lu (Tsinghua University), Jiale Cheng (Tsinghua University), Zhexin Zhang (Tsinghua University), Shiyao Cui (Tsinghua University), Cunxiang Wang (Zhipu AI), Xiaotao Gu (Zhipu AI), Yuxiao Dong (Tsinghua University), Jie Tang (Tsinghua University), Hongning Wang (Tsinghua University), Minlie Huang (Tsinghua University)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper explores large language models (LLMs) and their safety regarding long-context tasks, which could have implications for natural language processing in audio and multimodal contexts.",
+    "field": "Applications-Language",
+    "background": "Evaluating the safety of large language models in generating responses based on long text inputs to identify potential risks and vulnerabilities.",
+    "contribution": "The LongSafety benchmark introduces a comprehensive evaluation framework for assessing the safety of large language models in long-context tasks, revealing significant safety vulnerabilities in various models.",
+    "technical_comparison": {
+        "prior_work": "Previous safety benchmarks typically focused on short-context interactions, limiting their applicability to long-context scenarios.",
+        "novelty": "This research addresses that gap by creating a specific benchmark for long-context safety evaluation, utilizing a multi-agent evaluation system yielding high accuracy."
+    },
+    "key_innovation": "Uses a multi-agent framework that collaboratively assesses model responses by analyzing risks, summarizing contexts, and synthesizing evaluations to precisely determine safety outcomes.",
+    "real_world_impact": "The benchmark can significantly enhance the safety of language models in critical applications, advancing their deployment in real-world scenarios where long contexts are prevalent.",
+    "limitations": "The framework has limitations concerning the scalability and focus on specific task types, potentially missing other safety scenarios.",
+    "new_terms": {
+        "Long-context safety": "**Long-context safety** refers to the evaluation of large language models' ability to generate safe and appropriate content when processing lengthy inputs, which may amplify risks.",
+        "multi-agent framework": "**Multi-agent framework** describes a system where multiple specialized agents collaborate to analyze and evaluate complex interactions, improving precision and robustness in assessments."
+    },
+    "open_sourcing": "Code and data are available at https://github.com/thu-coai/LongSafety"
+}

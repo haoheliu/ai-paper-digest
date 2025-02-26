@@ -1,0 +1,22 @@
+{
+    "title": "VidLBEval: Benchmarking and Mitigating Language Bias in Video-Involved LVLMs",
+    "author": "Yiming Yang (Nanyang Technological University), Yangyang Guo (National University of Singapore), Hui Lu (Nanyang Technological University), Yan Wang (Sichuan University), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The methods proposed for mitigating language bias in multimodal models could inform approaches in audio-language integration tasks, especially for audio captioning and generative audio applications.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This research focuses on assessing and reducing language bias in video-involved large vision-language models, which can affect their performance in accurately interpreting video content.",
+    "contribution": "This paper introduces the VidLBEval benchmark and a Multi-branch Contrastive Decoding (MCD) method to solve language bias, achieving improved performance in video understanding tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks primarily target image-based models and do not assess language bias in video models. Previous methods mainly improve visual interpretation without addressing how language biases affect output.",
+        "novelty": "This work introduces a dedicated benchmark for video models and a new decoding strategy that incorporates multiple expert branches to emphasize video content over biased textual interpretations."
+    },
+    "key_innovation": "The study's MCD framework effectively combines expert branches that focus on language and video information, allowing for balanced processing of multimodal inputs.",
+    "real_world_impact": "The findings could enhance the reliability and performance of video analysis applications in fields such as surveillance and autonomous driving, leading to better real-world implementations of LVLMs.",
+    "limitations": "The paper does not mention specific limitations but implies that further development in model training may be necessary for broader applicability.",
+    "new_terms": {
+        "Large Vision-Language Models (LVLMs)": "**Large Vision-Language Models (LVLMs)** are advanced neural networks designed to process and generate outputs based on both visual and textual information.",
+        "Multi-branch Contrastive Decoding (MCD)": "**Multi-branch Contrastive Decoding (MCD)** is a decoding strategy that utilizes multiple expert branches to refine model output by addressing input biases between language and visual contexts."
+    },
+    "open_sourcing": "The dataset will be made available to the public."
+}

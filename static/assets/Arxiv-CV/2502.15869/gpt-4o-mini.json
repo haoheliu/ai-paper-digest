@@ -1,0 +1,22 @@
+{
+    "title": "Generative AI Framework for 3D Object Generation in Augmented Reality",
+    "author": "Majid Behravan (Virginia Polytechnic Institute and State University), Denis Gracanin (Virginia Polytechnic Institute and State University), Christopher L North (Virginia Polytechnic Institute and State University), Xuan Wang (Virginia Polytechnic Institute and State University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper presents a generative AI framework that could inspire similar methodologies for audio processing tasks by integrating various multimodal inputs for creating meaningful outputs.",
+    "field": "Applications-Creative AI",
+    "background": "This research explores creating 3D objects in augmented reality using diverse inputs like images and speech, aiming to enhance user interaction and immersion.",
+    "contribution": "This thesis introduces a framework that effectively integrates generative AI models to automate creating real-time 3D models from user inputs, contributing significantly to immersiveness in augmented reality applications.",
+    "technical_comparison": {
+        "prior_work": "Traditional 3D object generation methods often rely solely on manual modeling or limited automated processes.",
+        "novelty": "This work combines advanced object detection and generative AI, enabling real-time generation from multiple input modalities like speech and images."
+    },
+    "key_innovation": "Utilizes a combination of Vision Language Models and Large Language Models to enhance the accuracy and versatility of 3D object generation in augmented reality.",
+    "real_world_impact": "This framework opens new avenues for applications in gaming, retail, and design by allowing non-experts to create personalized 3D models, thereby fostering creativity and innovation.",
+    "limitations": "The paper mentions challenges like multilingual input handling and complex environment processing, potentially affecting the framework's robustness.",
+    "new_terms": {
+        "Vision Language Models (VLMs)": "**Vision Language Models (VLMs)** are AI systems capable of interpreting visual inputs alongside textual data to enhance interaction capabilities.",
+        "Large Language Models (LLMs)": "**Large Language Models (LLMs)** are sophisticated AI models that process and generate natural language, which can also help in understanding user intents from text inputs."
+    },
+    "open_sourcing": ""
+}

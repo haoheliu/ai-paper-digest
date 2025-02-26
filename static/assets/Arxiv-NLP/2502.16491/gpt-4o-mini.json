@@ -1,0 +1,22 @@
+{
+    "title": "Intrinsic Model Weaknesses: How Priming Attacks Unveil Vulnerabilities in Large Language Models",
+    "author": "Yuyi Huang (University of Macau), Runzhe Zhan (University of Macau), Derek F. Wong (University of Macau), Lidia S. Chao (University of Macau), Ailin Tao (Guangdong Provincial Key Laboratory), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study explores vulnerabilities in large language models, which directly aligns with enhancing model security. Findings from this research could inform better safety measures applicable in audio generation models.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Investigating the susceptibility of large language models to Priming Attacks, which exploit psychological principles to induce harmful content generation.",
+    "contribution": "The research introduces Priming Attack strategies that exploit psychological effects to manipulate the output of large language models, achieving a high attack success rate.",
+    "technical_comparison": {
+        "prior_work": "Existing attack strategies primarily focus on specific types of vulnerabilities and often require complex setups.",
+        "novelty": "This work presents straightforward yet effective attacks that exploit structural weaknesses in models using a combination of psychological phenomena."
+    },
+    "key_innovation": "Combines psychological concepts such as the Priming Effect, Safe Attention Shift, and Cognitive Dissonance to manipulate LLM responses effectively.",
+    "real_world_impact": "Identifying these vulnerabilities leads to the development of better safeguards in LLMs, enhancing their reliability in critical applications.",
+    "limitations": "The effectiveness against highly parameterized models with different architectures remains untested due to hardware limitations.",
+    "new_terms": {
+        "Priming Effect": "**Priming Effect** refers to the phenomenon where exposure to a stimulus influences the response to a subsequent stimulus.",
+        "Cognitive Dissonance": "**Cognitive Dissonance** refers to the mental discomfort experienced when holding contradictory beliefs or behaviors."
+    },
+    "open_sourcing": "Data and code are available at: https://github.com/NLP2CT/PsychoAttackLLM"
+}

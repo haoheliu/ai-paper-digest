@@ -1,0 +1,22 @@
+{
+    "title": "Minions: Cost-efficient Collaboration Between On-device and Cloud Language Models",
+    "author": "Avanika Narayan (Stanford University), Dan Biderman (Stanford University), Sabri Eyuboglu (Stanford University), Avner May (Stanford University), Scott Linderman (Stanford University), James Zou (Stanford University), Christopher R\u00e9 (Stanford University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores innovative protocols for collaboration between small on-device models and large cloud models, which could inform future work in efficient model deployment across different domains, including audio processing tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Collaborative systems where a small on-device language model interacts with a larger cloud model to efficiently solve complex tasks that demand extensive reasoning over a large context.",
+    "contribution": "Minions introduces MinionS, a novel communication protocol enhancing local-remote model collaboration to achieve over 97.9% of the performance of remote-only systems while dramatically reducing costs by 5.7 times.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on inefficient or naive communication protocols between models, which led to suboptimal performance or high operational costs.",
+        "novelty": "This work improves upon such approaches by allowing the remote model to decompose tasks into smaller subtasks that are executed locally, enabling parallel processing and better context management."
+    },
+    "key_innovation": "MinionS protocol's unique approach of task decomposition allows smaller local models to handle complex instructions via parallelism, significantly boosting efficiency and performance.",
+    "real_world_impact": "This framework has the potential to make language models more accessible and cost-effective, paving the way for broader adoption in practical applications like document analysis and financial reasoning.",
+    "limitations": "No",
+    "new_terms": {
+        "MinionS": "**MinionS** is an enhanced local-remote language model communication protocol that decomposes complex tasks into smaller, manageable subtasks executed in parallel by local models to improve efficiency.",
+        "task decomposition": "**Task decomposition** refers to breaking down a complex task into simpler sub-tasks, which can be independently processed, allowing for improved parallel computation."
+    },
+    "open_sourcing": ""
+}

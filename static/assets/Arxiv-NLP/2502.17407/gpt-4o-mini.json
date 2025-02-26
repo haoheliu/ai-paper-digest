@@ -1,0 +1,22 @@
+{
+    "title": "Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning",
+    "author": "Guijin Son (Yonsei University), Jiwoo Hong (OneLineAI), Hyunwoo Ko (KAIST AI), James Thorne (KAIST AI), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The exploration of test-time scaling methods in multilingual mathematical reasoning may contribute to understanding robust model performance across diverse language tasks, relevant to audio-language alignment and reasoning.",
+    "field": "Applications-Language",
+    "background": "Evaluating the ability of language models to process multilingual mathematical tasks while applying different test-time scaling strategies to optimize performance and consistency.",
+    "contribution": "This paper introduces the Multilingual Competition Level Math (MCLM) benchmark to evaluate various test-time scaling strategies, achieving insights into their linguistic generalizability.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches primarily focused on pre-training benefits or single-language tasks, resulting in limited insights into multilingual reasoning capabilities.",
+        "novelty": "This work assesses multiple test-time scaling methodologies across various languages and benchmarks, providing a clearer understanding of their cross-linguistic effectiveness."
+    },
+    "key_innovation": "Establishing a new multilingual benchmark alongside the examination of specific test-time scaling methods for mathematical reasoning and their impacts on multilingual models.",
+    "real_world_impact": "The findings may inform future developments of multilingual models in educational technology and international applications, enhancing their practical utility in diverse mathematical contexts.",
+    "limitations": "The results may not generalize to larger models or other domains outside mathematical reasoning.",
+    "new_terms": {
+        "test-time scaling": "**Test-time scaling** refers to techniques applied during inference to enhance model performance, such as varying response generation approaches or incorporating external verifiers.",
+        "Outcome Reward Modeling (ORM)": "**Outcome Reward Modeling** involves generating multiple responses to a question and selecting the best one based on an assessment model."
+    },
+    "open_sourcing": "MCLM and MR1-1.5B datasets are set to be released for further research use."
+}

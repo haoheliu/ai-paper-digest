@@ -1,0 +1,22 @@
+{
+    "title": "Lean-ning on Quality : How High-Quality Data Beats Diverse Multi-lingual Data in Auto Formalization",
+    "author": "Willy Chan (Stanford University), Michael Souliman (Stanford University), Jakob Nordhagen (Stanford University), Brando Miranda (Stanford University), Elyas Obbad (Stanford University), Kai Fronsdal (Stanford University), Sanmi Koyejo (Stanford University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper discusses autoformalization, which has potential implications for tasks in translating informal proofs into formal representations, relevant for bridging the gap in computational audio and mathematics.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Autoformalization refers to the automatic translation of informal mathematical language into formal specifications, aiding in the formalization of mathematical proofs.",
+    "contribution": "The paper introduces a novel methodology to leverage backtranslation with hand-curated prompts to improve the performance of language models in the context of autoformalization, achieving better results with less data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on existing multilingual datasets which often lacked quality and precision in translations for formal theorem proving.",
+        "novelty": "This work offers a backtranslation approach that prioritizes high-quality data generation over quantity, resulting in improved autoformalization performance."
+    },
+    "key_innovation": "The integration of proof state information with high-quality data generation techniques enables more effective training of language models for mathematical proof translation.",
+    "real_world_impact": "The findings could significantly enhance the efficiency and accessibility of automated theorem proving, benefiting fields such as formal verification and educational technologies.",
+    "limitations": "The study primarily utilized GPT-2 as a base model, which may restrict its capability compared to larger models. Resource constraints limited the scope of backtranslation methods explored.",
+    "new_terms": {
+        "autoformalization": "**Autoformalization** is the process of converting informal mathematical statements into formal logic, making proofs machine-readable.",
+        "backtranslation": "**Backtranslation** is a method in Machine Translation where a translated text in the target language is translated back into the source language to create paired training data."
+    },
+    "open_sourcing": "All models and datasets are available on HuggingFace under the AI4M Organization."
+}

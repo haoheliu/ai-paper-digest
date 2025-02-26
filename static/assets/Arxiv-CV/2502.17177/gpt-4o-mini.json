@@ -1,0 +1,22 @@
+{
+    "title": "Joint multi-band deconvolution for Euclid and Vera C. Rubin images",
+    "author": "U. Akhaury (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne), P. Jablonka (Observatoire de Paris), F. Courbin (Universitat de Barcelona), J.-L. Starck (Universit\u00e9 Paris-Saclay), ..., J. Starck (FORTH, Greece)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses advanced deconvolution techniques that could inspire methodologies for audio signal processing, especially in enhancing resolution and feature recovery in audio signals.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study focuses on improving the resolution of ground-based astronomical images by combining data from multiple bandwidth sources.",
+    "contribution": "This paper introduces a multi-band deconvolution technique using high-resolution space observations to enhance ground-based images, achieving near Hubble Space Telescope quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically deconvolve images from a single band, limiting resolution improvement and noise handling.",
+        "novelty": "This work employs a joint deconvolution approach, integrating multiple bands\u2019 information to optimize resolution and flux accuracy."
+    },
+    "key_innovation": "The method concurrently processes multiple photometric bands by leveraging correlations with high-resolution space-based data, significantly enhancing deconvolution results.",
+    "real_world_impact": "The findings could improve the quality and accuracy of astronomical data processing, which is crucial for understanding cosmic structures, and may also provide insights applicable to audio signal restoration techniques.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "deconvolution": "**Deconvolution** is a mathematical operation that reverses the effects of convolution on recorded data, often used to enhance image quality by removing blurring.",
+        "Point Spread Function (PSF)": "**Point Spread Function (PSF)** describes how a point source of light is imaged by an optical system, essential for understanding blurring effects in imaging systems."
+    },
+    "open_sourcing": "The codes utilized in this article are publicly accessible on GitHub."
+}

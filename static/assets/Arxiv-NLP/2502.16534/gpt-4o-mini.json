@@ -1,0 +1,22 @@
+{
+    "title": "Multilingual != Multicultural: Evaluating Gaps Between Multilingual Capabilities and Cultural Alignment in LLMs",
+    "author": "Jonathan Rystr\u00f8m (Oxford Internet Institute, University of Oxford), Hannah Rose Kirk (Oxford Internet Institute, University of Oxford), Scott Hale (Oxford Internet Institute, University of Oxford), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The methodologies presented in this paper can inform future work in audio-language models, particularly regarding how to assess and align cultural values in generated audio and text.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This study investigates how well large language models align with cultural values across multiple languages, revealing discrepancies between multilingual capabilities and cultural alignment.",
+    "contribution": "This paper introduces a novel statistical methodology for evaluating cultural alignment of language models using data from the World Values Survey, providing insights into the biases in model outputs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on single model analyses in English contexts or non-statistical survey comparisons.",
+        "novelty": "This work differs by applying a rigorous statistical framework to compare language models against population-level cultural values across multiple languages."
+    },
+    "key_innovation": "Develops a distribution-based approach to measure how closely the values represented by language models correspond to actual cultural values in the surveyed populations.",
+    "real_world_impact": "The findings raise awareness of the need for cultural sensitivity in AI applications, which could enhance the fairness and effectiveness of language technology in diverse global contexts.",
+    "limitations": "Low self-consistency scores across language models suggest significant room for improvement in cultural representation.",
+    "new_terms": {
+        "cultural alignment": "**Cultural alignment** refers to the degree to which the outputs of a model reflect the values and beliefs of a particular cultural group.",
+        "value polarity score": "**Value polarity score** is a measure of the proportion of individuals in a population who hold a positive or negative stance on a specific issue."
+    },
+    "open_sourcing": "The dataset of model-generated responses and the code for the analysis are available at https://github.com/jhrystrom/multiculturalalignment"
+}

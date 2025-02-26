@@ -1,0 +1,22 @@
+{
+    "title": "SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models",
+    "author": "Kevin Miller (Boston University), Aditya Gangrade (Boston University), Kate Saenko (Boston University and Meta AI), Samarth Mishra (Boston University), Venkatesh Saligrama (Boston University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper introduces methods for improving zero-shot multi-label recognition, which could inform approaches in audio and speech processing where multi-label scenarios are common.",
+    "field": "Applications-Speech and Audio",
+    "background": "Zero-shot multi-label recognition requires identifying multiple objects in an image without specific training data.",
+    "contribution": "This paper introduces SPARC, a framework employing compound prompts and adaptive score fusion to tackle zero-shot multi-label recognition, achieving consistent improvements in accuracy.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for multi-label recognition often require annotated training data, modifications to the model, or prompt tuning.",
+        "novelty": "The SPARC approach treats Vision-Language Models as black boxes, using only their output scores to enhance performance without additional training or tuning."
+    },
+    "key_innovation": "The method uniquely identifies that second highest scores among prompts can indicate object presence more reliably than maximum scores, allowing for better overall detection.",
+    "real_world_impact": "The approach has practical applications in fields like robotics and medical imaging where training data may be scarce. By improving zero-shot recognition, it enhances the capabilities of automated systems to interpret complex visual scenes.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "zero-shot multi-label recognition": "**Zero-shot multi-label recognition** refers to the ability to identify multiple classes in an input without having been trained on examples of those classes beforehand.",
+        "debiasing": "**Debiasing** techniques are employed to remove biases from model outputs to improve the reliability of predictions."
+    },
+    "open_sourcing": ""
+}

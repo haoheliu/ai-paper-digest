@@ -1,0 +1,22 @@
+{
+    "title": "A Survey of fMRI to Image Reconstruction",
+    "author": "Weiyu Guo (The Hong Kong University of Science and Technology (Guangzhou)), Guoying Sun (Harbin Institute of Technology (Shenzhen)), Jianxiang He (The Hong Kong University of Science and Technology (Guangzhou)), Tong Shao (Harbin Institute of Technology (Shenzhen)), Shaoguang Wang (The Hong Kong University of Science and Technology (Guangzhou)), Ziyang Chen (The Hong Kong University of Science and Technology (Guangzhou)), Meisheng Hong (Shandong University), ..., Hui Xiong (The Hong Kong University of Science and Technology (Guangzhou))",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The review provides insights into methodologies and emerging techniques in reconstructing visual stimuli from neural data, which could inspire analogous approaches in audio-visual integration.",
+    "field": "Neuroscience and Cognitive Science-Neural Coding",
+    "background": "Reconstructing visual stimuli from human brain activity recorded via fMRI to understand visual perception mechanisms.",
+    "contribution": "This survey introduces the concept of fMRI-to-image learning, categorizing existing methodologies and highlighting challenges, while proposing future directions.",
+    "technical_comparison": {
+        "prior_work": "Previous studies often lack systematic organization and fail to address challenges holistically.",
+        "novelty": "This work systematically reviews fMRI-to-image methodologies, identifying trends and proposing solutions to common issues in image reconstruction from brain activity."
+    },
+    "key_innovation": "Offers a comprehensive overview of fMRI-based image reconstruction methodologies and emphasizes emerging trends in this interdisciplinary field.",
+    "real_world_impact": "Advancements in this area could enhance brain-computer interface applications and improve understanding of human visual cognition and perception.",
+    "limitations": "The review primarily focuses on existing methodologies without proposing novel experimental data or empirical validation.",
+    "new_terms": {
+        "fMRI": "**Functional Magnetic Resonance Imaging** is a neuroimaging technique that measures brain activity by detecting changes in blood flow, allowing researchers to infer neuronal activity.",
+        "CLIP": "**Contrastive Language-Image Pre-training** is a model that aligns images and text, enabling applications in visual recognition and generation tasks."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Diagnosing COVID-19 Severity from Chest X-Ray Images Using ViT and CNN Architectures",
+    "author": "Luis Lara (Universite de Montreal), Lucia Eve Berger (Universite de Montreal), Rajesh Raju (Universite de Montreal), Shawn Whitfield (Universite de Montreal), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This research focuses on predicting the severity of COVID-19 in patients by analyzing chest X-ray images using advanced machine learning techniques.",
+    "contribution": "This paper introduces a large dataset of COVID-19 severity scores and compares the performance of various models (Vision Transformers and Convolutional Neural Networks) to improve severity prediction accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily classified COVID-19 as present or absent or focused on severity prediction without extensive datasets.",
+        "novelty": "This work improves by combining multiple datasets to enhance the size and diversity of training data while utilizing advanced architectures like Vision Transformers for better prediction accuracy."
+    },
+    "key_innovation": "Leverages a combination of transfer learning and a new dataset to enhance the predictive capability of machine learning models for COVID-19 severity assessment.",
+    "real_world_impact": "The findings could significantly improve clinical decision-making in healthcare settings by enabling more precise patient triage based on imaging data, potentially saving lives and resources.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "Vision Transformer (ViT)": "**Vision Transformer (ViT)** is a type of deep learning model that applies transformer architecture to image data, allowing it to learn spatial relationships between pixels through self-attention mechanisms."
+    },
+    "open_sourcing": "The project's source code is publicly available on GitHub."
+}

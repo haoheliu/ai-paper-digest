@@ -1,0 +1,22 @@
+{
+    "title": "Visual Zero-Shot E-Commerce Product Attribute Value Extraction",
+    "author": "Jiaying Gong (eBay Inc.), Ming Cheng (Virginia Tech), Hongda Shen (eBay Inc.), Pierre-Yves Vandenbussche (eBay Inc.), Janet Jenq (eBay Inc.), Hoda Eldardiry (Virginia Tech), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed cross-modal approach could potentially enhance audio-visual integration in applications such as audio captioning and sound event detection, contributing to more comprehensive audio processing frameworks.",
+    "field": "Applications-Vision",
+    "background": "The study focuses on extracting product attribute values from images without the need for textual descriptions, which poses challenges due to the modality gap and out-of-domain issues.",
+    "contribution": "This paper introduces a cross-modal zero-shot attribute value generation framework (ViOC-AG) that uses only product images to generate product attributes, achieving significantly improved accuracy in attribute extraction.",
+    "technical_comparison": {
+        "prior_work": "Previous models typically required textual inputs provided by sellers, which is time-consuming and subjective, leading to challenges in scalability.",
+        "novelty": "This work leverages a frozen Contrastive Language-Image Pre-training (CLIP) model combined with an optical character recognition (OCR) system to facilitate attribute extraction directly from images."
+    },
+    "key_innovation": "The method's unique aspect is its ability to generate product attributes solely from visual data, addressing the limitations of dependency on textual descriptions and improving user experience.",
+    "real_world_impact": "This approach could streamline e-commerce platforms by reducing the manual input required from sellers, thus improving the efficiency of product listings and enhancing user satisfaction.",
+    "limitations": "The authors note that some attribute values may still rely on textual information for accurate extraction and acknowledge the potential for errors in out-of-domain cases.",
+    "new_terms": {
+        "zero-shot": "**Zero-shot** refers to the capability of a model to correctly predict outcomes for novel situations not encountered during training.",
+        "Contrastive Language-Image Pre-training (CLIP)": "**CLIP** is a model that learns to associate images with text by training on large datasets of image-description pairs, facilitating tasks like image classification and attribute extraction."
+    },
+    "open_sourcing": ""
+}

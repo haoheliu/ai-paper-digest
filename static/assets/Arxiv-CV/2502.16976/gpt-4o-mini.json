@@ -1,0 +1,22 @@
+{
+    "title": "Task-Oriented 6-DoF Grasp Pose Detection in Clutters",
+    "author": "An-Lan Wang (School of Computer Science and Engineering, Sun Yat-sen University), Nuo Chen (School of Computer Science and Engineering, Sun Yat-sen University), Kun-Yu Lin (School of Computer Science and Engineering, Sun Yat-sen University), Yuan-Ming Li (School of Computer Science and Engineering, Sun Yat-sen University), Wei-Shi Zheng (School of Computer Science and Engineering, Sun Yat-sen University, Key Laboratory of Machine Intelligence and Advanced Computing, Ministry of Education, China), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The study of grasp pose detection, particularly in complex and cluttered environments, may inform techniques for audio source separation, where similar spatial reasoning could enhance auditory scene analysis.",
+    "field": "Reinforcement Learning-Robotics",
+    "background": "Detecting suitable grasp poses for robots in cluttered environments to accomplish specific tasks like pouring or cutting.",
+    "contribution": "This paper introduces the 6-DoF Task Grasp dataset and a novel One-Stage TaskGrasp model to solve the task-oriented grasp pose detection problem in cluttered scenes, achieving significant improvements in detection efficiency and accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically focus on single-object scenarios, employing two-stage pipelines that are time-consuming and less accurate in cluttered environments.",
+        "novelty": "This work improves by implementing a one-stage detection method that directly selects grasp points and generates appropriate orientations based on specific tasks, reducing error accumulation and increasing overall efficiency."
+    },
+    "key_innovation": "The use of a task-oriented point selection strategy alongside a task-guided pose detection module to streamline the grasp detection process.",
+    "real_world_impact": "The findings may lead to more efficient robotic assistance in domestic settings, optimizing the way robots interact with cluttered spaces during tasks.",
+    "limitations": "Limited to grasp detection in simulated environments; real-world transferability not fully validated.",
+    "new_terms": {
+        "6-DoF": "**6 Degrees of Freedom** refers to the freedom of movement of a rigid body in three-dimensional space, which includes translation along and rotation about the x, y, and z axes.",
+        "One-Stage TaskGrasp": "**One-Stage TaskGrasp** is a novel model proposed for simultaneous task-oriented grasp pose detection and optimization in a single, efficient step."
+    },
+    "open_sourcing": ""
+}

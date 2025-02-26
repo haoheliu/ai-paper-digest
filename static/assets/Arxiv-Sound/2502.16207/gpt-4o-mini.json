@@ -1,0 +1,22 @@
+{
+    "title": "Improving Speech Enhancement by Cross- and Sub-band Processing with State Space Model",
+    "author": "Jizhen Li (NERCMS, Wuhan University), Weiping Tu (NERCMS, Wuhan University), Yuhong Yang (NERCMS, Wuhan University), Xinmeng Xu (NERCMS, Wuhan University), Yiqun Zhang (NERCMS, Wuhan University), Yanzhen Ren (Wuhan University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces novel techniques in speech enhancement, specifically through sub-band processing and restoration, which align closely with Haohe Liu's work in audio quality enhancement and speech restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves improving the clarity and intelligibility of speech signals affected by various environmental noises using advanced model architectures.",
+    "contribution": "This paper introduces Cross- and Sub-band Mamba (CSMamba) to solve limitations in conventional speech enhancement models, achieving superior performance on the DNS Challenge 2021 dataset.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Transformer-based and RNN-based solutions have limitations in computational complexity and memory capacity.",
+        "novelty": "This work improves by employing a flexible band split method and independent processing for different sub-bands, enhancing overall model robustness and detail recovery."
+    },
+    "key_innovation": "Introduces a band split block that processes sub-bands with independent convolutional weights and utilizes a spectrum restoration block to enhance high-frequency details.",
+    "real_world_impact": "This research may significantly enhance applications like hearing aids and automatic speech recognition by improving speech clarity in noisy environments.",
+    "limitations": "No",
+    "new_terms": {
+        "Cross- and Sub-band Mamba (CSMamba)": "**CSMamba** refers to the proposed model enhancing speech quality by flexibly processing sub-bands and managing inter-band information.",
+        "band split block": "**Band split block** is a processing module that divides a full-band audio signal into distinct sub-bands to optimize feature extraction."
+    },
+    "open_sourcing": ""
+}

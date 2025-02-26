@@ -1,0 +1,19 @@
+{
+    "title": "Speed and Conversational Large Language Models (LLMs): Not All Is About Tokens per Second",
+    "author": "Javier Conde (ETSI de Telecomunicaci\u00f3n, Universidad Polit\u00e9cnica de Madrid), Miguel Gonz\u00e1lez (ETSI de Telecomunicaci\u00f3n, Universidad Polit\u00e9cnica de Madrid), Pedro Reviriego (ETSI de Telecomunicaci\u00f3n, Universidad Polit\u00e9cnica de Madrid), Zhen Gao (Tianjin University), Shanshan Liu (University of Electronic Science and Technology of China), Fabrizio Lombardi (Northeastern University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The insights on evaluating the speed of Large Language Models (LLMs) are relevant as they highlight benchmarks that can potentially be applied to audio-related LLM models in tasks such as audio captioning and generation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating the efficiency and speed of Large Language Models (LLMs) is critical for various applications, including conversational agents and automated question answering.",
+    "contribution": "This paper introduces a comparative analysis of the speed of open-weights LLMs when performing various tasks, revealing that existing token-based metrics are insufficient for meaningful comparisons.",
+    "technical_comparison": {
+        "prior_work": "Previous methods predominantly measured LLM speed through tokens generated per second, failing to account for task completion time variability.",
+        "novelty": "This work shifts the evaluation focus to the time taken to complete specific tasks across multiple models."
+    },
+    "key_innovation": "Utilizes a multitasking benchmark approach to assess LLMs, providing insights that challenge traditional token-based speed evaluation metrics.",
+    "real_world_impact": "Enhances the understanding of LLM speed dynamics, which could inform improvements in model deployment and resource management in real-world applications.",
+    "limitations": "The paper may not encompass all existing LLMs, focusing mainly on a selected subset for comparative analysis.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

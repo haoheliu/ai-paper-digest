@@ -1,0 +1,22 @@
+{
+    "title": "Deep learning approaches to surgical video segmentation and object detection: A Scoping Review",
+    "author": "Devanish N. Kamtam (Stanford University School of Medicine), Joseph B. Shrager (Stanford University School of Medicine), Satya Deepya Malla (Stanford University School of Medicine), Nicole Lin (Stanford University School of Medicine), Juan J. Cardona (Stanford University School of Medicine), Jake J. Kim (Stanford University School of Medicine), Clarence Hu (Hotpot.ai), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The review provides insights into deep learning applications in surgical settings, potentially informing analogous applications in audio-visual tasks where precise segmentation and object detection are beneficial, such as in audio-based surgical guidance systems.",
+    "field": "Applications-Vision",
+    "background": "The paper reviews recent advancements in computer vision applied to surgical videos, focusing on deep learning methods for semantic segmentation and object detection of anatomical structures.",
+    "contribution": "This scoping review introduces a comprehensive assessment of deep learning techniques in surgical video segmentation and object detection to highlight their current effectiveness and clinical applications.",
+    "technical_comparison": {
+        "prior_work": "While existing reviews may address general computer vision techniques, they often lack a focused discussion on surgical applications and the specific challenges unique to this domain.",
+        "novelty": "This work systematically compiles studies to present the state-of-the-art in surgical video analysis, identifying key challenges such as anatomical variability and segmentation accuracy."
+    },
+    "key_innovation": "Offers a structured overview of deep learning methods specifically tailored to surgical video analysis, allowing for the identification of performance gaps and future research directions.",
+    "real_world_impact": "Enhancements in surgical video analysis could improve patient outcomes by assisting surgeons in identifying critical structures in real-time, thus reducing the risk of surgical errors.",
+    "limitations": "No significant limitations were explicitly stated by the authors in this review.",
+    "new_terms": {
+        "semantic segmentation": "**Semantic segmentation** is the task of classifying each pixel in an image to a specific class label.",
+        "object detection": "**Object detection** involves identifying and localizing objects within an image, typically using bounding boxes."
+    },
+    "open_sourcing": ""
+}

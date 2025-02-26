@@ -1,0 +1,22 @@
+{
+    "title": "Extracting domain-specific terms using contextual word embeddings",
+    "author": "Andraz Repar (Jozef Stefan Institute), Nada Lavraca (University of Nova Gorica), Senja Pollak (Jozef Stefan Institute), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methodologies discussed for automated terminology extraction could potentially be applied to enhance algorithms for audio tagging and classification tasks in audio processing, particularly for the extraction of relevant audio features or descriptors.",
+    "field": "Applications-Language",
+    "background": "Automated terminology extraction (ATE) focuses on identifying and extracting meaningful terms from specialized texts, essential for creating glossaries, improving translation, and enhancing domain-specific NLP applications.",
+    "contribution": "This paper introduces a machine learning approach that combines traditional term extraction with contextual word embeddings for better accuracy in terminology extraction.",
+    "technical_comparison": {
+        "prior_work": "Existing systems heavily rely on predefined linguistic patterns or statistical methods, which struggle with non-standard terms and fail to leverage contextual information.",
+        "novelty": "This work enhances term extraction by generating features from contextual word embeddings, allowing for a more flexible and improved identification of domain-specific terminology."
+    },
+    "key_innovation": "Combines linguistic, statistical, and contextual features in a machine learning framework to extract terms from a newly annotated corpus, significantly improving recall and precision.",
+    "real_world_impact": "The improved approach to terminology extraction has significant implications across fields such as translation, ontology development, and information retrieval, fostering better NLP applications.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "automated terminology extraction": "**Automated terminology extraction** refers to the systematic process of identifying and extracting relevant terms from domain-specific texts through various computational methods.",
+        "contextual word embeddings": "**Contextual word embeddings** are representations of words in a continuous vector space that adapt according to the context in which they appear, enhancing semantic understanding."
+    },
+    "open_sourcing": ""
+}

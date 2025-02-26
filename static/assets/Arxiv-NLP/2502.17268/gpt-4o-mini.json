@@ -1,0 +1,21 @@
+{
+    "title": "MonoTODia: Translating Monologue Requests to Task-Oriented Dialogues",
+    "author": "Sebastian Steindl (Ostbayerische Technische Hochschule Amberg-Weiden), Ulrich Sch\u00e4fer (Ostbayerische Technische Hochschule Amberg-Weiden), Bernd Ludwig (University Regensburg), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The study focuses on task-oriented dialogue systems, which are highly relevant for automating communication in travel bookings, a domain directly related to audio and speech processing applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper explores the conversion of email requests into interactive dialogues to facilitate automated travel booking through a chatbot.",
+    "contribution": "MonoTODia introduces a novel method to transform monologue data (emails) into annotated task-oriented dialogues, achieving high-quality synthetic data for training dialogue systems.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches rely heavily on large annotated datasets for task-oriented dialogues, which are often scarce and expensive to produce.",
+        "novelty": "This work improves data generation by leveraging existing non-dialogue monologue data, significantly reducing the need for extensive manual annotation."
+    },
+    "key_innovation": "The approach utilizes large language models to automatically generate dialogues from email requests and annotates them, including guided 'hallucinations' for missing information.",
+    "real_world_impact": "The findings suggest that using synthetic dialogues as training data can enhance automation in customer service for travel bookings, potentially increasing efficiency and customer satisfaction.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "guided hallucinations": "**Guided hallucinations** refer to the generation of plausible but fictional information by the model based on context, which is particularly useful when the input data lacks complete information."
+    },
+    "open_sourcing": "The annotated dataset is publicly available to support further research."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Wrong Answers Can Also Be Useful: PlausibleQA \u2014 A Large-Scale QA Dataset with Answer Plausibility Scores",
+    "author": "Jamshid Mozafari (University of Innsbruck), Abdelrahman Abdallah (University of Innsbruck), Bhawna Piryani (University of Innsbruck), Adam Jatowt (University of Innsbruck), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The concepts of generating and evaluating candidate answers with plausibility scores could enrich the methodologies used in audio-related QA systems, such as sound event detection or audio classification tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study focuses on creating a dataset that includes plausible yet incorrect answers along with their plausibility scores, aiming to improve question answering systems using these scores.",
+    "contribution": "The paper introduces the PlausibleQA dataset that includes 10,000 questions and 100,000 candidate answers with assigned plausibility scores, aiming to enhance multiple-choice question answering and robustness assessments.",
+    "technical_comparison": {
+        "prior_work": "Previous QA datasets primarily focused on factual correctness of answers without considering the plausibility of incorrect ones.",
+        "novelty": "This work incorporates a scoring system for incorrect answers, allowing for a nuanced evaluation of QA systems beyond binary correctness."
+    },
+    "key_innovation": "The introduction of plausibility scores for candidate answers allows for better modeling and assessment in QA tasks.",
+    "real_world_impact": "The dataset can improve the quality of multiple-choice question answering systems and robustness evaluations, potentially aiding educational assessments and AI training.",
+    "limitations": "The dataset only addresses factoid questions, which limits its generalizability to other types of QA tasks.",
+    "new_terms": {
+        "plausibility score": "**Plausibility score** is a numerical value that reflects the perceived likelihood of an answer being correct, even if it is not factually accurate."
+    },
+    "open_sourcing": "The PlausibleQA dataset is available at https://github.com/DataScienceUIBK/PlausibleQA"
+}

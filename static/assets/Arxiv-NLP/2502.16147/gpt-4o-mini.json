@@ -1,0 +1,23 @@
+{
+    "title": "Number Representations in LLMs: A Computational Parallel to Human Perception",
+    "author": "H. V. AlquBoj (Mohamed bin Zayed University of Artificial Intelligence), Hilal AlQuabeh (Mohamed bin Zayed University of Artificial Intelligence), Velibor Bojkovic (Mohamed bin Zayed University of Artificial Intelligence), Tatsuya Hiraoka (Mohamed bin Zayed University of Artificial Intelligence), Ahmed Oumar El-Shangiti (Mohamed bin Zayed University of Artificial Intelligence), Munachiso Nwadike (Mohamed bin Zayed University of Artificial Intelligence), Kentaro Inui (Tohoku University), ..., Alexander Miller (OpenAI)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper's exploration of numerical representations in language models can inform methods for audio processing tasks that involve number encoding, such as temporal sequences in audio data.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Investigating how large language models encode numerical values by examining their internal representations and comparing them to human-like perceptual models.",
+    "contribution": "This research introduces a methodology for analyzing number representations in neural networks and demonstrates that large language models exhibit logarithmic scaling similar to human cognition.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically assumed uniform linear representations of numbers in language models, limiting understanding of their internal knowledge.",
+        "novelty": "This work employs PCA and PLS techniques to reveal sublinear spacing and non-uniformity in numerical embeddings."
+    },
+    "key_innovation": "Introduces a framework to study how numerical representations in LLMs reflect cognitive principles, highlighting their potential for compressing large values.",
+    "real_world_impact": "The findings suggest that understanding how models perceive numbers can enhance applications in areas where numerical reasoning is critical, such as finance or data analysis.",
+    "limitations": "The paper does not discuss potential variations in numerical encoding based on model architecture or training data specifics.",
+    "new_terms": {
+        "logarithmic mental number line": "**Logarithmic mental number line** refers to the cognitive theory that humans perceive numbers nonlinearly, representing smaller values with greater precision compared to larger ones.",
+        "PCA": "**Principal Component Analysis** is a technique used to reduce the dimensionality of a dataset while preserving as much variance as possible.",
+        "PLS": "**Partial Least Squares** is a statistical method that combines features from multiple predictors to analyze data structures, often used for regression modeling."
+    },
+    "open_sourcing": "Code is available at: https://github.com/halquabeh/llm_natural_log"
+}

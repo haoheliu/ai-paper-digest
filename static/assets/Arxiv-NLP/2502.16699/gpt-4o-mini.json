@@ -1,0 +1,22 @@
+{
+    "title": "Uncovering the Hidden Threat of Text Watermarking from Users with Cross-Lingual Knowledge",
+    "author": "Mansour Al Ghanim (University of Central Florida), Jiaqi Xue (University of Central Florida), Rochana Prih Hastuti (University of Central Florida), Mengxin Zheng (University of Central Florida), Yan Solihin (University of Central Florida), Qian Lou (University of Central Florida), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper addresses watermarking techniques that can potentially apply to audio models when ensuring that generative content can be traced back, which might be beneficial for protecting audio-to-text systems.",
+    "field": "Deep Learning-Generative Models",
+    "background": "This research investigates the robustness of text watermarking methods against adversarial attacks in multilingual scenarios, particularly focusing on the impact of translation on watermark detectability.",
+    "contribution": "This paper introduces an evaluation framework for watermarking methods under cross-lingual conditions to combat removal attacks, demonstrating vulnerabilities in existing techniques.",
+    "technical_comparison": {
+        "prior_work": "Existing watermarking studies primarily focus on English text and do not rigorously address cross-lingual vulnerabilities.",
+        "novelty": "This work expands the scope to include cross-lingual language interactions, assessing watermark resilience in a multi-lingual context with practical attack scenarios."
+    },
+    "key_innovation": "Evaluates watermarking techniques against translation-based attacks in multiple languages, revealing significant weaknesses and proposing a new metric for diversity in watermarked texts.",
+    "real_world_impact": "Enhancing watermarking robustness for multilingual applications in fields like journalism and content creation can prevent the misuse of generative AI outputs, impacting digital integrity and authenticity.",
+    "limitations": "The study primarily evaluates four watermarking techniques and does not explore a wider range of languages or watermarking strategies, which may limit generalizability.",
+    "new_terms": {
+        "watermarking": "**Watermarking** is a technique used to embed a signal into digital content, allowing identification of the source or ownership without altering the original semantic meaning of the content.",
+        "cross-lingual": "**Cross-lingual** refers to scenarios that involve multiple languages and their interactions, addressing challenges that arise when translating text or generating content across different linguistic contexts."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Emoti-Attack: Zero-Perturbation Adversarial Attacks on NLP Systems via Emoji Sequences",
+    "author": "Yangshijie Zhang (Lanzhou University), ..., Haohe Liu (University of Surrey)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper introduces novel methods for adversarial attacks on NLP models which could inform techniques for audio-language models with adversarial robustness considerations.",
+    "field": "Applications-Language",
+    "background": "This work investigates how emoji sequences can be manipulated to create adversarial text inputs that mislead NLP models without altering the original text.",
+    "contribution": "Emoti-Attack introduces a method leveraging emoji sequences to create adversarial examples while preserving textual integrity, achieving effective attacks on both small and large NLP models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on character and word-level attacks that significantly altered meaning or were easily detectable.",
+        "novelty": "This new method minimizes perceptibility by utilizing emojis strategically, resulting in successful perturbations without changing the original text."
+    },
+    "key_innovation": "The unique approach of attacking models via emoji sequences allows nonsensical insertions that maintain semantic consistency with the primary text.",
+    "real_world_impact": "Insights from this research could be useful for enhancing the robustness of various NLP applications, likely leading to more resilient conversational AI systems.",
+    "limitations": "No limitations are mentioned by the authors.",
+    "new_terms": {
+        "Zero-Perturbation": "**Zero-Perturbation** refers to the technique of causing model misclassification without altering the visible text content.",
+        "Adversarial Attacks": "**Adversarial Attacks** are techniques aimed at misleading machine learning models through deceptive input data to evaluate and enhance the models' robustness."
+    },
+    "open_sourcing": ""
+}

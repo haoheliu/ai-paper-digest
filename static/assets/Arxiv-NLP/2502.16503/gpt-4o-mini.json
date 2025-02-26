@@ -1,0 +1,21 @@
+{
+    "title": "FanChuan: A Multilingual and Graph-Structured Benchmark For Parody Detection and Analysis",
+    "author": "Yilun Zheng (Nanyang Technological University), Sha Li (Nanyang Technological University), Fangkun Wu (Nanyang Technological University), Yang Ziyi (Nanyang Technological University), Lin Hongchao (Nanyang Technological University), Zhichao Hu (Nanyang Technological University), Cai Xinjun (Nanyang Technological University), ..., Jiahao Xu (Nanyang Technological University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The study's focus on parody detection merits attention because understanding humor and social interactions can enhance models of language and speech, which could potentially be applied to areas like audio captioning.",
+    "field": "Applications-Language",
+    "background": "Parody detection involves identifying humorous or satirical comments on social media that mimic opinions, which is complex due to cultural context and linguistic nuances.",
+    "contribution": "FanChuan introduces a multilingual benchmark comprising seven datasets to improve parody detection, achieving a detailed analysis of parody-related tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets on parody detection are limited in diversity and context, often focusing solely on textual content without relational context.",
+        "novelty": "This work enhances the dataset by incorporating user interaction graphs that provide richer contextual information, thereby facilitating deeper analysis."
+    },
+    "key_innovation": "The construction of heterogeneous user-interaction graphs that link comments and users allows for advanced relational analysis beyond traditional text-based approaches.",
+    "real_world_impact": "This benchmark aims to enhance models' understanding of social media dynamics, potentially influencing the development of more nuanced conversational agents and content moderation systems.",
+    "limitations": "The datasets mainly focus on English and Chinese, limiting their applicability to other language contexts.",
+    "new_terms": {
+        "heterogeneous graphs": "**Heterogeneous graphs** are structures that contain different types of nodes and edges, allowing for more complex relationships between entities than homogeneous graphs."
+    },
+    "open_sourcing": "The code and data for FanChuan are available at https://github.com/Lisaaa1017/Fanchuan"
+}

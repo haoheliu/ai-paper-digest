@@ -1,0 +1,21 @@
+{
+    "title": "Breast Lump Detection and Localization with a Tactile Glove Using Deep Learning",
+    "author": "Togzhan Syrymov (Nazarbayev University), Amir Yelenov (Nazarbayev University), Karina Burunchina (Nazarbayev University), Nazgul Abulkhanov (University Medical Center Corporate Fund), Huseyin Atakan Varol (Nazarbayev University), Juan Antonio Corrales Ramon (Universidade de Santiago de Compostela), Zhanat Kappassov (Nazarbayev University), ...",
+    "quality": 7,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Applications-Healthcare",
+    "background": "This paper details a system utilizing sensor-equipped gloves to detect and localize breast lumps in silicone prototypes, which mimics the human breast.",
+    "contribution": "This study introduces a wearable tactile glove for breast lump detection and localization using deep learning methods, achieving an accuracy of 95.01% for lump presence classification.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on imaging techniques that are often expensive and require skilled professionals for accurate readings, lacking portability.",
+        "novelty": "This work improves by utilizing tactile gloves equipped with pressure sensors and deep learning architectures, allowing portable and user-friendly lump detection."
+    },
+    "key_innovation": "The integration of deep learning with tactile sensing technology in a wearable format uniquely facilitates real-time breast lump detection.",
+    "real_world_impact": "This technology could significantly enhance routine breast examinations, making lump detection more accessible for both healthcare providers and patients, potentially leading to earlier breast cancer diagnosis.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "InceptionTime": "**InceptionTime** is a deep learning architecture designed for classifying time series data by utilizing multiple convolutional filters to learn diverse patterns."
+    },
+    "open_sourcing": ""
+}

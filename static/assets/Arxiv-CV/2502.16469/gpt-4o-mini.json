@@ -1,0 +1,22 @@
+{
+    "title": "Cross-domain Few-shot Object Detection with Multi-modal Textual Enrichment",
+    "author": "Zeyu Shangguan (University of Southern California), Daniel Seita (University of Southern California), Mohammad Rostami (University of Southern California), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper explores multi-modal approaches to few-shot learning, particularly through the integration of textual information, which may inform techniques for audio captioning or multimodal generation tasks in Haohe Liu's research.",
+    "field": "Applications-Creative AI",
+    "background": "Cross-domain few-shot object detection aims to identify novel object classes with very few labeled examples while leveraging both visual and textual data.",
+    "contribution": "This paper introduces a meta-learning framework that combines visual and rich textual data to improve cross-domain few-shot object detection performance, addressing significant domain gaps.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in few-shot object detection often relied solely on visual data or simplistic textual descriptions, limiting their ability to generalize in varying domains.",
+        "novelty": "This work integrates detailed textual semantics alongside visual data for improved feature alignment and robustness during domain adaptation."
+    },
+    "key_innovation": "The introduction of a rich text semantic rectification module enhances the understanding of complex language and its application to detection tasks.",
+    "real_world_impact": "This research has potential applications in industrial settings where detailed textual instructions can help bridge the gap in detection capabilities for complex or specialized domains.",
+    "limitations": "The paper does not specify limitations, suggesting room for improvement in experimental validation across multiple domains.",
+    "new_terms": {
+        "multi-modal feature aggregation": "**Multi-modal feature aggregation** refers to the process of combining different types of data (e.g., visual and textual) into a unified model to enhance understanding and performance in tasks such as detection.",
+        "rich textual semantics": "**Rich textual semantics** denotes the use of detailed and contextually rich language descriptions that enhance the model's capacity to grasp complex nuances in visual recognition tasks."
+    },
+    "open_sourcing": "The implementation of this method is publicly accessible at: https://github.com/zshanggu/HTRPN."
+}

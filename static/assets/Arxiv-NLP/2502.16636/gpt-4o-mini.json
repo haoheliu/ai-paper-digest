@@ -1,0 +1,21 @@
+{
+    "title": "Visual-RAG: Benchmarking Text-to-Image Retrieval Augmented Generation for Visual Knowledge Intensive Queries",
+    "author": "Yin Wu (Nanyang Technological University), Quanyu Long (Nanyang Technological University), Jing Li (Harbin Institute of Technology (Shenzhen)), Jianfei Yu (Nanjing University of Science and Technology), Wenya Wang (Nanyang Technological University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper focuses on multimodal retrieval, particularly text-to-image retrieval, which could inform approaches in audio-visual generative tasks and enhance understanding of cross-modal interactions relevant to audio generation.",
+    "field": "Applications-Creative AI",
+    "background": "This paper introduces a benchmark for questions requiring visual knowledge to be answered using images retrieved based on text prompts, examining how effectively Large Language Models (LLMs) integrate this visual information.",
+    "contribution": "Visual-RAG introduces a new Question Answering benchmark emphasizing visual knowledge from images to improve Retrieval-Augmented Generation, achieving notable insights into model performance on visual tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks primarily used textual knowledge and did not focus on utilizing images effectively during question answering.",
+        "novelty": "This benchmark specifically requires systems to retrieve and interpret images, allowing for richer visual reasoning compared to mere text retrieval."
+    },
+    "key_innovation": "The creation of Visual-RAG as a text-only query-based system that relies on text-to-image retrieval for answering knowledge-intensive questions, thereby challenging existing multimodal frameworks.",
+    "real_world_impact": "By effectively integrating visual information into answers, this research could enhance interactive educational tools and creative applications in various fields like ecology and design. It pushes boundaries for LLMs advancing capabilities in real-world scenarios.",
+    "limitations": "The benchmark only includes single-hop questions and is limited to the organism domain, which may restrict broader applicability.",
+    "new_terms": {
+        "Retrieval-Augmented Generation": "**Retrieval-Augmented Generation (RAG)** refers to a method to improve answer generation by retrieving relevant external information or supporting evidence from databases or knowledge bases."
+    },
+    "open_sourcing": "Benchmark and evaluation codes will be available at https://github.com/LuciusLan/Visual-RAG"
+}

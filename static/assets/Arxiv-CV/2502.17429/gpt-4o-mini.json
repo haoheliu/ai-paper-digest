@@ -1,0 +1,23 @@
+{
+    "title": "CLIMB-3D: Continual Learning for Imbalanced 3D Instance Segmentation",
+    "author": "Vishal Thengane (University of Surrey), Q Jean Lahoud (Mohamed bin Zayed University of Artificial Intelligence), Hisham Cholakkal (Mohamed bin Zayed University of Artificial Intelligence), Rao Muhammad Anwer (Mohamed bin Zayed University of Artificial Intelligence), Lu Yin (University of Surrey), Xiatian Zhu (University of Surrey), Salman Khan (Mohamed bin Zayed University of Artificial Intelligence, Australian National University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This work could be beneficial for future approaches in audio signal processing, particularly regarding continual learning and class imbalance, which can be applied in areas such as sound event detection and audio classification.",
+    "field": "General Machine Learning-Online Learning",
+    "background": "The paper addresses the task of incrementally learning to segment individual objects in 3D environments while managing class imbalance, simulating scenarios where new object categories appear over time.",
+    "contribution": "CLIMB-3D introduces a novel framework that integrates Exemplar Replay, Knowledge Distillation, and an Imbalance Correction module to effectively tackle class imbalance in 3D instance segmentation, achieving significant performance improvements.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in 3D instance segmentation faced challenges with catastrophic forgetting and often relied on extensive exemplar storage to retain knowledge.",
+        "novelty": "This work minimizes the necessity for large exemplars and leverages knowledge from prior tasks while dynamically addressing class frequencies, making it more efficient and applicable in practical scenarios."
+    },
+    "key_innovation": "The integration of a novel Imbalance Correction module allows for adaptive learning rates based on category occurrence frequencies, supporting better performance in rare class detection.",
+    "real_world_impact": "The approach enables better segmentation in dynamic environments, which can enhance applications like robotics and autonomous systems by improving the understanding of complex scenes. No immediate real-world impact.",
+    "limitations": "No",
+    "new_terms": {
+        "Exemplar Replay": "**Exemplar Replay** is a method used in continual learning that involves storing and reusing a subset of past examples to retain knowledge while learning from new data.",
+        "Knowledge Distillation": "**Knowledge Distillation** is a technique where a smaller model (student) learns from a larger, pre-trained model (teacher) to improve performance on a specific task.",
+        "Imbalance Correction": "**Imbalance Correction** refers to techniques designed to adjust the learning process to account for class imbalance, ensuring that less frequent classes receive adequate attention during training."
+    },
+    "open_sourcing": "https://github.com/vgthengane/CLIMB3D"
+}

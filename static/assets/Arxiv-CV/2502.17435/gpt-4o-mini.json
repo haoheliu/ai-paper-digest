@@ -1,0 +1,22 @@
+{
+    "title": "GCC: Generative Color Constancy via Diffusing a Color Checker",
+    "author": "Chen-Wei Chang (National Yang Ming Chiao Tung University), Cheng-De Fan (National Yang Ming Chiao Tung University), Chia-Che Chang (MediaTek Inc.), Yi-Chen Lo (MediaTek Inc.), Yu-Chee Tseng (National Yang Ming Chiao Tung University), Jiun-Long Huang (National Yang Ming Chiao Tung University), Yu-Lun Liu (National Yang Ming Chiao Tung University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper addresses color constancy methods that could have implications in audio-visual applications where accurate color representation can enhance paired audio narratives.",
+    "field": "Applications-Vision",
+    "background": "Illumination estimation in images to ensure consistent color representation regardless of lighting conditions.",
+    "contribution": "This paper introduces a method that utilizes diffusion models to inpaint color checkers for improved illumination estimation, achieving state-of-the-art error rates in challenging cross-camera scenarios.",
+    "technical_comparison": {
+        "prior_work": "Prior techniques in color constancy struggle with generalization across different camera sensors and often necessitate sensor-specific training.",
+        "novelty": "This work improves by using diffusion models for deterministic inference and employing Laplacian decomposition to preserve structural details, enhancing robustness without requiring extensive training data."
+    },
+    "key_innovation": "The integration of a color checker through diffusion inpainting allows for adapting illumination in real-time without relying on sensor calibration.",
+    "real_world_impact": "This advancement provides a versatile solution for applications in photography and autonomous systems, ensuring accurate color representation in dynamic lighting situations.",
+    "limitations": "The authors acknowledge challenges with extreme lighting conditions where mismatches between the inpainted checker and ambient lighting may arise.",
+    "new_terms": {
+        "color constancy": "**Color constancy** is the ability to perceive colors of objects, invariant to the color of the light source.",
+        "diffusion models": "**Diffusion models** are generative models that learn to create data by reversing a noise process, useful in image generation and manipulation tasks."
+    },
+    "open_sourcing": "The authors plan to make their source code and fine-tuned model weights publicly available for reproducibility."
+}

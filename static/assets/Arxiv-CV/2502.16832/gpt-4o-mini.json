@@ -1,0 +1,22 @@
+{
+    "title": "FedBM: Stealing Knowledge from Pre-trained Language Models for Heterogeneous Federated Learning",
+    "author": "Meilu Zhu (City University of Hong Kong), Qiushi Yang (City University of Hong Kong), Zhifan Gao (Sun Yat-sen University), Yixuan Yuan (Chinese University of Hong Kong), Jun Liu (University of Hong Kong)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed method utilizes pre-trained language models which can enhance audio-language tasks, particularly in scenarios that require understanding between visual and linguistic concepts, potentially benefiting text-to-audio generation.",
+    "field": "Applications-Healthcare",
+    "background": "Federated learning enables multiple clients to collaboratively train a model while keeping their data decentralized, aiming to mitigate local learning bias caused by heterogeneous data.",
+    "contribution": "This paper introduces the Federated Bias Eliminating (FedBM) framework to solve local learning bias in heterogeneous federated learning by employing linguistic knowledge from pre-trained language models, achieving improved model performance across distributed clients.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggle with inconsistent learning across clients due to diverse data distributions, leading to biased model training.",
+        "novelty": "This work enhances local model performance through classifier construction using linguistic embeddings and a conditional generator for data augmentation, focusing on balancing local updates without directly sharing data."
+    },
+    "key_innovation": "The use of linguistic knowledge to build global classifiers and generate synthetic training data, creating a unified framework that strengthens cooperation among clients in federated learning",
+    "real_world_impact": "By applying FedBM in medical image classification, it can lead to more accurate diagnoses and operational efficiencies in healthcare settings, while ensuring patient data privacy.",
+    "limitations": "No limitations mentioned.",
+    "new_terms": {
+        "Federated Learning": "**Federated Learning** is a machine learning approach that allows multiple clients to train models collaboratively while keeping their data decentralized to maintain privacy.",
+        "Pre-trained Language Models (PLMs)": "**Pre-trained Language Models** are models that have been trained on a large corpus of text data to capture linguistic features, which can be fine-tuned for various tasks."
+    },
+    "open_sourcing": "The code is available at https://github.com/CUHK-AIM-Group/FedBM."
+}

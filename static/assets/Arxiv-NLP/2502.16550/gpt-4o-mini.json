@@ -1,0 +1,22 @@
+{
+    "title": "Reasoning About Persuasion: Can LLMs Enable Explainable Propaganda Detection?",
+    "author": "Maram Hasanain (Qatar Computing Research Institute), Md Arid Hasan (University of New Brunswick), Mohamed Bayan Kmainasi (Qatar University), Elisa Sartori (University of Padova), Ali Ezzat Shahroor (Qatar Computing Research Institute), Giovanni Da San Martino (University of Padova), Firoj Alam (Qatar Computing Research Institute), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The use of multilingual datasets and LLMs for propaganda detection may provide insights into audio-text alignment techniques in addressing misinformation and persuasive communication.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Developing automatic systems to detect propaganda in various languages and providing rational explanations for the classifications to enhance user understanding and trust.",
+    "contribution": "This paper introduces a multilingual explanation-enhanced dataset and an LLM that not only detects propaganda but also generates rationale-based explanations, achieving competitive detection performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on detection without generating explanations, often lacking transparency.",
+        "novelty": "This work combines detection and explanation generation, leveraging a stronger LLM for explanation creation and manual evaluation for quality assurance."
+    },
+    "key_innovation": "The integration of explanation generation with automated propaganda detection enhances interpretability and user trust in the system's predictions.",
+    "real_world_impact": "This research aims to improve critical media literacy and could help combat misinformation in diverse languages across social media and news platforms.",
+    "limitations": "The reliance on a single LLM for explanation generation may limit the robustness across varying contexts and languages.",
+    "new_terms": {
+        "explanation-enhanced dataset": "**Explanation-enhanced dataset** refers to datasets that not only label instances (like propaganda or normal text) but also provide understandable reasons for those labels, aiding in transparency and learning for users.",
+        "large language models": "**Large language models (LLMs)** are advanced AI models that can understand and generate human-like text based on massive datasets, enabling applications in text comprehension, generation, and more."
+    },
+    "open_sourcing": "The dataset and experimental resources will be made publicly available."
+}

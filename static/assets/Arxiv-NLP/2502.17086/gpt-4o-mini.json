@@ -1,0 +1,16 @@
+{
+    "title": "Automatically Evaluating the Paper Reviewing Capability of Large Language Models",
+    "author": "Hyungyu Shin (KAIST), Jingyu Tang (Huazhong University of Science and Technology), Yoonjoo Lee (KAIST), Nayoung Kim (KAIST), Hyunseung Lim (KAIST), Ji Yong Cho (LG AI Research), Hwajung Hong (KAIST), Moontae Lee (University of Illinois Chicago), Juho Kim (KAIST)",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The paper focuses on evaluating large language models (LLMs) in tasks closely related to Haohe Liu's work in audio and speech processing. Insights gained from LLM evaluations may enhance methods in audio-language modeling and generative AI applications for audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves assessing how effectively large language models can review academic papers, focusing on their identification of strengths and weaknesses.",
+    "contribution": "This paper introduces an automated evaluation pipeline that analyzes the paper review capabilities of large language models by comparing them to expert reviews, providing insights into their performance.",
+    "technical_comparison": "Previous methods of evaluating LLMs lacked systematic quantitative analysis and scalability. This work improves upon that by using an automated pipeline to assess LLMs against human expert reviews, allowing for scalable evaluations.",
+    "key_innovation": "The paper establishes an innovative framework that provides systematic insights into LLMs' strengths and weaknesses in academic paper reviews.",
+    "real_world_impact": "This research can significantly enhance the role of LLMs in the peer review process, potentially improving the efficiency of academic publishing and assisting researchers in refining their work.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

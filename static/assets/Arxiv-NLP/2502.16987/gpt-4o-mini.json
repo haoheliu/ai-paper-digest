@@ -1,0 +1,22 @@
+{
+    "title": "Hotter and Colder: A New Approach to Annotating Sentiment, Emotions, and Bias in Icelandic Blog Comments",
+    "author": "Steinunn Rut Fri\u00f0riksd\u00f3ttir (University of Iceland), Dan Saattrup Nielsen (The Alexandra Institute), Hafsteinn Einarsson (University of Iceland), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper introduces a dataset and a novel annotation methodology that combines AI with human verification, methods that could be beneficial for developing models in other domains like audio or speech processing, particularly in sentiment analysis and emotion detection.",
+    "field": "Applications-Language",
+    "background": "The study explores sentiment and emotion annotation of online comments, focusing on a large dataset of blog posts in Icelandic.",
+    "contribution": "This paper introduces the 'Hotter and Colder' dataset and a dual-phase annotation method to improve the reliability of sentiment analysis in online discourse, achieving higher accuracy in detecting rare instances of hate speech and emotional content.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied solely on human annotations or less sophisticated AI techniques, which can lead to bias and inconsistencies.",
+        "novelty": "This work improves upon earlier methodologies by integrating artificial intelligence for initial labeling followed by targeted human verification, enhancing dataset quality and consistency."
+    },
+    "key_innovation": "The combination of machine learning for efficient labeling with a structured human validation process allows for high-quality annotations, particularly for rare online behaviors.",
+    "real_world_impact": "This dataset can facilitate the development of automated content moderation tools, potentially improving online discourse and safety in digital communication environments.",
+    "limitations": "The dataset is relatively small, and there are concerns about annotator fatigue influencing the quality of annotations.",
+    "new_terms": {
+        "gold labeling": "**Gold labeling** refers to the process of manually verifying and confirming the accuracy of labels assigned by a machine learning model.",
+        "silver labeling": "**Silver labeling** is the initial automated labeling performed by a model before undergoing human verification."
+    },
+    "open_sourcing": "The dataset and annotation interface are publicly available at https://repository.clarin.is/ and https://github.com/icelandic-lt/annotation_if_sentiment"
+}

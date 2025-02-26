@@ -1,0 +1,22 @@
+{
+    "title": "LegalBench.PT: A Benchmark for Portuguese Law",
+    "author": "Beatriz Canaverde (Instituto Superior T\u00e9cnico), Leonor Melo Ribeiro (Georgetown University Law Center), Andr\u00e9 F. T. Martins (Instituto Superior T\u00e9cnico), Telmo Pessoa Pires (Equall), Niklaus et al.",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces a comprehensive legal benchmark specifically for evaluating Large Language Models in the context of Portuguese law, which could be useful for enhancing models applied in legal audio analysis or generating legal documents.",
+    "field": "Applications-Language",
+    "background": "Creating a benchmark to measure the legal reasoning abilities of Large Language Models in the Portuguese legal system using real exam questions transformed into various question formats.",
+    "contribution": "This paper introduces LegalBench.PT to solve the lack of tailored legal benchmarks for Portuguese law, achieving a robust dataset of 4,723 questions across 31 legal areas.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks for legal language models often target specific jurisdictions or merely offer classification tasks.",
+        "novelty": "This work expands on prior benchmarks by focusing on the unique aspects of Portuguese law and converting long-form exam questions into more evaluable formats."
+    },
+    "key_innovation": "Utilizes a systematic approach combining human expertise and synthetic question generation to provide a significant legal knowledge evaluation tool.",
+    "real_world_impact": "The benchmark can enhance the development of more effective legal NLP tools and applications in Portugal, improving legal research accessibility and efficiency.",
+    "limitations": "The dataset contains some noise, including incorrect answers and reliance on synthesized data.",
+    "new_terms": {
+        "benchmark": "**Benchmark** refers to a standard or point of reference against which things may be compared or assessed, particularly in measuring performance.",
+        "Large Language Models (LLMs)": "**Large Language Models (LLMs)** are a type of artificial intelligence model designed to understand and generate human language based on large datasets."
+    },
+    "open_sourcing": "Dataset publicly available at: https://huggingface.co/datasets/BeatrizCanaverde/LegalBench.PT"
+}

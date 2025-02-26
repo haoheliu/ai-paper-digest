@@ -1,0 +1,22 @@
+{
+    "title": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+    "author": "Feng Lu (Tsinghua University), Tong Jin (Shenyang Institute of Automation), Xiangyuan Lan (Pengcheng Laboratory), Lijun Zhang (Chongqing Institute of Green and Intelligent Technology), Yunpeng Liu (Shenyang Institute of Automation), Yaowei Wang (Pengcheng Laboratory), Chun Yuan (Tsinghua University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The innovative methods for feature adaptation using foundation models could inspire new strategies for audio processing tasks, particularly in audio recognition and related domains.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "Visual place recognition aims to determine the location of a query image by comparing it with a database of geo-tagged images, which helps in tasks like mobile robot localization and augmented reality.",
+    "contribution": "SelaVPR++ introduces a memory-efficient adaptation method using lightweight multi-scale convolution adapters and a novel retrieval paradigm that enhances efficiency while maintaining accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often involved heavy computational overhead due to gradient backpropagation through large foundation models, which was inefficient.",
+        "novelty": "This work significantly reduces training time and memory usage by utilizing parallel adapters, eliminating backpropagation through the backbone."
+    },
+    "key_innovation": "The use of multi-scale convolution adapters allows for better spatial interaction among feature tokens, improving place recognition accuracy without the need for local feature re-ranking.",
+    "real_world_impact": "The proposed methods can lead to faster and more efficient place recognition systems, benefiting real-time applications in robotics and augmented reality. No immediate real-world impact.",
+    "limitations": "Limited discussion on the impact of varying the number of adapters on model performance and efficiency.",
+    "new_terms": {
+        "multi-scale convolution adapters": "**Multi-scale convolution adapters** are lightweight modules designed to process features at multiple scales, allowing them to capture details across different resolutions.",
+        "feature re-ranking": "**Feature re-ranking** refers to the process of re-assessing the initially retrieved candidates to improve the final selection accuracy."
+    },
+    "open_sourcing": "Code and models will be released at https://github.com/Lu-Feng/SelaVPR"
+}

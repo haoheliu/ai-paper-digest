@@ -1,0 +1,21 @@
+{
+    "title": "Multizone sound field reproduction with direction-of-arrival distribution-based regularization and its application to binaural-centered mode-matching",
+    "author": "Ryo Matsuda (Graduate School of Engineering, Kyoto University), Yuki Kawasaki (Graduate School of Engineering, Kyoto University), Makoto Otani (Graduate School of Engineering, Kyoto University), ..., Makoto Otani (Yamaha Corporation)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques presented in this paper related to sound field reproduction and binaural audio could inform methods for audio manipulation and enhancement, which aligns with Haohe Liu's focus on audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Multizone sound field reproduction aims to create a realistic audio experience in multiple zones for listeners by using loudspeakers to reproduce sound fields accurately.",
+    "contribution": "This paper introduces direction-of-arrival (DoA) distribution-based regularization to solve issues of sound reproduction accuracy at different listener positions, achieving improved accuracy in multizone and binaural-centered sound field reproduction.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in sound reproduction often struggled with distortion from loudspeakers positioned away from the primary sound source, leading to inaccurate sound fields.",
+        "novelty": "This work enhances the reproduction technique by implementing a DoA-distribution-based regularization that effectively suppresses loudspeaker output in directions opposing the primary sound source."
+    },
+    "key_innovation": "The unique application of DoA information allows for improved signal processing in spatial sound reproduction, minimizing errors associated with conventional methods.",
+    "real_world_impact": "The proposed techniques have the potential to enhance immersive audio experiences in venues such as concert halls or virtual reality environments, providing listeners with a more natural sound experience.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "direction-of-arrival (DoA)": "**Direction-of-arrival** refers to techniques used in audio processing to determine the incoming direction of sound waves, which aids in accurate sound field reproduction."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "An Enhanced Large Language Model For Cross Modal Query Understanding System Using DL-KeyBERT Based CAZSSCL-MPGPT",
+    "author": "Shreya Singh (DIT University, Dehradun, India), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The methods of cross-modal query understanding and enhancement of large language models could be relevant for improving multimodal integration in audio-related tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This paper presents an advanced system for understanding queries that involve both images and text, improving how machines process and respond to such inquiries.",
+    "contribution": "This paper introduces an enhanced framework for cross-modal query understanding using a combination of DL-KeyBERT and CAZSSCL-MPGPT, achieving high accuracy in datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing methods do not effectively mitigate the bias introduced by echo chamber effects in image processing and struggle with accurate semantic relationships.",
+        "novelty": "This work integrates a knowledge graph and advanced optimization techniques to improve performance and reduce bias."
+    },
+    "key_innovation": "Utilizes a Conditional Random Knowledge Graph to reduce bias from training data while enhancing semantic understanding across modalities.",
+    "real_world_impact": "This approach could enhance AI applications in various domains requiring accurate interpretation of cross-modal data, such as image captioning and visual question answering.",
+    "limitations": "No specific limitations are addressed by the author.",
+    "new_terms": {
+        "Conditional Random Knowledge Graph (CRKG)": "**Conditional Random Knowledge Graph** is a graph-based approach that represents entities and their relationships conditionally to enhance knowledge extraction without biases.",
+        "CAZSSCL": "**Cross Attention Layer and Zero-Shot Semantic Consistency Learning** refers to a method designed to improve alignment between different data modalities without prior labeled data."
+    },
+    "open_sourcing": ""
+}

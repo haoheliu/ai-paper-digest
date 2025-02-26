@@ -1,0 +1,21 @@
+{
+    "title": "Slamming: Training a Speech Language Model on One GPU in a Day",
+    "author": "Gallil Maimon (The Hebrew University of Jerusalem), Avishai Elmakies (The Hebrew University of Jerusalem), Yossi Adi (The Hebrew University of Jerusalem), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents efficient training methods for Speech Language Models (SLMs) that could be applicable to enhance audio processing tasks, especially in training models on a limited compute budget, which is beneficial for ongoing research in audio synthesis and processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper investigates the feasibility of training high-quality Speech Language Models using a single Graphics Processing Unit (GPU) within a constrained time frame of 24 hours.",
+    "contribution": "This work introduces a training recipe called *Slam* for efficiently training high-quality Speech Language Models on a single GPU within 24 hours, achieving performance that competes with state-of-the-art models using significantly less computation.",
+    "technical_comparison": {
+        "prior_work": "Previous SLMs often required extensive computational resources, such as several GPUs and large datasets, making them less accessible.",
+        "novelty": "This paper's method enables effective training with synthetic data, optimization techniques, and model architectural adjustments within a brief period, showcasing improved performance efficiency."
+    },
+    "key_innovation": "Utilizes a focused training strategy that combines synthetic data generation and advanced optimization techniques to achieve high performance on limited hardware.",
+    "real_world_impact": "The findings may democratize access to SLM training, allowing smaller institutions to develop competitive models without extensive computational resources, potentially fostering innovation in speech technology applications.",
+    "limitations": "The training may not perform as well on real-world acoustic or prosodic evaluations due to the limitations of the datasets used.",
+    "new_terms": {
+        "Speech Language Models (SLMs)": "**Speech Language Models (SLMs)** are types of models designed to understand and generate human speech, and can incorporate both speech and text inputs."
+    },
+    "open_sourcing": "All code, models, and datasets related to the *Slam* training approach are open-sourced and available at the provided links."
+}

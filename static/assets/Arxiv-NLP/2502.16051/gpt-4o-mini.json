@@ -1,0 +1,21 @@
+{
+    "title": "Moving Beyond Medical Exam Questions: A Clinician-Annotated Dataset of Real-World Tasks and Ambiguity in Mental Healthcare",
+    "author": "Max Lamparth (Stanford University), Declan Grabb (Stanford University), Amy Franks (University of Colorado), Scott Gershan (Northwestern University), Kaitlyn N Kunstman (Northwestern University), Aaron Lulla (Stanford University), Monika Drummond Roots (University of Wisconsin), Manu Sharma (Yale University), Aryan Shrivastava (University of Chicago), Nina Vasan (Stanford University), Colleen Waickman (Ohio State University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a novel dataset focused on real-world mental healthcare tasks that could be useful in developing decision-making models for audio applications in therapeutic settings.",
+    "field": "Applications-Healthcare",
+    "background": "The paper discusses the creation of a dataset designed to evaluate language models on real-world mental healthcare tasks, such as diagnosis, treatment, and monitoring, rather than relying solely on standardized exam questions.",
+    "contribution": "The paper introduces the MENTAT dataset to solve the gap in evaluating AI performance in real-world clinical scenarios, achieving a dataset reflective of nuanced decision-making in mental healthcare.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets often focused on standardized exam-like questions, lacking real-world complexity and context.",
+        "novelty": "This work captures multiple valid answer options and preference annotations, providing a more comprehensive evaluation framework for AI models in mental health."
+    },
+    "key_innovation": "It emphasizes the ambiguity in clinical decision-making, allowing for assessment beyond binary correct/incorrect metrics.",
+    "real_world_impact": "The MENTAT dataset can enhance AI systems in psychiatry, supporting better decision-making tools that are more aligned with clinical practices. However, there is a risk of premature model deployment.",
+    "limitations": "The dataset may carry biases present in the expert annotations and is limited to the U.S. healthcare context.",
+    "new_terms": {
+        "MENTAT": "**MENTAT** is a dataset created to evaluate language models in the context of mental healthcare decision-making, capturing the complexities of real-world tasks."
+    },
+    "open_sourcing": "The dataset and processing pipeline are publicly available on GitHub."
+}

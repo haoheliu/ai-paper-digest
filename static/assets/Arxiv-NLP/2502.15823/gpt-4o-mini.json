@@ -1,0 +1,22 @@
+{
+    "title": "InductionBench: LLMs Fail in the Simplest Complexity Class",
+    "author": "Wenyue Hua (University of California, Santa Barbara), Tyler Wong (University of California, Santa Barbara), Sun Fei (Independent Researcher), Liangming Pan (University of Arizona), Adam Jardine (Rutgers University, New Brunswick), William Yang Wang (University of California, Santa Barbara), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores inductive reasoning capabilities of Large Language Models (LLMs), which could inform methods to improve audio generation models by integrating more robust reasoning capabilities.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating Large Language Models' ability to infer rules from limited examples, simulating a fundamental aspect of scientific discovery.",
+    "contribution": "This paper introduces InductionBench to assess inductive reasoning in LLMs, achieving insight into their limitations in mastering basic string-to-string transformations.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks typically focus on deductive reasoning, applying clear rules or formats.",
+        "novelty": "This work emphasizes performance on inductive reasoning tasks, thereby filling a critical gap in evaluating LLMs' cognitive abilities."
+    },
+    "key_innovation": "The introduction of a structured benchmark that systematically evaluates inductive reasoning across various complexity classes for LLMs.",
+    "real_world_impact": "This research can guide improvements in LLMs, enabling better pattern recognition and rule inference, which are critical for applications in various domains including audio processing.",
+    "limitations": "The models tested struggled significantly with basic inductive tasks despite previous successes in more structured reasoning tasks.",
+    "new_terms": {
+        "inductive reasoning": "**Inductive reasoning** is the process of inferring general principles from specific examples or observations.",
+        "subregular hierarchy": "**Subregular hierarchy** refers to a classification of functions based on their complexity, focusing on string-to-string mappings and their learnability."
+    },
+    "open_sourcing": "Coda and data are available at https://github.com/Wenyueh/inductive_reasoning_benchmark"
+}

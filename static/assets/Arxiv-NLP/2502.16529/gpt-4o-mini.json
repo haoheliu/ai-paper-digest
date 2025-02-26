@@ -1,0 +1,22 @@
+{
+    "title": "Retrieval-Augmented Fine-Tuning With Preference Optimization For Visual Program Generation",
+    "author": "Deokhyung Kang (POSTECH), Jeonghun Cho (POSTECH), Yejin Jeon (POSTECH), Sunbin Jang (Hyundai Mobis), Minsub Lee (Hyundai Mobis), Jawoon Cho (T&I Company), Gary Geunbae Lee (POSTECH), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper addresses visual programming languages (VPL) generation, which can inform similar approaches in audio processing and generative models for audio, especially in multi-modal contexts. The methods shown could inspire innovations in audio-language integration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on generating visual programming languages from user instructions while leveraging retrieval-augmented fine-tuning and preference optimization techniques.",
+    "contribution": "This paper introduces a two-stage training strategy combining retrieval-augmented fine-tuning and preference optimization to enhance visual program generation accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on prompting-based techniques for VPL generation, which often struggled with domain-specific configurations.",
+        "novelty": "This work improves on those methods by employing retrieval mechanisms during model training, allowing for better contextual relevance and capturing domain-specific characteristics."
+    },
+    "key_innovation": "The integration of retrieval-augmented fine-tuning allows the model to learn from similar past examples, enhancing its performance on generating complex visual programs.",
+    "real_world_impact": "By improving the accuracy of VPL generation in industrial automation contexts, this method has the potential to significantly streamline programming tasks and enhance productivity in automation settings.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Retrieval-Augmented Fine-Tuning": "**Retrieval-augmented fine-tuning** is a technique that enhances model training by incorporating relevant past examples during the learning process, allowing models to leverage contextual data effectively for improved performance.",
+        "Preference Optimization": "**Preference optimization** refers to methods that train models using preference pairs derived from task-specific data to improve decision-making and output accuracy."
+    },
+    "open_sourcing": ""
+}

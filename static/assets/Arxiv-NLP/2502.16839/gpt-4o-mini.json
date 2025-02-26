@@ -1,0 +1,22 @@
+{
+    "title": "\"Actionable Help\" in Crises: A Novel Dataset and Resource-Efficient Models for Identifying Request and Offer Social Media Posts",
+    "author": "Rabindra Lamsal (The University of Melbourne), Maria Rodriguez Read (The University of Melbourne), Shanika Karunasekera (The University of Melbourne), Muhammad Imran (Qatar Computing Research Institute), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods for identifying actionable requests and offers in social media can be adapted for audio-related social media platforms or audio event detection tasks, where audio samples mention or relate to requests for audio content.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of identifying specific actionable content (requests and offers) in the large volume of social media posts during crises, which is crucial for efficient resource allocation in emergency situations.",
+    "contribution": "This paper introduces CrisisHelpOffer, a dataset and new mini models specifically designed for classifying crisis-related social media content, achieving improved accuracy and efficiency over existing models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on standard large models like BERT, which are slow and resource-intensive for real-time applications.",
+        "novelty": "This work employs efficient mini models that retain accuracy while significantly enhancing processing speed and reducing model size."
+    },
+    "key_innovation": "The introduction of mini models specifically optimized for the crisis domain enables faster and more efficient classification of social media text data.",
+    "real_world_impact": "This research can improve real-time crisis response by enabling quicker identification of help requests and offers on social media, potentially enhancing disaster management and relief efforts.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "CrisisHelpOffer": "**CrisisHelpOffer** refers to a newly created dataset focused on identifying actionable help requests and offers within crisis-related tweets.",
+        "mini models": "**Mini models** are smaller, optimized versions of transformer architectures that maintain higher efficiency and lower latency for deployment in resource-constrained environments."
+    },
+    "open_sourcing": "The dataset will be provided upon request."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "A Close Look at Decomposition-based XAI-Methods for Transformer Language Models",
+    "author": "Leila Arras (Fraunhofer Heinrich Hertz Institute), Bruno Puri (Fraunhofer Heinrich Hertz Institute), Patrick Kahardipraja (Fraunhofer Heinrich Hertz Institute), Sebastian Lapuschkin (Fraunhofer Heinrich Hertz Institute), Wojciech Samek (Fraunhofer Heinrich Hertz Institute), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "",
+    "field": "Social and Economic Aspects of ML-Interpretability",
+    "background": "Evaluating methods for explaining the decisions of transformer language models by attributing the prediction logit to input tokens and model components.",
+    "contribution": "This paper introduces a comparative analysis of decomposition-based attribution methods for transformer models, achieving a benchmark dataset for evaluating explainability in language models.",
+    "technical_comparison": {
+        "prior_work": "Prior methods like Layer-wise Relevance Propagation (LRP) lacked rigorous comparisons with other methods like ALTI-Logit, leading to incomplete evaluations.",
+        "novelty": "This work constructs a comprehensive benchmark and extends existing methods to improve their applicability and effectiveness across different transformer architectures."
+    },
+    "key_innovation": "The study offers a detailed comparative evaluation and a new implementation strategy, promoting fair assessments of transformer explainability methods.",
+    "real_world_impact": "The results could enhance interpretability in Natural Language Processing models, aiding in the deployment of AI systems that require transparent decision-making processes.",
+    "limitations": "The ground truth annotations may contain noise due to reliance on dependency parsing, potentially affecting evaluation accuracy.",
+    "new_terms": {
+        "decomposition-based XAI": "**Decomposition-based Explainable Artificial Intelligence (XAI)** methods attribute model predictions back to input features through additive or backward allocation of relevance scores.",
+        "benchmark dataset": "**Benchmark dataset** refers to a standardized dataset created for the purpose of evaluating various models or methods, ensuring uniformity in performance comparisons."
+    },
+    "open_sourcing": "The benchmark dataset and code will be made publicly available upon paper acceptance."
+}

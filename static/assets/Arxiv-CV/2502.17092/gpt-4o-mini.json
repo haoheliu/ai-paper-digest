@@ -1,0 +1,22 @@
+{
+    "title": "Shakti-VLMs: Scalable Vision-Language Models for Enterprise AI",
+    "author": "Syed Abdul Gaffar Shakhadri (SandLogic Technologies Pvt Ltd), Kruthika KR (SandLogic Technologies Pvt Ltd), Kartik Basavaraj Angadi (SandLogic Technologies Pvt Ltd), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The architectural innovations and training strategies proposed could enhance multimodal processing capabilities, beneficial for audio processing and language understanding tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Shakti-VLMs are vision-language models designed to effectively process visual and textual data with fewer training tokens.",
+    "contribution": "The paper introduces Shakti-VLM, utilizing QK-Normalization and a hybrid normalization strategy to achieve strong performance on multimodal tasks while maintaining data efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous vision-language models often require extensive training data to perform well on tasks like document understanding and visual reasoning.",
+        "novelty": "This work decreases dependence on training data volume through innovative architecture and a three-stage training strategy, optimizing for performance with fewer tokens."
+    },
+    "key_innovation": "The combination of QK-Normalization and a three-stage training strategy allows Shakti-VLM to achieve high performance on multimodal tasks while using fewer training examples.",
+    "real_world_impact": "Shakti-VLM models are poised to transform enterprise AI applications, providing efficient solutions for document processing and visual reasoning, enhancing various existing pipelines.",
+    "limitations": "The authors did not mention any specific limitations in the paper.",
+    "new_terms": {
+        "QK-Normalization": "**QK-Normalization** refers to a technique applied in attention mechanisms to enhance stability and prevent gradient issues during training.",
+        "hybrid normalization": "**Hybrid normalization** is a strategy that combines two types of layer normalization techniques, optimizing performance across different stages of deep learning models."
+    },
+    "open_sourcing": ""
+}

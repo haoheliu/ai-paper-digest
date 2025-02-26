@@ -1,0 +1,22 @@
+{
+    "title": "Instruction-Tuning LLMs for Event Extraction with Annotation Guidelines",
+    "author": "Saurabh Srivastava (George Mason University), Sweta Pati (George Mason University), Ziyu Yao (George Mason University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses event extraction, which can relate to audio processing through tasks like detecting events in soundscapes or extracting contextual information from audio transcriptions, aligning with Haohe Liu's research interests.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Event extraction is the task of identifying and structuring essential details about real-world events from text, including the entities involved and their relationships.",
+    "contribution": "This paper introduces a systematic exploration of annotation guidelines in instruction-tuning large language models for event extraction, achieving improved performance in identifying event types and roles.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on human-written guidelines or lacked diverse instructional strategies.",
+        "novelty": "This work enhances model performance by utilizing both machine-generated and human-written annotation guidelines, showing significant improvements in various settings."
+    },
+    "key_innovation": "The study innovatively integrates diverse annotation guidelines, both human-produced and machine-generated, into the instruction-tuning process for better model adaptation and performance.",
+    "real_world_impact": "The findings suggest that structured guidelines could facilitate models to perform better in complex event extraction tasks, which is crucial for various applications like news analysis and digital forensics.",
+    "limitations": "The paper does not explore methods for generating guidelines dynamically during training or how well these methods generalize to entirely new event types.",
+    "new_terms": {
+        "annotation guidelines": "**Annotation guidelines** are structured descriptions that specify the form and content of data segments for tasks like event extraction, aiming to reduce ambiguity for models during training.",
+        "event extraction": "**Event extraction** refers to the process of identifying and categorizing events from unstructured data, often in natural language, to create structured event information systems."
+    },
+    "open_sourcing": "The authors plan to open-source their scripts and datasets used in the study, available at their GitHub repository."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "LED-Merging: Mitigating Safety-Utility Conflicts in Model Merging with Location-Election-Disjoint",
+    "author": "Qianli Ma (Shanghai Jiao Tong University), Dongrui Liu (Shanghai AI Laboratory), Qian Chen (East China Normal University), Linfeng Zhang (Shanghai Jiao Tong University), Jing Shao (Shanghai AI Laboratory), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed LED-Merging framework provides a novel method for merging multiple models while addressing neuron interference, which could be insightful for model integration tasks in audio generation and noise reduction.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Model merging allows integration of multiple specialized models into one while maintaining performance across various tasks without requiring additional training.",
+    "contribution": "LED-Merging introduces a Location-Election-Disjoint framework to effectively locate important task-specific neurons, elect critical neurons, and prevent interference for better safety and utility outcomes.",
+    "technical_comparison": {
+        "prior_work": "Existing merging methods often result in safety-utility conflicts due to neuron misidentification and interference.",
+        "novelty": "This work improves upon previous methods by accurately identifying critical neurons through gradient-based metrics and dynamically electing them to mitigate conflicts."
+    },
+    "key_innovation": "The combination of neuron localization, dynamic election of task-critical neurons, and disjoint weight updates allows for more effective merging without compromised safety or performance.",
+    "real_world_impact": "The framework could greatly enhance the safety and reliability of multi-task AI models in various applications, potentially impacting fields such as healthcare and autonomous systems.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "Neuron Misidentification": "**Neuron misidentification** refers to the error in identifying which neurons are responsible for specific task capabilities, leading to ineffective model merging.",
+        "Safety-Utility Conflict": "**Safety-utility conflict** describes the trade-off where improving a model's overall performance may lead to reduced safety or response reliability."
+    },
+    "open_sourcing": ""
+}

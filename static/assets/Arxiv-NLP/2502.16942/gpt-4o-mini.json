@@ -1,0 +1,21 @@
+{
+    "title": "NUTSHELL: A Dataset for Abstract Generation from Scientific Talks",
+    "author": "Maike Z\u00fcfle (Karlsruhe Institute of Technology), Sara Papi (Fondazione Bruno Kessler), Beatrice Savoldi (Fondazione Bruno Kessler), Marco Gaido (Fondazione Bruno Kessler), Luisa Bentivogli (Fondazione Bruno Kessler), Jan Niehues (Karlsruhe Institute of Technology)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This work introduces a significant dataset for Speech-to-Abstract Generation, which can facilitate automated summary generation for scientific audio presentations, a potentially useful tool for enhancing academic communication in audio-related research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves automatically generating concise abstracts from spoken content in recorded scientific talks, enabling easier access to key information without watching entire presentations.",
+    "contribution": "The paper introduces the NUTSHELL dataset that pairs 1,172 hours of recorded scientific talks with corresponding abstracts, advancing the field of Speech-to-Abstract Generation.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets primarily focus on textual content or rely on generated transcripts from papers rather than capturing the nuances of spoken presentations.",
+        "novelty": "NUTSHELL is specifically designed to encapsulate the unique context and delivery of scientific talks, thus providing a richer resource for generative models."
+    },
+    "key_innovation": "Its multimodal approach combines audiovisual data with structured written abstracts, offering a novel resource for training algorithms that bridge speech and text summarization.",
+    "real_world_impact": "By making scientific content more accessible through automated abstract generation, this dataset can significantly reduce the time researchers spend on gathering relevant information from talks.",
+    "limitations": "The human evaluation mainly focuses on a small subset of models and a limited number of samples, which may not comprehensively assess the available potential for future models.",
+    "new_terms": {
+        "Speech-to-Abstract Generation (SAG)": "**Speech-to-Abstract Generation (SAG)** refers to the process of transforming spoken content from presentations into concise written abstracts."
+    },
+    "open_sourcing": "NUTSHELL is released under a CC-BY 4.0 License on HuggingFace."
+}

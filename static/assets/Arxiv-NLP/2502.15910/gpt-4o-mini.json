@@ -1,0 +1,21 @@
+{
+    "title": "Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models",
+    "author": "Zheyuan Liu (University of Notre Dame), Guangyao Dou (University of Pennsylvania), Xiangchi Yuan (Georgia Institute of Technology), Chunhui Zhang (Dartmouth College), Zhaoxuan Tan (University of Notre Dame), Meng Jiang (University of Notre Dame), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed modality-aware neuron unlearning framework could be relevant for enhancing large audio and speech models by ensuring effective unlearning of unwanted biases or errors, potentially applicable to audio generation tasks.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "The paper addresses the challenge of removing sensitive knowledge from multimodal large language models while maintaining performance across various tasks.",
+    "contribution": "This paper introduces Modality Aware Neuron Unlearning (MANU) to solve the problem of imbalanced unlearning in multimodal systems, achieving more effective and balanced forgetting of sensitive data.",
+    "technical_comparison": {
+        "prior_work": "Previous unlearning methods tend to focus only on unimodal structures or lack robustness in balance across different inputs.",
+        "novelty": "This work integrates a two-stage pruning approach that specifically attends to the modality-specific knowledge entangled in multimodal architectures."
+    },
+    "key_innovation": "Utilizes a new importance scoring mechanism based on neuron activation characteristics to selectively prune neurons tied to sensitive information across different modalities.",
+    "real_world_impact": "The methodology can be impactful in creating safer multimodal AI systems by ensuring sensitive data is removed correctly, thereby addressing privacy concerns in applications like content generation and personal assistant technologies.",
+    "limitations": "The method requires careful tuning of pruning rates, as aggressive pruning could inadvertently degrade model utility.",
+    "new_terms": {
+        "neuron pruning": "**Neuron pruning** refers to the process of selectively removing or deactivating certain neurons in a neural network to improve efficiency or modify learned knowledge."
+    },
+    "open_sourcing": "Code is available at [franciscoliu/MANU](https://github.com/franciscoliu/MANU)"
+}

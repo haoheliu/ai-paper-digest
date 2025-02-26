@@ -1,0 +1,22 @@
+{
+    "title": "Mind the Gap! Static and Interactive Evaluations of Large Audio Models",
+    "author": "Minzhi Li (National University of Singapore), William Held (Georgia Institute of Technology), Michael J. Ryan (Stanford University), Kunat Pipatanakul (SCB 10X, SCBX Group), Potsawee Manakul (SCB 10X, SCBX Group), Hao Zhu (Stanford University), Diyi Yang (Stanford University), ..., Michael Glass (Stanford University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This work directly addresses interactive evaluation methods for Large Audio Models (LAMs), aligning closely with my focus on speech and audio capabilities, potentially providing new metrics and insights that could enhance my own research in audio and speech processing.",
+    "field": "Evaluation-Methodology",
+    "background": "The study evaluates Large Audio Models through both static benchmarks and user interactions, focusing on their performance relative to user preferences in various tasks.",
+    "contribution": "The paper introduces a new interactive evaluation framework for Large Audio Models (LAMs) to better align model development with user preferences, achieving insights into common user tasks and model performance discrepancies.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on static benchmarks that may not accurately represent user expectations and performance.",
+        "novelty": "This work combines static benchmark assessments with extensive user interaction data to derive more relevant evaluation metrics for LAMs."
+    },
+    "key_innovation": "The integration of user-generated feedback into the evaluation framework, allowing for real-time assessments of model performance against user expectations.",
+    "real_world_impact": "This research can significantly improve the design and evaluation of LAMs, enhancing user experience and adoption. It lays the groundwork for more user-centered approaches in audio model development.",
+    "limitations": "The current evaluation focuses only on single-turn interactions and primarily involves English-language queries, which may limit the generalizability of results.",
+    "new_terms": {
+        "Large Audio Models (LAMs)": "**Large Audio Models (LAMs)** refer to advanced machine learning models designed to process and understand audio inputs at scale, integrating knowledge from both audio and textual data.",
+        "interactive evaluation": "**Interactive evaluation** involves assessing model performance based on direct user feedback and real-world interaction scenarios, ensuring that evaluations reflect user needs and expectations."
+    },
+    "open_sourcing": ""
+}

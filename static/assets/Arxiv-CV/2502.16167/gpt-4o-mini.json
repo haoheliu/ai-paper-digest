@@ -1,0 +1,22 @@
+{
+    "title": "PersGuard: Preventing Malicious Personalization via Backdoor Attacks on Pre-trained Text-to-Image Diffusion Models",
+    "author": "Xinwei Liu (Tsinghua University), Xiaojun Jia (Tsinghua University), Yuan Xun (Tsinghua University), Hua Zhang (Tsinghua University), Xiaochun Cao (Tsinghua University), ..., Senior Member, IEEE",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper presents a novel backdoor approach to protect generative models, which could inspire similar methods in audio-domain personalizations, enhancing privacy in applications like speech synthesis.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Malicious users can exploit image generation models to create unauthorized personalized images, leading to privacy infringements and copyright issues.",
+    "contribution": "This paper introduces PersGuard to prevent malicious personalization of text-to-image models, achieving more robust privacy safeguards against unauthorized use.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on adversarial perturbations to disrupt model training but were often ineffective against minor data transformations.",
+        "novelty": "This work utilizes backdoor mechanisms to trigger controlled outputs for protected images while allowing normal functionality for unprotected ones."
+    },
+    "key_innovation": "Integrates three distinct backdoor objectives into a unified optimization framework that maintains model functionality while enhancing protection against unauthorized personalizations.",
+    "real_world_impact": "PersGuard can significantly enhance privacy and copyright protection in creative applications, which is increasingly vital given the surge in AI-generated content.",
+    "limitations": "The approach may face challenges in gray-box and black-box settings where the protector has limited knowledge of user parameters.",
+    "new_terms": {
+        "backdoor attack": "**Backdoor attack** refers to a security technique where a model is intentionally compromised to produce specific outputs under certain conditions without affecting normal operations.",
+        "text-to-image (T2I) diffusion model": "**Text-to-image diffusion model** is a generative model that creates images based on textual descriptions by iteratively removing noise from a random input."
+    },
+    "open_sourcing": ""
+}

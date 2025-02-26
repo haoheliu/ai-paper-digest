@@ -1,0 +1,22 @@
+{
+    "title": "Unveiling Institution-Specific Bias in Pathology Foundation Models: Detriments, Causes, and Potential Solutions",
+    "author": "Weiping Lin (Xiamen University), Shen Liu (Xiamen University), Runchen Zhu (National Institute for Data Science in Health and Medicine), Liansheng Wang (Xiamen University), ...",
+    "quality": 6,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Investigating how biases from different institutions affect the predictions made by pathology foundation models and proposing methods to mitigate these biases.",
+    "contribution": "This paper introduces an analysis of institution-specific biases in pathology foundation models to improve their generalization in clinical tasks, achieving insights into feature contamination.",
+    "technical_comparison": {
+        "prior_work": "Prior methods in pathology modeling did not adequately address biases from institutional practices or variations in pathological images.",
+        "novelty": "This work identifies institution-specific information that contaminates model features and quantifies its impact on performance, especially in out-of-distribution settings."
+    },
+    "key_innovation": "It highlights how non-diagnostic information can mislead models and proposes effective mitigation approaches, which represents a shift towards improving model robustness and fairness.",
+    "real_world_impact": "By addressing institutional biases, the findings could enhance the reliability of pathology models in diverse clinical environments, leading to improved patient outcomes. However, the impact requires further validation in practice.",
+    "limitations": "The study primarily focuses on identifying issues and proposes solutions without extensive evaluation in real-world clinical settings.",
+    "new_terms": {
+        "feature contamination": "**Feature contamination** refers to the inclusion of irrelevant features that introduce bias into model training and affect the generalizability of predictions.",
+        "out-of-distribution (OOD)": "**Out-of-distribution** settings refer to scenarios where the test data differs significantly from the training data, which often presents challenges for model performance."
+    },
+    "open_sourcing": ""
+}

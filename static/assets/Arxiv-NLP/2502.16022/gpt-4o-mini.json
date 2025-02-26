@@ -1,0 +1,22 @@
+{
+    "title": "Enhancing LLMs for Identifying and Prioritizing Important Medical Jargons from Electronic Health Record Notes Utilizing Data Augmentation",
+    "author": "Won Seok Jang (UMass Lowell), Sharmin Sultana (UMass Lowell), Zonghai Yao (UMass Amherst), Hieu Tran (UMass Amherst), Zhichao Yang (UMass Amherst), Sunjae Kwon (UMass Amherst), Hong Yu (UMass Lowell), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The techniques for leveraging large language models (LLMs) and data augmentation can be applied to Haohe Liu's work in audio generation, particularly for enhancing content understanding and retrieval tasks in audio-language models.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This study aims to improve patient comprehension of electronic health record notes by extracting and prioritizing important medical jargon using advanced natural language processing techniques.",
+    "contribution": "This paper introduces enhanced methods using large language models and data augmentation to effectively identify and rank medical jargon in electronic health records, achieving rates of performance that surpass traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused mainly on extracting medical terminologies but did not rank them based on relevance to individual patients.",
+        "novelty": "This work integrates prompting techniques and fine-tuning in combination with data augmentation to prioritize jargon terms effectively."
+    },
+    "key_innovation": "The combination of fine-tuning techniques and data augmentation allows small language models to outperform larger models, showcasing efficient resource use.",
+    "real_world_impact": "Improving patient engagement and understanding in healthcare settings could lead to reduced anxiety and better health outcomes. This approach has potential implications in enhancing healthcare communication methods.",
+    "limitations": "The study is limited to a specific dataset of EHR notes and does not apply fine-tuning to closed-source language models.",
+    "new_terms": {
+        "fine-tuning": "**Fine-tuning** refers to the process of adjusting a pre-trained model on a specialized dataset to improve its performance on specific tasks.",
+        "data augmentation": "**Data augmentation** involves artificially increasing the size of a training dataset by creating modified versions of existing data to improve model robustness."
+    },
+    "open_sourcing": ""
+}

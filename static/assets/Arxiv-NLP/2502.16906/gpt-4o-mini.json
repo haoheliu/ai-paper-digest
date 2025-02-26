@@ -1,0 +1,22 @@
+{
+    "title": "AutoLogi: Automated Generation of Logic Puzzles for Evaluating Reasoning Abilities of Large Language Models",
+    "author": "Qin Zhu (Alibaba Group), Fei Huang (Alibaba Group), Runyu Peng (Fudan University), Keming Lu (Alibaba Group), Bowen Yu (Alibaba Group), Qinyuan Cheng (Fudan University), Xipeng Qiu (Fudan University), Xuanjing Huang (Fudan University), Junyang Lin (Alibaba Group)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods for synthesizing logic puzzles and using program-based verification can offer insights into developing innovative datasets and evaluation techniques in audio processing and general cognitive tasks in Haohe Liu's research.",
+    "field": "Evaluation-Methodology",
+    "background": "The paper presents a new method for designing open-ended logic puzzles to accurately evaluate the reasoning capabilities of Large Language Models (LLMs).",
+    "contribution": "This paper introduces automated synthesis of open-ended logic puzzles to solve the issues of unreliable reasoning evaluations in models, achieving a more differentiated performance assessment.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks often rely on multiple-choice questions, which can inflate performance through random guessing.",
+        "novelty": "This work develops a three-stage pipeline that generates open-ended puzzles with controlled difficulty, employing rigorous verification to ensure accuracy."
+    },
+    "key_innovation": "The unique combination of automated puzzle generation, program-based verification, and the ability to control puzzle difficulty distinguishes this method from previous evaluation methods.",
+    "real_world_impact": "This approach can enhance the assessment of AI reasoning, informing educational tools and cognitive training applications, and ultimately improving model performance in diverse fields including audio processing.",
+    "limitations": "Dependence on Large Language Models may limit the method's scalability if access to advanced models is restricted.",
+    "new_terms": {
+        "logic puzzles": "**Logic puzzles** are problems that require deductive reasoning and the application of rules to determine a conclusion or solution.",
+        "program-based verification": "**Program-based verification** involves using algorithms to automatically check the correctness of outputs based on defined logical constraints."
+    },
+    "open_sourcing": "The authors have released their training and testing datasets and evaluation metrics at https://github.com/8188zq/AutoLogi."
+}

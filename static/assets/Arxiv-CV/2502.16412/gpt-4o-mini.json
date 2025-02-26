@@ -1,0 +1,21 @@
+{
+    "title": "A Survey on Industrial Anomalies Synthesis",
+    "author": "Xichen Xu (Shanghai Jiao Tong University), Yanshu Wang (Shanghai Jiao Tong University), Yawen Huang (Jarvis Research Center, Tencent Youtu Lab), Jiaqi Liu (City University of Hong Kong), Xiaoning Lei (Department of Intelligent Manufacturing, CATL), Guoyang Xie (City University of Hong Kong), Guannan Jiang (Department of Intelligent Manufacturing, CATL), Zhichao Lu (City University of Hong Kong)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper provides a comprehensive review of anomaly synthesis techniques that could inform and enhance approaches for audio-visual anomaly detection and generation in Haohe Liu's work.",
+    "field": "Applications-Vision",
+    "background": "This paper surveys methods for generating synthetic abnormal samples in industrial contexts to aid in the detection of real anomalies.",
+    "contribution": "This survey introduces a structured taxonomy for Industrial Anomaly Synthesis (IAS), covering various synthesis methodologies and addressing existing limitations.",
+    "technical_comparison": {
+        "prior_work": "Existing surveys on anomaly detection and synthesis have either limited scope or lack structured taxonomy.",
+        "novelty": "This work categorizes around 40 representative synthetic methods, offering a unified framework that facilitates comparisons and future research directions."
+    },
+    "key_innovation": "The introduction of a detailed taxonomy for industrial anomaly synthesis, providing clarity on different methodologies and their integration with multimodal learning.",
+    "real_world_impact": "This survey could significantly enhance anomaly detection systems in manufacturing, potentially improving product quality and reducing costs associated with abnormal sample acquisition.",
+    "limitations": "No specific limitations mentioned beyond the scope of existing surveys.",
+    "new_terms": {
+        "Vision-Language Models (VLM)": "**Vision-Language Models (VLM)** refer to models that integrate visual and textual information, allowing for more nuanced data understanding and synthesis."
+    },
+    "open_sourcing": "More resources available at https://github.com/M-3LAB/awesome-anomaly-synthesis"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Mobile-Agent-V: Learning Mobile Device Operation Through Video-Guided Multi-Agent Collaboration",
+    "author": "Junyang Wang (Beijing Jiaotong University), Haiyang Xu (Alibaba Group), Xi Zhang (Alibaba Group), Ming Yan (Alibaba Group), Ji Zhang (Alibaba Group), Fei Huang (Alibaba Group), Jitao Sang (Beijing Jiaotong University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper presents a framework for automating mobile device tasks using video input, which could inspire audio-visual integration techniques in future projects, particularly in tasks involving audio generation or manipulation based on interaction patterns.",
+    "field": "Applications-Voice and Audio",
+    "background": "The paper proposes a framework that utilizes videos to enhance the automation of tasks on mobile devices, focusing on a multi-agent collaboration system that interprets and executes user instructions.",
+    "contribution": "Mobile-Agent-V introduces video guidance for mobile automation to solve challenges in operational knowledge acquisition, achieving a 30% performance improvement over existing frameworks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lack sufficient operational knowledge leading to inefficient task execution, relying on manual programming or extensive exploration.",
+        "novelty": "This work leverages video inputs with a multi-agent approach to facilitate autonomous learning, reducing the dependency on expert-written knowledge."
+    },
+    "key_innovation": "The framework employs a sliding window approach to manage video input dynamically, supported by decision, reflection, and video agents for improved task execution.",
+    "real_world_impact": "This can lead to more intuitive and efficient automation tools for mobile user interfaces, positively impacting user workflows by significantly reducing the effort needed for task completion.",
+    "limitations": "The framework's performance may vary based on video quality and the complexity of UI interactions, potentially overlooking critical frames in fast-paced changes.",
+    "new_terms": {
+        "sliding window": "**Sliding window** is a technique to process a subset of data points from a larger sequential dataset, allowing real-time updates and decisions based on dynamic inputs.",
+        "deep-reflection agent": "**Deep-reflection agent** refers to a component that uses iterative reasoning to validate and refine decisions made by an agent, enhancing accuracy through contextual analysis."
+    },
+    "open_sourcing": ""
+}

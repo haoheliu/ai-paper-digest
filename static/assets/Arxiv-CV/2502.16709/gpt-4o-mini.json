@@ -1,0 +1,22 @@
+{
+    "title": "FedDA-TSformer: Federated Domain Adaptation with Vision TimeSformer for Left Ventricle Segmentation on Gated Myocardial Perfusion SPECT Image",
+    "author": "Yehong Huang (Kennesaw State University), Chen Zhao (Kennesaw State University), Rochak Dhakal (Michigan Technological University), Min Zhao (Xiangya Hospital, Central South University), Guang-Uei Hung (Chang Bing Show Chwan Memorial Hospital), Zhixin Jiang (Nanjing Medical University), Weihua Zhou (Michigan Technological University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The use of federated learning and domain adaptation could inform methods in audio-speech processing where data privacy and cross-domain knowledge transfer are critical.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This work focuses on accurate segmentation of left ventricular structures in Myocardial Perfusion SPECT images while maintaining patient privacy through federated learning.",
+    "contribution": "This paper introduces the FedDA-TSformer model to solve the problem of left ventricular segmentation, achieving high Dice Similarity Coefficients of 0.842 and 0.907.",
+    "technical_comparison": {
+        "prior_work": "Previous LV segmentation methods largely depend on centralized datasets, which pose privacy risks due to data sharing.",
+        "novelty": "This work mitigates privacy concerns through a federated learning approach while employing domain adaptation to harness data from multiple sources."
+    },
+    "key_innovation": "Integrates a novel Divide-Space-Time-Attention mechanism with federated learning to capture spatial-temporal correlations in cardiac imaging without compromising data privacy.",
+    "real_world_impact": "Addresses a critical need in healthcare for privacy-preserving image analysis, which can enhance diagnostics and patient care without risking sensitive patient information.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "federated learning": "**Federated learning** is a collaborative machine learning approach that enables training on decentralized data without sharing it, thus preserving privacy.",
+        "local maximum mean discrepancy (LMMD)": "**Local maximum mean discrepancy** is a statistical measure used for domain adaptation, which helps in aligning feature distributions between different datasets."
+    },
+    "open_sourcing": ""
+}

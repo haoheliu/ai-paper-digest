@@ -1,0 +1,23 @@
+{
+    "title": "High-resolution Rainy Image Synthesis: Learning from Rendering",
+    "author": "Kaibin Zhou (School of Software Engineering, Tongji University), Shengjie Zhao (School of Software Engineering, Tongji University), Hao Deng (School of Software Engineering, Tongji University), Lin Zhang (School of Software Engineering, Tongji University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods for generating high-resolution synthetic rainy images can inform techniques in creating realistic audio-visual environments and datasets that could be beneficial in audio generation tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Synthesizing high-resolution images of rainy weather conditions for improving deep learning models that aim to perform tasks such as image restoration.",
+    "contribution": "This paper introduces a two-stage learning-from-rendering pipeline to synthesize high-resolution rainy images and pairs them with clean images, achieving robust performance for deep learning-based rain removal.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for rainy image synthesis lack diversity and resolution, often relying on simplistic overlays that ignore optical phenomena.",
+        "novelty": "This work utilizes a combination of rendering-based techniques and advanced generative models, enabling the generation of realistic and high-resolution rainy images informed by diverse lighting conditions."
+    },
+    "key_innovation": "The incorporation of a guiding diffusion model enhances the generated images by incorporating nuanced illumination effects and color fidelity.",
+    "real_world_impact": "The synthetic dataset generated could significantly boost the robustness of image restoration models in real-world scenarios, potentially improving performance in tasks such as autonomous driving and surveillance.",
+    "limitations": "Future improvements may be needed to address the integration of more realistic multifaceted rain effects beyond streaks.",
+    "new_terms": {
+        "Latent Diffusion Model": "**Latent Diffusion Model (LDM)** is a generative model that operates on a compressed latent space to improve computational efficiency and image quality during the synthesis process.",
+        "guiding diffusion model": "**Guiding diffusion model** refers to models that provide additional context or constraints during the image generation process, enhancing quality and adherence to specific features.",
+        "High-resolution Rainy Image (HRI)": "**High-resolution Rainy Image (HRI)** refers to high-quality images synthesized to include the visual effects of rain while maintaining clarity and detail."
+    },
+    "open_sourcing": "Source codes and the dataset have been released at https://kb824999404.github.io/HRIG/"
+}

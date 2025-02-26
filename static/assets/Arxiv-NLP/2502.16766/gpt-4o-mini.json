@@ -1,0 +1,22 @@
+{
+    "title": "ATEB: Evaluating and Improving Advanced NLP Tasks for Text Embedding Models",
+    "author": "Simeng Han (Yale University), Frank Palma Gomez (Google Deepmind), Tu Vu (Google Deepmind), Zefei Li (Google Deepmind), Daniel Cer (Google Deepmind), Hansi Zeng (University of Massachusetts Amherst), Chris Tar (Google Deepmind), Arman Cohan (Yale University), Gustavo Hernandez Abrego (Google Deepmind)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methodology of reformulating NLP tasks into retrieval tasks can inform audio-related tasks, particularly in contexts like audio captioning and semantic audio retrieval efforts.",
+    "field": "Applications-Language",
+    "background": "This study aims to evaluate and enhance the performance of text embedding models on advanced NLP tasks like safety and factuality in retrieval settings.",
+    "contribution": "This paper introduces the ATEB benchmark to assess text embedding models on advanced NLP tasks, achieving notable improvements in safety and factuality classification through innovative task reformulation.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks primarily focus on semantic similarity and do not address the complexities of reasoning and factual accuracy in embeddings.",
+        "novelty": "This work innovatively reframes various NLP tasks into retrieval frameworks, enhancing model capabilities without architectural changes."
+    },
+    "key_innovation": "The novel approach of transforming complex NLP tasks into retrieval tasks allows embedding models to leverage strengths in understanding context and semantics.",
+    "real_world_impact": "This benchmark can influence the development of more robust NLP systems that are safer and more factual, ultimately enhancing user trust in AI technologies.",
+    "limitations": "The authors acknowledge that the benchmark could include more diverse tasks for broader evaluation.",
+    "new_terms": {
+        "factuality": "**Factuality** refers to the accuracy or truthfulness of information provided by models, especially in generating responses or verifying statements.",
+        "safety classification": "**Safety classification** involves determining whether output from models is harmful or poses risks, which is critical for ensuring responsible AI deployment."
+    },
+    "open_sourcing": "Code and data will be publicly available."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "LONGATTN: SELECTING LONG-CONTEXT TRAINING DATA VIA TOKEN-LEVEL ATTENTION",
+    "author": "Longyun Wu (Peking University), Dawei Zhu (Peking University), Guangxiang Zhao (Qiyuan Tech), Zhuocheng Yu (Peking University), Jungfeng Ran (Peking University), Xiangyu Wong (Peking University), Lin Sun (Peking University), Sujian Li (Peking University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper emphasizes improving long-context capabilities in large language models, which aligns with my research in speech and audio applications where context length is critical.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Enhancing the ability of language models to effectively process long contexts through improved data selection methods.",
+    "contribution": "This paper introduces the LongAttn framework to solve the problem of selecting long-context training data, achieving better model performance with significantly less training data.",
+    "technical_comparison": {
+        "prior_work": "Existing data selection methods often operate on a sentence-level, which fails to capture fine-grained token relationships and can be computationally expensive.",
+        "novelty": "This work leverages token-level self-attention to measure long-range dependencies, resulting in higher quality data selection while maintaining computational efficiency."
+    },
+    "key_innovation": "The LongAttn framework utilizes self-attention mechanisms to evaluate dependencies between tokens at a granular level, improving data reliability and efficiency.",
+    "real_world_impact": "This advancement can significantly enhance the application of language models in various domains, especially in processing long documents or dialogues, leading to better performance in tasks requiring extensive context understanding.",
+    "limitations": "The method uses traditional attention calculations, which, while efficient, could be further optimized for even greater performance.",
+    "new_terms": {
+        "self-attention mechanism": "**Self-attention mechanism** is an approach in neural networks where inputs are processed by considering the relationships between all tokens in a sequence, allowing the model to focus on relevant parts of the input.",
+        "dependency strength": "**Dependency strength** quantifies the level of influence one token has over another in the context of long sequences."
+    },
+    "open_sourcing": "The code and the dataset LongABC-32K have been released to the public for further research."
+}

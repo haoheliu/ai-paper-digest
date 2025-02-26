@@ -1,0 +1,21 @@
+{
+    "title": "Applying LLMs to Active Learning: Towards Cost-Efficient Cross-Task Text Classification without Manually Labeled Data",
+    "author": "Yejian Zhang (Graduate School of Science and Technology, Keio University), Shingo Takada (Graduate School of Science and Technology, Keio University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The use of Large Language Models (LLMs) and active learning could inform developments in machine learning for audio applications. The framework proposed may inspire similar strategies in audio data labeling and categorization tasks.",
+    "field": "General Machine Learning-Active Learning",
+    "background": "This paper presents a method for text classification across various tasks using an active learning framework that incorporates Large Language Models (LLMs) to minimize the need for manually labeled data.",
+    "contribution": "This paper introduces an integration of RoBERTa, Generative Pre-trained Transformer (GPT), and active learning to solve cross-task text classification without human annotations, achieving competitive performance while significantly reducing costs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely relied on large amounts of manually labeled data for supervised learning, which is costly and labor-intensive.",
+        "novelty": "This work improves by utilizing an active learning strategy combined with LLMs and automated labeling, which reduces the reliance on human annotations while maintaining performance."
+    },
+    "key_innovation": "The integration of LLMs as an oracle in the active learning loop enables automatic labeling of data, which optimizes both performance and resource usage compared to traditional supervised methods.",
+    "real_world_impact": "This research can lead to more efficient text classification systems in various domains, particularly where human annotation resources are limited, thereby speeding up the development of machine learning applications.",
+    "limitations": "No specific limitations were mentioned in the paper.",
+    "new_terms": {
+        "active learning": "**Active learning** is a machine learning paradigm where the algorithm selectively queries a user to label data points that are expected to improve the model's performance the most."
+    },
+    "open_sourcing": ""
+}

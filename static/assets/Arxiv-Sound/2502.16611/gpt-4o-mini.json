@@ -1,0 +1,21 @@
+{
+    "title": "Target Speaker Extraction through Comparing Noisy Positive and Negative Audio Enrollments",
+    "author": "Shitong Xu (Department of Computer Science, University of Oxford), Yiyuan Yang (Department of Computer Science, University of Oxford), Niki Trigoni (Department of Computer Science, University of Oxford), Andrew Markham (Department of Computer Science, University of Oxford), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents a novel method for target speaker extraction using noisy audio enrollments, which could be beneficial for Haohe Liu's research on audio processing and enhancement tasks like voice restoration and separation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Target speaker extraction aims to isolate a specific speaker's voice from a mixture of multiple speakers' audio, particularly in challenging environments.",
+    "contribution": "This paper introduces a method that leverages noisy positive and negative audio enrollments to extract a target speaker's voice, achieving state-of-the-art performance in real-world situations.",
+    "technical_comparison": {
+        "prior_work": "Existing methods typically rely on clean audio examples, which are often impractical to gather in real-world scenarios.",
+        "novelty": "This work effectively handles noisy enrollments by comparing segments where the target speaker is present to segments where they are absent, improving extraction accuracy in complex audio mixtures."
+    },
+    "key_innovation": "The method's unique ability to utilize both positive and negative noisy audio enrollments without requiring clean examples allows for greater flexibility and generalizability in diverse acoustic environments.",
+    "real_world_impact": "The advancements can significantly enhance audio processing technologies like hearing aids and conversation aids in noisy environments, making them more practical for everyday use.",
+    "limitations": "The paper does not discuss explicit limitations or future work directions.",
+    "new_terms": {
+        "target speaker extraction": "**Target speaker extraction** refers to the task of isolating the voice of a designated speaker from a mixed audio environment containing various speakers."
+    },
+    "open_sourcing": ""
+}

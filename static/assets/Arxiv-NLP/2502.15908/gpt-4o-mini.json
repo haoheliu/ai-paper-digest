@@ -1,0 +1,19 @@
+{
+    "title": "LLMs in Mobile Apps: Practices, Challenges, and Opportunities",
+    "author": "Kimberly Hau (University of Toronto), Safwat Hassan (University of Toronto), Shurui Zhou (University of Toronto), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The insights on integrating Large Language Models (LLMs) into mobile applications could inform methodologies for enhancing audio-related applications through intelligent features.",
+    "field": "Applications-Speech and Audio",
+    "background": "Integrating Large Language Models (LLMs) like ChatGPT into mobile applications to provide advanced functionalities such as chat and content generation.",
+    "contribution": "This study presents a dataset of 149 LLM-enabled Android apps and explores their integration strategies and developer practices.",
+    "technical_comparison": {
+        "prior_work": "Previous studies primarily focused on AI integration in general software but lacked specific insights into mobile apps using LLMs.",
+        "novelty": "This paper provides a detailed analysis unique to mobile environments, addressing specific constraints and strategies not previously discussed."
+    },
+    "key_innovation": "The approach to classify and analyze various integration strategies for LLMs across mobile applications is distinctive, highlighting both challenges and practical solutions.",
+    "real_world_impact": "This research can guide developers in creating more effective LLM-enabled mobile applications, enhancing user experience in areas such as productivity and interactivity.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {},
+    "open_sourcing": "The dataset is publicly available in a replication package on GitHub."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Visual-RAG: Benchmarking Text-to-Image Retrieval Augmented Generation for Visual Knowledge Intensive Queries",
+    "author": "Yin Wu (Nanyang Technological University), Quanyu Long (Nanyang Technological University), Jing Li (Harbin Institute of Technology, Shenzhen), Jianfei Yu (Nanjing University of Science and Technology), Wenya Wang (Nanyang Technological University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper addresses visual knowledge retrieval, which could be relevant in audio-visual co-generation tasks, enhancing multimodal integration in Haohe Liu's research.",
+    "field": "Applications-Vision",
+    "background": "The research aims to answer knowledge-intensive visual questions using a new benchmark that requires extracting visual knowledge through image retrieval.",
+    "contribution": "This paper introduces VISUAL-RAG to solve challenges in multimodal retrieval-augmented generation for answering visual knowledge intensive questions, achieving improved performance in cross-modal retrieval tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods emphasized text-based knowledge retrieval, often neglecting visual features in multimodal question answering.",
+        "novelty": "This work improves by enforcing text-to-image retrieval to validate the effectiveness of visual information in generating accurate answers."
+    },
+    "key_innovation": "Introduces a novel evaluation benchmark focusing on visual knowledge-intensive questions, pushing the boundaries of how visual and textual information can be integrated for accurate question answering.",
+    "real_world_impact": "This research could enhance applications in fields like education and customer support, where visual information plays a crucial role in user queries and responses.",
+    "limitations": "The proposed benchmark currently focuses only on single-hop queries and specific domains, limiting broader applicability.",
+    "new_terms": {
+        "Retrieval-Augmented Generation (RAG)": "**Retrieval-Augmented Generation** is a framework that combines retrieval of relevant information from external sources with generative models to enhance responses to queries.",
+        "Multimodal LLMs (MLLMs)": "**Multimodal Large Language Models** are models capable of processing and understanding multiple types of data, such as text and images, simultaneously."
+    },
+    "open_sourcing": "Benchmark and evaluation codes will be available at https://github.com/LuciusLan/Visual-RAG."
+}

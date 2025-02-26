@@ -1,0 +1,22 @@
+{
+    "title": "Co-MTP: A Cooperative Trajectory Prediction Framework with Multi-Temporal Fusion for Autonomous Driving",
+    "author": "Xinyu Zhang (School of Automotive Studies, Tongji University), Zewei Zhou (School of Automotive Studies, Tongji University), Zhaoyi Wang (School of Automotive Studies, Tongji University), Yangjie Ji (School of Automotive Studies, Tongji University), Yanjun Huang (School of Automotive Studies, Tongji University), Hong Chen (School of Automotive Studies, Tongji University), ..., Hong Chen (School of Automotive Studies, Tongji University)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The techniques in trajectory prediction and cooperative multi-agent interaction explored may inspire methods for audio-visual alignment and manipulation tasks significant to Haohe Liu's research in audio generation.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task focuses on predicting future trajectories of autonomous vehicles and other agents in complex environments using multi-temporal information from cooperative vehicle-to-everything (V2X) systems.",
+    "contribution": "Co-MTP introduces a cooperative multi-temporal fusion mechanism to enhance trajectory prediction of autonomous vehicles, effectively utilizing both historical and future interaction information.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely primarily on single-frame perception and lack the integration of temporal information for trajectory prediction.",
+        "novelty": "This work improves upon existing methods by incorporating multi-temporal data, allowing better prediction accuracy through enhanced interaction modeling among agents."
+    },
+    "key_innovation": "The framework uniquely combines historical and future trajectory data using a heterogeneous graph structure to facilitate comprehensive interaction modeling.",
+    "real_world_impact": "The proposed framework can improve the safety and efficiency of autonomous driving, reducing reliance on incomplete sensor data and enhancing situational awareness in complex traffic environments.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "multi-temporal fusion": "**Multi-temporal fusion** refers to the integration of information collected at different times to provide a better understanding of dynamic environments, particularly in trajectory prediction.",
+        "heterogeneous graph": "**Heterogeneous graph** is a graph where nodes and edges can represent various types of entities and relationships, allowing for more complex interaction modeling between different data sources."
+    },
+    "open_sourcing": "The code is available on the project website: https://xiaomiaozhang.github.io/Co-MTP/"
+}

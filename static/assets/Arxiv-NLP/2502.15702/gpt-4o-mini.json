@@ -1,0 +1,19 @@
+{
+    "title": "Large language models streamline automated systematic review: A preliminary study",
+    "author": "Xi Chen (Sports Medicine Center, West China Hospital), Xue Zhang (Sports Medicine Center, West China Hospital), ..., Mistral 8x7B (Sports Medicine Center, West China Hospital)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper utilizes Large Language Models (LLMs) to improve automation in systematic reviews, which aligns with the application of innovative machine learning techniques in optimizing research workflows, relevant to Haohe Liu's work.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Automating systematic reviews in a healthcare setting using advanced machine learning techniques to streamline the process of literature review and data extraction.",
+    "contribution": "This study introduces the performance evaluation of three state-of-the-art Large Language Models to facilitate systematic review tasks, achieving a comparative assessment of their capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in systematic reviews often involve significant manual labor, leading to inefficiencies and increased error rates.",
+        "novelty": "This work improves systematic review processes by implementing LLMs for tasks like literature screening and data extraction, significantly reducing human error and processing time."
+    },
+    "key_innovation": "Demonstrates the ability of LLMs to automate complex research tasks traditionally handled by humans, improving the efficiency and reliability of systematic reviews.",
+    "real_world_impact": "If adopted, this methodology could transform the systematic review process in healthcare, leading to faster and more accurate clinical research outcomes. No immediate real-world impact.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

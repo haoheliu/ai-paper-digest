@@ -1,0 +1,22 @@
+{
+    "title": "Continuous Patch Stitching for Block-wise Image Compression",
+    "author": "Zifu Zhang (Beihang University), Shengxi Li (Beihang University), Henan Liu (Beihang University), Mai Xu (Beihang University), Ce Zhu (University of Electronic Science and Technology of China)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The paper's novel approach to block-wise image compression and its architecture can inform techniques in audio processing, particularly in context-aware compression methods in audio generation.",
+    "field": "Applications-Computer Vision",
+    "background": "This study focuses on compressing images efficiently by stitching compressed patches together, aiming to eliminate block artefacts during image reconstruction.",
+    "contribution": "This paper introduces a Continuous Patch Stitching (CPS) framework to solve the problem of block artefacts in learned image compression, achieving state-of-the-art compression performance with reduced computational resources.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often suffer from block artefacts and require compressing whole images, resulting in high computational costs.",
+        "novelty": "This work improves efficiency by proposing a novel padding-free architecture that allows for parallel processing of image patches without introducing artefacts."
+    },
+    "key_innovation": "The key innovation is the use of a padding-free convolutional structure along with a Parallel Overlapping Patch Stitching strategy to ensure continuity in the image reconstruction process.",
+    "real_world_impact": "This framework can lead to better image compression solutions with practical implications in areas like multimedia storage and transmission, potentially influencing audio compression through similar paradigms.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "Continuous Patch Stitching (CPS)": "**Continuous Patch Stitching** refers to a method that enables seamless connection of image patches to create a coherent image while preserving quality and eliminating artefacts.",
+        "Parallel Overlapping Patch Stitching (POPS)": "**Parallel Overlapping Patch Stitching** is a technique that ensures intrinsic continuity between adjacent image patches by overlapping them during the compression process."
+    },
+    "open_sourcing": "Our code shall be released upon acceptance."
+}
