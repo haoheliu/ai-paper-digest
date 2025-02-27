@@ -1,0 +1,21 @@
+{
+    "title": "FASTER, CHEAPER, BETTER: MULTI-OBJECTIVE HYPERPARAMETER OPTIMIZATION FOR LLM AND RAG SYSTEMS",
+    "author": "Matthew Barker (Trustwise AI), Andrew Bell (New York University), Evan Thomas (Trustwise AI), James Carr (Trustwise AI), Thomas Andrews (Trustwise AI), Umang Bhatt (New York University, The Alan Turing Institute), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper provides insights into optimizing parameters for Retrieval Augmented Generation (RAG) systems, which may inform optimization techniques for audio processing tasks in terms of multi-objective metrics like latency and model alignment.",
+    "field": "Deep Learning-Optimization for Deep Networks",
+    "background": "Optimizing a Retrieval Augmented Generation system involves adjusting various hyperparameters to balance performance metrics such as cost, latency, safety, and alignment.",
+    "contribution": "This paper introduces a novel approach for multi-objective optimization of hyperparameters in RAG systems using Bayesian optimization, achieving improved performance across critical objectives.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for hyperparameter optimization lack a collective approach focusing on multiple objectives simultaneously and struggle with intractable solution spaces.",
+        "novelty": "This work utilizes Bayesian optimization with a specific acquisition function for noisy evaluations, allowing efficient exploration of the parameter space."
+    },
+    "key_innovation": "Employs advanced Bayesian optimization techniques tailored to optimize multiple conflicting objectives, providing a structured framework to derive favorable configurations.",
+    "real_world_impact": "The proposed optimization approach could significantly enhance RAG systems in industrial applications, improving their efficiency and reliability, particularly in high-stakes environments.",
+    "limitations": "The paper does not address the scalability of the approach or situations where configurations lead to diminishing returns in performance.",
+    "new_terms": {
+        "Retrieval Augmented Generation (RAG)": "**Retrieval Augmented Generation** refers to a process where a model retrieves relevant information from external sources to enhance the quality of generated responses."
+    },
+    "open_sourcing": "Datasets FinancialQA and MedicalQA are publicly released for benchmarking."
+}

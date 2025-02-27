@@ -1,0 +1,21 @@
+{
+    "title": "Diffusion Models for Conditional MRI Generation",
+    "author": "Miguel Herencia Garc\u00eda del Castillo (Ainovis.health), Ricardo Moya Garcia (Telef\u00f3nica Innovaci\u00f3n Digital), Manuel Jes\u00fas Cerezo Maz\u00f3n (Ainovis.health), Ekaitz Arriola Garcia (Ainovis.health), Pablo Men\u00e9ndez Fern\u00e1ndez-Miranda (Ainovis.health), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper\u2019s exploration of Latent Diffusion Models (LDMs) in generating MRI images could inform strategies for audio-related generative tasks, such as synthesis and enhancement, through similar latent space methodologies.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Generating synthetic medical images conditioned on specific pathologies and MRI acquisition modalities to enhance existing datasets while respecting privacy regulations.",
+    "contribution": "This paper introduces a Latent Diffusion Model (LDM) for conditional magnetic resonance imaging (MRI) generation to address data scarcity and privacy issues, achieving high visual fidelity and diversity in generated images.",
+    "technical_comparison": {
+        "prior_work": "Previous generative models, such as Generative Adversarial Networks (GANs), face challenges like mode collapse and training instability, while diffusion models have high computational costs.",
+        "novelty": "This work optimizes the image generation process by operating in a compressed latent space, reducing computational demands while maintaining image quality."
+    },
+    "key_innovation": "Utilizes latent space diffusion to facilitate the generation of diverse and conditionally specific MRI images without the need for extensive real-world datasets.",
+    "real_world_impact": "The model can significantly enhance the availability of clinical data for rare pathologies, potentially improving diagnostic AI systems without compromising patient privacy.",
+    "limitations": "The model's reliance on training data may still lead to challenges in generating accurate representations for underrepresented pathologies.",
+    "new_terms": {
+        "Latent Diffusion Model (LDM)": "**Latent Diffusion Model (LDM)** is a generative modeling approach that operates in a compressed latent space enabling efficient image generation while maintaining quality."
+    },
+    "open_sourcing": ""
+}

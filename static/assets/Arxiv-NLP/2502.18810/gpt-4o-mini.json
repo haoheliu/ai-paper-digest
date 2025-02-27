@@ -1,0 +1,22 @@
+{
+    "title": "Holistic Audit Dataset Generation for LLM Unlearning via Knowledge Graph Traversal and Redundancy Removal",
+    "author": "Weipeng Jiang (Xi'an Jiaotong University), Juan Zhai (University of Massachusetts Amherst), Shiqing Ma (University of Massachusetts Amherst), Ziyan Lei (Xi'an Jiaotong University), Xiaofei Xie (Singapore Management University), Yige Wang (Xi'an Jiaotong University), Chao Shen (Xi'an Jiaotong University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper provides a framework that enhances audit capabilities for Large Language Models (LLMs), which is relevant for methodologies in speech and audio processing, especially concerning compliance with privacy and copyright regulations in audio generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on developing an automated framework to create comprehensive datasets for evaluating the effectiveness of unlearning techniques in Large Language Models, specifically aimed at removing sensitive knowledge while preserving essential information.",
+    "contribution": "This paper introduces HANKER, a novel framework that utilizes knowledge graphs to systematically generate large-scale audit datasets, addressing issues of audit adequacy and knowledge redundancy in LLM unlearning evaluations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods such as MUSE and TOFO provide limited test coverage with only hundreds of cases.",
+        "novelty": "HANKER significantly expands dataset sizes to over 69,000 and 111,000 audit cases, improving the detection of knowledge memorization instances by eliminating redundancies."
+    },
+    "key_innovation": "The framework leverages knowledge graphs to ensure fine-grained coverage and remove overlapping information between retain and forget datasets, thus improving evaluation accuracy.",
+    "real_world_impact": "HANKER's improved auditing capabilities could lead to better compliance with regulations like GDPR, enhancing the trust and safety of LLM applications in sensitive domains like healthcare and finance.",
+    "limitations": "No",
+    "new_terms": {
+        "Large Language Models (LLMs)": "**Large Language Models (LLMs)** refer to advanced AI models designed for processing and generating human-like text based on learned patterns from vast datasets.",
+        "knowledge graph": "**Knowledge graph** is a structured representation of information where entities are linked by relationships, allowing for effective relational reasoning and information retrieval."
+    },
+    "open_sourcing": "The framework code and generated audit suite are publicly available, facilitating broader application and testing."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Inscanner: Dual-Phased Detection and Classification of Auxiliary Insulation Using YOLOv8 Models",
+    "author": "Youngtae Kim (Doaz Corporation), Soonju Jeong (Doaz Corporation), Sardar Arslan (Doaz Corporation), Dhananjay Agnihotri (Lotte E&C), Yahya Ahmed (Lotte E&C), Ali Nawaz (Lotte E&C), Jinhee Song (Lotte E&C), Hyewon Kim (Lotte E&C), ..., Ali Nawaz (Doaz Corporation)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The proposed two-phase deep learning pipeline for insulation detection and classification could inspire methods for audio categorization and defect detection in audio signals, especially integrating computer vision techniques with audio analysis.",
+    "field": "Applications-Vision",
+    "background": "Detecting and classifying insulation in structural blueprints through a two-phase model using deep learning techniques.",
+    "contribution": "This paper introduces a novel two-phase framework combining YOLOv8 for detection and YOLOv8-CLS for classification to automate insulation verification, achieving an mAP score of 82% and an accuracy of 98%.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often rely on traditional machine learning techniques and do not effectively handle the high variability and complexity found in insulation patterns.",
+        "novelty": "This work uses state-of-the-art YOLO models, significantly enhancing the speed and accuracy of defect detection in large-scale blueprints compared to earlier methods."
+    },
+    "key_innovation": "The integration of object detection and classification phases allows for a more efficient processing workflow tailored for complex industrial insulation tasks.",
+    "real_world_impact": "Promotes greater efficiency in industrial quality assurance processes by automating labor-intensive inspection tasks, potentially reducing human error and inspection times.",
+    "limitations": "No",
+    "new_terms": {
+        "mean Average Precision": "**Mean Average Precision (mAP)** is a widely used metric for evaluating object detection models, measuring the accuracy of detected objects by accounting for both precision and recall across multiple classes."
+    },
+    "open_sourcing": ""
+}

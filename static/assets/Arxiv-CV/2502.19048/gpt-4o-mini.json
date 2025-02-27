@@ -1,0 +1,22 @@
+{
+    "title": "An Improved 3D Skeletons UP-Fall Dataset: Enhancing Data Quality for Efficient Impact Fall Detection",
+    "author": "Tresor Y. Koffi (CESI LINEACT Laboratory, Dijon, France), Youssef Mourchid (CESI LINEACT Laboratory, Dijon, France), Mohammed Hindawi (CESI LINEACT Laboratory, Lyon, France), Yohan Dupuis (CESI LINEACT Laboratory, Paris La Defense, France)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper focuses on improving datasets for fall detection systems using machine learning techniques, an area that can enhance audio analysis applications, particularly in monitoring and safety systems for elderly populations.",
+    "field": "Applications-Healthcare",
+    "background": "The task is to improve the quality of a fall event dataset to enhance a fall detection system's accuracy, particularly by distinguishing between impact falls and other non-fall activities.",
+    "contribution": "This study introduces improved preprocessing techniques for the UP-Fall dataset that enhances the detection of impacts during fall events, achieving significant performance gains in fall detection algorithms.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with labeling issues and the ability to distinguish falls from non-fall events, often causing confusion in datasets.",
+        "novelty": "This work improves by implementing a preprocessing approach that uses 3D skeleton data and manual validation to enhance data accuracy, thereby improving impact detection reliability."
+    },
+    "key_innovation": "Integrates advanced pose estimation techniques with meticulous manual and semi-automatic labeling processes to create a more comprehensive dataset for impact fall detection.",
+    "real_world_impact": "Improving fall detection systems can lead to timely interventions for the elderly, reducing injury rates, and enhancing safety in healthcare environments.",
+    "limitations": "No",
+    "new_terms": {
+        "Signal Magnitude Vector (SMV)": "**Signal Magnitude Vector (SMV)** is a calculated value from three-dimensional accelerometer data that summarizes acceleration and helps in detecting significant impacts.",
+        "GrabCut algorithm": "**GrabCut algorithm** is an image segmentation technique used for foreground-background separation, improving the focus on the subject in video frames."
+    },
+    "open_sourcing": "The improved 3D skeletons UP-Fall dataset is publicly available at https://zenodo.org/records/12773013."
+}

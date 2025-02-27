@@ -1,0 +1,22 @@
+{
+    "title": "(MIS)FITTING: A SURVEY OF SCALING LAWS",
+    "author": "Margaret Li (University of Washington), Sneha Kudugunta (University of Washington), Luke Zettlemoyer (University of Washington), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper discusses scaling laws in neural models, which can inform the optimization of model architectures and hyperparameters relevant to audio and speech processing tasks.",
+    "field": "Deep Learning-Optimization for Deep Networks",
+    "background": "The paper surveys scaling laws that govern the performance of machine learning models as their parameters and datasets grow, aiming to guide decisions in architecture and training setup.",
+    "contribution": "This survey introduces a systematic analysis of existing scaling law literature, revealing underreported details that impact reproducibility and results, promoting better practices in future research.",
+    "technical_comparison": {
+        "prior_work": "Prior scaling law studies often lack clarity on experimental setups or fitting methods, which can lead to contradictory findings.",
+        "novelty": "This work provides a checklist to ensure critical details are reported, improving the transparency and replicability of future studies."
+    },
+    "key_innovation": "The proposed checklist helps authors systematically document their methodologies when exploring scaling laws, fostering reproducible research practices.",
+    "real_world_impact": "Encouraging best practices in reporting can significantly enhance collaboration within the research community and lead to more efficient development of scalable machine learning models.",
+    "limitations": "The paper does not provide empirical results or case studies that directly demonstrate the effectiveness of the proposed checklist.",
+    "new_terms": {
+        "scaling laws": "**Scaling laws** are mathematical relationships that express how the performance of machine learning models changes as a function of model size or the amount of training data.",
+        "replicability": "**Replicability** refers to the ability to achieve the same results as another study by following the same methodology."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "PEToolLLM: Towards Personalized Tool Learning in Large Language Models",
+    "author": "Qiancheng Xu (The Hong Kong Polytechnic University), Yongqi Li (The Hong Kong Polytechnic University), Heming Xia (The Hong Kong Polytechnic University), Fan Liu (National University of Singapore), Min Yang (Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences), Wenjie Li (The Hong Kong Polytechnic University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper introduces a framework for personalized tool learning in Large Language Models (LLMs) which could inspire approaches in speech and audio processing that rely on interacting with various tools and APIs.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Personalized tool learning: equipping large language models to use tools in a way that considers both explicit user instructions and implicit user preferences derived from their interaction history.",
+    "contribution": "This work introduces a personalized framework (PEToolLLaMA) and a benchmark (PEToolBench) to enhance the ability of language models to cater to user preferences in tool usage, achieving significant performance improvements.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focus primarily on general-purpose tool use, often neglecting personalization aspects and user history.",
+        "novelty": "This paper proposes addressing implicit user preferences and introduces the two-stage training process of supervised fine-tuning followed by direct preference optimization, which improves LLMs' alignment with user needs."
+    },
+    "key_innovation": "The dual-stage training process allows LLMs to understand user preferences through historical interaction data, enhancing their personalized tool-use capabilities.",
+    "real_world_impact": "This framework could improve user experience significantly in applications requiring personalized interactions with tools, such as converting user requests into specific API calls in assistance systems.",
+    "limitations": "The use of synthesized interaction histories may not fully capture real user behaviors, raising questions about the authenticity of the dataset.",
+    "new_terms": {
+        "direct preference optimization": "**Direct preference optimization** is a training method focused on refining model outputs to align more closely with user preferences by minimizing discrepancies between preferred and non-preferred choices.",
+        "tool learning": "**Tool learning** refers to the capability of models to leverage external tools or APIs for task completion by understanding both their functionalities and user requirements."
+    },
+    "open_sourcing": "The code and dataset are available at https://github.com/travis-xu/PEToolBench."
+}

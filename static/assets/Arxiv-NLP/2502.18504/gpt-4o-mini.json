@@ -1,0 +1,22 @@
+{
+    "title": "TURBOFUZZLLM: Turbocharging Mutation-based Fuzzing for Effectively Jailbreaking Large Language Models in Practice",
+    "author": "Aman Goel (Amazon Web Services), Xian Carrie Wu (Amazon Web Services), Zhe Wang (Amazon Web Services), Dmitriy Bespalov (Amazon Web Services), Yanjun Qi (Amazon Web Services), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses mutation-based fuzzing, which can be related to generative processes in audio and speech modeling, potentially enabling more robust and innovative methods for audio processing and generation tasks.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Jailbreaking attempts to break the safeguards of large language models (LLMs) to elicit harmful or unauthorized responses through crafted prompts.",
+    "contribution": "This paper introduces TURBOFUZZLLM, a fuzzing technique that enhances the efficiency and effectiveness of jailbreaking templates for LLMs, achieving over 95% attack success rates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like GPTFuzzer had lower attack success rates and higher query costs for generating jailbreak prompts.",
+        "novelty": "This work improves upon prior methods by expanding mutation libraries, employing new selection policies, and introducing heuristics that reduce query requirements significantly."
+    },
+    "key_innovation": "TURBOFUZZLLM integrates advanced reinforcement learning techniques for selecting mutations and templates, optimizing the fuzzing process to ensure greater effectiveness with fewer queries.",
+    "real_world_impact": "The findings could lead to more secure LLMs by identifying vulnerabilities, ultimately guiding more robust AI model designs and defense strategies.",
+    "limitations": "The paper does not discuss potential ethical implications of using jailbreaking techniques in real-world applications.",
+    "new_terms": {
+        "mutation-based fuzzing": "**Mutation-based fuzzing** is a testing technique that involves modifying existing inputs to create new test cases, aimed at identifying vulnerabilities in software systems.",
+        "jailbreaking": "**Jailbreaking** in this context refers to the act of bypassing a software's restrictions to manipulate or extract unauthorized functionalities."
+    },
+    "open_sourcing": ""
+}

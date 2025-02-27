@@ -1,0 +1,22 @@
+{
+    "title": "Event-based solutions for human-centered applications: A comprehensive review",
+    "author": "Mira Adra (GTD International), Simone Melcarne (Dept. of Digital Security, EURECOM), Nelida Mirabet-Herranz (Dept. of Digital Security, EURECOM), Jean-Luc Dugelay (Dept. of Digital Security, EURECOM), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The comprehensive review of event-based vision systems provides insights into novel applications and methodologies that could influence audio-visual integration or generative models in future tasks.",
+    "field": "Applications-Vision",
+    "background": "This paper reviews the use of event cameras, which capture data based on changes in brightness rather than traditional frame-based methods, focusing on human-centric applications in areas such as facial and body analysis.",
+    "contribution": "This paper introduces a unified overview of event camera technologies specifically for human-centered applications, highlighting advancements and identifying research gaps.",
+    "technical_comparison": {
+        "prior_work": "Previous surveys focused heavily on either hardware developments or narrow application domains in event-based systems.",
+        "novelty": "This work stands out by integrating insights for both facial and body applications and addressing important areas like event data compression and simulation frameworks."
+    },
+    "key_innovation": "Serves as the first comprehensive reference that unites body and face human-centered applications leveraged by event cameras, pinpointing underexplored areas relevant for future research.",
+    "real_world_impact": "By bridging insights across distinct human-centric applications, this survey could accelerate the implementation of event cameras in practical scenarios such as security, healthcare, and human-computer interaction.",
+    "limitations": "The paper does not specify limitations but notes challenges in developing algorithms to effectively process the unique event data.",
+    "new_terms": {
+        "event cameras": "**Event cameras** are sensors capable of capturing changes in brightness asynchronously, providing high temporal resolution and low latency compared to conventional cameras.",
+        "event compression": "**Event compression** refers to techniques aimed at reducing the size of event data while preserving essential information, necessary for effective integration into systems requiring real-time processing."
+    },
+    "open_sourcing": "A summary of the survey can be found at https://github.com/nmirabeth/event_human"
+}

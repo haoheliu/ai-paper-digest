@@ -1,0 +1,22 @@
+{
+    "title": "AMULET: Realignment During Test Time for Personalized Preference Adaptation of Large Language Models",
+    "author": "Zhaowei Zhang (Peking University), Fengshuo Bai (Shanghai Jiao Tong University), Qizhi Chen (Peking University), Chengdong Ma (Peking University), Mingzhi Wang (Peking University), Haoran Sun (Peking University), Zilong Zheng (National Key Laboratory of General Artificial Intelligence, BIGAI), Yaodong Yang (Peking University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The framework presents a new method for real-time preference adaptation in language models, which could apply to audio-related tasks by enhancing user interactions in speech applications.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This research focuses on adapting large language models in real-time to better align with continuously changing user preferences based on simple prompts, thus improving the model's responses in practical applications.",
+    "contribution": "AMULET introduces an online learning framework to optimize token generation based on user prompts, achieving significant performance improvements across various models and datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often require extensive retraining or fine-tuning models with human feedback, which is computationally expensive and does not address dynamically changing preferences.",
+        "novelty": "This work formulates the inference process as an independent online learning problem without additional training, allowing for rapid adjustments during model execution."
+    },
+    "key_innovation": "The method's unique aspect lies in providing a closed-form solution for optimization iterations, drastically reducing computational costs while aligning with user preferences in real-time.",
+    "real_world_impact": "The framework aims to improve user satisfaction in applications such as personalized content generation and virtual assistants by ensuring outputs better reflect individual user needs. No immediate real-world impact.",
+    "limitations": "The impact of specific parameter settings or potential overfitting with excessive iterations could restrict performance.",
+    "new_terms": {
+        "real-time optimization": "**Real-time optimization** refers to the ability to adjust model parameters or behaviors instantly or within a short timeframe, accommodating changing user preferences on the fly.",
+        "online learning": "**Online learning** is a method in machine learning where the model is trained incrementally as new data becomes available, allowing it to adapt continuously over time."
+    },
+    "open_sourcing": ""
+}

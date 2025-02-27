@@ -1,0 +1,22 @@
+{
+    "title": "On the Importance of Text Preprocessing for Multimodal Representation Learning and Pathology Report Generation",
+    "author": "Ruben T. Lucassen (University Medical Center Utrecht), Tijn van de Luijtgaarden (Eindhoven University of Technology), Sander P.J. Moonemans (Eindhoven University of Technology), Gerben E. Breimer (University Medical Center Utrecht), Willeke A.M. Blokx (University Medical Center Utrecht), Mitko Veta (Eindhoven University of Technology), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The findings on text preprocessing and multimodal representation learning can be applied in audio-language integration tasks, which are relevant to my work on audio and speech.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating pathology reports based on multimodal inputs (whole slide images and text) while ensuring that the generated text accurately reflects the information contained in the images.",
+    "contribution": "This paper introduces a text preprocessing pipeline to enhance vision-language modeling for report generation in pathology, achieving improved report accuracy and reduced hallucination.",
+    "technical_comparison": {
+        "prior_work": "Existing models often include extraneous details leading to hallucinated content during report generation.",
+        "novelty": "This work enhances model reliability by limiting training data to relevant H&E-related content solely derived from image analyses."
+    },
+    "key_innovation": "Employs a text preprocessing approach that selectively retains only essential details from pathology reports, leading to more accurate and usable generated reports.",
+    "real_world_impact": "The findings can significantly reduce the workload of pathologists by automating report generation, while ensuring high-quality outputs, making it a step forward in the application of AI in healthcare.",
+    "limitations": "The model trained with full reports outperformed the preprocessed variant in cross-modal retrieval tasks, indicating a potential trade-off.",
+    "new_terms": {
+        "hallucination": "**Hallucination** refers to the generation of incorrect or misleading information by models, particularly in the context of language generation that cannot be supported by source data.",
+        "H&E": "**Hematoxylin and Eosin (H&E)** staining is a widely used technique in histopathology for visualizing tissue structure."
+    },
+    "open_sourcing": "Code and model parameters are made publicly available upon acceptance."
+}

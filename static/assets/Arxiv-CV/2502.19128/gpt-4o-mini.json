@@ -1,0 +1,22 @@
+{
+    "title": "SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation",
+    "author": "Junlong Ren (The Hong Kong University of Science and Technology), Hao Wu (The Hong Kong University of Science and Technology), Hui Xiong (The Hong Kong University of Science and Technology), Hao Wang (The Hong Kong University of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques for data augmentation and multimodal learning could be adapted for improving audio-related tasks, particularly in enhancing representation through diverse data generation methods.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Cross-modal 3D retrieval aims to associate 3D shapes with their textual descriptions for applications in robotics and AI.",
+    "contribution": "This paper introduces an online data augmentation method for creating extensive paired data of 3D shapes and captions to improve cross-modal retrieval performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods were limited by the scarcity of 3D-text pairs and often focused solely on aligning 3D shapes with textual features.",
+        "novelty": "This work improves by generating component-based captions and reshaping 3D models dynamically during training, enhancing data diversity and robustness."
+    },
+    "key_innovation": "Utilizes a multimodal large language model to generate detailed part-level captions and dynamically create new 3D shapes from existing components, allowing unprecedented data diversity for training.",
+    "real_world_impact": "This enhancement in cross-modal retrieval can significantly benefit applications in robotics and AI, where efficient interpretation of 3D environments through language is critical. However, the direct application to audio tasks remains to be explored.",
+    "limitations": "No",
+    "new_terms": {
+        "Earth Mover's Distance (EMD)": "**Earth Mover's Distance** is a measure of the distance between two probability distributions over a region, which in this case is used to compute similarity between 3D shapes and texts.",
+        "contrastive learning": "**Contrastive learning** is a technique in machine learning where the model learns to differentiate between similar and dissimilar data pairs to enhance representation learning."
+    },
+    "open_sourcing": "Codes can be found at [https://github.com/3DAgentWorld/SCA3D](https://github.com/3DAgentWorld/SCA3D)"
+}

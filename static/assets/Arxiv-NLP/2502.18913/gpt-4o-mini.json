@@ -1,0 +1,19 @@
+{
+    "title": "CS-Dialogue: A 104-Hour Dataset of Spontaneous Mandarin-English Code-Switching Dialogues for Speech Recognition",
+    "author": "Jiaming Zhou (Nankai University), Yujie Guo (Nankai University), Shiwan Zhao (Nankai University), Haoqin Sun (Nankai University), Hui Wang (Nankai University), Jiabei He (Nankai University), Aobo Kong (Nankai University), Shiyao Wang (Nankai University), ..., Yong Qin (Nankai University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The dataset addresses challenges in automatic speech recognition (ASR) for bilingual code-switching, which is relevant to audio modeling and data generation tasks in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a large-scale dataset for recognizing and processing bilingual code-switching in conversations, primarily focusing on Mandarin and English.",
+    "contribution": "CS-Dialogue introduces 104 hours of spontaneous speech data with full-length dialogues to improve automatic speech recognition for code-switching scenarios, achieving greater understanding of multilingual conversations.",
+    "technical_comparison": "Previous methods often focused on smaller datasets or isolated utterances, limiting the context and naturalism of the speech data. This work improves by offering a comprehensive and publicly available dataset with full dialogues and detailed annotations.",
+    "key_innovation": "Captures diverse, real-world conversational dynamics through spontaneous dialogues, enhancing the understanding and modeling of complex code-switching patterns in ASR systems.",
+    "real_world_impact": "This dataset is expected to facilitate advancements in speech recognition technologies in multilingual environments, potentially improving applications like virtual assistants and real-time translation services.",
+    "limitations": "No mention of limitations.",
+    "new_terms": {
+        "code-switching": "**Code-switching** refers to the practice of alternating between two or more languages or dialects within a single conversation or utterance.",
+        "automatic speech recognition (ASR)": "**Automatic Speech Recognition (ASR)** is a technology that enables machines to recognize and process human speech into a format that can be understood by computers."
+    },
+    "open_sourcing": "The CS-Dialogue dataset will be made freely available for all academic purposes."
+}

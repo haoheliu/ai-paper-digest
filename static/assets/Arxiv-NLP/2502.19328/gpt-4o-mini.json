@@ -1,0 +1,21 @@
+{
+    "title": "Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals for Reliable Reward Systems",
+    "author": "Hao Peng (Tsinghua University), Yunjia Qi (Tsinghua University), Xiaozhi Wang (Tsinghua University), Zijun Yao (Tsinghua University), Bin Xu (Tsinghua University), Lei Hou (Tsinghua University), Juanzi Li (Tsinghua University), ..., Haohe Liu (Tsinghua University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The integration of verifiable correctness signals into reward modeling can improve training and evaluation processes for LLMs, which is relevant to enhancing generative audio models and improving AI-based audio systems.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Reward models score the quality of responses from large language models based on human preferences but often overlook factual correctness, making the integration of verifiable signals crucial for development.",
+    "contribution": "This paper introduces *agentic reward modeling* to solve the limitations of traditional reward models by incorporating factuality and instruction-following signals, achieving more reliable rewards for model training.",
+    "technical_comparison": {
+        "prior_work": "Previous reward models primarily relied on human judgments that might include biases such as verbosity, lacking objective correctness metrics.",
+        "novelty": "This work improves by integrating verifiable correctness signals, allowing for more nuanced evaluations that consider factual accuracy and adherence to instructions."
+    },
+    "key_innovation": "The framework combines human preferences with objective verification agents to enhance the robustness and interpretability of rewards.",
+    "real_world_impact": "This approach could lead to more reliable language models that better understand and generate human-like, factually accurate responses, which is critical in real-world applications such as customer service and content generation.",
+    "limitations": "The verification agents are not yet perfect, indicating that more research and development are needed to achieve high reliability.",
+    "new_terms": {
+        "agentic reward modeling": "**Agentic reward modeling** is a proposed framework that combines traditional reward models with additional signals of correctness to improve the reliability of rewards given to language models."
+    },
+    "open_sourcing": "The authors have made their implementation publicly available on GitHub."
+}

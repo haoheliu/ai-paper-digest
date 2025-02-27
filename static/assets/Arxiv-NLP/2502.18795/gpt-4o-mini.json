@@ -1,0 +1,22 @@
+{
+    "title": "Anything Goes? A Crosslinguistic Study of (Im)possible Language Learning in LMs",
+    "author": "Xiulin Yang (Georgetown University), Tatsuya Aoyama (Georgetown University), Yuekun Yao (Saarland University), Ethan Wilcox (Georgetown University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study investigates language biases in language models, revealing insights that might influence future audio-language model developments, particularly in areas involving multilingual understanding.",
+    "field": "Applications-Language",
+    "background": "The paper explores how large language models (LLMs) distinguish between attested languages and impossible languages, examining their capabilities in terms of language learning biases and parsing typological structures.",
+    "contribution": "The research introduces a crosslinguistic framework to evaluate language model performance on both possible and impossible linguistic structures, demonstrating that LLMs exhibit some human-like preferences in language learning.",
+    "technical_comparison": {
+        "prior_work": "Previous studies mainly focused on single-language assessments, particularly English, with limited crosslinguistic considerations.",
+        "novelty": "This work expands the analysis across 12 languages from different families, offering a more comprehensive evaluation of language model performance in multilingual contexts."
+    },
+    "key_innovation": "The incorporation of impossible languages and typologically unattested structures into the assessment provides a unique lens through which to understand language model biases.",
+    "real_world_impact": "The insights gained could improve the design of multilingual language models, enhancing their applicability in global communication technologies and education.",
+    "limitations": "A potential limitation is the computational constraints imposed by focusing on the smaller GPT-2 model, which may not fully represent capabilities of larger models.",
+    "new_terms": {
+        "impossible languages": "**Impossible languages** are linguistic constructs that human learners cannot acquire due to inherent structural violations.",
+        "unattested languages": "**Unattested languages** are languages that are theoretically possible based on linguistic rules but have not been documented in natural speech."
+    },
+    "open_sourcing": "Our code and data are available at https://github.com/xiulinyang/multilingual-LM"
+}

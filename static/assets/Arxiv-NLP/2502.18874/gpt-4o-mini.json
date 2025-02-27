@@ -1,0 +1,22 @@
+{
+    "title": "Learning to Align Multi-Faceted Evaluation: A Unified and Robust Framework",
+    "author": "Kaishuai Xu (The Hong Kong Polytechnic University), Tiezheng Yu (Huawei Noah's Ark Lab), Wenjun Hou (The Hong Kong Polytechnic University), Yi Cheng (The Hong Kong Polytechnic University), Liangyou Li (Huawei Noah's Ark Lab), Xin Jiang (Huawei Noah's Ark Lab), Lifeng Shang (Huawei Noah's Ark Lab), Qun Liu (Huawei Noah's Ark Lab), Wenjie Li (The Hong Kong Polytechnic University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed ARJudge framework for evaluating responses robustly could inform evaluation methods for audio and speech processing applications, especially in the context of model assessments and enhancements for tasks related to generating audio or speech from textual inputs.",
+    "field": "Evaluation-Methodology",
+    "background": "This work presents a new evaluation framework that adapts criteria for assessing Large Language Model (LLM) outputs by integrating both text-based and code-driven analyses, thereby improving evaluation across diverse tasks.",
+    "contribution": "This paper introduces ARJudge to solve the limitations of existing evaluators, achieving superior performance in multi-faceted evaluations of LLM-generated content.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on fixed, text-based criteria, often failing to adapt to the nuances of different tasks or accurately assess the fulfillment of objective requirements.",
+        "novelty": "This work enhances evaluation capabilities by incorporating adaptive criteria creation and adding code-driven analysis, thus creating a more flexible and thorough evaluative process."
+    },
+    "key_innovation": "ARJudge combines adaptive learning of evaluation criteria with the ability to conduct both textual and computational assessments to achieve a comprehensive evaluation of responses.",
+    "real_world_impact": "Thank to its ability to handle complex evaluation needs, ARJudge can improve the reliability and accuracy of LLM evaluations in practical applications like automated content generation and grading, enhancing user trust and accuracy in AI systems.",
+    "limitations": "The evaluation is still constrained to pairwise comparisons and doesn't extend to scoring single responses effectively.",
+    "new_terms": {
+        "multi-faceted evaluation": "**Multi-faceted evaluation** refers to assessing outputs through various dimensions and methods rather than through a single criterion or approach, allowing for a more holistic review.",
+        "code-driven analysis": "**Code-driven analysis** signifies leveraging automated coding methods to verify responses against objective criteria, ensuring accuracy in compliance with specific requirements."
+    },
+    "open_sourcing": ""
+}

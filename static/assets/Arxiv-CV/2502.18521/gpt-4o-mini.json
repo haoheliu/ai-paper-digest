@@ -1,0 +1,22 @@
+{
+    "title": "Optimized Custom CNN for Real-Time Tomato Leaf Disease Detection",
+    "author": "Mangsura Kabir Oni (Jahangirnagar University), Tabia Tanzin Prama (Jahangirnagar University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The use of deep learning techniques for detecting agricultural diseases showcases methods that can potentially enhance the efficiency of audio data analysis in future applications.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "The paper discusses a system designed for detecting diseases in tomato leaves using Convolutional Neural Networks (CNNs) to automate and improve traditional visual inspection methods.",
+    "contribution": "This study introduces an optimized custom Convolutional Neural Network model to solve the challenge of accurately detecting tomato leaf diseases, achieving an accuracy of 95.2%.",
+    "technical_comparison": {
+        "prior_work": "Previous models like YOLOv5 and MobileNetV2 achieved lower accuracy rates of 77% and 89.38% respectively.",
+        "novelty": "This work's custom CNN is tailored specifically for tomato leaf disease detection, enhancing both accuracy and computational efficiency compared to existing architectures."
+    },
+    "key_innovation": "The model employs a tailored CNN architecture designed for robust performance in real-world agricultural settings, integrating advanced data preprocessing and augmentation techniques.",
+    "real_world_impact": "By improving disease detection in tomatoes, this technology can support farmers in enhancing crop yield and efficiency, contributing to agricultural sustainability.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "Convolutional Neural Network (CNN)": "**Convolutional Neural Network (CNN)** is a type of deep learning model particularly effective at processing structured grid data like images, using convolutional layers to extract features.",
+        "data augmentation": "**Data augmentation** refers to techniques used to artificially expand the training dataset by applying transformations that generate new data samples from existing data."
+    },
+    "open_sourcing": ""
+}

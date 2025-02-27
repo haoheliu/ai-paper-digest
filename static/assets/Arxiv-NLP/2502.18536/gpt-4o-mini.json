@@ -1,0 +1,22 @@
+{
+    "title": "FilterRAG: Zero-Shot Informed Retrieval-Augmented Generation to Mitigate Hallucinations in VQA",
+    "author": "S M Sarwar (University of Maryland, Baltimore County), ..., ",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The framework introduced could enhance model accuracy and reduce hallucinations in visual question answering, which may have parallels or applications in audio-visual tasks.",
+    "field": "Applications-Vision",
+    "background": "This paper focuses on visual question answering (VQA) where models must accurately respond to questions about images, often requiring external knowledge beyond visual cues.",
+    "contribution": "FilterRAG introduces a retrieval-augmented framework that integrates external knowledge to improve answer accuracy in challenging VQA scenarios, achieving a notable performance of 36.5% accuracy on the OK-VQA dataset.",
+    "technical_comparison": {
+        "prior_work": "Existing VQA models often struggle with hallucinations, producing incorrect but plausible answers, particularly in out-of-distribution (OOD) scenarios.",
+        "novelty": "This work combines visual data with retrieval-augmented generation, leveraging external sources like Wikipedia and DBpedia to ground answers and reduce hallucinations effectively."
+    },
+    "key_innovation": "The use of external knowledge retrieval during the answer generation process to ensure responses are factual and context-sensitive.",
+    "real_world_impact": "The approach shows potential for real-world applications in VQA systems, particularly in scenarios where accurate knowledge integration is crucial.",
+    "limitations": "The accuracy reported, while significant, suggests room for improvement, particularly in OOD settings where external knowledge retrieval might not always be successful.",
+    "new_terms": {
+        "hallucinations": "**Hallucinations** refer to the phenomenon where models generate plausible but incorrect outputs, often due to a lack of relevant data or biases during training.",
+        "Retrieval-Augmented Generation": "**Retrieval-Augmented Generation** is a technique where external information is retrieved and incorporated into the generation process to enhance the quality and factual accuracy of the answers produced."
+    },
+    "open_sourcing": ""
+}

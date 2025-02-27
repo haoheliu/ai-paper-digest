@@ -1,0 +1,22 @@
+{
+    "title": "Code to Think, Think to Code: A Survey on Code-Enhanced Reasoning and Reasoning-Driven Code Intelligence in LLMs",
+    "author": "Dayu Yang (Meta AI), Tianyang Liu (University of California, San Diego), Daoan Zhang (University of Rochester), Antoine Simoulin (Meta AI), Xiaoyi Liu (Meta AI), Yuwei Cao (Meta AI), Zhaopu Teng (Meta AI), Xin Qian (Meta AI), Grey Yang (Meta AI), Jiebo Luo (University of Rochester), Julian McAuley (University of California, San Diego), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This survey explores the interaction of code-enhanced reasoning and reasoning-driven code intelligence, which can inform methodologies for integrating reasoning in audio and speech applications.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The survey investigates how code and reasoning improve the capabilities of Large Language Models to handle programming tasks and reasoning across various domains.",
+    "contribution": "This paper introduces the bidirectional enhancement between code properties and reasoning capabilities in Large Language Models, achieving insights into their synergistic relationship.",
+    "technical_comparison": {
+        "prior_work": "Existing literature has primarily focused on single aspects of code intelligence or reasoning in isolation.",
+        "novelty": "This work provides a comprehensive review of how these two paradigms interact, offering a holistic perspective and highlighting gaps for future research."
+    },
+    "key_innovation": "Examines the bidirectional relationships between code representations and reasoning enhancements, proposing new frameworks for improved model training.",
+    "real_world_impact": "Enhancing LLMs' reasoning capabilities through structured code representation can significantly improve applications in software development, potentially streamlining activities like debugging and code generation.",
+    "limitations": "Limited systematic review on the specific challenges arising from the interplay between code and reasoning.",
+    "new_terms": {
+        "bidirectional enhancement": "**Bidirectional enhancement** refers to the mutual reinforcement between reasoning and coding capabilities where each area contributes to the advancement of the other.",
+        "Large Language Models (LLMs)": "**Large Language Models** are advanced neural network architectures designed to understand and generate human-like text based on the input they receive."
+    },
+    "open_sourcing": ""
+}

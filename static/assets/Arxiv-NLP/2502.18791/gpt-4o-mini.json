@@ -1,0 +1,22 @@
+{
+    "title": "Seeing the Forest for the Trees: A Large Scale, Continuously Updating Meta-Analysis of Frontier LLMs",
+    "author": "Jungsoo Park (Georgia Institute of Technology), Junmo Kang (Georgia Institute of Technology), Gabriel Stanovsky (The Hebrew University of Jerusalem), Alan Ritter (Georgia Institute of Technology), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The proposed semi-automated meta-analysis approach for Large Language Models (LLMs) could benefit the organization and analysis of audio-language datasets and related research.",
+    "field": "Evaluation-Meta Studies",
+    "background": "This paper presents a method to automate the meta-analysis process by extracting experimental results from various arXiv papers concerning Large Language Models.",
+    "contribution": "This paper introduces a semi-automated data extraction approach to solve the challenging problem of synthesizing findings across a multitude of LLM studies, achieving a 93% reduction in manual extraction effort.",
+    "technical_comparison": {
+        "prior_work": "Existing manual meta-analysis methods are time-consuming and quickly become outdated.",
+        "novelty": "This work employs a Large Language Model to automatically identify papers, extract results, and organize data, allowing for continuous updates as new studies are published."
+    },
+    "key_innovation": "The integration of a schema-driven extraction framework, combined with context augmentation using a Large Language Model, allows for efficient and comprehensive data synthesis.",
+    "real_world_impact": "The automated approach can significantly streamline the research process in the rapidly evolving field of LLMs, fostering ongoing evaluations and innovations in various applications, including audio and language tasks.",
+    "limitations": "The study is limited to the analysis of four proprietary LLMs and may need further validation of findings from the aggregated literature.",
+    "new_terms": {
+        "Chain-of-Thought (CoT)": "**Chain-of-Thought** is a prompting technique that encourages models to generate reasoning steps in a sequential manner to enhance problem-solving capabilities.",
+        "in-context learning (ICL)": "**In-context learning** refers to the ability of models to improve performance on tasks by conditioning on examples provided in the input prompt."
+    },
+    "open_sourcing": "The dataset and code are available in https://github.com/JJumSSu/meta-analysis-frontier-LLMs"
+}

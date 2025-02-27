@@ -1,0 +1,21 @@
+{
+    "title": "Speaking the Right Language: The Impact of Expertise Alignment in User-AI Interactions",
+    "author": "Shramay Palta (University of Maryland, College Park), Nirupama Chandrasekaran (Microsoft Research), Rachel Rudinger (University of Maryland, College Park), Scott Counts (Microsoft Research)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "Understanding expertise alignment in user interactions with AI could enhance the design of AI systems, which is relevant to improving user interaction in audio and speech applications.",
+    "field": "Social and Economic Aspects of ML-Human-AI Interaction",
+    "background": "This paper investigates how the expertise of users and AI agents impacts user satisfaction and engagement during conversations.",
+    "contribution": "This paper introduces an ordinal expertise classifier to assess user and AI expertise levels, exploring the relationship between expertise alignment and user experience metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous studies inadequately addressed the influence of user expertise on interactions with AI, often focusing on performance metrics without considering user satisfaction.",
+        "novelty": "This work contributes a multi-dimensional analysis of user experience by integrating expertise alignment into user satisfaction evaluation."
+    },
+    "key_innovation": "Combines user and AI expertise assessments to provide insights into how expertise gaps affect satisfaction and engagement in conversations.",
+    "real_world_impact": "Improving user-AI interaction design could lead to enhanced productivity and user satisfaction across applications in various fields, including education and healthcare.",
+    "limitations": "The study's findings are based on predicted expertise labels, which may introduce bias, and the results are limited to English conversations.",
+    "new_terms": {
+        "expertise alignment": "**Expertise alignment** refers to the matching levels of knowledge and skills between users and AI systems, which influences user interactions and satisfaction."
+    },
+    "open_sourcing": ""
+}

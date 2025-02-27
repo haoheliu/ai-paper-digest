@@ -1,0 +1,21 @@
+{
+    "title": "Negation-Induced Forgetting in LLMs",
+    "author": "Francesca Capuano (University of T\u00fcbingen), Ellen Boschert (University of T\u00fcbingen), Barbara Kaup (University of T\u00fcbingen), ... ,",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study explores cognitive phenomena in large language models, which could inform models applied in audio processing, especially in understanding memory representations.",
+    "field": "Neuroscience and Cognitive Science-Brain-Computer Interfaces",
+    "background": "Investigating how Large Language Models respond to negation and whether they exhibit memory biases similar to humans.",
+    "contribution": "This paper introduces an experimental framework to assess negation-induced forgetting in LLMs, demonstrating that specific models can exhibit this cognitive bias.",
+    "technical_comparison": {
+        "prior_work": "Previous research primarily focused on human subjects regarding negation-induced forgetting without examining LLMs.",
+        "novelty": "This work adapts human cognitive experiments to LLMs, revealing potential similarities in cognitive biases."
+    },
+    "key_innovation": "The study uses a structured experimental setup to test memory biases in LLMs, specifically under negation scenarios.",
+    "real_world_impact": "Understanding NIF in LLMs could enhance the deployment of AI in contexts where accurate recall is crucial, like legal or educational applications.",
+    "limitations": "Limited to specific proprietary models, restricting generalizability to other LLMs.",
+    "new_terms": {
+        "negation-induced forgetting": "**Negation-induced forgetting (NIF)** is a phenomenon where negating incorrect information leads to greater memory impairment compared to affirming correct information."
+    },
+    "open_sourcing": "Data and analysis scripts are available on OSF."
+}

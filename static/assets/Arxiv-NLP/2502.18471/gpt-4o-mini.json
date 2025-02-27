@@ -1,0 +1,26 @@
+{
+    "title": "FinBloom: Knowledge Grounding Large Language Model with Real-time Financial Data",
+    "author": "Ankur Sinha (Indian Institute of Management Ahmedabad), Chaitanya Agarwal (Indian Institute of Management Ahmedabad), Pekka Malo (Aalto University School of Business), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The techniques developed in this paper for real-time data integration and financial decision-making processes could inform methodologies for audio-visual data integration in music generation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Handling financial queries by accessing real-time text and tabular data to improve decision-making in finance.",
+    "contribution": "This paper introduces a Financial Agent to solve the challenge of equipping large language models with real-time financial context, achieving efficient answering of financial queries.",
+    "technical_comparison": {
+        "prior_work": "Conventional LLMs are limited as they rely on static datasets and lack real-time context integration.",
+        "novelty": "This work enhances LLM capabilities by integrating a Financial Agent that dynamically retrieves and contextualizes relevant real-time financial data."
+    },
+    "key_innovation": "Utilizes a dual-module system that includes a data retrieval mechanism alongside a financial context generator, enabling responsive and informed answers.",
+    "real_world_impact": "This approach significantly enhances the utility of large language models in finance, improving decision-making and algorithmic trading processes. Companies could adopt these strategies to boost operational efficiency.",
+    "limitations": "While the integration of real-time data is a strength, the system's dependency on both the quality of data sources and the adaptation into the existing LLM architecture poses challenges.",
+    "new_terms": {
+        "knowledge grounding": "**Knowledge grounding** refers to the process of equipping machine learning models with external data resources and contextual information to enhance their decision-making capabilities.",
+        "real-time data retrieval": "**Real-time data retrieval** involves accessing and processing the most current information continuously, allowing for dynamic responsiveness in applications like finance."
+    },
+    "open_sourcing": {
+        "Financial Context Dataset": "https://huggingface.co/datasets/Chaitanya14/Financial_Context_Dataset",
+        "FinBloom 7B LLM": "https://huggingface.co/Chaitanya14/FinBloom_7B",
+        "FinBloom 7B Agent": "https://huggingface.co/Chaitanya14/Financial_Agent"
+    }
+}

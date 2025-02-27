@@ -1,0 +1,22 @@
+{
+    "title": "A Cooperative Multi-Agent Framework for Zero-Shot Named Entity Recognition",
+    "author": "Zihan Wang (University of Amsterdam), Zhumin Chen (Shandong University), Ziqi Zhao (Shandong University), Maarten de Rijke (University of Amsterdam), Yougang Lyu (University of Amsterdam), Zhaochun Ren (Leiden University), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The framework's focus on multi-agent systems and self-annotating mechanisms for entity recognition could inspire novel approaches in audio analysis or other generative tasks, especially in creating intelligent systems that leverage language models.",
+    "field": "Applications-Language",
+    "background": "Zero-shot Named Entity Recognition (NER): identifying named entities in text without annotated training data, challenging due to data sparsity.",
+    "contribution": "This paper introduces a Cooperative Multi-Agent Framework (CMAS) to address challenges in zero-shot NER, achieving significant performance improvements in benchmark tests.",
+    "technical_comparison": {
+        "prior_work": "Previous methods either neglected contextual correlations between entities or relied heavily on poorly curated demonstrations, causing performance degradation.",
+        "novelty": "This work improves by integrating multiple agents that collaboratively extract type-related features and evaluate the helpfulness of demonstrations, enhancing prediction robustness."
+    },
+    "key_innovation": "Employs a multi-agent architecture where agents specialize in self-annotation, feature extraction, demonstration evaluation, and prediction to enhance NER tasks.",
+    "real_world_impact": "The framework significantly enhances entity recognition performance with no need for annotated data, which could impact applications in information extraction, search engines, and automated content generation.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "Cooperative Multi-Agent Framework": "**Cooperative Multi-Agent Framework** refers to a system that utilizes multiple specialized agents working together to solve complex problems collaboratively.",
+        "type-related features": "**Type-related features** are contextual tokens associated with specific named entity types that enhance contextual understanding during the NER process."
+    },
+    "open_sourcing": "Our code is available at https://github.com/WZH-NLP/WWW25-CMAS"
+}

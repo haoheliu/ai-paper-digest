@@ -1,0 +1,22 @@
+{
+    "title": "CS-Dialogue: A 104-Hour Dataset of Spontaneous Mandarin-English Code-Switching Dialogues for Speech Recognition",
+    "author": "Jiaming Zhou (Nankai University), Yujie Guo (Nankai University), Shiwan Zhao (Nankai University), Haoqin Sun (Nankai University), Hui Wang (Nankai University), Jiabei He (Nankai University), Aobo Kong (Nankai University), Shiyao Wang (Nankai University), Xi Yang (Beijing Academy of Artificial Intelligence), Yequan Wang (Beijing Academy of Artificial Intelligence), Yonghua Lin (Beijing Academy of Artificial Intelligence), Yong Qin (Nankai University)",
+    "quality": 9,
+    "relevance": 7,
+    "relevance_why": "The dataset enhances the ability of automatic speech recognition models, which aligns with Dr. Liu's focus on speech and audio processing. The techniques developed could be adapted for other multi-language datasets in his work.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work provides a dataset with spontaneous conversations in Mandarin-English that includes code-switching, essential for training models that perform speech recognition in multilingual contexts.",
+    "contribution": "CS-Dialogue introduces a sizeable and rich dataset to solve the challenge of training automatic speech recognition models on code-switching dialogues, achieving improved model performance benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets for code-switching often lack spontaneity, full transcriptions, or consist of isolated utterances.",
+        "novelty": "This work provides comprehensive spontaneous dialogues with full transcriptions, enabling better natural language processing."
+    },
+    "key_innovation": "The dataset captures real-life code-switching patterns in extended dialogues, differing from isolated or read speech datasets.",
+    "real_world_impact": "CS-Dialogue can significantly enhance the robustness of speech recognition systems in bilingual contexts, potentially improving communication tools for multilingual users.",
+    "limitations": "Focus is solely on Mandarin-English code-switching, limiting its applicability to other language pairs.",
+    "new_terms": {
+        "code-switching": "**Code-switching** refers to the practice of alternating between two or more languages during conversation.",
+        "automatic speech recognition (ASR)": "**Automatic speech recognition (ASR)** is a technology that enables computers to understand and process human speech into a written format."
+    },
+    "open_sourcing": "The CS-Dialogue dataset will be made freely available for all academic purposes."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Autonomous Vision-Guided Resection of Central Airway Obstruction",
+    "author": "Mariana E. Smitha (Johns Hopkins University), Nural Yilmaza (Johns Hopkins University), Tanner Watts (University of Utah), Paul Maria Scheikl (Johns Hopkins University), Jiawei Ge (Johns Hopkins University), Anton Deguet (Johns Hopkins University), Alan Kuntz (University of Utah), ..., Axel Krieger (Johns Hopkins University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods in this paper incorporate advanced vision-guided robotics and machine learning techniques for surgical applications, which could be adapted or inspire similar approaches in audio and speech processing tasks, particularly in automating complex interactions with high precision.",
+    "field": "Reinforcement Learning-Robotics",
+    "background": "This paper focuses on using autonomous robotic systems to perform precise surgical resections for central airway obstructions, involving tumor segmentation and robotic tool operation guided by visual data.",
+    "contribution": "This paper introduces an autonomous vision-guided resection system to solve the challenge of removing central airway obstructions, achieving over 90% volumetric tumor removal without trachea perforation in ex-vivo trials.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on manual operator control or contained limited automation for surgical tasks.",
+        "novelty": "This work enhances automation by integrating a vision-guided workflow with robotic manipulation, allowing for more precise surgical actions while minimizing human intervention."
+    },
+    "key_innovation": "The system combines custom segmentation algorithms with polynomial surface fitting to autonomously plan and execute surgical resection paths based on real-time imaging data.",
+    "real_world_impact": "This research showcases the potential for improved outcomes in minimally-invasive surgical procedures, providing a pathway toward broader adoption of autonomous systems in healthcare settings.",
+    "limitations": "The current system still relies on human supervision for certain tasks, and there are challenges in the automation of gripping, which could affect overall surgical precision.",
+    "new_terms": {
+        "vision-guided": "**Vision-guided** refers to the use of visual data processing to navigate and make decisions in robotics or automation."
+    },
+    "open_sourcing": ""
+}

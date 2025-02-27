@@ -1,0 +1,22 @@
+{
+    "title": "CritiQ: Mining Data Quality Criteria from Human Preferences",
+    "author": "Honglin Guo (Fudan University), Kai Lv (Fudan University), Qipeng Guo (Shanghai AI Laboratory), Tianyi Liang (East China Normal University), Zhiheng Xi (Fudan University), Demin Song (Shanghai AI Laboratory), Qiuyinzhe Zhang (University of Science and Technology of China), ..., Tao Gui (Fudan University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper proposes a novel method for data quality assessment, which could enhance dataset curation for speech and audio applications, directly impacting audio processing and generation tasks where high-quality datasets are crucial.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper focuses on using minimal human annotations to develop an automated approach for determining data quality criteria for selecting high-quality datasets needed in training large language models.",
+    "contribution": "CritiQ introduces a systematic method to derive data quality criteria from human preferences, achieving improved dataset quality and model performance on downstream tasks like code generation and logic queries.",
+    "technical_comparison": {
+        "prior_work": "Existing data selection methods often rely heavily on manual heuristics or specific prompts, which introduce bias and are labor-intensive.",
+        "novelty": "CritiQ automates this process with a lightweight scoring model that integrates iterative human feedback, reducing the need for extensive manual annotations."
+    },
+    "key_innovation": "The integration of an agent workflow (CritiQ Flow) that evolves quality criteria through reflections and worker judgments makes the approach unique and efficient.",
+    "real_world_impact": "By improving the quality of datasets used in training language models, this work holds significant potential for enhancing AI applications across various domains, such as education and automated coding.",
+    "limitations": "The method is tested primarily in three domains, suggesting its applicability to other areas is still unvalidated.",
+    "new_terms": {
+        "CritiQ Flow": "**CritiQ Flow** refers to the framework used in this paper to automate the discovery of data quality criteria through human preference judgments.",
+        "critic flow": "**Critic flow** is a term used to describe the iterative process of refining data quality criteria based on continuous judgments and feedback from multiple agents."
+    },
+    "open_sourcing": "Code is available at https://github.com/KYLN24/CritiQ"
+}

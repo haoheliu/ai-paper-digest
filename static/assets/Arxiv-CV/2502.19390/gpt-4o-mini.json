@@ -1,0 +1,22 @@
+{
+    "title": "Multi-modal Contrastive Learning for Tumor-specific Missing Modality Synthesis",
+    "author": "Minjoo Lim (Korea University), Bogyeong Kang (Korea University), Tae-Eui Kam (Korea University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper introduces multi-modal contrastive learning for MRI image synthesis, which may provide insights applicable to audio generation tasks that involve multimodal data.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper addresses the challenge of generating missing MRI modalities from available multi-modal MRI images, focusing on tumor segmentation.",
+    "contribution": "This paper introduces a generative model that combines multi-modal contrastive learning with segmentation capabilities to synthesize missing MRI modalities, achieving improved image quality and segmentation accuracy.",
+    "technical_comparison": {
+        "prior_work": "Earlier models, like generative adversarial networks (GANs), struggled with robust feature extraction across multiple modalities, leading to less accurate synthesis.",
+        "novelty": "This work integrates contrastive learning to enhance structure learning from diverse MRI modalities, significantly outperforming prior methods in synthesizing higher quality images."
+    },
+    "key_innovation": "It utilizes query-selected attention for feature selection based on entropy, which focuses on the most informative features when synthesizing images.",
+    "real_world_impact": "The method can potentially lead to improvements in clinical diagnostics by providing high-quality MRI images when some modalities are missing, directly aiding in tumor treatment planning.",
+    "limitations": "The experimental results rely on specific MRI data conditions, which may not generalize universally.",
+    "new_terms": {
+        "multi-modal contrastive learning": "**Multi-modal contrastive learning** is a technique that uses contrastive methods to align representations from different modalities, enhancing the model's ability to learn robust features.",
+        "query-selected attention": "**Query-selected attention** refers to an attention mechanism that prioritizes important features based on a calculated significance metric, like entropy."
+    },
+    "open_sourcing": ""
+}

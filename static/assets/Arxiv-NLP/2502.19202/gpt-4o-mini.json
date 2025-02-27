@@ -1,0 +1,22 @@
+{
+    "title": "LiGT: Layout-infused Generative Transformer for Visual Question Answering on Vietnamese Receipts",
+    "author": "Thanh-Phong Le (University of Information Technology), Trung Le Chi Phan (University of Information Technology), Nghia Hieu Nguyen (University of Information Technology), Kiet Van Nguyen (University of Information Technology), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on multimodal learning and generative models in the context of visual question answering may inform methodologies for Haohe's audio and speech tasks, particularly in structuring and extracting relevant audio information from visual contexts.",
+    "field": "Applications-Language",
+    "background": "Visual Question Answering (VQA) involves developing systems capable of responding to questions based on visual content, particularly focusing on document images such as receipts.",
+    "contribution": "This paper introduces ReceiptVQA, the first large-scale Vietnamese VQA dataset for receipts, alongside a novel architecture named Layout-infused Generative Transformer (LiGT) that processes layout and visual information.",
+    "technical_comparison": {
+        "prior_work": "Previous document VQA systems typically relied on either purely extractive methods or encoder-only architectures that struggled with generative capabilities.",
+        "novelty": "This work combines generative methods with layout-infused design, leveraging pretrained models for improved performance and adaptability in document understanding."
+    },
+    "key_innovation": "Combines layout understanding with generative modeling to create a more effective VQA system tailored for receipt analysis.",
+    "real_world_impact": "The introduction of a VQA system for receipts could significantly enhance user interactions with digital document systems, making information retrieval more intuitive and human-friendly.",
+    "limitations": "The dataset is primarily focused on a specific document type (receipts), which might limit generalizability to other document forms.",
+    "new_terms": {
+        "Layout-infused Generative Transformer": "**Layout-infused Generative Transformer** is an architecture designed to enhance text processing by incorporating layout information from documents into the generative modeling process, improving performance on tasks like VQA.",
+        "ReceiptVQA": "**ReceiptVQA** is a large-scale dataset specifically focused on providing visual question-answer pairs from Vietnamese receipts for training and evaluating VQA systems."
+    },
+    "open_sourcing": "The dataset will be publicly available for research purposes upon acceptance of the paper."
+}

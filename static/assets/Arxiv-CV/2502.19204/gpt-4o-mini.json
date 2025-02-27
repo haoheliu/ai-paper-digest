@@ -1,0 +1,21 @@
+{
+    "title": "Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator",
+    "author": "Xiankang He (Zhejiang University of Technology), Dongyan Guo (Zhejiang University of Technology), Hongji Li (AGI Lab, Westlake University), Ruibo Li (Nanyang Technological University), Ying Cui (Zhejiang University of Technology), Chi Zhang (AGI Lab, Westlake University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed framework for depth estimation could be applied to enhance audio-visual alignment in future work, especially in improving spatial awareness for audio generation tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Monocular depth estimation (MDE) predicts the depth of a scene from a single RGB image, which is useful in various applications including autonomous navigation and augmented reality.",
+    "contribution": "This paper introduces Cross-Context Distillation and a multi-teacher distillation framework to improve the quality of depth predictions through better pseudo-label generation.",
+    "technical_comparison": {
+        "prior_work": "Existing depth estimation methods often rely heavily on global normalization strategies, which can degrade local accuracy due to noise in pseudo-labels.",
+        "novelty": "The proposed method improves by integrating both local and global context during depth estimation, enhancing performance and robustness."
+    },
+    "key_innovation": "Combines local refinement with global consistency in distillation, allowing the model to effectively utilize and learn from diverse depth information.",
+    "real_world_impact": "The advancements in monocular depth estimation can significantly improve applications like autonomous vehicles, robotic navigation, and augmented reality systems.",
+    "limitations": "The effectiveness of the method may be context-dependent, as it heavily relies on the diversity of depth models used in the training process.",
+    "new_terms": {
+        "Cross-Context Distillation": "**Cross-Context Distillation** refers to a strategy that combines both local and global contextual information to improve model training by enhancing both detail and consistency in depth predictions."
+    },
+    "open_sourcing": "Code and models are made publicly available."
+}

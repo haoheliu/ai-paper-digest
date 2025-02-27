@@ -1,0 +1,22 @@
+{
+    "title": "JailBench: A Comprehensive Chinese Security Assessment Benchmark for Large Language Models",
+    "author": "Shuyi Liu (Beijing University of Posts and Telecommunications), Simiao Cui (Beijing University of Posts and Telecommunications), Haoran Bu (Beijing University of Posts and Telecommunications), Yuming Shang (Beijing University of Posts and Telecommunications), Xi Zhang (Beijing University of Posts and Telecommunications), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The benchmark for assessing vulnerabilities in Large Language Models (LLMs) can inform future methodologies in audio and speech modeling by highlighting safety and robustness concerns.",
+    "field": "Evaluation-Methodology",
+    "background": "JailBench is a benchmark framework that evaluates the safety vulnerabilities of Large Language Models within the Chinese context, addressing gaps in existing safety evaluations.",
+    "contribution": "This paper introduces JailBench to solve the inadequacies in existing Chinese safety benchmarks, achieving a 73.86% attack success rate against ChatGPT.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks struggle to expose vulnerabilities due to inconsistent categorization and lack of automated methods for generating harmful prompts.",
+        "novelty": "JailBench employs an Automatic Jailbreak Prompt Engineer framework to enhance dataset construction and evaluation efficiency."
+    },
+    "key_innovation": "The integration of automated prompt generation techniques and a refined safety taxonomy specific to the Chinese cultural context distinguishes JailBench from previous benchmarks.",
+    "real_world_impact": "JailBench establishes a critical framework for assessing LLMs, potentially improving their security and trustworthiness in real-world applications, especially in domains sensitive to cultural nuances.",
+    "limitations": "No",
+    "new_terms": {
+        "Attack Success Rate (ASR)": "**Attack Success Rate (ASR)** is a metric used to quantify the effectiveness of malicious prompts in bypassing safety mechanisms of models, calculated as the ratio of successful attacks to total attempts.",
+        "Automatic Jailbreak Prompt Engineer (AJPE)": "**Automatic Jailbreak Prompt Engineer (AJPE)** refers to a framework that utilizes machine learning techniques to automatically generate effective prompts for testing vulnerabilities in language models."
+    },
+    "open_sourcing": "The benchmark is publicly available at https://github.com/STAIR-BUPT/JailBench"
+}

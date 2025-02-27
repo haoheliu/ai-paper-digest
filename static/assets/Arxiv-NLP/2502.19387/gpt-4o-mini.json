@@ -1,0 +1,21 @@
+{
+    "title": "Residual Speech Embeddings for Tone Classification: Removing Linguistic Content to Enhance Paralinguistic Analysis",
+    "author": "Hamdan Al Ahbabi (Khalifa University), Gautier Marti (ADIA), Saeed AlMarri (Khalifa University), Ibrahim Elfadel (Khalifa University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The technique of using residual embeddings to separate linguistic from paralinguistic information is relevant to Haohe Liu\u2019s interests in audio processing, particularly in sentiment analysis and speech restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper explores how to improve tone classification in speech by separating the non-verbal tone from the verbal content using self-supervised learning techniques.",
+    "contribution": "This paper introduces residual embeddings to solve the issue of mixing linguistic and paralinguistic features in speech embeddings, achieving enhanced tone classification performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods have struggled with entangling speech content and prosody, typically maintaining both linguistic and paralinguistic features in one vector.",
+        "novelty": "This work proposes a regression-based method to extract residual embeddings that focus solely on tone, improving classification accuracy significantly."
+    },
+    "key_innovation": "The method specifically regresses speech embeddings on text embeddings to discretely capture tone characteristics while removing any linguistic meaning.",
+    "real_world_impact": "This technique could improve various applications in AI-driven speech analysis, including sentiment detection and speaker characterization, ultimately aiding in the creation of more intuitive conversational agents.",
+    "limitations": "No",
+    "new_terms": {
+        "residual embeddings": "**Residual embeddings** refer to the portion of the embeddings that capture information not explained by the linguistic content, focusing on prosodic and paralinguistic features."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "From Traditional to Deep Learning Approaches in Whole Slide Image Registration: A Methodological Review",
+    "author": "Behnaz Elhaminia (University of Warwick), Abdullah Alsalemi (University of Warwick), Esha Nasir (University of Warwick), Mostafa Jahanifar (University of Warwick), Ruqayya Awan (University of Warwick), Lawrence S. Young (Warwick Medical School), Nasir M. Rajpoot (University of Warwick), Fayyaz Minhas (University of Warwick), Shan E Ahmed Raza (University of Warwick)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper provides a comprehensive overview of whole slide image registration methods, which may inspire novel approaches or techniques applicable in audio-visual data registration.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Whole slide image registration involves the alignment of serial tissue sections or images stained with various markers for improved analysis in histopathology.",
+    "contribution": "This paper introduces the transition from traditional to deep learning methods in WSI registration, achieving valuable insights into the challenges and methodologies relevant to medical imaging.",
+    "technical_comparison": {
+        "prior_work": "Previous WSI registration methods largely relied on manual or semi-automatic processes, which were time-consuming and required expert oversight.",
+        "novelty": "This work emphasizes the automation through deep learning approaches, enhancing efficiency and accuracy over traditional methods."
+    },
+    "key_innovation": "The systematic categorization of registration methods and the focus on deep learning methodologies offer a fresh perspective on tackling the complexities of medical imaging.",
+    "real_world_impact": "Improving WSI registration can lead to better diagnostic outcomes in pathology, thereby enhancing patient care and treatment strategies in medical settings.",
+    "limitations": "No specific limitations were explicitly mentioned in the abstract or introduction.",
+    "new_terms": {
+        "whole slide image (WSI)": "**Whole Slide Image (WSI)** refers to high-resolution digital images of tissue specimen slides, often used in pathology for microscopic examination.",
+        "deep learning": "**Deep learning** is a subset of machine learning that uses neural networks with many layers (deep networks) to analyze and interpret complex data."
+    },
+    "open_sourcing": ""
+}

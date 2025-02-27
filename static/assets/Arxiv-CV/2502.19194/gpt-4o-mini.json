@@ -1,0 +1,22 @@
+{
+    "title": "Self-supervised conformal prediction for uncertainty quantification in Poisson imaging problems",
+    "author": "Bernardin Tamo Amougou (Heriot-Watt University, Edinburgh, UK), Marcelo Pereyra (Heriot-Watt University, Edinburgh, UK), Barbara Pascal (Nantes Universit\u00e9, \u00c9cole Centrale Nantes), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed methods for uncertainty quantification and self-supervised learning could be applied to audio restoration tasks, improving audio quality under uncertainty.",
+    "field": "Applications-Vision",
+    "background": "The paper addresses uncertainty quantification in image restoration tasks affected by Poisson noise, focusing on self-supervised methods that do not require ground truth data.",
+    "contribution": "This paper introduces a self-supervised conformal prediction method to solve the problem of uncertainty quantification in Poisson imaging, achieving reliable prediction sets without the need for ground truth.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in conformal prediction typically require a large amount of ground truth data, which is hard to obtain in many imaging scenarios.",
+        "novelty": "This work improves on existing methods by employing the Poisson Unbiased Risk Estimator to perform self-calibration and eliminate reliance on ground truth."
+    },
+    "key_innovation": "The key innovation is the combination of conformal prediction with a Poisson risk estimation approach that allows uncertainty quantification in imaging tasks without needing extensive calibration data.",
+    "real_world_impact": "This approach enhances the reliability of image restoration methods in critical fields such as astronomy and medical imaging, where accurate uncertainty estimates are essential. No immediate real-world impact.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "conformal prediction": "**Conformal prediction** is a statistical framework that provides prediction intervals with a guaranteed probability coverage, useful in various applications to quantify uncertainty.",
+        "Poisson Unbiased Risk Estimator": "**Poisson Unbiased Risk Estimator** is a technique used to estimate the risk or error in models dealing with Poisson-distributed data, helping to achieve unbiased performance assessments."
+    },
+    "open_sourcing": ""
+}

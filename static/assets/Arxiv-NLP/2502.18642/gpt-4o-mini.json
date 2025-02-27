@@ -1,0 +1,19 @@
+{
+    "title": "Contextual effects of sentiment deployment in human and machine translation",
+    "author": "Lindy Comstock (Department of Psychiatry & Biobehavioral Sciences, Semel Institute for Neuroscience and Human Behavior, University of California, Los Angeles), Priyanshu Sharma (Department of Linguistics, University of California, Los Angeles), Mikhail Belov (Department of Communication, University of California, Los Angeles), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The insights on sentiment translation and its impact on automated sentiment analysis could inform techniques for generating audio content that aligns with textual sentiment, improving emotional expression in audio generation tasks.",
+    "field": "Applications-Language",
+    "background": "The study analyzes how sentiment shifts occur during the translation of political discourse and literary texts, highlighting differences in sentiment presentation between human and machine translations.",
+    "contribution": "This paper introduces a comparative analysis of sentiment deployment in human and machine translations to solve the challenge of distorted sentiment perceptions, achieving clearer insights into translation biases.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked comprehensive analyses of sentiment shifts across translation types, failing to consider the full semantic field and contextual specifics.",
+        "novelty": "This work improves understanding by employing detailed sentiment analysis and a structured comparative approach, revealing significant disparities in sentiment representation."
+    },
+    "key_innovation": "Utilizes an integrated approach combining bag-of-words sentiment analysis and descriptive statistics to examine sentiment variations, enhancing clarity in translation impacts.",
+    "real_world_impact": "Has potential applications in improving machine translation systems for sentiment analysis, leading to more accurate interpretations in multilingual contexts. This can enhance user experiences in customer service and entertainment industries.",
+    "limitations": "The paper primarily focuses on Russian and English texts, which may limit the generalizability of findings to other language pairs.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

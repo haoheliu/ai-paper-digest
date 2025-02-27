@@ -1,0 +1,22 @@
+{
+    "title": "Improving the quality of Web-mined Parallel Corpora of Low-Resource Languages using Debiasing Heuristics",
+    "author": "Aloka Fernando (University of Moratuwa), Surangika Ranathunga (Massey University), Nisansa de Silva (University of Moratuwa), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper deals with improving the quality of parallel corpora, which could enhance training data for audio processing tasks involving language translation or understanding, potentially benefiting methods in speech synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on filtering noisy parallel sentences from web-mined corpora to improve the quality of training data for Neural Machine Translation (NMT) systems.",
+    "contribution": "This paper introduces heuristic methods to remove noise from parallel corpora to enhance Neural Machine Translation outcomes.",
+    "technical_comparison": {
+        "prior_work": "Previous techniques primarily relied on ranking sentence pairs using multimodal embeddings without adequately addressing noise variability.",
+        "novelty": "This work employs a combination of heuristic filtering strategies that specifically target noise types prevalent in low-resource language pairs."
+    },
+    "key_innovation": "Combines multiple heuristics for noise reduction tailored to specific language characteristics, leading to improved training dataset quality.",
+    "real_world_impact": "Enhances the reliability and effectiveness of neural translation systems for low-resource languages, potentially impacting applications in multilingual communication and technology access.",
+    "limitations": "No",
+    "new_terms": {
+        "Parallel Data Curation": "**Parallel Data Curation** refers to the process of refining parallel corpora to reduce noise and improve quality for machine translation tasks.",
+        "debiasing heuristics": "**Debiasing heuristics** are specific methods designed to counteract biases in data, in this case, to filter out low-quality sentence pairs."
+    },
+    "open_sourcing": ""
+}

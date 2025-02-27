@@ -1,0 +1,19 @@
+{
+    "title": "Evaluating LLMs and Pre-trained Models for Text Summarization Across Diverse Datasets",
+    "author": "Tohida Rehman (Dept. of Information Technology, Jadavpur University), Souvik Bhattacharjee (Dept. of Information Technology, Jadavpur University), Soumabha Ghosh (Dept. of Information Technology, Jadavpur University), Debarshi Kumar Sanyal (School of Mathematical & Computational Sciences, Indian Association for the Cultivation of Science), Kuntal Das (Dept. of Information Technology, Jadavpur University), Samiran Chattopadhyay (Jadavpur University and Techno India University)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The methodologies for evaluating text summarization can be applied to audio-related content generation tasks, particularly where concise information extraction is needed.",
+    "field": "Applications-Language",
+    "background": "Text summarization aims to condense extensive text into brief, coherent summaries, which can also relate to summarizing audio or speech content.",
+    "contribution": "This paper introduces an evaluation framework for pre-trained models BART, FLAN-T5, LLaMA-3-8B, and Gemma-7B across five datasets for text summarization, revealing their comparative strengths and weaknesses.",
+    "technical_comparison": {
+        "prior_work": "Prior works predominantly focused on individual models or limited datasets without comprehensive comparisons.",
+        "novelty": "This study establishes a broader comparative analysis across multiple models and datasets, helping to clarify performance across varying text types."
+    },
+    "key_innovation": "The utilization of multiple established evaluation metrics provides a robust framework for assessing text summarization performance comprehensively.",
+    "real_world_impact": "The findings can assist in improving summarization applications in digital content services, affecting information retrieval and user comprehension positively.",
+    "limitations": "The paper does not extensively address the limitations of hallucinations and repeated information found in some model outputs.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

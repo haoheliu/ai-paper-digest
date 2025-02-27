@@ -1,0 +1,21 @@
+{
+    "title": "Mixture-of-Search-Agents: Enhancing Large Language Models through Multi-Agent Collaboration for Reasoning Tasks",
+    "author": "Sen Yang (The Chinese University of Hong Kong), Yafu Li (The Chinese University of Hong Kong), Wai Lam (The Chinese University of Hong Kong), Yu Cheng (Shanghai AI Laboratory), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The use of multiple agents for reasoning tasks and the exploration of collective expertise could inform collaborative models in audio processing, enhancing tasks such as audio captioning or sound event detection.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper focuses on improving the reasoning capabilities of Large Language Models (LLMs) by utilizing a collaborative approach with multiple agents to tackle complex reasoning tasks.",
+    "contribution": "This paper introduces the Mixture-of-Search-Agents (MOSA) framework to solve reasoning issues encountered by LLMs, achieving improved reasoning accuracy in challenging tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on single models or manual tuning for generating diverse reasoning paths, often getting trapped in local optima.",
+        "novelty": "MOSA leverages multiple LLMs to propose and refine reasoning paths collaboratively, enhancing both exploration diversity and output quality."
+    },
+    "key_innovation": "MOSA uniquely combines independent exploration and collaborative refinement among various LLMs to navigate complex reasoning tasks more effectively.",
+    "real_world_impact": "MOSA has the potential to significantly enhance the performance of reasoning tasks in various applications, including education and automated reasoning systems.",
+    "limitations": "The evaluation is based on specific benchmarks, and the scalability of the method across broader contexts is not yet explored.",
+    "new_terms": {
+        "Mixture-of-Search-Agents (MOSA)": "**MOSA** is a framework that utilizes multiple agents to jointly tackle reasoning tasks by combining their strengths in proposing and refining reasoning pathways."
+    },
+    "open_sourcing": ""
+}

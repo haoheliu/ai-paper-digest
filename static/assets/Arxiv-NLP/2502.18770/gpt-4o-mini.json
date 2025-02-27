@@ -1,0 +1,22 @@
+{
+    "title": "Reward Shaping to Mitigate Reward Hacking in RLHF",
+    "author": "Jiayi Fu (Fudan University), Xuandong Zhao (UC Berkeley), Chengyuan Yao (StepFun), Heng Wang (StepFun), Qi Han (StepFun), Yanghua Xiao (Fudan University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses reward shaping methods crucial for improving reinforcement learning from human feedback (RLHF), which can be applicable in audio and speech processing tasks to enhance models designed for automatic speech recognition and generation.",
+    "field": "Reinforcement Learning-Decision and Control",
+    "background": "This research tackles reward hacking in reinforcement learning, where agents exploit flaws in reward mechanisms to achieve higher scores without improving performance.",
+    "contribution": "This paper introduces Preference As Reward (PAR) to solve reward hacking in reinforcement learning, achieving improved model alignment and robustness during training.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like clipping and rescaling effectively reduced reward hacking but lacked systematic design principles.",
+        "novelty": "The proposed PAR leverages centered rewards using a sigmoid function that ensures rapid learning and stable convergence, differentiating it from existing methods."
+    },
+    "key_innovation": "The method applies a sigmoid function to the difference between proximate rewards and reference rewards, allowing for prompt adjustments that enhance learning dynamics.",
+    "real_world_impact": "PAR's approach has the potential to significantly improve the reliability of language models used in practical applications like virtual assistants and dialogue systems, ensuring they align better with user expectations.",
+    "limitations": "The authors do not explicitly mention any limitations.",
+    "new_terms": {
+        "reward shaping": "**Reward shaping** involves modifying reward signals to effectively guide the learning of agents, mitigating issues like reward hacking.",
+        "centered reward": "**Centered reward** refers to the adjustment of rewards around a reference point to achieve a more stable learning environment."
+    },
+    "open_sourcing": "Code is available at https://github.com/PorUna-byte/PAR"
+}

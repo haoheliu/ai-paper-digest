@@ -1,0 +1,22 @@
+{
+    "title": "Chain of Draft: Thinking Faster by Writing Less",
+    "author": "Silei Xu (Zoom Communications), Wenhao Xie (Zoom Communications), Lingxiao Zhao (Zoom Communications), Pengcheng He (Zoom Communications), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The novel Chain of Draft (CoD) prompting strategy can potentially enhance few-shot reasoning tasks in audio processing by promoting efficient thought representation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper introduces a new approach to reasoning in large language models that focuses on generating concise intermediate outputs, addressing the inefficiency of verbose reasoning typically employed in existing models.",
+    "contribution": "This paper introduces Chain of Draft (CoD) to solve the verbosity issue in reasoning, achieving high accuracy with significantly reduced token usage and latency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, like Chain of Thought (CoT), improved reasoning accuracy but resulted in large token counts, increasing computational costs and latency.",
+        "novelty": "This work improves by providing concise reasoning outputs, utilizing only 7.6% of the tokens used in CoT while maintaining similar accuracy."
+    },
+    "key_innovation": "The technique emphasizes minimalist reasoning, enabling models to generate dense, informative outputs without unnecessary detail.",
+    "real_world_impact": "The reduction in latency and computational cost makes this method practical for real-time applications, enhancing the usability of LLMs in various fields, including education and software development.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Chain of Thought (CoT)": "**Chain of Thought** is a prompting strategy that encourages models to break down problems into verbose, step-by-step reasoning.",
+        "Chain of Draft (CoD)": "**Chain of Draft** is a proposed approach that focuses on generating minimalistic reasoning outputs to facilitate efficient problem-solving in large language models."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding",
+    "author": "Max Ku (University of Waterloo), Thomas Chong (Votee AI), Jonathan Leung (University of Waterloo), Krish Shah (University of Waterloo), Alvin Yu (Votee AI), Wenhu Chen (University of Waterloo)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The integration of multimedia explanations could be applied to my audio generation work by providing visual context and structure that enhances understanding and engagement in audio-visual generation tasks.",
+    "field": "Applications-Creative AI",
+    "background": "This study introduces an agentic model that generates educational theorem-explanation videos, combining visual and auditory components to enhance understanding of complex concepts.",
+    "contribution": "TheoremExplainAgent introduces a multimodal video generation framework to solve the challenge of explaining mathematical theorems effectively, achieving significant improvements in clarity and visualization over traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches generally focused on purely text-based explanations, which lacked the multimodal interaction necessary for deeper comprehension.",
+        "novelty": "This work enhances traditional theorem explanation by integrating dynamic visualizations and structured audio narration, providing a more engaging learning experience."
+    },
+    "key_innovation": "Utilizes an agent-based planning and coding architecture to automate the generation of long-form educational videos that effectively combine visual and auditory information.",
+    "real_world_impact": "This framework could drastically improve educational methods in STEM fields, allowing for more intuitive understanding of complex theories through rich multimedia presentations.",
+    "limitations": "Issues with visual element layout and minor inaccuracies in animations have been noted as areas requiring further improvement.",
+    "new_terms": {
+        "theorem explainability": "**Theorem explainability** refers to the ability to clearly and effectively communicate the reasoning behind mathematical theorems through various means, particularly in a visual format.",
+        "agentic model": "**Agentic model** denotes a system that can autonomously reason and execute tasks based on defined goals and environmental interactions, as seen in complex automation processes."
+    },
+    "open_sourcing": "TheoremExplainBench dataset will be released on Huggingface with MIT license."
+}

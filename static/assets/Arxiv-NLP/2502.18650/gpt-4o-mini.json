@@ -1,0 +1,21 @@
+{
+    "title": "Single- vs. Dual-Prompt Dialogue Generation with LLMs for Job Interviews in Human Resources",
+    "author": "Joachim De Baer (IDLab, Universiteit Gent \u2013 imec, Belgium), A. Seza Dogru\u00f6z (IDLab, Universiteit Gent \u2013 imec, Belgium), Thomas Demeester (IDLab, Universiteit Gent \u2013 imec, Belgium), Chris Develder (IDLab, Universiteit Gent, Belgium)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The dual-prompt strategy and evaluation techniques discussed in this paper can inform methods for generating and assessing audio-visual content in dialog systems, similar to those used in job interviews.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates two methods for generating job interview dialogues using large language models (LLMs), assessing their quality in mimicking human conversation.",
+    "contribution": "This paper introduces a dual-prompt dialogue generation method to solve the problem of generating convincing job interview dialogues, achieving higher quality as determined by LLM evaluations.",
+    "technical_comparison": {
+        "prior_work": "Previous dialogue generation methods typically used a single prompt approach which may not capture the dynamism of real conversations effectively.",
+        "novelty": "The dual-prompt method enhances interaction realism by assigning distinct roles to LLMs, allowing for fluid dialogue construction."
+    },
+    "key_innovation": "Utilizes a dual-agent framework where each agent (interviewer and candidate) has specific prompts, fostering more natural and engaging dialogue exchanges.",
+    "real_world_impact": "Improves the generation of synthetic job interviews, potentially reducing the costs and increasing the efficiency of recruitment processes in HR.",
+    "limitations": "No limitations explicitly mentioned by the authors.",
+    "new_terms": {
+        "duel-prompt": "**Dual-prompt** refers to a dialogue generation method that uses separate prompts for each participant in a conversation, enhancing the interactivity and realism of the generated dialogue."
+    },
+    "open_sourcing": ""
+}

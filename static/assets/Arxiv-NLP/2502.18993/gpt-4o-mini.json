@@ -1,0 +1,21 @@
+{
+    "title": "MEBench: Benchmarking Large Language Models for Cross-Document Multi-Entity Question Answering",
+    "author": "Teng LIN (DSA Thrust, HKUST(GZ)), ..., ACM",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper introduces a structured benchmark, MEBench, designed for assessing large language models in multi-entity question answering, which could inform similar methodological frameworks for audio-related tasks in terms of entity extraction and reasoning.",
+    "field": "General Machine Learning-Unsupervised Learning",
+    "background": "Evaluating the ability of models to answer complex questions that require synthesizing information across multiple documents related to various entities.",
+    "contribution": "This paper introduces MEBench, a benchmark for evaluating large language models on multi-entity question answering, achieving an average accuracy of 59% across state-of-the-art models.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks typically focus on single-document question answering and do not adequately measure the complexities of multi-entity queries across multiple documents.",
+        "novelty": "MEBench systematically categorizes tasks into various reasoning modalities and utilizes a novel Entity-Attributed F1 metric for granular evaluation."
+    },
+    "key_innovation": "Develops an innovative benchmark (MEBench) that systematically assesses the performance of language models in multi-entity question answering across diverse document sources.",
+    "real_world_impact": "MEBench provides a structured evaluation to improve the development of entity-aware models in practical scenarios, promoting advancements in multi-document reasoning tasks.",
+    "limitations": "The paper reports that even the best-performing models achieve only 59% accuracy, indicating substantial room for improvement in handling entity-dense queries.",
+    "new_terms": {
+        "Entity-Attributed F1": "**Entity-Attributed F1** is a metric used to evaluate the accuracy of information extraction tasks, measuring correctness at the entity level and ensuring that the extracted attributes are valid."
+    },
+    "open_sourcing": ""
+}

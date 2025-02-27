@@ -1,0 +1,21 @@
+{
+    "title": "Exploring Patient Data Requirements in Training Effective AI Models for MRI-based Breast Cancer Classification",
+    "author": "Solha Kang (Ghent University Global Campus), Wesley De Neve (Ghent University Global Campus), Francois Rameau (The State University of New York Korea), ..., Utku Ozbulak (Ghent University Global Campus)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methodologies discussed regarding data requirements and sustainability in training AI models could inform similar strategies in audio generation and enhancement tasks.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "The study investigates how many MRI images are necessary for training AI models in breast cancer detection while ensuring competitive accuracy in clinical settings.",
+    "contribution": "This paper introduces the use of foundation models to significantly reduce the amount of training data needed for effective MRI-based breast cancer detection, achieving competitive accuracy with as few as 50 patients.",
+    "technical_comparison": {
+        "prior_work": "Previous methods required extensive datasets, often comprising thousands of images, which limited feasibility for smaller medical institutions.",
+        "novelty": "This work leverages foundation models and demonstrates that high performance can be reached with minimal data, promoting more accessible AI solutions in healthcare."
+    },
+    "key_innovation": "Utilizes foundation models for efficient transfer learning, reducing the dependency on large datasets for training effective AI in medical imaging.",
+    "real_world_impact": "This research could democratize access to AI technologies in healthcare, enabling smaller institutions to implement diagnostic tools more rapidly, ultimately improving patient outcomes.",
+    "limitations": "The findings may be limited to the Duke Breast Cancer Dataset and may not generalize across other imaging modalities or diseases.",
+    "new_terms": {
+        "foundation models": "**Foundation models** are large pretrained models that can be fine-tuned for various specific tasks using smaller datasets, due to their prior training on diverse datasets."
+    },
+    "open_sourcing": ""
+}

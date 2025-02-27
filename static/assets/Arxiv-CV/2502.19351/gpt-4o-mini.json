@@ -1,0 +1,21 @@
+{
+    "title": "Deep Learning-Based Transfer Learning for Classification of Cassava Disease",
+    "author": "Ademir G. Costa Junior (Escola Superior de Tecnologia \u2013 Universidade do Estado do Amazonas), Fabio S. da Silva, Ricardo Rios, ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper's focus on utilizing Convolutional Neural Networks (CNNs) for image classification could be translated to audio classification tasks, particularly in terms of employing transfer learning for feature extraction and pattern recognition in audio data.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Classifying cassava leaf diseases using images by applying advanced deep learning techniques to improve agricultural diagnostics.",
+    "contribution": "This paper introduces a methodology for classifying cassava diseases using four Convolutional Neural Network architectures, demonstrating that EfficientNet-B3 significantly outperforms others with an accuracy of 87.7%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked comprehensive comparisons between various deep learning architectures specifically tailored for agricultural disease classification.",
+        "novelty": "This work provides a detailed performance comparison of CNN architectures on a specific task, demonstrating the effectiveness of EfficientNet-B3 in a real-world agricultural setting."
+    },
+    "key_innovation": "The detailed comparative study among multiple CNN architectures allows for selecting the most efficient model for a specific type of image classification task in agriculture.",
+    "real_world_impact": "Improving the diagnostic capabilities for cassava diseases can enhance agricultural productivity and food security, particularly in regions reliant on cassava as a staple crop.",
+    "limitations": "The study primarily deals with a singular domain (cassava diseases) and might not be broadly applicable to other types of crops without tailored adjustments.",
+    "new_terms": {
+        "Convolutional Neural Network (CNN)": "**Convolutional Neural Network (CNN)** is a class of deep neural networks commonly used to analyze visual data, designed to automatically and adaptively learn spatial hierarchies of features from images."
+    },
+    "open_sourcing": ""
+}

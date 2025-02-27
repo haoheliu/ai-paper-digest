@@ -1,0 +1,21 @@
+{
+    "title": "Deciphering Functions of Neurons in Vision-Language Models",
+    "author": "Jiaqi Xu (University of Science and Technology of China), Cuiling Lan (Microsoft Research Asia), Xuejin Chen (University of Science and Technology of China), Yan Lu (Microsoft Research Asia), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The insights into neuron functions in vision-language models can enhance multimodal integration in Dr. Liu's audio-based projects, particularly in synchronizing audio with visual elements.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "This paper investigates neuron functions in vision-language models to understand how these neurons respond to visual and text data, aiming to improve interpretability and transparency.",
+    "contribution": "This paper introduces a framework to automatically explain individual neuron functions in vision-language models, achieving enhanced interpretability and workflow automation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on automatic explanations for language models but did not adequately address vision-language models' unique challenges.",
+        "novelty": "This work employs neural activation observations combined with a framework utilizing GPT-4o for automated interpretation, specifically tailored to handle both visual and text modalities."
+    },
+    "key_innovation": "Introduces an activation simulator to assess the reliability of neuron function explanations, providing a novel way to understand multimodal interactions.",
+    "real_world_impact": "Enhanced interpretability in vision-language models could foster trust and usability in AI systems, facilitating their application in diverse fields including education and healthcare.",
+    "limitations": "The exploration may be limited by the black-box nature of large language models, making certain interpretations challenging.",
+    "new_terms": {
+        "vision-language models": "**Vision-language models** are AI systems that understand and generate responses based on both visual and textual information, typically used for tasks like image captioning and visual question answering."
+    },
+    "open_sourcing": ""
+}

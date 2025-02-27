@@ -1,0 +1,21 @@
+{
+    "title": "Can Large Language Models Outperform Non-Experts in Poetry Evaluation? A Comparative Study Using the Consensual Assessment Technique",
+    "author": "Piotr Sawicki (University of Kent), Marek Grzes (University of Kent), Dan Brown (University of Waterloo), Fabr\u00edcio G\u00f3es (University of Leicester), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study's exploration of Large Language Models (LLMs) in evaluating poetry is relevant as similar methodologies could potentially be adapted for audio and speech evaluation tasks, leveraging novel insights from creative evaluation.",
+    "field": "Applications-Creative AI",
+    "background": "This study investigates whether Large Language Models can effectively evaluate poetry compared to human non-expert judges using the Consensual Assessment Technique, focusing on aspects like creativity and quality.",
+    "contribution": "This paper introduces a new methodology for evaluating poetry with LLMs, achieving correlations with ground truth that surpass non-expert human evaluations.",
+    "technical_comparison": {
+        "prior_work": "Previous poetry evaluation methods struggled with capturing the nuanced quality of poetic works, often relying on human assessments that can be subjective and inconsistent.",
+        "novelty": "This work applies a systematic approach inspired by the Consensual Assessment Technique that utilizes LLM evaluations to resemble expert-like judgments quantitatively."
+    },
+    "key_innovation": "The innovative use of LLMs for poetry evaluation offers a scalable and consistent method for assessing creative outputs, potentially transforming the creative arts evaluation landscape.",
+    "real_world_impact": "These findings may enhance literary assessments and automatic evaluation systems in publishing, potentially informing editorial decisions and improving content quality.",
+    "limitations": "The study relies on non-expert human judges, which may affect the comparative baseline for LLM performance, and the subjective nature of poetry inherently limits definitive evaluations.",
+    "new_terms": {
+        "Consensual Assessment Technique": "**Consensual Assessment Technique** is a creativity evaluation method that gathers subjective judgments from experts in the relevant field without relying on predefined criteria."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Steered Generation via Gradient Descent on Sparse Features",
+    "author": "Sumanta Bhattacharyya (University of Illinois Chicago), Pedram Rooshenas (University of Illinois Chicago), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The approach of steering output generation through sparse representations and gradient descent could be applicable to latent diffusion models in audio generation, enhancing control over generated audio or textual feedback.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Generating controlled feedback in educational contexts by modifying the cognitive complexity of responses based on a specified style using language models.",
+    "contribution": "This paper introduces a novel mechanism to steer output styles in large language models by utilizing sparse autoencoders and gradient descent, achieving systematic adjustments in cognitive complexity in generated text.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely relied on prompt engineering or in-context learning for controlling output styles, which often do not offer precise control or require extensive conditioning.",
+        "novelty": "This work improves upon prior efforts by leveraging sparse representations learned via autoencoders, allowing for real-time control and more clearly defined transitions between styles."
+    },
+    "key_innovation": "It utilizes sparse autoencoders to enhance interpretability and enable more precise control over the styles of generated text.",
+    "real_world_impact": "The methodology has significant potential implications for educational tools, allowing tailored feedback for students based on their cognitive levels, which could enhance learning outcomes.",
+    "limitations": "No",
+    "new_terms": {
+        "sparse autoencoder": "**Sparse autoencoder** is a type of neural network that learns efficient representations of data by activating only a small number of neurons, promoting high-dimensional feature extraction and interpretability.",
+        "cognitive complexity": "**Cognitive complexity** refers to the depth and nuance of thought required to understand or engage with a task, often categorized into levels to gauge educational content."
+    },
+    "open_sourcing": ""
+}

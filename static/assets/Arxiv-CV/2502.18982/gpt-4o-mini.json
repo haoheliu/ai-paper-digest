@@ -1,0 +1,22 @@
+{
+    "title": "Enhanced Neuromorphic Semantic Segmentation Latency through Stream Event",
+    "author": "Dalia Hareb (Universit\u00e9 C\u00f4te d'Azur, CNRS, I3S), Jean Martinet (Universit\u00e9 C\u00f4te d'Azur), Benoit Miramond (LEAT, Universit\u00e9 C\u00f4te d'Azur), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper discusses neuromorphic computing and event-based processing, which could inform low-latency audio processing tasks, especially in real-time scenarios.",
+    "field": "Applications-Vision",
+    "background": "Semantic segmentation using event-based cameras for applications such as UAVs and self-driving cars, focusing on reducing latency and energy consumption.",
+    "contribution": "This paper introduces a novel method leveraging event streams to enhance semantic segmentation, achieving significant reductions in latency with minimal accuracy loss.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches rely on traditional frame-based image processing, which often struggles with real-time performance and energy efficiency.",
+        "novelty": "This work utilizes Spiking Neural Networks (SNNs) and dynamic processing based on event density to optimize both speed and energy use."
+    },
+    "key_innovation": "The method dynamically adjusts processing based on event stream counts, allowing for efficient segmentation of only significant image areas.",
+    "real_world_impact": "The research provides a practical approach for improving the efficiency of real-time visual perception systems, which is crucial in autonomous vehicles and robotics applications.",
+    "limitations": "The paper does not mention specific limitations but may face challenges in generalization across diverse environments.",
+    "new_terms": {
+        "Spiking Neural Network (SNN)": "**Spiking Neural Network (SNN)** is a type of neural network that more closely mimics biological processes by processing information in the form of spikes, enabling event-driven computations.",
+        "event-based cameras": "**Event-based cameras** are sensors that capture changes in a scene asynchronously, sending data only when significant changes occur rather than capturing frames at fixed intervals."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "An anatomically-informed correspondence initialisation method to improve learning-based registration for radiotherapy",
+    "author": "Edward G. A. Henderson (Division of Cancer Sciences, The University of Manchester), Marcel van Herk (Division of Cancer Sciences, The University of Manchester), Andrew F. Green (European Bioinformatics Institute), Eliana M. Vasquez Osorio (Division of Cancer Sciences, The University of Manchester), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "This paper explores anatomical correspondence for image registration, which could complement audio-visual applications in multimodal learning, particularly in mapping anatomical structures in related sound generation tasks.",
+    "field": "Applications-Healthcare",
+    "background": "Non-rigid registration techniques align medical images from different patients, particularly useful in treatments like radiotherapy where anatomy varies significantly.",
+    "contribution": "This paper introduces an anatomically-informed initialisation method using correspondence modeling to enhance non-rigid registration, achieving reduced mean distance-to-agreement in structural alignment.",
+    "technical_comparison": {
+        "prior_work": "Traditional image registration methods rely on iterative updates and anatomical feature mapping, often being slow and labor-intensive.",
+        "novelty": "The proposed method significantly speeds up registration while improving accuracy, merging anatomical insights with advanced imaging techniques."
+    },
+    "key_innovation": "Combines anatomical correspondence with a thin plate spline deformation model to enhance non-rigid registration methods.",
+    "real_world_impact": "Improves the accuracy and efficiency of aligning medical images, which can lead to better treatment planning and outcomes in radiotherapy. This approach could also influence similar techniques in audio mapping for biomedical applications.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "thin plate spline (TPS)": "**Thin plate spline (TPS)** is a mathematical model used to transform spatial coordinates, allowing flexible and smooth deformations in image registration tasks."
+    },
+    "open_sourcing": ""
+}

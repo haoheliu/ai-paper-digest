@@ -1,0 +1,22 @@
+{
+    "title": "Neural Antidote: Class-Wise Prompt Tuning for Purifying Backdoors in Pre-trained Vision-Language Models",
+    "author": "Jiawei Kong (Harbin Institute of Technology, Shenzhen), Hao Fang (Harbin Institute of Technology, Shenzhen), Sihang Guo, Chenxi Qing, Bin Chen, Bin Wang, Shu-Tao Xia, ..., Harbin Institute of Technology, Shenzhen",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The method's prompt tuning approach and contrastive learning could inform similar strategies in audio generation, specifically for conditioning audio generation models on textual inputs, enhancing multimodal capabilities.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper addresses backdoor vulnerabilities in Vision-Language Models (VLMs) caused by poisoning during training, proposing a method to purify these models and maintain performance on clean data.",
+    "contribution": "This paper introduces Class-wise Backdoor Prompt Tuning (CBPT) to solve backdoor vulnerabilities in Vision-Language Models, achieving significantly reduced attack success rates while retaining model accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like fine-tuning and CleanCLIP attempted to mitigate backdoors by adjusting model parameters but resulted in modest effectiveness and degradation of accuracy.",
+        "novelty": "This work improves defense through a bi-level optimization process that focuses on optimizing class-specific prompts without altering the core model parameters."
+    },
+    "key_innovation": "Utilizes class-wise prompt tuning and contrastive learning to create dummy triggers that guide the model's decision boundary while preserving benign classification performance.",
+    "real_world_impact": "This approach strengthens the robustness of Vision-Language Models against backdoor attacks, which is crucial for their safe deployment in critical applications such as autonomous driving and security systems.",
+    "limitations": "No",
+    "new_terms": {
+        "Class-wise Prompt Tuning": "**Class-wise Prompt Tuning** refers to a technique where each class in a model can have its unique prompt, allowing for tailored context that improves classification and mitigates vulnerabilities.",
+        "Contrastive Learning": "**Contrastive Learning** is a technique used to learn representations by bringing similar instances closer in the feature space while pushing apart dissimilar ones, enhancing model understanding of relationships between data points."
+    },
+    "open_sourcing": ""
+}

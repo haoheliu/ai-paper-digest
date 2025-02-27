@@ -1,0 +1,21 @@
+{
+    "title": "Enhancing Hepatopathy Clinical Trial Efficiency: A Secure, Large Language Model-Powered Pre-Screening Pipeline",
+    "author": "Xiongbin Gui (The First Affiliated Hospital of Guangxi University of Traditional Chinese Medicine), Hanlin Lv (Institute of Biointelligence Technology, BGI Research), Xiao Wang (Institute of Biointelligence Technology, BGI Research), Longting Lv (Institute of Biointelligence Technology, BGI Research), Yi Xiao (The First Affiliated Hospital of Guangxi University of Traditional Chinese Medicine), Lei Wang (Institute of Biointelligence Technology, BGI Research), ..., Lei Wang (Guangdong Bigdata Engineering Technology Research Center for Life Sciences)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The application of large language models (LLMs) for clinical trial efficiency could be leveraged in audio language models and multitask learning within Haohe Liu's research domain.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Automating eligibility screening for hepatopathy clinical trials using advanced reasoning strategies and large language models to enhance patient recruitment.",
+    "contribution": "This paper introduces a pre-screening pipeline that utilizes various reasoning strategies with large language models to improve clinical trial workflows, achieving high precision and efficiency in patient eligibility assessment.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods for patient screening are manual, time-consuming, and prone to error, often lacking accuracy in complex criteria interpretation.",
+        "novelty": "This work combines multiple reasoning pathways (Anthropomorphized Experts' Chain of Thought and Agent-Collaboration) to streamline eligibility criteria evaluation from electronic health records."
+    },
+    "key_innovation": "The unique integration of domain-specific reasoning strategies using open-source large language models enhances clinical trial efficiency without compromising patient data security.",
+    "real_world_impact": "The proposed pipeline may significantly enhance patient recruitment processes in clinical trials for liver diseases, potentially leading to faster and more accurate study outcomes.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "Anthropomorphized Experts' Chain of Thought": "**Anthropomorphized Experts' Chain of Thought** is a method designed to emulate the reasoning processes of expert clinicians by decomposing complex criteria into simpler, manageable questions."
+    },
+    "open_sourcing": ""
+}

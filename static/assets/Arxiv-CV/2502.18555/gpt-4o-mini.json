@@ -1,0 +1,21 @@
+{
+    "title": "Application of Attention Mechanism with Bidirectional Long Short-Term Memory (BiLSTM) and CNN for Human Conflict Detection using Computer Vision",
+    "author": "Erick da Silva Farias (Instituto Federal de Educacao, Ciencia e Tecnologia do Amazonas), Eduardo Palhares Junior (Instituto Federal de Educacao, Ciencia e Tecnologia do Amazonas)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The combination of deep learning techniques like Bidirectional Long Short-Term Memory (BiLSTM) and Attention Mechanism could inform similar frameworks for audio analysis, particularly in detecting and understanding complex behaviors in sound data.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Detecting violent behaviors in surveillance videos by analyzing sequences of images to improve public safety monitoring.",
+    "contribution": "This paper introduces the integration of Convolutional Neural Networks (CNNs), BiLSTM, and Attention Mechanism to enhance the detection of violent human conflicts in video data, achieving improved accuracy in classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely solely on CNNs or traditional video processing techniques, which may lack temporal awareness.",
+        "novelty": "This work enhances conflict detection accuracy by integrating temporal processing through BiLSTM and focusing on relevant features in video sequences via Attention Mechanism."
+    },
+    "key_innovation": "The use of Attention Mechanism allows the model to prioritize important frames in the video sequence, improving classification accuracy.",
+    "real_world_impact": "This research has practical implications for enhancing automated surveillance systems, making them more efficient in real-time detection of violent incidents.",
+    "limitations": "The paper notes challenges in data collection due to a scarcity of high-quality public datasets, which can affect model generalization.",
+    "new_terms": {
+        "Bidirectional Long Short-Term Memory (BiLSTM)": "**Bidirectional Long Short-Term Memory** is a type of recurrent neural network capable of processing data in both forward and backward directions, capturing context from both past and future data points."
+    },
+    "open_sourcing": ""
+}

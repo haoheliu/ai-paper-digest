@@ -1,0 +1,22 @@
+{
+    "title": "Learning Code-Edit Embedding to Model Student Debugging Behavior",
+    "author": "Hasnain Heickal (University of Massachusetts Amherst), Andrew Lan (University of Massachusetts Amherst), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods for learning meaningful code-edit embeddings and analyzing student debugging behavior could inform techniques used in audio processing and generative models, especially in analyzing iterative adjustments in audio generation tasks.",
+    "field": "Applications-Language",
+    "background": "This paper analyzes student submissions in programming to model their debugging behavior through an encoder-decoder framework that learns from historical code edits.",
+    "contribution": "This study introduces an encoder-decoder-based model to learn code-edit embeddings from student programming submissions, effectively capturing debugging behaviors and providing personalized feedback.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches primarily focused on single code submissions for feedback generation, lacking analysis of iterative code modifications.",
+        "novelty": "This work leverages historical submission patterns to generate incremental, personalized suggestions by analyzing the progression of code edits over time."
+    },
+    "key_innovation": "Utilizes contrastive learning to structure code-edit embeddings based on test-case outcomes, enabling a more nuanced understanding of student debugging strategies.",
+    "real_world_impact": "The findings could lead to improved debugging tools in educational contexts, enhancing student engagement and learning outcomes in computer science courses.",
+    "limitations": "The model may generate codes with minor syntactical errors, indicating challenges in producing fully correct suggestions.",
+    "new_terms": {
+        "code-edit embeddings": "**Code-edit embeddings** refer to vector representations that capture changes made between code submissions, helping to assess and generate edits.",
+        "contrastive learning": "**Contrastive learning** is a machine learning technique that learns to differentiate between similar and dissimilar instances through a structured embedding space."
+    },
+    "open_sourcing": ""
+}

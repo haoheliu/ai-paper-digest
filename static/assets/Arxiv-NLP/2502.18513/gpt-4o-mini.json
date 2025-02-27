@@ -1,0 +1,19 @@
+{
+    "title": "Analyzing User Perceptions of Large Language Models (LLMs) on Reddit: Sentiment and Topic Modeling of ChatGPT and DeepSeek Discussions",
+    "author": "Krishnaveni Katta (Florida State University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study provides insights on user sentiment towards Large Language Models (LLMs), which could help understand public reception and areas of concern in generative models, relevant for enhancing user trust and system design in Haohe's work.",
+    "field": "Applications-Language",
+    "background": "This research investigates user sentiment and emerging topics regarding Large Language Models like ChatGPT and DeepSeek by analyzing Reddit discussions to gather insights on user attitudes, concerns, and expectations.",
+    "contribution": "This paper introduces sentiment and topic modeling to comprehend user perceptions of LLMs, leading to a better understanding of public sentiment, trust, and implications for AI development.",
+    "technical_comparison": {
+        "prior_work": "Previous studies on LLMs often focused on technical performance metrics and applications without delving into user perceptions or sentiment analysis.",
+        "novelty": "This work employs diverse sentiment analysis models, including Logistic Regression, Naive Bayes, and VADER, to scrutinize conversations, revealing nuanced user views on trust, bias, and ethical implications."
+    },
+    "key_innovation": "Combines sentiment analysis with topic modeling to assess user attitudes towards LLMs, thereby highlighting public sentiment dynamics.",
+    "real_world_impact": "Understanding user sentiment can assist developers and policymakers in creating AI technologies that align better with public expectations, fostering trust and ethical practices in AI.",
+    "limitations": "The study may be limited by the representativeness of Reddit users and the inherently subjective interpretation of online comments.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

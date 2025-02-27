@@ -1,0 +1,22 @@
+{
+    "title": "BARKXAI: A LIGHTWEIGHT POST-HOC EXPLAIN-ABLE METHOD FOR TREE SPECIES CLASSIFICATION WITH QUANTIFIABLE CONCEPTS",
+    "author": "Yunmei Huang (Purdue University), Zachary Nelson Horve (Purdue University), Songlin Hou (Worcester Polytechnic Institute), Songlin Fei (Purdue University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper's approach to explainable AI (XAI) using quantifiable concepts may be relevant for interpreting audio models or any complex audio-based method as it emphasizes clear and human-understandable explanations, which can be adapted for understanding audio classification tasks.",
+    "field": "Social and Economic Aspects of ML-Interpretability",
+    "background": "Tree species classification using bark images involves identifying different tree species based on visual characteristics of bark textures.",
+    "contribution": "BARKXAI introduces a novel lightweight method to provide human-interpretable explanations for tree species classification models, achieving quantifiable concept insights without heavy computational burdens.",
+    "technical_comparison": {
+        "prior_work": "Prior methods like TCAV and attribution-based XAI approaches struggle to explain texture-dominant images, particularly those without distinct local features.",
+        "novelty": "This work uses parameterized operators to define concepts dynamically rather than relying on pre-collected external datasets, making it more practical and efficient."
+    },
+    "key_innovation": "The method utilizes operators instead of fixed concept images to analyze global visual features, focusing on the intuitive aspects of classification relevant to domain experts.",
+    "real_world_impact": "Enhancing interpretability in tree species classification can lead to better forestry management and conservation efforts by providing clearer insights into model decision processes.",
+    "limitations": "The performance may depend heavily on the design of operators, and the method might require expert knowledge for adaptation across different domains.",
+    "new_terms": {
+        "explainable AI (XAI)": "**Explainable AI (XAI)** refers to techniques and methods in artificial intelligence that aim to make the internal workings of AI systems understandable to humans.",
+        "quantifiable concepts": "**Quantifiable concepts** are measurable features or attributes derived from data, allowing for clearer analysis and interpretation in models."
+    },
+    "open_sourcing": "Source code will be released upon acceptance."
+}

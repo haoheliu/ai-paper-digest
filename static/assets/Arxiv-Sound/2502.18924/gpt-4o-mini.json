@@ -1,0 +1,22 @@
+{
+    "title": "Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis",
+    "author": "Ziyue Jiang (Zhejiang University), Yi Ren (ByteDance), Ruiqi Li (Zhejiang University), Shengpeng Ji (Zhejiang University), Zhenhui Ye (Zhejiang University), Chen Zhang (ByteDance), Bai Jionghao (Zhejiang University), ... Zhou Zhao (Zhejiang University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The proposed S-DiT model introduces a novel approach to text-to-speech synthesis which utilizes sparse alignment and latent diffusion. This could enhance Haohe Liu's work in audio generation and restoration by providing insights into speech synthesis techniques and potentially improving the naturalness and expressiveness of generated audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study addresses the challenge of generating high-quality speech from text, focusing on improving alignment between text and speech signals in zero-shot scenarios.",
+    "contribution": "This paper introduces the Sparse Alignment Enhanced Latent Diffusion Transformer (S-DiT) to solve limitations in traditional text-to-speech models, achieving state-of-the-art synthesis quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on either forced alignments that constrain naturalness or implicit models that lack robustness, resulting in less optimal speech intelligibility.",
+        "novelty": "S-DiT combines the advantages of both approaches without limiting the search space, improving robustness and naturalness in speech outcomes."
+    },
+    "key_innovation": "Integrates a sparse alignment method with a latent diffusion transformer, allowing for better control over speech duration and accent without compromising on quality.",
+    "real_world_impact": "The advancements made with S-DiT could significantly enhance applications such as virtual assistants, audiobooks, and other speech synthesis technologies, leading to more natural-sounding voices. No immediate real-world impact.",
+    "limitations": "No",
+    "new_terms": {
+        "latent diffusion transformer": "**Latent diffusion transformer** is a type of generative model that learns to transform noise into high-fidelity outputs in a latent space, allowing efficient and high-quality generation of complex data like speech.",
+        "sparse alignment": "**Sparse alignment** techniques provide rough but essential mapping between text and speech, allowing for more flexibility in speech generation models compared to traditional methods."
+    },
+    "open_sourcing": "Audio samples are available at https://sditdemo.github.io/sditdemo/"
+}

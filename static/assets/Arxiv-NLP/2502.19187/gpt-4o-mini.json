@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking General Reasoning in Large Language Models with BIG-Bench Extra Hard (BBEH)",
+    "author": "Mehran Kazemi (Google DeepMind), Bahare Fatemi (Google Research), Hritik Bansal (UCLA), John Palowitch (Google DeepMind), Chrysovalantis Anastasiou (Google DeepMind), Sanket Vaibhav Mehta (Google DeepMind), Lalit K. Jain (Google Research), Virginia Aglietti (Google DeepMind), ..., Orhan Firat (Google DeepMind)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper focuses on advanced reasoning capabilities in large language models, which is applicable to few-shot learning in speech and audio tasks where nuanced reasoning is required.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Evaluating large language models on their reasoning abilities across diverse complex tasks to measure general cognitive skills.",
+    "contribution": "This study introduces a new benchmark, BIG-Bench Extra Hard (BBEH), to more accurately evaluate reasoning capabilities in large language models by increasing task difficulty.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks like BIG-Bench Hard (BBH) led to saturation in model performances, making it hard to distinguish differences in reasoning abilities.",
+        "novelty": "BBEH improves on BBH by incorporating tasks that are significantly more challenging and require deeper reasoning skills than those previously established."
+    },
+    "key_innovation": "The benchmark tasks are designed not only to push reasoning capabilities but to target a broader spectrum of reasoning skills, identifying weaknesses in existing models.",
+    "real_world_impact": "By providing a rigorous evaluation of model reasoning, BBEH can guide future developments in AI, potentially leading to better performance in real-world applications like automated reasoning in speech processing and dialogue systems.",
+    "limitations": "While BBEH aims to be comprehensive, the benchmarks may still have biases towards certain reasoning modes due to the reference models used for task construction.",
+    "new_terms": {
+        "multi-hop reasoning": "**Multi-hop reasoning** involves drawing conclusions from multiple pieces of information, potentially requiring the synthesis of data over several steps.",
+        "adversarial benchmark": "**Adversarial benchmark** refers to an evaluation framework designed to challenge models by testing their weaknesses, often created iteratively based on model performance."
+    },
+    "open_sourcing": "BBEH has been publicly released and is available at: https://github.com/google-deepmind/bbeh"
+}

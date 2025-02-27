@@ -1,0 +1,21 @@
+{
+    "title": "IndicEval-XL: Bridging Linguistic Diversity in Code Generation Across Indic Languages",
+    "author": "Ujjwal Singh (Deutsche Telekom Digital Labs), Aditi Sharma (Deutsche Telekom Digital Labs), Nikhil Gupta (Deutsche Telekom Digital Labs), Deepakshi (Deutsche Telekom Digital Labs), Vivek Kumar Jha (Deutsche Telekom Digital Labs), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper focuses on multilingual code generation, which could support audio processing code generation in different languages, helping to enhance accessibility in diverse populations.",
+    "field": "Applications-Language",
+    "background": "The study presents a benchmark for evaluating code generation capabilities of Large Language Models (LLMs) across multiple Indic languages and programming languages.",
+    "contribution": "IndicEval-XL introduces a comprehensive dataset and evaluation benchmark for code generation that encompasses six Indic languages and twelve programming languages, facilitating the assessment of code generation systems in a multilingual context.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks primarily focus on English-centric evaluations, limiting multilingual adaptability.",
+        "novelty": "This work creates a diverse dataset aimed at enhancing the evaluation of code generation models across various languages, thus addressing the fairness and inclusivity issues in AI solutions."
+    },
+    "key_innovation": "The framework integrates natural language prompts in six Indic languages with a diverse set of programming languages, enabling wider accessibility for developers.",
+    "real_world_impact": "This benchmark can significantly enhance inclusivity in coding tools, ensuring that developers from diverse linguistic backgrounds can benefit from AI-powered development resources. However, immediate real-world impact may take time to materialize as adoption spreads.",
+    "limitations": "Sanskrit showed challenges in performance due to limited training resources and data availability.",
+    "new_terms": {
+        "Large Language Models (LLMs)": "These are advanced AI systems capable of understanding and generating human-like text based on the input they receive."
+    },
+    "open_sourcing": "The dataset and evaluation benchmark are publicly available at https://github.com/telekom/IndicEval-XL"
+}

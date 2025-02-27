@@ -1,0 +1,21 @@
+{
+    "title": "LongEval: A Comprehensive Analysis of Long-Text Generation Through a Plan-based Paradigm",
+    "author": "Siwei Wu (University of Manchester), Yizhi Li (University of Manchester), Xingwei Qu (University of Manchester), Rishi Ravikumar (University of Manchester), Yucheng Li (University of Surrey), Tyler Loakman (University of Sheffield), Shanghaoran Quan (Peking University), Xiaoyong Wei (Hong Kong Polytechnic University), ..., Chenghua Lin (University of Manchester)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The exploration of long-text generation methodologies, especially the plan-based approach, can inform and enhance audio-language synchronization tasks, particularly in generating coherent audio narratives or transcripts.",
+    "field": "Applications-Language",
+    "background": "Long-text generation aims to produce extensive and coherent documents, addressing challenges in maintaining content quality and length constraints in generated outputs.",
+    "contribution": "This paper introduces LongEval, a benchmark for assessing long-text generation capabilities of AI models, achieving more structured evaluations compared to prior efforts.",
+    "technical_comparison": {
+        "prior_work": "Prior methods primarily focused on direct text generation without structured planning, often leading to incoherent outputs over extended lengths.",
+        "novelty": "This work incorporates a plan-based generation method, allowing for more coherent and contextually rich long texts, which currently available methods lack."
+    },
+    "key_innovation": "LongEval's dual evaluation paradigm combines both direct and plan-based approaches to more closely mimic human writing practices in long-form content generation.",
+    "real_world_impact": "By improving long-text generation frameworks, this research can significantly enhance applications in automated content creation, summarization, and educational tools, leading to better user experiences in consuming coherent long-form content.",
+    "limitations": "The benchmark primarily examines models in the arXiv domain, limiting the generalizability across diverse writing styles.",
+    "new_terms": {
+        "plan-based generation": "**Plan-based generation** refers to a structured approach where content is produced following a predefined outline or plan, ensuring coherence and thematic continuity throughout the text."
+    },
+    "open_sourcing": "All code and datasets are released in https://github.com/Wusiwei0410/LongEval"
+}

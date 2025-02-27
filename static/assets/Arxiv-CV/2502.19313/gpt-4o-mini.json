@@ -1,0 +1,22 @@
+{
+    "title": "CoopDETR: A Unified Cooperative Perception Framework for 3D Detection via Object Query",
+    "author": "Zhe Wang (Institute for AI Industry Research (AIR), Tsinghua University), Shaocong Xu (Institute for AI Industry Research (AIR), Tsinghua University), Xucai Zhuang (Institute for AI Industry Research (AIR), Tsinghua University), Tongda Xu (Institute for AI Industry Research (AIR), Tsinghua University), Yan Wang (Institute for AI Industry Research (AIR), Tsinghua University), Jingjing Liu (Institute for AI Industry Research (AIR), Tsinghua University), Yilun Chen (Institute for AI Industry Research (AIR), Tsinghua University), Ya-Qin Zhang (Institute for AI Industry Research (AIR), Tsinghua University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The object-level feature cooperation concept introduced in this paper could inform similar strategies in audio-visual integration tasks, especially for generating and locating audio in dynamic environments.",
+    "field": "Applications-Vision",
+    "background": "Cooperative perception enhances the capability of autonomous vehicles by allowing them to share environmental information for improved 3D object detection accuracy.",
+    "contribution": "CoopDETR introduces a novel framework for cooperative perception focusing on object-query level communication among agents to achieve efficient and effective 3D detection.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on either early fusion or late fusion strategies, which either led to high bandwidth costs or significant performance reliance on single agents' accuracies.",
+        "novelty": "This framework reduces transmission costs dramatically (to 1/782) while achieving higher detection accuracy compared to existing intermediate and late fusion methods."
+    },
+    "key_innovation": "Utilizes object queries for communication, facilitating efficient interaction between different agents and preserving critical detection features.",
+    "real_world_impact": "This framework can significantly enhance the safety and reliability of autonomous driving systems through improved cooperative perception capabilities, making real-time 3D detection more feasible.",
+    "limitations": "No",
+    "new_terms": {
+        "cooperative perception": "**Cooperative perception** refers to the ability of multiple agents (e.g., vehicles) to share and integrate their sensory data to achieve a more accurate understanding of their environment.",
+        "object query": "**Object query** is a learned representation that allows the model to focus on specific objects for tasks like detection, enabling improved communication across multiple sensing agents."
+    },
+    "open_sourcing": ""
+}

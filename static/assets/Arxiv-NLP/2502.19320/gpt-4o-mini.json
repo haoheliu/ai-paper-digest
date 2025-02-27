@@ -1,0 +1,19 @@
+{
+    "title": "SHH, DON'T SAY THAT! DOMAIN CERTIFICATION IN LLMS",
+    "author": "Cornelius Emde (University of Oxford), Alasdair Paren (University of Oxford), Preetham Arvind (University of Oxford), Maxime Kayser (University of Oxford), Tom Rainforth (University of Oxford), Thomas Lukasiewicz (Vienna University of Technology), Bernard Ghanem (KAUST), Philip H.S. Torr (University of Oxford), Adel Bibi (University of Oxford)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The framework introduces a method for enforcing domain-restricted responses from large language models that could be applicable in audio-language integration tasks where topic-guided responses are crucial.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "Domain certification aims to ensure that large language models produce outputs strictly within a predefined topic domain, even under adversarial conditions.",
+    "contribution": "This paper introduces a novel framework for domain certification in large language models, achieving robust probabilistic guarantees against out-of-domain responses through the VALID algorithm.",
+    "technical_comparison": "Previous methods typically offered empirical protection against adversarial prompts, lacking rigorous guarantees. This work improves by providing mathematical certification of model behavior.",
+    "key_innovation": "The introduction of the VALID algorithm facilitates rigorous probabilistic bounding of the likelihood of producing out-of-domain content, even in the presence of adversarial attacks.",
+    "real_world_impact": "The proposed framework could significantly enhance the reliability of large language models in sensitive applications such as healthcare, potentially safeguarding against misuse and reputational damage.",
+    "limitations": "The guide model G may lack contextual understanding, potentially leading to inappropriate outputs in certain scenarios.",
+    "new_terms": {
+        "domain certification": "**Domain certification** is a framework providing mathematical guarantees that a model's outputs will remain within a specified knowledge domain under adversarial conditions.",
+        "VALID": "**Verified Adversarial LLM Output via Iterative Dismissal** is the proposed algorithm that implements rejection sampling to achieve domain certification."
+    },
+    "open_sourcing": ""
+}

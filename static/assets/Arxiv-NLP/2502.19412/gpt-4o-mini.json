@@ -1,0 +1,22 @@
+{
+    "title": "The Mighty ToRR: A Benchmark for Table Reasoning and Robustness",
+    "author": "Shir Ashury-Tahan (IBM Research), Yifan Mai (Stanford University), Rajmohan C (IBM Research), Ariel Gera (IBM Research), Yotam Perlitz (IBM Research), Asaf Yehudai (IBM Research), Elron Bandel (IBM Research), Leshem Choshen (IBM Research), ..., Michal Shmueli-Scheuer (IBM Research)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The benchmark presented in this paper can inform better evaluation practices for audio-related tasks that involve tabular data processing and reasoning, particularly in applications like automated audio captioning and audio language modeling.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper introduces a benchmark for assessing large language models' reasoning capabilities when working with tabular data, addressing performance consistency across different formats.",
+    "contribution": "The paper introduces the ToRR benchmark to solve the evaluation challenges faced by large language models on tabular tasks, achieving insights into model robustness across various input formats.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often focused on model performance without evaluating robustness across different table formats and prompt configurations.",
+        "novelty": "This work systematically evaluates models across a wide range of table formats and prompt variations, providing a more reliable estimate of model capabilities."
+    },
+    "key_innovation": "The unique approach of examining multiple prompt configurations significantly improves evaluation reliability in benchmark assessments.",
+    "real_world_impact": "By addressing the robustness in model evaluations, this work sets a foundation for more reliable AI systems in real-world applications involving tabular data, such as financial analysis and healthcare data interpretation.",
+    "limitations": "No.",
+    "new_terms": {
+        "robustness": "**Robustness** refers to the ability of a model to maintain performance stability across different input variations and prompts.",
+        "table serialization": "**Table serialization** is the process of converting tabular data into a specific format that can be inputted into models, such as JSON or CSV."
+    },
+    "open_sourcing": "ToRR leaderboard and complete model inference data are available at the provided links."
+}

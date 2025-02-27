@@ -1,0 +1,22 @@
+{
+    "title": "Scaffolding Empathy: Training Counselors with Simulated Patients and Utterance-level Performance Visualizations",
+    "author": "Ian Steenstra (Northeastern University), Farnaz Nouraei (Northeastern University), Timothy W. Bickmore (Northeastern University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses using large language models to simulate patient interactions, which could enhance training approaches in audio-speech domains by adopting similar techniques for training conversational agents.",
+    "field": "Applications-Speech and Audio",
+    "background": "Training counselors to improve their motivational interviewing skills using a simulated patient that provides real-time feedback based on the counselor's interactions.",
+    "contribution": "This paper introduces a system called SimPatient to solve the challenge of effective counselor training by providing realistic patient simulations and detailed feedback, achieving increased counselor self-efficacy in motivational interviewing techniques.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for counselor training relied heavily on human actors and limited feedback mechanisms, making training costly and infrequent.",
+        "novelty": "This work improves training by using a large language model to offer dynamic, real-time feedback based on simulated patient behavior, making it scalable and always available."
+    },
+    "key_innovation": "Utilizes a multi-agent architecture to create a realistic counseling experience with automated, detailed performance visualizations for skill assessment.",
+    "real_world_impact": "The implementation of such a training system could greatly expand access to effective counselor training, potentially improving counseling outcomes in mental health, particularly in substance misuse treatments.",
+    "limitations": "No specific limitations were mentioned by the authors, though the dependence on language models may introduce biases or inaccuracies in patient behavior simulation.",
+    "new_terms": {
+        "motivational interviewing": "**Motivational interviewing** is a counseling approach aimed at enhancing a person's motivation to change by exploring and resolving ambivalence.",
+        "cognitive model": "**Cognitive model** refers to a theoretical representation that describes the mental processes of an individual, used here to simulate the internal state of the patient."
+    },
+    "open_sourcing": "https://github.com/IanSteenstra/SimPatient"
+}

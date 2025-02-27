@@ -1,0 +1,22 @@
+{
+    "title": "InternVQA: Advancing Compressed Video Quality Assessment with Distilling Large Foundation Model",
+    "author": "Fengbin Guan (University of Science and Technology of China), Zihao Yu (University of Science and Technology of China), Yiting Lu (University of Science and Technology of China), Xin Li B (University of Science and Technology of China), Zhibo Chen B (University of Science and Technology of China)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methodologies developed for video quality assessment, particularly the use of knowledge distillation from a large model, can inform techniques in audio and video integration for generative AI applications.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "This work addresses video quality assessment (VQA) by using a large video foundation model to analyze video compression artifacts, seeking to distill this knowledge into a smaller, efficient model.",
+    "contribution": "InternVQA introduces a distillation method to transfer knowledge from the large model, InternVideo2, to create a lightweight model for efficient video quality assessment, achieving superior performance with reduced resource usage.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on traditional handcrafted features or solely on deep learning models, which often failed to capture complex quality distortions efficiently.",
+        "novelty": "This paper improves existing approaches by leveraging knowledge distillation techniques to enable a smaller model to inherit rich compression quality features from a more powerful foundation model."
+    },
+    "key_innovation": "The novel use of homologous distillation allows the lightweight model to preserve critical feature extraction capabilities while reducing computational requirements.",
+    "real_world_impact": "This research advances practical video compression assessment solutions, which can enhance the quality of streaming services and video content production. Additionally, it sets the stage for further exploration in related multimedia quality assessment domains.",
+    "limitations": "No",
+    "new_terms": {
+        "knowledge distillation": "**Knowledge distillation** is a method in machine learning where a smaller model (student) learns to mimic the outputs and representations of a larger model (teacher) to improve efficiency while retaining performance.",
+        "homologous distillation": "**Homologous distillation** refers to the process of transferring knowledge between models with similar architectures to maintain compatibility in the learned features."
+    },
+    "open_sourcing": ""
+}

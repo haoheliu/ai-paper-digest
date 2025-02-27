@@ -1,0 +1,22 @@
+{
+    "title": "Max360IQ: Blind Omnidirectional Image Quality Assessment with Multi-axis Attention",
+    "author": "Jiebin Yan (School of Information Technology, Jiangxi University of Finance and Economics), Ziwen Tan (School of Information Technology, Jiangxi University of Finance and Economics), Yuming Fang (School of Information Technology, Jiangxi University of Finance and Economics), Jiale Rao (School of Information Technology, Jiangxi University of Finance and Economics), Yifan Zuo (School of Information Technology, Jiangxi University of Finance and Economics), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The methodologies proposed in image quality assessment could inspire new approaches in audio quality assessment, particularly in understanding perceptual features and attention mechanisms.",
+    "field": "Evaluation-Methodology",
+    "background": "Blind image quality assessment (IQA) aims to evaluate the perceptual quality of images without the reference image, especially in omnidirectional images that require specialized methods due to their unique distortion patterns.",
+    "contribution": "This paper introduces Max360IQ to solve the challenges of image quality assessment in omnidirectional images, achieving improved predictive accuracy over previous models like Assessor360.",
+    "technical_comparison": {
+        "prior_work": "Prior models struggled with accurately assessing non-uniform distortion in omnidirectional images, often relying on fixed patch-based approaches.",
+        "novelty": "Max360IQ utilizes multi-axis attention and a deep semantic guidance module, effectively capturing both global degradation and local distortions in a unified framework."
+    },
+    "key_innovation": "The integration of multi-axis attention modules allows for a more nuanced understanding of image distortions by addressing both local and global aspects simultaneously.",
+    "real_world_impact": "This method could enhance applications in virtual reality and gaming by ensuring higher quality of omnidirectional content, contributing to improved user experiences. However, it primarily focuses on image quality with limited immediate implications for audio research.",
+    "limitations": "No",
+    "new_terms": {
+        "Blind Omnidirectional Image Quality Assessment": "**Blind Omnidirectional Image Quality Assessment (BOIQA)** refers to techniques for evaluating the quality of omnidirectional images without using any reference images.",
+        "multi-axis attention": "**Multi-axis attention** is a neural network mechanism that allows the model to focus on multiple dimensions of information simultaneously, facilitating a richer representation of input data."
+    },
+    "open_sourcing": "The source code is available at https://github.com/WenJuing/Max360IQ"
+}

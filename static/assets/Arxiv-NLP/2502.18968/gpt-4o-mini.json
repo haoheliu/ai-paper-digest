@@ -1,0 +1,22 @@
+{
+    "title": "Know You First and Be You Better: Modeling Human-Like User Simulators via Implicit Profiles",
+    "author": "Kuang Wang (The Chinese University of Hong Kong, Shenzhen), Xianfei Li (The Chinese University of Hong Kong, Shenzhen), Shenghao Yang (The Chinese University of Hong Kong, Shenzhen), Li Zhou (The Chinese University of Hong Kong, Shenzhen), Feng Jiang (Shenzhen Research Institute of Big Data), Haizhou Li (The Chinese University of Hong Kong, Shenzhen), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed user simulator could enrich user interaction models in audio applications, particularly in conversational agents that may require more nuanced understanding of user personas and dialogue dynamics.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research develops a framework for user simulation that reconstructs dialogues and infers user characteristics from conversation data, enhancing interactions with dialogue systems.",
+    "contribution": "This paper introduces the User Simulator with Implicit Profiles (USP) to solve the limitations of current user simulators that lack personality and diverse interaction patterns, achieving improved authenticity and dialogue continuity.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on predefined user profiles or solely textual data, limiting their ability to capture dynamic user behaviors.",
+        "novelty": "This work leverages implicit user profiles extracted from dialogues, employing reinforcement learning to enhance profile consistency and user simulation realism."
+    },
+    "key_innovation": "Introduces a dual-training mechanism combining conditional fine-tuning and reinforcement learning to adaptively learn and simulate diverse user personas.",
+    "real_world_impact": "By improving the realism of user interactions in dialogue systems, this framework could enhance the effectiveness of virtual assistants and conversational agents, leading to better user experiences.",
+    "limitations": "The evaluation is primarily conducted on a single dataset, raising questions about the generalizability of the findings across different contexts.",
+    "new_terms": {
+        "implicit profiles": "**Implicit profiles** refer to user characteristics inferred from their interactions rather than explicitly provided information, capturing subtle aspects of behavior and personality.",
+        "reinforcement learning with cycle consistency": "**Reinforcement learning with cycle consistency** is a training method that refines a model's decision-making based on the consistency between simulated behaviors and target user profiles."
+    },
+    "open_sourcing": "All resources will be released at https://github.com/wangkevin02/USP"
+}

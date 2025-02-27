@@ -1,0 +1,22 @@
+{
+    "title": "Exploring Rewriting Approaches for Different Conversational Tasks",
+    "author": "Md Mehrab Tanjim, Ryan A. Rossi, Mike Rimer, Xiang Chen, Sungchul Kim, Vaishnavi Muppala, Tong Yu, Zhengmian Hu, Ritwik Sinha, Wei Zhang, Iftikhar Ahamath Burhanuddin, Franck Dernoncourt, ..., Adobe Research",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses query rewriting in conversational systems, which can enhance dialog systems applied in audio processing and transcription tasks, particularly in improving user interaction quality with AI models that could be relevant to audio-related user inquiries.",
+    "field": "Applications-Language",
+    "background": "The paper investigates the effectiveness of different query rewriting techniques for conversational AI, focusing on enhancing user's questions based on prior interactions.",
+    "contribution": "This paper introduces a framework to evaluate query rewriting and fusion approaches across text-based question-answering and multimodal data analysis tasks, achieving improved performance for each identified use case.",
+    "technical_comparison": {
+        "prior_work": "Traditional query rewriting approaches often use static models that neglect contextual information from previous interactions.",
+        "novelty": "This work improves by a parameterized querying framework that adapatively utilizes past conversation context to optimize query rewriting and fusion techniques."
+    },
+    "key_innovation": "The method combines a query rewriting approach that incorporates both user questions and assistant responses, thereby enriching the context for generating more meaningful queries.",
+    "real_world_impact": "Enhancing dialogue systems can lead to more effective human-computer interactions, particularly in customer service and data analysis applications, improving the overall user experience.",
+    "limitations": "The study may be constrained by the specific conversational contexts they examined, which might not generalize to all potential applications.",
+    "new_terms": {
+        "query rewriting": "**Query rewriting** is the process of reformulating a user's input query into a more explicit or detailed form that improves the ability of AI systems to provide relevant responses.",
+        "query fusion": "**Query fusion** involves combining elements from previous interactions to generate a coherent and contextually enriched query that reflects user's intent throughout the dialogue."
+    },
+    "open_sourcing": ""
+}

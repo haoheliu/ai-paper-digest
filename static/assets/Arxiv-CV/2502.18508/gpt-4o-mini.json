@@ -1,0 +1,19 @@
+{
+    "title": "Inversion-Free Backdoor Defense via Model Reprogramming",
+    "author": "Yukun Chen (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Shuo Shao (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Enhao Huang (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Yiming Li (Nanyang Technological University), Pin-Yu Chen (IBM Research), Zhan Qin (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Kui Ren (State Key Laboratory of Blockchain and Data Security, Zhejiang University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "This paper discusses model reprogramming, which could impart insights into reusing existing models for new tasks, potentially aiding in developing new audio processing techniques.",
+    "field": "General Machine Learning-Unsupervised Learning",
+    "background": "The paper deals with defending deep neural networks against backdoor attacks without requiring knowledge of backdoor triggers, which is significant for ensuring model security in various applications.",
+    "contribution": "This paper introduces a Method called REFINE to solve the backdoor defense problem without inversion, achieving low attack success rates while maintaining model utility.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely on input transformations or trigger inversions that trade off model performance for defense effectiveness.",
+        "novelty": "This work uniquely alters both the input domain and the model's output domain, significantly enhancing defense capabilities."
+    },
+    "key_innovation": "Utilizes a two-module approach that transforms inputs and remaps outputs, thus effectively decoupling backdoor and benign features.",
+    "real_world_impact": "The proposed method could improve the robustness of AI systems against adversarial attacks, broadening their safe deployment in critical applications.",
+    "limitations": "The paper does not mention specific limitations of the proposed method.",
+    "new_terms": {},
+    "open_sourcing": "The code is available at https://github.com/WhitolfChen/REFINE."
+}

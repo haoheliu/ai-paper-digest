@@ -1,0 +1,21 @@
+{
+    "title": "A Comprehensive Survey on Composed Image Retrieval",
+    "author": "Xuemeng Song (Shandong University), Haoqiang Lin (Shandong University), Haokun Wen (Harbin Institute of Technology, Shenzhen), Bohan Hou (Shandong University), Mingzhu Xu (Shandong University), Liqiang Nie (Harbin Institute of Technology, Shenzhen), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "This survey covers modern multimodal retrieval techniques which could inspire novel ways to integrate audio and visual elements, especially regarding models that are adaptable for tasks involving audio manipulation based on visual cues.",
+    "field": "General Machine Learning-Supervised Learning",
+    "background": "Composed Image Retrieval (CIR) involves searching for images based on a reference image combined with a textual modification request.",
+    "contribution": "The paper introduces a structured review of over 120 publications on CIR to provide an organized framework and insights that could be valuable for future research directions.",
+    "technical_comparison": {
+        "prior_work": "Previous literature on image retrieval generally focused on unimodal queries, making it difficult for users to express nuanced search intents.",
+        "novelty": "This work expands on traditional retrieval methods by enabling the use of multimodal queries (combined visual and textual inputs) to better capture user intent and improve retrieval accuracy."
+    },
+    "key_innovation": "The research proposes a comprehensive taxonomy of CIR methodologies and aligns related tasks, providing a holistic overview that can foster innovation in retrieval techniques.",
+    "real_world_impact": "The findings can lead to advancements in areas such as e-commerce and content generation, improving user experiences in visually-driven search applications.",
+    "limitations": "The survey does not provide empirical evaluations of the discussed methods and largely synthesizes existing literature without new experimental results.",
+    "new_terms": {
+        "composed image retrieval": "**Composed Image Retrieval** refers to the task of retrieving images using a query that consists of a reference image combined with a textual description of desirable changes."
+    },
+    "open_sourcing": ""
+}

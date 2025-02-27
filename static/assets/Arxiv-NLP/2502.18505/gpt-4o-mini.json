@@ -1,0 +1,22 @@
+{
+    "title": "Comprehensive Analysis of Transparency and Accessibility of ChatGPT, DeepSeek, and other SoTA Large Language Models",
+    "author": "Ranjan Sapkota (Cornell University), Shaina Razab (Vector Institute), Manoj Karkee (Washington State University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "This study evaluates transparency and accessibility standards of large language models, crucial for ensuring reproducibility and ethical AI use, which is relevant to my research on generative models in the audio domain.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This paper analyzes the transparency practices of various large language models, focusing on their openness and accessibility within the artificial intelligence community.",
+    "contribution": "The paper introduces a framework to assess the openness of large language models, revealing discrepancies between those labeled as open-source and those merely providing open weights, highlighting implications for reproducibility in AI research.",
+    "technical_comparison": {
+        "prior_work": "Previous analyses of transparency in AI lacked systematic comparisons across models and did not distinguish between open-source and open-weight categorizations effectively.",
+        "novelty": "This work provides a detailed comparative evaluation of over 100 large language models, framing transparency in AI through a multi-faceted lens."
+    },
+    "key_innovation": "The integration of established definitions with empirical data allows for a nuanced understanding of openness in AI models.",
+    "real_world_impact": "The findings promote responsible AI practices, encouraging developers to disclose more information about their models, enhancing accountability within AI applications.",
+    "limitations": "No explicit limitations were mentioned by the author.",
+    "new_terms": {
+        "open-washing": "**Open-washing** refers to the practice of misrepresenting proprietary technology as open-source to create a facade of transparency without fully disclosing key components.",
+        "Mixture-of-Experts (MoE)": "**Mixture-of-Experts** is an architecture that uses a combination of multiple models, where each is responsible for a specific part of the input, aimed at improving efficiency and scalability."
+    },
+    "open_sourcing": ""
+}

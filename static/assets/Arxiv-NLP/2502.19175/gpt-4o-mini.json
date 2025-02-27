@@ -1,0 +1,22 @@
+{
+    "title": "MEDDxAgent: A Unified Modular Agent Framework for Explainable Automatic Differential Diagnosis",
+    "author": "Daniel Rose (University of California, Santa Barbara), Chia-Chien Hung (NEC Laboratories Europe), Marco Lepri (NEC Laboratories Europe), Israa Alqassem (NEC Laboratories Europe), Kiril Gashteovski (NEC Laboratories Europe), Carolin Lawrence (NEC Laboratories Europe), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The framework's modular approach to handling differential diagnosis can be adapted to audio and speech analysis, particularly in scenarios requiring iterative refinement and context-aware reasoning.",
+    "field": "Applications-Healthcare",
+    "background": "Differential diagnosis involves systematically identifying potential diseases based on incomplete patient information through iterative questioning and knowledge retrieval.",
+    "contribution": "MEDDxAgent introduces a modular framework for interactive differential diagnosis, enhancing diagnostic accuracy through iterative learning and knowledge integration.",
+    "technical_comparison": {
+        "prior_work": "Traditional models often assume complete patient profiles and operate in a single-turn manner, limiting their effectiveness in real-world scenarios.",
+        "novelty": "This work enhances the diagnostic process by allowing agents to interactively refine and update diagnostic hypotheses through a structured dialogue with patients."
+    },
+    "key_innovation": "The integration of a history-taking simulator with specialized agents for knowledge retrieval and diagnostic strategy creates an adaptative and explainable decision-making process.",
+    "real_world_impact": "The modular approach can be applied to improve diagnostic accuracy in clinical settings, potentially leading to better patient outcomes through more thorough risk assessment and disease identification.",
+    "limitations": "The paper acknowledges dependence on specific large language models, which may not generalize across all architectures.",
+    "new_terms": {
+        "differential diagnosis": "**Differential diagnosis** is the systematic evaluation of potential diseases based on symptoms and medical history to narrow down the most likely condition.",
+        "iterative learning": "**Iterative learning** refers to the process of refining knowledge and decisions through repeated cycles of information gathering and reasoning."
+    },
+    "open_sourcing": ""
+}

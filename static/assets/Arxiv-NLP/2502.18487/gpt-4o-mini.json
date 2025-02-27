@@ -1,0 +1,21 @@
+{
+    "title": "AuPair: Golden Example Pairs for Code Repair",
+    "author": "Aditi Mavalankar (Google DeepMind), Hassan Mansoor (Google DeepMind), Zita Marinho (Google DeepMind), Masha Samsikova (Google DeepMind), Tom Schaul (Google DeepMind), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The method enhances the code repair process, which can be advantageous for improving automated audio coding frameworks and perhaps facilitate debugging in audio-related machine learning tasks.",
+    "field": "Applications-Creative AI",
+    "background": "This research focuses on improving the performance of Large Language Models (LLMs) in code repair by utilizing examples of incorrect guesses and their respective fixes to produce better solutions.",
+    "contribution": "AuPair introduces an inference-time algorithm that constructs a golden set of code repair examples, boosting performance significantly when used as in-context examples.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like best-of- and self-repair improve responses through repetitive sampling or intermediate feedback but may lack diversity.",
+        "novelty": "This work synthesizes and selects complementary example pairs (AuPairs) to enhance the self-repair capability of LLMs without repetitive querying."
+    },
+    "key_innovation": "AuPair leverages a submodular selection process to produce diverse and useful fixes, maximizing performance gains across different coding problems.",
+    "real_world_impact": "The method potentially streamlines code repair tasks across various domains, which could be adapted to automated debugging in audio processing systems.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "AuPair": "**AuPair** refers to a pair of an initial flawed code guess and a corresponding correct fix, specifically curated to enhance the self-repair capabilities of language models in coding tasks."
+    },
+    "open_sourcing": ""
+}

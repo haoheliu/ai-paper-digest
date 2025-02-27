@@ -1,0 +1,22 @@
+{
+    "title": "EndoMamba: An Efficient Foundation Model for Endoscopic Videos via Hierarchical Pre-training",
+    "author": "Qingyao Tian (State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences), Huai Liao (Dept. of Radiology, The First Affiliated Hospital, Sun Yat-sen University), Xinyan Huang (Dept. of Radiology, The First Affiliated Hospital, Sun Yat-sen University), Bingyu Yang (State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences), Dongdong Lei (Centre for Artificial Intelligence and Robotics, Chinese Academy of Sciences), Sebastien Ourselin (School of Engineering and Imaging Sciences, King's College London), Hongbin Liu (State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on efficient video processing methodologies and hierarchical pre-training could inform techniques in audio-visual coherence and context-aware audio generation, benefiting tasks like video captioning and sound event detection.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "This research addresses tasks in endoscopic video analysis, which require extracting spatiotemporal information efficiently to assist in minimally invasive surgeries.",
+    "contribution": "EndoMamba introduces an efficient backbone for endoscopic video analysis that leverages hierarchical pre-training, achieving substantial improvements in classification and segmentation tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with computational inefficiencies during online inference and limited data for training.",
+        "novelty": "This work integrates Bidirectional Mamba blocks for spatial context and vanilla Mamba blocks for temporal dependencies, allowing real-time inference with high accuracy."
+    },
+    "key_innovation": "The combination of bidirectional and causal processing in a single framework uniquely enhances spatiotemporal modeling for video analysis.",
+    "real_world_impact": "This model facilitates real-time application in surgeries, potentially improving outcomes through enhanced monitoring and analysis during procedures.",
+    "limitations": "No",
+    "new_terms": {
+        "spatiotemporal modeling": "**Spatiotemporal modeling** refers to methods that take both spatial and temporal factors into account to analyze dynamic processes in videos.",
+        "Bidirectional Mamba blocks": "**Bidirectional Mamba blocks** are components that process sequential data from both past and future contexts, improving the understanding of spatial relationships in frames."
+    },
+    "open_sourcing": "The source code will be released upon acceptance."
+}

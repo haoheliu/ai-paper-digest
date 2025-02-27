@@ -1,0 +1,21 @@
+{
+    "title": "Adversarial Universal Stickers: Universal Perturbation Attacks on Traffic Sign using Stickers",
+    "author": "Anthony Etim (Yale University), Jakub Szefer (Northwestern University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The exploration of universal perturbations through simple stickers could inform developing low-cost adversarial examples in audio-based systems, particularly in detection and classification tasks.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The study investigates the use of universal perturbations in adversarial attacks against deep learning models used for traffic sign classification, demonstrating the impact of simple black and white adversarial stickers.",
+    "contribution": "This paper introduces universal adversarial stickers that can mislead traffic sign recognition systems across multiple sign types, achieving misclassification with high confidence scores.",
+    "technical_comparison": {
+        "prior_work": "Existing adversarial attacks typically require specific perturbations for individual images, limiting practical applications.",
+        "novelty": "This work improves upon prior methods by offering a universal approach where the same perturbation can be applied to various signs at a consistent location."
+    },
+    "key_innovation": "Implementing a straightforward design of black and white stickers that can be universally misapplied to traffic signs, significantly lowering the technical barriers for attackers.",
+    "real_world_impact": "This research highlights the potential risks posed by simple adversarial stickers, urging the need for robust detection methods in autonomous driving technology to prevent unsafe conditions.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "universal perturbation": "**Universal perturbation** refers to an input-agnostic perturbation that can fool a model across various inputs, unlike traditional adversarial examples which are typically unique to individual inputs."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Automatic Prompt Optimization via Heuristic Search: A Survey",
+    "author": "Wendi Cui (Intuit), Jiaxin Zhang (Intuit AI Research), Zhuohang Li (Vanderbilt University), Hao Sun (University of Cambridge), Damien Lopez (Intuit), Kamalika Das (Intuit AI Research), Bradley Malin (Vanderbilt University Medical Center), ..., Sricharan Kumar (Intuit AI Research)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper provides a comprehensive overview of automatic prompt optimization methods which could inform improved techniques in speech and audio tasks through better prompting.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "This survey focuses on methods that systematically optimize prompts used to interact with Large Language Models, reducing the reliance on manual, trial-and-error prompt engineering.",
+    "contribution": "This paper introduces a taxonomy of heuristic-based search algorithms for automatic prompt optimization, achieving a structured understanding of various optimization methods.",
+    "technical_comparison": {
+        "prior_work": "Previous studies primarily relied on manual prompt engineering, lacking systematic approaches for prompt refinement.",
+        "novelty": "This work offers a comprehensive framework categorizing optimization methods based on various dimensions, enhancing the understanding of automatic approaches."
+    },
+    "key_innovation": "Develops a structured taxonomy for automatic prompt optimization which allows for systematic evaluation and comparison of different methods.",
+    "real_world_impact": "By improving the efficiency of prompt design for Large Language Models, this survey supports broader applications in AI systems, enhancing their usability and effectiveness.",
+    "limitations": "The focus is solely on instruction-focused prompt optimization, omitting other potentially relevant research areas like in-context learning.",
+    "new_terms": {
+        "prompt engineering": "**Prompt engineering** involves designing and refining input prompts to improve the performance of language models.",
+        "heuristic search": "**Heuristic search** refers to problem-solving methods that use practical techniques to find adequate solutions more efficiently than classic methods."
+    },
+    "open_sourcing": "The corresponding GitHub repository for this paper is available at https://github.com/jxzhangjhu/Awesome-LLM-Prompt-Optimization."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance",
+    "author": "Xueqing Peng (The Fin AI USA), Polydoros Giannouris (The University of Manchester), Lingfei Qian (The Fin AI USA), Triantafillos Papadopoulos (Athens University of Economics and Business), Ruoyu Xiang (The Fin AI USA), Jimin Huang (The Fin AI USA), Sophia Ananiadou (The University of Manchester), Efstathia Soufleri (Archimedes/Athena RC), Yan Wang (The Fin AI USA), Qianqian Xie (The Fin AI USA)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This work develops a dedicated Greek financial benchmark and fine-tunes a model on Greek financial tasks, which could be beneficial for similar adaptations in audio or speech contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing performance benchmarks and models for financial natural language processing (NLP) tasks specific to the Greek language, addressing unique linguistic challenges in finance.",
+    "contribution": "Plutus-ben introduces a comprehensive Greek financial benchmark and Plutus-8B, a financial large language model, achieving state-of-the-art performance on Greek financial NLP tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing models generally focused on high-resource languages and lacked specialized benchmarks for Greek financial tasks, which remain unexplored.",
+        "novelty": "This work provides the first targeted Greek financial datasets and benchmarks, fine-tuning models specifically for Greek financial language understanding."
+    },
+    "key_innovation": "Combining specialized financial datasets and adapting large language models through fine-tuning on Greek financial contexts distinguishes this research.",
+    "real_world_impact": "Improves efficiency in Greek financial analysis and regulatory compliance, which can greatly benefit stakeholders involved in Greek financial markets.",
+    "limitations": "Further improvements in understanding complex financial documents are needed, particularly in summarization tasks.",
+    "new_terms": {
+        "Plutus-ben": "**Plutus-ben** is the first Greek financial evaluation benchmark designed to systematically assess large language models in the Greek financial domain.",
+        "Plutus-8B": "**Plutus-8B** is the first large language model specifically fine-tuned for Greek financial tasks, enhancing performance in this niche field."
+    },
+    "open_sourcing": "Plutus-ben and Plutus-8B have been publicly released along with associated datasets for research dissemination."
+}

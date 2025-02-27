@@ -1,0 +1,22 @@
+{
+    "title": "Sherlock: Towards Multi-scene Video Abnormal Event Extraction and Localization via a Global-local Spatial-sensitive LLM",
+    "author": "Junxiao Ma (Soochow University), Jingjing Wang (Soochow University), Jiamin Luo (Soochow University), Peiying Yu (Soochow University), Guodong Zhou (Soochow University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a novel approach for extracting structured information from video data, which could inspire similar methodologies for audio data analysis or enhance current audio captioning models.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The task involves extracting and localizing abnormal events in videos, including aspects like what the event is, when it occurs, and where it takes place.",
+    "contribution": "This paper introduces Sherlock, a Global-local Spatial-sensitive Large Language Model (LLM) to solve the challenge of video anomaly detection with structured outputs, achieving significant improvements over existing models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on general anomaly detection without considering the detailed spatial or contextual information of events.",
+        "novelty": "This work enhances video anomaly detection by employing a mixture of experts approach tailored for both local and global spatial information."
+    },
+    "key_innovation": "Utilizes a Global-local Spatial-enhanced Mixture of Experts module for effective modeling and balancing of spatial information in videos.",
+    "real_world_impact": "This approach can improve real-time monitoring systems for security and emergency response, enabling quicker identification and processing of abnormal events.",
+    "limitations": "No",
+    "new_terms": {
+        "Mixture of Experts": "**Mixture of Experts (MoE)** is a model architecture that uses multiple expert models to solve different aspects of a problem, dynamically selecting experts based on the input.",
+        "Spatial Imbalance Regulator": "**Spatial Imbalance Regulator (SIR)** is a mechanism designed to achieve a balanced representation of various spatial information elements, preventing overfitting to more frequently occurring types."
+    },
+    "open_sourcing": ""
+}

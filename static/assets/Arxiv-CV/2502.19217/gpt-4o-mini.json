@@ -1,0 +1,21 @@
+{
+    "title": "A Lightweight and Extensible Cell Segmentation and Classification Model for Whole Slide Images",
+    "author": "Nikita Shvetsov (Department of Computer Science, UiT The Arctic University of Norway), Thomas K. Kilvaer (Department of Oncology, University Hospital of North Norway), Masoud Tafavvoghi (Department of Community Medicine, UiT The Arctic University of Norway), Anders Sildnes (Department of Computer Science, UiT The Arctic University of Norway), Kajsa M\u00f8llersen (Department of Community Medicine, UiT The Arctic University of Norway), Lill-Tove Rasmussen Busund (Department of Medical Biology, UiT The Arctic University of Norway), Lars Ailo Bongo (Department of Computer Science, UiT The Arctic University of Norway), ..., Nikita Shvetsov (Department of Computer Science, UiT The Arctic University of Norway)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methodology for cell segmentation and classification using foundation models may inspire novel approaches in audio modeling tasks, particularly for feature extraction and classification using similar hierarchical representations.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This research addresses the challenge of accurately segmenting and classifying cell types in digital pathology images, particularly whole slide images, to improve diagnostics.",
+    "contribution": "This paper introduces a lightweight and extensible model for cell segmentation and classification, achieved through refining dataset labels, utilizing foundation models, and optimizing model size without loss of performance.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches relied heavily on convolutional neural networks (CNNs) which struggled with feature generalization across tissue types and required extensive computational resources.",
+        "novelty": "This work integrates a foundation model to enhance feature representation while employing knowledge distillation to create a smaller, efficient model suitable for practical deployments."
+    },
+    "key_innovation": "The fusion of refined dataset annotations with a foundation model as an encoder allows for simultaneous segmentation and classification with improved performance and lower resource requirements.",
+    "real_world_impact": "The integration of this model into digital pathology workflows could enhance diagnostic accuracy and reduce workloads for pathologists, potentially leading to better patient outcomes.",
+    "limitations": "No explicit limitations were stated regarding the model's performance on certain rare cell types.",
+    "new_terms": {
+        "knowledge distillation": "**Knowledge distillation** is a model compression technique where a smaller, specialized model (student) learns from a larger, more complex model (teacher) to retain performance while being more efficient."
+    },
+    "open_sourcing": "The model is integrated into QuPath, an open-source digital pathology platform."
+}

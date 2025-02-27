@@ -1,0 +1,22 @@
+{
+    "title": "FreeTumor: Large-Scale Generative Tumor Synthesis in Computed Tomography Images for Improving Tumor Recognition",
+    "author": "Linshan Wu (The Hong Kong University of Science and Technology), Jiaxin Zhuang (The Hong Kong University of Science and Technology), Yanning Zhou (Tencent AI Lab), Sunan He (The Hong Kong University of Science and Technology), Jiabo Ma (The Hong Kong University of Science and Technology), Luyang Luo (The Hong Kong University of Science and Technology), Xi Wang (The Chinese University of Hong Kong), ..., Hao Chen (The Hong Kong University of Science and Technology)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods developed in FreeTumor for synthetic tumor generation can be applied to various artificial intelligence tasks, including those in audio processing where data scarcity is a concern.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Generates synthetic tumor images to augment limited annotated datasets, thereby enhancing the performance of AI models for tumor recognition in medical imaging.",
+    "contribution": "FreeTumor introduces a generative adversarial network framework for large-scale tumor synthesis to solve the problem of scarce annotated data, achieving significant improvements in tumor detection performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely utilized handcrafted techniques or depended heavily on labeled datasets, which limited their effectiveness.",
+        "novelty": "This work improves by leveraging both labeled and unlabeled data through adversarial training, allowing for synthesis of high-quality tumors without additional annotations."
+    },
+    "key_innovation": "A unique integration of large-scale unlabeled data in conjunction with limited annotated data for generating realistic synthetic tumors, which enhances AI model training.",
+    "real_world_impact": "This research has the potential to significantly improve tumor detection in clinical settings, which could lead to better patient outcomes and higher survival rates by enabling earlier intervention.",
+    "limitations": "While the Turing Test evaluation shows promising results, it indicates room for improvement in the realism of synthetic tumors, particularly in distinguishing features.",
+    "new_terms": {
+        "Generative Adversarial Networks": "**Generative Adversarial Networks (GANs)** are a class of machine learning frameworks in which two neural networks contest with each other, allowing for the creation of new data instances that mimic a given dataset.",
+        "Visual Turing Test": "**Visual Turing Test** is a qualitative evaluation method whereby human experts assess whether synthetic images can be distinguished from real images."
+    },
+    "open_sourcing": ""
+}

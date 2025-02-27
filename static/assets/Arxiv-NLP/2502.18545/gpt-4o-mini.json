@@ -1,0 +1,22 @@
+{
+    "title": "PII-Bench: Evaluating Query-Aware Privacy Protection Systems",
+    "author": "Hao Shen (Institute of Fintech, Fudan University), Zhouhong Gu (Shanghai Key Laboratory of Data Science, Fudan University), Haokai Hong (Institute of Fintech, Fudan University), Weili Han (Laboratory of Data Analytics and Security, Fudan University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper introduces a novel masking strategy for personally identifiable information (PII), which can improve privacy protection mechanisms in audio and text generation tasks. Haohe Liu's work on audio generation could benefit from enhanced privacy techniques.",
+    "field": "Applications-Privacy",
+    "background": "The paper constructs a benchmark for evaluating how effectively large language models (LLMs) mask PII while maintaining functionality relevant to user queries.",
+    "contribution": "This work introduces the PII-Bench evaluation framework and a query-unrelated PII masking strategy to solve the challenge of preserving privacy in user interactions with LLMs, achieving a significant dataset of 2,842 samples across 55 PII categories.",
+    "technical_comparison": {
+        "prior_work": "Previous research on PII detection typically focuses on basic identification without considering query relevance.",
+        "novelty": "This framework incorporates query-awareness, allowing models to distinguish between necessary and unnecessary PII in user prompts."
+    },
+    "key_innovation": "Develops an automated dataset generation process for privacy evaluation that includes human verification to ensure quality.",
+    "real_world_impact": "The proposed strategies help improve privacy in applications utilizing LLMs, making them more secure for real-world usage involving sensitive data.",
+    "limitations": "The dataset may require expansion into specialized fields like healthcare to improve robustness.",
+    "new_terms": {
+        "query-unrelated PII masking": "**Query-unrelated PII masking** refers to the practice of masking only those pieces of personally identifiable information that are not relevant to a user\u2019s specific query, thereby balancing privacy with the utility of services.",
+        "PII-Bench": "**PII-Bench** is an evaluation framework designed to assess the effectiveness of privacy protection systems, specifically in the context of large language models."
+    },
+    "open_sourcing": ""
+}

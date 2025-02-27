@@ -1,0 +1,21 @@
+{
+    "title": "TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding",
+    "author": "Max Ku (University of Waterloo), Thomas Chong (Votee AI), Jonathan Leung (University of Waterloo), Krish Shah (University of Waterloo), Alvin Yu (Votee AI), Wenhu Chen (University of Waterloo), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores generative models for visual explanations in theorem understanding, which can inform methods for multimodal data synthesis in audio processing tasks, enhancing interpretability and teaching tools.",
+    "field": "Applications-Creative AI",
+    "background": "This study addresses the need for AI systems to explain complex theorems effectively through video, integrating text and visuals to enhance understanding.",
+    "contribution": "The paper introduces TheoremExplainAgent, a generative AI framework capable of creating explanatory videos for theorems, achieving success in producing long-form content that incorporates visual and audio elements.",
+    "technical_comparison": {
+        "prior_work": "Previous models predominantly focused on text-based reasoning and lacked structured visual explanation capabilities.",
+        "novelty": "This work improves by integrating a planning agent and a coding agent to generate comprehensive explanation videos, demonstrating enhanced explanatory power through visual elements."
+    },
+    "key_innovation": "The use of multiple specialized agents to autonomously generate high-quality, long-form explanatory videos that combine textual and visual narratives.",
+    "real_world_impact": "This approach could improve educational tools in STEM fields by facilitating better understanding of complex concepts, potentially transforming how students learn mathematics and science.",
+    "limitations": "The video quality and layout of visual elements remain issues, with minor inaccuracies observed during evaluations.",
+    "new_terms": {
+        "TheoremExplainAgent": "**TheoremExplainAgent** is a novel AI system designed to generate explanatory videos for complex mathematical theorems, leveraging both language and visual modeling for better understanding."
+    },
+    "open_sourcing": "TheoremExplainBench will be released on Huggingface dataset with MIT licence."
+}

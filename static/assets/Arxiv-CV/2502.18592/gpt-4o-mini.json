@@ -1,0 +1,22 @@
+{
+    "title": "DeBUGCN - Detecting Backdoors in CNNs Using Graph Convolutional Networks",
+    "author": "Akash Vartak (University of Maryland Baltimore County), Khondoker Murad Hossain (University of Maryland Baltimore County), Tim Oates (University of Maryland Baltimore County), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The use of Graph Convolutional Networks (GCNs) for detecting trojaned models can be adapted for more efficient detection systems in audio and speech processing.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "Detecting malicious backdoor attacks embedded in deep learning models without direct access to the training data.",
+    "contribution": "DeBUGCN introduces a novel GCN-based pipeline to identify backdoored Convolutional Neural Networks (CNNs), achieving high accuracy in detection.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on tensor decompositions, which can lose structural information regarding data flow in networks.",
+        "novelty": "This work represents CNNs as graphs, allowing for accurate and fast detection of trojans using structural and relational data."
+    },
+    "key_innovation": "Utilizes the structural representation of neural networks as graphs to enable message passing for effective trojan detection.",
+    "real_world_impact": "This method has significant implications for securing deep learning models in critical applications like autonomous driving and facial recognition, potentially reducing risks from malicious attacks.",
+    "limitations": "The paper acknowledges that DeBUGCN cannot guarantee immunity against all adaptive attacks since attackers may design specific strategies to evade detection.",
+    "new_terms": {
+        "Backdoor Attack": "**A backdoor attack** is a form of malicious manipulation where an adversary embeds hidden triggers in a model's training data to manipulate its output.",
+        "Graph Convolutional Networks (GCNs)": "**Graph Convolutional Networks (GCNs)** are neural networks that operate on graph-structured data, enabling the incorporation of relational information for tasks like node classification."
+    },
+    "open_sourcing": "All code necessary to reproduce the results can be made available upon publication."
+}

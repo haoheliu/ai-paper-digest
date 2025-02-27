@@ -1,0 +1,22 @@
+{
+    "title": "QueryAdapter: Rapid Adaptation of Vision-Language Models in Response to Natural Language Queries",
+    "author": "Nicolas Harvey Chapman (Queensland University of Technology), Feras Dayoub (University of Adelaide), Will Browne (Queensland University of Technology), Christopher Lehnert (Queensland University of Technology), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The methods developed for object retrieval in response to natural language queries can be applicable for enhancing audio-linguistic tasks, especially in developing multimodal systems that incorporate audio representations.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "Developing a framework that allows robots to adapt their vision-language models rapidly in response to unanticipated natural language instructions without requiring predefined classes.",
+    "contribution": "This paper introduces QueryAdapter to solve the problem of rapid adaptation of Vision-Language Models (VLMs) to dynamic environments, achieving significant improvements in object retrieval performance for natural language tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing methods require the definition of a closed set of classes for adaptation, limiting flexibility for diverse robotic applications.",
+        "novelty": "This work enables open-vocabulary object detection by using past unlabelled data and learns negative classes from object captions, allowing for more precise model adjustments on-the-fly."
+    },
+    "key_innovation": "The use of object captions as negative labels during adaptation improves confidence scores for object retrieval and helps manage unrelated data efficiently.",
+    "real_world_impact": "The rapid adaptation capabilities of QueryAdapter can improve robots\u2019 effectiveness in diverse environments, allowing them to follow complex commands and enhance human-robot interaction.",
+    "limitations": "The adaptation process can still be limited by the quality of unlabelled data and the selection of negative classes.",
+    "new_terms": {
+        "Vision-Language Model (VLM)": "**Vision-Language Models (VLMs)** combine visual data (images) and textual data to perform tasks such as object detection and understanding based on natural language inputs.",
+        "open-vocabulary object detection": "**Open-vocabulary object detection** refers to the ability to recognize and categorize objects that are not explicitly defined or trained for by the model before deployment."
+    },
+    "open_sourcing": ""
+}

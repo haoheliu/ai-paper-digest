@@ -1,0 +1,19 @@
+{
+    "title": "Evidence-Driven Marker Extraction for Social Media Suicide Risk Detection",
+    "author": "Carter Adams (Federal University of Bahia), Caleb Carter (Federal University of Bahia), Jackson Simmons (Federal University of Bahia), ... , Haohe Liu (University of Surrey)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The method for clinical marker extraction and risk assessment may inspire new ways to analyze audio generated from textual data, potentially improving the intersection of audio and language processing.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "The study focuses on identifying suicide risk indicators in social media text using advanced language models to automate the detection and extraction of relevant clinical markers.",
+    "contribution": "This paper introduces an Evidence-Driven Large Language Model (ED-LLM) for clinical marker extraction and suicide risk classification, achieving improved interpretability and efficiency in risk assessment from social media content.",
+    "technical_comparison": "Previous methods using Large Language Models (LLMs) mainly focused on classification without explicit evidence extraction or interpretability. This work improves by introducing a multi-task learning framework that extracts clinical markers while assessing risk levels.",
+    "key_innovation": "The ED-LLM explicitly identifies clinical markers in the text, providing clear justifications for suicide risk assessments that enhance clinicians' trust in automated systems.",
+    "real_world_impact": "The approach offers a promising framework for enhancing clinical decision-making in mental health, enabling timely interventions based on social media monitoring.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Evidence-Driven Large Language Model (ED-LLM)": "**ED-LLM** is a novel model that integrates evidence extraction from text to enhance the interpretability of automated risk assessments in mental health contexts.",
+        "multi-task learning": "**Multi-task learning** is an approach where multiple tasks are learned simultaneously, allowing the model to leverage information shared between them to improve overall performance."
+    },
+    "open_sourcing": ""
+}

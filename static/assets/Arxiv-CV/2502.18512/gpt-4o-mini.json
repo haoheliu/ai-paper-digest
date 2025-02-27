@@ -1,0 +1,22 @@
+{
+    "title": "FCoT-VL: Advancing Text-oriented Large Vision-Language Models with Efficient Visual Token Compression",
+    "author": "Jianjian Li (University of Science and Technology of China), Junquan Fan (University of Science and Technology of China), Feng Tang (Huawei Noah's Ark Lab), Gang Huang (Huawei Noah's Ark Lab), Shitao Zhu (Huawei Noah's Ark Lab), Songlin Liu (Huawei Noah's Ark Lab), Nian Xie (Huawei Noah's Ark Lab), Yong Liao (University of Science and Technology of China)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "This paper discusses visual token compression for vision-language models, which could inspire compression strategies for audio-based models dealing with large datasets.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper addresses the challenge of reducing visual tokens in high-resolution text-oriented tasks, aiming to improve computational efficiency while maintaining performance.",
+    "contribution": "FCoT-VL introduces a self-distillation framework to compress visual tokens in vision-language models, achieving significantly reduced computational overhead while enhancing performance across benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked effective strategies for visual token compression without degrading performance on text-oriented tasks.",
+        "novelty": "This work employs a light-weight self-distillation strategy with minimal learnable parameters and a high-quality post-training stage, contrasting with existing token pruning methods that result in significant performance drops."
+    },
+    "key_innovation": "The framework uses a two-stage training process, combining self-distillation of visual token knowledge and advanced post-training techniques to optimize model efficiency.",
+    "real_world_impact": "The proposed framework aims to make high-resolution vision-language applications feasible for resource-limited environments, enhancing efficiency and scalability in real-world deployments.",
+    "limitations": "The authors acknowledge that their approach may not extend effectively to other image modalities outside the text-oriented tasks.",
+    "new_terms": {
+        "self-distillation": "**Self-distillation** refers to a technique where a model learns from itself, improving its performance by transferring knowledge between different configurations (teacher-student) of the same architecture.",
+        "visual token compression": "**Visual token compression** involves reducing the number of visual representations processed by a model without sacrificing the quality of the information extracted."
+    },
+    "open_sourcing": ""
+}

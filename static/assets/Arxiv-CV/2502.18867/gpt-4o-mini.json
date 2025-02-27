@@ -1,0 +1,21 @@
+{
+    "title": "Enhanced Transformer-Based Tracking for Skiing Events: Overcoming Multi-Camera Challenges, Scale Variations and Rapid Motion - SkiTB Visual Tracking Challenge 2025",
+    "author": "Akhil Penta (Tredence Analytics), Vaibhav Adwani (Tredence Analytics), Ankush Chopra (Tredence Analytics), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed adaptive tracking strategies could inform improvements in audio-visual processing tasks, especially in scenarios requiring real-time object tracking amidst complex environments.",
+    "field": "Applications-Vision",
+    "background": "Tracking skiers across multiple cameras while managing occlusions, scale variations, and rapid motion to ensure accurate performance analysis.",
+    "contribution": "This paper introduces adaptations to a transformer-based model for tracking skiers effectively in challenging multi-camera settings, achieving improved robustness against tracking errors.",
+    "technical_comparison": {
+        "prior_work": "Traditional tracking algorithms struggle with rapid motion and occlusions, leading to inaccuracies in multi-camera environments.",
+        "novelty": "This work enhances tracking robustness through dynamic search factors and incremental template updates, allowing for better adaptation to changes in appearance and scene context."
+    },
+    "key_innovation": "The implementation of a reattempt mechanism that dynamically adjusts the search area based on confidence score and object size, significantly improving target recovery during uncertain frames.",
+    "real_world_impact": "The proposed model can aid in performance analysis and injury prevention in alpine sports, showcasing its practical application in tracking skiers. This work may also inspire similar approaches in other dynamic environments.",
+    "limitations": "Performance degrades in scenarios with multiple skiers, leading to identity confusion.",
+    "new_terms": {
+        "Incremental Template Update (ITU)": "**Incremental Template Update (ITU)** refers to a strategy where the model updates its tracking template based on confidence scores rather than at fixed intervals, enhancing adaptability to changes in object appearance."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "MathClean: A Benchmark for Synthetic Mathematical Data Cleaning",
+    "author": "Hao Liang (Peking University), Zefeng He (Nanjing University), Meiyi Qiang (Beijing Institute of Technology), Yongzhen Guo (Ant Group), Wentao Zhang (Peking University), Bin Cui (Peking University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The evaluation of synthetic mathematical data quality and error detection can inform the development of more robust algorithms for audio and speech processing, particularly in generating data-driven models.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a benchmark for cleaning synthetic mathematical questions and answers through rigorous evaluation and error-type classification.",
+    "contribution": "MathClean introduces a dataset of 4,000 mathematical problems to systematically assess data correctness, achieving enhanced methods for error detection and classification.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks focus primarily on traditional mathematical reasoning without detailed error analysis.",
+        "novelty": "This work emphasizes error-type classification alongside correctness detection, providing diverse error types and human-annotated examples."
+    },
+    "key_innovation": "Develops a benchmark that not only assesses correctness but also categorizes errors, thus offering deeper insights into the weaknesses of current models.",
+    "real_world_impact": "The findings can lead to improved algorithms for synthetic data generation in various domains, enhancing machine learning models' effectiveness in reasoning tasks.",
+    "limitations": "The performance of state-of-the-art models on this benchmark remains suboptimal, indicating room for further improvement.",
+    "new_terms": {
+        "synthetic mathematical data": "**Synthetic mathematical data** refers to artificially created mathematical problems and solutions aimed at training machine learning models.",
+        "error-type classification": "**Error-type classification** is the process of categorizing the kinds of errors present in a dataset, such as logic errors or computational errors."
+    },
+    "open_sourcing": "Code and data are available at https://github.com/YuYingLi0/MathClean."
+}

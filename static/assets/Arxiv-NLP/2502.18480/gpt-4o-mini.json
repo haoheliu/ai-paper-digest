@@ -1,0 +1,22 @@
+{
+    "title": "QExplorer: Large Language Model Based Query Extraction for Toxic Content Exploration",
+    "author": "Shaola Ren (Alibaba Group), Li Ke (Alibaba Group), Longtao Huang (Alibaba Group), Dehong Gao (Northwestern Polytechnical University), Hui Xue (Alibaba Group), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The method improves content safety through effective query generation for toxic content, which could be applicable in refining audio-related content moderation systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automatic query extraction for identifying toxic content in user-generated media and text on platforms like social media and e-commerce.",
+    "contribution": "QExplorer introduces a two-stage training framework utilizing Large Language Models (LLMs) for automatic query extraction, enhancing the detection of toxic content.",
+    "technical_comparison": {
+        "prior_work": "Traditional keyword extraction methods often rely on heuristics or manual query crafting, leading to inefficiencies in identifying nuanced toxic content.",
+        "novelty": "This research improves by leveraging instruction Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO) to make LLMs more effective and context-aware in query extraction."
+    },
+    "key_innovation": "The integration of LLMs with user feedback to continuously adapt and refine query generation, which is crucial in exploring disguised toxic content.",
+    "real_world_impact": "The deployment of QExplorer has shown significant improvements in toxic item detection on commercial platforms, fostering a healthier online environment.",
+    "limitations": "The preference alignment relies heavily on the quality of user feedback, which may not always be comprehensive.",
+    "new_terms": {
+        "Large Language Models (LLMs)": "**Large Language Models (LLMs)** are advanced models capable of understanding and generating human-like text, trained on vast amounts of data.",
+        "Direct Preference Optimization (DPO)": "**Direct Preference Optimization (DPO)** is a technique for aligning model outputs with user preferences by optimizing under defined preference criteria."
+    },
+    "open_sourcing": ""
+}

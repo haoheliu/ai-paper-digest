@@ -1,0 +1,22 @@
+{
+    "title": "FilterRAG: Zero-Shot Informed Retrieval-Augmented Generation to Mitigate Hallucinations in VQA",
+    "author": "S M Sarwar (University of Maryland, Baltimore County), ...,",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "This paper presents a method to mitigate hallucinations in Visual Question Answering (VQA), a concept that may be applicable in audio-visual tasks or integrating external knowledge in audio processing contexts.",
+    "field": "Applications-Vision",
+    "background": "Visual Question Answering (VQA) combines image analysis and natural language processing to produce accurate answers to questions about visual content, often requiring external knowledge.",
+    "contribution": "This paper introduces FilterRAG to solve hallucinations in VQA by integrating external knowledge sources, achieving improved robustness in both in-domain and out-of-distribution settings.",
+    "technical_comparison": {
+        "prior_work": "Previous VQA methods like ViLBERT often produce incorrect answers when relying solely on internal knowledge.",
+        "novelty": "This work enhances the accuracy by combining Retrieval-Augmented Generation with BLIP-VQA, utilizing external knowledge from sources like Wikipedia and DBpedia to ground answers."
+    },
+    "key_innovation": "Effectively integrates dynamic knowledge retrieval into the VQA process to ensure contextually accurate responses.",
+    "real_world_impact": "This method holds potential for improved deployment of VQA systems in real-world scenarios where external knowledge is crucial, enhancing user interaction and comprehension.",
+    "limitations": "No explicit limitations were mentioned in the paper.",
+    "new_terms": {
+        "Retrieval-Augmented Generation": "**Retrieval-Augmented Generation** refers to approaches that combine information retrieval from external sources with generative models to create informed responses.",
+        "out-of-distribution (OOD)": "**Out-of-distribution (OOD)** refers to inputs or scenarios that fall outside the training dataset distribution, posing challenges for model performance."
+    },
+    "open_sourcing": ""
+}

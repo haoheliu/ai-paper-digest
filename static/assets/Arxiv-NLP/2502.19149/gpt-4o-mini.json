@@ -1,0 +1,21 @@
+{
+    "title": "Isolating Language-Coding from Problem-Solving: Benchmarking LLMs with PseudoEval",
+    "author": "Jiarong Wu (The Hong Kong University of Science and Technology), Songqiang Chen (The Hong Kong University of Science and Technology), Jialun Cao (The Hong Kong University of Science and Technology), Hau Ching Lo (The Hong Kong University of Science and Technology), Shing-Chi Cheung (The Hong Kong University of Science and Technology), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper investigates the dual capabilities required for code generation in LLMs, linking problem-solving with language coding, which aligns with my interest in enhancing audio processing tasks through effective problem formulation and solution generation.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The challenge of code generation involves transforming problem descriptions into executable code, while effectively analyzing the distinct roles of problem-solving and language implementation.",
+    "contribution": "This study introduces PSEUDOEVAL, a multilingual code generation benchmark that uses pseudocode to isolate and evaluate the problem-solving and language-coding capabilities of large language models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods evaluated code generation generally without distinguishing between understanding the problem and implementing the solution in code.",
+        "novelty": "By integrating pseudocode into the evaluation process, this work allows for a clearer assessment of LLM capabilities, revealing distinct bottlenecks in problem-solving versus language-coding across different programming languages."
+    },
+    "key_innovation": "The innovative aspect lies in the structured approach to disambiguate problem-solving from language-specific coding skills, enabling a more actionable analysis of LLM performance.",
+    "real_world_impact": "This framework could significantly advance the development of LLMs for practical programming tasks, with potential implications in automated coding assistants, education, and software development.",
+    "limitations": "The paper does not address the impact of pseudocode quality beyond automatic extraction and does not explore cases in non-algorithmic programming domains.",
+    "new_terms": {
+        "PSEUDOEVAL": "**PSEUDOEVAL** is a benchmarking framework that evaluates large language models by supplying them with pseudocode solutions to isolate their problem-solving from coding accuracy."
+    },
+    "open_sourcing": "PSEUDOEVAL is available at: https://anonymous.4open.science/r/PseudocodeACL25-7B74/"
+}

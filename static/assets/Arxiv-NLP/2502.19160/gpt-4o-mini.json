@@ -1,0 +1,22 @@
+{
+    "title": "Detecting and Quantifying Linguistic Indicators of Stereotypes in Language Using Large Language Models",
+    "author": "Rebekka G\u00f6rge (Fraunhofer IAIS & Lamarr, Germany), Michael Mock (Fraunhofer IAIS, Germany), H\u00e9ctor Allende-Cid (Fraunhofer IAIS & Lamarr, Germany), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "This paper presents a novel method for quantifying stereotypes which could enhance Haohe Liu's research in audio processing, particularly in voice synthesis and generation where linguistic biases may affect the quality of generated content.",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "The task involves detecting linguistic indicators that reveal stereotypes in sentences to mitigate bias in AI models.",
+    "contribution": "This paper introduces a framework for automatic stereotype detection that leverages Large Language Models (LLMs) to classify and quantify linguistic indicators, achieving a comprehensive scoring function for stereotype strength.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically rely on human annotations and simple binary classification approaches for stereotypes, lacking precision and depth.",
+        "novelty": "This work automates detection using LLMs with an in-context learning approach and provides a detailed scoring function based on linguistic feature analysis."
+    },
+    "key_innovation": "The unique approach combines sociolinguistic theory with advanced machine learning techniques for quantifying stereotypes automatically.",
+    "real_world_impact": "If implemented in AI systems, this could lead to fairer outputs in applications like text generation and speech synthesis, potentially reducing bias-related issues in various industries.",
+    "limitations": "The method primarily relies on a single dataset, which may not generalize well across different languages or cultural contexts.",
+    "new_terms": {
+        "Social Category and Stereotype Communication (SCSC) framework": "**SCSC framework** is a sociolinguistic model that explains how stereotypes are maintained and communicated through linguistic biases.",
+        "in-context learning": "**In-context learning** refers to the method where models are prompted with examples and instructions during inference without additional training to perform specific tasks."
+    },
+    "open_sourcing": ""
+}

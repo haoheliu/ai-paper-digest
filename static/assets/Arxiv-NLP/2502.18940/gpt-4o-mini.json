@@ -1,0 +1,22 @@
+{
+    "title": "MathTutorBench: A Benchmark for Measuring Open-ended Pedagogical Capabilities of LLM Tutors",
+    "author": "Jakub Macina (ETH Zurich), Nico Daheim (ETH Zurich), Ido Hakimi (ETH Zurich), Manu Kapur (ETH Zurich), Iryna Gurevych (TU Darmstadt), Mrinmaya Sachan (ETH Zurich), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The benchmarking of pedagogical capabilities in tutoring models can inform and improve the development of models that can be applied in audio and speech domains, particularly in adaptive audio tutoring systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "The benchmark evaluates the pedagogical qualities of Large Language Models (LLMs) in math tutoring, focusing on their ability to provide meaningful instructions and feedback to learners.",
+    "contribution": "MathTutorBench introduces a holistic benchmarking system for LLMs to assess their tutoring capabilities in mathematics, demonstrating the importance of balancing subject expertise and pedagogical skills.",
+    "technical_comparison": {
+        "prior_work": "Previous models primarily assessed tutoring performance through simple metrics like word overlap and correctness, failing to capture nuanced pedagogical techniques.",
+        "novelty": "This work introduces a comprehensive approach using reward models to evaluate both the correctness and pedagogical effectiveness of tutor responses beyond mere accuracy."
+    },
+    "key_innovation": "Employs a structured reward model that rates the quality of tutoring interactions based on defined pedagogical principles rather than just factual correctness.",
+    "real_world_impact": "This benchmark can enable rapid development and evaluation of more effective tutoring systems in educational technology, potentially leading to improved learning outcomes.",
+    "limitations": "The focus on math tutoring limits the applicability and insights to multi-step problems in other subjects or domains.",
+    "new_terms": {
+        "reward model": "**Reward model** refers to a predictive model that assigns scores to outputs based on desired criteria, thereby guiding and improving the performance of generative systems.",
+        "pedagogical scaffolding": "**Pedagogical scaffolding** involves instructional techniques that support students in achieving learning goals, often by guiding them through problem-solving processes without directly giving answers."
+    },
+    "open_sourcing": "The benchmark, code, and leaderboard are publicly available at https://github.com/eth-lre/mathtutorbench."
+}

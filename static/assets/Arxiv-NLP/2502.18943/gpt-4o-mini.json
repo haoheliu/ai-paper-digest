@@ -1,0 +1,19 @@
+{
+    "title": "Towards Label-Only Membership Inference Attack against Pre-trained Large Language Models",
+    "author": "Yu He (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Boheng Li (College of Computing and Data Science, Nanyang Technological University), Liu Liu (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Zhongjie Ba (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Wei Dong (College of Computing and Data Science, Nanyang Technological University), Yiming Li (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Zhan Qin (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Kui Ren (State Key Laboratory of Blockchain and Data Security, Zhejiang University), Chun Chen (State Key Laboratory of Blockchain and Data Security, Zhejiang University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed label-only membership inference attacks could enrich the security aspects of generative models, which is relevant for protecting audio data, especially in applications where data privacy is critical.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The task involves determining whether a data sample was included in the training set of a pre-trained Large Language Model (LLM) without accessing the full output probabilities.",
+    "contribution": "This paper introduces PETAL, a label-only membership inference attack, to address the vulnerabilities of LLMs, achieving competitive performance compared to traditional logit-based attacks.",
+    "technical_comparison": "Previous methods of membership inference largely relied on access to full logits, making them impractical for many real-world applications. This work improves by approximating output probabilities through token-level semantic similarity, enabling effective membership inference without full logit access.",
+    "key_innovation": "The approach leverages token-level semantic similarities to infer probabilities and thus membership, making it feasible in scenarios where traditional methods fail.",
+    "real_world_impact": "The findings highlight significant privacy risks in deploying LLMs, prompting the need for better defenses against data exposure. This could inform future safeguards in generative audio applications.",
+    "limitations": "The authors acknowledge potential differences between the surrogate model and the target model, which may introduce errors in approximating probabilities.",
+    "new_terms": {
+        "membership inference attacks": "**Membership inference attacks** are techniques used to determine whether a particular data point was part of the training dataset of a machine learning model.",
+        "perplexity": "**Perplexity** is a measurement of how well a probability distribution or probability model predicts a sample, commonly used in language modeling."
+    },
+    "open_sourcing": "Code is available at https://zenodo.org/records/14725819"
+}

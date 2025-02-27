@@ -1,0 +1,22 @@
+{
+    "title": "MixLLM: Dynamic Routing in Mixed Large Language Models",
+    "author": "Xinyuan Wang (Arizona State University), Yanchi Liu (NEC Labs America), Wei Cheng (NEC Labs America), Xujiang Zhao (NEC Labs America), Zhengzhang Chen (NEC Labs America), Wenchao Yu (NEC Labs America), Yanjie Fu (Arizona State University), Haifeng Chen (NEC Labs America)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a novel routing framework that could enhance the adaptability and efficiency of audio-related models by optimizing processing based on query attributes, applicable in audio tasks that require language understanding.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The study addresses the challenge of selecting the most appropriate large language model for a given query in a streaming context to balance response quality, cost, and latency.",
+    "contribution": "MixLLM introduces a dynamic contextual-bandit-based routing system for optimizing LLM selection to achieve better balance between response quality, cost, and latency, achieving performance comparable to GPT-4 at significantly reduced cost.",
+    "technical_comparison": {
+        "prior_work": "Previous methods either utilized static non-predictive routing or lacked mechanisms to incorporate latency and continual learning, leading to inefficiencies.",
+        "novelty": "This work integrates query tag-enhanced embeddings, LLM-specific predictions, and a decision-making framework that dynamically adapts to system constraints and user feedback."
+    },
+    "key_innovation": "MixLLM's unique mechanism combines dynamic decision-making, continual learning, and specialized embedding techniques to optimize query handling across multiple large language models.",
+    "real_world_impact": "The framework has potential applications in various domains, enhancing efficiency in language processing tasks, particularly where resource optimization is essential. No immediate real-world impact, as it requires further validation in practical settings.",
+    "limitations": "The model assumes access to refined feedback for training, which may not be readily available in practice. It may also struggle with queries from entirely new or unseen domains.",
+    "new_terms": {
+        "contextual-bandit": "**Contextual-bandit** methods are a type of reinforcement learning applicable in scenarios where a model must make decisions with uncertain rewards based on context.",
+        "latency": "**Latency** refers to the delay before a transfer of data begins following an instruction for its transfer, critical in real-time systems."
+    },
+    "open_sourcing": ""
+}

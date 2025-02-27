@@ -1,0 +1,22 @@
+{
+    "title": "Deep learning and classical computer vision techniques in medical image analysis: Case studies on brain MRI tissue segmentation, lung CT COPD registration, and skin lesion classification.",
+    "author": "Daniel Tweneboah Anyimadua (University of Exeter), Taofik Ahmed Suleiman (Georgia Institute of Technology and Emory University), Mohammad Imran Hossain (Sorbonne Universit\u00e9), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "This paper discusses image segmentation and classification methods that could inform approaches in audio analysis when resolving similar tasks across different modalities, potentially applying learned techniques for feature extraction and modeling.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This study contrasts deep learning and classical techniques in medical image analysis to improve tasks such as tissue segmentation, image registration, and skin lesion classification using various methodologies and datasets.",
+    "contribution": "This paper introduces an extensive evaluation of both classical and deep learning methods for medical imaging tasks, achieving notable segmentation and classification accuracies across different modalities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often focused solely on either classical or deep learning approaches without comprehensive comparisons across tasks.",
+        "novelty": "This work contrasts various methodologies directly, showcasing how deep learning can outperform classical methods in specific tasks while also emphasizing the utility of classical approaches in certain contexts."
+    },
+    "key_innovation": "Integration of diverse approaches provides a more holistic understanding of how different methodologies can be utilized effectively across medical imaging tasks.",
+    "real_world_impact": "The findings can enhance diagnostic accuracy and treatment planning in healthcare, making the study relevant for clinical applications.",
+    "limitations": "The paper suggests some limitations inherent in class imbalance and dataset biases but does not explicitly detail other limitations.",
+    "new_terms": {
+        "Dice Coefficient": "**Dice Coefficient** is a statistical measure used to gauge the similarity between two samples, often employed to assess the accuracy of segmentation tasks in medical imaging.",
+        "Target Registration Error": "**Target Registration Error** is a metric used to evaluate the accuracy of image registration, specifically measuring the distance between corresponding points after alignment."
+    },
+    "open_sourcing": "Links to source code available on request."
+}

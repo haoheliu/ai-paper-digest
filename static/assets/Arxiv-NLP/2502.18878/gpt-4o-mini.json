@@ -1,0 +1,22 @@
+{
+    "title": "Learning to Generate Structured Output with Schema Reinforcement Learning",
+    "author": "Yaxi Lu (Tsinghua University), Haolun Li (Tsinghua University), Xin Cong (Tsinghua University), Zhong Zhang (Tsinghua University), Yesai Wu (Tsinghua University), Yankai Lin (Renmin University of China), Zhiyuan Liu (Tsinghua University), Fangming Liu (Peng Cheng Laboratory), Maosong Sun (Tsinghua University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses reinforcement learning techniques for enhancing model performance in generating structured data like JSON. As Haohe Liu's work includes audio and text manipulation tasks, techniques from this work could be adapted for enhancing structured data generation in audio applications.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Generating valid JSON structures from complex schemas requires advanced language models capable of reasoning about the relationships and constraints within the data.",
+    "contribution": "This paper introduces SchemaBench to evaluate structured output generation capabilities, achieving a new benchmark performance through reinforcement learning methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on simple prompting or constrained generation methods, which often led to incomplete or incorrect outputs.",
+        "novelty": "This work integrates reinforcement learning with a fine-grained schema validator to guide models in generating valid structured output more effectively."
+    },
+    "key_innovation": "Introduces the concept of Thoughts of Structure (ToS) during model training, which encourages deeper reasoning when generating JSON outputs.",
+    "real_world_impact": "Improved structured output generation can enhance applications in software development, web APIs, and automated data integration, enabling smoother interactions between language models and programming environments.",
+    "limitations": "The paper highlights the ongoing struggle of models with complex JSON schemas, indicating a need for further refinement.",
+    "new_terms": {
+        "SchemaBench": "**SchemaBench** refers to a benchmark framework designed to evaluate models' capabilities in generating valid JSON strings based on diverse schemas.",
+        "Thoughts of Structure (ToS)": "**Thoughts of Structure (ToS)** is a concept where the model reflects on the structure prior to generating output, facilitating better navigation through complex schemas."
+    },
+    "open_sourcing": "The code and data are available at https://github.com/thunlp/SchemaReinforcementLearning"
+}

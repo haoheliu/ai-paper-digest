@@ -1,0 +1,21 @@
+{
+    "title": "Improving customer service with automatic topic detection in user emails",
+    "author": "Bojana Ba\u0161aragin (The Institute for Artificial Intelligence Research and Development of Serbia), Darija Medvecki (The Institute for Artificial Intelligence Research and Development of Serbia), Gorana Goji\u0107 (The Institute for Artificial Intelligence Research and Development of Serbia), Milena Oparnica (The Institute for Artificial Intelligence Research and Development of Serbia), Dragi\u0161a Mi\u0161kovi\u0107 (The Institute for Artificial Intelligence Research and Development of Serbia), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper discusses automatic email topic detection using Natural Language Processing (NLP), which could inform similar applications in audio or speech data categorization.",
+    "field": "Applications-Language",
+    "background": "This study involves automated classification of customer emails into predefined topics using a natural language processing pipeline.",
+    "contribution": "This paper introduces a novel Natural Language Processing pipeline to solve the challenge of manual email categorization in customer service, achieving efficient topic detection and labeling.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically required significant manual intervention and often lacked scalability in processing large volumes of texts.",
+        "novelty": "This work utilizes the BERTopic architecture for unsupervised topic modeling, reducing the need for extensive pre-training and offering a more flexible solution for language-rich yet low-resource settings."
+    },
+    "key_innovation": "The integration of an unsupervised learning architecture to dynamically process and categorize email content, allowing for quick adaptation to diverse input.",
+    "real_world_impact": "It significantly enhances the efficiency of customer service operations by automating email sorting, enabling faster response times and better resource allocation.",
+    "limitations": "The model struggles with longer emails and multi-topic detection, as it currently only assigns one primary topic per email.",
+    "new_terms": {
+        "BERTopic": "**BERTopic** is a flexible topic modeling technique that uses embeddings to cluster similar documents and extract relevant themes from them."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Are All Spanish Doctors Male? Evaluating Gender Bias in German Machine Translation",
+    "author": "Michelle Kappl (Technische Universit\u00e4t Berlin)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper addresses gender bias in machine translation systems, which can inform bias assessments and fairness in AI models used in audio and speech applications.",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "Evaluating bias in machine translation involves analyzing how well systems preserve gender representations while translating text between languages.",
+    "contribution": "The paper introduces the WinoMTDE dataset to evaluate gender bias in German machine translation, revealing systemic biases across various models.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluations largely focused on English-language machine translation systems, limiting insights into other languages.",
+        "novelty": "This work extends gender bias evaluation methods to German, utilizing specific German labor statistics for a more tailored assessment of biases in occupational contexts."
+    },
+    "key_innovation": "Developing a dataset that balances gender representations while incorporating occupational stereotypes allows for a nuanced analysis of translation errors related to gender bias.",
+    "real_world_impact": "The results underscore the need for improved machine translation systems that reduce gender bias, which could lead to better representation of women in various professions in translations used in real-world applications.",
+    "limitations": "The dataset size is small, and the stereotype annotations were conducted by a single individual, which may introduce some bias.",
+    "new_terms": {
+        "gender bias": "**Gender bias** refers to the unequal treatment of individuals based on their gender, often leading to skewed perceptions and representations in various contexts.",
+        "WinoMTDE": "**WinoMTDE** is a gender bias evaluation test set for German machine translation that assesses how well systems translate gendered occupational terms while considering societal stereotypes."
+    },
+    "open_sourcing": "The dataset and evaluation code are publicly available at https://github.com/michellekappl/mt_gender_german"
+}
