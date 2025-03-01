@@ -1,0 +1,22 @@
+{
+    "title": "3D-AffordanceLLM: Harnessing Large Language Models for Open-Vocabulary Affordance Detection in 3D Worlds",
+    "author": "Hengshuo Chu (Harbin Institute of Technology (Shenzhen)), Xiang Deng (Harbin Institute of Technology (Shenzhen)), Qi Lv (Harbin Institute of Technology (Shenzhen)), Xiaoyang Chen (Harbin Institute of Technology (Shenzhen)), Yinchuan Li (Huawei Noah's Ark Lab), Jianye Hao (Huawei Noah's Ark Lab), Liqiang Nie (Harbin Institute of Technology (Shenzhen)), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods presented could enhance affordance detection capabilities in audio processing tasks, particularly for tasks requiring an understanding of spatial relationships and object interactions.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper addresses the challenge of 3D affordance detection, aiming to identify functional regions for robot interactions given complex natural language queries.",
+    "contribution": "3D-AffordanceLLM introduces the Instruction Reasoning Affordance Segmentation (IRAS) task to solve the limitations of fixed label sets in traditional affordance detection, achieving an 8% improvement in mean Intersection over Union (mIoU).",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically relied on predefined labels and short-text detection, restricting flexibility and adaptability.",
+        "novelty": "This work integrates large language models for complex reasoning with 3D point clouds, allowing for open-vocabulary affordance detection."
+    },
+    "key_innovation": "Incorporates a special token for affordance output that facilitates the generation of segmentation masks based on complex reasoning instructions.",
+    "real_world_impact": "The proposed framework can significantly improve robot interaction capabilities in real-world environments, making them more adaptable and intelligent in task execution.",
+    "limitations": "The study acknowledges the scarcity of 3D affordance datasets which may limit the robustness of the model training.",
+    "new_terms": {
+        "Instruction Reasoning Affordance Segmentation": "**Instruction Reasoning Affordance Segmentation (IRAS)** is a newly defined task that reformulates affordance detection to utilize complex natural language queries for predicting suitable interaction regions in 3D environments.",
+        "large language models": "**Large Language Models (LLMs)** are sophisticated language processing models capable of understanding and generating human-like text based on extensive datasets."
+    },
+    "open_sourcing": ""
+}

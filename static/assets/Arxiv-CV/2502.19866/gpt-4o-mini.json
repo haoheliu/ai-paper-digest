@@ -1,0 +1,21 @@
+{
+    "title": "LMHLD: A Large-scale Multi-source High-resolution Landslide Dataset for Landslide Detection based on Deep Learning",
+    "author": "Guanting Liu (School of Future Technology, China University of Geosciences), Yi Wang (School of Geophysics and Geomatics, China University of Geosciences), Xi Chen (School of Geophysics and Geomatics, China University of Geosciences), Baoyu Du (School of Geophysics and Geomatics, China University of Geosciences), Penglei Li (School of Geophysics and Geomatics, China University of Geosciences), Yuan Wu (School of Future Technology, China University of Geosciences), Zhice Fang (Aerospace Information Research Institute, Henan Academy of Science), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Deep Learning-Generative Models",
+    "background": "A dataset designed for landslide detection using high-resolution images from remote sensing sources, aiming to enhance deep learning model performance in inventory mapping.",
+    "contribution": "LMHLD introduces a comprehensive multi-source dataset to solve the lack of robust datasets for landslide detection, achieving a total of 25,365 labeled patches from diverse geographical conditions.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets were limited to single trigger conditions or study areas, hampering generalization.",
+        "novelty": "This work improves upon existing datasets by incorporating multiple satellite sensors and varied patch sizes for effective landslide feature representation."
+    },
+    "key_innovation": "Combines high-resolution remote sensing images from various satellite sensors to create a scalable and adaptable dataset for deep learning applications in landslide detection.",
+    "real_world_impact": "This dataset has the potential to significantly improve the accuracy and efficiency of landslide detection models, thereby aiding in disaster management and prevention strategies.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "landslide inventory": "**Landslide inventory** is a comprehensive record that contains information on landslide frequency, location, extent, and characteristics, essential for assessing hazards and risks."
+    },
+    "open_sourcing": "Open access available at: https://doi.org/10.5281/zenodo.11424988"
+}

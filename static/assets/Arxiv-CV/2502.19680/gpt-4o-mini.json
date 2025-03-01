@@ -1,0 +1,21 @@
+{
+    "title": "M-LLM Based Video Frame Selection for Efficient Video Understanding",
+    "author": "Kai Hu (Carnegie Mellon University), Feng Gao (Amazon), Xiaohan Nie (Amazon), Peng Zhou (Amazon), Son Tran (Amazon), Tal Neiman (Amazon), Lingyun Wang (Amazon), Mubarak Shah (University of Central Florida), Raffay Hamid (Amazon), Bing Yin (Amazon), Trishul Chilimbi (Amazon)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The focus on using Multi-Modal Large Language Models (M-LLMs) for video frame selection can inform the development of audio-language alignment methods, potentially aiding in speech and audio tasks using similar adaptive selection strategies.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses video question answering, requiring models to process dynamic visual content by efficiently selecting relevant frames that contain necessary information to answer specific questions.",
+    "contribution": "This paper introduces an adaptive frame selection method for video QA based on Multi-Modal Large Language Models (M-LLMs) to enhance efficiency and accuracy, significantly reducing the number of frames required for processing.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily performed uniform sampling of video frames, which often led to loss of critical context and inefficient processing due to redundant information.",
+        "novelty": "This work improves the selection process by utilizing spatial and temporal pseudo-labeling to intelligently determine the importance of frames according to the specific questions."
+    },
+    "key_innovation": "The method uniquely combines lightweight M-LLM capabilities to assess frame relevance tailored to user queries, rather than merely relying on fixed sampling intervals.",
+    "real_world_impact": "This work has the potential to enhance various applications in video analysis and understanding, enabling more efficient processing in resource-constrained environments.",
+    "limitations": "The model's effectiveness is contingent upon the quality of the selected frames and may struggle with highly dynamic videos where context changes rapidly.",
+    "new_terms": {
+        "Multi-Modal Large Language Models (M-LLMs)": "**Multi-Modal Large Language Models (M-LLMs)** are artificial intelligence models that can process and integrate information from multiple modalities, such as text and visual data, improving understanding and reasoning in complex tasks."
+    },
+    "open_sourcing": ""
+}

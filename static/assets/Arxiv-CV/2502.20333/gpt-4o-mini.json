@@ -1,0 +1,22 @@
+{
+    "title": "Optimized Trajectories for T1 Mapping Acceleration",
+    "author": "Tamir Shor (Technion \u2013 Israel Institute of Technology), Moti Freiman (Technion \u2013 Israel Institute of Technology), Chaim Baskin (Ben-Gurion University of the Negev), Alex Bronstein (Technion \u2013 Israel Institute of Technology, Institute of Science and Technology, Austria), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The use of optimized sampling trajectories and learning methods could potentially inspire similar advancements in audio processing tasks, particularly in audio enhancement or generation.",
+    "field": "Applications-Healthcare",
+    "background": "Optimizing non-Cartesian k-space acquisition trajectories in cardiac MRI to accelerate T1 mapping, while ensuring accurate reconstruction of T1 maps from undersampled data.",
+    "contribution": "This paper introduces T1-PILOT, a method that integrates T1 signal relaxation modeling into the undersampling-reconstruction framework, achieving improved T1 map fidelity at higher acceleration factors.",
+    "technical_comparison": {
+        "prior_work": "Previous methods used fixed or singular undersampling masks, which limited their ability to adapt to diverse cardiac motion patterns.",
+        "novelty": "This work learns per-frame non-Cartesian acquisition trajectories guided by the T1 relaxation model, significantly enhancing quantitative accuracy."
+    },
+    "key_innovation": "Explicit integration of the T1 signal relaxation model as a constraint during both sampling and reconstruction optimization.",
+    "real_world_impact": "By enabling faster and more accurate cardiac imaging, this approach could lead to improved diagnostics and treatment monitoring in clinical settings.",
+    "limitations": "The increased computational demands and the focus on cardiac T1 mapping may limit the applicability to other imaging modalities.",
+    "new_terms": {
+        "T1 mapping": "**T1 mapping** is a technique in cardiac MRI that measures T1 relaxation times to assess myocardial tissue properties.",
+        "non-Cartesian trajectories": "**Non-Cartesian trajectories** refer to sampling patterns that do not follow a straight-line path in the frequency domain, allowing for more flexible acquisition strategies."
+    },
+    "open_sourcing": "Code for reproducing all results will be made publicly available upon publication."
+}

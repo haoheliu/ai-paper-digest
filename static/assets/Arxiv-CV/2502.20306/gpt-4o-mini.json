@@ -1,0 +1,22 @@
+{
+    "title": "SecureGaze: Defending Gaze Estimation Against Backdoor Attacks",
+    "author": "Lingyu Du (Delft University of Technology), Jinyuan Jia (The Pennsylvania State University), Yupei Liu (The Pennsylvania State University), Guohao Lan (Delft University of Technology), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper explores the vulnerabilities of gaze estimation models to backdoor attacks, similar to potential vulnerabilities in audio models. Methods developed could inspire defenses in audio-based systems.",
+    "field": "Applications-Vision",
+    "background": "Gaze estimation aims to determine the direction a person is looking based on images of their face, which can be manipulated by adversarial triggers leading to incorrect gaze direction outputs.",
+    "contribution": "This paper introduces SecureGaze to protect gaze estimation models from backdoor attacks, achieving effective detection and mitigation of adversarial manipulations.",
+    "technical_comparison": {
+        "prior_work": "Previous defenses focus on static classification models and rely on specific feature activations to identify vulnerabilities.",
+        "novelty": "This work addresses unique characteristics of gaze estimation, developing techniques that consider all features and the continuous output space of regression tasks, which were not suitable for previous methods."
+    },
+    "key_innovation": "SecureGaze utilizes reverse engineering of trigger functions based on identified vulnerabilities in the continuous output space of gaze estimation models.",
+    "real_world_impact": "The defense framework provided by SecureGaze can enhance the safety and reliability of gaze-based systems in critical applications like driver monitoring and augmented reality interfaces.",
+    "limitations": "The approach may have limitations in real-time execution speed or scalability regarding diverse datasets.",
+    "new_terms": {
+        "backdoor attack": "**Backdoor attack** refers to a method where adversaries manipulate the training process of models, making them respond in desired ways only when specific triggers are input.",
+        "gaze estimation": "**Gaze estimation** is the process of determining an individual's gaze direction by analyzing visual data, often through images of their face."
+    },
+    "open_sourcing": "The implementation of SecureGaze will be publicly available at https://github.com/LingyuDu/SecureGaze."
+}

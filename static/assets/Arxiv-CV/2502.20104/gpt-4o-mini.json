@@ -1,0 +1,22 @@
+{
+    "title": "New Dataset and Methods for Fine-Grained Compositional Referring Expression Comprehension via Specialist-MLLM Collaboration",
+    "author": "Xuzheng Yang (University of Electronic Science and Technology of China), Junzhuo Liu (University of Electronic Science and Technology of China), Peng Wang (University of Electronic Science and Technology of China), Guoqing Wang (University of Electronic Science and Technology of China), Yang Yang (University of Electronic Science and Technology of China), Heng Tao Shen (Tongji University)",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The proposed methods could enhance object localization in audio-visual tasks by improving the accuracy of detection algorithms, potentially applicable in audio-visual alignment and generation tasks.",
+    "field": "Applications-Vision",
+    "background": "Referring Expression Comprehension (REC) aims to localize a target object in an image based on a natural language description, requiring both visual and linguistic understanding.",
+    "contribution": "This paper introduces a new dataset FineCops-Ref and two collaborative methods (Slow-Fast Adaptation and Candidate Region Selection) to enhance fine-grained REC, achieving improved accuracy in complex scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous REC benchmarks lacked controlled difficulty levels and negative samples, leading to over-reliance on superficial cues.",
+        "novelty": "This work improves the understanding of compositional reasoning and incorporates negative samples, offering more rigorous evaluation criteria."
+    },
+    "key_innovation": "Combines the strengths of Specialist Models for fast perception and Multimodal Large Language Models for complex reasoning in a collaborative framework.",
+    "real_world_impact": "Enhancements in REC methodologies can lead to more robust AI systems capable of sophisticated visual understanding and cross-modal reasoning, applicable in robotics and assistive technologies.",
+    "limitations": "The dataset construction relies heavily on the quality of the initial scene graph data, which may introduce biases.",
+    "new_terms": {
+        "Referring Expression Comprehension (REC)": "**Referring Expression Comprehension (REC)** is a multi-modal task that involves interpreting a natural language description to identify and localize objects in images.",
+        "Multimodal Large Language Models (MLLM)": "**Multimodal Large Language Models (MLLM)** refer to advanced models designed to process and connect different types of data, such as text and visual inputs, enabling improved understanding and reasoning."
+    },
+    "open_sourcing": ""
+}

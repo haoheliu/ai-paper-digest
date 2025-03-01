@@ -1,0 +1,22 @@
+{
+    "title": "Explainable, Multi-modal Wound Infection Classification from Images Augmented with Generated Captions",
+    "author": "Palawat Busaranuvong (Worcester Polytechnic Institute, USA), Emmanuel Agu (Worcester Polytechnic Institute, USA), Reza Saadati Fard (Worcester Polytechnic Institute, USA), Deepak Kumar (Worcester Polytechnic Institute, USA), Shefalika Gautam (Worcester Polytechnic Institute, USA), Bengisu Tulu (Worcester Polytechnic Institute, USA), Diane Strong (Worcester Polytechnic Institute, USA), ...",
+    "quality": 7,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "This study focuses on accurately classifying infections in diabetic foot ulcers using images and generated textual descriptions, especially when traditional clinical data is unavailable.",
+    "contribution": "This paper introduces the Synthetic Caption Augmented Retrieval for Wound Infection Detection (SCARWID) framework to solve the problem of infection detection in diabetic foot ulcers, achieving improved sensitivity and specificity compared to state-of-the-art models.",
+    "technical_comparison": {
+        "prior_work": "Previous models primarily relied on visual analysis of wound images without context from additional metadata.",
+        "novelty": "This work integrates synthetic text descriptions generated from images to enhance classification accuracy and interpretability, utilizing advanced deep learning techniques."
+    },
+    "key_innovation": "Combines image and text data in a unique multi-modal retrieval framework that enhances the explanatory power of the model in medical diagnostics.",
+    "real_world_impact": "This research could significantly improve the quality of care for patients with diabetic foot ulcers by providing more accessible infection assessments tools for non-specialist caregivers, potentially reducing complications like amputations.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Diabetic Foot Ulcers (DFUs)": "**Diabetic Foot Ulcers** are open wounds that occur in about 15% of patients with diabetes, which can lead to serious complications if infected.",
+        "Cross-attention": "**Cross-attention** is a mechanism in machine learning that allows the model to focus on different parts of the input data (text and images) to enhance contextual understanding."
+    },
+    "open_sourcing": ""
+}

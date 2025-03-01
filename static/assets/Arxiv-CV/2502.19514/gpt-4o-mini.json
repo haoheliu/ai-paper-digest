@@ -1,0 +1,22 @@
+{
+    "title": "GONet: A Generalizable Deep Learning Model for Glaucoma Detection",
+    "author": "Or Abramovich (Technion, Israel Institute of Technology), Hadas Pizem (Technion), Jonathan Fhima (Technion), Eran Berkowitz (Hillel Yaffe Medical Center), Ben Gofrit (Hillel Yaffe Medical Center), Meishar Meisel (Hillel Yaffe Medical Center), Meital Baskin (KU Leuven), ..., Joachim A. Behar (Technion)",
+    "quality": 8,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Deep Learning-Generative Models",
+    "background": "Glaucomatous optic neuropathy detection using digital fundus images captured from various patients to identify the disease using automated deep learning methods.",
+    "contribution": "This paper introduces GONet, a deep learning model designed to enhance the generalizability of glaucoma detection from digital fundus images, achieving high AUC scores across multiple datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing models for glaucoma detection show limited generalizability across different populations and settings, often relying on subjective assessments.",
+        "novelty": "GONet employs a multi-source domain fine-tuning strategy, improving robustness and prediction accuracy over traditional methods."
+    },
+    "key_innovation": "Utilizes a self-supervised learning approach with DINOv2 and combines it with a multisource domain strategy to ensure better performance across varied datasets.",
+    "real_world_impact": "The model can enhance early detection of glaucoma in diverse populations, potentially reducing the rate of undiagnosed cases and facilitating timely treatments.",
+    "limitations": "The authors recognize the necessity to evaluate the model on more diverse datasets to validate its effectiveness across various ethnic groups and medical settings.",
+    "new_terms": {
+        "digital fundus images": "**Digital fundus images** are photographs of the interior surface of the eye, including the retina, optic disc, and macula, used for diagnosing eye conditions.",
+        "multi-source domain training": "**Multi-source domain training** involves using data from different sources or distributions to improve a model's ability to generalize to unseen domains."
+    },
+    "open_sourcing": "GONet is available at [URL provided on publication]. A new dataset with 768 digital fundus images labeled for glaucoma detection is also made open access."
+}

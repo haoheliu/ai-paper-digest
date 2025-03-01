@@ -1,0 +1,22 @@
+{
+    "title": "Show and Tell: Visually Explainable Deep Neural Nets via Spatially-Aware Concept Bottleneck Models",
+    "author": "Itay Benou (Ben-Gurion University of the Negev), Tammy Riklin-Raviv (Ben-Gurion University of the Negev), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methodology of providing explainable AI through visual concepts and spatial localization can potentially be applied to audio-generated content for enhancing interpretation and debugging of audio outputs.",
+    "field": "Social and Economic Aspects of ML-Interpretability",
+    "background": "The paper focuses on making deep neural networks more interpretable by associating predictions with human-understandable concepts and spatially localizing these concepts within input images.",
+    "contribution": "This paper introduces the Spatially-Aware and Label-Free Concept Bottleneck Model (SALF-CBM) to solve the issue of explainability in deep networks, achieving improved classification performance and high-quality spatial explanations.",
+    "technical_comparison": {
+        "prior_work": "Current explainability methods either fail to provide spatial localization or require manual concept annotations that limit scalability.",
+        "novelty": "This work merges concept-based and spatial explainability in a unified framework without needing human labels, significantly enhancing model interpretability."
+    },
+    "key_innovation": "Integrates spatial localization of visual concepts within the model, allowing users to interactively explore and debug model decisions based on visual regions in the input.",
+    "real_world_impact": "The method enhances trust in AI systems by making their decisions more transparent, which is crucial for applications in healthcare and autonomous driving.",
+    "limitations": "Some challenges related to the dependence on well-trained backbone models and potential computational costs in generating concept maps.",
+    "new_terms": {
+        "Concept Bottleneck Models": "**Concept Bottleneck Models (CBMs)** are a type of neural network architecture designed to make model predictions interpretable by mapping black-box features to understandable concepts.",
+        "Spatial Concept Similarity": "**Spatial Concept Similarity** refers to a method of determining how well specific visual concepts align with localized regions of an input image."
+    },
+    "open_sourcing": ""
+}

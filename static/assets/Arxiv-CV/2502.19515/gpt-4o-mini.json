@@ -1,0 +1,21 @@
+{
+    "title": "Evaluating the Suitability of Different Intraoral Scan Resolutions for Deep Learning-Based Tooth Segmentation",
+    "author": "Daron Weekley (Marshall University), Jace Duckworth (Marshall University), Anastasiia Sukhanova (Marshall University), Ananya Jana (Marshall University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methodology of using deep learning for segmentation in intraoral scans may provide insights into similar applications or adaptations in audio processing tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study investigates how varying resolutions of intraoral scans impact the performance of a deep learning model trained for tooth segmentation.",
+    "contribution": "This paper introduces a systematic evaluation of the impact of mesh resolution on segmentation accuracy, achieving insights that balance computational efficiency with accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous studies generally trained models on fixed lower resolutions without extensively analyzing the effects on segmentation accuracy.",
+        "novelty": "This work explicitly evaluates the performance trajectory as resolutions decrease below 10K mesh cells, providing detailed performance metrics across resolutions."
+    },
+    "key_innovation": "It systematically compares the segmentation accuracy achieved at multiple resolutions, detailing the trade-offs between performance and computational demand for various applications.",
+    "real_world_impact": "The findings may influence how dental practitioners adopt machine learning solutions for automated tooth segmentation, potentially leading to faster and more efficient workflows in digital dentistry.",
+    "limitations": "The study is constrained by the singular focus on the PointMLP model and does not explore other architectures or datasets.",
+    "new_terms": {
+        "mesh cells": "**Mesh cells** are the basic units that make up a 3D model in computer graphics, typically formed by interconnected triangular facets representing surface geometry."
+    },
+    "open_sourcing": ""
+}

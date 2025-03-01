@@ -1,0 +1,22 @@
+{
+    "title": "HVI: A New Color Space for Low-Light Image Enhancement",
+    "author": "Qingsen Yan (Northwestern Polytechnical University), Yixu Feng (Northwestern Polytechnical University), Cheng Zhang (Northwestern Polytechnical University), Guansong Pang (Singapore Management University), Kangbiao Shi (Northwestern Polytechnical University), Peng Wu (Northwestern Polytechnical University), Wei Dong (Xi'an University of Architecture and Technology), Jinqiu Sun (Northwestern Polytechnical University), Yanning Zhang (Northwestern Polytechnical University)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper presents a color space transformation that could be leveraged in audio-visual applications where both image and audio signals need enhancement under low-light conditions.",
+    "field": "Applications-Vision",
+    "background": "Low-light image enhancement aims to improve the visibility of images captured in dark conditions while minimizing noise and color distortion.",
+    "contribution": "This paper introduces the Horizontal/Vertical-Intensity (HVI) color space to solve color bias and brightness artifacts in low-light images, achieving superior enhancement compared to state-of-the-art methods across multiple datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing low-light enhancement techniques mainly utilize the standard RGB or HSV color spaces, which often result in color distortions and artifacts, particularly in dark or red-dominated regions.",
+        "novelty": "The authors propose a dual-branch network (CIDNet) that effectively decouples color and intensity, incorporates a polarized color scheme, and uses a learnable intensity collapse function, significantly improving the quality of enhanced images."
+    },
+    "key_innovation": "The approach introduces a trainable polarization of color channels and a dynamic intensity mapping scheme that adapts specifically to low-light contexts.",
+    "real_world_impact": "The improved low-light enhancement has applications in photography, surveillance, and autonomous systems needing image clarity in suboptimal conditions. This can lead to better performance in visual recognition and safety systems.",
+    "limitations": "The paper does not explicitly mention limitations, but common challenges in image enhancement, like computational complexity and varying lighting conditions, may affect performance.",
+    "new_terms": {
+        "HVI": "**Horizontal/Vertical-Intensity** is a novel color space introduced for low-light image enhancement to minimize color distortion and enhance brightness.",
+        "CIDNet": "**Color and Intensity Decoupling Network** is a specialized deep learning architecture designed to simultaneously improve color fidelity and brightness in images using the HVI color space."
+    },
+    "open_sourcing": "The code is available at https://github.com/Fediory/HVI-CIDNet."
+}

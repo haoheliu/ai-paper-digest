@@ -1,0 +1,22 @@
+{
+    "title": "Robust sensitivity control in digital pathology via tile score distribution matching",
+    "author": "Arthur Pignet (Owkin, Inc), John Klein (Owkin, Inc), Genevi\u00e8ve Robin (Owkin, Inc), Antoine Olivier (Owkin, Inc), ...",
+    "quality": 7,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Applications-Healthcare",
+    "background": "Controlling sensitivity in classification tasks while using deep learning models on whole slide images in digital pathology.",
+    "contribution": "This paper introduces Tile-Score Matching (TSM) to solve the sensitivity transferability issue in WSI classification, achieving robust sensitivity control with minimal calibration samples.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, such as Unsupervised Prediction Alignment, require numerous whole slide images for calibration, complicating deployment.",
+        "novelty": "This work improves by enabling calibration at the tile level rather than at the WSI level, requiring fewer calibration samples (less than 30) for effective sensitivity control."
+    },
+    "key_innovation": "TSM leverages optimal transport methods to match the tile-level score distributions between training and validation cohorts, enhancing sensitivity consistency.",
+    "real_world_impact": "The proposed method allows for more reliable deployment of digital pathology systems across various medical centers, potentially improving diagnostic outcomes.",
+    "limitations": "The method is specifically tailored for the Chowder architecture, which may limit applicability to other Multiple Instance Learning models.",
+    "new_terms": {
+        "Tile-Score Matching": "**Tile-Score Matching (TSM)** is a novel calibration technique that aligns distribution of scores for individual tiles from whole slide images to control sensitivity in classification tasks.",
+        "Optimal Transport": "**Optimal Transport** is a mathematical theory that deals with the movement of distributions, allowing for the efficient matching of different probability measures."
+    },
+    "open_sourcing": "Code, model, and features are available at https://anonymous.4open.science/r/tsm"
+}

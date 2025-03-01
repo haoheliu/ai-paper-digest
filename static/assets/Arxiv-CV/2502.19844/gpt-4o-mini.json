@@ -1,0 +1,22 @@
+{
+    "title": "ProAPO: Progressively Automatic Prompt Optimization for Visual Classification",
+    "author": "Xiangyan Qu (Institute of Information Engineering, Chinese Academy of Sciences), Gaopeng Gou (School of Cyber Security, Chinese Academy of Sciences), Jiamin Zhuang (School of Cyber Security, Chinese Academy of Sciences), Jing Yu (School of Information Engineering, Minzu University of China), Kun Song (University of Science and Technology Beijing), Qihao Wang (Institute of Information Engineering, Chinese Academy of Sciences), Yili Li (Institute of Information Engineering, Chinese Academy of Sciences), Gang Xiong (Institute of Information Engineering, Chinese Academy of Sciences), ..., Jiamin Zhuang (School of Cyber Security, Chinese Academy of Sciences)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a novel method for optimizing prompts in visual classification, which could enhance methods for audio classification by utilizing class-specific descriptions generated from language models, applicable to tasks such as audio captioning.",
+    "field": "Applications-Vision",
+    "background": "The study focuses on optimizing language prompts to improve the performance of vision-language models for image classification, particularly in scenarios where minimal supervision is provided.",
+    "contribution": "This work introduces a progression-based optimization algorithm to refine prompts from general templates to specific class descriptions, achieving improved classification accuracy on fine-grained categories.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on manual prompt engineering which is resource-intensive and often lacks the nuance needed for fine-grained classification.",
+        "novelty": "ProAPO automates prompt generation utilizing evolutionary techniques, effectively reducing costs and iteration times while minimizing overfitting."
+    },
+    "key_innovation": "The use of evolutionary algorithms to progressively optimize textual prompts reduces the need for human intervention and enhances prompt quality for visual classification tasks.",
+    "real_world_impact": "By improving the classification accuracy of fine-grained categories, this method can lead to better performance in numerous practical applications, such as wildlife recognition and medical imaging.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "ProAPO": "**Progressively Automatic Prompt Optimization** is a novel algorithm designed to enhance the effectiveness of language prompts used in visual classification by iteratively refining them.",
+        "evolutionary algorithms": "**Evolutionary algorithms** are optimization processes inspired by natural selection that iteratively improve solutions by combining and modifying candidate solutions."
+    },
+    "open_sourcing": "The authors have made the code available at https://github.com/MorningStarOvO/ProAPO."
+}

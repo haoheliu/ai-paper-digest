@@ -1,0 +1,21 @@
+{
+    "title": "Ev-3DOD: Pushing the Temporal Boundaries of 3D Object Detection with Event Cameras",
+    "author": "Hoonhee Cho (KAIST), Jae-young Kang (KAIST), Youngho Kim (KAIST), Kuk-Jin Yoon (KAIST), ...",
+    "quality": 8,
+    "relevance": 5,
+    "relevance_why": "The proposed work involves 3D object detection using event cameras, which may inspire techniques for audio-visual integration in sound event recognition tasks.",
+    "field": "Applications-Vision",
+    "background": "Detecting 3D objects in real-time using point cloud data from various sensors is essential for autonomous driving systems, particularly in challenging temporal conditions.",
+    "contribution": "This paper introduces the Ev-3DOD methodology, integrating event cameras with traditional sensors for real-time 3D object detection during blind time, achieving improved accuracy and speed.",
+    "technical_comparison": {
+        "prior_work": "Existing methods face limitations with fixed frame rate sensors, causing detection gaps due to blind times where data is unavailable.",
+        "novelty": "This work utilizes asynchronous event cameras to capture data constantly, enabling detection even during these blind periods."
+    },
+    "key_innovation": "Combines high temporal resolution of event cameras with LiDAR and frame camera data to produce reliable 3D object detection in time-critical scenarios.",
+    "real_world_impact": "Enhances the reliability of autonomous systems by improving 3D perception capabilities, which could lead to safer autonomous navigation.",
+    "limitations": "The integration between event data and LiDAR might face challenges in alignment and requires precise calibration.",
+    "new_terms": {
+        "event camera": "**Event camera** is a type of visual sensor that captures changes in the scene as a stream of data, rather than capturing frames at fixed intervals, providing high temporal resolution and low latency."
+    },
+    "open_sourcing": "The code and dataset are available at https://github.com/mickeykang16/Ev3DOD"
+}
