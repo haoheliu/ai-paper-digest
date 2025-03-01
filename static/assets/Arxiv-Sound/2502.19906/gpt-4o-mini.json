@@ -1,0 +1,22 @@
+{
+    "title": "PrimeK-Net: Multi-scale Spectral Learning via Group Prime-Kernel Convolutional Neural Networks for Single Channel Speech Enhancement",
+    "author": "Zizhen Lin (Sichuan University), Junyu Wang (Tianjin University), Ruili Li (Tohoku University), Fei Shen (Nanjing University of Science and Technology), Xi Xuan (City University of Hong Kong), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The use of convolutional neural networks and attention mechanisms in speech enhancement can improve models like VoiceFixer, thereby benefiting Haohe Liu's research in speech restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing speech quality from noisy signals, especially in conditions where speech may be degraded by environmental noise or recording imperfections.",
+    "contribution": "PrimeK-Net introduces a Group Prime-Kernel Feedforward Channel Attention module to improve the performance of single-channel speech enhancement, achieving a state-of-the-art PESQ score of 3.61 with only 1.41 million parameters.",
+    "technical_comparison": {
+        "prior_work": "Existing models like Conformer and Dilated Dense Blocks struggle with computational efficiency and neglect multi-scale spectral characteristics.",
+        "novelty": "This work utilizes prime number properties to avoid periodic overlap effects and integrates a Deep Separable Dilated Dense Block, significantly reducing computational complexity."
+    },
+    "key_innovation": "Integrates group prime-kernel convolutions and efficient channel attention mechanisms to capture multi-scale features effectively.",
+    "real_world_impact": "Improves speech enhancement technology for real-time applications, potentially enhancing user experiences in communication systems and voice-activated devices.",
+    "limitations": "The paper does not highlight significant limitations aside from possible performance compromises when employing the new methods.",
+    "new_terms": {
+        "Group Prime-Kernel": "**Group Prime-Kernel** refers to a convolutional kernel design utilizing prime numbers, aimed at enhancing spectral learning while minimizing periodic responses during feature extraction.",
+        "Deep Separable Dilated Dense Block": "**Deep Separable Dilated Dense Block** is a modified convolutional block that splits convolutions into depthwise operations and point-wise operations, significantly improving computational efficiency."
+    },
+    "open_sourcing": "Source codes: https://github.com/huaidanquede/PrimeK-Net"
+}

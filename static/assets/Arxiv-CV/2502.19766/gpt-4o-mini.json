@@ -1,0 +1,21 @@
+{
+    "title": "Automatic Temporal Segmentation for Post-Stroke Rehabilitation: A Keypoint Detection and Temporal Segmentation Approach for Small Datasets",
+    "author": "Jisoo Lee (Arizona State University), Thanassis Rikakis (University of Southern California), Tamim Ahmed (University of Southern California), Pavan Turaga (Arizona State University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper's methodology for keypoint detection and temporal segmentation could be adapted for audio-based tasks where movements are assessed through audio data, complementing Haohe Liu's research in audio processing.",
+    "field": "Applications-Healthcare",
+    "background": "The study focuses on segmenting video recordings of stroke rehabilitation tasks to automate and improve the clinical evaluation process, particularly for physical therapy assessments.",
+    "contribution": "This paper introduces a framework that combines 2D keypoint detection and 1D temporal segmentation to enhance rehabilitation therapy assessments for stroke patients, showcasing strong feasibility with limited data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on extensive video datasets for action segmentation and can struggle with subjective criteria variations.",
+        "novelty": "This work implements a two-phase strategy that uses biomechanics insights to efficiently extract significant movements in a small data context, reducing the need for extensive retraining with new criteria."
+    },
+    "key_innovation": "The dual approach allows for accurate action labeling and segmentation using limited patient data, enhancing the assessment's speed and reliability.",
+    "real_world_impact": "This framework has immediate applications in clinical settings, potentially leading to faster and more objective evaluations in post-stroke rehabilitation, ultimately improving patient outcomes.",
+    "limitations": "The study faces challenges with the small dataset size, requiring careful handling to avoid overfitting during model training.",
+    "new_terms": {
+        "Action Research Arm Test (ARAT)": "**Action Research Arm Test (ARAT)** is a clinical assessment method used to evaluate upper extremity motor function in stroke patients through specific tasks."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "DIN-CTS: Low-Complexity Depthwise-Inception Neural Network with Contrastive Training Strategy for Deepfake Speech Detection",
+    "author": "Lam Pham (Austrian Institute of Technology), Dat Tran (FPT University), Florian Skopik (Austrian Institute of Technology), Alexander Schindler (Austrian Institute of Technology), Silvia Poletti (Austrian Institute of Technology), Fischinger David (Austrian Institute of Technology), Martin Boyer (Austrian Institute of Technology), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The paper introduces a novel approach in deepfake speech detection which employs a low-complexity neural network architecture and contrastive training strategies, both of which could inspire similar methodological advancements in audio analysis and generative tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves detecting deepfake speech by analyzing audio recordings transformed into visual spectrograms using machine learning techniques.",
+    "contribution": "This paper introduces the Depthwise-Inception Network and Contrastive Training Strategy to solve the problem of deepfake speech detection, achieving high performance with minimal computational resources.",
+    "technical_comparison": {
+        "prior_work": "Previous deepfake detection systems often rely on complex ensemble models that require significant computational resources, making them impractical for real-time applications.",
+        "novelty": "This work improves efficiency by adopting a single, low-complexity architecture with only 1.77 million parameters and 985 million FLOPS, while also employing a contrastive learning approach to enhance performance."
+    },
+    "key_innovation": "The integration of a Depthwise-Inception architecture with a contrastive training strategy offers effective feature learning from audio spectrograms, thereby enhancing detection accuracy.",
+    "real_world_impact": "This approach demonstrates potential for real-time applications in detecting deepfake speech, addressing security concerns effectively. Its low complexity makes it suitable for deployment in various environments.",
+    "limitations": "No",
+    "new_terms": {
+        "Depthwise convolution": "**Depthwise convolution** is a type of convolution that applies a single convolutional filter for each input channel separately, reducing computational complexity.",
+        "Contrastive Training Strategy": "**Contrastive Training Strategy** is a machine learning approach that trains models by contrasting positive and negative samples in order to improve the model's performance on distinguishing between different classes."
+    },
+    "open_sourcing": ""
+}

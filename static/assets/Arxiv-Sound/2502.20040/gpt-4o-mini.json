@@ -1,0 +1,21 @@
+{
+    "title": "CleanMel: Mel-Spectrogram Enhancement for Improving Both Speech Quality and ASR",
+    "author": "Nian Shao (Zhejiang University, Westlake University), Rui Zhou (Westlake University), Pengyu Wang (Zhejiang University, Westlake University), Xian Li (Westlake University), Ying Fang (Zhejiang University, Westlake University), Yujie Yang (Zhejiang University, Westlake University), Xiaofei Li (Westlake University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a novel approach to enhancing Mel-spectrograms for speech quality and automatic speech recognition, which directly aligns with Dr. Liu's interests in speech restoration and quality enhancement techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "Mel-spectrogram enhancement is a technique aimed at improving the quality of noisy and reverberant speech recordings to facilitate better automatic speech recognition.",
+    "contribution": "CleanMel introduces a single-channel Mel-spectrogram denoising and dereverberation network to enhance both speech quality and automatic speech recognition performance.",
+    "technical_comparison": {
+        "prior_work": "Previous speech enhancement methods often focused on either time or frequency domains and suffered from artifacts that degraded ASR performance.",
+        "novelty": "This work improves ASR performance by directly estimating clean Mel-spectrograms instead of relying on full-band enhancements, leveraging a dual-processing architecture with interleaved cross-band and narrow-band blocks."
+    },
+    "key_innovation": "The method uniquely combines Mel-spectrogram processing with neural vocoders, allowing smoother, high-fidelity speech reconstruction that benefits both quality and subsequent ASR accuracy.",
+    "real_world_impact": "This research has the potential to significantly improve the performance of voice recognition systems in practical environments, enhancing user experiences in applications like virtual assistants and interactive voice response systems.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "Mel-spectrogram": "**Mel-spectrogram** is a representation of sound that reflects perceived frequencies, closer to how humans hear, often used in audio processing tasks."
+    },
+    "open_sourcing": "Code and audio examples of the model are available online at https://audio.westlake.edu.cn/Research/CleanMel.html."
+}

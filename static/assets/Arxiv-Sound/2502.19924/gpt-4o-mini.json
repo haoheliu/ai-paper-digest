@@ -1,0 +1,22 @@
+{
+    "title": "DiffCSS: Diverse and Expressive Conversational Speech Synthesis with Diffusion Models",
+    "author": "Weihao Wu (Shenzhen International Graduate School, Tsinghua University), Zhiwei Lin (Shenzhen International Graduate School, Tsinghua University), Yixuan Zhou (Shenzhen International Graduate School, Tsinghua University), Jingbei Li (StepFun), Rui Niu (Shenzhen International Graduate School, Tsinghua University), Qinghua Wu (Tencent Youtu Lab), Songjun Cao (Tencent Youtu Lab), Zhiyong Wu (The Chinese University of Hong Kong)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The use of diffusion models for prosody generation aligns well with Haohe Liu's work on audio, speech processing, and generative audio methodologies, providing valuable insights that could enhance audio generation frameworks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Conversational speech synthesis aims to produce speech that is expressively appropriate and coherent within the context of a conversation, addressing limitations in traditional speech synthesis methods.",
+    "contribution": "DiffCSS introduces a diffusion-based context-aware prosody predictor to solve the limitations of traditional speech synthesis, achieving improvements in prosody diversity and speech expressiveness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on deterministic predictions for prosody, limiting the expressiveness and diversity of generated speech.",
+        "novelty": "This work utilizes diffusion models to sample diverse prosody embeddings, enhancing the naturalness and quality of synthesized speech beyond traditional methods."
+    },
+    "key_innovation": "The integration of diffusion models specifically for generating diverse prosody in conversational contexts, which is a novel approach in speech synthesis.",
+    "real_world_impact": "The model aims to enhance the capabilities of conversational agents and virtual assistants, leading to more engaging and natural interactions in applications such as customer service and entertainment.",
+    "limitations": "No",
+    "new_terms": {
+        "prosody": "**Prosody** refers to the patterns of rhythm and sound used in poetry and language; in speech synthesis, it involves variations in pitch, loudness, and tempo to convey emotional tone.",
+        "diffusion models": "**Diffusion models** are a class of generative models that iteratively refine random noise into coherent outputs by reversing a diffusion process."
+    },
+    "open_sourcing": "Audio samples available at: https://w-w-h.github.io/DiffCSS/"
+}

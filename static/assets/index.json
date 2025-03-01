@@ -1,5 +1,517 @@
 {
   "Arxiv-CV": {
+    "2502.20396": {
+      "json_path": "Arxiv-CV/2502.20396/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20393": {
+      "json_path": "Arxiv-CV/2502.20393/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20390": {
+      "json_path": "Arxiv-CV/2502.20390/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20389": {
+      "json_path": "Arxiv-CV/2502.20389/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20388": {
+      "json_path": "Arxiv-CV/2502.20388/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20387": {
+      "json_path": "Arxiv-CV/2502.20387/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20378": {
+      "json_path": "Arxiv-CV/2502.20378/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20376": {
+      "json_path": "Arxiv-CV/2502.20376/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20370": {
+      "json_path": "Arxiv-CV/2502.20370/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20361": {
+      "json_path": "Arxiv-CV/2502.20361/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20333": {
+      "json_path": "Arxiv-CV/2502.20333/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20323": {
+      "json_path": "Arxiv-CV/2502.20323/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20321": {
+      "json_path": "Arxiv-CV/2502.20321/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20316": {
+      "json_path": "Arxiv-CV/2502.20316/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20313": {
+      "json_path": "Arxiv-CV/2502.20313/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20307": {
+      "json_path": "Arxiv-CV/2502.20307/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20306": {
+      "json_path": "Arxiv-CV/2502.20306/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20301": {
+      "json_path": "Arxiv-CV/2502.20301/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20295": {
+      "json_path": "Arxiv-CV/2502.20295/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20292": {
+      "json_path": "Arxiv-CV/2502.20292/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20277": {
+      "json_path": "Arxiv-CV/2502.20277/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20272": {
+      "json_path": "Arxiv-CV/2502.20272/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20263": {
+      "json_path": "Arxiv-CV/2502.20263/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20256": {
+      "json_path": "Arxiv-CV/2502.20256/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20249": {
+      "json_path": "Arxiv-CV/2502.20249/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20235": {
+      "json_path": "Arxiv-CV/2502.20235/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20224": {
+      "json_path": "Arxiv-CV/2502.20224/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20223": {
+      "json_path": "Arxiv-CV/2502.20223/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20220": {
+      "json_path": "Arxiv-CV/2502.20220/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20209": {
+      "json_path": "Arxiv-CV/2502.20209/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20208": {
+      "json_path": "Arxiv-CV/2502.20208/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20172": {
+      "json_path": "Arxiv-CV/2502.20172/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20171": {
+      "json_path": "Arxiv-CV/2502.20171/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20161": {
+      "json_path": "Arxiv-CV/2502.20161/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20158": {
+      "json_path": "Arxiv-CV/2502.20158/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20156": {
+      "json_path": "Arxiv-CV/2502.20156/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20154": {
+      "json_path": "Arxiv-CV/2502.20154/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20144": {
+      "json_path": "Arxiv-CV/2502.20144/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20134": {
+      "json_path": "Arxiv-CV/2502.20134/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20130": {
+      "json_path": "Arxiv-CV/2502.20130/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20128": {
+      "json_path": "Arxiv-CV/2502.20128/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20126": {
+      "json_path": "Arxiv-CV/2502.20126/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20120": {
+      "json_path": "Arxiv-CV/2502.20120/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20119": {
+      "json_path": "Arxiv-CV/2502.20119/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20113": {
+      "json_path": "Arxiv-CV/2502.20113/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20111": {
+      "json_path": "Arxiv-CV/2502.20111/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20110": {
+      "json_path": "Arxiv-CV/2502.20110/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20108": {
+      "json_path": "Arxiv-CV/2502.20108/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20104": {
+      "json_path": "Arxiv-CV/2502.20104/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20100": {
+      "json_path": "Arxiv-CV/2502.20100/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20092": {
+      "json_path": "Arxiv-CV/2502.20092/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20087": {
+      "json_path": "Arxiv-CV/2502.20087/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20077": {
+      "json_path": "Arxiv-CV/2502.20077/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20056": {
+      "json_path": "Arxiv-CV/2502.20056/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20041": {
+      "json_path": "Arxiv-CV/2502.20041/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20036": {
+      "json_path": "Arxiv-CV/2502.20036/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20035": {
+      "json_path": "Arxiv-CV/2502.20035/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20034": {
+      "json_path": "Arxiv-CV/2502.20034/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20018": {
+      "json_path": "Arxiv-CV/2502.20018/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20008": {
+      "json_path": "Arxiv-CV/2502.20008/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19979": {
+      "json_path": "Arxiv-CV/2502.19979/gpt-4o-mini.json",
+      "first_image": "Arxiv-CV/2502.19979/images/_page_6_Figure_0.jpeg"
+    },
+    "2502.19973": {
+      "json_path": "Arxiv-CV/2502.19973/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19962": {
+      "json_path": "Arxiv-CV/2502.19962/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19958": {
+      "json_path": "Arxiv-CV/2502.19958/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19955": {
+      "json_path": "Arxiv-CV/2502.19955/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19946": {
+      "json_path": "Arxiv-CV/2502.19946/gpt-4o-mini.json",
+      "first_image": "Arxiv-CV/2502.19946/images/_page_1_Figure_0.jpeg"
+    },
+    "2502.19937": {
+      "json_path": "Arxiv-CV/2502.19937/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19930": {
+      "json_path": "Arxiv-CV/2502.19930/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19922": {
+      "json_path": "Arxiv-CV/2502.19922/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19908": {
+      "json_path": "Arxiv-CV/2502.19908/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19897": {
+      "json_path": "Arxiv-CV/2502.19897/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19896": {
+      "json_path": "Arxiv-CV/2502.19896/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19894": {
+      "json_path": "Arxiv-CV/2502.19894/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19868": {
+      "json_path": "Arxiv-CV/2502.19868/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19867": {
+      "json_path": "Arxiv-CV/2502.19867/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19866": {
+      "json_path": "Arxiv-CV/2502.19866/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19854": {
+      "json_path": "Arxiv-CV/2502.19854/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19848": {
+      "json_path": "Arxiv-CV/2502.19848/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19844": {
+      "json_path": "Arxiv-CV/2502.19844/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19842": {
+      "json_path": "Arxiv-CV/2502.19842/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19834": {
+      "json_path": "Arxiv-CV/2502.19834/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19828": {
+      "json_path": "Arxiv-CV/2502.19828/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19816": {
+      "json_path": "Arxiv-CV/2502.19816/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19803": {
+      "json_path": "Arxiv-CV/2502.19803/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19800": {
+      "json_path": "Arxiv-CV/2502.19800/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19797": {
+      "json_path": "Arxiv-CV/2502.19797/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19782": {
+      "json_path": "Arxiv-CV/2502.19782/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19781": {
+      "json_path": "Arxiv-CV/2502.19781/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19777": {
+      "json_path": "Arxiv-CV/2502.19777/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19769": {
+      "json_path": "Arxiv-CV/2502.19769/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19766": {
+      "json_path": "Arxiv-CV/2502.19766/gpt-4o-mini.json",
+      "first_image": "Arxiv-CV/2502.19766/images/_page_2_Figure_0.jpeg"
+    },
+    "2502.19757": {
+      "json_path": "Arxiv-CV/2502.19757/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19754": {
+      "json_path": "Arxiv-CV/2502.19754/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19751": {
+      "json_path": "Arxiv-CV/2502.19751/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19739": {
+      "json_path": "Arxiv-CV/2502.19739/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19718": {
+      "json_path": "Arxiv-CV/2502.19718/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19716": {
+      "json_path": "Arxiv-CV/2502.19716/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19710": {
+      "json_path": "Arxiv-CV/2502.19710/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19708": {
+      "json_path": "Arxiv-CV/2502.19708/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19707": {
+      "json_path": "Arxiv-CV/2502.19707/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19705": {
+      "json_path": "Arxiv-CV/2502.19705/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19700": {
+      "json_path": "Arxiv-CV/2502.19700/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19699": {
+      "json_path": "Arxiv-CV/2502.19699/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19698": {
+      "json_path": "Arxiv-CV/2502.19698/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19697": {
+      "json_path": "Arxiv-CV/2502.19697/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19694": {
+      "json_path": "Arxiv-CV/2502.19694/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19692": {
+      "json_path": "Arxiv-CV/2502.19692/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19691": {
+      "json_path": "Arxiv-CV/2502.19691/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19689": {
+      "json_path": "Arxiv-CV/2502.19689/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19683": {
+      "json_path": "Arxiv-CV/2502.19683/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19680": {
+      "json_path": "Arxiv-CV/2502.19680/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19677": {
+      "json_path": "Arxiv-CV/2502.19677/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19674": {
+      "json_path": "Arxiv-CV/2502.19674/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19673": {
+      "json_path": "Arxiv-CV/2502.19673/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19672": {
+      "json_path": "Arxiv-CV/2502.19672/gpt-4o-mini.json",
+      "first_image": "Arxiv-CV/2502.19672/images/_page_2_Figure_0.jpeg"
+    },
+    "2502.19671": {
+      "json_path": "Arxiv-CV/2502.19671/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19660": {
+      "json_path": "Arxiv-CV/2502.19660/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19644": {
+      "json_path": "Arxiv-CV/2502.19644/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19638": {
+      "json_path": "Arxiv-CV/2502.19638/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19634": {
+      "json_path": "Arxiv-CV/2502.19634/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19630": {
+      "json_path": "Arxiv-CV/2502.19630/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19623": {
+      "json_path": "Arxiv-CV/2502.19623/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19577": {
+      "json_path": "Arxiv-CV/2502.19577/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19540": {
+      "json_path": "Arxiv-CV/2502.19540/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19515": {
+      "json_path": "Arxiv-CV/2502.19515/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19514": {
+      "json_path": "Arxiv-CV/2502.19514/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19450": {
+      "json_path": "Arxiv-CV/2502.19450/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19441": {
+      "json_path": "Arxiv-CV/2502.19441/gpt-4o-mini.json",
+      "first_image": null
+    },
     "2502.19409": {
       "json_path": "Arxiv-CV/2502.19409/gpt-4o-mini.json",
       "first_image": "Arxiv-CV/2502.19409/images/_page_0_Picture_8.jpeg"
@@ -2814,6 +3326,354 @@
     }
   },
   "Arxiv-NLP": {
+    "2502.20383": {
+      "json_path": "Arxiv-NLP/2502.20383/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20380": {
+      "json_path": "Arxiv-NLP/2502.20380/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20377": {
+      "json_path": "Arxiv-NLP/2502.20377/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20364": {
+      "json_path": "Arxiv-NLP/2502.20364/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20356": {
+      "json_path": "Arxiv-NLP/2502.20356/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20354": {
+      "json_path": "Arxiv-NLP/2502.20354/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20350": {
+      "json_path": "Arxiv-NLP/2502.20350/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20344": {
+      "json_path": "Arxiv-NLP/2502.20344/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20339": {
+      "json_path": "Arxiv-NLP/2502.20339/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20335": {
+      "json_path": "Arxiv-NLP/2502.20335/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20332": {
+      "json_path": "Arxiv-NLP/2502.20332/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20330": {
+      "json_path": "Arxiv-NLP/2502.20330/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20315": {
+      "json_path": "Arxiv-NLP/2502.20315/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20301": {
+      "json_path": "Arxiv-NLP/2502.20301/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20299": {
+      "json_path": "Arxiv-NLP/2502.20299/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20273": {
+      "json_path": "Arxiv-NLP/2502.20273/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20258": {
+      "json_path": "Arxiv-NLP/2502.20258/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20246": {
+      "json_path": "Arxiv-NLP/2502.20246/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20245": {
+      "json_path": "Arxiv-NLP/2502.20245/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20238": {
+      "json_path": "Arxiv-NLP/2502.20238/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20204": {
+      "json_path": "Arxiv-NLP/2502.20204/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20196": {
+      "json_path": "Arxiv-NLP/2502.20196/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20186": {
+      "json_path": "Arxiv-NLP/2502.20186/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20175": {
+      "json_path": "Arxiv-NLP/2502.20175/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20172": {
+      "json_path": "Arxiv-NLP/2502.20172/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20171": {
+      "json_path": "Arxiv-NLP/2502.20171/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20170": {
+      "json_path": "Arxiv-NLP/2502.20170/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20167": {
+      "json_path": "Arxiv-NLP/2502.20167/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20140": {
+      "json_path": "Arxiv-NLP/2502.20140/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20135": {
+      "json_path": "Arxiv-NLP/2502.20135/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20129": {
+      "json_path": "Arxiv-NLP/2502.20129/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20127": {
+      "json_path": "Arxiv-NLP/2502.20127/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20122": {
+      "json_path": "Arxiv-NLP/2502.20122/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20082": {
+      "json_path": "Arxiv-NLP/2502.20082/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20073": {
+      "json_path": "Arxiv-NLP/2502.20073/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20047": {
+      "json_path": "Arxiv-NLP/2502.20047/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20046": {
+      "json_path": "Arxiv-NLP/2502.20046/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.20034": {
+      "json_path": "Arxiv-NLP/2502.20034/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19982": {
+      "json_path": "Arxiv-NLP/2502.19982/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19981": {
+      "json_path": "Arxiv-NLP/2502.19981/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19965": {
+      "json_path": "Arxiv-NLP/2502.19965/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19954": {
+      "json_path": "Arxiv-NLP/2502.19954/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19953": {
+      "json_path": "Arxiv-NLP/2502.19953/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19941": {
+      "json_path": "Arxiv-NLP/2502.19941/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19917": {
+      "json_path": "Arxiv-NLP/2502.19917/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19883": {
+      "json_path": "Arxiv-NLP/2502.19883/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19870": {
+      "json_path": "Arxiv-NLP/2502.19870/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19860": {
+      "json_path": "Arxiv-NLP/2502.19860/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19856": {
+      "json_path": "Arxiv-NLP/2502.19856/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19852": {
+      "json_path": "Arxiv-NLP/2502.19852/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19830": {
+      "json_path": "Arxiv-NLP/2502.19830/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19820": {
+      "json_path": "Arxiv-NLP/2502.19820/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19784": {
+      "json_path": "Arxiv-NLP/2502.19784/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19779": {
+      "json_path": "Arxiv-NLP/2502.19779/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19773": {
+      "json_path": "Arxiv-NLP/2502.19773/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19765": {
+      "json_path": "Arxiv-NLP/2502.19765/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19756": {
+      "json_path": "Arxiv-NLP/2502.19756/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19749": {
+      "json_path": "Arxiv-NLP/2502.19749/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19747": {
+      "json_path": "Arxiv-NLP/2502.19747/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19737": {
+      "json_path": "Arxiv-NLP/2502.19737/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19735": {
+      "json_path": "Arxiv-NLP/2502.19735/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19732": {
+      "json_path": "Arxiv-NLP/2502.19732/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19731": {
+      "json_path": "Arxiv-NLP/2502.19731/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19726": {
+      "json_path": "Arxiv-NLP/2502.19726/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19723": {
+      "json_path": "Arxiv-NLP/2502.19723/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19722": {
+      "json_path": "Arxiv-NLP/2502.19722/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19721": {
+      "json_path": "Arxiv-NLP/2502.19721/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19684": {
+      "json_path": "Arxiv-NLP/2502.19684/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19676": {
+      "json_path": "Arxiv-NLP/2502.19676/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19669": {
+      "json_path": "Arxiv-NLP/2502.19669/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19668": {
+      "json_path": "Arxiv-NLP/2502.19668/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19655": {
+      "json_path": "Arxiv-NLP/2502.19655/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19622": {
+      "json_path": "Arxiv-NLP/2502.19622/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19614": {
+      "json_path": "Arxiv-NLP/2502.19614/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19612": {
+      "json_path": "Arxiv-NLP/2502.19612/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19607": {
+      "json_path": "Arxiv-NLP/2502.19607/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19590": {
+      "json_path": "Arxiv-NLP/2502.19590/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19587": {
+      "json_path": "Arxiv-NLP/2502.19587/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19582": {
+      "json_path": "Arxiv-NLP/2502.19582/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19573": {
+      "json_path": "Arxiv-NLP/2502.19573/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19559": {
+      "json_path": "Arxiv-NLP/2502.19559/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19557": {
+      "json_path": "Arxiv-NLP/2502.19557/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19548": {
+      "json_path": "Arxiv-NLP/2502.19548/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19546": {
+      "json_path": "Arxiv-NLP/2502.19546/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19545": {
+      "json_path": "Arxiv-NLP/2502.19545/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19529": {
+      "json_path": "Arxiv-NLP/2502.19529/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2502.19500": {
+      "json_path": "Arxiv-NLP/2502.19500/gpt-4o-mini.json",
+      "first_image": null
+    },
     "2502.19416": {
       "json_path": "Arxiv-NLP/2502.19416/gpt-4o-mini.json",
       "first_image": "Arxiv-NLP/2502.19416/images/_page_2_Figure_0.jpeg"
@@ -2941,6 +3801,10 @@
     "2502.19148": {
       "json_path": "Arxiv-NLP/2502.19148/gpt-4o-mini.json",
       "first_image": "Arxiv-NLP/2502.19148/images/_page_1_Figure_1.jpeg"
+    },
+    "2502.19130": {
+      "json_path": "Arxiv-NLP/2502.19130/gpt-4o-mini.json",
+      "first_image": null
     },
     "2502.19127": {
       "json_path": "Arxiv-NLP/2502.19127/gpt-4o-mini.json",
@@ -6076,6 +6940,50 @@
     }
   },
   "Arxiv-Sound": {
+    "2502.20325": {
+      "json_path": "Arxiv-Sound/2502.20325/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.20325/images/_page_0_Picture_7.jpeg"
+    },
+    "2502.20311": {
+      "json_path": "Arxiv-Sound/2502.20311/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.20311/images/_page_3_Figure_21.jpeg"
+    },
+    "2502.20225": {
+      "json_path": "Arxiv-Sound/2502.20225/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.20225/images/_page_1_Figure_0.jpeg"
+    },
+    "2502.20176": {
+      "json_path": "Arxiv-Sound/2502.20176/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.20176/images/_page_2_Figure_0.jpeg"
+    },
+    "2502.20067": {
+      "json_path": "Arxiv-Sound/2502.20067/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.20067/images/_page_3_Figure_0.jpeg"
+    },
+    "2502.20040": {
+      "json_path": "Arxiv-Sound/2502.20040/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.20040/images/_page_2_Figure_16.jpeg"
+    },
+    "2502.19924": {
+      "json_path": "Arxiv-Sound/2502.19924/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.19924/images/_page_1_Figure_0.jpeg"
+    },
+    "2502.19906": {
+      "json_path": "Arxiv-Sound/2502.19906/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.19906/images/_page_1_Figure_0.jpeg"
+    },
+    "2502.19759": {
+      "json_path": "Arxiv-Sound/2502.19759/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.19759/images/_page_2_Figure_0.jpeg"
+    },
+    "2502.19548": {
+      "json_path": "Arxiv-Sound/2502.19548/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.19548/images/_page_0_Figure_10.jpeg"
+    },
+    "2502.19444": {
+      "json_path": "Arxiv-Sound/2502.19444/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2502.19444/images/_page_2_Figure_15.jpeg"
+    },
     "2502.18952": {
       "json_path": "Arxiv-Sound/2502.18952/gpt-4o-mini.json",
       "first_image": "Arxiv-Sound/2502.18952/images/_page_3_Figure_1.jpeg"

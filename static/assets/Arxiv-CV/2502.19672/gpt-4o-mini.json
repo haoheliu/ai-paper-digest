@@ -1,0 +1,21 @@
+{
+    "title": "Improving Adversarial Transferability in MLLMs via Dynamic Vision-Language Alignment Attack",
+    "author": "Chenhe Gu (University of California, Irvine), Jindong Gu (University of Oxford), Andong Hua (University of California, Santa Barbara), Yao Qin (University of California, Santa Barbara), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a novel attack method that enhances transferability of adversarial examples across Multimodal Large Language Models (MLLMs). This could inform future research on robust audio-text alignment and adversarial robustness in audio applications.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The study focuses on enhancing the resilience of Multimodal Large Language Models against adversarial attacks by improving the transferability of inputs designed to deceive the models.",
+    "contribution": "The paper introduces the Dynamic Vision-Language Alignment Attack, which dynamically perturbs vision-language modality alignment in MLLMs to achieve improved adversarial transferability.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on static visual perturbations or optimizations tied to a single alignment in MLLMs, limiting their ability to generalize across different models.",
+        "novelty": "This method enhances transferability by applying dynamic perturbations in the attention mechanisms, enabling varied alignments within the vision-language connector."
+    },
+    "key_innovation": "The use of Gaussian kernel perturbations to alter the attention map in real-time allows the model to focus dynamically on different image regions without changing the visual content.",
+    "real_world_impact": "The findings pose significant security implications for the deployment of MLLMs in real-world applications, underscoring the need for resilient models against adversarial manipulations.",
+    "limitations": "The authors note challenges in attacking models with significantly different architectures from the surrogate model used for generating adversarial examples.",
+    "new_terms": {
+        "Dynamic Vision-Language Alignment Attack": "**Dynamic Vision-Language Alignment Attack** is an adversarial attack strategy that modifies attention mechanisms in multimodal models to enhance adversarial example transferability."
+    },
+    "open_sourcing": ""
+}

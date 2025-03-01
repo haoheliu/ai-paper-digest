@@ -1,0 +1,22 @@
+{
+    "title": "Filtro Adaptativo y M\u00f3dulo de Grabaci\u00f3n en Dispositivo Para Mejora en la Calidad de Audici\u00f3n",
+    "author": "Carlos Elihu Palomino Torres, Francisco Claudio Chichipe Mondrag\u00f3n, Frank Antonio Siesquen Rodriguez, Mariana Alexandra Huaynate Le\u00f3n",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "This work presents a real-time auditory enhancement system using adaptive filters and artificial intelligence, which aligns with audio enhancement research and techniques that could be applicable to Haohe Liu's projects on audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a real-time hearing aid device that uses adaptive filtering to improve sound clarity by minimizing background noise.",
+    "contribution": "This project introduces an ESP32-based adaptive filtering device to enhance auditory perception in noisy environments, achieving clearer sound output.",
+    "technical_comparison": {
+        "prior_work": "Previous systems often lacked real-time adaptability or relied on fixed parameters, limiting their effectiveness in varying acoustic environments.",
+        "novelty": "This work employs a Least Mean Squares (LMS) adaptive filter that adjusts dynamically, improving the clarity of speech without manual intervention."
+    },
+    "key_innovation": "Dynamic adaptation of an LMS filtering algorithm integrated into a portable device for real-time noise suppression.",
+    "real_world_impact": "This technology can significantly enhance the quality of life for individuals with hearing impairments, improving communication in noisy settings. It represents a step towards more adaptive and accessible hearing aids.",
+    "limitations": "The effectiveness may vary in extreme acoustic conditions where noise patterns are highly variable, and the ESP32's processing power may limit filter complexity.",
+    "new_terms": {
+        "Least Mean Squares (LMS)": "**Least Mean Squares (LMS)** is an adaptive filtering algorithm that iteratively adjusts filter coefficients to minimize the difference between a desired signal and the actual output.",
+        "I2S": "**I2S** is a serial bus interface standard that connects digital audio devices, enabling low-latency data transfer."
+    },
+    "open_sourcing": ""
+}

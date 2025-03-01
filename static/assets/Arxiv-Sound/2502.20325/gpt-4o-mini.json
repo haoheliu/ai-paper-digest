@@ -1,0 +1,22 @@
+{
+    "title": "On Adversarial Attacks In Acoustic Drone Localization",
+    "author": "Tamir Shor (Technion \u2013 Israel Institute of Technology), Chaim Baskin (Ben-Gurion University of the Negev), Alex Bronstein (Technion \u2013 Israel Institute of Technology), ..., Alex Bronstein (Institute of Science and Technology, Austria)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses adversarial attacks in acoustic localization which could inform similar vulnerabilities and defenses in audio-speech systems, particularly in drone navigation and sound capture.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating how adversarial audio signals can disrupt drone localization, which relies on acoustic sensing systems rather than visual cues.",
+    "contribution": "This paper introduces a framework to analyze and mitigate adversarial attacks on acoustic drone localization, achieving significant localization recovery from adversarial noise.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused primarily on visual adversarial attacks, lacking techniques related to acoustic sensing and its vulnerabilities.",
+        "novelty": "This work extends the adversarial attack framework to acoustic systems, proposing robust algorithms for acoustic perturbation recovery."
+    },
+    "key_innovation": "Develops a novel defense mechanism using phase modulation to recover original sound signals, effectively distinguishing adversarial noise.",
+    "real_world_impact": "Enhancing the safety and reliability of drone operations in real-world environments by addressing vulnerabilities to acoustic adversarial attacks can have wide implications in sectors like delivery and emergency services.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "adversarial attacks": "**Adversarial attacks** are malicious modifications to input data intended to deceive machine learning models into making incorrect predictions.",
+        "acoustic localization": "**Acoustic localization** refers to determining the position of sound sources using measurements from microphones, often affected by environmental factors."
+    },
+    "open_sourcing": "The code for reproducing all experiments will be released upon publication."
+}

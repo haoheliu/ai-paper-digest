@@ -1,0 +1,22 @@
+{
+    "title": "Does Your Voice Assistant Remember? Analyzing Conversational Context Recall and Utilization in Voice Interaction Models",
+    "author": "Heeseung Kim (Seoul National University), Che Hyun Lee (Seoul National University), Sangkwon Park (Seoul National University), Jiheum Yeom (Seoul National University), Nohil Park (Seoul National University), Sangwon Yu (Seoul National University), Sungroh Yoon (Seoul National University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The analysis of conversational context recall in voice interaction models provides insights applicable to multimodal audio generation and improved interaction quality in AI systems, which could enhance Haohe's research in audio processing and generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating how well voice interaction models can remember and utilize previous utterances in multi-turn conversations is essential for improving their effectiveness in real-world applications.",
+    "contribution": "The paper introduces the ContextDialog benchmark to evaluate open-source voice interaction models' ability to recall and utilize conversational context effectively, demonstrating existing limitations and areas for improvement.",
+    "technical_comparison": {
+        "prior_work": "Previous voice interaction models primarily focused on single-turn interactions, often neglecting the retention of multi-turn dialog context.",
+        "novelty": "This work identifies and quantifies the challenges of open-source models in retaining contextual information from speech, a gap not adequately addressed by existing benchmarks."
+    },
+    "key_innovation": "ContextDialog provides a structured approach to assess the memory capabilities of voice assistants for past conversations, thereby informing enhancements in model design.",
+    "real_world_impact": "By improving the context recall in voice assistants, this work may lead to more intuitive and effective user interactions, enhancing the practicality of AI in daily communication scenarios.",
+    "limitations": "The paper does not extensively analyze models that operate without intermediate text processing or the impact of latency in using retrieval-enhanced generation.",
+    "new_terms": {
+        "ContextDialog": "**ContextDialog** is a benchmark specifically designed to evaluate how well voice interaction models can utilize past dialog history in multi-turn conversations.",
+        "retrieval-augmented generation (RAG)": "**Retrieval-augmented generation (RAG)** combines retrieval methods with generative models to enhance the output by using relevant past data, addressing information gaps during conversation."
+    },
+    "open_sourcing": "The ContextDialog benchmark is available at [https://huggingface.co/datasets/ContextDialog](https://huggingface.co/datasets/ContextDialog)."
+}

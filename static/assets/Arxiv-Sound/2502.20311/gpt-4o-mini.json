@@ -1,0 +1,21 @@
+{
+    "title": "Adapting Automatic Speech Recognition for Accented Air Traffic Control Communications",
+    "author": "Marcus Yu Zhe Wee (RSAF Agile Innovation Digital), Justin Juin Hng Wong (RSAF Agile Innovation Digital), Lynus Lim (RSAF Agile Innovation Digital), Joe Yu Wei Tan (RSAF Agile Innovation Digital), Prannaya Gupta (RSAF Agile Innovation Digital), Dillion Lim (RSAF Agile Innovation Digital), En Hao Tew (RSAF Agile Innovation Digital), Aloysius Keng Siew Han (RSAF Agile Innovation Digital), Yong Zhi Lim (RSAF Agile Innovation Digital), ..., Marcus Yu Zhe Wee (RSAF Agile Innovation Digital)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The research directly addresses Automatic Speech Recognition (ASR) challenges in accent adaptation, which aligns well with audio and speech processing methods in Haohe Liu's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on enhancing speech recognition systems to accurately transcribe Air Traffic Control communications characterized by Southeast Asian accents, specifically under noisy conditions.",
+    "contribution": "This study introduces an accent-specific fine-tuning approach for Automatic Speech Recognition models targeting Southeast Asian-accented speech, achieving a Word Error Rate of 9.82%.",
+    "technical_comparison": {
+        "prior_work": "Previous ASR models struggled to transcribe accented speech, particularly in noisy environments, and lacked region-specific datasets.",
+        "novelty": "The introduction of a new dataset and tailored training techniques significantly improves transcription accuracy compared to existing models."
+    },
+    "key_innovation": "Utilizes region-specific datasets and noise-resilient training strategies to enhance transcription performance for Southeast Asian accents.",
+    "real_world_impact": "The findings can improve the safety and efficiency of military operations by enabling more accurate transcriptions in complex communication environments like Air Traffic Control.",
+    "limitations": "The study primarily focuses on Southeast Asian accents, which may limit the generalizability of the results to other non-Western accents.",
+    "new_terms": {
+        "Word Error Rate": "**Word Error Rate (WER)** is a common metric used to evaluate the accuracy of Automatic Speech Recognition systems by measuring the percentage of words that are incorrectly predicted."
+    },
+    "open_sourcing": ""
+}

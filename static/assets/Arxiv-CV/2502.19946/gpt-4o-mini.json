@@ -1,0 +1,22 @@
+{
+    "title": "Space Rotation with Basis Transformation for Training-free Test-Time Adaptation",
+    "author": "Chenhao Ding (Xi'an Jiaotong University), Xinyuan Gao (Xi'an Jiaotong University), Songlin Dong (Xi'an Jiaotong University), Yuhang He (Xi'an Jiaotong University), Qiang Wang (Xi'an Jiaotong University), Xiang Song (Xi'an Jiaotong University), Alex Kot (Nanyang Technological University), Yihong Gong (Xi'an Jiaotong University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The method proposed in this paper could potentially apply to the audio domain by enhancing model adaptability to unseen audio conditions, thereby benefiting tasks in audio generation and enhancements.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Training-free test-time adaptation aims to modify a model's performance on new types of data during inference without additional training.",
+    "contribution": "This paper introduces a training-free feature space rotation with basis transformation to solve adaptation issues in testing, achieving improved classification accuracy on out-of-distribution datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for test-time adaptation often require intensive computational resources or rely on the original feature space for prediction, which can limit their effectiveness.",
+        "novelty": "This work enhances the original feature space by reconstructing it into a new representation to improve class distinction and efficiency during inference."
+    },
+    "key_innovation": "Utilizes basis transformation techniques to convert a nonlinear decision boundary into a linear one, improving feature separability and enabling better guidance during test-time inference.",
+    "real_world_impact": "The method shows promise for rapid adaptation to various testing conditions, which can enhance real-world applications like autonomous systems and dynamic environments without the need for extensive retraining.",
+    "limitations": "The effectiveness heavily relies on the quality of pseudo-labels generated from initial predictions, which may not always be accurate.",
+    "new_terms": {
+        "basis transformation": "**Basis transformation** refers to the process of changing the coordinate system used to represent data, which can improve the linear separability of classes in a dataset.",
+        "feature space rotation": "**Feature space rotation** involves altering the geometric representation of data in its feature space to facilitate better classification or regression performance."
+    },
+    "open_sourcing": ""
+}
