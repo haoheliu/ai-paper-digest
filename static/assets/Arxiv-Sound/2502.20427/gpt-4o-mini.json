@@ -1,0 +1,22 @@
+{
+    "title": "DeePen: Penetration Testing for Audio Deepfake Detection",
+    "author": "Nicolas M. Muller (Fraunhofer AISEC), Piotr Kawa (Wroc\u0142aw University of Science and Technology), Adriana Stan (Technical University of Cluj-Napoca), Thien-Phuc Doan (AISRC, Soongsil University), Souhwan Jung (AISRC, Soongsil University), Wei Herng Choong (Fraunhofer AISEC), Philip Sperl (Fraunhofer AISEC), Konstantin Bottinger (Fraunhofer AISEC), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses vulnerabilities in audio deepfake detection systems, which can inform and enhance Dr. Liu's research on audio quality enhancement and the generation of realistic audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research focuses on testing the resilience of audio deepfake detection models against various audio modifications to identify their vulnerabilities.",
+    "contribution": "DeePen introduces a systematic methodology for evaluating audio deepfake detection models' robustness, revealing multiple vulnerabilities and demonstrating accessible audio manipulation techniques.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked a structured approach to extensively test the robustness of detection systems against various realistic audio manipulations.",
+        "novelty": "This study employs an open-source tool to simulate real-world attacks on detection models without requiring insider knowledge of their architectures."
+    },
+    "key_innovation": "DeePen offers a comprehensive suite of audio modifications categorized as attacks, alongside a robust evaluation framework that reveals model vulnerabilities.",
+    "real_world_impact": "The findings emphasize the need for continual advancements in audio deepfake detection technologies, which are critical for maintaining trust in media integrity and security across various sectors.",
+    "limitations": "While some attacks can be mitigated by retraining, others remain effective, signaling the challenge of developing truly robust detection systems.",
+    "new_terms": {
+        "deepfake": "**Deepfake** refers to synthesized audio or video content that manipulates or fabricates reality, often used maliciously.",
+        "penetration testing": "**Penetration testing** is a simulated cyber attack against a system to evaluate its security and identify vulnerabilities."
+    },
+    "open_sourcing": "All associated code is available at https://github.com/Fraunhofer-AISEC/DeePen"
+}

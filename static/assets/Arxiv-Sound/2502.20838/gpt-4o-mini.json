@@ -1,0 +1,21 @@
+{
+    "title": "Weakly Supervised Multiple Instance Learning for Whale Call Detection and Localization in Long-Duration Passive Acoustic Monitoring",
+    "author": "Ragib Amin Nihal (Institute of Science Tokyo), Benjamin Yen (Institute of Science Tokyo), Runwu Shi (Institute of Science Tokyo), Kazuhiro Nakadai (Institute of Science Tokyo), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on weakly supervised learning for audio detection and localization is relevant to Haohe Liu's research in audio processing, particularly in the domain of using deep learning for tasks such as speech enhancement and audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task setting involves detecting and localizing whale calls in long-duration underwater recordings using weakly labeled data, which simplifies the annotation process.",
+    "contribution": "This paper introduces DSMIL-LocNet, a Multiple Instance Learning framework that effectively processes long-duration audio to achieve whale call detection and localization with only bag-level labels.",
+    "technical_comparison": {
+        "prior_work": "Existing techniques often require precise instance-level labels and focus on short audio segments, limiting their applicability to long recordings.",
+        "novelty": "This work improves by leveraging a dual-stream architecture that incorporates temporal context and attention mechanisms to enhance both classification and temporal localization."
+    },
+    "key_innovation": "Utilizes a dual-stream Multiple Instance Learning approach to achieve simultaneous detection and localization of whale calls without requiring detailed annotations.",
+    "real_world_impact": "The method holds potential for improving automated marine monitoring systems, facilitating more efficient monitoring of marine ecosystems and the conservation of whale species.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "Multiple Instance Learning": "**Multiple Instance Learning** is a type of machine learning where the training data is labeled at a higher level (e.g., bags of instances) rather than at the instance level."
+    },
+    "open_sourcing": "Code: [https://github.com/Ragib-Amin-Nihal/DSMIL-Loc](https://github.com/Ragib-Amin-Nihal/DSMIL-Loc)"
+}

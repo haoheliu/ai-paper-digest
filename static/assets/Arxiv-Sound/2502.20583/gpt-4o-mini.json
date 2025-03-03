@@ -1,0 +1,22 @@
+{
+    "title": "LITEASR: Efficient Automatic Speech Recognition with Low-Rank Approximation",
+    "author": "Keisuke Kamahori (University of Washington), Jungo Kasai (Kotoba Technologies Inc.), Noriyuki Kojima (Kotoba Technologies Inc.), Baris Kasikci (University of Washington), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper explores low-rank approximations in Automatic Speech Recognition (ASR) models, which could inform Haohe Liu's work on speech processing and model efficiency.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on improving the efficiency of Automatic Speech Recognition systems by compressing the computational demands of the encoder layer through low-rank approximations.",
+    "contribution": "LITEASR introduces a low-rank compression method for ASR encoders, achieving over 50% size reduction while maintaining or improving transcription accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused mainly on compressing ASR decoders but neglected the encoder, which can be computationally intensive and a significant bottleneck.",
+        "novelty": "This work employs principal component analysis to approximate dense linear transformations with low-rank matrix multiplications, thus optimizing both the model size and computational efficiency."
+    },
+    "key_innovation": "Utilizes low-rank approximation based on the observed properties of intermediate activations during inference, significantly reducing inference costs while preserving accuracy.",
+    "real_world_impact": "This approach can enhance the deployment feasibility of ASR systems in real-time applications, such as voice assistants and live transcription, making them more efficient and user-friendly.",
+    "limitations": "The framework primarily addresses linear layers and self-attention, potentially leaving room for improvements in architectures that use additional components like convolutions.",
+    "new_terms": {
+        "low-rank approximation": "**Low-rank approximation** refers to reducing the dimensionality of data matrices to capture the most significant features, which helps in model compression and improving computational efficiency.",
+        "principal component analysis (PCA)": "**Principal component analysis** is a statistical technique used to simplify high-dimensional data by transforming it into a new set of variables, which are orthogonal and ranked according to variance."
+    },
+    "open_sourcing": "The code of LITEASR is available at https://github.com/efeslab/LiteASR"
+}
