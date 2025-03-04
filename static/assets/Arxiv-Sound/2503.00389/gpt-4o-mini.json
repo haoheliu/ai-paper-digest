@@ -1,0 +1,22 @@
+{
+    "title": "BGM2Pose: Active 3D Human Pose Estimation with Non-Stationary Sounds",
+    "author": "Yusuke Oumi (Keio University), Yoshimitsu Aoki (Keio University), Go Irie (Tokyo University of Science), Mariko Isogawa (Keio University, JST Presto), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's focus on acoustic-based human pose estimation can inform methodologies for audio signal processing and enhancement, relevant to Haohe Liu's work in music source separation and audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Estimating 3D human poses using common background music as non-invasive active sensing signals.",
+    "contribution": "BGM2Pose introduces a framework that uses standard background music for 3D human pose estimation, achieving significantly better accuracy than prior methods using intrusive chirp signals.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on chirp signals that are uncomfortable and impractical for continuous use in everyday environments.",
+        "novelty": "This work improves by effectively leveraging background music, thus enhancing user comfort while maintaining robust pose accuracy."
+    },
+    "key_innovation": "Integrates a Contrastive Pose Extraction Module and a Frequency-wise Attention Module to isolate pose information amidst the dynamic changes of the background music.",
+    "real_world_impact": "The approach holds promise for real-world applications in environments where traditional video recording is unfeasible or intrusive, due to its potential for comfort and unobtrusiveness.",
+    "limitations": "The system requires subjects to be in line of sight of speakers and microphones, which can limit its application in varied real-world settings.",
+    "new_terms": {
+        "Contrastive Pose Extraction Module": "**Contrastive Pose Extraction Module** is a novel component that utilizes contrastive learning techniques to isolate the acoustic signals related to human poses from background sounds.",
+        "Frequency-wise Attention Module": "**Frequency-wise Attention Module** is an advanced component that dynamically identifies the relevant frequency bands in the audio signal that correspond to human movement for improved pose estimation."
+    },
+    "open_sourcing": "The datasets and code will be made publicly available."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Exploiting Vulnerabilities in Speech Translation Systems through Targeted Adversarial Attacks",
+    "author": "Chang Liu (University of Science and Technology of China), Haolin Wu (Wuhan University), Xi Yang (The Hong Kong University of Science and Technology), Kui Zhang (Huawei Noah's Ark Lab), Cong Wu (Nanyang Technological University), Weiming Zhang (University of Science and Technology of China), Nenghai Yu (University of Science and Technology of China), Tianwei Zhang (Nanyang Technological University), Qing Guo (CFAR and IHPC, A*STAR), Jie Zhang (CFAR and IHPC, A*STAR)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents innovative adversarial attack techniques which could potentially apply to audio and speech models, informing strategies for resilience in such systems that Haohe Liu is interested in.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper investigates how minor manipulations in audio can mislead speech translation systems to generate incorrect translations, uncovering their vulnerabilities.",
+    "contribution": "This paper introduces two targeted adversarial attack methods to exploit speech translation systems, achieving significant misdirection in model outputs across multiple languages.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on isolating attacks on Automatic Speech Recognition (ASR) systems or Voice Conversion without addressing speech translation's unique challenges.",
+        "novelty": "This work enhances adversarial methodologies for direct integration of speech-to-speech translation systems, broadening the scope of adversarial attacks in practice."
+    },
+    "key_innovation": "It creatively applies background music and imperceptible audio perturbations as covert attack vectors to disrupt translation systems.",
+    "real_world_impact": "The findings raise important concerns about the reliability of automated translation in critical contexts, emphasizing the need for improved defenses. Addressing these vulnerabilities is crucial for real-world applications like international communications.",
+    "limitations": "The paper does not cover defenses or countermeasures against the proposed attacks.",
+    "new_terms": {
+        "targeted adversarial attacks": "**Targeted adversarial attacks** refer to attacks designed to manipulate model outputs towards specific, predetermined outcomes.",
+        "Multi-language Enhancement": "**Multi-language Enhancement** is a technique that optimizes adversarial perturbations across different target languages to improve the effectiveness of attacks."
+    },
+    "open_sourcing": "More details and samples can be found at https://adv-st.github.io."
+}

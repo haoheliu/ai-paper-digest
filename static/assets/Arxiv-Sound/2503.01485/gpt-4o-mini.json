@@ -1,0 +1,22 @@
+{
+    "title": "FLOWDEC: A FLOW-BASED FULL-BAND GENERAL AUDIO CODEC WITH HIGH PERCEPTUAL QUALITY",
+    "author": "Simon Welker (University of Hamburg), Matthew Le (Meta), Ricky T.Q. Chen (Meta), Wei-Ning Hsu (Meta), Timo Gerkmann (University of Hamburg), Alexander Richard (Meta), Yi-Chiao Wu (Meta), ...,",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "FlowDec introduces a novel audio codec utilizing flow-based generative models, which can enhance audio quality applications in Haohe Liu's research, particularly in low-bitrate audio coding and audio quality improvement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing an audio codec that compresses and reconstructs quality audio signals at low bitrates while maintaining high perceptual quality.",
+    "contribution": "This paper introduces FlowDec to solve the problem of high-quality audio coding at low bitrates, achieving competitive performance against state-of-the-art GAN-based models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like ScoreDec focused on speech and required around 60 deep neural network evaluations at real-time factors unsuitable for practical applications.",
+        "novelty": "The proposed FlowDec reduces the required evaluations to as low as 6 while extending capabilities to full-band general audio beyond just speech and further lowering bitrates."
+    },
+    "key_innovation": "FlowDec uses a novel adaptation of conditional flow matching for audio enhancement, which significantly minimizes inference complexity and maintains audio fidelity.",
+    "real_world_impact": "FlowDec has potential applications in mobile communications and live video streaming, providing a more efficient audio codec for real-time applications with high audio quality.",
+    "limitations": "No",
+    "new_terms": {
+        "conditional flow matching": "**Conditional flow matching** is a technique that aligns generated audio samples with the characteristics of clean audio samples to achieve better perceptual quality.",
+        "bitrate": "**Bitrate** refers to the number of bits that are processed or transmitted in a given amount of time, affecting the audio quality and size of digital media."
+    },
+    "open_sourcing": "The code and pretrained model checkpoints for FlowDec are available on GitHub at https://github.com/facebookresearch/FlowDec."
+}

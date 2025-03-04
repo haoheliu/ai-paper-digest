@@ -1,0 +1,22 @@
+{
+    "title": "Streaming Piano Transcription Based on Consistent Onset and Offset Decoding with Sustain Pedal Detection",
+    "author": "Weixing Wei (Graduate School of Informatics, Kyoto University, Japan), Jiahao Zhao (Graduate School of Informatics, Kyoto University, Japan), Yulun Wu (School of Computer Science and Technology, Fudan University, China), Kazuyoshi Yoshii (Graduate School of Engineering, Kyoto University, Japan), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper discusses an innovative encoding-decoding architecture for music transcription, which could inspire methods in audio generation or enhancement tasks that require precise temporal event detection.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automatic music transcription (AMT) is the process of converting live or recorded music performances into a symbolic score, requiring accurate detection of note onset and offset events.",
+    "contribution": "This paper introduces a streaming encoder-decoder model to solve the limitations of prior AMT methods, achieving a competitive performance in real-time transcription.",
+    "technical_comparison": {
+        "prior_work": "Prior methods often struggled with precisely matching note onset and offset events due to their mixed detection approach.",
+        "novelty": "This work improves by utilizing separate transformers for onset and offset detection along with sustain pedal validation for higher accuracy."
+    },
+    "key_innovation": "The dual-decoder approach separately addresses onsets and offsets while considering sustain pedal status, leading to more accurate piano transcription.",
+    "real_world_impact": "The proposed method could enhance real-time music applications such as interactive performances and automatic accompaniment, improving user experience significantly.",
+    "limitations": "No explicit limitations were discussed by the authors.",
+    "new_terms": {
+        "sustain pedal": "**Sustain pedal** is a component in piano performance that allows notes to sound longer than they are played by maintaining note pressure even after the keys are released.",
+        "encoder-decoder architecture": "**Encoder-decoder architecture** refers to a neural network framework that transforms an input sequence (like audio spectrograms) into an output sequence (like MIDI events) using two separate networks."
+    },
+    "open_sourcing": ""
+}

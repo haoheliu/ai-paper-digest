@@ -1,0 +1,21 @@
+{
+    "title": "Synthetic data enables context-aware bioacoustic sound event detection",
+    "author": "Benjamin Hoffman (Earth Species Project), David Robinson (Universidad de Leon), Marius Miron (University of California Berkeley), Vittorio Baglione (Universidad de Valladolid), Daniela Canestrari (Universidad de Valladolid), Damian Elias (University of California Berkeley), Eva Trapote (Universidad de Leon), ..., Olivier Pietquin (Earth Species Project)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper discusses few-shot bioacoustic sound event detection and introduces a methodology that integrates synthetic data generation with transformer models. This could inform Haohe's exploration into scalable audio models in diverse applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "Few-shot bioacoustic sound event detection: detect the occurrence of animal sounds in recordings by using only a few labeled examples as references.",
+    "contribution": "This paper introduces a domain-randomization-based pipeline for creating synthetic training data to enhance few-shot detection capabilities, achieving a 49% improvement over previous methods.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for bioacoustic detection often rely on small datasets that limit performance.",
+        "novelty": "This work utilizes synthetic scene generation with diverse and temporally strong labels, significantly expanding training data for existing models."
+    },
+    "key_innovation": "The method uniquely combines synthetic data generation and transformer-based model training to improve detection accuracy in bioacoustic tasks.",
+    "real_world_impact": "By providing a training-free tool for ecologists and researchers, this approach could facilitate broader conservation efforts by making bioacoustic detection more accessible.",
+    "limitations": "Potential limitations include the reliance on synthetic data which might not fully capture the complexities of real-world bioacoustic environments.",
+    "new_terms": {
+        "domain randomization": "**Domain randomization** is a technique where various attributes of synthetic data are altered to create diverse training examples, helping models generalize better to real-world data."
+    },
+    "open_sourcing": "The trained model and scene generator are made publicly available via an API for broader access."
+}

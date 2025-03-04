@@ -1,0 +1,21 @@
+{
+    "title": "Acoustic Anomaly Detection on UAM Propeller Defect",
+    "author": "Juho Lee (Korea University), Donghyun Yoon (Korea Advanced Institute of Science and Technology), Gumoon Jeong (Korea Airforce Academy), Hyeoncheol Kim (Korea University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses a methodology for non-destructive defect detection using acoustic signals, which aligns closely with audio anomaly detection techniques beneficial for Haohe's focus on audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to detect cracks in Urban Air Mobility (UAM) propellers by analyzing drone propeller sounds to enhance maintenance systems.",
+    "contribution": "This paper introduces a novel anomaly detection framework that leverages both Fast Fourier Transform and Short-Time Fourier Transform techniques to detect defects in UAM propellers via acoustic signals.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches mainly rely on either Fast Fourier Transform or Short-Time Fourier Transform alone for signal analysis.",
+        "novelty": "This work improves by combining both techniques to capture comprehensive frequency patterns and time-frequency variations, enhancing detection accuracy."
+    },
+    "key_innovation": "The fusion of FFT and STFT preprocessing techniques allows for a more effective acoustic pattern recognition, capable of identifying subtle defects.",
+    "real_world_impact": "The findings have the potential to significantly improve the maintenance protocols of UAM systems, ensuring higher safety standards in urban air travel.",
+    "limitations": "The study does not address noise interference from various environments, which may affect detection accuracy.",
+    "new_terms": {
+        "Urban Air Mobility (UAM)": "**Urban Air Mobility (UAM)** refers to a new air transportation system utilizing vertical takeoff and landing aircraft for passenger or cargo transport in urban settings."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Unveiling Biases while Embracing Sustainability: Assessing the Dual Challenges of Automatic Speech Recognition Systems",
+    "author": "Ajinkya Kulkarni (IDIAP, Switzerland), Atharva Kulkarni (Erisha Labs, India), Miguel Couceiro (Universite de Lorraine, CNRS, LORIA, Nancy, France), Isabel Trancoso (INESC-ID, IST, Universidade de Lisboa, Portugal)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper's examination of biases in Automatic Speech Recognition (ASR) systems and sustainability issues could inform similar evaluations in Dr. Liu's work on speech restoration and audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper investigates biases in ASR technologies related to demographic attributes while assessing their environmental impact, focusing on performance disparities and carbon footprint.",
+    "contribution": "This paper introduces a comparative analysis of Whisper and Massively Multilingual Speech ASR systems to solve the problem of performance bias and sustainability, achieving insights into their efficacy in real-world scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous studies focused only on bias quantification or carbon emissions individually, lacking a comprehensive dual approach.",
+        "novelty": "This work provides a systematic evaluation addressing both bias and sustainability considerations, comparing performance across various demographic groups and utilizing multiple carbon tracking tools."
+    },
+    "key_innovation": "Offers an empirical analysis that integrates performance bias assessment with ecological impact metrics for ASR systems.",
+    "real_world_impact": "The findings highlight the need for sustainable practices in AI that could lead to more equitable and environmentally conscious development of ASR technologies.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a common metric used to evaluate the accuracy of speech recognition systems, calculated as the ratio of incorrectly recognized words to the total number of words.",
+        "Massively Multilingual Speech (MMS)": "**Massively Multilingual Speech (MMS)** refers to a learning project aimed at developing speech recognition technology across numerous languages."
+    },
+    "open_sourcing": ""
+}

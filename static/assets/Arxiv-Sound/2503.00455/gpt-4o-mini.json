@@ -1,0 +1,22 @@
+{
+    "title": "PodAgent: A Comprehensive Framework for Podcast Generation",
+    "author": "Yujia Xiao (The Chinese University of Hong Kong), Lei He (Microsoft), Haohan Guo (The Chinese University of Hong Kong), Fenglong Xie (Xiaohongshu Inc.), Tan Lee (The Chinese University of Hong Kong), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents an innovative framework (PodAgent) designed to generate audio programs, which aligns closely with Haohe Liu's focus on speech and audio technologies, particularly through the use of large language models and text-to-speech synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study addresses the challenge of automatically generating rich and coherent podcast content, engaging speakers, and high-quality audio by utilizing a multi-agent collaboration system.",
+    "contribution": "PodAgent introduces a multi-agent system combining Host-Guest-Writer roles to generate engaging podcast content efficiently, achieving high levels of voice matching and speech expressiveness.",
+    "technical_comparison": {
+        "prior_work": "Existing podcast generation approaches, like ChatGPT and WavJourney, often lack coherence and structured dialogue, limiting their usability in professional audio formats.",
+        "novelty": "PodAgent's multi-agent framework efficiently coordinates various inputs to create more informative dialogues and engaging speaker interactions."
+    },
+    "key_innovation": "The integration of a Host-Guest-Writer system alongside refined voice-role matching and LLM-enhanced speech synthesis to produce high-quality, coherent podcast audio.",
+    "real_world_impact": "This framework can significantly improve the efficiency and quality of audio content generation for podcasts, potentially transforming how creators produce and distribute audio content.",
+    "limitations": "Potential limitations include reliance on a fixed voice pool and challenges in expanding natural conversational styles in generated audio.",
+    "new_terms": {
+        "Host-Guest-Writer system": "**Host-Guest-Writer system** refers to a collaboration among multiple specialized roles within a framework to generate coherent and engaging dialogues in audio content.",
+        "LLM-enhanced speech synthesis": "**LLM-enhanced speech synthesis** utilizes large language models to guide the generation of speech, ensuring that the prosody and emotion align with the content's intent."
+    },
+    "open_sourcing": "Demo page: https://podcast-agent.github.io/demo/; Source code: https://github.com/yujxx/PodAgent"
+}

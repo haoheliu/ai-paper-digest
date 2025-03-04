@@ -1,0 +1,23 @@
+{
+    "title": "Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics",
+    "author": "Siddhant Arora (Carnegie Mellon University), Zhiyun Lu (Apple), Chung-Cheng Chiu (Apple), Ruoming Pang (Apple), Shinji Watanabe (Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores turn-taking capabilities in conversational AI, which is highly relevant to Haohe Liu's focus on speech, audio, and music processing, particularly in creating more interactive dialogue systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating how well audio foundation models manage turn-taking in conversations, based on their ability to predict and perform turn-taking events.",
+    "contribution": "This paper introduces an evaluation protocol for assessing audio foundation models regarding their turn-taking dynamics, achieving significant insights into their dialogue capabilities.",
+    "technical_comparison": {
+        "prior_work": "Prior methods focused mainly on corpus-level statistics for evaluating dialogue systems without considering the precise timing of turn-taking events.",
+        "novelty": "This work employs a supervised predictive model to judge turn-taking events, enhancing the evaluation accuracy by considering exact timings rather than global distributions."
+    },
+    "key_innovation": "The work's unique approach lies in establishing a precise evaluation system that incorporates a timed predictive model for evaluating audio foundation models, advancing how we assess conversational AI.",
+    "real_world_impact": "The insights from this work could lead to improvements in voice assistants and other interactive AI systems, promoting more natural and engaging human-AI interactions.",
+    "limitations": "The evaluation relies on a supervised dataset, potentially limiting its scalability and universal applicability.",
+    "new_terms": {
+        "turn-taking": "**Turn-taking** refers to the mechanism by which participants in a conversation organize who speaks when, critical for natural dialogue flow.",
+        "interruption": "**Interruption** is when one speaker starts to talk before the other has finished, often leading to overlapping speech.",
+        "backchannel": "**Backchannel** responses are short feedback cues, like 'uh-huh' or 'I see', that indicate the listener's engagement without taking the turn."
+    },
+    "open_sourcing": "The authors plan to open source their evaluation platform."
+}

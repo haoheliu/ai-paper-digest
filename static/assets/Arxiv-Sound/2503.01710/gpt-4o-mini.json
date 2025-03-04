@@ -1,0 +1,22 @@
+{
+    "title": "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens",
+    "author": "Xinsheng Wang (Hong Kong University of Science and Technology), Mingqi Jiang (SparkAudio Open Source Community), Ziyang Ma (Nanyang Technological University), Ziyu Zhang (ASLP@NPU, Northwestern Polytechnical University), Songxiang Liu (Independent Researcher), Linqin Li (Shanghai Mobvoi Information Technology Co., Ltd), Zheng Liang (Shanghai Jiao Tong University), Wei Xue (Hong Kong University of Science and Technology)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents a novel text-to-speech synthesis system, Spark-TTS, that integrates controllable attributes with high-quality speech generation. This relates to Haohe Liu's research in text-to-audio generation and could inform the development of more refined audio synthesis models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the synthesis of high-quality speech from text using machine learning models, enhancing the ability to control voice attributes like pitch and speed.",
+    "contribution": "This paper introduces Spark-TTS and BiCodec to solve the limitations of current TTS models in flexibility and complexity, achieving better speech synthesis quality with zero-shot voice cloning.",
+    "technical_comparison": {
+        "prior_work": "Previous TTS methods often relied on complex, multi-stage architectures or lacked adaptive control features for voice synthesis.",
+        "novelty": "This work simplifies the architecture with a single-stream BiCodec, enhancing both linguistic fidelity and customizable attribute control."
+    },
+    "key_innovation": "The use of a single-stream codec that separates linguistic content and speaker attributes allows for enhanced control and ease of integration within existing models.",
+    "real_world_impact": "This research has significant potential to improve personalized voice synthesis applications, such as virtual assistants or entertainment media, by allowing users to specify voice attributes easily.",
+    "limitations": "The authors mention limitations in achieving high speaker similarity compared to more complex multi-stage models, which they hope to address in future work.",
+    "new_terms": {
+        "BiCodec": "**BiCodec** is a novel tokenization framework that combines low-bitrate semantic tokens with global tokens to enable high-quality, controllable speech synthesis.",
+        "zero-shot voice cloning": "**Zero-shot voice cloning** refers to the ability to duplicate a voice's characteristics without direct training on the specific voice's audio."
+    },
+    "open_sourcing": "The source code, pre-trained models, and audio samples are available at https://github.com/SparkAudio/Spark-TTS."
+}
