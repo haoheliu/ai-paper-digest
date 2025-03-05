@@ -1,0 +1,22 @@
+{
+    "title": "Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models",
+    "author": "Zhifei Xie (Nanyang Technological University), Mingbao Lin (Skywork AI), Zihang Liu (Beijing Institute of Technology), Pengcheng Wu (Nanyang Technological University), Shuicheng Yan (National University of Singapore), Chunyan Miao (Nanyang Technological University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper focuses on enhancing reasoning capabilities in audio tasks, which aligns closely with Haohe Liu's interests in audio modeling and applications in speech and music.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study develops a language model for audio reasoning, enabling complex reasoning tasks based on audio signals and textual queries.",
+    "contribution": "Audio-Reasoner introduces a scalable training method and a comprehensive dataset, CoTA, to improve logical reasoning in audio tasks, achieving state-of-the-art performance across several benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous large audio models lack structured reasoning abilities and often struggle with complex queries due to simplistic datasets.",
+        "novelty": "This work improves by integrating a structured chain-of-thought reasoning approach and a high-quality diverse dataset to enhance the model's performance on audio reasoning tasks."
+    },
+    "key_innovation": "The introduction of the CoTA dataset and a structured reasoning framework allows for more comprehensive audio understanding and long-context reasoning.",
+    "real_world_impact": "The advancements could significantly enhance applications in speech recognition, emotion detection, and other areas that rely on nuanced audio comprehension.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "chain-of-thought (CoT)": "**Chain-of-thought (CoT)** refers to a structured reasoning technique that breaks down complex tasks into sequential logical steps, enhancing comprehension and accuracy in problem-solving.",
+        "large audio language models (LALMs)": "**Large audio language models (LALMs)** are advanced computational models designed to understand and generate responses to audio inputs by integrating language processing capabilities."
+    },
+    "open_sourcing": ""
+}

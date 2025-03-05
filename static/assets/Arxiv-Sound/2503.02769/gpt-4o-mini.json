@@ -1,0 +1,22 @@
+{
+    "title": "InSerter: Speech Instruction Following with Unsupervised Interleaved Pre-training",
+    "author": "Dingdong Wang (The Chinese University of Hong Kong), Jin Xu (Alibaba Group), Ruihang Chu (The Chinese University of Hong Kong), Zhifang Guo, Xiong Wang, Jincenzi Wu (The Chinese University of Hong Kong), Dongchao Yang (The Chinese University of Hong Kong), Shengpeng Ji, Junyang Lin (Alibaba Group), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses improving speech instruction-following capabilities, which aligns with Dr. Liu's work in audio and speech processing. The interleaved training method could enhance speech generation and restoration tasks by providing better adaptability to diverse inputs.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the problem of models struggling to follow spoken instructions due to inherent differences between speech and text, utilizing unsupervised learning to align speech and text representations.",
+    "contribution": "InSerter introduces an interleaved speech-text pre-training approach to improve large language models' ability to follow speech instructions, achieving state-of-the-art performance in a newly introduced benchmark.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on either behavior or representation alignment, which faced scalability and efficacy issues in aligning speech and text.",
+        "novelty": "This work leverages a scalable text-to-speech synthesis method for effective unsupervised training, facilitating better alignment without extensive data design."
+    },
+    "key_innovation": "The interleaving of speech and text data during training allows for dynamic interactions, enhancing the model's understanding of multimodal representations.",
+    "real_world_impact": "The framework proposed could significantly advance human-machine interactions, especially in digital assistants and accessibility tools, leading to more intuitive and effective communication solutions.",
+    "limitations": "The training is limited to English and Chinese datasets, impacting generalization to other languages. The evaluation relies on external GPT-4o API for some tasks, which may affect availability and consistency.",
+    "new_terms": {
+        "interleaved training": "**Interleaved training** refers to an approach where different types of data (like speech and text) are trained together, allowing the model to learn relationships and alignments between them more effectively.",
+        "speech instruction-following": "**Speech instruction-following** denotes a model's ability to accurately interpret and act upon instructions given in spoken language."
+    },
+    "open_sourcing": "SpeechInstructBench is available at [https://huggingface.co/datasets/ddwang2000/SpeechInstructBench](https://huggingface.co/datasets/ddwang2000/SpeechInstructBench)"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Aggregation Strategies for Efficient Annotation of Bioacoustic Sound Events Using Active Learning",
+    "author": "Richard Lindholm (Centre for Mathematical Sciences, Faculty of Engineering Lund University), Oscar Marklund (Centre for Mathematical Sciences, Faculty of Engineering Lund University), Olof Mogren (RISE Research Institutes of Sweden), John Martinsson (Centre for Mathematical Sciences, Faculty of Engineering Lund University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses active learning strategies specifically for bioacoustic sound event detection, which aligns well with my research in audio processing and could inform methods for efficient sound event annotation and model training.",
+    "field": "General Machine Learning-Active Learning",
+    "background": "The task focuses on reducing the manual annotation effort required for sound event detection in bioacoustic monitoring by prioritizing uncertain audio segments.",
+    "contribution": "This paper introduces the *Top K Entropy* aggregation strategy to solve the problem of inefficient audio annotation, achieving comparable sound event detection performance with significantly fewer labels.",
+    "technical_comparison": {
+        "prior_work": "Previous active learning methods often relied on segment-level uncertainty averaging or random sampling, which did not effectively translate to file-level queries.",
+        "novelty": "*Top K Entropy* improves by focusing on the most uncertain audio segments, allowing for the selection of entire recordings based on high uncertainty segments."
+    },
+    "key_innovation": "The method prioritizes the most uncertain segments within an audio file, which leads to more informed queries for labeling.",
+    "real_world_impact": "The approach presents a significant potential for reducing the annotation workload in ecological studies, enabling more efficient bioacoustic monitoring and conservation efforts.",
+    "limitations": "The impact of class imbalance on the effectiveness of *Top K Entropy* has not been fully explored.",
+    "new_terms": {
+        "Top K Entropy": "**Top K Entropy** is a novel active learning strategy that selects the top K most uncertain segment entropies from audio files to prioritize which files to annotate.",
+        "Sound Event Detection (SED)": "**Sound Event Detection** refers to the process of identifying and classifying sound events within continuous audio streams."
+    },
+    "open_sourcing": ""
+}

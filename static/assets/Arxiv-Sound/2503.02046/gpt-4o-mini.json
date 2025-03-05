@@ -1,0 +1,22 @@
+{
+    "title": "CNN-based Robust Sound Source Localization with SRP-PHAT for the Extreme Edge",
+    "author": "Jun Yin (ESAT-MICAS KU Leuven, Belgium), Marian Verhelst (ESAT-MICAS KU Leuven, Belgium)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper focuses on optimizing the sound source localization task using a compact and efficient deep learning model, which aligns directly with my research interests in audio signal processing and machine learning optimization.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research aims to accurately locate sound sources in real-time within noisy and reverberant environments, which is challenging yet essential for applications like hearing aids and robotic perception.",
+    "contribution": "This paper introduces LC-SRP-Edge and Cross3D-Edge to solve the challenges of computational overhead and robustness in sound source localization, achieving significant reductions in complexity while maintaining competitive accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, such as the original Cross3D model, demonstrate high accuracy but possess excessive computational demands, making them unsuitable for edge devices.",
+        "novelty": "This work improves processing efficiency by halving the complexity of sinc interpolation and reducing computational footprints significantly, enabling real-time performance on resource-constrained devices."
+    },
+    "key_innovation": "The integration of a low-complexity steered response power (SRP) method and a compact convolutional neural network architecture specifically designed for real-time sound source localization on edge devices.",
+    "real_world_impact": "This research has the potential to enhance the performance of sound localization in practical applications, such as hearing aids and interactive robots, promoting better user interactions and experiences.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "SRP-PHAT": "**Steered Response Power with Phase Transform** is an algorithm that effectively localizes sound sources by analyzing the power output of a virtual beamformer steering towards different candidate locations.",
+        "Cross3D": "**Cross3D** is a model that combines acoustic feature extraction through steered response power maps with deep learning to estimate the direction of arrival of sound sources."
+    },
+    "open_sourcing": ""
+}

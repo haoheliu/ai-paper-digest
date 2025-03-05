@@ -1,0 +1,22 @@
+{
+    "title": "A Hypernetwork-Based Approach to KAN Representation of Audio Signals",
+    "author": "Patryk Marsza\u0142ek (Jagiellonian University), Maciej Rut (Jagiellonian University), Piotr Kawa (Wroc\u0142aw University of Science and Technology), Piotr Syga (Wroc\u0142aw University of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper presents a novel architecture that could enhance audio representation tasks, relevant to Haohe's work in audio generation and processing, particularly through the use of hypernetworks.",
+    "field": "Deep Learning-Neural Architectures",
+    "background": "The study explores implicit neural representations for audio signals, aiming to model audio accurately via a novel architecture called Kolmogorov-Arnold Network (KAN) and its extension using hypernetworks.",
+    "contribution": "This paper introduces FewSound, a hypernetwork-based framework that optimally updates KAN parameters for audio representation, demonstrating significant performance improvements over state-of-the-art methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like HyperSound used autoencoder architectures for audio representation but lacked efficiency in parameter updates across different audio signals.",
+        "novelty": "This work enhances the parameter updating process of neural representations by integrating a hypernetwork to support rapid adaptability and improved metrics such as Mean Squared Error."
+    },
+    "key_innovation": "The application of hypernetworks to generate dynamic updates for implicit neural representations streamlines audio signal processing, allowing adaptivity to various contexts.",
+    "real_world_impact": "This framework could transform audio processing in practical applications like speech enhancement, audio compression, and sound event detection by providing a more efficient modeling approach.",
+    "limitations": "The paper mentions limitations in scalability for very long sequences and the computational demand for complex tasks.",
+    "new_terms": {
+        "Kolmogorov-Arnold Network (KAN)": "**KAN** is a neural network architecture that replaces fixed activation functions with learnable ones to model complex functions more effectively.",
+        "hypernetwork": "**Hypernetworks** are a class of models designed to generate the weights of another neural network, allowing for flexible and context-sensitive learning."
+    },
+    "open_sourcing": "The source code can be accessed at https://github.com/gmum/fewsound.git"
+}
