@@ -1,0 +1,22 @@
+{
+    "title": "Quantification of Tenseness in English and Japanese Tense-Lax Vowels: A Lagrangian Model with Indicator \u03b8\u2081 and Force of Tenseness Ftense(t)",
+    "author": "Tatsuya Ishizaki (Utsunomiya Kyowa University), ..., Tatsuya Ishizaki",
+    "quality": 6,
+    "relevance": 4,
+    "relevance_why": "The exploration of vowel tenseness and the introduction of a quantification method using a Lagrangian model could inform future audio and speech processing techniques, especially in automated vowel training systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research investigates the characteristics and quantification of vowel tenseness in English and Japanese, exploring its acoustic properties through a dynamic model.",
+    "contribution": "This study introduces a Lagrangian-based quantification of vowel tenseness to solve the lack of a standardized metric, achieving a more nuanced understanding of vowel articulation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily analyzed vowel tenseness qualitatively or based solely on duration or positional configurations.",
+        "novelty": "This work quantifies tenseness using specific physical parameters and the force-related dynamics of articulatory organs, thus providing a more rigorous theoretical framework."
+    },
+    "key_innovation": "Integrates the concept of force dynamics in vowel production to introduce a physical modeling approach for quantifying vowel tenseness.",
+    "real_world_impact": "Offers insights that could enhance speech recognition and language learning applications, potentially improving pronunciation training tools through a better understanding of vowel dynamics.",
+    "limitations": "The study does not address variations across different accents or dialects in detail, which could impact the generalizability of the findings.",
+    "new_terms": {
+        "Lagrangian model": "**Lagrangian model** refers to a mathematical framework from physics used to describe the dynamics of systems, which in this study is applied to vocal tract articulations.",
+        "tenseness": "**Tenseness** in vowels refers to the articulatory effort and positioning within the vocal tract that differentiate tense and lax vowels."
+    },
+    "open_sourcing": ""
+}
