@@ -1,0 +1,22 @@
+{
+    "title": "Text-Audio Incremental Learning for Multimodal Retrieval",
+    "author": "Yingfei Sun (National University of Singapore), Xu Gu (Renmin University of China), Wei Ji (National University of Singapore), Hanbin Zhao (Zhejiang University), Hao Fei (National University of Singapore), Yifang Yin (National University of Singapore), Roger Zimmermann (National University of Singapore)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed method of Text-Audio Incremental Learning (TAIL) and the use of prompt tuning may inform approaches in audio-language modeling and generative tasks, which align with my research interests in audio generation and retrieval.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of integrating text and audio data incrementally for retrieval tasks while preventing knowledge loss from previously learned datasets.",
+    "contribution": "This paper introduces a novel TAIL framework and the Prompt Tuning for Audio-Text incremental learning (PTAT) method to solve catastrophic forgetting in multimodal retrieval, achieving superior performance with significantly fewer parameters.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often involve retraining all parameters or exhibit substantial forgetting when new datasets are introduced.",
+        "novelty": "The new method utilizes prompt tuning and knowledge distillation specifically designed for continual text-audio retrieval tasks, which improves both performance and parameter efficiency."
+    },
+    "key_innovation": "Combines audio-text prompt generation with a distillation mechanism to maintain cross-modal relationships and minimize forgetting of previously learned knowledge.",
+    "real_world_impact": "The work could enhance applications in multimedia information retrieval systems, making them more efficient and adaptable to new data sources, thereby improving user interaction and search accuracy.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Text-Audio Incremental Learning (TAIL)": "**Text-Audio Incremental Learning (TAIL)** refers to the process of continually training a model to perform text-audio retrieval tasks across multiple datasets, while minimizing the forgetting of knowledge from previously encountered datasets.",
+        "Prompt Tuning": "**Prompt Tuning** is a parameter-efficient method that involves training a model with a small set of learnable prompts while keeping the main model parameters fixed."
+    },
+    "open_sourcing": ""
+}

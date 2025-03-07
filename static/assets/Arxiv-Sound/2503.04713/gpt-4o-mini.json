@@ -1,0 +1,22 @@
+{
+    "title": "Scaling Rich Style-Prompted Text-to-Speech Datasets",
+    "author": "Anuj Diwan (University of Texas at Austin), Zhisheng Zheng (University of Texas at Austin), David Harwath (University of Texas at Austin), Eunsol Choi (New York University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper is highly relevant as it introduces a large-scale dataset for speech synthesis that incorporates rich style annotations, which can enhance quality and customization in audio generation tasks relevant to Haohe Liu's research in text-to-speech synthesis and audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on creating a large dataset that supports complex speech styles for text-to-speech models, increasing the diversity and quality of synthesized speech.",
+    "contribution": "This paper introduces the Paralinguistic Speech Captions dataset to solve the limitation of existing TTS datasets that only offer basic style tags, achieving significant improvements in style consistency and speech quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized small datasets with limited style diversity and relied on basic tags that could be automatically extracted.",
+        "novelty": "This work scales up both intrinsic and situational style tags using innovative automated annotation techniques, significantly expanding the dataset size and enhancing the range of styles available for training."
+    },
+    "key_innovation": "Combines perceptual similarity modeling and multimodal LLMs to automatically scale rich style annotations in speech datasets.",
+    "real_world_impact": "The improved TTS model can enhance various applications such as digital assistants, audiobooks, and interactive voice response systems, making them more engaging and expressive.",
+    "limitations": "The dataset currently only supports English speech, which may limit its applicability across different languages.",
+    "new_terms": {
+        "paralinguistic": "**Paralinguistic** refers to the aspects of spoken communication that do not involve words, including intonation, tone, and style, which contribute to the emotional impact of speech.",
+        "style consistency": "**Style consistency** measures how reliably a speech synthesis system adheres to the stylistic attributes specified in the input prompts."
+    },
+    "open_sourcing": "The dataset, models, and code are released at https://github.com/ajd12342/paraspeechcaps"
+}

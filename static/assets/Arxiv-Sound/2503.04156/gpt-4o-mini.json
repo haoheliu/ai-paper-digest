@@ -1,0 +1,22 @@
+{
+    "title": "Frequency-Based Alignment of EEG and Audio Signals Using Contrastive Learning and SincNet for Auditory Attention Detection",
+    "author": "Liao Yuan (Nanjing University of Posts and Telecommunications), Yuhong Zhang (University of California, San Diego), Qiushi Han (Nanjing University of Posts and Telecommunications), Yuhang Yang (Nanjing University of Posts and Telecommunications), Weiwei Ding (BeiHang University), Yuzhe Gu (Nanjing University of Posts and Telecommunications), Hengxin Yang (Nanjing University of Posts and Telecommunications), ..., Liya Huang (Nanjing University of Posts and Telecommunications)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper explores auditory attention detection using EEG, which is directly applicable to Haohe Liu's research in audio processing and may offer insights into improving audio-related machine learning tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Auditory Attention Detection (AAD) aims to identify which speaker a person is focusing on in noisy environments using brain signals like Electroencephalography (EEG).",
+    "contribution": "This paper introduces SincAlignNet, which combines SincNet and contrastive learning to align audio and EEG signals, achieving state-of-the-art accuracy in auditory attention detection.",
+    "technical_comparison": {
+        "prior_work": "Most existing methods use linear models or complex nonlinear models that struggle with real-time application and interpretability. This work improves by offering a simpler architecture that maintains performance while being interpretable and efficient.",
+        "novelty": "SincAlignNet's use of SincNet allows for direct frequency-based feature alignment between EEG and audio signals, guided by contrastive learning."
+    },
+    "key_innovation": "Utilizes a frequency-aligned contrastive learning paradigm for aligning EEG data with audio recordings, which reflects the neural processing of auditory attention.",
+    "real_world_impact": "The insights from this research could directly influence the design of neuro-guided hearing aids by enabling more efficient auditory focus detection and enhancement in complex listening environments.",
+    "limitations": "The study is limited to two specific datasets and may not generalize to all auditory environments.",
+    "new_terms": {
+        "contrastive learning": "**Contrastive learning** is a machine learning approach that enhances the learning of embeddings by contrasting similar and dissimilar pairs, thereby improving the quality of feature representation.",
+        "SincNet": "**SincNet** is a type of neural network architecture designed for audio processing, which implements bandpass filtering through learnable sinc filters to effectively model the structure of audio signals."
+    },
+    "open_sourcing": "Code is available at: https://github.com/LiaoEuan/SincAlignNet"
+}
