@@ -1,0 +1,22 @@
+{
+    "title": "DiVISe: Direct Visual-Input Speech Synthesis Preserving Speaker Characteristics And Intelligibility",
+    "author": "Yifan Liu (Shanghai Jiao Tong University), Yu Fang (ShanghaiTech University), Zhouhan Lin (Shanghai Jiao Tong University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper provides a novel approach to generating speech from silent video input, which is closely aligned with Haohe Liu's interests in audio generation and synthesis, particularly in enhancing the intelligibility and preserving speaker characteristics.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating natural-sounding speech from silent videos using only visual inputs, targeting improvements in intelligibility and speaker identity preservation.",
+    "contribution": "DiVISe introduces an end-to-end model for Video-to-Speech synthesis that directly predicts Mel-spectrograms from video frames, achieving improved speaker characteristic preservation compared to prior methods.",
+    "technical_comparison": {
+        "prior_work": "Existing models often require additional speaker embeddings or rely on a vocoder that negatively impacts the preservation of speaker characteristics.",
+        "novelty": "DiVISe eliminates the need for speaker embeddings entirely during both training and inference while utilizing a mel-based vocoder for better reconstruction of audio."
+    },
+    "key_innovation": "By leveraging audio-visual pre-training, DiVISe advances Video-to-Speech synthesis through a direct prediction of Mel-spectrograms, facilitating a more straightforward and efficient training process.",
+    "real_world_impact": "The approach enhances potential applications in speech restoration and communication for individuals with speech impairments or in noisy environments, making it valuable in both assistive technology and entertainment.",
+    "limitations": "The model's reliance on preprocessing to extract video regions centered around the mouth may hinder real-time application performance.",
+    "new_terms": {
+        "DiVISe": "**Direct Visual-Input Speech Synthesis** is a novel method for generating speech from visual cues without requiring audio samples or embeddings.",
+        "Mel-spectrogram": "**Mel-spectrogram** is a spectral representation of audio signals that is commonly used in speech processing tasks due to its efficiency and interpretability."
+    },
+    "open_sourcing": "Code and weights can be found at https://github.com/PussyCat0700/DiVISe."
+}

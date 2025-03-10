@@ -1,0 +1,22 @@
+{
+    "title": "From Voice to Safety: Language AI Powered Pilot-ATC Communication Understanding for Airport Surface Movement Collision Risk Assessment",
+    "author": "Yutian Pang (Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin), Andrew Paul Kendall (Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin), Alex Porcayo (Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin), Mariah Barsotti (Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin), Anahita Jain (Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin), John-Paul Clarke (Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The integration of Natural Language Processing (NLP) with collision risk modeling could contribute methods applicable to audio-based communication systems, specifically in enhancing interaction clarity in aviation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on utilizing language AI to analyze pilot-Air Traffic Control communications to assess and mitigate collision risks during airport surface operations.",
+    "contribution": "This paper introduces a framework that combines Automatic Speech Recognition with collision risk modeling to enhance aviation safety, achieving improved assessments of surface movement collision probabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches lacked integration of NLP methods into risk assessment frameworks in aviation, relying on outdated models.",
+        "novelty": "This work develops a hybrid rule-based Named Entity Recognition model to enhance communication understanding while modeling taxi speeds with log-normal distributions for collision probability estimation."
+    },
+    "key_innovation": "The hybrid rule-enhanced Named Entity Recognition model integrates domain-specific rules into the NLP process, improving recognition of key entities in voice communications.",
+    "real_world_impact": "This research has the potential to significantly reduce runway incursions and taxiway collisions by providing timely risk assessments, thereby improving overall airport safety.",
+    "limitations": "The authors do not explicitly mention limitations, but challenges related to real-time processing capacity and multilingual communication understanding may exist.",
+    "new_terms": {
+        "Automatic Speech Recognition (ASR)": "**Automatic Speech Recognition (ASR)** is a technology that converts spoken language into text, enabling machines to understand and process human speech.",
+        "Named Entity Recognition (NER)": "**Named Entity Recognition (NER)** is a subtask of information extraction that seeks to locate and classify named entities in text into predefined categories."
+    },
+    "open_sourcing": "The code and data repository for this research work can be found at https://github.com/YutianPangASU/ATC-Text-Communication."
+}

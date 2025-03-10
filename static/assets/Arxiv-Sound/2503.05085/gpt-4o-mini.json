@@ -1,0 +1,22 @@
+{
+    "title": "S2S-Arena, Evaluating Speech2Speech Protocols on Instruction Following with Paralinguistic Information",
+    "author": "Feng Jiang (The Chinese University of Hong Kong, Shenzhen), Zhiyu Lin (The Chinese University of Hong Kong, Shenzhen), Fan Bu (The Chinese University of Hong Kong, Shenzhen), Yuhao Du (The Chinese University of Hong Kong, Shenzhen), Benyou Wang (The Chinese University of Hong Kong, Shenzhen), Haizhou Li (The Chinese University of Hong Kong, Shenzhen), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The insights into paralinguistic information and instruction-following abilities in speech models are directly applicable to Dr. Liu's work on audio-language modeling, particularly in enhancing speech generation and understanding tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speech-to-speech protocols involve converting spoken input into spoken output while executing relevant tasks, integrating both semantic and paralinguistic elements.",
+    "contribution": "S2S-Arena introduces a novel benchmark for evaluating speech models focused on instruction-following capabilities related to paralinguistic information, providing a comprehensive set of 154 samples across various real-world tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks primarily assess speech understanding or generate text outputs without considering paralinguistic features in speech responses.",
+        "novelty": "This work improves evaluation methodologies by including both speech understanding and generation with manual, arena-style assessments, emphasizing the role of paralinguistic cues."
+    },
+    "key_innovation": "Establishes a three-stage process to construct a diverse benchmark with varying difficulty levels, focusing on integrating real-world tasks and human-like qualities in speech output.",
+    "real_world_impact": "By accurately evaluating speech models' instruction-following abilities, this research can significantly enhance the development of more intelligent and responsive voice assistants.",
+    "limitations": "The sample size is relatively small, impacting the generalizability of the results, and the evaluation methods may inherently introduce biases.",
+    "new_terms": {
+        "paralinguistic information": "**Paralinguistic information** refers to the non-verbal elements in speech (like tone, pitch, and rhythm) that convey emotions or attitudes beyond the literal meaning of words.",
+        "arena-style evaluation": "**Arena-style evaluation** is a comparative assessment approach where models are judged against each other based on direct human feedback rather than automated metrics."
+    },
+    "open_sourcing": "Available at https://github.com/FreedomIntelligence/S2S-Arena"
+}
