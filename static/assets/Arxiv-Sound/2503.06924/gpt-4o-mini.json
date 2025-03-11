@@ -1,0 +1,22 @@
+{
+    "title": "Automatic Speech Recognition for Non-Native English: Accuracy and Disfluency Handling",
+    "author": "Michael McGuire (Doshisha University, Kyoto, Japan)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The study evaluates the performance of various automated speech recognition systems, which aligns with the research on improving audio processing technologies related to non-native speech recognition and applications in language learning.",
+    "field": "Applications-Speech and Audio",
+    "background": "Assessing the effectiveness of automated speech recognition systems in accurately transcribing non-native English speech while also analyzing their ability to manage speech disfluencies.",
+    "contribution": "This paper introduces a comparison of five advanced automatic speech recognition systems to solve the challenge of accurately recognizing non-native accented English, achieving insights on their accuracy and handling of disfluencies.",
+    "technical_comparison": {
+        "prior_work": "Previous ASR systems showed higher error rates for accented speech, often lacking sufficient training data for non-native pronunciations and disfluency management.",
+        "novelty": "By evaluating systems on a diverse set of non-native speakers and analyzing their disfluency handling, this work offers detailed comparisons and meaningful insights on current ASR performance."
+    },
+    "key_innovation": "Focuses on both the recognition accuracy for various accent backgrounds and the handling of different types of disfluencies in non-native speech.",
+    "real_world_impact": "The insights from this study can significantly enhance the design and implementation of practical language learning tools that utilize ASR technology for better learner outcomes.",
+    "limitations": "The study does not examine ASR systems in real-world conversational contexts, focusing primarily on controlled reading and narrative tasks.",
+    "new_terms": {
+        "Match Error Rate (MER)": "**Match Error Rate (MER)** is a metric used to assess ASR accuracy by measuring the probability of any word in a transcription being incorrect relative to the total words spoken.",
+        "disfluencies": "**Disfluencies** are interruptions in the flow of speech, such as filler words ("
+    },
+    "open_sourcing": "Available on the Open Science Foundation page: https://osf.io/uszm9/"
+}

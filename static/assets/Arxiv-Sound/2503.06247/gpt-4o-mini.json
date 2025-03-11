@@ -1,0 +1,21 @@
+{
+    "title": "Infant Cry Detection Using Causal Temporal Representation",
+    "author": "Minghao Fu (Mohamed Bin Zayed University of Artificial Intelligence), Danning Li (McGill University), Aryan Gadhiya, Benjamin Lambright, Mohamed Alowais, Mohab Bahnassy, Saad El Dine Elletter, Hawau Olamide Toyin, Haiyan Jiang, Kun Zhang (Cradle AI), Hanan Aldarmaki",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's focus on acoustic event detection, specifically infant cry detection, aligns well with Haohe Liu's interests in audio and speech processing. The innovative unsupervised learning method may inspire similar techniques in audio generation or restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Infant cry detection aims to accurately identify and segment the sounds of babies crying within various noisy environments, to improve caregiver response times.",
+    "contribution": "This paper introduces a novel labeled dataset and an unsupervised learning methodology called Causal Representation Sparse Transition Clustering (CRSTC) to improve infant cry detection efficiency, significantly enhancing classification performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with real-world audio due to a lack of detailed annotations and were limited to binary classification across long segments.",
+        "novelty": "This work improves detection by providing an annotated dataset for precise segmentation and introducing the CRSTC method for better temporal clustering of cry sounds."
+    },
+    "key_innovation": "The use of causal temporal representation enables the modeling of time-dependent audio processes to better detect and segment cries amidst background noise.",
+    "real_world_impact": "The proposed methods can significantly aid caregivers in understanding infants' needs and predictions of potential health issues, thus contributing positively to infant care.",
+    "limitations": "The paper does not discuss any limitations explicitly.",
+    "new_terms": {
+        "Causal Representation Sparse Transition Clustering (CRSTC)": "**Causal Representation Sparse Transition Clustering** is an unsupervised learning approach that utilizes causal temporal representations to identify and cluster audio features, particularly in nonstationary sound environments."
+    },
+    "open_sourcing": "The annotated dataset and code used for experiments are available at https://github.com/PeterIsDanning/Infant-Cry-Detection-by-CRSTC"
+}

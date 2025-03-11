@@ -1,0 +1,22 @@
+{
+    "title": "Adaptive Audio-Visual Speech Recognition via Matryoshka-Based Multimodal LLMs",
+    "author": "Umberto Cappellazzo (Imperial College London), Minsu Kim (Meta AI), Stavros Petridis (Imperial College London), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper's focus on audio-visual speech recognition aligns closely with Haohe Liu's research in audio and speech processing, and it presents innovative techniques that could enhance tasks like speech synthesis and audio restoration through multimodal learning.",
+    "field": "Applications-Speech and Audio",
+    "background": "Adaptive audio-visual speech recognition aims to improve robust speech recognition under varying computational constraints by utilizing both audio and visual inputs.",
+    "contribution": "This paper introduces Llama-MTSK, a Matryoshka-based multimodal Large Language Model (LLM) for audio-visual speech recognition, achieving state-of-the-art results across various datasets while optimizing computational efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggle with computational efficiency due to high dimensional speech data, requiring separate models for different compression rates, which is time-consuming.",
+        "novelty": "This work uniquely integrates Matryoshka Representation Learning to allow a single model to adaptively manage audio-visual tokens at multiple compression levels."
+    },
+    "key_innovation": "Llama-MTSK utilizes multiple granular alignments of audio-visual data within one model framework, allowing flexible compression while maintaining performance.",
+    "real_world_impact": "The proposed model has practical implications for developing real-time speech recognition systems in resource-constrained environments, improving accessibility features in devices.",
+    "limitations": "The model may require significant memory resources during training due to the use of multiple granularities, which can be challenging for scalability.",
+    "new_terms": {
+        "Matryoshka Representation Learning": "**Matryoshka Representation Learning** refers to a method of encoding representations at various levels of granularity within a single model to improve efficiency and flexibility.",
+        "Large Language Model (LLM)": "**Large Language Model (LLM)** refers to a type of artificial intelligence model that uses deep learning techniques to understand and generate human language, often requiring substantial computational resources."
+    },
+    "open_sourcing": ""
+}

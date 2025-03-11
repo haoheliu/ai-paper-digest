@@ -1,0 +1,22 @@
+{
+    "title": "Accompaniment Prompt Adherence: A Measure for Evaluating Music Accompaniment Systems",
+    "author": "Maarten Grachten (Sony Computer Science Laboratories), Javier Nistal (Sony Computer Science Laboratories), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed Accompaniment Prompt Adherence (APA) metric could enhance the evaluation of models in music generation, making it applicable to Dr. Liu's research on audio generation and restoration.",
+    "field": "Evaluation-Methodology",
+    "background": "Evaluating the adherence of generated musical accompaniments to context prompts using a distribution-based metric that assesses similarity by comparing candidate and reference pairs.",
+    "contribution": "This paper introduces a novel metric called Accompaniment Prompt Adherence (APA) to evaluate music accompaniment models, achieving a reliable way to measure how well generated stems align with given context.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on subjective evaluations or fixed descriptors to assess compatibility in audio prompts, often lacking objective standards.",
+        "novelty": "This work improves by providing a flexible, training-free metric that uses widely accepted audio embeddings and can adapt to different audio contexts."
+    },
+    "key_innovation": "Combines distribution-based measures with well-established audio embedding models to assess adherence between generated musical stems and their contextual prompts.",
+    "real_world_impact": "The APA metric can significantly enhance the automation of evaluation in music generation systems, leading to higher quality outputs in creative AI applications.",
+    "limitations": "The metric may be sensitive to noise and artifacts in the audio, which can potentially skew adherence scores.",
+    "new_terms": {
+        "Accompaniment Prompt Adherence (APA)": "**Accompaniment Prompt Adherence (APA)** is a measure that quantifies how well a generated musical accompaniment matches a given context using distributional analysis.",
+        "Fr\u00e9chet Audio Distance (FAD)": "**Fr\u00e9chet Audio Distance (FAD)** is a metric used to evaluate the quality of synthesized audio by comparing it to real audio samples using statistical measures of their distributions."
+    },
+    "open_sourcing": "A Python implementation of the APA metric is publicly available at https://github.com/SonyCSLParis/audio-metrics"
+}

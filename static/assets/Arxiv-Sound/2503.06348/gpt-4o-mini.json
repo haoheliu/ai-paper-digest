@@ -1,0 +1,22 @@
+{
+    "title": "A Neural Score Follower for Computer Accompaniment of Polyphonic Musical Instruments",
+    "author": "Ashwin Pillay (Carnegie Mellon University), Richard M. Stern (Carnegie Mellon University), Roger B. Dannenberg (Carnegie Mellon University), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The proposed HeurMiT framework utilizes deep learning techniques for score following, which could be adapted to enhance audio processing tasks and improve machine learning models in music and audio generation scenarios.",
+    "field": "Applications-Speech and Audio",
+    "background": "Real-time accompaniment systems need to follow a performer's score accurately while adapting to their timing and mistakes, crucial for enhancing live musical performances.",
+    "contribution": "This paper introduces HeurMiT, a deep learning-based score-following framework to enhance computer accompaniment, demonstrating promising performance but highlighting real-world limitations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods such as dynamic programming and Hidden Markov Models provided some score-following capabilities but lacked the efficiency and robustness offered by deep learning.",
+        "novelty": "HeurMiT employs a novel neural architecture that learns compressed representations for tracking the performances, combined with a MIDI data augmentation toolkit to improve training robustness."
+    },
+    "key_innovation": "Utilizes a neural network architecture to learn performant representations that adapt to user deviations while incorporating heuristic enhancements for accuracy.",
+    "real_world_impact": "While theoretically promising, HeurMiT currently lacks the practical effectiveness needed for deployment in live performance settings, indicating the necessity for further research.",
+    "limitations": "HeurMiT exhibits limitations in practical settings, especially in varied tempo situations, and its heuristics may require performance-specific adjustments.",
+    "new_terms": {
+        "score following": "**Score following** refers to the process of tracking a performance in real-time to synchronize accompaniment parts accurately with a musical score.",
+        "Deep Learning (DL)": "**Deep Learning (DL)** is a subset of machine learning that uses neural networks with multiple layers to model complex patterns in data."
+    },
+    "open_sourcing": ""
+}

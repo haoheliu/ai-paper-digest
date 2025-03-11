@@ -1,0 +1,21 @@
+{
+    "title": "A Noise-Robust Turn-Taking System for Real-World Dialogue Robots: A Field Experiment",
+    "author": "Koji Inoue (Kyoto University), Yuki Okafuji (CyberAgent, Osaka University), Jun Baba (CyberAgent, Osaka University), Yoshiki Ohira (CyberAgent, Osaka University), Katsuya Hyodo (CyberAgent, Osaka University), Tatsuya Kawahara (Kyoto University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed noise-robust voice activity projection (VAP) system can enhance dialogue interaction quality in practical applications, which connects to Dr. Liu's work in audio processing and generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "Deploying dialogue robots in environments with background noise to improve turn-taking and conversational fluency during human-robot interaction.",
+    "contribution": "This paper introduces a noise-robust voice activity projection model to solve issues related to turn-taking in noisy settings, achieving significantly reduced response latency and improved user satisfaction.",
+    "technical_comparison": {
+        "prior_work": "Traditional speech recognition techniques often fail in noisy environments, leading to delays and poor interaction quality.",
+        "novelty": "This work replaces conventional methods with a locally processed, end-to-end voice activity prediction model that actively predicts user speech activity."
+    },
+    "key_innovation": "Combines real-time processing with a predictive modeling approach to improve dialogue interactivity despite environmental noise.",
+    "real_world_impact": "The findings support the deployment of more responsive dialogue systems in noisy public environments, enhancing user experience. This could adapt to other contexts involving audio and speech interactions.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "voice activity projection (VAP)": "**Voice activity projection (VAP)** is a predictive model designed to estimate future voice activity based on current audio input to improve turn-taking in conversations."
+    },
+    "open_sourcing": ""
+}

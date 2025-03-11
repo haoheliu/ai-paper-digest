@@ -1,0 +1,22 @@
+{
+    "title": "Score-informed Music Source Separation: Improving Synthetic-to-real Generalization in Classical Music",
+    "author": "Eetu Tunturi (Audio Research Group, Tampere University), David Diaz-Guerra (Audio Research Group, Tampere University), Archontis Politis (Audio Research Group, Tampere University), Tuomas Virtanen (Audio Research Group, Tampere University), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on music source separation directly aligns with Haohe Liu's research interests in speech, audio, and music processing, particularly through the application of new methods that leverage score information.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on isolating individual musical instrument tracks from a mixed audio recording, with an emphasis on utilizing score information for improved separation.",
+    "contribution": "This paper introduces two approaches for leveraging musical scores to enhance music source separation, achieving better generalization from synthetic datasets to real recordings.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on audio data for training, often leading to poor generalization to real-world recordings.",
+        "novelty": "This study combines audio and score inputs as well as explores a score-only method, providing results that highlight the benefits of score-based representation in improving separation accuracy."
+    },
+    "key_innovation": "The dual approach of using musical scores either as supplemental input or as the sole criterion for separation masks distinguishes this work in the field of audio signal processing.",
+    "real_world_impact": "The findings have practical implications for improving audio restoration and remixing tasks, enhancing the listener\u2019s experience in music applications by allowing for clearer delineation of instrument tracks.",
+    "limitations": "The score-informed model struggles with synthetic-to-real generalization, limiting its effectiveness across diverse real-world audio conditions.",
+    "new_terms": {
+        "score-informed model": "**Score-informed model** refers to a structured audio separation approach that utilizes musical scores as input to enhance the separation performance of mixed recordings.",
+        "spectrogram": "**Spectrogram** is a visual representation of the spectrum of frequencies in a sound signal as they vary with time, commonly used in audio signal processing."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Zero-AVSR: Zero-Shot Audio-Visual Speech Recognition with LLMs by Learning Language-Agnostic Speech Representations",
+    "author": "Jeong Hun Yeo (KAIST), Minsu Kim (KAIST), Chae Won Kim (KAIST), Stavros Petridis (Imperial College London), Yong Man Ro (KAIST), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper's emphasis on zero-shot capabilities and the integration of Language Models (LLMs) can enhance efforts in audio generation and phonetic diversity in Dr. Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a framework for audio-visual speech recognition that can operate in languages for which no training data exists by leveraging large language models.",
+    "contribution": "This paper introduces Zero-AVSR to solve the challenge of recognizing speech in unseen languages, achieving effective zero-shot performance across 82 languages.",
+    "technical_comparison": {
+        "prior_work": "Existing multilingual models require extensive labeled audio-visual data, limiting language support and adaptability.",
+        "novelty": "This work combines audio-visual speech recognition with pre-trained LLMs to process multiple languages without needing training data in those languages."
+    },
+    "key_innovation": "Utilizes both an Audio-Visual Speech Romanizer for generating Roman text and the capabilities of large language models to convert this into language-specific graphemes.",
+    "real_world_impact": "Promotes applications in multilingual communication technologies and enhances accessibility for diverse language speakers in real-world scenarios.",
+    "limitations": "The performance on low-resource languages and potential challenges in extreme noisy environments were not explicitly addressed.",
+    "new_terms": {
+        "Cascaded Zero-AVSR": "A framework where the Audio-Visual Speech Romanizer outputs Roman text, which is then processed by LLMs for language-specific conversion.",
+        "AVSR": "Audio-Visual Speech Recognition, utilizing both auditory and visual cues for improved speech recognition performance."
+    },
+    "open_sourcing": "The code and models are available online."
+}

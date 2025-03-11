@@ -1,0 +1,21 @@
+{
+    "title": "Synchronized Video-to-Audio Generation via Mel Quantization-Continuum Decomposition",
+    "author": "Juncheng Wang (The Hong Kong Polytechnic University), Chao Xu (Tongyi Lab, Alibaba Group), Cheng Yu (Tongyi Lab, Alibaba Group), Lei Shang (Tongyi Lab, Alibaba Group), Zhe Hu (The Hong Kong Polytechnic University), Shujun Wang (The Hong Kong Polytechnic University), Liefeng Bo (Tongyi Lab, Alibaba Group), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents Mel Quantization-Continuum Decomposition, which effectively balances audio synthesis quality and complexity from video inputs. This could enhance audio generation tasks in Haohe Liu's research on latent diffusion models and audio-language alignment.",
+    "field": "Applications-Speech and Audio",
+    "background": "Video-to-audio generation is the task of creating audio tracks that synchronize with silent video content, important for applications like video editing and media accessibility.",
+    "contribution": "This paper introduces Mel-QCD to solve the challenge of generating high-quality audio synchronized with video, achieving state-of-the-art performance across multiple evaluation metrics.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often struggle with a trade-off between the complexity of audio signal representation and the quality of generated audio.",
+        "novelty": "This work improves by decomposing mel-spectrograms into semantic, energy, and standard deviation components, using quantization to reduce complexity without sacrificing semantical richness."
+    },
+    "key_innovation": "The method efficiently decomposes audio spectrogram components, allowing for precise audio generation from visual data while maintaining rich semantic content.",
+    "real_world_impact": "The framework significantly improves audio generation for video content, which has potential applications in film production, gaming, and accessibility technologies.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Mel Quantization-Continuum Decomposition": "**Mel Quantization-Continuum Decomposition (Mel-QCD)** is a method that decomposes mel-spectrograms into distinct components and facilitates simplified audio signal prediction from video, enhancing the quality of audio synthesis."
+    },
+    "open_sourcing": "Codes and demos will be released at https://wjc2830.github.io/MelQCD/"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "CBW: Towards Dataset Ownership Verification for Speaker Verification via Clustering-based Backdoor Watermarking",
+    "author": "Yiming Li (Nanyang Technological University), Kaiying Yan (Sun Yat-sen University), Shuo Shao (Zhejiang University), Tongqing Zhai (Tsinghua University), Shu-Tao Xia (Tsinghua University), Zhan Qin (Zhejiang University), Dacheng Tao (Nanyang Technological University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper addresses dataset ownership verification using a clustering-based backdoor watermarking approach, which could be beneficial for securing audio datasets used in Haohe Liu's research on audio processing and generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "Dataset ownership verification ensures that a third-party model has not trained on a protected dataset without authorization, utilizing backdoor watermarking techniques.",
+    "contribution": "This paper introduces a clustering-based backdoor watermarking method for speaker verification datasets to effectively protect copyright and verify ownership.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with backdoor watermarking in verification tasks due to the lack of corresponding labels in training datasets.",
+        "novelty": "This work advances by utilizing clustering to group similar samples and assigning unique triggers to those clusters rather than a single global trigger."
+    },
+    "key_innovation": "The method leverages clustering to ensure that similar speaker samples are associated with specific triggers, enhancing effectiveness during ownership verification.",
+    "real_world_impact": "This approach provides a viable solution for dataset owners to monitor usage of their datasets, thus promoting ethical research practices in the field of machine learning and audio processing.",
+    "limitations": "While the paper demonstrates robustness against several attacks, the effectiveness might vary under adaptive attacks that are specifically tailored to exploit this watermarking method.",
+    "new_terms": {
+        "backdoor watermarking": "**Backdoor watermarking** is a technique where specific patterns are embedded into datasets to track and verify unauthorized use of those datasets.",
+        "hypothesis test-guided verification": "**Hypothesis test-guided verification** refers to the statistical method used to validate whether a given model trained on a dataset exhibits distinct expected behaviors."
+    },
+    "open_sourcing": "The code for reproducing the main experiments is available at GitHub."
+}
