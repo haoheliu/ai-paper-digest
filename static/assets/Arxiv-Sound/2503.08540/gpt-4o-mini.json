@@ -1,0 +1,21 @@
+{
+    "title": "Mellow: A Small Audio-Language Model for Reasoning",
+    "author": "Soham Deshmukh (Carnegie Mellon University), Satvik Dixit (Carnegie Mellon University), Rita Singh (Carnegie Mellon University), Bhiksha Raj (Carnegie Mellon University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a model that enhances reasoning capabilities in audio-language tasks, which directly applies to developing audio-related applications in generative AI and multimodal tasks in which sound plays a crucial role.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper focuses on improving reasoning abilities in audio-language models, specifically through a small model capable of answering questions about audio content effectively.",
+    "contribution": "Mellow introduces a compact audio-language model designed for reasoning tasks, achieving state-of-the-art performance in reasoning capabilities compared to larger models.",
+    "technical_comparison": {
+        "prior_work": "Previous models require extensive parameters and large datasets, which limits their use in edge devices. Larger models exceed 8 billion parameters for effective reasoning, often rendering them impractical for smaller applications.",
+        "novelty": "This work demonstrates high reasoning performance with only 167 million parameters, using a unique training dataset focused on audio-grounded reasoning."
+    },
+    "key_innovation": "Combines a small-scale architecture with a specialized dataset that includes both human-generated and synthetic data for effective audio reasoning.",
+    "real_world_impact": "Mellow can greatly enhance audio understanding applications in devices with limited computational resources, potentially impacting areas like smart assistants, audio analysis tools, and interactive systems.",
+    "limitations": "Mellow performs poorly on speech-specific tasks since it is not trained on any speech content.",
+    "new_terms": {
+        "audio-grounded reasoning": "**Audio-grounded reasoning** refers to the ability of models to draw inferences based on auditory information, integrating audio inputs with reasoning tasks."
+    },
+    "open_sourcing": "Model checkpoints, training data, and evaluation code are made available to facilitate further research."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "ESPnet-SDS: Unified Toolkit and Demo for Spoken Dialogue Systems",
+    "author": "Siddhant Arora (Carnegie Mellon University), Yifan Peng (Carnegie Mellon University), Jiatong Shi (Carnegie Mellon University), Jinchuan Tian (Carnegie Mellon University), William Chen (Carnegie Mellon University), Shikhar Bharadwaj (Carnegie Mellon University), Hayato Futami (Sony Group Corporation), Yosuke Kashiwagi (Sony Group Corporation), Emiru Tsunoo (Sony Group Corporation), ... , Shinji Watanabe (Carnegie Mellon University)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The toolkit directly supports the integration and evaluation of various speech synthesis and audio processing models, which aligns well with Haohe Liu's research in audio generation and restoration techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "This toolkit enables researchers to create standardized web interfaces for both cascaded and end-to-end spoken dialogue systems, facilitating extensive comparisons across multiple implementations.",
+    "contribution": "ESPnet-SDS introduces a unified framework to streamline the development and evaluation of spoken dialogue systems, enhancing the methodology and usability in interacting with various speech models.",
+    "technical_comparison": {
+        "prior_work": "Most existing dialogue systems lack standardized interfaces, making comparisons difficult; they operate separately without a cohesive evaluation framework.",
+        "novelty": "This toolkit combines various modules, such as Automatic Speech Recognition (ASR), Text-to-Speech (TTS), and large language models (LLMs) into a single platform for real-time interaction."
+    },
+    "key_innovation": "The integration of on-the-fly evaluation metrics allows immediate feedback on performance, which is a step forward in the assessment of dialogue systems.",
+    "real_world_impact": "This toolkit can significantly impact the development of more robust dialogue systems, facilitating a better user experience in applications such as voice assistants and customer service bots.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "cascaded architecture": "A **cascaded architecture** refers to a series of sequentially connected modules, where the output from one module feeds directly into the next one.",
+        "end-to-end spoken dialogue system": "An **end-to-end spoken dialogue system** processes both input and output as continuous speech without intermediate text representations."
+    },
+    "open_sourcing": "The ESPnet-SDS toolkit is publicly available at https://github.com/espnet/espnet."
+}
