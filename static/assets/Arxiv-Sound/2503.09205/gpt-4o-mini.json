@@ -1,0 +1,21 @@
+{
+    "title": "Quality Over Quantity? LLM-Based Curation for a Data-Efficient Audio\u2013Video Foundation Model",
+    "author": "Ali Vosoughi (University of Rochester), Dimitra Emmanouilidou (Microsoft Research), Hannes Gamper (Microsoft Research), ... , James Glass (MIT)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The framework proposed for audiovisual data alignment and curation can enhance tasks related to audio-language modeling and data-efficient training, which aligns with Dr. Liu's interests in audio generation and data curation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Training models that can efficiently align and retrieve audio-visual content without relying on text, using a curated data approach to improve model performance.",
+    "contribution": "This paper introduces the Audio-Video Vector Alignment (AVVA) framework to solve the challenge of aligning audiovisual content efficiently, achieving significant accuracy improvements with less curated data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on large, uncurated datasets or require textual mediation to align audio and video.",
+        "novelty": "This work emphasizes a dual-encoder approach with LLM-driven data curation, producing a unified audiovisual embedding without the need for textual prompts."
+    },
+    "key_innovation": "Utilizes a Multimodal Reasoning Engine that combines outputs from language models to score and filter audiovisual pairs, enabling text-free alignment.",
+    "real_world_impact": "The increased efficiency in data curation can lead to better-performing audiovisual models in real-world applications such as video understanding and multimedia search, reducing the reliance on large datasets.",
+    "limitations": "The computational overhead of using multiple large language models in the data curation pipeline may hinder scalability.",
+    "new_terms": {
+        "Multimodal Reasoning Engine": "**Multimodal Reasoning Engine (MRE)** is a system that uses different large language models to assess the quality and alignment of audiovisual content, facilitating better training data curation."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Control Surfaces: Using the Commodore 64 and Analog Synthesizer to Expand Musical Boundaries",
+    "author": "Daniel McKemie (Independent Artist)",
+    "quality": 6,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Applications-Creative AI",
+    "background": "The paper discusses the combination of an analog synthesizer with the Commodore 64 to create a hybrid music production system, exploring musical performance and composition using vintage technology.",
+    "contribution": "This paper introduces a method to leverage a Commodore 64 in conjunction with analog synthesizers to create an accessible, affordable, and educational music-making system.",
+    "technical_comparison": {
+        "prior_work": "Previous hybrid systems were often expensive and not widely accessible, limiting their adoption.",
+        "novelty": "This work provides a DIY solution that simplifies the integration between vintage computing and analog sound synthesis."
+    },
+    "key_innovation": "The technique uniquely marries a legacy computing platform with modern modular synthesis, using practical programming concepts to stimulate creativity in music production.",
+    "real_world_impact": "While it primarily serves audio enthusiasts and educators, the system could inspire innovative uses in digital and analog music intersection, promoting nostalgia and educational opportunities.",
+    "limitations": "The effectiveness depends heavily on user knowledge of both analog synthesis and BASIC programming, potentially limiting accessibility.",
+    "new_terms": {
+        "analog synthesizer": "**Analog synthesizer** is an electronic musical instrument that uses analog signals to generate sound.",
+        "envelope follower": "**Envelope follower** is a device that tracks the amplitude envelope of an audio signal and converts it into a control voltage."
+    },
+    "open_sourcing": ""
+}

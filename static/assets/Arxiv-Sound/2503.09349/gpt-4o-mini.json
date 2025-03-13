@@ -1,0 +1,21 @@
+{
+    "title": "Performance Modeling for Correlation-based Neural Decoding of Auditory Attention to Speech",
+    "author": "Simon Geirnaert (Dept. of Electrical Engineering KU Leuven), Jonas Vanthornhout (Dept. of Neurosciences KU Leuven), Tom Francart (Dept. of Neurosciences KU Leuven), Alexander Bertrand (Dept. of Electrical Engineering KU Leuven), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper offers insights into auditory attention decoding methods which may be applicable for music source separation or audio manipulation tasks, benefiting from the statistical modeling techniques proposed.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on developing a method to model the performance of auditory attention decoding algorithms that separate attended speech from neural recordings, simplifying decision window length evaluation.",
+    "contribution": "This paper introduces a modeling technique that predicts the performance curve of attention decoding algorithms using statistics from a single decision window length, achieving consistent accuracy predictions with minimal error.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods require extensive evaluations across multiple window lengths for accurate performance predictions.",
+        "novelty": "This work improves by allowing performance curve modeling based on correlations from just one decision window length, significantly reducing computational burden."
+    },
+    "key_innovation": "Employs statistical modeling through Fisher transformation of correlations to facilitate performance predictions with minimized evaluation overhead.",
+    "real_world_impact": "The method could enhance neuro-steered hearing devices by enabling real-time performance tracking, improving user experience in challenging acoustic environments.",
+    "limitations": "Assumes the availability of labeled ground-truth correlations, limiting application in unsupervised settings.",
+    "new_terms": {
+        "Fisher transformation": "**Fisher transformation** is a mathematical technique used to convert a correlation coefficient into a normally distributed variable, aiding in parameter estimation for statistical analysis."
+    },
+    "open_sourcing": "MATLAB code can be found online [here](https://github.com/AlexanderBertrandLab/AAD-performance-curve-modeling)."
+}

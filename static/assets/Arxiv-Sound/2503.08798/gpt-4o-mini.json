@@ -1,0 +1,22 @@
+{
+    "title": "Contextual Speech Extraction: Leveraging Textual History as an Implicit Cue for Target Speech Extraction",
+    "author": "Minsu Kim (Meta AI, UK), Rodrigo Mira (Imperial College London, UK), Honglie Chen (Meta AI, UK), Stavros Petridis (Imperial College London, UK), Maja Pantic (Imperial College London, UK), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces a novel method for speech extraction using contextual textual cues, which could inspire similar approaches in audio generation and enhancement tasks relevant to Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses target speech extraction from mixed audio streams by using prior textual dialogue history as an implicit cue, rather than relying on explicit audio or visual cues.",
+    "contribution": "This paper introduces Contextual Speech Extraction (CSE) to solve target speech extraction without explicit cues, achieving over 90% accuracy with minimal dialogue context.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically require explicit cues like audio samples or visual data to extract the target speaker's voice.",
+        "novelty": "This work improves target speech extraction by leveraging only textual context from dialogue history, enhancing flexibility and reducing the need for additional input."
+    },
+    "key_innovation": "Utilizes textual dialogue history as an implicit cue for speech extraction, allowing for high accuracy without requiring explicit enrollment utterances or visual cues.",
+    "real_world_impact": "This innovative method can significantly enhance voice communication in mobile messaging applications, potentially improving user experience in audio messaging functionalities.",
+    "limitations": "The model's effectiveness may decline with less contextual information, and performance can vary based on the accuracy of the automatic speech recognition system.",
+    "new_terms": {
+        "Target Speech Extraction (TSE)": "**Target Speech Extraction** refers to the process of isolating specific speakers' voices from a mixture of multiple speech sources.",
+        "Contextual Speech Extraction (CSE)": "**Contextual Speech Extraction** is a newly proposed task that focuses on using contextual cues to identify relevant speech from mixed audio."
+    },
+    "open_sourcing": "Samples and code available on [https://miraodasilva.github.io/cse-project-page.](https://miraodasilva.github.io/cse-project-page)"
+}

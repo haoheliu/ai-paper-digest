@@ -1,0 +1,22 @@
+{
+    "title": "Learning Control of Neural Sound Effects Synthesis from Physically Inspired Models",
+    "author": "Yisu Zong (Centre for Digital Music Queen Mary University of London), Joshua Reiss (Centre for Digital Music Queen Mary University of London), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The integration of physically inspired models with neural synthesis could enhance audio generation and restoration tasks that Haohe Liu focuses on, particularly in terms of quality and control over generated sounds.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper proposes a neural sound effects synthesis system that combines neural networks' generative capabilities with the control mechanisms of physically inspired sound models.",
+    "contribution": "The paper introduces a neural synthesis model guided by a physically inspired explosion model to achieve high-quality sound generation while retaining controllability.",
+    "technical_comparison": {
+        "prior_work": "Traditional sound generation methods struggle with realism and control due to the high number of parameters and computation needs.",
+        "novelty": "This work effectively combines the flexibility of neural synthesis with the structured control afforded by physical models, potentially streamlining the sound design process."
+    },
+    "key_innovation": "The proposed two-stage training process allows for disentangled control parameters to be integrated into the neural synthesis pipeline, enhancing sound quality and realism.",
+    "real_world_impact": "This technology can significantly improve sound design in industries like gaming and film by enabling more realistic and controllable sound effects, directly benefiting creative professionals.",
+    "limitations": "The reliance on simulated control parameters for real-world sounds could affect the model's generalization to actual audio data.",
+    "new_terms": {
+        "physically inspired models": "**Physically inspired models** are sound synthesis approaches that simulate sound production based on physical principles and systems.",
+        "latent discriminator": "**Latent discriminator** is an architecture component that ensures the encoder learns relevant features while disentangling control parameters from latent representations."
+    },
+    "open_sourcing": ""
+}

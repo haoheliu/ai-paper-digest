@@ -1,0 +1,23 @@
+{
+    "title": "Zero to 16383 Through the Wire: Transmitting High-Resolution MIDI with WebSockets and the Browser",
+    "author": "Daniel McKemie (Independent Artist)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "This paper explores MIDI data transmission through web technologies, which could inform applications in audio processing and music generation that align with Dr. Liu\u2019s research focus.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study focuses on transmitting high-resolution MIDI messages over the internet using WebSockets, enabling control of musical applications through browsers.",
+    "contribution": "This paper introduces a method for leveraging the Web MIDI API and WebSockets to send 14-bit MIDI messages, achieving greater flexibility in musical application control.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches lacked efficient web integration for real-time MIDI control, often relying on direct hardware connections or limited browser compatibility.",
+        "novelty": "This work improves by employing the Web MIDI API for direct browser integration, facilitating remote music application control without local dependency."
+    },
+    "key_innovation": "Seamlessly combines web technology and MIDI control to allow users to interact with musical software remotely, thus expanding performance and collaboration potential.",
+    "real_world_impact": "The method proposed could enhance live audio performances and collaborative software tools, encouraging remote participation in musical environments.",
+    "limitations": "The paper notes security concerns with the Web MIDI API and limited browser support, particularly on Safari and Firefox.",
+    "new_terms": {
+        "Control Change (CC)": "**Control Change (CC)** messages are used in MIDI to send various types of control information, allowing for dynamic changes in a musical performance.",
+        "Most Significant Byte (MSB)": "**Most Significant Byte (MSB)** represents the upper byte of a 14-bit value, allowing for greater resolution in MIDI data.",
+        "Least Significant Byte (LSB)": "**Least Significant Byte (LSB)** refers to the lower byte in a 14-bit MIDI value, used in tandem with the MSB."
+    },
+    "open_sourcing": ""
+}
