@@ -1,0 +1,22 @@
+{
+    "title": "ValSub: Subsampling Validation Data to Mitigate Forgetting during ASR Personalization",
+    "author": "Haaris Mehmood (Samsung R&D Institute UK), Karthikeyan Saravanan (Samsung R&D Institute UK), Pablo Peso Parada (Samsung R&D Institute UK), David Tuckey (Samsung R&D Institute UK), Mete Ozay (Samsung R&D Institute UK), Gil Ho Lee (Samsung Electronics), Jungin Lee (Samsung Electronics), ..., Seokyeong Jung (Samsung Electronics)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The proposed method of subsampling validation data to mitigate forgetting during ASR personalization could inform Haohe Liu's work on audio quality enhancement and restoration, particularly in designing adaptive systems that retain performance over varying datasets.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper discusses addressing the issue of 'catastrophic forgetting' in Automatic Speech Recognition (ASR) models by creating a smaller validation set that still represents the original training data distribution.",
+    "contribution": "ValSub introduces a novel subsampling technique that reduces a large validation set while preserving its effectiveness in measuring forgetting, thus optimizing the fine-tuning process of ASR models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with the challenge of managing large validation sets efficiently on devices, or required significant additional memory and computational resources.",
+        "novelty": "This work presents a derivative-free optimization approach to create a smaller, relevant validation set that accurately mimics the performance of a substantially larger validation set."
+    },
+    "key_innovation": "Combines genetic optimization and improvement-forgetting characteristics to select a reduced validation set without needing access to user data.",
+    "real_world_impact": "The approach enhances the deployability of ASR systems on mobile devices by improving fine-tuning efficiency and enabling better user experiences, especially in personalized applications.",
+    "limitations": "The paper does not explicitly mention limitations but could be constrained by the effectiveness of the derived validation set in specific, varied user scenarios.",
+    "new_terms": {
+        "catastrophic forgetting": "**Catastrophic forgetting** occurs when a model forgets previously learned information upon learning new data, leading to degraded performance.",
+        "subsampling": "**Subsampling** refers to the practice of selecting a smaller subset from a larger dataset, aiming to maintain representative characteristics for analysis."
+    },
+    "open_sourcing": ""
+}

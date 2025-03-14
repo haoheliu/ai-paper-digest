@@ -1,0 +1,22 @@
+{
+    "title": "Efficient Adapter Tuning for Joint Singing Voice Beat and Downbeat Tracking with Self-Supervised Learning Features",
+    "author": "Jiajun Deng (Huawei Technologies Co., Ltd.), Yaolong Ju (Huawei Technologies Co., Ltd.), Jing Yang (Huawei Technologies Co., Ltd.), Simon Lui (Huawei Technologies Co., Ltd.), Xunying Liu (The Chinese University of Hong Kong), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The approach utilizes temporal convolutional networks and self-supervised learning, which can inform similar methods in audio generation and processing tasks that Haohe Liu is exploring.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves tracking beats and downbeats in singing voice data without musical accompaniment, improving the accuracy of rhythm estimation.",
+    "contribution": "This paper introduces a novel temporal convolutional network-based method utilizing self-supervised learning features and efficient adapter tuning to enhance joint beat and downbeat tracking in singing voices.",
+    "technical_comparison": {
+        "prior_work": "Existing beat tracking models primarily rely on musical accompaniment with rhythmic patterns, leading to poor performance on purely vocal tracks.",
+        "novelty": "This work integrates self-supervised learning features and employs parameter-efficient adapters to reduce training and test distribution discrepancies, significantly improving performance."
+    },
+    "key_innovation": "Combines self-supervised learning acoustic features with efficient tuning mechanisms tailored for variable singing voice datasets.",
+    "real_world_impact": "This framework can enhance music transcription and automatic accompaniment generation systems, thereby improving user experiences in music applications.",
+    "limitations": "The paper may not address the overfitting problem in cases with extreme scarcity of singing voice data in certain domains.",
+    "new_terms": {
+        "adapter tuning": "**Adapter tuning** refers to modifying a pre-trained model with a small set of additional parameters (adapters) to adapt it to new tasks without large-scale retraining.",
+        "self-supervised learning (SSL)": "**Self-supervised learning** is a learning paradigm where the model generates its own supervisory signals from unlabeled data, typically used to extract meaningful features from raw input."
+    },
+    "open_sourcing": ""
+}

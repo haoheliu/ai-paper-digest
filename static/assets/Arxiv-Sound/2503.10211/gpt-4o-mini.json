@@ -1,0 +1,21 @@
+{
+    "title": "Adaptive Inner Speech-Text Alignment for LLM-based Speech Translation",
+    "author": "Henglyu Liu (Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China), Andong Chen (Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China), Kehai Chen (Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China), Xuefeng Bai (Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China), Meizhi Zhong (Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China), Yuan Qiu (School of Computer Science and Engineering, Xi'an University of Technology), Min Zhang (Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper's focus on aligning speech and text representations is directly applicable to Haohe Liu's research in audio-language models and generative audio tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses how to effectively align representations from speech and text to improve large language models in speech translation tasks.",
+    "contribution": "This paper introduces an Adaptive Inner Speech-Text Alignment method to solve the issue of modality gap in speech translation, achieving significant improvements in translation performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly approached the challenge through modality conversion, often neglecting deeper semantic representations.",
+        "novelty": "This work leverages optimal transport theory to dynamically align specific layers within the model, enhancing the overall semantic consistency between speech and text."
+    },
+    "key_innovation": "The adaptive layer selection approach for alignment, based on cross-modal retrieval, allows fine-grained adjustments that optimally enhance model performance.",
+    "real_world_impact": "The proposed method could enhance the reliability and accuracy of speech translation systems in real-world applications, significantly benefiting multilingual communication.",
+    "limitations": "No",
+    "new_terms": {
+        "Optimal Transport (OT)": "**Optimal Transport (OT)** is a mathematical theory that studies the most efficient way to move and transform distributions, often used for measuring discrepancies between different probability distributions."
+    },
+    "open_sourcing": ""
+}
