@@ -1,0 +1,22 @@
+{
+    "title": "Comparative Study of Spike Encoding Methods for Environmental Sound Classification",
+    "author": "Andres Larroza (Instituto Tecnol\u00f3gico de Inform\u00e1tica), Javier Naranjo-Alcazar (Instituto Tecnol\u00f3gico de Inform\u00e1tica), Vicent Ortiz Castell\u00f3 (Instituto Tecnol\u00f3gico de Inform\u00e1tica), Pedro Zuccarello (Instituto Tecnol\u00f3gico de Inform\u00e1tica), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The focus on spike encoding for environmental sounds could provide insights into new encoding techniques for audio tasks, paving the way for further innovations in generative audio and sound processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Environmental sound classification involves identifying and categorizing sounds from various environmental sources, which can be complicated by background noise and overlapping acoustics.",
+    "contribution": "This paper introduces a comparative analysis of three spike encoding methods to solve the challenge of classifying environmental sounds, achieving improved performance with the Threshold Adaptive Encoding method.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focus primarily on traditional audio classification techniques, often ignoring the unique characteristics of environmental sounds.",
+        "novelty": "This work evaluates and benchmarks different spike encoding methods, emphasizing the suitability of spiking neural networks for environmental sound classification."
+    },
+    "key_innovation": "The use of Threshold Adaptive Encoding shows superior performance in minimizing misclassifications during environmental sound classification tasks.",
+    "real_world_impact": "By establishing benchmarks for spike encoding in environmental sound classification, this study can enhance real-time sound recognition applications in fields such as surveillance and monitoring.",
+    "limitations": "The study does not explore SNN architecture modifications that may further optimize performance for more complex audio tasks.",
+    "new_terms": {
+        "spike encoding": "**Spike encoding** is a method of converting continuous signals into discrete events called spikes, mimicking the way biological neurons communicate.",
+        "Threshold Adaptive Encoding": "**Threshold Adaptive Encoding** is a dynamic spike encoding method that adjusts the threshold for spikes based on signal characteristics, offering improved robustness and sensitivity."
+    },
+    "open_sourcing": ""
+}

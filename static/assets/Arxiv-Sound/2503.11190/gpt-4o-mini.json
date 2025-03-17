@@ -1,0 +1,21 @@
+{
+    "title": "Cross-Modal Learning for Music-to-Music-Video Description Generation",
+    "author": "Zhuoyuan Mao (Sony Group Corporation), Mengjie Zhao (Sony Group Corporation), Qiyu Wu (Sony Group Corporation), Zhi Zhong (Sony Group Corporation), Wei-Hsiang Liao (Sony AI), Hiromi Wakaki (Sony Group Corporation), Yuki Mitsufuji (Sony AI), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The exploration of multimodal learning and description generation directly applies to audio-language tasks in Haohe's research, particularly in improving audio-based content generation.",
+    "field": "Applications-Creative AI",
+    "background": "Generating appropriate video descriptions based on music inputs by overcoming the differences in the audio and visual domains, ultimately assisting in music-video generation.",
+    "contribution": "This paper introduces a comprehensive pipeline for music-to-music-video description generation, achieving improved MV description quality through multimodal model fine-tuning.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches primarily focused on text-based inputs for MV generation or only utilized lyrics, limiting the multimodal interpretation of music.",
+        "novelty": "This work enhances the generation process by incorporating additional musical data alongside textual descriptions, providing a richer context for model training."
+    },
+    "key_innovation": "The integration of diverse musical features and styles into a descriptive framework that pairs music with visual content, fostering immersive MV production.",
+    "real_world_impact": "The methodology offers the potential for enhanced music visualization, which could significantly benefit artists, creators, and platforms focusing on music content distribution.",
+    "limitations": "The approach were evaluated solely on a single dataset, which may limit generalizability.",
+    "new_terms": {
+        "multimodal": "**Multimodal** refers to approaches that analyze and integrate information from multiple types of data (e.g., text, audio, video) to improve understanding and generation in AI applications."
+    },
+    "open_sourcing": ""
+}

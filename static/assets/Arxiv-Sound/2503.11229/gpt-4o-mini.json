@@ -1,0 +1,22 @@
+{
+    "title": "Exploring the Potential of Large Multimodal Models as Effective Alternatives for Pronunciation Assessment",
+    "author": "Ke Wang (Microsoft, Beijing, China), Lei He (Microsoft, Beijing, China), Kun Liu (Microsoft, Beijing, China), Yan Deng (Microsoft, Beijing, China), Wenning Wei (Microsoft, Beijing, China), Sheng Zhao (Microsoft, Beijing, China), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores the use of Large Multimodal Models (LMMs) like GPT-4o for pronunciation assessment, which directly relates to Dr. Liu's interest in generative models for audio applications and could inform future enhancements in speech technology and language learning tools.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper investigates how LMMs assess pronunciation quality across different granularities (phonemes, words, and sentences) and provides feedback to language learners.",
+    "contribution": "This paper introduces the application of Large Multimodal Models for pronunciation assessment tasks, achieving competitive results against traditional methods while providing comprehensive feedback.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on align-based techniques using Automatic Speech Recognition, which can be cumbersome and less adaptable.",
+        "novelty": "This work improves by leveraging multimodal capabilities to assess pronunciation in an alignment-free manner, thus simplifying the assessment process."
+    },
+    "key_innovation": "The integration of traditional pronunciation assessments with LMMs allows for real-time feedback and scoring across multiple levels of linguistic granularity.",
+    "real_world_impact": "The findings may significantly enhance computer-assisted language learning tools, enabling more tailored and effective feedback mechanisms for language learners.",
+    "limitations": "The study lacks ground-truth feedback, which poses a challenge in validating the results accurately.",
+    "new_terms": {
+        "Goodness of Pronunciation (GOP)": "**Goodness of Pronunciation** is a scoring metric used to quantify the accuracy and quality of pronunciation in spoken language assessments.",
+        "multimodal model": "**Multimodal model** refers to a model that can process and integrate multiple types of data inputs, such as text, audio, and visual information, to perform tasks effectively."
+    },
+    "open_sourcing": ""
+}

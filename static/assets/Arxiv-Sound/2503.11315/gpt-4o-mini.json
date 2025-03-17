@@ -1,0 +1,22 @@
+{
+    "title": "MMS-LLaMA: Efficient LLM-based Audio-Visual Speech Recognition with Minimal Multimodal Speech Tokens",
+    "author": "Jeong Hun Yeo (KAIST), Hyeongseop Rha (KAIST), Se Jin Park (KAIST), Yong Man Ro (KAIST), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses a novel framework for audio-visual speech recognition (AVSR) that incorporates dynamic query allocation and speech rate prediction, which can be beneficial for enhancing multimodal generative models, including those for audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Audio-Visual Speech Recognition (AVSR) merges auditory and visual information to improve speech recognition accuracy in noisy settings.",
+    "contribution": "MMS-LLaMA introduces a framework that minimizes the token length in AVSR while preserving essential linguistic content, achieving a state-of-the-art Word Error Rate (WER) of 0.74% with only 3.5 tokens per second.",
+    "technical_comparison": {
+        "prior_work": "Previous methods using Large Language Models (LLMs) suffered from high computational costs due to the need for processing a larger number of multimodal tokens.",
+        "novelty": "This work improves efficiency by dynamically allocating the number of queries based on input duration and a refined speech rate predictor."
+    },
+    "key_innovation": "The method uniquely integrates an early fusion module with query allocation strategies to streamline the processing of audiovisual inputs.",
+    "real_world_impact": "This framework can enhance the robustness of speech recognition systems in real-world noisy environments, benefiting communication technologies and assistive devices.",
+    "limitations": "No",
+    "new_terms": {
+        "Multimodal Fusion": "**Multimodal Fusion** is the technique of combining information from different modalities (e.g., audio and visual) to improve machine learning model performance.",
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a common metric for evaluating the accuracy of speech recognition systems, calculated as the number of incorrect words divided by the total number of words in the reference."
+    },
+    "open_sourcing": "Code and models are available at https://github.com/JeongHun0716/MMS-LLaMA"
+}

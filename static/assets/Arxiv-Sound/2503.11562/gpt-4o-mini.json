@@ -1,0 +1,23 @@
+{
+    "title": "Designing Neural Synthesizers for Low Latency Interaction",
+    "author": "Franco Caspe (Centre for Digital Music, Queen Mary University of London), Jordie Shier (Centre for Digital Music, Queen Mary University of London), Mark Sandler (Centre for Digital Music, Queen Mary University of London), Charalampos Saitis (Centre for Digital Music, Queen Mary University of London), Andrew McPherson (Dyson School of Engineering, Imperial College London), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses interactive Neural Audio Synthesis (NAS) models and addresses latency, a crucial factor in audio synthesis systems that Haohe Liu could leverage for improving his work on audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on reducing latency in real-time audio synthesis systems to enhance musical interaction with neural synthesizers.",
+    "contribution": "This paper introduces BRAVE, a low-latency audio synthesis model, which optimizes architecture for faster musical interaction while maintaining audio quality.",
+    "technical_comparison": {
+        "prior_work": "Prior models, such as RAVE, suffer from high latency which makes them unsuitable for real-time applications.",
+        "novelty": "This work enhances the architecture through iterative design modifications, decreasing buffering, representation, and cumulative delays to support low-latency performance."
+    },
+    "key_innovation": "Focuses on architectural redesign to minimize latency in NAS models, enabling musical interaction that requires fast action-to-sound response.",
+    "real_world_impact": "The developed model can significantly improve the performance of musical instruments in real-time settings, enhancing expressiveness and interaction for musicians.",
+    "limitations": "High compression ratios may still lead to audio quality issues due to reduced temporal resolution.",
+    "new_terms": {
+        "Neural Audio Synthesis (NAS)": "**Neural Audio Synthesis** refers to the use of neural networks to generate audio signals, often allowing for interactive and complex timbral variations.",
+        "timbral transfer": "**Timbral transfer** is the process of modifying the sound quality characteristics of an audio signal while preserving its fundamental musical content.",
+        "buffering delay": "**Buffering delay** is the time delay experienced when audio data is temporarily stored and later retrieved during processing."
+    },
+    "open_sourcing": "The authors provide a proof-of-concept audio plugin and associated source code for BRAVE at https://fcaspe.github.io/brave."
+}

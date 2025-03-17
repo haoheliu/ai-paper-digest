@@ -1,0 +1,22 @@
+{
+    "title": "Are Deep Speech Denoising Models Robust to Adversarial Noise?",
+    "author": "Will Schwarzer (University of Massachusetts), Philip S. Thomas (University of Massachusetts), Andrea Fanelli (Dolby Laboratories), Xiaoyu Liu (PlayHT)",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "This paper investigates the robustness of deep noise suppression models to adversarial attacks, which could inform Haohe Liu's work on audio enhancement and restoration techniques, specifically in improving model resilience against malicious input.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study evaluates if speech denoising models can maintain intelligibility when small, imperceptible adversarial noises are introduced to their inputs.",
+    "contribution": "This paper introduces a framework for analyzing the susceptibility of four recent speech denoising models to adversarial noise, achieving insights into model robustness and potential for targeted attacks.",
+    "technical_comparison": {
+        "prior_work": "Existing studies have shown that DNNs are vulnerable to adversarial perturbations but have largely overlooked deep noise suppression models.",
+        "novelty": "This work expands prior research by showcasing a broader range of vulnerabilities in DNS models across varied environments and conditions, including over-the-air scenarios."
+    },
+    "key_innovation": "Demonstrates that DNS models can be significantly compromised by imperceptible adversarial noise, revealing their fragility compared to traditional image denoising models.",
+    "real_world_impact": "The findings highlight critical security vulnerabilities in speech applications that rely on deep noise suppression, prompting the demand for robust defenses in commercial systems.",
+    "limitations": "The authors note that their attacks currently require gradient access, limiting the transferability of adversarial examples across different models.",
+    "new_terms": {
+        "deep noise suppression (DNS)": "**Deep noise suppression (DNS)** refers to the application of deep learning techniques to enhance audio quality by removing background noise from speech signals.",
+        "auditory masking": "**Auditory masking** is a phenomenon in psychoacoustics where the perception of one sound is affected by the presence of another sound, often used to make noise imperceptible."
+    },
+    "open_sourcing": "Samples and code to replicate results are available online at https://sites.google.com/view/adv-dns/home"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Exploring Performance\u2013Complexity Trade-Offs in Sound Event Detection Models",
+    "author": "Tobias Morocutti (Institute of Computational Perception), Florian Schmid (Institute of Computational Perception), Jonathan Greif (Institute of Computational Perception), Francesco Foscarin (LIT Artificial Intelligence Lab), Gerhard Widmer (Institute of Computational Perception), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents methods for sound event detection, which aligns closely with Haohe Liu's research in audio processing and generative models, especially in low-complexity network designs that could enhance audio generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on detecting specific sound events in audio recordings with high accuracy and low computational cost.",
+    "contribution": "This paper introduces low-complexity networks for sound event detection to solve the challenge of performing efficiently while achieving competitive accuracy against larger models.",
+    "technical_comparison": {
+        "prior_work": "Most existing models for sound event detection are large and computationally intensive, making them unsuitable for resource-limited applications.",
+        "novelty": "This work adapts lightweight convolutional models from audio tagging to event detection by restructuring the model architecture and implementing effective sequence modeling."
+    },
+    "key_innovation": "Demonstrates that integrating sequence models with convolutional backbones allows for efficient event detection with significantly fewer parameters, reaching upward of 95% parameter reduction compared to state-of-the-art models.",
+    "real_world_impact": "The findings could lead to the development of efficient sound detection applications in devices with limited processing power, including smartphones and IoT devices.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "Sound Event Detection (SED)": "**Sound Event Detection** refers to the process of identifying and classifying sound events in an audio signal, including their onset and offset times.",
+        "Knowledge Distillation (KD)": "**Knowledge Distillation** is a technique where a smaller, simpler model (student) is trained to mimic the behavior of a larger, more complex model (teacher) to retain its performance while being more efficient."
+    },
+    "open_sourcing": "The authors have released pre-trained models and code for reproducing this work on GitHub."
+}

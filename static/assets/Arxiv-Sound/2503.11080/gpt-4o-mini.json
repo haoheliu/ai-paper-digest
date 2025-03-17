@@ -1,0 +1,22 @@
+{
+    "title": "JOINT TRAINING AND DECODING FOR MULTILINGUAL END-TO-END SIMULTANEOUS SPEECH TRANSLATION",
+    "author": "Wuwei Huang (Xiaomi AI Lab), Renren Jin (Tianjin University), Wen Zhang (Xiaomi AI Lab), Jian Luan (Xiaomi AI Lab), Bin Wang (Xiaomi AI Lab), Deyi Xiong (Tianjin University), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The paper explores end-to-end simultaneous speech translation across multiple languages, which could inform Haohe Liu's work on multi-modal audio processing and generative models in speech synthesis and audio enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research investigates simultaneous speech translation where speech in one language is translated into multiple target languages concurrently, ideal for scenarios like international lectures.",
+    "contribution": "This paper introduces two model architectures and a joint asynchronous training strategy to effectively optimize multilingual end-to-end simultaneous speech translation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focus on either multilingual end-to-end or simultaneous translation separately, lacking a unified approach.",
+        "novelty": "This work combines both paradigms through shared and separate decoder mechanisms, enabling knowledge transfer and improved translation quality."
+    },
+    "key_innovation": "The introduction of a joint asynchronous training method allows for different latency settings across target languages, enhancing translation accuracy while accommodating real-time constraints.",
+    "real_world_impact": "The findings can significantly aid applications in real-time multilingual translation for international events, potentially improving communication in global platforms.",
+    "limitations": "The paper does not specifically address potential scalability issues when extending to more than two target languages or the impact of diverse data qualities across languages.",
+    "new_terms": {
+        "asynchronous training": "**Asynchronous training** refers to a method where different components (like language decoders) operate on different timelines to optimize performance based on specific needs.",
+        "wait-k strategy": "**Wait-k strategy** involves delaying the translation output until a certain amount of source speech has been processed, balancing latency against translation quality."
+    },
+    "open_sourcing": "Codes and data are available at: https://github.com/XiaoMi/TED-MMST"
+}

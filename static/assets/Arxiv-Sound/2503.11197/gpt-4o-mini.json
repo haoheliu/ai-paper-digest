@@ -1,0 +1,21 @@
+{
+    "title": "Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering",
+    "author": "Gang Li (Xiaomi Corporation), Jizhong Liu (Xiaomi Corporation), Heinrich Dinkel (Xiaomi Corporation), Yadong Niu (Xiaomi Corporation), Junbo Zhang (Xiaomi Corporation), Jian Luan (Xiaomi Corporation), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper directly addresses Audio Question Answering (AQA), making it highly relevant for Haohe Liu's interests in audio processing, specifically its unique exploration of applying reinforcement learning to LALMs.",
+    "field": "Applications-Speech and Audio",
+    "background": "Audio Question Answering is a multimodal task that involves generating accurate responses to questions based on audio content, integrating auditory and linguistic modalities.",
+    "contribution": "This paper introduces the Group Relative Policy Optimization algorithm to enhance reasoning capabilities in large audio language models for AQA, achieving state-of-the-art performance with an accuracy of 64.5%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on supervised fine-tuning, requiring large datasets for effective training.",
+        "novelty": "This work shows that reinforcement learning can outperform supervised methods even with small datasets, demonstrating better efficiency and generalization capabilities."
+    },
+    "key_innovation": "Utilizes reinforcement learning techniques that require fewer training samples and perform better than traditional approaches in a complex audio understanding context.",
+    "real_world_impact": "The findings indicate that reinforcement learning can improve AQA systems, leading to enhanced audio understanding applications like automated customer service or interactive audio-based learning environments.",
+    "limitations": "The explicit reasoning process does not significantly benefit AQA tasks, indicating a need for further exploration.",
+    "new_terms": {
+        "Group Relative Policy Optimization": "**Group Relative Policy Optimization** is a reinforcement learning algorithm designed to optimize the performance of models in contexts with multiple response options by leveraging group evaluation of outputs."
+    },
+    "open_sourcing": "Our project is available at https://github.com/xiaomi/r1-aqa and https://huggingface.co/mispeech/r1-aqa."
+}

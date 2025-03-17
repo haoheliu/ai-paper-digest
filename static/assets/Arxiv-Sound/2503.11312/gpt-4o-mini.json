@@ -1,0 +1,23 @@
+{
+    "title": "A Data-Driven Exploration of Elevation Cues in HRTFs: An Explainable AI Perspective Across Multiple Datasets",
+    "author": "Juan A. De Rusa (Departament d'Inform`atica, Universitat de Val`encia), Mario Montaguda (i2CAT Foundation), Jesus Lopez-Ballester (Departament d'Inform`atica, Universitat de Val`encia), Francesc J. Ferri (Departament d'Inform`atica, Universitat de Val`encia), Maximo Cobos (Departament d'Inform`atica, Universitat de Val`encia), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper employs convolutional neural networks (CNNs) and explainable artificial intelligence (XAI) techniques to analyze head-related transfer functions (HRTFs), which could inform your work on audio and speech processing by enhancing understanding of spatial audio classification.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research analyzes how spatial audio cues affect sound localization through head-related transfer functions using data from various datasets.",
+    "contribution": "This paper introduces an explainable artificial intelligence framework to analyze elevation perception cues within HRTFs, achieving deeper insights into spectral features influencing sound localization.",
+    "technical_comparison": {
+        "prior_work": "Existing studies primarily focus on individual datasets or simpler models for HRTF analysis, which limits generalizability and understanding.",
+        "novelty": "This work enhances interpretability by implementing convolutional neural networks and saliency techniques across eleven datasets for a broader analysis."
+    },
+    "key_innovation": "Utilizes convolutional neural networks and class activation mapping to identify spectral patterns important for elevation perception, offering interpretable insights into spatial audio cues across diverse listening conditions.",
+    "real_world_impact": "This work could significantly improve the development of spatial audio applications in virtual reality, gaming, and immersive audio experiences by better understanding elevation cues.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "Head-Related Transfer Function (HRTF)": "**Head-Related Transfer Function (HRTF)** refers to the response that characterizes how an ear receives a sound from a point in space, taking into account the effects of the head, torso, and pinnae.",
+        "Explainable Artificial Intelligence (XAI)": "**Explainable Artificial Intelligence (XAI)** involves methods and techniques in AI that help make the results of the AI more understandable by humans.",
+        "Class Activation Mapping (CAM)": "**Class Activation Mapping (CAM)** is a technique used to visualize the regions of an image that are most important for a model's predictions."
+    },
+    "open_sourcing": ""
+}
