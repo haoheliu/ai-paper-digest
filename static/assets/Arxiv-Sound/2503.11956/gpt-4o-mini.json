@@ -1,0 +1,22 @@
+{
+    "title": "Optimization-Based Analysis of Music Intervals and Tuning Systems in Oral Traditions Using Pitch Histograms: A Case Study of Iranian Vocal Music",
+    "author": "Sepideh Shafiei, Shapour Hakam",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper's computational methodologies and techniques for analyzing microtonal systems and intervals could be applicable for improving audio processing tasks in music generation and restoration projects, particularly in preserving and reproducing traditional music nuances.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study focuses on the analysis of music intervals and tuning systems in oral traditions, using computational methods like pitch histograms and optimization techniques.",
+    "contribution": "This paper introduces a methodology for deriving microtonal tuning systems and intonation patterns that enhances the understanding of Iranian classical vocal music, achieving a detailed analysis of pitch frequencies.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches primarily rely on traditional tuning analysis or scripted MIDI configurations with limited scope for microtonal flexibility.",
+        "novelty": "This work leverages performance-based pitch extraction and optimization to effectively model variations in microtonal intervals without predefined systems."
+    },
+    "key_innovation": "Pioneers a computationally rigorous approach to analyze oral musical traditions by deriving practical tuning frameworks from actual performances.",
+    "real_world_impact": "This research could aid in the preservation and revitalization of microtonal music traditions, offering insights for musicians and educators involved in cultural heritage.",
+    "limitations": "The methodology may be overly reliant on high-quality recordings, which could limit its applicability to less pristine audio sources.",
+    "new_terms": {
+        "Dynamic Time Warping (DTW)": "**Dynamic Time Warping** is an algorithm used to measure similarity between two sequences that vary in speed, commonly applied in speech recognition and time series analysis.",
+        "pitch histogram": "**Pitch histogram** is a graphical representation of the distribution of pitch frequencies in an audio recording, useful for analyzing musical intervals."
+    },
+    "open_sourcing": "The code and dataset are publicly available at https://github.com/SepiSha/radifToolBox."
+}

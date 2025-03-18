@@ -1,0 +1,22 @@
+{
+    "title": "Serenade: A Singing Style Conversion Framework Based On Audio Infilling",
+    "author": "Lester Phillip Violeta (Graduate School of Informatics Nagoya University), Wen-Chin Huang (Graduate School of Informatics Nagoya University), Tomoki Toda (Information Technology Center Nagoya University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses a framework for singing style conversion, which aligns with Dr. Liu's focus on audio processing and generative audio models. The audio infilling method could complement the techniques used in text-to-audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves transforming the singing style of an audio signal while preserving melody, effectively retaining the original notes without distorting the singer's identity.",
+    "contribution": "This paper introduces the Serenade framework to solve the challenge of singing style conversion, achieving high similarity in converted singing styles, particularly in breathy and mixed styles.",
+    "technical_comparison": {
+        "prior_work": "Prior methods in singing voice conversion typically focus on speaker identity without adequately addressing style transformations.",
+        "novelty": "This work improves by utilizing an audio infilling method combined with cyclic training and a source-filter vocoder, effectively modeling diverse singing styles."
+    },
+    "key_innovation": "Employs an audio infilling task coupled with a cyclic training mechanism to enable better disentanglement of singing styles while retaining melody fidelity.",
+    "real_world_impact": "The framework could significantly enhance applications in music production and vocal synthesis, potentially improving accessibility in music creation tools.",
+    "limitations": "The paper notes some trade-offs between naturalness and similarity when applying F0 resynthesis.",
+    "new_terms": {
+        "audio infilling": "**Audio infilling** refers to the task of predicting masked segments of audio data using contextual information from surrounding segments.",
+        "cyclic training": "**Cyclic training** is a model training approach that incorporates the output of a model back into the training to refine and improve its performance."
+    },
+    "open_sourcing": "The code and pretrained models are available at https://github.com/lesterphillip/serenade"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "A General Close-loop Predictive Coding Framework for Auditory Working Memory",
+    "author": "Zhongju Yuan (WAVES Research Group, Ghent University), Geraint Wiggins (AI Lab, Vrije Universiteit Brussel), Dick Botteldooren (WAVES Research Group, Ghent University), ..., Dick Botteldooren (WAVES Research Group, Ghent University)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The proposed close-loop predictive coding framework could enhance Haohe Liu's work in audio processing, particularly in memory retention and semantic understanding in tasks relevant to speech and audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research establishes a framework for temporally storing and recalling auditory information using a neural network approach inspired by predictive coding mechanisms.",
+    "contribution": "This paper introduces a close-loop predictive coding framework to solve the challenges of auditory memory recall, achieving high accuracy in semantic similarity across diverse audio datasets.",
+    "technical_comparison": {
+        "prior_work": "Prior predictive coding studies primarily focused on visual memory or simpler auditory tasks, which often lacked feedback mechanisms.",
+        "novelty": "This work incorporates a close-loop feedback approach that improves the accuracy of recalling auditory sequences compared to methods without such feedback."
+    },
+    "key_innovation": "The integration of feedback loops in the memory retrieval process enhances performance in recalling complex auditory sequences.",
+    "real_world_impact": "This method could significantly improve systems involving sound recognition and natural language processing, leading to better audio-based applications like speech recognition and environmental sound classification.",
+    "limitations": "No",
+    "new_terms": {
+        "close-loop predictive coding": "**Close-loop predictive coding** is a model in which feedback from previous output is used to enhance the processing and memory recall of new input data, aiming to minimize prediction errors by relying on internal representations.",
+        "semantically similar": "**Semantically similar** refers to the degree to which two pieces of information (such as audio sequences) convey the same meaning or informational content."
+    },
+    "open_sourcing": ""
+}

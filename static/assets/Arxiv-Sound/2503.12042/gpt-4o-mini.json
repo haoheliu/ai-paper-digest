@@ -1,0 +1,22 @@
+{
+    "title": "Prosody-Enhanced Acoustic Pre-training and Acoustic-Disentangled Prosody Adapting for Movie Dubbing",
+    "author": "Zhedong Zhang (Hangzhou Dianzi University), Liang Li (Institute of Computing Technology, Chinese Academy of Sciences), Chenggang Yan (Hangzhou Dianzi University), Chunshan Liu (Hangzhou Dianzi University), ..., Anton van den Hengel (University of Adelaide)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a two-stage method for movie dubbing that involves acoustic pre-training and prosody adaptation, which could enhance Haohe Liu's work in audio quality enhancement and generative AI for music by providing insights into managing complex audio characteristics and aligning prosody with audiovisual content.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of producing synchronized and emotionally accurate speech from scripts for movie dubbing, requiring precise alignment of prosody with character performance.",
+    "contribution": "The paper introduces an acoustic-prosody disentangled method to enhance movie dubbing quality, achieving significant improvements in prosody alignment and acoustic quality compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Earlier methods struggled with the background noise of movie recordings and did not effectively align prosody with visual content, leading to poor acoustic quality.",
+        "novelty": "This work incorporates a pre-training stage specifically focused on enhanced prosody and uses a disentangled architecture that preserves acoustic quality while adapting to dubbing needs."
+    },
+    "key_innovation": "Develops a comprehensive framework that harmonizes character emotion with dubbing prosody while leveraging robust acoustic modeling techniques.",
+    "real_world_impact": "The proposed method could significantly enhance the film dubbing industry, improving viewer experience by ensuring realistic and emotionally resonant character portrayals. It also has potential applications in multimedia and entertainment technologies.",
+    "limitations": "The method's reliance on high-quality reference audio may limit its applicability in scenarios with low-quality audio sources.",
+    "new_terms": {
+        "prosody-enhanced acoustic pre-training": "**Prosody-enhanced acoustic pre-training** is a training phase where a model is trained on a speech corpus with a focus on improving prosodic characteristics to better mimic expressive speech.",
+        "acoustic-disentangled framework": "**Acoustic-disentangled framework** refers to a system architecture that separates the processing of acoustic signals and prosodic features to enhance performance in tasks like dubbing."
+    },
+    "open_sourcing": "Demos and source code are available at https://zzdoog.github.io/ProDubber/"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Expressive Music Data Processing and Generation",
+    "author": "Jingwei Liu (University of California San Diego)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper discusses advanced techniques in music generation that focus on musical expressivity and coherence, relevant to Haohe's work in generative AI for music, especially considering the potential applications in MusicLDM.",
+    "field": "Applications-Creative AI",
+    "background": "The paper addresses the challenge in AI-generated music by developing a listening-based data-processing technique that enhances musical expressivity and coherence in generated performances.",
+    "contribution": "This paper introduces a new listening-based data-processing method and a probabilistic interdependency model for music generation, achieving more expressive and coherent musical outputs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often overlooked musical expressivity, resulting in less nuanced outputs lacking in coherence and emotional depth.",
+        "novelty": "This work improves through a model that explicitly captures the interdependencies between musical parameters, enabling more sophisticated music sequencing."
+    },
+    "key_innovation": "Combines perceptual principles derived from human listening with machine learning to enhance the quality and expressivity of music generation processes.",
+    "real_world_impact": "This approach could significantly advance AI in creative fields, especially in music composition and performance, offering tools for both amateur and professional musicians to generate sophisticated music.",
+    "limitations": "The model's complexity might limit its scalability and generalization to genres outside the training dataset.",
+    "new_terms": {
+        "Weber's law": "**Weber's law** refers to a principle in psychology that quantifies how differences in stimulus must be proportionate to be perceived as different.",
+        "autoregressive neural networks": "**Autoregressive neural networks** are a type of model that predicts a sequence of data based on prior values, commonly used in time-series analysis and other sequential data tasks."
+    },
+    "open_sourcing": "Please access the code and generated samples at the GitHub page: https://github.com/Jovie-Liu/Expressive-Piano-MIDI-Generation"
+}

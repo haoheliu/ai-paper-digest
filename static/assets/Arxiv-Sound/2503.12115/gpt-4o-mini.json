@@ -1,0 +1,23 @@
+{
+    "title": "Universal Speech Token Learning via Low-Bitrate Neural Codec and Pretrained Representations",
+    "author": "Xue Jiang (Communication University of China), Xiulian Peng (Microsoft Research Asia), Yuan Zhang (Communication University of China), Yan Lu (Microsoft Research Asia), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper introduces a universal speech token learning framework that captures both linguistic and paralinguistic information across various speech processing tasks, aligning well with Haohe Liu's focus on speech, audio processing, and the integration of such features into generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The authors propose a neural codec approach that generates compact discrete tokens for speech, integrating linguistic and paralinguistic attributes to improve speech models in understanding and generation tasks.",
+    "contribution": "This paper introduces the UniCodec framework to solve the limitations of existing speech representations by merging semantic and acoustic tokens, achieving enhanced speech quality and expressiveness.",
+    "technical_comparison": {
+        "prior_work": "Existing methods like semantic tokenization discard crucial paralinguistic features, while neural codecs primarily focus on acoustic tokens without robust language modeling.",
+        "novelty": "This work combines both models into a unified token framework that captures detailed speech attributes efficiently."
+    },
+    "key_innovation": "The method uniquely leverages a low-bitrate neural codec to learn a compressed representation that includes both semantic content and nuanced paralinguistic information.",
+    "real_world_impact": "The UniCodec framework has the potential to significantly enhance applications in text-to-speech and speech-to-speech translation by producing more natural and expressive outputs.",
+    "limitations": "No",
+    "new_terms": {
+        "semantic tokens": "**Semantic tokens** are discrete representations of information derived from self-supervised learning features that primarily encode linguistic content.",
+        "acoustic tokens": "**Acoustic tokens** refer to the discrete representations that capture detailed acoustic features in speech for high-fidelity audio synthesis.",
+        "low-bitrate": "**Low-bitrate** signifies a reduced data transmission rate that still maintains sufficient quality for tasks like speech synthesis."
+    },
+    "open_sourcing": ""
+}

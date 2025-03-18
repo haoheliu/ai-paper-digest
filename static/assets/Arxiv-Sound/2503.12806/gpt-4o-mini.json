@@ -1,0 +1,22 @@
+{
+    "title": "AV-Surf: Surface-Enhanced Geometry-Aware Novel-View Acoustic Synthesis",
+    "author": "Hadam Baek (Korea University), Hannie Shin (Korea University), Jiyoung Seo (Korea University), Chanwoo Kim (Korea University), Saerom Kim (Korea University), Hyeongbok Kim (Testworks), Sangpil Kim (Korea University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a novel approach to acoustic synthesis that integrates surface normals and geometric details, which could significantly advance Haohe Liu's work on audio generation and quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on generating spatially accurate binaural audio by synthesizing realistic sound propagation in complex real-world environments from a novel viewpoint.",
+    "contribution": "AV-Surf introduces a geometry-aware approach that utilizes surface-enhanced features to accurately model sound propagation in real-world scenarios, achieving improved binaural audio synthesis.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on limited geometric or visual cues, leading to inaccuracies in auditory experiences.",
+        "novelty": "This work improves acoustic modeling by integrating surface normals and 3D geometry, refining audio synthesis to achieve more realistic sound propagation."
+    },
+    "key_innovation": "Combines geometric and surface information with neural architectures to enhance audio synthesis, bridging visual and auditory models effectively.",
+    "real_world_impact": "The method has practical applications in virtual and augmented reality, gaming, and other industries requiring immersive audio experiences.",
+    "limitations": "The model's performance is directly dependent on the quality of the geometric priors and may require high computational resources for real-time implementation.",
+    "new_terms": {
+        "surface normals": "**Surface normals** are vectors that are perpendicular to the surface at a given point, crucial for understanding how surfaces interact with sound waves.",
+        "geometry-aware": "**Geometry-aware** approaches consider the shapes and structures of environments to improve how technologies perceive and interact with spatial audio."
+    },
+    "open_sourcing": "Project Page: https://avsurf.github.io/"
+}
