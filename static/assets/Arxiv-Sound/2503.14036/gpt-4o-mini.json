@@ -1,0 +1,22 @@
+{
+    "title": "Variational Autoencoder for Personalized Pathological Speech Enhancement",
+    "author": "Mingchi Hou (Idiap Research Institute), Ina Kodrasi (Idiap Research Institute), ..., H. Bourlard (Idiap Research Institute)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper discusses personalized speech enhancement techniques using variational autoencoders, which are directly applicable to Haohe Liu's research in audio quality enhancement and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Improving the quality of speech from pathological speakers, particularly those with Parkinson's disease, by personalizing models based on a small amount of clean speech data.",
+    "contribution": "This paper introduces a personalized speech enhancement model based on variational autoencoders to address performance gaps between neurotypical and pathological speakers, achieving comparable results across both groups.",
+    "technical_comparison": {
+        "prior_work": "Previous speech enhancement models predominantly rely on neurotypical datasets, leading to poor performance for pathological speakers.",
+        "novelty": "This work improves performance by fine-tuning pre-trained models with only a few seconds of clean data specific to each speaker, allowing for better generalization in pathological speech enhancement."
+    },
+    "key_innovation": "The approach integrates variational autoencoders and personalized training methods to enhance speech quality for diverse speaker conditions, including those affected by neurological disorders.",
+    "real_world_impact": "The personalization of speech enhancement models could significantly improve communication abilities for individuals with speech disorders, impacting their quality of life and social interactions.",
+    "limitations": "The study does not address the long-term effectiveness of personalized models across varying acoustic environments or diverse pathological speech types.",
+    "new_terms": {
+        "variational autoencoder": "**Variational Autoencoder (VAE)** is a generative model that learns to encode input data into a lower-dimensional latent space, allowing for the generation of new data samples from the learned distribution.",
+        "non-negative matrix factorization": "**Non-negative Matrix Factorization (NMF)** is a mathematical technique used to represent multivariate data by decomposing it into a product of non-negative matrices, useful for various applications including signal processing."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "AdaST: Dynamically Adapting Encoder States in the Decoder for End-to-End Speech-to-Text Translation",
+    "author": "Wuwei Huang (Tianjin University), Dexin Wang (Tianjin University), Deyi Xiong (Tianjin University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method of dynamically adapting acoustic states could enhance Haohe Liu's work in audio processing by improving integration between audio and textual data, significantly benefiting tasks like audio-language modeling and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "End-to-end speech translation involves translating spoken language directly into text of another language, while overcoming challenges posed by the differing modalities of audio and text.",
+    "contribution": "AdaST introduces a mechanism for dynamic adaptation of acoustic states in the decoder to improve end-to-end speech translation, achieving significant enhancements in translation quality measured by BLEU scores.",
+    "technical_comparison": {
+        "prior_work": "Previous models used static encoder hidden states during decoding, limiting interaction with the decoder's evolving states.",
+        "novelty": "AdaST dynamically updates acoustic states in the decoder based on target hidden states, improving cross-modal and cross-lingual interactions."
+    },
+    "key_innovation": "The integration of a speech-text mixed attention sublayer enables a more sophisticated interaction between audio and text representations in the translation process.",
+    "real_world_impact": "This approach has the potential to significantly enhance the efficiency and accuracy of automated translation systems, making them more practical for real-time applications.",
+    "limitations": "The potential increase in computational overhead due to the additional complexity in the model structure is not explicitly addressed.",
+    "new_terms": {
+        "BLEU": "**Bilingual Evaluation Understudy** is a metric for evaluating the quality of text which has been machine-translated from one natural language to another by comparing it to one or more reference translations.",
+        "speech-text mixed attention": "**Speech-text mixed attention** is a novel attention mechanism that jointly considers both acoustic states and target text representations for improved cross-modal understanding."
+    },
+    "open_sourcing": ""
+}

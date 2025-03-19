@@ -1,0 +1,23 @@
+{
+    "title": "MAG: Multi-Modal Aligned Autoregressive Co-Speech Gesture Generation without Vector Quantization",
+    "author": "Binjie Liu (Communication University of China), Lina Liu (China Mobile Research Institute), Sanyi Zhang (Communication University of China), Songen Gu (University of Chinese Academy of Sciences), Yihao Zhi (The Chinese University of Hong Kong), Tianyi Zhu (China Mobile Research Institute), Lei Yang (China Mobile Research Institute), Long Ye (Communication University of China)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper focuses on co-speech gesture generation, which intersects with audio processing through motion synthesis that can enhance models for speech-driven animation tasks in applications relevant to audio communication technology.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating realistic gestures that accompany speech to improve the naturalness and coherence of virtual interactions.",
+    "contribution": "This paper introduces MAG, a framework that leverages continuous motion embeddings for generating co-speech gestures without the information loss associated with vector quantization, achieving state-of-the-art performance in gesture realism and synchronization.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches often use vector-quantized representations for gesture data, leading to information loss and reduced authenticity.",
+        "novelty": "This work employs a multimodal masked autoregressive model and continuous motion embeddings, effectively preserving motion continuity and enhancing gesture generation realism."
+    },
+    "key_innovation": "The integration of continuous motion representations with multimodal conditioning from text and audio for more synchronized and expressive gesture generation.",
+    "real_world_impact": "This work can significantly enhance human-computer interaction in applications such as virtual reality and avatars that require natural gesture synchronization, potentially improving user experiences in diverse interactive environments.",
+    "limitations": "No",
+    "new_terms": {
+        "co-speech gestures": "**Co-speech gestures** refer to hand and body movements that naturally accompany speech, aiding in the communication of meaning.",
+        "diffusion models": "**Diffusion models** are generative models that iteratively transform noise into structured data, effectively used for synthesizing complex outputs like motion sequences.",
+        "multimodal": "**Multimodal** refers to the integration of multiple types of data, such as audio and visual information, to enhance understanding and generation tasks in machine learning."
+    },
+    "open_sourcing": "The code will be released to facilitate future research."
+}

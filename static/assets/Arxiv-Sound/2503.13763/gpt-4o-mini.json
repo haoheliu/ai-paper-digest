@@ -1,0 +1,21 @@
+{
+    "title": "Neural Edge Histogram Descriptors for Underwater Acoustic Target Recognition",
+    "author": "Atharva Agashe (Texas A&M University), Alexandra Van Dine (Massachusetts Institute of Technology Lincoln Laboratory), Davelle Carreiro (Massachusetts Institute of Technology Lincoln Laboratory), Joshua Peeples (Texas A&M University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a novel technique for feature extraction from underwater acoustic data, which could be adapted to similar tasks in Dr. Liu's research on audio processing and enhancement, particularly in areas like audio classification and generative modeling.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves classifying underwater acoustic signals for target recognition using passive sonar techniques to distinguish between different classes of vessels.",
+    "contribution": "This work introduces Neural Edge Histogram Descriptors (NEHD) to solve the challenge of underwater acoustic target recognition, achieving competitive classification performance with fewer computational resources compared to large pre-trained models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods include large deep learning models that require extensive computational resources and struggle with domain adaptation.",
+        "novelty": "This work harnesses NEHD, a lightweight feature extraction method focusing on both structural and statistical texture features, enhancing performance without the need for large model sizes."
+    },
+    "key_innovation": "Employs a combination of edge detection and histogram features to create a compact model that efficiently processes acoustic spectrograms, improving classification accuracy while minimizing parameters.",
+    "real_world_impact": "This lightweight approach enables effective underwater acoustic monitoring in resource-constrained environments, potentially enhancing marine resource management and environmental monitoring efforts.",
+    "limitations": "No",
+    "new_terms": {
+        "Neural Edge Histogram Descriptors (NEHD)": "**Neural Edge Histogram Descriptors (NEHD)** is a method for extracting texture features from images or signals, focusing on structural (edge) and statistical (distribution) aspects to aid in classification tasks."
+    },
+    "open_sourcing": "Code is publicly available at https://github.com/Advanced-Vision-and-Learning-Lab/NEHD_UATR"
+}
