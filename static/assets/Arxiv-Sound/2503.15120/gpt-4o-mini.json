@@ -1,0 +1,21 @@
+{
+    "title": "Communication Access Real-Time Translation Through Collaborative Correction of Automatic Speech Recognition",
+    "author": "Korbinian Kuhn (Stuttgart Media University), Verena Kersken (Stuttgart Media University), Gottfried Zimmermann (Stuttgart Media University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper focuses on enhancing Automatic Speech Recognition (ASR) through collaborative correction, which could influence Haohe Liu's research in audio and speech processing by integrating innovative human-in-the-loop strategies.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates real-time captioning for Deaf and hard of hearing individuals, addressing challenges in transcription accuracy and accessibility.",
+    "contribution": "This paper introduces a workflow for real-time correction of Automatic Speech Recognition outputs by non-professionals, achieving improved transcription clarity for DHH users.",
+    "technical_comparison": {
+        "prior_work": "Standard ASR systems often yield lower transcription accuracy, especially under varying conditions and speaker diversity.",
+        "novelty": "This work leverages collaborative editing to enhance accuracy and readability of ASR outputs, reducing errors substantially compared to traditional ASR systems."
+    },
+    "key_innovation": "The method engages non-professionals in correcting ASR outputs collaboratively, potentially creating a more accessible and cost-effective captioning solution.",
+    "real_world_impact": "Enhancing caption accuracy for DHH individuals can significantly improve their accessibility to spoken content in various environments, potentially transforming public event participation.",
+    "limitations": "The study's findings may not generalize to all contexts due to testing on a single high-quality video recording.",
+    "new_terms": {
+        "collaborative editing": "**Collaborative editing** refers to multiple users jointly refining or correcting a text in real-time, leveraging their collective input to enhance quality."
+    },
+    "open_sourcing": ""
+}

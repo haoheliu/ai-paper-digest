@@ -1,0 +1,22 @@
+{
+    "title": "Consistent Video-to-Speech: A Novel Cross-Modal Diffusion Framework for Authentic Speech Generation from Silent Videos",
+    "author": "Jiaxin Ye (Fudan University, Shanghai, China), Hongming Shan (Fudan University, Shanghai, China), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed method, which generates speech from silent video using visual cues, could be applied to enhance existing audio processing tasks like speech synthesis and restoration in the audio domain.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating speech from silent videos involves reconstructing vocal expressions from facial motions without relying on auditory input.",
+    "contribution": "This paper introduces Consistent Video-to-Speech (CV2S) as a new framework to achieve unified cross-modal alignment across semantics and emotional prosody from visual input, yielding high-fidelity speech synthesis.",
+    "technical_comparison": {
+        "prior_work": "Existing methods face challenges in aligning semantics, identity, and emotional expression while generating speech from lip motions or facial images, often lacking expressiveness and accuracy.",
+        "novelty": "The introduction of a discrete lip aligner and a style diffusion transformer significantly enhances the coherence and emotional richness of the generated speech."
+    },
+    "key_innovation": "ImaginTalk employs a unique approach combining discrete token diffusion and error detection mechanisms to refine speech generation from visual cues.",
+    "real_world_impact": "This framework has potential applications in dubbing, aiding individuals with speech impairments, and enhancing interactive media experiences by delivering expressive and synchronized speech.",
+    "limitations": "No",
+    "new_terms": {
+        "cross-modal alignment": "**Cross-modal alignment** refers to the process of synchronizing information from different modalities (e.g., visual and auditory) to ensure coherent and accurate representation.",
+        "discrete token diffusion": "**Discrete token diffusion** is a technique in which speech features are modeled as distinct tokens in a diffusion process, improving representation and synthesis quality."
+    },
+    "open_sourcing": "Demos are available at https://imagintalk.github.io."
+}

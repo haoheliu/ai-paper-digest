@@ -1,0 +1,22 @@
+{
+    "title": "Evaluating ASR Confidence Scores for Automated Error Detection in User-Assisted Correction Interfaces",
+    "author": "Korbinian Kuhn (Stuttgart Media University), Verena Kersken (Stuttgart Media University), Gottfried Zimmermann (Stuttgart Media University), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "This paper addresses the use of confidence scores in Automatic Speech Recognition (ASR) to improve error detection, which is directly applicable to Haohe Liu's research in audio signal processing and restoration techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study evaluates the reliability of confidence scores from ASR systems to identify and correct transcription errors effectively within a user interface.",
+    "contribution": "This paper introduces an empirical evaluation of confidence scores in ASR for automatic error detection, achieving insights into their practical limitations and user responses.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches mainly focused on the theoretical aspect of confidence scoring in ASR and lacked extensive user evaluations.",
+        "novelty": "This work combines quantitative analysis of ASR performance with qualitative user studies, revealing significant gaps in current confidence scoring methods."
+    },
+    "key_innovation": "Analyzes and contrasts the effectiveness of different ASR models and their confidence scores in a real-world user correction interface.",
+    "real_world_impact": "Understanding limitations of ASR confidence scores can lead to improved user interfaces in transcription tools, enhancing accessibility for the D/deaf and hard of hearing communities.",
+    "limitations": "The study is limited to a single dataset and specific language pairs, which may not generalize to other contexts or languages.",
+    "new_terms": {
+        "Automatic Speech Recognition (ASR)": "**Automatic Speech Recognition** is a technology that enables machines to understand spoken language, converting it into text.",
+        "confidence scores": "**Confidence scores** quantify the certainty of an ASR's word hypothesis, helping users identify potentially erroneous transcriptions."
+    },
+    "open_sourcing": "Transcription results, analysis code, and editing prototype are available open-source."
+}

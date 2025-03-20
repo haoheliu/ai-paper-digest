@@ -1,0 +1,22 @@
+{
+    "title": "SOLLA: Towards a Speech-Oriented LLM That Hears Acoustic Context",
+    "author": "Junyi Ao (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Dekun Chen (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Xiaohai Tian (Bytedance), Wenjie Feng (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Jun Zhang (Bytedance), Lu Lu (Bytedance), Yuxuan Wang (Bytedance), Haizhou Li (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Zhizheng Wu (School of Data Science, The Chinese University of Hong Kong, Shenzhen)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper focuses on integrating speech instructions with audio context understanding, which aligns with my research interests in text-to-audio generation and audio-language alignment.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves understanding spoken questions combined with auditory signals to accurately generate contextually relevant responses.",
+    "contribution": "SOLLA introduces an integrated model that comprehensively processes speech instructions and concurrent audio events to improve interaction with human-like ease.",
+    "technical_comparison": {
+        "prior_work": "Previous models focus primarily on processing audio or speech independently, often relying on text instructions.",
+        "novelty": "SOLLA combines an Audio Tagging module with ASR-assisted prediction to enable real-time comprehension of overlapping audio and speech cues."
+    },
+    "key_innovation": "The simultaneous processing of acoustic context and speech instructions enables more intuitive human-computer interaction and enhances the model's adaptability to diverse inputs.",
+    "real_world_impact": "This work could significantly enhance voice-activated systems by allowing them to better interpret and respond to commands in noisy, real-world environments.",
+    "limitations": "The evaluation is limited to straightforward tasks and does not address the complexities of multi-turn dialogues.",
+    "new_terms": {
+        "Audio Tagging": "**Audio Tagging** refers to a process where audio events are identified and labeled, helping models to understand and contextualize sound.",
+        "ASR": "**Automatic Speech Recognition** is a technology that converts spoken language into text, enhancing comprehension for further processing."
+    },
+    "open_sourcing": "SA-Eval is available at https://github.com/amphionspace/SA-Eval"
+}
