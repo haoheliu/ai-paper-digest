@@ -1,0 +1,23 @@
+{
+    "title": "Structured-Noise Masked Modeling for Video, Audio and Beyond",
+    "author": "Aritra Bhowmik (University of Amsterdam), Fida Mohammad Thoker (King Abdullah University of Science and Technology), Carlos Hinojosa (King Abdullah University of Science and Technology), Bernard Ghanem (King Abdullah University of Science and Technology), Cees G. M. Snoek (University of Amsterdam), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed structured-noise masking strategies can be adapted for audio and music tasks, aligning with the generative models and audio processing themes in Dr. Liu's research, particularly in contexts like audio generation and manipulation.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Research focuses on self-supervised learning by masking sections of video and audio data to reconstruct them, without requiring labeled data.",
+    "contribution": "[Structured-Noise Masked Modeling for Video, Audio and Beyond] introduces structured noise-based masking for video and audio, to enhance representation learning, achieving improved performance across several benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Traditional random masking methods disrupt modality structure, leading to suboptimal learning outcomes.",
+        "novelty": "This work utilizes structured noise distributions instead of random masking, enabling masks that respect the spatial, temporal, and spectral characteristics of video and audio data."
+    },
+    "key_innovation": "The approach elegantly filters white noise into modality-specific patterns to generate masks that enhance learning without additional computation.",
+    "real_world_impact": "This methodology could significantly optimize self-supervised learning workflows in audio and video applications, improving the efficiency and effectiveness of generative tasks.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "masked modeling": "**Masked modeling** is a technique in self-supervised learning where parts of the input data are masked, and the model is trained to predict or reconstruct the missing segments.",
+        "green noise": "**Green noise** refers to a type of structured noise that emphasizes specific frequency ranges, more relevant in spatiotemporal signals like video.",
+        "blue noise": "**Blue noise** is a type of noise characterized by high-frequency content, which can help prevent visual artifacts in generated images and improve distribution of visible areas."
+    },
+    "open_sourcing": ""
+}

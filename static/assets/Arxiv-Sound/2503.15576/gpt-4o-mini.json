@@ -1,0 +1,19 @@
+{
+    "title": "A Bird Song Detector for improving bird identification through Deep Learning: a case study from Donana",
+    "author": "Alba Marquez-Rodriguez (University of C\u00f3rdoba), Miguel Angel Mohedano-Munoz (Estaci\u00f3n Biol\u00f3gica de Do\u00f1ana), Manuel J. Mar\u00edn-Jimenez (University of C\u00f3rdoba), Eduardo Santamar\u00eda-Garc\u00eda (Estaci\u00f3n Biol\u00f3gica de Do\u00f1ana), Giulia Bastianelli (Estaci\u00f3n Biol\u00f3gica de Do\u00f1ana), Pedro Jordano (Estaci\u00f3n Biol\u00f3gica de Do\u00f1ana), Irene Mendoz (Estaci\u00f3n Biol\u00f3gica de Do\u00f1ana), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The application of deep learning for automated bioacoustic monitoring can inspire similar methods in audio processing tasks for other domains, including speech and music.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves using deep learning to classify bird vocalizations in audio recordings from Do\u00f1ana National Park, aiming to improve species detection and monitoring.",
+    "contribution": "This paper introduces a multi-stage pipeline that utilizes a Bird Song Detector to enhance bird vocalization identification, achieving improved classification accuracy compared to existing methods.",
+    "technical_comparison": "Previous methods relied heavily on manually engineered features and struggled with overlapping sounds. This work improves by integrating a specialized bird vocalization detector to isolate relevant audio segments before classification.",
+    "key_innovation": "The unique aspect of this method lies in using a hierarchical detection and classification process, which reduces noise interference and improves accuracy in species identification.",
+    "real_world_impact": "This approach can enhance biodiversity monitoring efforts, providing valuable data for conservation strategies in threatened ecosystems.",
+    "limitations": "No limitations specifically mentioned.",
+    "new_terms": {
+        "Passive Acoustic Monitoring": "**Passive Acoustic Monitoring (PAM)** refers to the technique of using audio recording devices to gather information about wildlife without direct observation, facilitating long-term ecological studies.",
+        "Intersection over Union (IoU)": "**Intersection over Union (IoU)** is a metric used to evaluate the overlap between two bounding boxes, commonly used in object detection tasks to assess prediction accuracy."
+    },
+    "open_sourcing": ""
+}

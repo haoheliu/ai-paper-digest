@@ -1,0 +1,22 @@
+{
+    "title": "Revival: Collaborative Artistic Creation through Human-AI Interactions in Musical Creativity",
+    "author": "Keon Ju M. Lee (Simon Fraser University), Philippe Pasquier (Simon Fraser University), Jun Yuri (Independent), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores human-AI collaboration in live music performance, which aligns closely with Haohe Liu's research interests in audio generation and interactive systems. The methodologies described could inspire new approaches in audio processing and machine learning for music applications.",
+    "field": "Applications-Creative AI",
+    "background": "The project involves a live audiovisual performance combining human musicians and AI agents that co-create electronic music and visuals in real-time.",
+    "contribution": "Revival introduces a framework for dynamic co-creation in music performance, showcasing real-time improvisation by human artists and AI agents, enhancing the collaborative aspects of creativity.",
+    "technical_comparison": {
+        "prior_work": "Previous artistic projects often focused on either fully automated AI compositions or entirely human-performed pieces.",
+        "novelty": "This work uniquely emphasizes a synergistic interaction between human musicians and AI, enabling a flexible, adaptive performance that evolves with participant input."
+    },
+    "key_innovation": "The use of AI musical agents that can respond in real-time to human performance, combined with audiovisual elements that react to music, creates a deeply engaging and interactive experience.",
+    "real_world_impact": "This work exemplifies how AI can enhance live performances in the arts, potentially influencing future artistic collaborations and performance technologies.",
+    "limitations": "The paper does not explicitly mention limitations, but potential challenges in synchronization and audience perception are acknowledged.",
+    "new_terms": {
+        "co-creative": "**Co-creative** refers to the collaborative process where multiple creators (humans and AI) actively contribute to producing artistic content.",
+        "machine listening": "**Machine listening** involves algorithms that analyze audio signals in real-time, enabling systems to understand and react to musical elements."
+    },
+    "open_sourcing": "Detailed performance setup and resources are available on the Metacreation Lab website."
+}
