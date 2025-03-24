@@ -1,0 +1,22 @@
+{
+    "title": "Aligning Text-to-Music Evaluation with Human Preferences",
+    "author": "Yichen Huang (Carnegie Mellon University), Zachary Novack (UC San Diego), Koichi Saito (Sony AI), Jiatong Shi (Carnegie Mellon University), Shinji Watanabe (Carnegie Mellon University), Yuki Mitsufuji (Sony AI), John Thickstun (Cornell University), Chris Donahue (Carnegie Mellon University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces a new evaluation metric for text-to-music models, which could enhance the performance assessment in music generation tasks, directly applicable to Haohe Liu's ongoing work in audio generation including MusicLDM.",
+    "field": "Evaluation-Methodology",
+    "background": "This work focuses on evaluating the quality of music generated from textual descriptions, comparing various metrics to human preferences in music.",
+    "contribution": "This paper introduces the MAUVE Audio Divergence (MAD) metric to solve the challenges of evaluating text-to-music systems, achieving a strong correlation with human preferences.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on the Frechet Audio Distance (FAD), which struggles to correlate with human judgments, especially for open-ended music generation.",
+        "novelty": "This work improves upon FAD by employing a new metric (MAD) based on self-supervised audio embeddings, demonstrating better sensitivity to musical quality and human preferences."
+    },
+    "key_innovation": "The introduction of a comprehensive evaluation methodology that includes both synthetic meta-evaluations and real-world user preference data to assess generative music quality.",
+    "real_world_impact": "By providing a more accurate metric for evaluating music generation models, this research could improve the development of TTM systems and enhance user engagement in music creation.",
+    "limitations": "The study may be limited by reliance on specific datasets that may not generalize across all music generation contexts.",
+    "new_terms": {
+        "MAUVE": "**MAUVE (Measuring the gap between neural text and human text using divergence frontiers)** is a metric that quantifies differences between neural generated outputs and human preferences, emphasizing direct relevance to audio evaluation.",
+        "FAD": "**Frechet Audio Distance** is a commonly used metric for evaluating generated audio quality based on distance metrics between distributions of generated and reference audio."
+    },
+    "open_sourcing": "An implementation of MAD is available at https://github.com/i-need-sleep/mad. MusicPrefs dataset is available at https://huggingface.co/datasets/i-need-sleep/musicprefs."
+}

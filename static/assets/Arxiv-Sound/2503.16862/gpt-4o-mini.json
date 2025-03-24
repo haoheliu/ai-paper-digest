@@ -1,0 +1,21 @@
+{
+    "title": "City2Scene: Improving Acoustic Scene Classification with City Features",
+    "author": "Yiqiang Cai (Xi'an Jiaotong-Liverpool University), Yizhou Tan (Xi'an Jiaotong-Liverpool University), Peihong Zhang (Xi'an Jiaotong-Liverpool University), Yuxuan Liu (Xi'an Jiaotong-Liverpool University), Shengchen Li (Xi'an Jiaotong-Liverpool University), Xi Shao (Nanjing University of Posts and Telecommunications), Mark D. Plumbley (University of Surrey)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on acoustic scene classification relates closely to Haohe Liu's work on audio generation and enhancement, particularly through leveraging contextual features, which can inform audio quality improvement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Acoustic Scene Classification (ASC) aims to categorize audio clips based on environmental sounds, facilitating advancements in applications such as smart devices and environmental monitoring.",
+    "contribution": "This paper introduces the City2Scene framework to enhance ASC by incorporating city features, demonstrating improved classification accuracy through knowledge distillation techniques.",
+    "technical_comparison": {
+        "prior_work": "Previous ASC approaches have primarily focused on common acoustic features across cities, often neglecting city-specific characteristics which can aid in scene distinctions.",
+        "novelty": "City2Scene shifts this paradigm by training a city classification model and utilizing its frozen features to inform scene classification, thus capturing unique city acoustic patterns."
+    },
+    "key_innovation": "Employs knowledge distillation to transfer city-specific sound characteristics to scene classification models, benefiting both CNNs and Transformers.",
+    "real_world_impact": "This framework could significantly improve the efficacy of smart devices by enhancing their environment recognition capabilities, leading to more personalized user experiences.",
+    "limitations": "The paper did not report any significant limitations explicitly, but potential challenges could revolve around the generalization of city-specific knowledge across diverse environments.",
+    "new_terms": {
+        "knowledge distillation": "**Knowledge distillation** is a process in machine learning where a smaller or simpler model (student) is trained to replicate the output of a larger, more complex model (teacher), often leading to improved performance of the student model."
+    },
+    "open_sourcing": ""
+}

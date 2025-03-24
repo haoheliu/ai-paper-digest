@@ -1,0 +1,21 @@
+{
+    "title": "Imagine to Hear: Auditory Knowledge Generation can be an Effective Assistant for Language Models",
+    "author": "Suho Yoo (HJ AILAB), Hyunjong Ok (HJ AILAB, POSTECH), Jaeho Lee (POSTECH)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper provides a novel approach to generating auditory knowledge which could enhance audio-language modeling tasks, particularly in applications related to audio generation and comprehension, directly aligning with my research in speech and audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study explores how language models, which traditionally rely only on textual input, can be augmented with dynamically generated auditory knowledge to improve understanding and performance on related tasks.",
+    "contribution": "Imagine to Hear introduces a framework that generates auditory knowledge based on given text spans, solving the limitations of existing retrieval systems by dynamically generating relevant audio, achieving state-of-the-art results in tasks like animal sound recognition.",
+    "technical_comparison": {
+        "prior_work": "Prior methods depend on retrieving audio from external databases, which may not contain relevant information and incur high computational costs.",
+        "novelty": "This work utilizes generative models to create auditory knowledge directly from text, allowing for the handling of multiple audio-related spans without external dependencies."
+    },
+    "key_innovation": "The method filters generated audio through a rejection sampling process to ensure relevance before integration into language models, enhancing their capability to process multimodal information.",
+    "real_world_impact": "This approach has the potential to improve applications in areas such as assistive technologies for the visually impaired and audio-related AI systems, enhancing user experience in audio recognition tasks.",
+    "limitations": "The model's performance depends on the quality of input prompts, and the generative process introduces additional computational overhead.",
+    "new_terms": {
+        "rejection sampling": "**Rejection sampling** is a statistical technique used to generate observations from a probability distribution by sampling from a proposal distribution and rejecting samples based on a criterion related to the target distribution."
+    },
+    "open_sourcing": ""
+}

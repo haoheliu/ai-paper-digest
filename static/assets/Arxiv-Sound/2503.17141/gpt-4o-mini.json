@@ -1,0 +1,22 @@
+{
+    "title": "HiFi-Stream: Streaming Speech Enhancement with Generative Adversarial Networks",
+    "author": "Ekaterina Dmitrieva (HSE University), Maksim Kaledin (HSE University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The focus on speech enhancement using deep learning techniques and GANs aligns closely with Dr. Liu's interests in audio processing and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing methods to improve speech quality by removing background noise and reverberation in real-time audio streams.",
+    "contribution": "This paper introduces HiFi-Stream, an optimized version of the HiFi++ model, achieving a significant reduction in parameters while maintaining audio quality.",
+    "technical_comparison": {
+        "prior_work": "Previous models focused on achieving high quality but were computationally expensive, often requiring significant resources.",
+        "novelty": "This work improves by reducing the model size by 3.5 times and computational complexity by 30%, making it feasible for low-resource devices."
+    },
+    "key_innovation": "Introduces structural modifications including the removal of non-essential components and the implementation of a newly designed MaskNet block to enhance performance without increasing complexity.",
+    "real_world_impact": "This model offers a practical solution for real-time speech enhancement in mobile and wearable devices, making it more accessible for a variety of applications, including voice recognition systems.",
+    "limitations": "The authors did not explicitly mention limitations.",
+    "new_terms": {
+        "Generative Adversarial Networks (GANs)": "**Generative Adversarial Networks (GANs)** are a class of machine learning frameworks where two neural networks contest with each other, resulting in the generation of new data that resembles the training data.",
+        "Streaming Speech Enhancement": "**Streaming Speech Enhancement** refers to the real-time processing of audio signals to improve speech clarity and quality as they are being captured."
+    },
+    "open_sourcing": "The code and model are available on the GitHub repository: https://github.com/KVDmitrieva/source_sep_hifi"
+}

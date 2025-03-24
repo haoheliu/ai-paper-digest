@@ -1,0 +1,21 @@
+{
+    "title": "STFTCodec: High-Fidelity Audio Compression through Time-Frequency Domain Representation",
+    "author": "Tao Feng (Shenzhen International Graduate School, Tsinghua University), Zhiyuan Zhao (International Digital Economy Academy), Yifan Xie (Shenzhen International Graduate School, Tsinghua University), Yuqi Ye (Shenzhen Graduate School, Peking University), Xiangyang Luo (Shenzhen International Graduate School, Tsinghua University), Xun Guan (Shenzhen International Graduate School, Tsinghua University), Yu Li (International Digital Economy Academy), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores high-fidelity audio compression using spectral methods, which align closely with Dr. Liu's work in audio quality enhancement and speech synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper discusses an approach for efficiently compressing audio signals using a Short-Time Fourier Transform, focusing on maintaining high audio quality while reducing file size.",
+    "contribution": "This paper introduces STFTCodec, a neural audio codec that leverages Short-Time Fourier Transform to achieve efficient audio compression, achieving superior perceptual quality compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous audio codecs often relied on waveform-based approaches that require substantial model capacity and do not optimize for perceptual quality.",
+        "novelty": "This work improves upon prior models by relaxing strict phase reconstruction requirements, thereby enhancing perceptual audio quality while maintaining phase coherence."
+    },
+    "key_innovation": "The integration of unwrapped phase derivatives as auxiliary features alongside parallel magnitude and phase processing branches allows for more effective audio reconstruction.",
+    "real_world_impact": "STFTCodec's ability to flexibly adjust compression ratios and maintain high fidelity could significantly benefit applications in music streaming and speech communication, especially in low-bandwidth scenarios.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "Short-Time Fourier Transform (STFT)": "**Short-Time Fourier Transform** is a mathematical technique for analyzing the frequency content of non-stationary signals over time, dividing the signal into smaller segments and applying Fourier Transform to each to get its frequency representation."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Symbolic Audio Classification via Modal Decision Tree Learning",
+    "author": "Enrico Marzano (Gap S.r.l.u.), Giovanni Pagliarini (University of Ferrara), Riccardo Pasini (University of Ferrara), Guido Sciavicco (University of Ferrara), Ionel Eduard Stan (Free University of Bozen-Bolzano), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores symbolic methods for audio classification, which could provide insights or techniques applicable to Haohe Liu's research in audio processing, especially in generating and enhancing audio quality.",
+    "field": "Applications-Speech and Audio",
+    "background": "Symbolic audio classification tasks can entail recognizing demographic characteristics, emotions, or diagnosing respiratory conditions from audio signals.",
+    "contribution": "This paper introduces the application of modal decision tree learning to symbolic audio classification, achieving significant accuracy in various classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous models primarily relied on black-box methods like neural networks, which offer high performance but low interpretability.",
+        "novelty": "This work employs symbolic techniques that yield interpretable rules while maintaining competitive accuracy across different audio tasks."
+    },
+    "key_innovation": "Utilizes modal logic in decision trees to enhance the expressiveness of rules extracted from audio features, enabling better temporal reasoning.",
+    "real_world_impact": "The findings can improve automated systems in healthcare and customer service settings by providing an interpretable model that accurately assesses demographic and emotional states from voice.",
+    "limitations": "The paper does not extensively evaluate performance against standard neural network models in a direct comparison.",
+    "new_terms": {
+        "modal logic": "**Modal logic** is a type of formal logic that extends classical logic to include operators expressing modality, such as necessity and possibility, allowing for reasoning about propositions that may vary across possible worlds.",
+        "decision trees": "**Decision trees** are predictive models that map observations about data to conclusions about the target value, typically represented as tree structures."
+    },
+    "open_sourcing": "Code for replicating the proposed pipeline is available at https://github.com/aclai-lab/audio-rules2024"
+}

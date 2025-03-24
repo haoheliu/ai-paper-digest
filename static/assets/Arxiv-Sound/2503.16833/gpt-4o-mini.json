@@ -1,0 +1,21 @@
+{
+    "title": "The Deployment of End-to-End Audio Language Models Should Take into Account the Principle of Least Privilege",
+    "author": "Luxi He (Princeton University), Xiangyu Qi (Princeton University), Michel Liao (Princeton University), Inyoung Cheong (Princeton University), Prateek Mittal (Princeton University), Danqi Chen (Princeton University), Peter Henderson (Princeton University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "This paper discusses the safety and legal implications of end-to-end audio language models, which is directly related to Haohe Liu's research in audio, speech, and AI ethics, particularly in the context of responsible AI deployment.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper explores the risks of deploying end-to-end audio language models that can infer sensitive information, urging for a principle of least privilege in their use.",
+    "contribution": "This paper introduces the principle of least privilege to mitigate risks associated with end-to-end audio language models, aiming to reduce potential misuse of sensitive information.",
+    "technical_comparison": {
+        "prior_work": "Prior works typically focused on the performance of audio language models without adequately addressing the security risks posed by end-to-end systems.",
+        "novelty": "This work emphasizes the need for careful evaluation of necessary audio features, advocating for a cautious approach to model deployment that aligns capabilities with actual task requirements."
+    },
+    "key_innovation": "Advocates for a risk-aware framework that allows only essential audio feature access during model deployment, potentially reducing privacy violations.",
+    "real_world_impact": "This paper highlights the importance of responsible AI usage in deploying language models, which can influence policies and practices in AI development and deployment in various sectors.",
+    "limitations": "The authors do not explicitly mention any limitations.",
+    "new_terms": {
+        "principle of least privilege": "**Principle of least privilege** is a security concept that states that any user, program, or system should only have access to the information necessary to perform their function, minimizing potential harm from misuse."
+    },
+    "open_sourcing": "For code and audio samples, please see https://github.com/princeton-polaris-lab/AudioLM-position-paper"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Learning disentangled representations for instrument-based music similarity",
+    "author": "Yuka Hashizume (Graduate School of Informatics, Nagoya University), Li Li (Information Technology Center, Nagoya University), Atsushi Miyashita (Graduate School of Informatics, Nagoya University), Tomoki Toda (Information Technology Center, Nagoya University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The proposed method of learning disentangled music representations aligns closely with Haohe Liu's work in audio and music processing, particularly in leveraging deep learning for nuanced audio tasks. The approach can enhance tasks such as music source separation and audio quality enhancement, fitting well with his research themes.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study explores music similarity by representing different instruments within a single mixed audio input, addressing the challenge of effective music retrieval.",
+    "contribution": "This paper introduces a Conditional Similarity Networks (CSNs) approach to learn music similarity from mixed sounds, achieving more accurate music representations compared to traditional methods that require separated instrument signals.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on individual networks for each instrumental sound, requiring clean instrument signals for training and inference, which are often not available.",
+        "novelty": "This work improves by using a single network that processes mixed audio and learns disentangled features, allowing for more robust retrieval with mixed signals."
+    },
+    "key_innovation": "The integration of a triplet loss mechanism with masks enables the network to focus on different instrumental parts directly from mixed audio inputs, enhancing flexibility in music retrieval.",
+    "real_world_impact": "This method can significantly improve music recommendation systems, making them more user-friendly by allowing retrieval based on specific instrumental characteristics, which may increase user engagement in music streaming platforms.",
+    "limitations": "Potential limitations include reliance on the quality of the mixed signals used for training and the complexity of implementing real-time systems.",
+    "new_terms": {
+        "Conditional Similarity Networks (CSNs)": "**Conditional Similarity Networks** are deep learning models that learn embeddings formulated to represent different notions of similarity using masked inputs for focused learning."
+    },
+    "open_sourcing": ""
+}

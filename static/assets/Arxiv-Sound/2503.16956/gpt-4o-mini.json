@@ -1,0 +1,22 @@
+{
+    "title": "From Faces to Voices: Learning Hierarchical Representations for High-quality Video-to-Speech",
+    "author": "Ji-Hoon Kim (Korea Advanced Institute of Science and Technology), Jeongsoo Choi (Korea Advanced Institute of Science and Technology), Jaehun Kim (Korea Advanced Institute of Science and Technology), Chaeyoung Jung (Korea Advanced Institute of Science and Technology), Joon Son Chung (Korea Advanced Institute of Science and Technology), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The hierarchical approach to audio generation from visual inputs can improve techniques in speech synthesis and restoration, aligning closely with my research on audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves converting silent videos of talking faces into coherent and high-quality speech audio, which is challenging due to the large modality gap between visual inputs and audio outputs.",
+    "contribution": "This paper introduces a hierarchical video-to-speech synthesis framework to solve the modality gap between silent video and speech, achieving high-fidelity audio generation that closely resembles real human speech.",
+    "technical_comparison": {
+        "prior_work": "Previous methods had significant limitations in bridging the gap between silent video and audio, often resulting in lower quality output due to insufficient temporal and contextual modeling.",
+        "novelty": "This work improves upon these methods by employing a flow matching generative model coupled with a three-stage hierarchical encoder for seamless visual-to-audio transformation."
+    },
+    "key_innovation": "The method uniquely integrates visual features\u2014lip movements, facial identity, and expressions\u2014within a structured encoding and decoding process, significantly enhancing the clarity and naturalness of generated speech.",
+    "real_world_impact": "The proposed system could revolutionize applications such as assistive technologies for speech-impaired individuals and dubbing in films or videos, ensuring more natural dialogues.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "flow matching": "**Flow matching** refers to a generative modeling technique that creates data samples by estimating trajectories between a simple distribution and the target distribution.",
+        "mel-spectrogram": "**Mel-spectrogram** is a representation of audio signals that highlights the perceived frequencies of sound, making it useful for auditory analyses."
+    },
+    "open_sourcing": "https://mm.kaist.ac.kr/projects/faces2voices"
+}
