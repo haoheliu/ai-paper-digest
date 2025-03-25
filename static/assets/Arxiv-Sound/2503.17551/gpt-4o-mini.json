@@ -1,0 +1,22 @@
+{
+    "title": "Audio-Enhanced Vision-Language Modeling with Latent Space Broadening for High Quality Data Expansion",
+    "author": "Yu Sun (ByteDance Inc., USA), Chunhui Liu (ByteDance Inc., USA), Linjie Wang (ByteDance Inc., USA), Yin Li (ByteDance Inc., China), Fangming Zhou (ByteDance Inc., China), Xiang Shen (ByteDance Inc., USA), Hongyu Xiong (ByteDance Inc., USA), Ruixiao Sun (ByteDance Inc., USA), Ze Jin (ByteDance Inc., USA), Zhuolin Hao (ByteDance Inc., China)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses multimodal content understanding, which aligns closely with audio and vision integration, potentially aiding in techniques for music and speech processing through combined visual and audio features.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study presents methods for improving multimodal machine learning models by integrating audio, text, and visual data to enhance model performance in areas like advertisement relevance.",
+    "contribution": "This paper introduces a novel active learning strategy and vision-language modeling approach to enhance data expansion, achieving improvements in recall and overall model accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on statistical sampling based techniques that struggled with semantic similarity in high-dimensional data.",
+        "novelty": "This work enhances model selection by incorporating latent space dynamics through k-Nearest Neighbors and introduces an audio enhancement strategy that significantly increases recall rates."
+    },
+    "key_innovation": "It effectively combines latent space broadening and audio features to enable richer, context-aware multimodal understanding.",
+    "real_world_impact": "The proposed methods led to significant business gains in production systems through effective advertisement targeting and content analysis, showcasing practical applicability in real-time platforms.",
+    "limitations": "Does not address potential issues with computational complexity when integrating multiple modalities.",
+    "new_terms": {
+        "latent space": "**Latent space** is a lower-dimensional representation of high-dimensional data that captures essential features, allowing for easier similarity calculation and sample selection.",
+        "active learning": "**Active learning** refers to a machine learning paradigm where the model selectively queries the most informative data points for labeling, thereby improving learning efficiency."
+    },
+    "open_sourcing": ""
+}

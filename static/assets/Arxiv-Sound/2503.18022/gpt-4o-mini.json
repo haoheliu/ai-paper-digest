@@ -1,0 +1,22 @@
+{
+    "title": "A State-of-the-Art Review on Acoustic Preservation of Historical Worship Spaces through Auralization",
+    "author": "Hannes Rosseel (KU Leuven), Toon van Waterschoot (KU Leuven), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper discusses auralization techniques which could apply to audio modeling tasks relevant in audio restoration and enhancement, key areas in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Auralization is a method to recreate the sound environment of historical worship spaces, allowing researchers to simulate and preserve the unique acoustics of these locations.",
+    "contribution": "This paper introduces a comprehensive review of auralization processes specifically applied to preserving the acoustics of Historical Worship Spaces, achieving clarity on existing methods and their applications.",
+    "technical_comparison": {
+        "prior_work": "Existing reviews mainly focus on the historical context and architectural designs affecting acoustics.",
+        "novelty": "This work systematically compiles and critiques the current research landscape on auralization in HWS, emphasizing practical methodologies for acoustic preservation."
+    },
+    "key_innovation": "Provides an organized framework categorizing the auralization process into five components, enhancing understanding of auralization in heritage preservation.",
+    "real_world_impact": "The framework outlined can aid in the conservation of culturally significant sites, thus preserving both historical and spiritual legacies for future generations.",
+    "limitations": "The paper suggests that real-world applications and empirical validations of the techniques discussed may be limited.",
+    "new_terms": {
+        "Historical Worship Spaces (HWS)": "**Historical Worship Spaces (HWS)** refers to places of worship that have cultural significance and unique acoustic properties, often at risk from environmental and architectural changes.",
+        "auralization": "**Auralization** is the process of representing the acoustic characteristics of a space through sound reproduction techniques."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "A Reliable and Efficient Detection Pipeline for Rodent Ultrasonic Vocalizations",
+    "author": "S. S. Anis (University of South Carolina), D. M. Kellis (University of South Carolina School of Medicine), K. F. Kaigler (University of South Carolina School of Medicine), M. A. Wilson (University of South Carolina School of Medicine), C. O'Reilly (University of South Carolina), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper discusses a novel automated detection system for ultrasonic vocalizations, which indirectly relates to audio processing techniques that may enhance methods in audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting and analyzing rodent ultrasonic vocalizations using a new automated system to streamline research in rodent behaviors.",
+    "contribution": "This paper introduces the ContourUSV pipeline to solve the challenges in analyzing ultrasonic vocalizations, achieving significant improvements in precision, recall, and speed.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for detecting ultrasonic vocalizations, such as DeepSqueak and JTM, often struggle with generalization across datasets and require extensive training.",
+        "novelty": "This work improves on these prior methods by using simpler signal processing techniques paired with robust contour detection, leading to better accuracy and speed."
+    },
+    "key_innovation": "Utilizes a combination of preprocessing techniques and contour detection on spectrograms, making it efficient and user-friendly without relying heavily on machine learning.",
+    "real_world_impact": "The ContourUSV system promotes more efficient and reliable analysis of rodent vocalizations, potentially impacting research in neuropsychiatric disorders and animal communication.",
+    "limitations": "The performance across different datasets may vary, and further testing on diverse conditions is needed to confirm robustness.",
+    "new_terms": {
+        "ultrasonic vocalizations": "**Ultrasonic vocalizations** refer to high-frequency sounds emitted by rodents, used for communication but often inaudible to human ears.",
+        "contour detection": "**Contour detection** is a technique to identify the outline of shapes within an image, helping in recognizing patterns or objects within a given context."
+    },
+    "open_sourcing": "The source code for ContourUSV is available on GitHub at https://github.com/lina-usc/contourusv."
+}

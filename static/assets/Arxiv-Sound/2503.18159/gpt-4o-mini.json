@@ -1,0 +1,22 @@
+{
+    "title": "DiffusionTalker: Efficient and Compact Speech-Driven 3D Talking Head via Personalizer-Guided Distillation",
+    "author": "Peng Chen (Institute of Software, Chinese Academy of Sciences), Xiaobao Wei (Institute of Software, Chinese Academy of Sciences), Ming Lu (Intel Labs China), Hui Chen (Institute of Software, Chinese Academy of Sciences), Feng Tian (Institute of Software, Chinese Academy of Sciences), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper proposes a method for personalized 3D facial animation from speech, which could enhance audio-visual synthesis and user experience in generative audio applications, a key aspect of Haohe Liu's research focus.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves generating 3D facial animations in real-time, driven by the audio of a person's speech, while capturing the speaker's identity and emotional nuances.",
+    "contribution": "This paper introduces DiffusionTalker, an efficient model that distills a large teacher model into a compact student model, achieving significant speed and size reductions for generating personalized animations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on large, cumbersome models with slow inference times and limited personalization capabilities.",
+        "novelty": "This work improves efficiency through a personalizer-guided distillation process that reduces the inference time by over 8x and model size by 86.4%."
+    },
+    "key_innovation": "The integration of a contrastive personalizer for extracting identity and emotion embeddings, which guide the facial animation process more effectively compared to existing models.",
+    "real_world_impact": "This method can greatly enhance applications in virtual reality and gaming by providing more realistic and personalized avatar representations, making interactions more engaging.",
+    "limitations": "No",
+    "new_terms": {
+        "Diffusion Model": "**Diffusion Model** refers to a class of probabilistic generative models that gradually transform noise into data through a series of denoising steps.",
+        "Personalizer-Guided Distillation": "**Personalizer-Guided Distillation** is a technique aimed at teaching a smaller model to mimic the outputs of a larger model while focusing on personalized user characteristics."
+    },
+    "open_sourcing": "The code will be released at: https://github.com/ChenVoid/DiffusionTalker."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "GSound-SIR: A Spatial Impulse Response Ray-Tracing and High-order Ambisonic Auralization Python Toolkit",
+    "author": "Yongyi Zang (Independent Researcher), Qiuqiang Kong (Chinese University of Hong Kong), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The toolkit offers direct access to raw ray data and supports high-order Ambisonic synthesis, which can help in generating high-fidelity audio environments and enhance techniques in audio processing and generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This toolkit simulates how sound travels in three-dimensional spaces and generates spatial audio representations from those simulations.",
+    "contribution": "GSound-SIR introduces enhanced access to raw ray data and high-order Ambisonic synthesis to solve the limitation of existing acoustic tools, achieving more detailed analysis and higher audio quality in spatial audio applications.",
+    "technical_comparison": {
+        "prior_work": "Existing tools output only final audio results without exposing intermediate data, limiting analytic capabilities.",
+        "novelty": "This toolkit decouples ray generation from auralization, allowing users to filter and analyze raw data more effectively."
+    },
+    "key_innovation": "The ability to filter and export raw acoustic rays based on energy thresholds, providing flexibility for in-depth analysis.",
+    "real_world_impact": "This toolkit could significantly influence research and development in audio technology, enhancing applications in gaming, virtual reality, and architectural acoustics.",
+    "limitations": "The toolkit only supports stationary sound sources and lacks GPU acceleration, potentially limiting performance in dynamic scenarios.",
+    "new_terms": {
+        "high-order Ambisonics": "**High-order Ambisonics (HOA)** is a method of sound reproduction that uses multiple microphone channels to capture and reproduce three-dimensional sound fields with higher spatial resolution.",
+        "energy-based filtering": "**Energy-based filtering** refers to the technique of selecting only those data points (rays) that contribute the most energy to the overall result, optimizing data storage and analysis."
+    },
+    "open_sourcing": "The library is released under the Apache 2.0 License available at https://github.com/yongyizang/GSound-SIR"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "CCMusic: An Open and Diverse Database for Chinese Music Information Retrieval Research",
+    "author": "Monan Zhou (China Conservatory of Music), Shenyang Xu (China Conservatory of Music), Zhaorui Liu (China Conservatory of Music), Feng Yu (China Conservatory of Music), Wei Li (China Conservatory of Music), Baoqiang Han (China Conservatory of Music), Zhaowen Wang (China Conservatory of Music), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The integration of diverse datasets for Chinese music aligns closely with my research interests in audio and music processing, particularly in expanding the dataset landscape for effective model training and evaluation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a comprehensive database for Chinese music datasets to facilitate research in Music Information Retrieval (MIR).",
+    "contribution": "CCMusic introduces a unified and openly accessible database for diverse Chinese music datasets to solve the challenges of scarce data availability in the MIR community, achieving improved usability and standardization.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets in MIR for Chinese music were scattered and often required lengthy access procedures, limiting usability.",
+        "novelty": "This work systematically integrates published and unpublished datasets, standardizing their formats and making them openly accessible, significantly simplifying the research process."
+    },
+    "key_innovation": "The database provides a centralized platform for various Chinese music datasets, enhancing accessibility and usability through rigorous data cleaning and structuring.",
+    "real_world_impact": "The establishment of CCMusic can potentially accelerate research in MIR for Chinese music, inspiring new applications in music classification, recommendation, and retrieval systems.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "Music Information Retrieval (MIR)": "**Music Information Retrieval (MIR)** refers to the interdisciplinary field concerned with the analysis, indexing, and retrieval of music data.",
+        "spectrogram": "**Spectrogram** is a visual representation of the spectrum of frequencies in a sound sample as they vary with time."
+    },
+    "open_sourcing": "The database is open and available on HuggingFace and ModelScope."
+}

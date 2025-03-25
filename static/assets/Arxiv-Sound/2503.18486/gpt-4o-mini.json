@@ -1,0 +1,21 @@
+{
+    "title": "Music Similarity Representation Learning Focusing on Individual Instruments with Source Separation and Human Preference",
+    "author": "Takehiro Imamura (Nagoya University, Aichi, Japan), Yuka Hashizume (Nagoya University, Aichi, Japan), Wen-Chin Huang (Nagoya University, Aichi, Japan), Tomoki Toda (Nagoya University, Aichi, Japan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed methods for music similarity representation learning can enhance audio processing tasks, particularly in the areas of music retrieval and recommendation which aligns with my interest in audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on improving music similarity learning for individual instruments without needing clean instrument sounds during inference, leveraging source separation and human preference.",
+    "contribution": "This paper introduces three methods to enhance music similarity representation learning based on individual instrument sounds, achieving improved performance through end-to-end fine-tuning and multi-task learning.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with separation errors in music source separation and lacked perceptual alignment with human similarity judgments.",
+        "novelty": "This work optimizes these processes by integrating human preference data and employing end-to-end fine-tuning, significantly boosting the model's accuracy and user perceptual alignment."
+    },
+    "key_innovation": "It uniquely combines music source separation with human perceptual fine-tuning methods to enable more accurate instrument-specific music similarity representations.",
+    "real_world_impact": "The advancements could significantly improve music recommendation systems by allowing users to find tracks based on specific instrumental similarities, enhancing user satisfaction.",
+    "limitations": "The dependency on human preference labels may limit scalability and applicability without extensive user data collection.",
+    "new_terms": {
+        "perception-aware fine-tuning (PAFT)": "**Perception-aware fine-tuning** is a training approach that aligns model learning with human judgments of similarity, enhancing the model's effectiveness in capturing perceptual nuances."
+    },
+    "open_sourcing": ""
+}

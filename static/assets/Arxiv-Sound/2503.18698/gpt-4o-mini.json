@@ -1,0 +1,22 @@
+{
+    "title": "Wireless Hearables With Programmable Speech AI Accelerators",
+    "author": "Malek Itani (Paul G. Allen School of Computer Science and Engineering, University of Washington), Tuochao Chen (Paul G. Allen School of Computer Science and Engineering, University of Washington), Arun Raghavan (Department of Otolaryngology\u2014Head and Neck Surgery, University of Washington), Gavriel Kohlberg (Department of Otolaryngology\u2014Head and Neck Surgery, University of Washington), Shyamnath Gollakota (Paul G. Allen School of Computer Science and Engineering, University of Washington), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The integration of on-device low-power AI accelerators to improve speech enhancement is directly applicable to developing audio and speech technologies, enhancing the feasibility of advanced AI in portable devices.",
+    "field": "Applications-Speech and Audio",
+    "background": "Development of wireless hearables that utilize efficient on-device speech AI models for real-time audio processing and enhancement.",
+    "contribution": "This paper introduces NeuralAids, a system of small wireless devices designed to run real-time speech AI applications without relying on external computational resources, achieving efficient audio processing and noise suppression.",
+    "technical_comparison": {
+        "prior_work": "Existing systems often require high computational resources, leading to dependencies on smartphones or external devices, causing latency and reliability issues.",
+        "novelty": "NeuralAids overcomes these challenges by implementing a hardware-software co-design that allows for efficient on-device processing with low power consumption."
+    },
+    "key_innovation": "Integrates a unique dual-path neural network and hardware-optimized speech AI accelerator, greatly improving real-time performance and reducing power usage.",
+    "real_world_impact": "This paves the way for enhanced hearing aids and other smart devices that can process audio independently, leading to potentially transformative applications in personal audio enhancement and communication.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "dual-path neural network": "**Dual-path neural network** refers to a model architecture that processes time and frequency components separately to improve performance in tasks like speech enhancement.",
+        "quantization-aware training": "**Quantization-aware training** is a technique used to prepare a model for reduced precision by simulating the quantization effects during training, helping to preserve model accuracy post-quantization."
+    },
+    "open_sourcing": ""
+}

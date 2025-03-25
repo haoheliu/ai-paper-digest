@@ -1,0 +1,23 @@
+{
+    "title": "Measuring the Robustness of Audio Deepfake Detectors",
+    "author": "Xiang Li (Fordham University), Pin-Yu Chen (IBM Research), Wenqi Wei (Fordham University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper discusses the robustness of audio deepfake detection models against various perturbations, which is directly related to audio processing and could inform future improvements in audio quality enhancement techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating how well audio deepfake detection models perform under different types of audio perturbations, including noise, modification, and compression, to ensure reliability in real-world scenarios.",
+    "contribution": "This paper introduces a systematic evaluation framework for audio deepfake detection models against a variety of common audio corruptions, demonstrating the varying levels of robustness among different model architectures.",
+    "technical_comparison": {
+        "prior_work": "Most existing methods focus on improving detection accuracy without assessing robustness against practical audio distortions.",
+        "novelty": "This work highlights specific vulnerabilities in detection models related to audio modifications and compression, which have not been comprehensively addressed previously."
+    },
+    "key_innovation": "Systematic evaluation of audio deepfake detectors against diverse audio corruptions and the demonstration that larger foundation models provide more robust detection capabilities.",
+    "real_world_impact": "The findings underscore the need for robust audio deepfake detection frameworks, informing developers on how to improve model reliability in real-world applications where audio corruption is common.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Equal Error Rate (EER)": "**Equal Error Rate (EER)** is a metric in binary classification that measures the rate of false positives and false negatives, allowing comparison of model performance at a specific threshold.",
+        "Signal-to-Noise Ratio (SNR)": "**Signal-to-Noise Ratio (SNR)** is a measure of signal power relative to the noise power, indicating audio quality.",
+        "ViSQOL": "**ViSQOL** is an audio quality assessment metric that simulates human hearing to evaluate the perceptual quality of audio signals."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Machine Learning Based Animal Emotion Classification Using Audio Signals",
+    "author": "Mariia Slobodian (Wallee AG, Switzerland), Mykola Kozlenko (SoftServe, USA)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper focuses on audio signal classification, which aligns with Dr. Liu's work in audio processing and machine learning methods for audio-related tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Classifying a dog's emotional state using audio signals to improve human-machine communication and emotion recognition systems.",
+    "contribution": "This paper introduces a machine learning model for classifying dog emotions from audio signals, achieving over 70% accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in animal emotion recognition had limited accuracy and often required extensive feature engineering or preprocessing.",
+        "novelty": "This study simplifies the process by directly feeding audio signals into a convolutional neural network, bypassing extensive preprocessing."
+    },
+    "key_innovation": "Uses a convolutional neural network to classify emotions from raw audio signals without extensive preprocessing, enhancing efficiency and reducing complexity.",
+    "real_world_impact": "The approach could enhance applications in animal training, pet monitoring, and communication tools between humans and dogs, improving interaction quality.",
+    "limitations": "The model's performance is only tested on data from one dog, which may limit its generalization to other breeds or individuals.",
+    "new_terms": {
+        "Mel-frequency cepstral coefficients": "**Mel-frequency cepstral coefficients (MFCC)** are a representation of the short-term power spectrum of sound, commonly used in speech and audio processing for feature extraction.",
+        "convolutional neural network": "**Convolutional neural network (CNN)** is a type of deep learning model particularly effective in processing structured grid data such as images and audio signals."
+    },
+    "open_sourcing": ""
+}

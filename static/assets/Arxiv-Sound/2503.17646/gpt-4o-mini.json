@@ -1,0 +1,22 @@
+{
+    "title": "Leveraging Audio Representations for Vibration-Based Crowd Monitoring in Stadiums",
+    "author": "Yen Cheng Chang (University of Michigan), Jesse Codling (University of Michigan), Yiwen Dong (Stanford University), Jiale Zhang (University of Michigan), Jiasi Chen (University of Michigan), Hae Young Noh (Stanford University), Pei Zhang (University of Michigan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The method leverages pre-training on audio to address the data scarcity in vibration-based monitoring, which aligns with Haohe's interests in audio and generative models. This could enhance the robustness of audio-related applications by adopting a similar cross-modal strategy.",
+    "field": "Applications-Speech and Audio",
+    "background": "Crowd monitoring in sports stadiums using floor vibrations as a less intrusive method for analyzing crowd behavior compared to traditional camera and microphone methods.",
+    "contribution": "This paper introduces Vibration Leverage Audio (ViLA) to solve the challenge of sparsity in labeled vibration data, achieving a 5.8\u00d7 reduction in error for crowd monitoring.",
+    "technical_comparison": {
+        "prior_work": "Prior methods predominantly rely on labeled data for model training, which is challenging to collect in crowded environments.",
+        "novelty": "This work effectively reduces the need for labeled vibration data by pre-training on an abundant audio dataset, improving model performance and reducing manual effort."
+    },
+    "key_innovation": "The unique approach of cross-modal learning from audio to vibration allows for effective crowd monitoring with minimal labeled data.",
+    "real_world_impact": "The successful real-world application of this method could lead to safer and more efficient crowd monitoring systems in various public venues, thereby enhancing public safety.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "cross-modality": "**Cross-modality** refers to the use of different types of data (like audio and vibration) to improve model training and performance in machine learning applications.",
+        "spectrogram": "**Spectrogram** is a visual representation of the spectrum of frequencies in a signal as they vary with time, commonly used in audio signal processing."
+    },
+    "open_sourcing": ""
+}
