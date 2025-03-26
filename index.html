@@ -253,6 +253,8 @@
     const goToPageBtn = document.getElementById("goToPageBtn");
     const exportPdfBtn = document.getElementById("exportPdfBtn");
 
+    const expandedDetails = new Set();
+
     // On load
     (async function init(){
       setLastUpdated();
@@ -503,6 +505,11 @@
           `;
         }
         
+        let detailsId = "details-" + id.replace(/\./g, '-');
+        let isOpen = expandedDetails.has(detailsId);
+        let btnText = isOpen ? "Show Less" : "Show More";
+        let collapseClass = isOpen ? "show" : "";
+        let ariaExp = isOpen ? "true" : "false";
         let cardHTML=`
           <div class="card paper-card shadow-sm h-100">
             ${imagesHTML}
@@ -516,14 +523,14 @@
               <p><strong>Contribution:</strong> ${data.contribution||''}</p>
               <button class="btn btn-sm btn-outline-secondary mt-2 toggle-details-btn"
                 data-bs-toggle="collapse"
-                data-bs-target="#details-${id.replace(/\./g, '-')}"
-                aria-expanded="false"
-                aria-controls="details-${id.replace(/\./g, '-')}"
+                data-bs-target="#${detailsId}"
+                aria-expanded="${ariaExp}"
+                aria-controls="${detailsId}"
                 onclick="toggleDetailsText(this)">
-                Show More
+                ${btnText}
               </button>
 
-              <div class="collapse mt-2" id="details-${id.replace(/\./g, '-')}">
+              <div class="collapse mt-2 ${collapseClass}" id="${detailsId}">
                 ${techComparison}
                 <p class="metadata-row"><span class="metadata-label">Key Innovation:</span> ${data.key_innovation || ''}</p>
                 <p class="metadata-row"><span class="metadata-label">Relevance Why:</span> ${data.relevance_why || ''}</p>
@@ -745,6 +752,17 @@
       elem.classList.toggle("truncate-authors");
       if(evt.target.innerText==="Show More") evt.target.innerText="Show Less";
       else evt.target.innerText="Show More";
+    }
+
+    function toggleDetailsText(btn) {
+      const detailsId = btn.getAttribute("data-bs-target").replace('#','');
+      if (expandedDetails.has(detailsId)) {
+        expandedDetails.delete(detailsId);
+        btn.innerText = "Show More";
+      } else {
+        expandedDetails.add(detailsId);
+        btn.innerText = "Show Less";
+      }
     }
 
     function attachZoomHandlers(){
