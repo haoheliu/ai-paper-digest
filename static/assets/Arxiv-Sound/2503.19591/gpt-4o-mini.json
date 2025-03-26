@@ -1,0 +1,22 @@
+{
+    "title": "Boosting the Transferability of Audio Adversarial Examples with Acoustic Representation Optimization",
+    "author": "Weifei Jin (National Engineering Research Center of Disaster Backup and Recovery, Beijing University of Posts and Telecommunications), Junjie Su, Hejia Wang, Yulin Ye, Jie Hao*",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed method for enhancing transferability of adversarial examples could be beneficial for Haohe Liu's research on audio models, particularly in adversarial robustness and audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing the strength of adversarial attacks on automatic speech recognition systems while maintaining audio quality.",
+    "contribution": "This paper introduces Acoustic Representation Optimization to solve the issue of poor transferability in adversarial examples, achieving significant improvements in attack success rates across different speech recognition models without degrading audio quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied heavily on a single model's architecture, resulting in adversarial examples that lacked generalization across different systems.",
+        "novelty": "This work optimizes adversarial attacks by focusing on lower-level acoustic features, which are more consistent across models, leading to enhanced transferability."
+    },
+    "key_innovation": "Utilizes fundamental acoustic representations extracted from lower layers of speech representation models to guide adversarial perturbations.",
+    "real_world_impact": "The findings could potentially strengthen the resilience of various speech recognition systems against adversarial attacks, facilitating better security measures in practical applications.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Acoustic Representation Optimization": "**Acoustic Representation Optimization** refers to a method that aligns adversarial perturbations with low-level acoustic characteristics to improve their transferability across different models.",
+        "Character Error Rate (CER)": "**Character Error Rate (CER)** is a metric that evaluates the performance of speech recognition systems based on the percentage of character inaccuracies in the output compared to the original text."
+    },
+    "open_sourcing": ""
+}

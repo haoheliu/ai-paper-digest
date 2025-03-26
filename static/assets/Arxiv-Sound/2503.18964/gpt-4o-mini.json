@@ -1,0 +1,22 @@
+{
+    "title": "Unifying EEG and Speech for Emotion Recognition: A Two-Step Joint Learning Framework for Handling Missing EEG Data During Inference",
+    "author": "Upasana Tiwari (Tata Consultancy Services Limited), Rupayan Chakraborty (Tata Consultancy Services Limited), Sunil Kumar Kopparapu (Tata Consultancy Services Limited), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on emotion recognition through EEG and speech may contribute to innovations in audio interfaces and emotional AI systems, aligning with Haohe Liu's research in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work presents a method for emotion recognition using EEG and speech signals, aiming to effectively utilize the more reliable EEG data to enhance the accuracy of emotion detection even when EEG data is unavailable during inference.",
+    "contribution": "This paper introduces a two-step joint multi-modal learning framework to enhance speech emotion recognition using EEG data, achieving improved emotion detection accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on either EEG-based or speech-based emotion recognition, facing limitations when one modality is missing.",
+        "novelty": "The proposed framework allows for joint training on both modalities and ensures effective emotion recognition even when EEG data is missing during inference."
+    },
+    "key_innovation": "Combining joint intra-modal and inter-modal learning to leverage the strengths of both EEG and speech for robust emotion recognition.",
+    "real_world_impact": "The framework has the potential to improve human-computer interaction systems by enhancing the reliability of emotion recognition in practical applications without the need for EEG hardware during use.",
+    "limitations": "No",
+    "new_terms": {
+        "Joint Emotion Class Learning (JECL)": "**Joint Emotion Class Learning (JECL)** is a method that captures both specific characteristics of emotion classes and shared traits across classes to improve emotion recognition.",
+        "Extended Canonically Correlated Cross-Modal Autoencoder (E-DCC-CAE)": "**Extended Canonically Correlated Cross-Modal Autoencoder (E-DCC-CAE)** refers to an advanced neural network architecture designed to maximize correlation between different modalities while allowing for independent inference."
+    },
+    "open_sourcing": ""
+}

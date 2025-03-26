@@ -1,0 +1,22 @@
+{
+    "title": "Analyzable Chain-of-Musical-Thought Prompting for High-Fidelity Music Generation",
+    "author": "Max W. Y. Lam (Kunlun Inc.), Yijin Xing (Kunlun Inc.), Weiya You (Kunlun Inc.), Jingcheng Wu (Kunlun Inc.), Zongyu Yin (Kunlun Inc.), Fuqiang Jiang (Kunlun Inc.), Hangyu Liu (Kunlun Inc.), Feng Liu (Kunlun Inc.), ..., Xuchen Song (Kunlun Inc.), Yang Li (Kunlun Inc.)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper's innovative model for high-fidelity music generation aligns closely with Haohe Liu's interests in generative AI for music, particularly in using advanced techniques for creating novel compositions based on text prompts.",
+    "field": "Applications-Creative AI",
+    "background": "This paper presents a new method for generating high-quality music that mimics human creative processes by employing a chain-of-thought prompting approach.",
+    "contribution": "This paper introduces MusiCoT to solve issues in existing autoregressive music generation, achieving improved coherence and creativity in generated compositions.",
+    "technical_comparison": {
+        "prior_work": "Existing autoregressive models often produce disjointed or less musical outputs due to limitations in aligning with human creative processes.",
+        "novelty": "This work improves by incorporating an analyzable chain-of-thought structure that outlines overall music before generating audio tokens, significantly enhancing the quality of the output."
+    },
+    "key_innovation": "The novel integration of a structure for analyzing intermediate musical elements allows for not only higher quality music generation but also insightful exploration of music structure and referencing.",
+    "real_world_impact": "This technique can significantly enhance music production processes, providing tools for both novice and professional composers to generate more refined musical pieces.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "autoregressive models": "**Autoregressive models** are types of statistical models used in time-series predictions where the output at a given time is based on its previous values.",
+        "chain-of-thought prompting": "**Chain-of-thought prompting** involves a model generating intermediate reasoning steps to improve performance on complex tasks."
+    },
+    "open_sourcing": "The samples are available at https://MusiCoT.github.io/"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "QINCODEC: Neural Audio Compression with Implicit Neural Codebooks",
+    "author": "Zineb Lahrichi (Sony AI, Telecom Paris), Gaetan Hadjeres (Sony AI), Gael Richard (Telecom Paris), Geoffroy Peeters (Telecom Paris), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed codec, QINCODEC, leverages an innovative three-step training method and offline quantization, which could inspire new approaches in audio and speech processing tasks, particularly in audio generation and compression.",
+    "field": "Applications-Speech and Audio",
+    "background": "Neural audio codecs compress audio waveforms into discrete tokens, allowing for efficient storage and transmission while preserving audio quality.",
+    "contribution": "QINCODEC introduces an offline quantization process to decouple training steps for an audio codec, achieving competitive performance with simpler training requirements.",
+    "technical_comparison": "Previous methods required end-to-end training with complex gradient propagation through non-differentiable quantization layers, often limiting flexibility. This work improves on those methods by allowing the use of any offline quantizer without needing to define specific updates for quantization parameters.",
+    "key_innovation": "Utilizes a three-stage process combining pre-training, offline quantization, and targeted finetuning to enhance the codec's performance while simplifying the training pipeline.",
+    "real_world_impact": "This approach could significantly reduce the complexity of training high-quality audio codecs, potentially facilitating advancements in audio compression technology for diverse applications.",
+    "limitations": "The performance at lower bitrates may be limited by the quantization capacity, which could restrict audio fidelity.",
+    "new_terms": {
+        "Residual Vector Quantization (RVQ)": "**Residual Vector Quantization** is a method for encoding data by sequentially quantizing the residual errors, allowing for more efficient compression.",
+        "implicit neural codebooks": "**Implicit neural codebooks** refer to a method where the codebook entries are generated dynamically by a neural network instead of being fixed, leading to better adaptability in quantization."
+    },
+    "open_sourcing": "A website with audio examples is available at https://zinebl-sony.github.io/post-training-rvq/"
+}
