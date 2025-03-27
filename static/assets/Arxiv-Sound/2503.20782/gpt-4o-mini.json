@@ -1,0 +1,22 @@
+{
+    "title": "Zero-Shot Audio-Visual Editing via Cross-Modal Delta Denoising",
+    "author": "Yan-Bo Lin (UNC Chapel Hill), Kevin Lin (Microsoft), Zhengyuan Yang (Microsoft), Linjie Li (Microsoft), Chung-Ching Lin (Microsoft), Xiaofei Wang (Microsoft), Gedas Bertasius (UNC Chapel Hill), Lijuan Wang (Microsoft), Jianfeng Wang (Microsoft)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper introduces advances in audio-visual editing, which could enhance Haohe Liu's work in audio generation and audio-language modeling by exploring multimodal interactions between audio and visual content.",
+    "field": "Applications-Creative AI",
+    "background": "Zero-shot audio-visual editing entails modifying audio-visual content based on textual prompts without prior training on the specific editing tasks.",
+    "contribution": "This paper introduces the AVED framework, utilizing cross-modal delta denoising to achieve synchronized audio-visual edits based on text prompts.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with synchronization and coherence in joint audio-video edits, often treating audio and video independently.",
+        "novelty": "This work integrates audio and video processing in a unified model, improving coherence and alignment during editing tasks."
+    },
+    "key_innovation": "The method employs a cross-modal delta denoising scheme, which leverages interactions between audio and video to maintain synchrony and context during edits.",
+    "real_world_impact": "This development can significantly benefit creators in multimedia industries, providing tools for intuitive and cohesive audio-visual content editing.",
+    "limitations": "No",
+    "new_terms": {
+        "delta denoising": "**Delta denoising** is a technique in generative modeling that focuses on refining differences between modified and original content to achieve desired edits.",
+        "cross-modal supervision": "**Cross-modal supervision** refers to utilizing information from multiple modalities (e.g., audio and video) to enhance the model's understanding and performance in editing tasks."
+    },
+    "open_sourcing": "Results are available at https://genjib.github.io/project_page/AVED/index.html"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "FireRedTTS-1S: An Upgraded Streamable Foundation Text-to-Speech System",
+    "author": "Hao-Han Guo, Kun Xie, Yi-Chen Wu, Feng-Long Xie, Xu Tang, Yao Hu, Xiaohongshu",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents an upgraded text-to-speech synthesis system, which utilizes advanced machine learning techniques that could be applicable to Haohe Liu's research in audio generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a text-to-speech system that can generate high-quality speech audio in real-time using a two-step approach: decoding text into semantic tokens and then translating those into acoustic signals.",
+    "contribution": "FireRedTTS-1S introduces a streaming foundation text-to-speech system that improves synthesis quality and reduces latency, achieving real-time generation with a latency under 150ms.",
+    "technical_comparison": {
+        "prior_work": "Traditional TTS systems often struggle with real-time generation and voice cloning quality.",
+        "novelty": "This work enhances synthesis quality by using a semantic language model and a super-resolution causal acoustic codec, improving both intelligibility and speaker similarity."
+    },
+    "key_innovation": "Combines a semantic-aware speech tokenizer and a causal audio codec to efficiently produce high-quality speech in streaming mode.",
+    "real_world_impact": "This upgraded TTS system has the potential to significantly enhance interactive voice applications, making synthesized speech sound more natural and responsive in real-time.",
+    "limitations": "No",
+    "new_terms": {
+        "semantic tokens": "**Semantic tokens** are discrete representations of the semantic information in speech, which are generated from input text and can be used for voice synthesis.",
+        "super-resolution causal acoustic codec": "**Super-resolution causal acoustic codec** is a model designed to convert lower-resolution audio inputs into higher-resolution outputs while maintaining the acoustic integrity of speech."
+    },
+    "open_sourcing": "The inference code and demo page are available at https://fireredteam.github.io/demos/firered_tts_1s"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning and Descriptions",
+    "author": "Siyin Wang (Tsinghua University), Wenyi Yu (Tsinghua University), Xianzhao Chen (ByteDance), Xiaohai Tian (ByteDance), Jun Zhang (ByteDance), Yu Tsao (Academia Sinica), Junichi Yamagishi (National Institute of Informatics), Chao Zhang (Tsinghua University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The integration of natural language descriptions in speech assessment can improve tools and methodologies used in music and audio generation, making this research relevant for enhancing audio quality evaluation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Assessing speech quality effectively is crucial in various domains including speech synthesis and audio communication, requiring measures beyond numerical scoring to capture nuanced audio characteristics.",
+    "contribution": "QualiSpeech introduces a comprehensive dataset for speech quality assessment that utilizes natural language reasoning, providing more nuanced insights than traditional numerical methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on mean opinion scores (MOS), which do not explain the reasoning behind quality judgments.",
+        "novelty": "This work improves on prior methods by incorporating detailed natural language descriptions that explain quality assessments, thus enhancing interpretability."
+    },
+    "key_innovation": "The dataset captures low-level speech features through detailed descriptions, enabling improved analyses and assessment of speech quality.",
+    "real_world_impact": "QualiSpeech has the potential to revolutionize speech quality assessments in various applications, including telecommunications and speech synthesis systems, enabling more effective improvements based on user feedback.",
+    "limitations": "Limitations include the single listener annotation for each sample and potential biases inherent in subjective evaluations.",
+    "new_terms": {
+        "mean opinion score (MOS)": "**Mean opinion score (MOS)** is a measure used to evaluate the quality of audio samples based on user ratings, typically calculated as an average.",
+        "natural language reasoning": "**Natural language reasoning** involves the ability to process and understand human language, making logical inferences based on that language."
+    },
+    "open_sourcing": "The dataset will be released at https://huggingface.co/datasets/tsinghuaee/QualiSpeech"
+}
