@@ -1,0 +1,22 @@
+{
+    "title": "Magnitude-Phase Dual-Path Speech Enhancement Network based on Self-Supervised Embedding and Perceptual Contrast Stretch Boosting",
+    "author": "Alimjan Mattursun (Xinjiang University), Liejun Wang (Xinjiang University), Yinfeng Yu (Xinjiang University), Chunyang Ma (Cadre Division Organization Department of the Party Committee, Xinjiang Uygur Autonomous Region), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a novel speech enhancement method using self-supervised learning that could be beneficial for Haohe Liu's research in audio quality enhancement and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves improving the clarity and intelligibility of speech signals and enhancing their quality in the presence of background noise and reverberation.",
+    "contribution": "This paper introduces BSP-MPNet to solve speech enhancement problems by effectively combining self-supervised features with magnitude-phase information, achieving superior performance in various noise conditions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often focused only on magnitude spectrum enhancement, which neglects the significant role of the phase spectrum, leading to degraded speech quality.",
+        "novelty": "This work addresses this gap by integrating phase spectrum processing through a dual-path framework and self-supervised learning."
+    },
+    "key_innovation": "Utilizes a combination of perceptual contrast stretching and self-supervised learning embeddings to enhance both magnitude and phase spectra of speech signals.",
+    "real_world_impact": "Provides new insights into effective speech enhancement techniques, potentially improving applications in hearing aids, conference systems, and automatic speech recognition in challenging auditory environments.",
+    "limitations": "The authors do not mention any specific limitations in this research.",
+    "new_terms": {
+        "Perceptual Contrast Stretching": "**Perceptual Contrast Stretching** is a spectral processing method that enhances the clarity of sound by amplifying the contrast within the spectrum based on human auditory sensitivity.",
+        "self-supervised learning": "**Self-supervised learning** refers to a machine learning approach where the model learns from unlabeled data by generating supervisory signals from the data itself."
+    },
+    "open_sourcing": "https://github.com/AlimMat/BSP-MPNet"
+}

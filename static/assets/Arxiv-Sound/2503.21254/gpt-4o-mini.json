@@ -1,0 +1,22 @@
+{
+    "title": "Vision-to-Music Generation: A Survey",
+    "author": "Zhaokai Wang (Shanghai Jiao Tong University), Chenxi Bao (Music Tech Lab, DynamiX), Le Zhuo (Shanghai AI Laboratory), Jingrui Han (Beijing Film Academy), Yang Yue (Tsinghua University), Yihong Tang (McGill University), Victor Shea-Jay Huang (Music Tech Lab, DynamiX), Yue Liao (The Chinese University of Hong Kong)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper focuses on Vision-to-Music generation, which intersects with music generation methodologies pertinent to Haohe Liu's interests in audio processing and generation, particularly leveraging multimodal AI approaches that could enhance audio-language models.",
+    "field": "Applications-Creative AI",
+    "background": "Vision-to-Music generation involves creating musical compositions from visual inputs such as videos and images, aiming to align emotional and rhythmic elements with visual storytelling.",
+    "contribution": "This survey introduces a comprehensive review on the challenges and methodologies in vision-to-music generation, addressing gaps in current literature and proposing future research directions.",
+    "technical_comparison": {
+        "prior_work": "Previous works primarily focused on unilateral music generation techniques without integrating visual elements, lacking cohesive studies that address the complex interplay of visuals and audio.",
+        "novelty": "This work systematically categorizes the input types and output modalities, offering a more structured approach to understanding the multifaceted nature of vision-to-music generation."
+    },
+    "key_innovation": "Provides a detailed synthesis of methodologies, challenges, and datasets in vision-to-music generation, enhancing collaborative understanding across creative AI domains.",
+    "real_world_impact": "The findings can significantly influence the creative industries by improving automated music scoring for films and enhancing user experiences on video platforms through targeted audio generation based on visuals.",
+    "limitations": "The survey primarily discusses existing methodologies without presenting novel experimental results or validating proposed future directions.",
+    "new_terms": {
+        "Vision-to-Music Generation": "**Vision-to-Music Generation** refers to the process of generating music tracks directly from visual inputs such as images or videos, establishing a creative connection between two distinct modalities.",
+        "Multimodal AI": "**Multimodal AI** refers to artificial intelligence systems capable of processing and integrating information from multiple sources or modalities, such as text, images, and audio."
+    },
+    "open_sourcing": "https://github.com/wzk1015/Awesome-Vision-to-Music-Generation"
+}
