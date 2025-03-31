@@ -1,0 +1,22 @@
+{
+    "title": "Baseline Systems and Evaluation Metrics for Spatial Semantic Segmentation of Sound Scenes",
+    "author": "Binh Thien Nguyen (NTT Corporation), Masahiro Yasuda (NTT Corporation), Daiki Takeuchi (NTT Corporation), Daisuke Niizumi (NTT Corporation), Yasunori Ohishi (NTT Corporation), Noboru Harada (NTT Corporation), ..., Yasuhiro Yoshikawa (NTT Corporation)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper combines audio tagging and source separation techniques, which could inspire similar methodologies in Haohe Liu's work on audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves detecting and separating sound events in spatial audio mixtures, which includes processing multiple sources and their location information.",
+    "contribution": "This paper introduces two baseline systems that integrate audio tagging and label-queried source separation models, achieving significant improvements in sound event extraction.",
+    "technical_comparison": {
+        "prior_work": "Previous methods only assessed the performance of source separation and audio tagging separately without considering label accuracy.",
+        "novelty": "This work proposes a novel evaluation metric that combines both the quality of separated sources and their corresponding labels, enhancing performance assessment."
+    },
+    "key_innovation": "Introduces class-aware metrics that evaluate separated sound sources and their class labels simultaneously, which is crucial for effective sound scene understanding.",
+    "real_world_impact": "The methods presented can facilitate advancements in immersive audio communication technologies, leading to improved user experiences in applications such as virtual reality and teleconferencing.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "spatial semantic segmentation": "**Spatial semantic segmentation** refers to the process of identifying and isolating different sound events within a spatial audio scene, providing distinct outputs for each sound source based on their class labels.",
+        "label-queried source separation": "**Label-queried source separation** is an approach that utilizes specific labels to facilitate the separation of audio sources, ensuring accuracy in isolating the desired sounds from a mixture."
+    },
+    "open_sourcing": "The code is available at a URL (to be updated)."
+}

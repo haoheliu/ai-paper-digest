@@ -1,0 +1,22 @@
+{
+    "title": "DeepSound-V1: Start to Think Step-by-Step in the Audio Generation from Videos",
+    "author": "Yunming Liang (AI Lab, Giant Network), Zihao Chen (AI Lab, Giant Network), Chaofan Ding (AI Lab, Giant Network), Xinhan Di (AI Lab, Giant Network), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed methodology of using chain-of-thought reasoning in audio generation could inform similar approaches in text-to-audio and music generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating high-quality audio synchronized with video content using a structured reasoning framework without requiring extensive additional annotations.",
+    "contribution": "DeepSound introduces a multi-modal reasoning framework to tackle audio generation from videos, effectively addressing voice-over misalignment, achieving significant improvements in audio quality metrics.",
+    "technical_comparison": {
+        "prior_work": "Prior methods often rely on task-specific architecture or existing V2A models that struggle with voice-over artifacts.",
+        "novelty": "This work improves by implementing a step-by-step reasoning approach that dynamically refines audio outputs based on video content and generated audio."
+    },
+    "key_innovation": "Employs an internal reasoning process that allows for the detection and removal of unwanted voice-over segments in audio generation.",
+    "real_world_impact": "Enhances the fluidity and quality of generated audio for multimedia applications, which could be applicable in content creation, video editing, and film industries.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "multi-modal large language model (MLLM)": "**Multi-modal large language model (MLLM)** refers to models that can process and integrate information from multiple modalities, such as text, audio, and video.",
+        "chain-of-thought (CoT)": "**Chain-of-thought (CoT)** reasoning involves guiding decision-making processes in models step-by-step to improve output alignment and accuracy."
+    },
+    "open_sourcing": ""
+}

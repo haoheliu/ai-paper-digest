@@ -1,0 +1,21 @@
+{
+    "title": "DeepAudio-V1: Towards Multi-Modal Multi-Stage End-to-End Video to Speech and Audio Generation",
+    "author": "Haomin Zhang (AI Lab, Giant Network), Chang Liu (University of Trento), Junjie Zheng (AI Lab, Giant Network), Zihao Chen (AI Lab, Giant Network), Chaofan Ding (AI Lab, Giant Network), Xinhan Di (AI Lab, Giant Network), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper's framework for simultaneously generating audio and speech from video inputs aligns closely with Dr. Liu's interests in audio and speech processing, particularly in how generative models can leverage multiple modalities.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on developing a unified framework that generates synchronized speech and ambient audio based on video and text inputs through an end-to-end approach.",
+    "contribution": "DeepAudio-V1 introduces a comprehensive framework combining video-to-audio and text-to-speech tasks into a single model, achieving state-of-the-art results in audio-visual synchronization and speech naturalness metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often treated video-to-audio and video-to-speech generation as separate tasks, limiting their efficacy in multitasking contexts.",
+        "novelty": "This work improves by integrating both tasks within a single model and utilizing a dynamic mixture of modality fusion to enhance cross-modal synchronization."
+    },
+    "key_innovation": "The framework's ability to simultaneously process video and textual input to produce both speech and ambient sounds in an end-to-end manner sets it apart from existing methods that operate in silos.",
+    "real_world_impact": "This approach can significantly enhance applications such as automated video dubbing, virtual assistants, and gaming, by providing richer, more context-aware audio-visual experiences.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "dynamic mixture of modality fusion": "**Dynamic mixture of modality fusion** refers to a novel technique for adaptively combining multiple input modalities (e.g., text, video) to improve the output quality in generative tasks."
+    },
+    "open_sourcing": ""
+}

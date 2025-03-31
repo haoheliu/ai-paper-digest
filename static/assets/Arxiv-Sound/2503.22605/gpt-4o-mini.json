@@ -1,0 +1,22 @@
+{
+    "title": "Audio-Plane: Audio Factorization Plane Gaussian Splatting for Real-Time Talking Head Synthesis",
+    "author": "Shuai Shen (Nanyang Technological University), Wanhua Li (Harvard University), Yunpeng Zhang (PhiGent Robotics), Weipeng Hu (Nanyang Technological University), Yap-Peng Tan (Nanyang Technological University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a method for synthesizing talking heads that can be useful for various audio-visual applications, potentially informing approaches in speech synthesis, audio restorations, and multimodal generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves generating realistic talking head videos that synchronize animated facial expressions with corresponding audio inputs.",
+    "contribution": "This paper introduces the Audio Factorization Plane to solve the challenge of dynamic talking head synthesis, achieving high fidelity and real-time image generation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in talking head synthesis often struggle with balancing visual quality and computational efficiency, requiring substantial resources for dynamic facial modeling.",
+        "novelty": "This work enhances Gaussian Splatting with a compact audio-driven dynamic representation, significantly improving generation speed and visual realism."
+    },
+    "key_innovation": "The method utilizes a novel Audio Factorization Plane that decomposes audio and spatial features, integrating them to improve facial motion modeling while maintaining efficiency.",
+    "real_world_impact": "This technique can transform applications in film production, virtual avatars, and remote communication, providing a foundation for realistic and responsive talking head generation. No immediate real-world impact.",
+    "limitations": "While not explicitly mentioned, the general complexity of real-time applications and synchronization challenges could pose limitations.",
+    "new_terms": {
+        "Gaussian Splatting": "**Gaussian Splatting** is a rendering technique that represents scenes using point clouds modeled by Gaussian distributions to enable efficient volumetric rendering.",
+        "Audio Factorization Plane": "**Audio Factorization Plane** refers to a method of decomposing audio-driven volumetric data into distinct spatial planes to enhance dynamic modeling of visual representations."
+    },
+    "open_sourcing": "Synthesized results are available at https://sstzal.github.io/Audio-Plane/"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Hierarchical Label Propagation: A Model-Size-Dependent Performance Booster for AudioSet Tagging",
+    "author": "Ludovic Tuncay (IRIT, Universite de Toulouse, CNRS), Etienne Labbe (IRIT, Universite de Toulouse, CNRS), Thomas Pellegrini (IRIT, Universite de Toulouse, CNRS), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The hierarchical label propagation technique may enhance label consistency and improve model performance in audio tagging tasks, which is directly relevant to Haohe Liu's focus on audio processing and generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Hierarchical label propagation addresses inconsistencies in audio event labeling to improve multi-label classification performance for audio datasets like AudioSet.",
+    "contribution": "This paper introduces Hierarchical Label Propagation to solve label inconsistency issues in multi-label audio tagging, achieving a significant increase in positive labels and performance improvements across versions of audio models.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often struggle with noisy label data and fail to leverage hierarchical relationships in labels effectively.",
+        "novelty": "This approach systematically propagates positive labels up an ontology, addressing label quality directly while maintaining a clear structure."
+    },
+    "key_innovation": "The systematic upward propagation of labels helps to enrich training data while minimizing the impact of sibling node ambiguity.",
+    "real_world_impact": "This method could lead to improved audio tagging performance in applications utilizing large-scale datasets, benefiting various fields from multimedia content organization to automated audio analysis.",
+    "limitations": "HLP may propagate existing label errors upward, potentially exacerbating underlying noise issues in the dataset.",
+    "new_terms": {
+        "Hierarchical Label Propagation": "**Hierarchical Label Propagation** is a technique that utilizes the hierarchical structure of label systems to improve the accuracy and consistency of label assignments by propagating information from specific labels to more general categories."
+    },
+    "open_sourcing": "Our source code will be made available on GitHub."
+}

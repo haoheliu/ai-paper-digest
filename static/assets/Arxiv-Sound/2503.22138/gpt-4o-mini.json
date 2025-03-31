@@ -1,0 +1,21 @@
+{
+    "title": "Enhancing Dance-to-Music Generation via Negative Conditioning Latent Diffusion Model",
+    "author": "Changchang Sun (University of Illinois Chicago), Gaowen Liu (Cisco Research), Charles Fleming (Cisco Research), Yan Yan (University of Illinois Chicago), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper's focus on latent diffusion models for audio generation, particularly the innovation of using negative conditioning, aligns closely with Haohe Liu's interests in generative audio models and music synthesis, providing insights that could enhance his own research in text-to-audio generation and audio quality enhancement.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The task involves generating music that is rhythmically synchronized with visual cues from a dance video, enhancing the correlation between dance movements and musical accompaniment.",
+    "contribution": "This paper introduces PN-Diffusion, a dual process model that utilizes both positive and negative conditioning to improve the synchronization and quality of music generated from dance videos, achieving superior alignment and quality metrics compared to state-of-the-art models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on positive conditioning from dance videos, leading to limited synchronization performance.",
+        "novelty": "This work enhances training by incorporating negative conditioning derived from reverse-played dance videos, providing a comprehensive understanding of rhythmic cues."
+    },
+    "key_innovation": "The method uniquely combines forward and backward conditioning in a latent diffusion framework, allowing for richer contextual learning during music generation.",
+    "real_world_impact": "The approach has potential applications in real-time music generation for dance performances and entertainment platforms, enhancing user experience on video-sharing sites.",
+    "limitations": "The paper does not explicitly mention limitations, although the need for extensive training data could be inferred as a challenge.",
+    "new_terms": {
+        "latent diffusion model": "**Latent diffusion model** is a generative framework that operates in a compressed latent space to facilitate efficient data synthesis, reducing the computational burden compared to traditional spatial methods."
+    },
+    "open_sourcing": "Codes are available at https://github.com/Changchangsun/PN-Diffusion"
+}

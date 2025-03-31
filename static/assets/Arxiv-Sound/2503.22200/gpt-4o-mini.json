@@ -1,0 +1,22 @@
+{
+    "title": "Enhance Generation Quality of Flow Matching V2A Model via Multi-Step CoT-Like Guidance and Combined Preference Optimization",
+    "author": "Haomin Zhang (AI Lab, Giant Network), Sizhe Shan (Zhejiang University), Haoyu Wang (Zhejiang University), Zihao Chen (AI Lab, Giant Network), Xiulong Liu (University of Washington), Chaofan Ding (AI Lab, Giant Network), Xinhan Di (AI Lab, Giant Network), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents a novel multi-stage, multi-modal framework that significantly enhances audio generation quality from video inputs, which directly aligns with Haohe Liu's expertise in audio generation and optimization techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves generating high-quality audio effects synchronized with corresponding video content, while ensuring semantic and temporal coherence.",
+    "contribution": "This paper introduces a multi-stage generative framework with Chain-of-Thought-like (CoT-like) guidance that enhances video-to-audio generation quality, achieving significant improvements in audio quality metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled with accurate audio generation from videos, often lacking step-by-step guidance or adequate training on professional audio aspects.",
+        "novelty": "This work improves upon existing models by implementing a multi-step training approach combined with preference optimization, making it capable of generating both general and professional audio."
+    },
+    "key_innovation": "The integration of multi-modal data and CoP guidance allows for a structured, phased approach in audio generation, resulting in improved quality and alignment with visual content.",
+    "real_world_impact": "This framework could be pivotal in various applications, such as film production, video game development, and music synthesis, where high-quality audio generation is crucial.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Chain-of-Thought-like (CoT-like) guidance": "**Chain-of-Thought-like guidance** refers to a structured, step-wise approach in generating outputs that mimics human reasoning processes, enhancing the generation quality.",
+        "multi-modal dataset": "**Multi-modal dataset** includes data from multiple sources or modalities (e.g., text, audio, video) used to improve the learning and generation process."
+    },
+    "open_sourcing": ""
+}
