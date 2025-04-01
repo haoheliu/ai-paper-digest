@@ -1,0 +1,22 @@
+{
+    "title": "SupertonicTTS: Towards Highly Scalable and Efficient Text-to-Speech System",
+    "author": "Jinhyeok Yang (Supertone, Inc.), Hyeongju Kim (Supertone, Inc.), Seunghun Ji (Supertone, Inc.), Jacob Morton (Supertone, Inc.), Yechan Yu (Supertone, Inc.), Frederik Bous (Supertone, Inc.), Joon Byun (Supertone, Inc.), Juheon Lee (Supertone, Inc.), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper proposes a novel text-to-speech synthesis method that is efficient and scalable, which could inform potential applications in Haohe Liu's audio synthesis work, particularly in generative audio and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing systems that convert written text into spoken words efficiently while maintaining high audio quality across various parameters.",
+    "contribution": "SupertonicTTS introduces a streamlined architecture combining a speech autoencoder, flow-matching for text-latent mapping, and a duration predictor to solve the complex pipeline of text-to-speech systems, achieving significant improvements in efficiency and scalability.",
+    "technical_comparison": {
+        "prior_work": "Prior TTS systems often rely on large architectures, numerous external modules, and extensive training data.",
+        "novelty": "This work simplifies the pipeline by avoiding grapheme-to-phoneme models and speech-text aligners, resulting in a lightweight architecture with competitive performance."
+    },
+    "key_innovation": "The introduction of context-sharing batch expansion and the use of a low-dimensional latent space effectively enhances system performance while reducing computational overhead.",
+    "real_world_impact": "This system's improvements in efficiency could facilitate real-time speech synthesis applications, enhancing user interactions in a variety of audio-based technologies.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "flow-matching": "**Flow-matching** is a technique used to refine latent representations progressively by estimating a vector field that governs how to move from random noise to structured data.",
+        "latent diffusion models": "**Latent diffusion models** are a class of generative models that operate in a lower-dimensional latent space, allowing them to efficiently generate high-quality outputs."
+    },
+    "open_sourcing": "Audio samples demonstrating SupertonicTTS capabilities are available at https://supertonictts.github.io/"
+}

@@ -1,0 +1,23 @@
+{
+    "title": "MUSIC INFORMATION RETRIEVAL ON REPRESENTATIVE MEXICAN FOLK VOCAL MELODIES THROUGH MIDI FEATURE EXTRACTION",
+    "author": "Mario Alberto Vallejo Reyes (University of York)",
+    "quality": 6,
+    "relevance": 3,
+    "relevance_why": "",
+    "field": "Applications-Music and Audio",
+    "background": "Analyzing the characteristics of Mexican folk vocal melodies using MIDI feature extraction techniques, focusing on metrics such as ambitus, pitch-class entropy, and interval distribution.",
+    "contribution": "This paper introduces a study of Mexican folk vocal melodies by employing MIDI feature extraction to analyze ambitus and entropy, revealing insights into compositional diversity.",
+    "technical_comparison": {
+        "prior_work": "Previous methods may have focused on western music traditions or lacked a comprehensive statistical analysis of folk music melodies.",
+        "novelty": "This work specifically targets Mexican folk music and applies MIDI analysis to extract unique musical features, offering insights that are culturally relevant."
+    },
+    "key_innovation": "Utilizes MIDI feature extraction to quantify and analyze intrinsic musical elements of diverse Mexican folk songs, contributing to the understanding of their musical structure.",
+    "real_world_impact": "While this research adds to the academic understanding of Mexican folk music, its immediate application in technology or industry remains limited.",
+    "limitations": "The study finds no significant correlation between musical features and song popularity on platforms like Spotify, which may limit practical insights regarding audience engagement.",
+    "new_terms": {
+        "ambitus": "**Ambitus** refers to the range of pitches that a melody spans, crucial for understanding vocal demands.",
+        "pitch-class entropy": "**Pitch-class entropy** is a measure of the unpredictability in the pitch usage of a musical piece, indicating melodic complexity.",
+        "interval distribution": "**Interval distribution** examines the frequency of intervals used within melodies, shedding light on compositional preferences."
+    },
+    "open_sourcing": ""
+}

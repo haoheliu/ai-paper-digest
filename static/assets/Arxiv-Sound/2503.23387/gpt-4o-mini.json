@@ -1,0 +1,22 @@
+{
+    "title": "HearFit+: Personalized Fitness Monitoring via Audio Signals on Smart Speakers",
+    "author": "Yadong Xie (Beijing Institute of Technology), Fan Li (Beijing Institute of Technology), Yue Wu (Beijing Institute of Technology), Yu Wang (Temple University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper explores acoustic sensing for fitness monitoring, which could lead to novel approaches in audio-based tracking and evaluation techniques, beneficial for Haohe's research in audio applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "Monitoring personal fitness using non-invasive techniques through acoustic signals from smart speakers to improve workout effectiveness.",
+    "contribution": "HearFit+ introduces a personalized fitness monitoring system using acoustic sensing to classify fitness activities and identify users, achieving high accuracy rates in both classification and identification.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for fitness recognition often depend on wearable devices or video analysis, which can be intrusive and require specific conditions.",
+        "novelty": "This work leverages smart speakers and acoustic signals, providing a non-invasive and user-friendly alternative for real-time fitness monitoring."
+    },
+    "key_innovation": "Combines deep learning with audio signal processing for personalized fitness classification and user identification, all without the need for wearable devices.",
+    "real_world_impact": "This system can enhance home fitness experiences by providing real-time feedback and guidance, potentially expanding access to intuitive health monitoring solutions.",
+    "limitations": "The paper does not mention any explicit limitations regarding environmental factors or constraints in the technology's application scope.",
+    "new_terms": {
+        "Doppler shift": "**Doppler shift** refers to the change in frequency or wavelength of a wave in relation to an observer moving relative to the wave source, commonly used in motion detection.",
+        "beamforming": "**Beamforming** is a signal processing technique used to direct the reception or transmission of signals in specific directions, improving target signal detection."
+    },
+    "open_sourcing": ""
+}

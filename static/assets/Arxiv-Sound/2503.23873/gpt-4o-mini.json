@@ -1,0 +1,22 @@
+{
+    "title": "Exploring In-Context Learning Capabilities of ChatGPT for Pathological Speech Detection",
+    "author": "Mahdi Amiri (Idiap Research Institute, Switzerland), Hatef Otroshi Shahreza (Idiap Research Institute, Switzerland), Ina Kodrasi (Idiap Research Institute, Switzerland), ..., ChatGPT team",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper demonstrates the application of Large Language Models (LLMs) like ChatGPT-4o for automatic pathological speech detection, a crucial area relevant to Haohe Liu's expertise in speech and audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Pathological speech detection involves identifying speech impairments caused by conditions like Cerebral Palsy and Parkinson's disease using data-driven methods.",
+    "contribution": "The paper introduces the use of multimodal Large Language Models for automatic pathological speech detection, achieving competitive performance and enhanced interpretability.",
+    "technical_comparison": {
+        "prior_work": "Traditional machine learning and deep learning solutions for speech detection often lack interpretability and require extensive labeled datasets.",
+        "novelty": "This work leverages in-context learning with ChatGPT-4o to utilize fewer labeled data and provide explanations alongside classification results."
+    },
+    "key_innovation": "Utilizes a few-shot in-context learning approach, enabling high performance with limited training data while also explaining its reasoning.",
+    "real_world_impact": "This approach has the potential to improve clinical diagnostics by making the pathology detection process more interpretable and accessible, potentially reducing reliance on expert analysis.",
+    "limitations": "The use of a specific dataset with potential non-pathology-related differences and the model's inability to process raw audio directly.",
+    "new_terms": {
+        "in-context learning": "**In-context learning** is a type of learning in which a model learns from a few examples provided in the input without any changes to its underlying weights.",
+        "STFT": "**Short-Time Fourier Transform** is a mathematical transform used to analyze the frequency content of signals over time, particularly useful in audio signal processing."
+    },
+    "open_sourcing": ""
+}

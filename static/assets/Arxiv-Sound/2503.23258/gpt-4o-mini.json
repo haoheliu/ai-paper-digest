@@ -1,0 +1,22 @@
+{
+    "title": "Joint Source-Environment Adaptation of Data-Driven Underwater Acoustic Source Ranging Based on Model Uncertainty",
+    "author": "Dariush Kari (University of Illinois Urbana-Champaign), Hari Vishnu (National University of Singapore), Andrew C. Singer (Stony Brook University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a novel approach to model uncertainty and adaptation in underwater acoustic localization, which can influence techniques applicable in audio signal processing and source localization in complex environments, relevant to Haohe's work in audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses problems in underwater acoustic localization using deep learning models, specifically adapting those models to unknown environments during test time without requiring labeled data.",
+    "contribution": "This paper introduces a method that leverages implied uncertainty in model predictions to adapt deep learning models for underwater acoustic localization, improving performance in mismatched environments.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for underwater localization often require training data from the test environment or cannot effectively adapt to new conditions without supervision, limiting their robustness.",
+        "novelty": "This work provides a solution that adapts pre-trained models in real-time using uncertainty measures without requiring access to training data or environmental parameters, thus enhancing adaptability."
+    },
+    "key_innovation": "Integrates model uncertainty measurements and received signal energy for joint adaptation, allowing for real-time improvements in location estimation under environmental mismatches.",
+    "real_world_impact": "The approach can significantly enhance the accuracy of underwater localization systems, which are critical for applications like marine exploration, surveillance, and environmental monitoring.",
+    "limitations": "No explicit limitations were detailed; however, reliance on prior successful model training in similar environments could restrict effectiveness in very novel scenarios.",
+    "new_terms": {
+        "implied uncertainty": "**Implied uncertainty** refers to the inferred level of uncertainty a model has when making predictions, particularly in unfamiliar environments, affecting its performance.",
+        "peakwise uncertainty": "**Peakwise uncertainty** is a metric used to gauge the confidence of predictions by measuring the significance of the peaks in probability distributions from model outputs."
+    },
+    "open_sourcing": ""
+}

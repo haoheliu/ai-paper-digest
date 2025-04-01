@@ -1,0 +1,22 @@
+{
+    "title": "Scaling Auditory Cognition via Test-Time Compute in Audio Language Models",
+    "author": "Ting Dang (The University of Melbourne), Yan Gao (University of Cambridge), Hong Jia (The University of Melbourne), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper explores auditory cognition in Audio Large Language Models (Audio LLMs), which aligns closely with my research in audio and speech processing, particularly in enhancing model capabilities for speech and auditory scene understanding.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates how Audio LLMs perform in real-world auditory environments and proposes methods to enhance their auditory cognitive capabilities.",
+    "contribution": "This paper introduces five test-time compute strategies to enhance the performance of Audio LLMs in challenging auditory tasks, demonstrating significant performance improvements.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on curated datasets and focused on speech processing tasks without addressing complex real-world auditory environments.",
+        "novelty": "This work improves by implementing dynamic inference strategies that adaptively enhance Audio LLM capabilities during inference, particularly in noisy environments."
+    },
+    "key_innovation": "Employs test-time compute methods to dynamically improve model performance without additional fine-tuning, specifically tailored for auditory cognition tasks.",
+    "real_world_impact": "Enhancing Audio LLM performance in real-world scenarios can significantly improve applications such as assistive listening devices and AI-driven communication technologies.",
+    "limitations": "The study is limited by the reliance on a self-collected dataset and may require further validation across a broader range of auditory scenarios.",
+    "new_terms": {
+        "test-time compute (TTC)": "**Test-time compute (TTC)** refers to strategies applied during model inference to dynamically enhance performance on challenging tasks without additional training.",
+        "auditory cognitive capabilities": "**Auditory cognitive capabilities** pertain to the cognitive processes involved in understanding and processing auditory information in real-world settings."
+    },
+    "open_sourcing": ""
+}

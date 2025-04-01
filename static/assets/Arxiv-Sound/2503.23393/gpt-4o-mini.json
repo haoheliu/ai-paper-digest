@@ -1,0 +1,21 @@
+{
+    "title": "D3-Guard: Acoustic-based Drowsy Driving Detection Using Smartphones",
+    "author": "Yadong Xie (Beijing Institute of Technology), Fan Li (Beijing Institute of Technology), Yue Wu (Beijing Institute of Technology), Song Yang (Beijing Institute of Technology), Yu Wang (University of North Carolina at Charlotte)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses a novel method leveraging smartphone acoustic sensors for detecting drowsy driving, which could inspire similar approaches applied to audio generation models, enhancing real-time monitoring or performance.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting drowsy driving actions, such as nodding and yawning, through acoustic signals captured by smartphones in order to alert drivers before accidents occur.",
+    "contribution": "This paper introduces D3-Guard, which utilizes acoustic profile analysis to detect drowsy driving in real-time, achieving an average detection accuracy of 93.31%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often required specialized hardware or complex image-based systems to monitor driver behaviors.",
+        "novelty": "This work simplifies detection by using commonly available smartphone audio sensors, leveraging Doppler effects to identify subtle driver actions."
+    },
+    "key_innovation": "Unique use of Doppler shift in acoustic signals from smartphones for detecting drowsy driving actions, which offers a cost-effective and easily implemented solution.",
+    "real_world_impact": "Potentially improves road safety by providing an accessible method for drowsy driving detection, which could significantly reduce traffic accidents related to fatigue.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "Doppler shift": "**Doppler shift** is the change in frequency or wavelength of waves in relation to an observer moving towards or away from it, commonly used in sound analysis to detect motion."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "HearSmoking: Smoking Detection in Driving Environment via Acoustic Sensing on Smartphones",
+    "author": "Yadong Xie (Beijing Institute of Technology), Fan Li (Beijing Institute of Technology), Yue Wu (Beijing Institute of Technology), Song Yang (Beijing Institute of Technology), Yu Wang (Temple University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores acoustic signal processing techniques that could inspire similar approaches in audio and speech applications, such as detecting specific behaviors or environmental sounds.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting smoking behaviors in drivers using acoustic signals emitted from smartphones to improve road safety.",
+    "contribution": "HearSmoking introduces an acoustic sensing approach to detect smoking events in driving, achieving an average accuracy of 93.44 percent in real-time detection.",
+    "technical_comparison": {
+        "prior_work": "Previous smoking detection methods often rely on visual or dedicated sensors, which can be intrusive or less accessible.",
+        "novelty": "This work leverages smartphones' existing microphones and speakers, removing the need for additional devices and ensuring non-intrusiveness."
+    },
+    "key_innovation": "By using Convolutional Neural Networks (CNNs) on transformed acoustic signals, HearSmoking effectively differentiates between smoking movements and other activities.",
+    "real_world_impact": "The system has potential applications in managing drivers' behavior in commercial vehicles, contributing to improved road safety.",
+    "limitations": "The paper does not address the impact of various environmental noises that could interfere with detection accuracy.",
+    "new_terms": {
+        "Relative Correlation Coefficient (RCC)": "**Relative Correlation Coefficient** is a statistical measure used to evaluate the similarity between two signals, in this case, emitted and received acoustic signals.",
+        "Fast Fourier Transform (FFT)": "**Fast Fourier Transform** is an efficient algorithm to compute the Discrete Fourier Transform, which helps in analyzing the frequency components of signals."
+    },
+    "open_sourcing": ""
+}

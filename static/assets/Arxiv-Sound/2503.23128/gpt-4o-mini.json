@@ -1,0 +1,22 @@
+{
+    "title": "CrossMuSim: A Cross-Modal Framework for Music Similarity Retrieval with LLM-Powered Text Description Sourcing and Mining",
+    "author": "Tristan Tsoi (Audio Lab Hong Kong, Huawei Technologies), Jiajun Deng (Audio Lab Hong Kong, Huawei Technologies), Yaolong Ju (Audio Lab Hong Kong, Huawei Technologies), Benno Weck (Music Technology Group, Universitat Pompeu Fabra), Holger Kirchhoff (Munich Research Center, Huawei Technologies), Simon Lui (Audio Lab Hong Kong, Huawei Technologies), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed framework utilizes cross-modal learning and large language models for music similarity retrieval, which directly aligns with Haohe Liu's interests in audio synthesis and music processing, offering potential insights for integrating text descriptions into audio generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Music similarity retrieval aims to identify similar songs from vast music collections based on complex relationships inherent in musical content.",
+    "contribution": "This paper introduces a dual-source data acquisition method and a cross-modal contrastive learning framework to enhance music similarity modeling using textual descriptions and audio content.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on either textual annotations or audio embeddings separately, limiting their ability to capture nuanced relationships.",
+        "novelty": "This work utilizes both scraped and LLM-generated text to improve the alignment of audio and text representations via contrastive learning."
+    },
+    "key_innovation": "Combines online scraping with LLM-based prompting to generate rich textual descriptions for music, facilitating enhanced cross-modal learning.",
+    "real_world_impact": "The framework has shown practical improvements in music recommendation systems, potentially benefiting commercial streaming platforms by enhancing user experience through better music retrieval.",
+    "limitations": "The study does not address potential issues of LLM-generated text quality or the reliance on well-known songs for effective description generation.",
+    "new_terms": {
+        "cross-modal contrastive learning": "**Cross-modal contrastive learning** is a technique that involves learning representations from multiple data modalities (e.g., text and audio) in a way that aligns their features in a common latent space.",
+        "large language models (LLMs)": "**Large language models (LLMs)** are sophisticated AI models that utilize vast amounts of text data to generate human-like text, providing semantic insights based on learned language patterns."
+    },
+    "open_sourcing": "Data, prompt, and demo examples are available at: https://crossmusim.github.io/"
+}

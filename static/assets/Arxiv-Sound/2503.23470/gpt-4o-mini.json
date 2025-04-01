@@ -1,0 +1,22 @@
+{
+    "title": "EVALUATION OF THE PRONUNCIATION OF TAJWEED RULES BASED ON DNN AS A STEP TOWARDS INTERACTIVE RECITATION LEARNING",
+    "author": "Dim Shaiakhmetov (Ala-Too International University), Selcuk Cankurt (Vistula University), Gulnaz Gimaletdinova (Ala-Too International University), Kadyrmamat Momunov (Ala-Too International University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The use of deep learning for automatic evaluation of pronunciation aligns with Haohe Liu's research interests in audio processing, particularly in developing effective frameworks for classification tasks in audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to evaluate the pronunciation of Tajweed rules in Quranic recitation by classifying recordings using deep learning.",
+    "contribution": "This paper introduces a deep learning model to classify three Tajweed rules, achieving accuracy rates above 95% in evaluation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on traditional machine learning techniques and smaller datasets, limiting their applicability.",
+        "novelty": "This work employs the EfficientNet-B0 architecture with an attention mechanism to enhance classification performance using a larger, publicly available dataset."
+    },
+    "key_innovation": "Utilizes advanced deep learning techniques to assess specific rules of pronunciation in Quranic recitation, making it interactive and accessible.",
+    "real_world_impact": "This approach enhances the learning experience for users of varying backgrounds, potentially transforming Quranic education with scalable solutions for remote learning.",
+    "limitations": "Limited dataset size could constrain the generalizability of the model across different recitation styles.",
+    "new_terms": {
+        "Tajweed": "**Tajweed** refers to the set of rules governing the pronunciation during the reading of the Quran, making it critical for correct recitation.",
+        "EfficientNet-B0": "**EfficientNet-B0** is a convolutional neural network architecture designed to achieve higher efficiency in terms of both accuracy and computational cost."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Joint Source-Environment Adaptation for Deep Learning-Based Underwater Acoustic Source Ranging",
+    "author": "Dariush Kari (University of Illinois Urbana-Champaign), Andrew C. Singer (Stony Brook University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods proposed for domain adaptation and uncertainty estimation can be beneficial for improving robustness in various audio processing tasks, such as audio restoration or enhancement, particularly in challenging environments.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The paper addresses the challenge of adapting a deep learning model for underwater acoustic localization to environments where training data is not available, using unsupervised techniques.",
+    "contribution": "This paper introduces a joint source-environment adaptation framework that combines pre-trained model outputs with an energy-based estimation to enhance localization performance under environmental shifts, achieving improved generalization.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like matched field processing are limited by requiring access to training datasets for adapting to new environments, hindering their deployment in real-world situations.",
+        "novelty": "This work improves upon existing techniques by employing a source-free domain adaptation method that considers the structure of the incoming acoustic signals to make localization predictions without needing retraining."
+    },
+    "key_innovation": "The integration of a classification model with a probabilistic treatment of source power estimation allows for more confident and robust localization outputs.",
+    "real_world_impact": "By significantly improving underwater acoustic localization under environmental changes, this approach can enhance applications in ocean monitoring, underwater navigation, and search-and-rescue operations.",
+    "limitations": "The study does not thoroughly address the performance of the model in extremely variable and unpredictable environmental conditions.",
+    "new_terms": {
+        "source hypothesis transfer (SHOT)": "**Source hypothesis transfer (SHOT)** is a method for unsupervised domain adaptation that allows a trained model to adjust its feature extraction process without access to training data from the target domain."
+    },
+    "open_sourcing": ""
+}

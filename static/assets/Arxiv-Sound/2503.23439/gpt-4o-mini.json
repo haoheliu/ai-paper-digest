@@ -1,0 +1,22 @@
+{
+    "title": "Speculative End-Turn Detector for Efficient Speech Chatbot Assistant",
+    "author": "Hyunjong Ok (POSTECH), Suho Yoo (HJ AILAB), Jaeho Lee (POSTECH), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed SpeculativeETD framework employs efficient techniques that could be leveraged for real-time audio processing in voice synthesis and recognition tasks, which align with my research interests in audio-language modeling.",
+    "field": "Applications-Speech and Audio",
+    "background": "End-turn detection in dialogues determines whether a speaker has stopped talking or is merely pausing, impacting real-time chatbot interaction.",
+    "contribution": "This paper introduces the ETD dataset and the SpeculativeETD framework to solve challenges in end-turn detection, achieving high efficiency and accuracy in real-time scenarios.",
+    "technical_comparison": {
+        "prior_work": "Existing end-turn detection models often face high computational costs or limited accuracy when deployed in real-time environments.",
+        "novelty": "The SpeculativeETD framework combines a lightweight on-device model with a high-performance server-side model, significantly reducing computational load while maintaining accuracy."
+    },
+    "key_innovation": "The unique two-stage inference method allows for rapid initial detection with a lightweight model, followed by a more complex analysis only when necessary, optimizing resources.",
+    "real_world_impact": "This approach can enhance the functionality of real-time chatbot assistants, leading to smoother and more natural conversational experiences for users.",
+    "limitations": "No",
+    "new_terms": {
+        "end-turn detection": "**End-turn detection** refers to the ability of dialogue systems to identify whether a speaker has finished speaking or is merely in a pause.",
+        "SpeculativeETD": "**SpeculativeETD** is an inference framework designed to perform end-turn detection efficiently by balancing rapid processing and higher accuracy for critical turns."
+    },
+    "open_sourcing": "Datasets and code will be available after the review."
+}

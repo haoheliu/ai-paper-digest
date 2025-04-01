@@ -1,0 +1,22 @@
+{
+    "title": "Mismatch-Robust Underwater Acoustic Localization Using A Differentiable Modular Forward Model",
+    "author": "Dariush Kari (University of Illinois Urbana-Champaign), Yongjie Zhuang (Stony Brook University), Andrew C. Singer (Stony Brook University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper\u2019s focus on robust localization in underwater acoustics using a differentiable modular forward model aligns with methodologies applicable to audio signal processing tasks that deal with environmental adaptation and localization.",
+    "field": "Applications-Speech and Audio",
+    "background": "Underwater acoustic localization methods can struggle with environmental mismatches, thus requiring adaptation techniques to ensure accurate source localization.",
+    "contribution": "This paper introduces a gradient-based localization method that optimizes both the source location and the model parameters to enhance underwater acoustic localization performance amidst environmental mismatches.",
+    "technical_comparison": {
+        "prior_work": "Prior methods typically rely on fixed models that do not adapt to changes in the environmental conditions.",
+        "novelty": "This work improves by allowing simultaneous optimization over model parameters and inputs, which helps in adapting to new, unseen environments effectively."
+    },
+    "key_innovation": "The unique modular structure of the network allows for end-to-end training while respecting the physics-based characteristics of underwater sound propagation.",
+    "real_world_impact": "The proposed method has the potential to significantly enhance underwater navigation and monitoring systems, improving operational capabilities in marine environments.",
+    "limitations": "The performance under large environmental mismatches is not guaranteed, indicating that the robustness of adaptation could be restricted.",
+    "new_terms": {
+        "gradient-based optimization": "**Gradient-based optimization** refers to methods that utilize the gradient of a loss function to find the parameter values that minimize this function.",
+        "maximum likelihood estimator": "**Maximum likelihood estimator** is a statistical method used for estimating the parameters of a model that maximizes the likelihood of the observed data."
+    },
+    "open_sourcing": ""
+}

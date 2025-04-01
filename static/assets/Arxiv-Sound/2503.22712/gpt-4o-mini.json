@@ -1,0 +1,22 @@
+{
+    "title": "Risk-Calibrated Affective Speech Recognition via Conformal Coverage Guarantees: A Stochastic Calibrative Framework for Emergent Uncertainty Quantification",
+    "author": "Zijun Jia (School of Automation Science and Electrical Engineering, Beihang University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents a novel framework for speech emotion recognition that includes uncertainty quantification and risk control, both of which are relevant to Haohe Liu's research on speech processing and could enhance applications in intelligent transportation and emotion monitoring.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task of this paper involves recognizing driver emotions from speech to improve traffic safety and mitigate problems like road rage.",
+    "contribution": "This paper introduces a framework that integrates Conformal Prediction and Risk Control to ensure reliable emotion recognition with proven statistical guarantees.",
+    "technical_comparison": {
+        "prior_work": "Traditional deep learning models for speech emotion recognition often suffer from overfitting and lack of calibrated confidence estimates.",
+        "novelty": "This work mitigates those issues by combining nonconformity scoring with a risk-aware framework, dynamically adjusting prediction sets while maintaining coverage guarantees."
+    },
+    "key_innovation": "The key innovation lies in the nonconformity score and Risk Control framework that allows for adaptable uncertainty management based on user-defined risk levels.",
+    "real_world_impact": "This research has the potential to significantly enhance safety in intelligent transportation systems and improve real-time emotion monitoring, making it beneficial for practical applications in various domains.",
+    "limitations": "The authors do not explicitly mention limitations; however, the computational efficiency of the proposed methods may vary based on the size of calibration datasets.",
+    "new_terms": {
+        "Conformal Prediction": "**Conformal Prediction** is a statistical approach that provides a set of potential outputs for a prediction, ensuring that the true outcome is included with a specified probability.",
+        "nonconformity score": "**Nonconformity score** measures the degree of confidence in a model's prediction by quantifying how well a predicted label aligns with observed outcomes."
+    },
+    "open_sourcing": ""
+}
