@@ -1,0 +1,22 @@
+{
+    "title": "Whispering Under the Eaves: Protecting User Privacy Against Commercial and LLM-powered Automatic Speech Recognition Systems",
+    "author": "Weifei Jin (Beijing University of Posts and Telecommunications), Yuxin Cao (National University of Singapore), Junjie Su (Beijing University of Posts and Telecommunications), Derui Wang (CSIRO's Data61), Yedi Zhang (National University of Singapore), Minhui Xue (CSIRO's Data61), Jie Hao (Beijing University of Posts and Telecommunications), Jin Song Dong (National University of Singapore), Yixian Yang (Beijing University of Posts and Telecommunications)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper addresses user privacy in automatic speech recognition, relevant to Haohe Liu's work on audio processing and enhancement techniques, especially in privacy-sensitive applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research aims to develop a method to protect speech privacy from automatic speech recognition systems that can intercept and transcribe conversations.",
+    "contribution": "This paper introduces AudioShield, a novel framework for generating transferable universal adversarial perturbations in the latent space of speech data, achieving effective privacy protection against various ASR models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often suffered from excessive noise or required knowledge of the ASR model architecture, leaving them impractical for real-time applications.",
+        "novelty": "This work utilizes latent space optimization to generate perturbations that maintain audio quality while ensuring robustness across unseen ASR systems."
+    },
+    "key_innovation": "The unique aspect of this approach lies in its ability to generate high-quality audio adversarial examples in real-time without requiring access to the target ASR model.",
+    "real_world_impact": "This method can significantly enhance user privacy in audio communication, providing a practical solution against unsolicited surveillance from ASR systems.",
+    "limitations": "No specific limitations are mentioned by the authors regarding the approach.",
+    "new_terms": {
+        "Transferable Universal Adversarial Perturbations": "**Transferable Universal Adversarial Perturbations (TUAPs)** are noise patterns that can mislead multiple machine learning models without being tailored to each model.",
+        "Latent Space": "**Latent space** refers to a learned representation of data that captures its underlying features, often used in autoencoders for generating data."
+    },
+    "open_sourcing": "The source code and audio demos are available at https://github.com/WeifeiJin/AudioShield."
+}

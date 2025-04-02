@@ -1,0 +1,22 @@
+{
+    "title": "C 2AV-TSE: Context and Confidence-aware Audio Visual Target Speaker Extraction",
+    "author": "Wenxuan Wu, Xueyuan Chen, Shuai Wang, Jiadong Wang, Lingwei Meng, Xixin Wu, Helen Meng, Haizhou Li",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed method integrates contextual and confidence-aware strategies, which could enhance audio quality in speech recognition tasks relevant to Haohe Liu's research in audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to isolate a target speaker's voice from a mixed audio source using visual cues for enhanced audio perception, similar to how humans focus on specific speakers in noisy environments.",
+    "contribution": "This paper introduces the Mask-And-Recover (MAR) training strategy to solve limitations in existing audio-visual target speaker extraction systems, achieving improved robustness in isolating target speech.",
+    "technical_comparison": {
+        "prior_work": "Existing methods mainly utilize local dependencies in audio features and fail to effectively leverage broader contextual information.",
+        "novelty": "This work improves by combining intra- and inter-modality context alongside a Fine-grained Confidence Score model to target poor extraction segments."
+    },
+    "key_innovation": "The introduction of a dual-stage fine-tuning approach that emphasizes both global and local contextual information while assessing extraction quality through confidence scores.",
+    "real_world_impact": "Could significantly enhance speech recognition and privacy applications in real-world environments by providing clearer audio outputs. This has potential implications for industries like telecommunications and multimedia processing.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "Masked Acoustic Modeling": "**Masked Acoustic Modeling** refers to techniques used in audio processing where segments of audio are deliberately masked during training to help models learn to predict or recover these masked portions.",
+        "Fine-grained Confidence Score": "**Fine-grained Confidence Score** denotes a detailed measure that estimates the reliability of individual audio segments, allowing for targeted improvements in speaker extraction performance."
+    },
+    "open_sourcing": ""
+}

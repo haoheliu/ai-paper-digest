@@ -1,0 +1,21 @@
+{
+    "title": "User Authentication on Earable Devices via Bone-Conducted Occlusion Sounds",
+    "author": "Yadong Xie (Beijing Institute of Technology), Fan Li (Beijing Institute of Technology), Yue Wu (Tsinghua University), Yu Wang (Temple University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces novel biometric authentication methods that might inspire audio-based user authentication systems, enhancing applications relevant to Haohe's work in audio processing and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study focuses on authenticating users of mobile devices using unique sounds produced by dental occlusion detected via earbuds.",
+    "contribution": "This paper introduces the TeethPass+ system, which utilizes bone-conducted sounds from dental occlusion to achieve secure user authentication, achieving a high accuracy of 98.6% and resisting 99.7% of spoofing attacks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on air-conducted sounds or visual biometric features, which are more susceptible to spoofing and environmental noise.",
+        "novelty": "This work improves by focusing on bone-conducted sounds collected through earbuds, providing a secure and unobtrusive method for authentication."
+    },
+    "key_innovation": "TeethPass+ uniquely leverages the acoustic characteristics of dental occlusion sounds, which are inherently distinct for each individual due to the unique properties of their teeth and bone structure.",
+    "real_world_impact": "The approach could significantly enhance mobile device security and user convenience, offering a practical solution to biometric authentication in everyday settings.",
+    "limitations": "The paper does not mention specific limitations but relies on user cooperation for occlusion events.",
+    "new_terms": {
+        "bone-conducted sounds": "**Bone-conducted sounds** refer to sounds transmitted through bones, which can be detected through sensors or microphones placed near the ears, providing an alternative to traditional air-conducted sound detection."
+    },
+    "open_sourcing": ""
+}

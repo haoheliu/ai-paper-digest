@@ -1,0 +1,22 @@
+{
+    "title": "Are you *really* listening? Boosting Perceptual Awareness in Music-QA Benchmarks",
+    "author": "Yongyi Zang (Independent Researcher), Sean O'Brien (University of California, San Diego), Taylor Berg-Kirkpatrick (University of California, San Diego), Julian McAuley (University of California, San Diego), Zachary Novack (University of California, San Diego), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed RUListening framework emphasizes perceptual awareness, which could improve various audio-related tasks in Haohe Liu's research by enhancing the evaluation of models' perceptual capabilities.",
+    "field": "Evaluation-Methodology",
+    "background": "This research introduces a new framework for evaluating music question-answering (QA) systems that ensures models truly engage with audio data, rather than relying solely on reasoning from text.",
+    "contribution": "This paper introduces RUListening to solve the issue of misleading model performance on music QA, achieving a more accurate assessment of models' audio perception capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods did not effectively measure audio perception, allowing text-only models to perform well without audio input.",
+        "novelty": "This work improves by implementing a Perceptual Index metric that generates distractors requiring actual audio understanding, thereby compelling models to demonstrate true perceptual skills."
+    },
+    "key_innovation": "The introduction of the Perceptual Index as a mechanism to quantitatively assess the reliance on audio perception in question-answering tasks.",
+    "real_world_impact": "The findings may influence the development of better benchmarks for multimodal models, enhancing their effectiveness in real-world audio tasks. It also facilitates more accurate evaluations of model capabilities in music and beyond.",
+    "limitations": "No",
+    "new_terms": {
+        "Large Audio Language Models (LALMs)": "**Large Audio Language Models** are advanced machine learning models that incorporate audio perception alongside traditional language modeling, allowing them to handle and interpret audio data effectively.",
+        "Perceptual Index (PI)": "**Perceptual Index** is a new metric introduced to quantify how much a model's performance on a QA task depends on audio perception."
+    },
+    "open_sourcing": "The authors have open-sourced the RUL-MuchoMusic dataset at https://huggingface.co/datasets/yongyizang/RUListening under MIT License."
+}
