@@ -1,0 +1,22 @@
+{
+    "title": "F5R-TTS: Improving Flow Matching based Text-to-Speech with Group Relative Policy Optimization",
+    "author": "Xiaohui Sun (Tencent), Ruitong Xiao (Tencent), Jianye Mo (Tencent), Bowen Wu (Tencent), Qun Yu (Tencent), Baoxun Wang (Tencent), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents advancements in text-to-speech synthesis, which directly aligns with Haohe Liu's interests in audio and speech processing, especially the reinforcement learning techniques that can potentially enhance speech generation models.",
+    "field": "Applications-Speech and Audio",
+    "background": "Improving text-to-speech synthesis using reinforcement learning techniques to achieve better speech intelligibility and speaker similarity.",
+    "contribution": "F5R-TTS introduces a novel integration of Gradient Reward Policy Optimization (GRPO) into a flow-matching based text-to-speech system, significantly improving semantic accuracy and speaker similarity metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous flow-matching text-to-speech models did not effectively incorporate reinforcement learning, limiting their adaptability and performance in complex audio tasks.",
+        "novelty": "This work effectively transforms deterministic outputs into probabilistic representations, facilitating the application of GRPO for improved training."
+    },
+    "key_innovation": "The model reformulates outputs as probabilistic distributions, enabling seamless integration of reinforcement learning to optimize text-to-speech synthesis.",
+    "real_world_impact": "Enhancements in text-to-speech synthesis can lead to more natural and intelligible speech applications, benefiting voice cloning technologies and virtual assistants.",
+    "limitations": "No",
+    "new_terms": {
+        "Gradient Reward Policy Optimization (GRPO)": "**Gradient Reward Policy Optimization** is a reinforcement learning strategy focused on optimizing policy models by leveraging advantages from group-relative rewards.",
+        "flow-matching": "**Flow-matching** refers to a technique that aligns distributions through probabilistic modeling to generate high-quality audio outputs."
+    },
+    "open_sourcing": "Audio samples are available at <https://frontierlabs.github.io/F5R>."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Scaling Analysis of Interleaved Speech-Text Language Models",
+    "author": "Gallil Maimon (Hebrew University of Jerusalem), Michael Hassid (Hebrew University of Jerusalem), Amit Roth (Hebrew University of Jerusalem), Yossi Adi (Hebrew University of Jerusalem)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper's exploration of model scaling in speech-text interleaved models can provide valuable insights for enhancing audio-language modeling, particularly in generating high-quality audio outputs based on textual prompts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates how interleaving speech and text during model training affects the scaling properties of Speech Language Models (SLMs), which is crucial for improving speech understanding and generation capabilities.",
+    "contribution": "This paper introduces a detailed scaling analysis of interleaved Speech Language Models, demonstrating that these models scale more efficiently with compute compared to textless Speech Language Models, achieving improved performance metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous scaling analyses (e.g., textless-SLMs) suggested slower scaling for speech-only models and required significantly larger datasets for effective training.",
+        "novelty": "This work highlights that interleaved training allows for better knowledge transfer, enabling models to perform comparably with lesser compute and data than text-only models."
+    },
+    "key_innovation": "The innovative use of interleaved training between speech and text to enhance model performance while reallocating compute resources more efficiently.",
+    "real_world_impact": "This approach offers practical implications for developing more efficient SLMs, enabling advancements in voice assistants, transcription services, and other real-time audio applications.",
+    "limitations": "The analysis primarily focuses on certain model families, which may limit generalizability across all potential architectures in speech-text integration.",
+    "new_terms": {
+        "interleaved SLMs": "**Interleaved Speech Language Models** are models trained using both speech and text data in a sequentially mixed manner, allowing for improved performance in semantic understanding and generation."
+    },
+    "open_sourcing": "Models, samples, and data open-sourced at https://pages.cs.huji.ac.il/adiyoss-lab/sims/"
+}

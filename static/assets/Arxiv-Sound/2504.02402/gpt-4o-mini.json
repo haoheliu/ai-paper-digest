@@ -1,0 +1,22 @@
+{
+    "title": "EvMic: Event-based Non-contact Sound Recovery from Effective Spatial-temporal Modeling",
+    "author": "Hao Yin (Shanghai AI Laboratory), Shi Guo (Dalian University of Technology), Xu Jia (The Chinese University of Hong Kong), Xudong Xu (Shanghai AI Laboratory), Lu Zhang (Dalian University of Technology), Si Liu (Beihang University), ..., Tianfan Xue (Shanghai AI Laboratory)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces novel methods for sound recovery from visual events, which could significantly enhance audio restoration tasks in Haohe Liu\u2019s work on audio quality enhancement and music source separation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on recovering sound from video footage by analyzing the vibrations of objects caused by sound waves, utilizing advanced event cameras for high-frequency sampling.",
+    "contribution": "EvMic introduces a sophisticated deep learning pipeline that utilizes spatial-temporal modeling to improve the accuracy of sound recovery from visual vibrations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods using event cameras faced limitations in capturing spatial-temporal information effectively, often resulting in lower signal quality.",
+        "novelty": "This work employs a combination of sparse convolution, long-term modeling via a Mamba approach, and spatial aggregation techniques to capture higher-quality sound reconstruction."
+    },
+    "key_innovation": "The integration of a laser matrix to enhance object surface gradients allows for detailed capture of subtle vibrations, improving event detection fidelity.",
+    "real_world_impact": "The proposed method has the potential to revolutionize non-contact audio recording and recovery applications across surveillance, engineering, and entertainment industries.",
+    "limitations": "The gap between simulated and real event data may lead to performance variability in practical applications.",
+    "new_terms": {
+        "event camera": "**Event camera** is a type of camera that records changes in brightness at each pixel location asynchronously, which allows for high temporal resolution and reduced bandwidth.",
+        "Mamba": "**Mamba** refers to a structured state space model utilized in this work to efficiently model long-term temporal dependencies in sequences."
+    },
+    "open_sourcing": "Project page: https://yyzq1.github.io/EvMic/"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "ALIGNED BETTER, LISTEN BETTER FOR AUDIO-VISUAL LARGE LANGUAGE MODELS",
+    "author": "Yuxin Guo (School of Artificial Intelligence, University of Chinese Academy of Sciences), Shuailei Ma (Ant Group), Shijie Ma (School of Artificial Intelligence, University of Chinese Academy of Sciences), Xiaoyi Bao (Tongyi Lab, Alibaba Group), Chen-Wei Xie (Tongyi Lab, Alibaba Group), Kecheng Zheng (Ant Group), Tingyu Weng (Tongyi Lab, Alibaba Group), Wei Zou (MAIS, Institute of Automation, Chinese Academy of Sciences)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores innovations in audio-visual understanding in large language models, which can inform advancements in audio-centric tasks and multimodal integration relevant to Dr. Liu's research.",
+    "field": "Deep Learning-Large Language Models (LLMs)",
+    "background": "The paper investigates the integration of audio and visual information in large language models for better understanding of multimedia content.",
+    "contribution": "This paper introduces the Dolphin model to solve the deficiencies in previous audio-visual large language models, achieving improved understanding and reduced hallucinations in audio processing.",
+    "technical_comparison": {
+        "prior_work": "Existing audio-visual language models often neglect audio information or do so insufficiently, leading to hallucinated outputs.",
+        "novelty": "Dolphin employs fine-grained spatial and temporal alignment techniques to improve the integration and comprehension of audio and visual modalities, distinguishing it from previous models."
+    },
+    "key_innovation": "The model features a multi-scale adapter and interleaved merging approach for better audio-visual representation and interaction.",
+    "real_world_impact": "The advancement in audio-visual understanding can facilitate improvements in various applications such as multimedia content analysis and interactive AI systems. No immediate real-world impact.",
+    "limitations": "While the model shows improved capabilities, potential limitations related to dataset consistency and audio representation complexity are not explicitly discussed.",
+    "new_terms": {
+        "multi-scale adapter": "**Multi-scale adapter** refers to an architectural component that handles features at various resolution levels to enhance modality alignment.",
+        "interleaved merging": "**Interleaved merging** is a technique to combine audio and visual tokens in a way that allows each modality to provide contextual information for the other."
+    },
+    "open_sourcing": ""
+}

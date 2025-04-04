@@ -1,0 +1,21 @@
+{
+    "title": "LinTO Audio and Textual Datasets to Train and Evaluate Automatic Speech Recognition in Tunisian Arabic Dialect",
+    "author": "Hedi Naouara (LINAGORA), Jean-Pierre Lorre (LINAGORA), J\u00e9r\u00f4me Louradour (LINAGORA), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The datasets address challenges in Automatic Speech Recognition (ASR) for Tunisian Arabic, which is related to Haohe Liu\u2019s focus on speech and audio processing. The methodologies used for data collection and augmentation could inspire similar techniques in audio-language modeling and speech synthesis research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing Automatic Speech Recognition systems for the Tunisian Arabic dialect, which faces challenges due to its linguistic complexity and a lack of available annotated datasets.",
+    "contribution": "LinTO introduces comprehensive audio and textual datasets to address ASR challenges in the Tunisian Arabic Dialect, achieving improved model performance in recognizing diverse linguistic features.",
+    "technical_comparison": {
+        "prior_work": "Existing Arabic dialect ASR models struggle with accuracy due to limited training data and difficulties with phonetic complexity.",
+        "novelty": "This work enhances dataset richness through audio augmentation techniques and diverse linguistic sources, providing a more robust foundation for ASR model training."
+    },
+    "key_innovation": "The introduction of Voice Conversion Augmentation to increase speaker diversity and improve model generalization in ASR for the Tunisian Arabic Dialect.",
+    "real_world_impact": "The released datasets can significantly advance ASR for low-resource languages like Tunisian Arabic, potentially improving voice interfaces and transcription services for regional users.",
+    "limitations": "The datasets primarily focus on Tunisian Arabic, which might limit the model's applicability to other Arabic dialects or languages.",
+    "new_terms": {
+        "Voice Conversion Augmentation": "**Voice Conversion Augmentation** is a technique that alters the voice characteristics in audio recordings to create more diverse training data without needing additional speakers."
+    },
+    "open_sourcing": "The datasets are released under the CC BY 4.0 license on Hugging Face."
+}
