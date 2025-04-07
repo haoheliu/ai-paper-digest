@@ -1,0 +1,22 @@
+{
+    "title": "Mind the Prompt: Prompting Strategies in Audio Generations for Improving Sound Classification",
+    "author": "Francesca Ronchini (Politecnico di Milano), Ho-Hsiang Wu (Bosch Center for Artificial Intelligence), Wei-Cheng Lin (Bosch Center for Artificial Intelligence), Fabio Antonacci (Politecnico di Milano), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The use of advanced prompting strategies in Text-to-Audio models directly relates to Haohe Liu's work on audio generation, potentially enhancing the effectiveness of generated datasets for sound classification.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study explores strategies to generate synthetic audio datasets using Text-to-Audio models to improve sound classification accuracy in various tasks.",
+    "contribution": "This paper introduces diverse prompt strategies for Text-to-Audio dataset generation to enhance sound classification tasks, achieving improved classification performance compared to baseline datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked the use of sophisticated prompting techniques and mainly employed simplistic templates.",
+        "novelty": "This work improves by implementing task-specific prompt strategies and analyzing their effectiveness for audio generation, leading to more diverse and higher-quality datasets."
+    },
+    "key_innovation": "Incorporates advanced prompting strategies, including structured and exemplar-based prompting, significantly improving dataset generation for sound classification tasks.",
+    "real_world_impact": "The findings can lead to enhanced sound classification systems with better performance, particularly in industries where accurate audio recognition is critical, such as surveillance and smart home technology.",
+    "limitations": "The reliance on generated datasets may still face issues with audio quality and distribution mismatches, as highlighted by the authors.",
+    "new_terms": {
+        "Text-to-Audio (TTA)": "**Text-to-Audio** refers to models that generate audio samples from textual prompts, enabling synthetic audio generation without the need for extensive real-world audio datasets.",
+        "Large Language Models (LLMs)": "**Large Language Models** are AI systems designed to understand and generate human language, which can be utilized to improve the generation of prompts for audio generation tasks."
+    },
+    "open_sourcing": ""
+}

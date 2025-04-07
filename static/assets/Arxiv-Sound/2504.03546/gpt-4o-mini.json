@@ -1,0 +1,21 @@
+{
+    "title": "MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation",
+    "author": "Khai Le-Duc (University of Toronto), Tuyen Tran (Hanoi University of Science and Technology), Bach Phan Tat (KU Leuven), Nguyen Kim Hai Bui (Eotv\u00f6s Lor\u00e1nd University), Quan Dang (Hanoi University of Science and Technology), Hung-Phong Tran (Hanoi University of Science and Technology), Thanh-Thuy Nguyen (HCMC Open University), Ly Nguyen (I\u00c9SEG School of Management), ..., Thanh Nguyen-Tang (Johns Hopkins University)",
+    "quality": 9,
+    "relevance": 8,
+    "relevance_why": "This paper explores multilingual medical speech translation, a field that has significant implications for automatic audio transcription and language modeling within healthcare, which aligns with audio applications in medical contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "Multilingual medical speech translation facilitates communication in healthcare settings where patients and providers speak different languages, potentially improving patient outcomes.",
+    "contribution": "MultiMed-ST introduces a comprehensive, multilingual dataset and models for medical speech translation, achieving improved performance across multiple language pairs.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets for medical translation are limited, often text-only and small, lacking rigorous scientific approach.",
+        "novelty": "This work significantly outstrips previous datasets by size and diversity, covering five languages with 290,000 samples while providing extensive analysis and model comparisons."
+    },
+    "key_innovation": "The dataset's extensive manual annotation process, involving consensus from multiple professional annotators, ensures high quality and applicability in real-world settings.",
+    "real_world_impact": "This research can lead to significant advancements in medical communication technologies, especially in multicultural healthcare environments, enhancing accessibility and patient care.",
+    "limitations": "No limitations were explicitly mentioned in the paper.",
+    "new_terms": {
+        "many-to-many multilingual speech translation": "**Many-to-many multilingual speech translation** refers to the capability of translating speech signals across multiple languages without the constraints of a one-to-one mapping of source to target languages."
+    },
+    "open_sourcing": "All code, data, and models are available online: https://github.com/leduckhai/MultiMed-ST"
+}
