@@ -1,0 +1,22 @@
+{
+    "title": "DIFF-SSL-G-COMP: TOWARDS A LARGE-SCALE AND DIVERSE DATASET FOR VIRTUAL ANALOG MODELING",
+    "author": "Yicheng Gu (Aalto University), Runsong Zhang (The Chinese University of Hong Kong), Lauri Juvela (Aalto University), Zhizheng Wu (The Chinese University of Hong Kong), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The dataset Diff-SSL-G-Comp for modeling audio processing modules such as Dynamic Range Compressors could support Haohe Liu's work on audio quality enhancement and restoration techniques, particularly in improving audio restoration frameworks by providing richer training data.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses the challenge of limited data in modeling analog audio devices by introducing a comprehensive dataset that captures the complexity of real-world audio signals.",
+    "contribution": "This paper introduces the Diff-SSL-G-Comp dataset to solve the limitation of existing modeling datasets, achieving 2528 hours of diverse audio signals recorded under various conditions.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets primarily focus on synthetic or limited instrument recordings and do not provide a wide range of parameter combinations or real-world scenarios.",
+        "novelty": "This work improves by offering a large-scale dataset with diverse music genres, tempos, and instruments, recorded in multiple parameter settings."
+    },
+    "key_innovation": "First large-scale dataset constructed specifically for Virtual Analog modeling of hardware compressors, enhancing real-world applicability.",
+    "real_world_impact": "This dataset can significantly improve the training of neural network models for audio processing applications, enabling better performance in music production and audio quality restoration tasks.",
+    "limitations": "No.",
+    "new_terms": {
+        "Virtual Analog (VA) modeling": "**Virtual Analog modeling** refers to the simulation of analog audio devices using algorithms to recreate their performance digitally.",
+        "Dynamic Range Compressor (DRC)": "**Dynamic Range Compressor** is an audio processing unit that reduces the volume of loud sounds or amplifies quiet sounds to maintain a consistent audio level."
+    },
+    "open_sourcing": "The dataset and demos are available on the project's page: http://www.yichenggu.com/DiffSSLGComp/"
+}

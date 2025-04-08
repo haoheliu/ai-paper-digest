@@ -1,0 +1,21 @@
+{
+    "title": "Deconstructing Jazz Piano Style Using Machine Learning",
+    "author": "Huw Cheston (Centre for Music and Science, University of Cambridge), Reuben Bance (Centre for Music and Science, University of Cambridge), Peter M. C. Harrison (Centre for Music and Science, University of Cambridge), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods for analyzing musical styles through machine learning can be adapted to enhance audio generation and manipulation tasks, making it relevant for applications in audio and music processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper investigates how machine learning can analyze and interpret the unique styles of jazz pianists using a robust dataset of performances.",
+    "contribution": "This paper introduces a multi-input neural network architecture to extract and analyze fundamental musical domains, achieving 94% accuracy in musician identification.",
+    "technical_comparison": {
+        "prior_work": "Previous models focused primarily on composer or performer identification, often struggling with interpretability of results.",
+        "novelty": "This work improves interpretability by separating analysis into melody, harmony, rhythm, and dynamics, allowing for deeper insights into musical style."
+    },
+    "key_innovation": "Utilizes a novel deep-learning architecture that interprets multiple musical dimensions distinctly, enhancing both performer identification and style deconstruction.",
+    "real_world_impact": "The findings can support educators and musicians in understanding jazz improvisation and developing instructional tools that demystify the learning process.",
+    "limitations": "The study is limited to jazz piano and may not generalize to other genres without additional modifications.",
+    "new_terms": {
+        "multi-input architecture": "**Multi-input architecture** refers to a neural network design that processes different types of input (e.g., melody, harmony) separately before combining them for analysis."
+    },
+    "open_sourcing": "The authors provide open-source implementations of their models and a web application for exploring musical styles."
+}

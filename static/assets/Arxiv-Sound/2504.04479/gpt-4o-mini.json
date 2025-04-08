@@ -1,0 +1,22 @@
+{
+    "title": "Activation patching for interpretable steering in music generation",
+    "author": "Simone Facchiano (Sapienza University of Rome), Giorgio Strano (Sapienza University of Rome), Donato Crisostomi (Sapienza University of Rome), Irene Tallini (Sapienza University of Rome), Tommaso Mencattini (\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne), Fabio Galasso (Sapienza University of Rome), Emanuele Rodol\u00e0 (Sapienza University of Rome), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper explores mechanistic interpretability methods that can be crucial for steering generative audio models, which aligns with my interests in audio generation and manipulation. Techniques developed here could be beneficial for unseen audio generation tasks in my work.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper investigates how to manipulate musical attributes (e.g., tempo and timbre) in audio generation models using latent direction vectors, enhancing interpretability and control in music production.",
+    "contribution": "This paper introduces a method for steering musical attributes in generation models by using activation-based steering vectors, achieving effective modulation of tempo and timbre.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked systematic approaches to interpret and control musical features within audio models, primarily relying on prompt engineering.",
+        "novelty": "This work improves upon earlier techniques by introducing a difference-in-means methodology to compute steering vectors that facilitate direct control over generated music features."
+    },
+    "key_innovation": "The injection of computed steering vectors into the model's activations allows for fine-grained control over attributes without retraining the model.",
+    "real_world_impact": "The proposed method could significantly enhance digital audio production tools, allowing for more expressive and controllable music generation platforms.",
+    "limitations": "The authors mention that excessive steering can degrade audio quality, leading to artifacts in generated outputs.",
+    "new_terms": {
+        "activation-based steering": "**Activation-based steering** refers to modifying a model's hidden states at inference time to influence its output based on learned directions in the latent space.",
+        "DiffMean": "**DiffMean** is a technique for computing steering vectors by taking the difference between mean activations from contrastive prompt sets."
+    },
+    "open_sourcing": "https://github.com/gladia-research-group/music-mechint"
+}

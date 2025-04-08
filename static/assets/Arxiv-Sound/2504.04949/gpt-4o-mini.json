@@ -1,0 +1,22 @@
+{
+    "title": "One Quantizer is Enough: Toward a Lightweight Audio Codec",
+    "author": "Linwei Zhai (Xi'an Jiaotong University), Han Ding (Xi'an Jiaotong University), Cui Zhao (Xi'an Jiaotong University), Fei Wang (Xi'an Jiaotong University), Ge Wang (Xi'an Jiaotong University), Wang Zhi (Xi'an Jiaotong University), Wei Xi (Xi'an Jiaotong University), ..., Han Ding (Xi'an Jiaotong University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper's focus on lightweight neural audio codecs directly relates to Haohe Liu's research in audio processing, particularly in generating and restoring audio while maintaining low resource consumption.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a neural audio codec that uses a single quantizer to efficiently compress and reconstruct audio, which can be beneficial for real-time applications in audio processing.",
+    "contribution": "This paper introduces SQCodec, a lightweight neural audio codec utilizing a single quantizer to achieve high-fidelity audio compression while significantly reducing computational overhead.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on complex architectures with multiple quantizers to enhance audio quality, leading to increased resource consumption.",
+        "novelty": "SQCodec improves audio codec efficiency by simplifying its architecture with a single quantizer, which simplifies downstream processing and enhances adaptability."
+    },
+    "key_innovation": "The integration of a novel TConv mechanism enables the codec to effectively capture acoustic variations across multiple temporal scales, enhancing both compression efficiency and audio quality.",
+    "real_world_impact": "SQCodec's lightweight design and effective performance make it suitable for real-world applications, such as streaming and mobile audio processing, potentially improving the user experience in these domains.",
+    "limitations": "No",
+    "new_terms": {
+        "TConv": "**TConv** is a novel mechanism introduced in the architecture that captures temporal acoustic variations, which can enhance audio reconstruction fidelity.",
+        "Finite Scalar Quantization (FSQ)": "**Finite Scalar Quantization (FSQ)** is a method used to discretize features in a bounded low-dimensional space, reducing the risk of model collapse during training."
+    },
+    "open_sourcing": "The source code is publicly available at https://github.com/zhai-lw/SQCodec"
+}

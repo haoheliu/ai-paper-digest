@@ -1,0 +1,21 @@
+{
+    "title": "Selective Masking Adversarial Attack on Automatic Speech Recognition Systems",
+    "author": "Zheng Fang (Wuhan University), Bowen Li (Wuhan University), Shenyi Zhang (Wuhan University), Lingchen Zhao (Wuhan University), Tao Wang (Wuhan University), Zhangyi Wang (Wuhan University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a new attack method for audio adversarial attacks that addresses dual-source scenarios. This could inform future research on robustness in audio systems and could enhance Haohe Liu's work on audio restoration and generation by providing insights into adversarial robustness.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper investigates how to manipulate automatic speech recognition systems to only recognize one speaker while masking another in a dual-source audio environment.",
+    "contribution": "This paper introduces the Selective Masking Adversarial attack (SMA attack) to solve the challenge of recognizing one speaker in dual-source audio, achieving a 100% success rate in attacks on various ASR systems.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily targeted single-source audio, which limits their applicability in real-world dual-source scenarios where multiple speakers are present.",
+        "novelty": "This work improves by implementing a dual-source initialization method and a selective masking optimization algorithm, enabling successful recognition of selected audio while masking others."
+    },
+    "key_innovation": "Combines dual-source audio initialization with a targeted masking approach to generate adversarial examples that remain imperceptible to human listeners.",
+    "real_world_impact": "By demonstrating the potential vulnerabilities of ASR systems in dual-source scenarios, this work raises awareness about security in speech recognition technologies and could guide future improvements in ASR system robustness.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "Selective Masking Adversarial attack": "**Selective Masking Adversarial attack (SMA attack)** is a method designed to manipulate sound inputs so that an ASR system recognizes only selected audio while masking other audio sources."
+    },
+    "open_sourcing": ""
+}

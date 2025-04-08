@@ -1,0 +1,22 @@
+{
+    "title": "Formula-Supervised Sound Event Detection: Pre-Training Without Real Data",
+    "author": "Yuto Shibata (Keio University, Japan), Keitaro Tanaka (Waseda University, Japan), Yoshiaki Bando (National Institute of Advanced Industrial Science and Technology (AIST), Japan), Keisuke Imoto (Doshisha University, Japan), Hirokatsu Kataoka (University of Oxford, United Kingdom), Yoshimitsu Aoki (Keio University, Japan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces a synthetic dataset and framework for sound event detection that could inform Haohe Liu's work in audio generation and manipulation, especially relevant for enhancing audio modeling techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper discusses sound event detection, which involves identifying the types of sounds and their timing in audio streams, addressing challenges in acquiring labeled training data.",
+    "contribution": "This paper introduces a novel pre-training method utilizing the Formula-SED dataset, generated parametrically, to provide accurate ground truth labels and achieve better model performance in sound event detection tasks.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods rely on real data for training, which is often limited, noisy, and costly to annotate.",
+        "novelty": "This work substitutes real data with a synthetic dataset that eliminates label noise and allows for scalable pre-training by generating acoustic events from mathematical formulas."
+    },
+    "key_innovation": "Uses parametric acoustic synthesis to create high-fidelity audio with precise labels, enabling effective pre-training without dependency on real-world data.",
+    "real_world_impact": "By addressing issues of data scarcity and quality in audio event detection, this research paves the way for broader applications in environments where labeled audio data is hard to obtain, enhancing models\u2019 robustness.",
+    "limitations": "No explicit limitations mentioned in the paper.",
+    "new_terms": {
+        "Formula-SED": "**Formula-Supervised Environmental Sound Detection** is a synthetic dataset created using defined mathematical parameters to generate labeled audio events accurately.",
+        "Gaussian processes": "**Gaussian processes** are a family of probabilistic models used in machine learning to define distributions over functions, often utilized for regression tasks."
+    },
+    "open_sourcing": "The project page is available at https://yutoshibata07.github.io/Formula-SED/"
+}

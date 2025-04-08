@@ -1,0 +1,22 @@
+{
+    "title": "P2Mark: Plug-and-play Parameter-intrinsic Watermarking for Neural Speech Generation",
+    "author": "Yong Ren (Institute of Automation, Chinese Academy of Sciences), Jiangyan Yi (Tsinghua University), Tao Wang (Institute of Automation, Chinese Academy of Sciences), Jianhua Tao (Tsinghua University), Zhengqi Wen (Tsinghua University), Chenxing Li (Institute of Automation, Chinese Academy of Sciences), Zheng Lian (Institute of Automation, Chinese Academy of Sciences), ..., Xiaohui Zhang (Institute of Automation, Chinese Academy of Sciences)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed watermarking technique directly addresses copyright protection in generative audio, which is crucial for Haohe Liu's work on audio processing, especially in ensuring integrity and ownership of generated audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work presents a method for embedding watermark information directly into neural speech generation models, enabling robust copyright protection against misuse and manipulation.",
+    "contribution": "P2Mark introduces a Plug-and-play Parameter-intrinsic WaterMarking method to solve the issue of easily removable watermarks in open-source models, achieving a reliable way to trace and protect the copyright of generated speech.",
+    "technical_comparison": {
+        "prior_work": "Existing watermarking methods often allow for easy removal or manipulation when codes and weights are open-sourced.",
+        "novelty": "P2Mark integrates watermark information at the parameter level using a specialized adapter module, making it resilient against alterations."
+    },
+    "key_innovation": "The use of a watermarking adapter that can be merged and changed without retraining creates flexibility and security in the watermarking process.",
+    "real_world_impact": "By addressing the vulnerabilities in open-source speech generation, this method can significantly enhance trust in the use of generative audio technologies for commercial applications.",
+    "limitations": "No",
+    "new_terms": {
+        "Plug-and-play Parameter-intrinsic WaterMarking": "**P2Mark** is a method designed to embed watermark information directly into the parameters of neural network models to maintain strong copyright protection, particularly in neural speech generation.",
+        "Watermark Low-Rank Adaptation": "**WM-LoRA** is a technique used to integrate watermark information as parameters effectively, allowing flexibility in watermark management without needing complete model retraining."
+    },
+    "open_sourcing": ""
+}
