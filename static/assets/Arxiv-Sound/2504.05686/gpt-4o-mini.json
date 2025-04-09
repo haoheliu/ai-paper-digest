@@ -1,0 +1,22 @@
+{
+    "title": "kNN-SVC: Robust Zero-Shot Singing Voice Conversion with Additive Synthesis and Concatenation Smoothness Optimization",
+    "author": "Keren Shao (University of California San Diego), Matthew Baas (Stellenbosch University), Ke Chen (University of California San Diego), Shlomo Dubnov (University of California San Diego), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The techniques in this paper, particularly the additive synthesis and concatenation smoothness optimization, could enhance the audio generation and restoration capabilities that are central to Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses the challenge of converting singing voices from one singer to match another while maintaining the lyrical content and improving audio quality.",
+    "contribution": "This paper introduces harmonic information through additive synthesis and a novel distance metric for concatenative synthesis to solve issues of dull sounds and temporal inconsistency in singing voice conversion, achieving smoother and more authentic vocal outputs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, such as kNN voice conversion, often focused solely on local fidelity without adequate representation of harmonics or temporal smoothness.",
+        "novelty": "This work improves by incorporating harmonic synthesis and a new distance metric that optimizes both the candidate selection and the weighting during audio generation."
+    },
+    "key_innovation": "Combines additive synthesis with k-nearest neighbors to enhance vocal richness and temporal coherence in singing voice conversion",
+    "real_world_impact": "This approach could significantly improve the quality of singing voice conversion technology, making it more suitable for applications in music production, dubbing, and entertainment.",
+    "limitations": "The paper does not mention specific limitations but acknowledges the challenge of ensuring that high-quality candidates are selected without introducing artifacts.",
+    "new_terms": {
+        "additive synthesis": "**Additive synthesis** refers to a sound synthesis technique that creates complex sounds by combining simple waveforms, typically sine waves, at different frequencies and amplitudes to form a richer timbre.",
+        "concatenation smoothness optimization": "**Concatenation smoothness optimization** is a method aimed at improving audio continuity and coherence during the synthesis process by selecting and weighting audio segments that are temporally aligned."
+    },
+    "open_sourcing": "Code: https://github.com/SmoothKen/knn-svc"
+}

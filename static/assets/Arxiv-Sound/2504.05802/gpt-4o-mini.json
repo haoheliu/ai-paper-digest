@@ -1,0 +1,22 @@
+{
+    "title": "Mass-Spring Models for Passive Keyword Spotting: A Springtronics Approach",
+    "author": "Finn Bohte (AMOLF), Theophile Louvet (AMOLF), Vincent Maillou (AMOLF), Marc Serra Garcia (AMOLF), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper presents mechanical systems for passive keyword spotting, which could influence efficient speech processing techniques in audio generation models, relevant to Dr. Liu's focus on audio and speech.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper discusses keyword spotting in speech signals, a task where specific words are detected within audio recordings, crucial for voice-assisted technologies.",
+    "contribution": "This paper introduces a nonlinear mass-spring model to solve the keyword spotting challenge, achieving comparable accuracy to low-power electronic systems at sub-milliwatt energy consumption.",
+    "technical_comparison": {
+        "prior_work": "Previous mechanical computing approaches focused on simple tasks and single-stage systems, often lacking in real-world applicability.",
+        "novelty": "This work implements a hierarchical architecture in mass-spring models for complex tasks like speech classification, significantly advancing the field."
+    },
+    "key_innovation": "The concept of 'springtronics,' which integrates mass-spring models in a way that mimics neural network architecture, is a significant innovation.",
+    "real_world_impact": "Demonstrates that mechanical systems can match electronic systems in speech processing tasks at lower power, promoting sustainable technology for IoT devices.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "springtronics": "**Springtronics** refers to a framework for designing mechanical computing systems using mass-spring models that operate analogously to electronic circuits.",
+        "mass-spring model": "**Mass-spring model** involves interconnected masses that can simulate complex behaviors and processes in mechanical systems, often used to model dynamic physical systems."
+    },
+    "open_sourcing": ""
+}

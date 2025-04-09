@@ -1,0 +1,22 @@
+{
+    "title": "SoundVista: Novel-View Ambient Sound Synthesis via Visual-Acoustic Binding",
+    "author": "Mingfei Chen (University of Washington), Israel D. Gebru (Codec Avatars Lab, Pittsburgh, Meta), Ishwarya Ananthabhotla (Reality Labs Research, Meta), Christian Richardt (Codec Avatars Lab, Pittsburgh, Meta), Dejan Markovic (Codec Avatars Lab, Pittsburgh, Meta), Jake Sandakly (Codec Avatars Lab, Pittsburgh, Meta), Steven Krenn (Codec Avatars Lab, Pittsburgh, Meta), Todd Keebler (Codec Avatars Lab, Pittsburgh, Meta), ..., Alexander Richard (Codec Avatars Lab, Pittsburgh, Meta)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper introduces methods for binaural audio synthesis, which can enhance Haohe Liu's work in audio generation and processing, particularly in the context of creating immersive auditory experiences and improving spatialization techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "Novel-View Acoustic Synthesis aims to generate realistic ambient sound from new viewpoints in intricate acoustic environments using sparse audio recordings.",
+    "contribution": "SoundVista introduces a visual-acoustic binding mechanism to optimize microphone placement and adaptively synthesize binaural audio based on visual features, achieving improved sound synthesis accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on fixed microphone grids and lacked adaptability to complex environments or accurate audio source details, which limited their effectiveness.",
+        "novelty": "This work improves upon prior techniques by employing a visual-acoustic binding module that intelligently selects microphone locations and reweights audio contributions based on the target perspective."
+    },
+    "key_innovation": "Combines visual data with acoustic analysis to perform real-time synthesis of ambient sound without needing detailed sound source information.",
+    "real_world_impact": "Provides a framework for enhancing audio experiences in virtual reality and augmented reality applications, potentially transforming entertainment, gaming, and remote interaction sectors.",
+    "limitations": "While the system demonstrates significant improvements, challenges in diverse sound source integration and generalizability across varying environments remain.",
+    "new_terms": {
+        "binaural audio": "**Binaural audio** refers to sound that is recorded and played back in a way that mimics the natural hearing experience of humans, often providing a 3D sound effect.",
+        "acoustic transfer function": "**Acoustic transfer function** describes how sound propagates through an environment, relating how audio signals captured at different points translate to other points in the same space."
+    },
+    "open_sourcing": ""
+}

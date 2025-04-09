@@ -1,0 +1,22 @@
+{
+    "title": "Real-Time Pitch/F0 Detection Using Spectrogram Images and Convolutional Neural Networks",
+    "author": "Xu Fang Zhao (Companions and Platforms General Motors Company), Omer Tsimhoni (Connected Vehicle Experience General Motors Company), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The use of Convolutional Neural Networks (CNNs) for pitch detection from spectrogram images aligns well with Haohe Liu's interests in audio and speech processing, particularly in applications like speech enhancement and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Pitch detection involves identifying the fundamental frequency of audio signals, which has applications in emotion detection, speaker identification, and personalized user experiences in vehicles.",
+    "contribution": "This paper introduces a CNN-based approach to extract pitch from spectrogram images to achieve a detection accuracy of 92%, improving the robustness of pitch tracking in noisy environments.",
+    "technical_comparison": {
+        "prior_work": "Traditional pitch detection methods are limited in accuracy and require post-processing steps to generate continuous pitch contours.",
+        "novelty": "This work simplifies the process by directly outputting continuous pitch values from spectrogram images without requiring post-processing steps, enhancing efficiency and accuracy."
+    },
+    "key_innovation": "The method directly processes spectrogram images using CNNs to accurately detect pitch values in real-time, addressing challenges of conventional acoustic processing techniques.",
+    "real_world_impact": "This technology can significantly enhance voice interaction systems in vehicles, fostering functionalities such as emotion detection, voice command recognition, and secure identification.",
+    "limitations": "The authors note potential issues with transition values between voiced and unvoiced frames that may lead to inaccuracies.",
+    "new_terms": {
+        "spectrogram": "**Spectrogram** is a visual representation of the spectrum of frequencies of a signal as they vary with time.",
+        "harmonic structure": "**Harmonic structure** refers to a pattern in a spectrogram that indicates the frequency components of sound, often associated with identifiable pitches."
+    },
+    "open_sourcing": ""
+}

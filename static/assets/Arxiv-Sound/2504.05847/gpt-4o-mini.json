@@ -1,0 +1,22 @@
+{
+    "title": "Reducing Noise with Augmented Reality: Perceptual Experience and Evaluation",
+    "author": "Clara Boukhemia (IRCAM), Nicolas Misdariis (IRCAM), Mathieu Lagrange (CNRS), Antoine Gonot (IRCAM), Mitsuko Aramaki (IRCAM)",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The exploration of auditory masking techniques could inform new strategies for audio quality enhancement and environment optimization in Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research investigates methods to reduce unpleasant sound impacts in indoor environments using augmented reality techniques, focusing on real-time auditory adjustments.",
+    "contribution": "This paper introduces the auditory concealer approach to solve issues related to noise pollution in office settings, achieving insights into user preference for different soundscapes.",
+    "technical_comparison": {
+        "prior_work": "Previous methods have largely focused on auditory masking techniques that primarily seek to cover noise without considering user preferences regarding sound quality.",
+        "novelty": "This work improves upon existing masking methods by introducing an experimental approach that specifically analyzes user enjoyment of the soundscapes created."
+    },
+    "key_innovation": "It identifies the balance between noise reduction and user enjoyment, thus proposing a more user-centered approach to managing acoustic environments.",
+    "real_world_impact": "The findings could potentially enhance workplace environments by reducing noise-related stress, improving productivity, and ensuring better overall auditory comfort for users.",
+    "limitations": "The study primarily focuses on specific environments and noise sources, which may limit generalizability to other contexts.",
+    "new_terms": {
+        "auditory concealer": "**Auditory concealer** refers to a form of sound management aimed at improving the perceived quality of noisy environments by blending or masking annoying sounds with more pleasant ones.",
+        "masking": "**Masking** is a technique used in audio processing where a sound is covered by another sound to make it less perceptible or distracting."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Exploring Local Interpretable Model-Agnostic Explanations for Speech Emotion Recognition with Distribution-Shift",
+    "author": "Maja J. Hjuler (Technical University of Denmark), Line H. Clemmensen (Technical University of Denmark), Sneha Das (Technical University of Denmark), ..., Sneha Das (Technical University of Technology, Brisbane)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces EmoLIME, a novel method for generating interpretable explanations in Speech Emotion Recognition (SER). As Haohe Liu's research involves audio and speech processing, EmoLIME can enhance understanding of model decisions in SER tasks, particularly when using advanced features like Wav2Vec 2.0 embeddings, which align with his work on audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating local interpretations of the predictions made by Speech Emotion Recognition models to enhance transparency and user trust.",
+    "contribution": "This paper introduces EmoLIME to solve the challenge of explainability in black-box Speech Emotion Recognition models, achieving enhanced interpretability of emotional state predictions by focusing on influential frequency ranges.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like SHapley Additive exPlanations (SHAP) and LIME are often computationally expensive and not well-aligned with the needs of multi-class SER models.",
+        "novelty": "EmoLIME improves on these methods by focusing on spectral decomposition of audio, allowing for more intuitive explanations based on specific frequency components."
+    },
+    "key_innovation": "EmoLIME uniquely adapts LIME for audio by breaking down audio inputs into frequency segments, providing clearer insights into which acoustic features influence emotional classification.",
+    "real_world_impact": "The methodology paves the way for more interpretable and trustworthy SER systems, important for applications in healthcare or education where understanding emotional context is critical.",
+    "limitations": "No",
+    "new_terms": {
+        "LIME": "**Local Interpretable Model-Agnostic Explanations** is an approach to explain black-box machine learning models by approximating them with interpretable models locally.",
+        "SER": "**Speech Emotion Recognition** involves the identification of emotional states from speech signals, requiring analysis of various acoustic features."
+    },
+    "open_sourcing": "Source code: https://github.com/snehadas/EmoLIME"
+}
