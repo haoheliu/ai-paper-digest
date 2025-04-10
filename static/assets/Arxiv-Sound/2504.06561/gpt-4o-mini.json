@@ -1,0 +1,21 @@
+{
+    "title": "A Streamable Neural Audio Codec with Residual Scalar-Vector Quantization for Real-Time Communication",
+    "author": "Xiao-Hang Jiang (University of Science and Technology of China), Yang Ai (University of Science and Technology of China), Rui-Chen Zheng (University of Science and Technology of China), Zhen-Hua Ling (University of Science and Technology of China), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The proposed StreamCodec methodology directly relates to audio compression techniques and could enhance Haohe Liu's work in audio generation and processing, particularly in applications requiring efficient real-time communication.",
+    "field": "Applications-Speech and Audio",
+    "background": "Develop a streamable audio codec capable of compressing and transmitting audio data in real-time while maintaining high quality and low latency, using a novel quantization technique.",
+    "contribution": "This paper introduces StreamCodec, a causal neural audio codec with a residual scalar-vector quantizer to improve audio quality for real-time applications, achieving low latency and efficient generation.",
+    "technical_comparison": {
+        "prior_work": "Traditional audio codecs often suffer from high latency or low-quality compromises.",
+        "novelty": "StreamCodec employs a unique residual scalar-vector quantization strategy that balances efficiency and audio quality, enhancing data utilization and reducing latency."
+    },
+    "key_innovation": "The combination of scalar and vector quantization in a residual structure effectively captures audio details without high processing overhead.",
+    "real_world_impact": "The codec provides a practical solution for real-time audio communication applications, significantly improving user experience in video calls and streaming services.",
+    "limitations": "No specific limitations mentioned by the authors.",
+    "new_terms": {
+        "residual scalar-vector quantization": "**Residual scalar-vector quantization** is a technique that sequentially connects simple scalar quantizers and more complex vector quantizers to refine audio data representation progressively."
+    },
+    "open_sourcing": ""
+}

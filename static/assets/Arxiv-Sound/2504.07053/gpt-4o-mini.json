@@ -1,0 +1,22 @@
+{
+    "title": "TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling",
+    "author": "Liang-Hsuan Tseng (MediaTek Research), Yi-Chang Chen (MediaTek Research), Kuan-Yi Lee (MediaTek Research), Da-Shan Shiu (MediaTek Research), Hung-yi Lee (National Taiwan University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The method proposed in this paper, TASTE, focuses on tokenizing speech in a way that is aligned with text, which is highly relevant for audio-language integration tasks like those Haohe Liu is researching. It could enhance speech reconstruction and text-to-audio generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper presents a methodology for aligning speech tokenization with text transcriptions to improve the effectiveness of spoken language models, addressing discrepancies in token sequence lengths.",
+    "contribution": "TASTE introduces a novel speech tokenization and embedding approach that aligns speech tokens with text during the tokenization stage, achieving significant improvements in speech reconstruction quality.",
+    "technical_comparison": {
+        "prior_work": "Previous speech language models struggled with modality mismatches between speech and text timings, often leading to inefficiencies and poorer performance.",
+        "novelty": "This work overcomes the length mismatch by using a text-aligned aggregation mechanism and a unique reconstruction objective during training."
+    },
+    "key_innovation": "It directly aligns the lengths of speech tokens with their corresponding text tokens, enhancing the cohesion between modalities and allowing more effective spoken language model training.",
+    "real_world_impact": "This approach could significantly improve the capability of spoken language models in real-world applications, offering more natural interactions in voice-activated systems and speech synthesis tools.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "Text-Aligned Speech Tokenization": "**Text-Aligned Speech Tokenization** refers to a method of creating speech tokens in direct correspondence with text transcriptions, improving modeling efficiency and effectiveness.",
+        "Residual Vector Quantization (RVQ)": "**Residual Vector Quantization** is a technique for compressing representations by creating layered quantized outputs, useful in speech processing."
+    },
+    "open_sourcing": "Demo, code, and models are available at https://github.com/mtkresearch/TASTE-SpokenLM"
+}

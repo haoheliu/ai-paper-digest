@@ -1,0 +1,22 @@
+{
+    "title": "Controllable Automatic Foley Artist",
+    "author": "Roi Benita (Technion), Michael Finkelson (Hebrew University of Jerusalem), Yossi Adi (Hebrew University of Jerusalem), Tavi Halperin (Lightricks), Gleb Sterkin (Lightricks), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper's focus on audio generation using multimodal inputs aligns closely with Haohe Liu's research in text-to-audio models. The innovative modality adapter may enhance existing audio generation techniques in his work.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a video-and-text-to-audio model that generates synchronized audio for videos, guided by user-provided text, enhancing the Foley sound generation process.",
+    "contribution": "Controllable Automatic Foley Artist introduces a novel text-and-video-to-audio generation approach to solve synchronization challenges in sound design, achieving high-quality audio that aligns with both visual timing and textual descriptions.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled with user control and often produced audio without sufficient semantic alignment when the text contradicted visual cues, impacting flexibility.",
+        "novelty": "This work improves by utilizing a ControlNet-like mechanism to integrate visual information into the audio generation from texts, allowing for better user-guided audio creation."
+    },
+    "key_innovation": "The method incorporates user-controlled textual conditioning to modify generated audio, creating a more intuitive and flexible Foley generation process.",
+    "real_world_impact": "This approach can streamline video production by automating Foley sound design, making high-quality audio more accessible to content creators without extensive resources.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "Foley": "**Foley** describes the art of creating sound effects for films and videos, contributing to a more immersive viewer experience.",
+        "ControlNet": "**ControlNet** refers to a neural network architecture that permits the control of generative models through additional inputs for precise output manipulation."
+    },
+    "open_sourcing": "Samples and code can be found in their anonymized demo page."
+}
