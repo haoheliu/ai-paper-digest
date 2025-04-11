@@ -1,0 +1,21 @@
+{
+    "title": "SlimSpeech: Lightweight and Efficient Text-to-Speech with Slim Rectified Flow",
+    "author": "Kaidi Wang (School of Informatics, Xiamen University), Wenhao Guan (School of Electronic Science and Engineering, Xiamen University), Shenghui Lu (School of Informatics, Xiamen University), Jianglong Yao (School of Informatics, Xiamen University), Lin Li (School of Electronic Science and Engineering, Xiamen University), Qingyang Hong (School of Informatics, Xiamen University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods presented in this paper focus on text-to-speech synthesis, which is directly relevant to audio processing and generation tasks that align with my research interests in audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses the challenge of generating high-quality speech from text in a lightweight manner, reducing computational requirements while maintaining synthesis quality.",
+    "contribution": "SlimSpeech introduces a lightweight rectified flow model for speech synthesis to solve the issue of long inference times in traditional methods, achieving comparable quality to larger models with significantly fewer parameters.",
+    "technical_comparison": {
+        "prior_work": "Previous methods such as diffusion models and flow matching required numerous sampling steps, limiting real-time applications and adding latency.",
+        "novelty": "This work improves efficiency by employing a one-step sampling process, utilizing a teacher-student model framework and refining the rectified flow to minimize parameter sizes."
+    },
+    "key_innovation": "The combination of annealing reflow and flow-guided distillation allows for direct training of smaller models while maintaining speech quality.",
+    "real_world_impact": "The lightweight nature of SlimSpeech makes it more suitable for deployment on edge devices, enhancing accessibility for real-time applications in speech synthesis.",
+    "limitations": "No",
+    "new_terms": {
+        "rectified flow": "**Rectified flow** is a generative modeling technique using ordinary differential equations to optimize the generation process, aiming for straighter trajectories in data distribution mapping."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Empowering Global Voices: A Data-Efficient, Phoneme-Tone Adaptive Approach to High-Fidelity Speech Synthesis",
+    "author": "Yizhong Geng (Logic Intelligence Technology), Jizhuo Xu (Tsinghua University), Zeyu Liang (Beijing University of Posts and Telecommunications), Jinghan Yang (Beijing University of Posts and Telecommunications), Xiaoyi Shi (Peking University), Xiaoyu Shen (Ningbo Key Laboratory of Spatial Intelligence and Digital Derivative, Institute of Digital Twin, EIT), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The integration of a data-efficient framework with advanced acoustic modeling for low-resource languages could contribute valuable insights to Haohe Liu's work in speech synthesis and audio generation, particularly in exploring methods that require less training data.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on developing high-fidelity text-to-speech synthesis for under-resourced languages with limited data, particularly addressing the complexities of tonal languages like Thai.",
+    "contribution": "This paper introduces a novel methodology combining preprocessing pipelines with phoneme-tone adaptive modeling to achieve effective speech synthesis, demonstrating state-of-the-art performance in various domains.",
+    "technical_comparison": {
+        "prior_work": "Existing TTS systems struggle with low-resource languages due to high data requirements and complexity in tonal languages.",
+        "novelty": "This work enhances TTS capability through a robust preprocessing pipeline and a GAN-based decoder, significantly improving data efficiency and synthesis quality."
+    },
+    "key_innovation": "The unique combination of phoneme-tone adaptation with data-optimized modeling allows for effective synthesis in low-resource settings, maintaining high fidelity despite limited training corpora.",
+    "real_world_impact": "The study has substantial potential for enhancing accessibility in diverse industries such as finance and healthcare by enabling quality TTS systems in under-resourced languages, thus promoting multilingual inclusivity.",
+    "limitations": "No",
+    "new_terms": {
+        "phoneme-tone adaptive modeling": "**Phoneme-tone adaptive modeling** is a technique that adjusts speech synthesis based on specific phonetic and tonal characteristics of a language, ensuring accurate pronunciation and intonation.",
+        "GAN-based decoder": "**GAN-based decoder** refers to a synthesis model that utilizes Generative Adversarial Networks to produce high-quality audio outputs from input phoneme sequences."
+    },
+    "open_sourcing": "Demos are available at https://luoji.cn/static/thai/demo.html"
+}

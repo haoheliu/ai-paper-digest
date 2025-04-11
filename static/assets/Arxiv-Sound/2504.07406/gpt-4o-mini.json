@@ -1,0 +1,22 @@
+{
+    "title": "Towards Generalizability to Tone and Content Variations in the Transcription of Amplifier Rendered Electric Guitar Audio",
+    "author": "Yu-Hua Chen (National Taiwan University), Yuan-Chiao Cheng (Positive Grid), Yen-Tung Yeh (National Taiwan University), Jui-Te Wu (Positive Grid), Jyh-Shing Roger Jang (National Taiwan University), Yi-Hsuan Yang (National Taiwan University)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper explores transcription models specifically for electric guitar audio, which is highly relevant to Haohe Liu's research in music source separation and enhancement. The methods proposed for handling tone variations can be applied to improve music synthesis and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Transcribing electric guitar audio involves converting various processed guitar tones into musical notation, which challenges the development of robust transcription systems due to tone diversity.",
+    "contribution": "This paper introduces the EGDB-PG dataset and the Tone-informed Transformer (TIT) model to solve challenges in transcribing electric guitar audio, achieving improved transcription accuracies across various amplifier types.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for electric guitar transcription often lack diversity in sound data and struggle to generalize across tonal variations.",
+        "novelty": "This work improves by introducing a tone embedding mechanism alongside a diverse dataset (EGDB-PG), enhancing the model's adaptability to a wide range of amplifier tones."
+    },
+    "key_innovation": "Integrates tone embeddings into a Transformer architecture, enabling the model to specifically adapt to the tonal characteristics of electric guitar audio.",
+    "real_world_impact": "Improved transcription accuracy for electric guitar can enhance music education, automated MIDI generation, and creative music composition tools, benefiting musicians and educators alike.",
+    "limitations": "The dataset may still lack annotations for certain expressive playing techniques, which could transition to real-world applicability challenges.",
+    "new_terms": {
+        "EGDB-PG": "**EGDB-PG** is a dataset developed for transcript electric guitar audio that includes a wide range of amplifier configurations to introduce tonal diversity.",
+        "tone embedding": "**Tone embedding** refers to a vector representation that captures tonal characteristics from audio inputs, improving model adaptability to different sound profiles."
+    },
+    "open_sourcing": "The EGDB-PG dataset has been made publicly available to support future research."
+}

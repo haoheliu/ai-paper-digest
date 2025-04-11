@@ -1,0 +1,21 @@
+{
+    "title": "Artificial intelligence in creating, representing or expressing an immersive soundscape",
+    "author": "Rima Ayoubi (Nantes Universit\u00e9), Sang Bum Park (Florida Agricultural and Mechanical University), Laurent Lescop (Nantes Universit\u00e9), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper discusses the use of artificial intelligence in soundscape creation, which aligns with Haohe Liu's focus on audio and speech processing, particularly in how AI can enhance sound generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper explores the integration of artificial intelligence and virtual reality for creating immersive soundscapes, analyzing the potential applications and methodologies involved.",
+    "contribution": "This paper introduces generative AI methods to solve the complexities of soundscape design by leveraging AI for sound generation and immersive environments, achieving a novel approach to audio-visual interactions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods of sound design relied heavily on manual techniques and traditional sound libraries, often lacking interactivity.",
+        "novelty": "This work enhances the process by employing AI-driven sound generation and real-time user interaction within virtual environments, streamlining soundscape design."
+    },
+    "key_innovation": "Combines generative AI with virtual reality to create a dynamic and interactive auditory experience that responds to user input.",
+    "real_world_impact": "This study highlights the potential for AI to transform sound design in various applications such as gaming, virtual reality, and immersive experiences, paving the way for new creative possibilities.",
+    "limitations": "The authors note that the current AI applications for sound generation are still developing, with room for improvement in realism and specificity.",
+    "new_terms": {
+        "immersive soundscape": "**Immersive soundscape** refers to a three-dimensional auditory environment that engages the listener and encompasses multiple sound elements, enhancing the overall experience."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,23 @@
+{
+    "title": "Quantum-Inspired Genetic Algorithm for Robust Source Separation in Smart City Acoustics",
+    "author": "Minh K. Quan (School of Engineering, Deakin University), Mayuri Wijayasundara (School of Engineering, Deakin University), Sujeeva Setunge (School of Engineering, Royal Melbourne Institute of Technology University), Pubudu N. Pathirana (School of Engineering, Deakin University), ...",
+    "quality": 7,
+    "relevance": 7,
+    "relevance_why": "This paper's focus on source separation techniques could inform studies on audio signal processing in Dr. Liu's work, particularly in improving audio quality enhancement and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of separating overlapping sound sources in urban environments for effective acoustic scene analysis, particularly with limited training data.",
+    "contribution": "This paper introduces a novel Quantum-Inspired Genetic Algorithm (p-QIGA) to solve source separation in complex acoustic scenes, achieving improved robustness and performance even with limited data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods such as Independent Component Analysis (ICA) and Non-negative Matrix Factorization (NMF) struggle with correlated sources and noise.",
+        "novelty": "The p-QIGA incorporates quantum principles like superposition and entanglement into a genetic algorithm framework, enhancing exploration in the parameter space and handling correlated sources more effectively."
+    },
+    "key_innovation": "Combines quantum-inspired concepts with genetic algorithms to optimize source separation and manage noise and correlation in audio signals.",
+    "real_world_impact": "This research has potential applications in noise pollution monitoring and acoustic surveillance in smart cities, advancing urban acoustic scene analysis.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "quantum-inspired algorithm": "**Quantum-inspired algorithms** are computational methods that draw inspiration from quantum mechanics principles but are implemented on classical computing systems.",
+        "superposition": "**Superposition** in quantum mechanics refers to a system's ability to exist in multiple states simultaneously, allowing for more comprehensive exploration of solution spaces in optimization problems.",
+        "entanglement": "**Entanglement** is a quantum phenomenon where particles become interconnected, such that the state of one particle can depend on the state of another, even over large distances; this idea is utilized to capture correlations between sources."
+    },
+    "open_sourcing": ""
+}
