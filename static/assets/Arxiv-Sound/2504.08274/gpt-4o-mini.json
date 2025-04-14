@@ -1,0 +1,22 @@
+{
+    "title": "Generalized Multilingual Text-to-Speech Generation with Language-Aware Style Adaptation",
+    "author": "Haowei Lou (School of Computer Science and Engineering, UNSW Sydney), Hye-young Paik (School of Computer Science and Engineering, UNSW Sydney), Sheng Li (School of Engineering, Institute of Science Tokyo), Wen Hu (School of Computer Science and Engineering, UNSW Sydney), Lina Yao (School of Computer Science and Engineering, UNSW Sydney), ..., Lina Yao (CSIRO's Data61)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper's focus on multilingual text-to-speech synthesis with a language-aware style adaptation module may enhance Haohe Liu's work on generative audio applications, particularly in improving speech intelligibility and expressiveness across different languages.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper presents a framework for generating speech that is natural and intelligible across multiple languages while allowing fine control over speaking styles.",
+    "contribution": "This paper introduces the LanStyleTTS framework to solve the challenges of multilingual TTS generation, achieving improved speech quality and adaptability through a style adaptation mechanism.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often required separate models for each language or employed a single model without addressing language-specific stylistic features.",
+        "novelty": "This work presents a unified model that incorporates a novel style adaptation module and uses the International Phonetic Alphabet (IPA) for standardized phoneme representation."
+    },
+    "key_innovation": "The method uniquely combines multilingual capabilities with a style adaptation module that captures tonal and prosodic variations, allowing for natural speech generation across languages in a single model.",
+    "real_world_impact": "The framework is promising for applications such as virtual assistants and language learning tools, providing scalable solutions for multilingual communication.",
+    "limitations": "No",
+    "new_terms": {
+        "International Phonetic Alphabet (IPA)": "**International Phonetic Alphabet (IPA)** is a system of phonetic notation designed to represent all possible human speech sounds, ensuring consistent pronunciation across languages.",
+        "style adaptation module": "**Style adaptation module** refers to a component in the model that adjusts the synthesized speech to reflect specific language-based stylistic features, such as tone or stress."
+    },
+    "open_sourcing": "The demo page can be found at https://lanstyletts.github.io/demo/"
+}

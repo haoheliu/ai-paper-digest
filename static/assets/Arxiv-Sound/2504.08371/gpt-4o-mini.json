@@ -1,0 +1,22 @@
+{
+    "title": "Passive Underwater Acoustic Signal Separation based on Feature Decoupling Dual-path Network",
+    "author": "Yucheng Liu (Southeast University), Longyu Jiang (Southeast University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses advanced techniques for signal separation which could directly contribute to improving techniques in audio processing tasks, particularly in noise separation and enhancement tasks relevant to Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research focuses on separating and isolating ship radiated noise from mixed underwater acoustic signals using a dual-path neural network approach tailored to the underwater environment.",
+    "contribution": "This paper introduces a temporal network called Indiformer to solve the issue of separating complex ship radiated noise, achieving improved accuracy in separation tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly utilized traditional signal processing techniques or non-specialized deep learning architectures, often neglecting the unique properties of underwater acoustics.",
+        "novelty": "This work enhances separation by utilizing a feature decoupling mechanism and a dual-path transformer architecture, improving the model's ability to handle long and non-stationary signals."
+    },
+    "key_innovation": "The integration of a reversible feature decoupling module allows for the independent mapping of mixed signal features, enabling more effective separation.",
+    "real_world_impact": "This research could significantly enhance underwater acoustic monitoring, which is crucial for marine biology studies and naval applications, potentially leading to more efficient signal retrieval in practical scenarios.",
+    "limitations": "No",
+    "new_terms": {
+        "feature decoupling": "**Feature decoupling** refers to the process of transforming and separating mixed signal features into a representation space where they exhibit greater independence, enhancing separation accuracy.",
+        "dual-path network": "**Dual-path network** describes a neural network architecture that processes data in two pathways, capturing both local and global context for sequential data efficiently."
+    },
+    "open_sourcing": ""
+}

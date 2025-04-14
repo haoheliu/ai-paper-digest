@@ -1,0 +1,23 @@
+{
+    "title": "Location-Oriented Sound Event Localization and Detection with Spatial Mapping and Regression Localization",
+    "author": "Xueping Zhang (Wuhan University of Technology), Yaxiong Chen (Wuhan University of Technology), Ruilin Yao (Wuhan University of Technology), Yunfei Zi (Wuhan University of Technology), Shengwu Xiong (Wuhan University of Technology), ..., Shengwu Xiong (Shanghai Artificial Intelligence Laboratory)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's focus on spatial mapping and regression localization in sound event detection aligns closely with Haohe Liu's interest in audio processing and enhancements, offering techniques that could improve audio event detection and sound scene understanding.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sound Event Localization and Detection (SELD) involves identifying the presence and direction of multiple overlapping sounds in a given environment.",
+    "contribution": "This paper introduces Spatial Mapping and Regression Localization for SELD (SMRL-SELD) to solve limitations of traditional event-oriented methods, achieving improved performance in polyphonic sound environments.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches in SELD often require knowledge of the maximum number of overlapping sounds and struggle with multiple events of the same class occurring at different locations.",
+        "novelty": "This work introduces a location-oriented method that segments 3D space into a 2D representation and employs a regression localization loss to enhance detection without prior polyphony knowledge."
+    },
+    "key_innovation": "The method\u2019s unique approach of mapping 3D spatial information onto a 2D plane allows for better handling of overlapping sound events.",
+    "real_world_impact": "Potentially enhances audio surveillance, environment monitoring, and context-aware applications, making them more robust in real-world scenarios with complex sound fields.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "Sound Event Localization and Detection (SELD)": "**Sound Event Localization and Detection (SELD)** refers to the process of identifying sound events and their spatial locations simultaneously using multi-channel audio signals.",
+        "Direction-Of-Arrival (DOA)": "**Direction-Of-Arrival (DOA)** is the angle that indicates the direction from which a sound wave arrives at a listener or sensor.",
+        "Regression Localization Loss": "**Regression Localization Loss** is a loss function designed to improve the positioning accuracy of detected sound sources by encouraging predictions to converge towards true event locations."
+    },
+    "open_sourcing": ""
+}

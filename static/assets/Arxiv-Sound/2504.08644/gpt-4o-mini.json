@@ -1,0 +1,22 @@
+{
+    "title": "Reverberation-based Features for Sound Event Localization and Detection with Distance Estimation",
+    "author": "Davide Berghi (University of Surrey), Philip J. B. Jackson (University of Surrey), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces novel reverberation-based features which could enhance distance estimation tasks in audio and speech applications, relevant for Haohe Liu's research in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sound event localization and detection (SELD) aims to identify and locate sound events in three-dimensional space, incorporating the distance of the sound source.",
+    "contribution": "This paper introduces reverberation-based features to solve the challenge of distance estimation in three-dimensional sound event localization, achieving improved distance accuracy and overall performance metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized direction of arrival estimation without considering source distance, leading to limited spatial accuracy in sound detection.",
+        "novelty": "This work improves distance estimation by incorporating features that analyze the direct-to-reverberant ratio and early reflections in audio signals."
+    },
+    "key_innovation": "It uniquely derives features from room reverberation effects to better predict sound source distances, a previously overlooked aspect in sound event localization.",
+    "real_world_impact": "Enhancing distance estimation in SELD could significantly benefit applications such as human-robot interaction, augmented reality, and enhanced audio experiences.",
+    "limitations": "The approaches may be influenced by room acoustics and require assumptions about the environments where sound events occur.",
+    "new_terms": {
+        "reverberation": "**Reverberation** refers to the persistence of sound in a space after the original sound has stopped, caused by multiple reflections off surfaces such as walls and floors.",
+        "initial time delay gap (ITDG)": "**Initial time delay gap** is the time difference between the arrival of direct sound and the first significant reflection of that sound, used as a cue in distance perception."
+    },
+    "open_sourcing": "The code to extract features is available at [github.com/dberghi/SELD-distance-features](https://github.com/dberghi/SELD-distance-features)"
+}

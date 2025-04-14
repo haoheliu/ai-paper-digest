@@ -1,0 +1,22 @@
+{
+    "title": "On The Landscape of Spoken Language Models: A Comprehensive Survey",
+    "author": "Siddhant Arora (Carnegie Mellon University, USA), Kai-Wei Chang (National Taiwan University, Taiwan), Chung-Ming Chien (Toyota Technological Institute at Chicago, USA), Yifan Peng (Carnegie Mellon University, USA), Haibin Wu (National Taiwan University, Taiwan), Yossi Adi (Hebrew University of Jerusalem, Israel), Emmanuel Dupoux (ENS - PSL, EHESS, CNRS, France), Karen Livescu (Toyota Technological Institute at Chicago, USA), Shinji Watanabe (Carnegie Mellon University, USA)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This survey provides critical insights into spoken language models (SLMs) and their integration with text models, which can inform advancements in audio processing techniques that Haohe Liu is exploring.",
+    "field": "Applications-Speech and Audio",
+    "background": "The survey explores the evolution of spoken language processing from task-specific models to universal spoken language models that can perform a range of speech tasks.",
+    "contribution": "This paper introduces a comprehensive categorization of various spoken language models and their architectures, training methodologies, and evaluation settings, mapping the current landscape of SLMs.",
+    "technical_comparison": {
+        "prior_work": "Previous reviews primarily focused on specific modalities or applications, often lacking a broad view of SLMs and their potential applications.",
+        "novelty": "This work presents a unified definition and systematic categorization of SLMs, facilitating better understanding and cohesion in a rapidly evolving field."
+    },
+    "key_innovation": "The authors provide a taxonomy of SLMs and highlight challenges and evolutionary trajectories in the domain, which is crucial for future innovations.",
+    "real_world_impact": "This survey provides a foundational understanding for researchers and practitioners aiming to develop more sophisticated speech processing systems, potentially impacting applications in speech recognition, translation, and interaction systems.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "spoken language models (SLMs)": "**Spoken Language Models (SLMs)** are universal systems that can process speech and text, performing tasks such as recognition, translation, and understanding.",
+        "autoregressive": "**Autoregressive** refers to a type of model that generates an output based on its previous output, modeling the sequence step-by-step."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,19 @@
+{
+    "title": "From Speech to Summary: A Comprehensive Survey of Speech Summarization",
+    "author": "Fabian Retkowski (KIT), Maike Z\u00fcfle (KIT), Andreas Sudmann (University Bonn), Dinah Pfau (Deutsches Museum), Jan Niehues (KIT), Alexander Waibel (CMU), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This survey provides an extensive overview of speech summarization techniques, datasets, and challenges, which can inform and enhance methodologies in audio-language processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper reviews existing approaches for condensing spoken content into shorter summaries while preserving key information.",
+    "contribution": "The survey introduces a comprehensive synthesis of speech summarization (SSum) research, covering datasets and methodologies while highlighting advancements from traditional systems to state-of-the-art models.",
+    "technical_comparison": {
+        "prior_work": "Previous works focused on specific aspects of speech summarization or were narrowly scoped within speech recognition or text summarization fields.",
+        "novelty": "This work provides an integrated perspective that encompasses various interrelated domains and clarifies the unique challenges of speech summarization."
+    },
+    "key_innovation": "It consolidates fragmented research areas in speech summarization, offering insights into challenges and opportunities for future advancements.",
+    "real_world_impact": "Helps to facilitate advancements in transforming audio content into summarized formats, enhancing user accessibility and information retrieval in daily communications.",
+    "limitations": "No immediate impact mentioned; still evolving with the integration of new models and approaches.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

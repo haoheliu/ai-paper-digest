@@ -1,0 +1,22 @@
+{
+    "title": "On the Design of Diffusion-based Neural Speech Codecs",
+    "author": "Pietro Foti (Fraunhofer IIS Erlangen), Andreas Brendel (Fraunhofer IIS Erlangen)",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The paper explores diffusion-based neural speech codecs, aligning closely with Haohe Liu's work on neural audio and speech processing, particularly in terms of innovative audio generation methodologies.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating new neural speech codec designs that utilize diffusion models to enhance audio quality and coding efficiency for speech signals.",
+    "contribution": "This paper introduces a systematic approach to designing diffusion-based neural speech codecs, proposing a comprehensive categorization for different model configurations and evaluating their performance.",
+    "technical_comparison": {
+        "prior_work": "Previous neural speech codecs predominantly utilized Generative Adversarial Networks (GANs), which faced issues like mode collapse.",
+        "novelty": "This work explores diffusion models as an alternative, providing a structured framework for investigating various conditioning and output domains, improving generation quality and training stability."
+    },
+    "key_innovation": "The categorization framework for diffusion-based codecs enables a clearer understanding of design choices and potential impacts on speech generation quality.",
+    "real_world_impact": "This research may enhance the quality of speech codecs used in low-bitrate scenarios, leading to better audio communication technologies in mobile and internet applications.",
+    "limitations": "No",
+    "new_terms": {
+        "Neural Speech Codecs": "**Neural Speech Codecs (NSCs)** are advanced audio compression systems that leverage neural networks to achieve efficient speech signal encoding and decoding.",
+        "Diffusion Models": "**Diffusion Models (DMs)** are a class of generative models that iteratively convert noise into data samples, effectively allowing for high-quality audio generation through a learned process of noise reduction."
+    },
+    "open_sourcing": ""
+}
