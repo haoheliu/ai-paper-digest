@@ -1,0 +1,19 @@
+{
+    "title": "EchoMask: Speech-Queried Attention-based Mask Modeling for Holistic Co-Speech Motion Generation",
+    "author": "Xiangyue Zhang (Wuhan University), Jianfang Li (Tongyi Lab, Alibaba Group), Jiaxu Zhang (Wuhan University), Jianqiang Ren (Tongyi Lab, Alibaba Group), Liefeng Bo (Tongyi Lab, Alibaba Group), Zhigang Tu (Wuhan University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper presents a novel framework that integrates speech features with motion generation, relevant to tools that may enhance audio-driven applications like text-to-audio generation and gesture synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating co-speech motions involves creating expressive body movements that mirror the rhythm and semantics of spoken language, often requiring sophisticated models to align audio input with visual gestures.",
+    "contribution": "EchoMask introduces a speech-queried attention-based mask modeling framework to solve the challenge of identifying semantically important motion frames in body motion generation, achieving improved alignment and expressiveness in the generated motions.",
+    "technical_comparison": "Previous methods relied on random or loss-based masking strategies, which inadequately captured semantically relevant frames. This work improves by utilizing an attention-based mechanism that directly relates speech and motion content for targeted and effective training.",
+    "key_innovation": "By using speech queries to influence the masking process in motion generation, EchoMask effectively selects frames that are semantically rich in relation to audio input.",
+    "real_world_impact": "This framework could significantly enhance applications in virtual avatars and interactive media by generating more lifelike and synchronized co-speech motions, improving user engagement and realism.",
+    "limitations": "The paper does not mention any explicit limitations.",
+    "new_terms": {
+        "speech-queried attention masking": "A technique that utilizes audio features to identify and focus on significant motion frames during generation, enhancing the semantic alignment between speech and motion.",
+        "motion-audio alignment module (MAM)": "A component that aligns audio and motion features in a shared latent space, aimed at improving the synthesis quality of co-speech gestures."
+    },
+    "open_sourcing": "Project page: https://xiangyue-zhang.github.io/EchoMask"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "AutoStyle-TTS: Retrieval-Augmented Generation based Automatic Style Matching Text-to-Speech Synthesis",
+    "author": "Dan Luo (Shenzhen International Graduate School, Tsinghua University), Chengyuan Ma (Shenzhen International Graduate School, Tsinghua University), Weiqin Li (Shenzhen International Graduate School, Tsinghua University), Jun Wang (AI Lab, Tencent), Wei Chen (Shenzhen International Graduate School, Tsinghua University), Zhiyong Wu (Shenzhen International Graduate School, Tsinghua University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper explores text-to-speech synthesis and automatic style matching, which are directly applicable to Haohe Liu's research in audio generation and restoration, particularly in contexts requiring nuanced emotional expression and voice modulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on synthesizing speech with appropriate emotional and stylistic variations based on the input text, enhancing the naturalness of generated audio.",
+    "contribution": "AutoStyle-TTS introduces a retrieval-augmented generation approach to enhance style matching in text-to-speech synthesis, achieving improved style coherence and expressiveness.",
+    "technical_comparison": {
+        "prior_work": "Previous text-to-speech synthesis methods struggled with static style application, leading to inconsistencies and a lack of expressiveness.",
+        "novelty": "This work improves on that by dynamically selecting speech styles from a comprehensive knowledge database, utilizing embeddings to ensure style matching aligns with the content."
+    },
+    "key_innovation": "Utilizes a speech style knowledge database coupled with retrieval-augmented generation to provide contextually appropriate speech styles for enhanced audio synthesis.",
+    "real_world_impact": "The framework could greatly enhance applications in podcasting, storytelling, and virtual assistants, where natural and engaging speech is crucial. It provides a mechanism to alleviate manual style selection, streamlining content creation.",
+    "limitations": "No",
+    "new_terms": {
+        "Retrieval-Augmented Generation (RAG)": "**Retrieval-Augmented Generation (RAG)** is a method that integrates external knowledge retrieval into generative models, enabling more informed and contextually relevant outputs based on available data."
+    },
+    "open_sourcing": "The demo can be viewed at: https://thuhcsi.github.io/icme2025-AutoStyle-TTS"
+}

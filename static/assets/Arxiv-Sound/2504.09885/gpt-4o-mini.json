@@ -1,0 +1,21 @@
+{
+    "title": "Separate to Collaborate: Dual-Stream Diffusion Model for Coordinated Piano Hand Motion Synthesis",
+    "author": "Zihao Liu (Tsinghua University), Mingwen Ou (Tsinghua University), Zunnan Xu (Tsinghua University), Jiaqi Huang (Tsinghua University), Haonan Han (Tsinghua University), Ronghui Li (Tsinghua University), Xiu Li (Tsinghua University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed methods for generating coordinated hand motions from audio inputs could be leveraged in Haohe Liu's research on audio processing tasks, especially in applications involving music generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating realistic hand motions for piano performances from audio signals while maintaining the independence and coordination of both hands.",
+    "contribution": "This paper introduces a dual-stream neural framework to solve the problem of synthesizing synchronized piano hand movements, achieving more natural and coordinated performances.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often used single-stream architectures that failed to account for the distinct roles and movements of each hand.",
+        "novelty": "This work utilizes independent diffusion models for each hand and an attention mechanism to enhance inter-hand coordination, resulting in more believable motion synthesis."
+    },
+    "key_innovation": "The implementation of a decoupled architecture with a Hand-Coordinated Asymmetric Attention mechanism that effectively balances hand independence and coordination.",
+    "real_world_impact": "This method can significantly improve the realism of sessions in virtual piano performances or AI-powered music education systems, enhancing user experience and learning outcomes.",
+    "limitations": "The authors do not mention any specific limitations.",
+    "new_terms": {
+        "Hand-Coordinated Asymmetric Attention (HCAA)": "**HCAA** is a mechanism within the model that allows for improved coordination between the left and right hand by emphasizing hand-specific features while suppressing common-mode noise."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "ALMTokenizer: A Low-bitrate and Semantic-rich Audio Codec Tokenizer for Audio Language Modeling",
+    "author": "Dongchao Yang (The Chinese University of Hong Kong), Songxiang Liu, Haohan Guo, Jiankun Zhao, Yuanyuan Wang, Helin Wang, Zeqian Ju, Xubo Liu, ..., Xu Tan",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This work introduces a novel audio codec tokenizer that captures semantic information while operating at low bitrates, which could significantly enhance tasks in audio generation and manipulation\u2014key areas in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on developing an audio codec tokenizer that allows for efficient audio language modeling by converting audio signals into discrete tokens while preserving semantic richness.",
+    "contribution": "ALMTokenizer introduces a novel query-based compression strategy to solve the challenge of audio tokenization, achieving low-bitrate representation with enhanced semantic fidelity.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Encodec encode individual audio frames into discrete tokens without considering inter-frame context.",
+        "novelty": "This work uses a query-based approach to capture holistic information from audio signals, allowing for dynamic compression rates and improved semantic modeling."
+    },
+    "key_innovation": "The unique query-based compression strategy employed captures contextual nuances across audio frames, significantly enhancing both audio understanding and generation tasks.",
+    "real_world_impact": "The proposed ALMTokenizer can lead to advancements in applications such as text-to-speech and music generation, fostering improved interactivity and realism in audio applications.",
+    "limitations": "No",
+    "new_terms": {
+        "query-based compression": "**Query-based compression** refers to a method of compressing data by utilizing learnable query tokens that capture comprehensive information rather than treating data segments in isolation."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Spatial Audio Processing with Large Language Model on Wearable Devices",
+    "author": "Ayushi Mishra (University of Maryland), Yang Bai (University of Maryland), Priyadarshan Narayanasamy (University of Maryland), Nakul Garg (University of Maryland), Nirupam Roy (University of Maryland), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The integration of spatial audio context into Large Language Models (LLMs) aligns well with current trends in enhancing audio-based applications in AI, which is highly relevant to Dr. Liu's focus on audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses how to improve the understanding of spatial audio in wearable devices, allowing them to transcribe speech and locate sound sources directionally.",
+    "contribution": "This paper introduces a novel framework that integrates spatial audio cues with Large Language Models, facilitating advanced spatial speech understanding for wearable applications.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for spatial understanding typically involve large microphone arrays, which are impractical for wearable devices and often yield poor accuracy.",
+        "novelty": "This work employs a microstructure-based spatial sensing setup with a single microphone to achieve precise direction of arrival (DoA) estimation while minimizing hardware complexity."
+    },
+    "key_innovation": "Utilizes a compact microstructure to enable spatial audio processing from a monaural microphone, achieving high accuracy without extensive hardware.",
+    "real_world_impact": "The findings could significantly enhance user experience in augmented reality and accessibility applications, leading to more intuitive interactions with technology.",
+    "limitations": "The paper mentions future work directions such as elevating angle estimation and enhancing robustness across diverse real-world environments but does not specify current limitations in detail.",
+    "new_terms": {
+        "Direction of Arrival (DoA)": "**Direction of Arrival (DoA)** refers to the angle at which a sound arrives at a microphone, which is crucial for spatial audio processing."
+    },
+    "open_sourcing": ""
+}
