@@ -1,0 +1,22 @@
+{
+    "title": "Deep Audio Watermarks Are Shallow: Limitations of Post-Hoc Watermarking Techniques for Speech",
+    "author": "Patrick O'Reilly (Northwestern University), Bryan Pardo (Northwestern University), Zeyu Jin (Adobe Research), Jiaqi Su (Adobe Research), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper explores the vulnerabilities of current audio watermarking techniques to transformations, which is highly relevant to my research in preserving audio quality and authenticity in speech generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Examining the effectiveness of audio watermarks in identifying synthetic speech when subjected to various transformations to assess their real-world applicability.",
+    "contribution": "This paper introduces a comprehensive evaluation of audio watermarking methods under multiple transformations, achieving an understanding of their robustness and detecting weaknesses.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches often assessed watermarking robustness against limited transformations, lacking a unified framework.",
+        "novelty": "This work expands evaluations by including a broader range of neural network-based transformations and a focus on speech audio."
+    },
+    "key_innovation": "The paper's approach reveals how easily current watermarking methods can be thwarted by low-bitrate audio codecs and denoisers, emphasizing the need for more resilient techniques.",
+    "real_world_impact": "Identifying the shortcomings in watermarking techniques helps inform the development of more robust methods, impacting how synthetic audio is regulated and protected.",
+    "limitations": "The focus on post-hoc watermarking could hinder insights into potential proactive watermarking strategies.",
+    "new_terms": {
+        "post-hoc watermarking": "**Post-hoc watermarking** refers to embedding watermarks in media after it has been created, typically by manipulating audio features without altering the audio generation process.",
+        "low-bitrate codecs": "**Low-bitrate codecs** are audio compression algorithms designed to reduce file size while maintaining perceptible audio quality, often discarding less critical information."
+    },
+    "open_sourcing": ""
+}

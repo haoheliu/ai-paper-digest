@@ -1,0 +1,21 @@
+{
+    "title": "SonicSieve: Intelligent Directional Speech Extraction on Smartphones with Bio-Inspired Acoustic Microstructures",
+    "author": "Kuang Yuan (Carnegie Mellon University), Yifeng Wang (Carnegie Mellon University), Xiyuxing Zhang (Tsinghua University), Chengyi Shen (Carnegie Mellon University), Swarun Kumar (Carnegie Mellon University), Justin Chan (Carnegie Mellon University), ..., Carnegie Mellon University",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a novel approach for directional speech extraction using a lightweight acoustic microstructure, which aligns well with my focus on audio signal processing and could enhance applications in speech and audio enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research addresses the challenge of isolating speech from background noise in real-time using smartphones, leveraging spatial cues from a specialized microstructure.",
+    "contribution": "SonicSieve introduces a bio-inspired acoustic microstructure to enhance directional speech extraction, achieving a 5.0 dB improvement in signal quality compared to conventional methods.",
+    "technical_comparison": {
+        "prior_work": "Traditional microphone arrays offer limited spatial awareness and often require complex setups or numerous microphones.",
+        "novelty": "This work utilizes only two microphones combined with a microstructure, significantly enhancing directional performance without adding additional complexity."
+    },
+    "key_innovation": "The method uniquely combines a 3D-printed microstructure that creates distinct spatial cues with real-time neural network processing, improving speech isolation in dynamic environments.",
+    "real_world_impact": "SonicSieve could revolutionize audio recording capabilities in smartphones, making it much easier for users to capture clear sound in noisy environments, thereby improving communication and transcribing experiences.",
+    "limitations": "No",
+    "new_terms": {
+        "scale-invariant signal-to-distortion ratio (SI-SDR)": "**Scale-invariant signal-to-distortion ratio** is a metric for evaluating the quality of audio signals, taking into account the scale of the signals, which makes it robust to amplitude variations."
+    },
+    "open_sourcing": "The authors plan to open source the microstructure design, code, and datasets to enhance accessibility and encourage further research in directional speech extraction."
+}

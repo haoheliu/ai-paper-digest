@@ -1,0 +1,22 @@
+{
+    "title": "Generalized Audio Deepfake Detection Using Frame-level Latent Information Entropy",
+    "author": "Botao Zhao (Ping An Technology), Zuheng Kang (Ping An Technology), Yayun He (Ping An Technology), Xiaoyang Qu (Ping An Technology), Junqing Peng (Ping An Technology), Jing Xiao (Ping An Technology), Jianzong Wang (Ping An Technology), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The proposed methods of frame-level information entropy and the use of trainable adapters in large audio models could significantly enhance Haohe Liu's research in audio processing, particularly in audio generation and restoration applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generalization in audio deepfake detection aims to distinguish between genuine and synthetic audio samples, particularly those created by evolving text-to-speech and voice conversion technologies.",
+    "contribution": "This paper introduces the frame-level latent information entropy detector (f-InfoED) and AdaLAM to solve the problem of deepfake audio detection, achieving state-of-the-art performance with strong generalization capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for audio deepfake detection often lack robustness against unseen data and novel synthesis techniques.",
+        "novelty": "This work significantly enhances detection performance by leveraging information-theoretic principles and integrating them with pre-trained audio models through trainable adapters."
+    },
+    "key_innovation": "The integration of frame-level latent information entropy provides a nuanced understanding of audio data, enabling better differentiation between genuine and spoofed samples.",
+    "real_world_impact": "The proposed method offers robust detection capabilities in real-world scenarios, crucial for mitigating the misuse of advanced audio generation technologies, particularly in security-sensitive applications.",
+    "limitations": "No",
+    "new_terms": {
+        "frame-level latent information entropy": "**Frame-level latent information entropy** quantifies the amount of information contained in the latent representations of audio data at individual timeframes, providing a more granular analysis compared to traditional methods.",
+        "AdaLAM": "**AdaLAM** refers to a method that integrates trainable adapter modules in large pre-trained audio models to enhance feature extraction capabilities without extensive fine-tuning."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Real-Time Word-Level Temporal Segmentation in Streaming Speech Recognition",
+    "author": "Naoto Nishida (Institution), Hirotaka Hiraki (Institution), Jun Rekimoto (Institution), Yoshio Ishiguro (Institution), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The paper addresses a significant challenge in real-time captioning by introducing dynamic word-level text decorations based on speech characteristics, which could enhance the auditory accessibility in speech applications relevant to Haohe's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a system that segments streaming speech recognition results into words and enhances text by dynamically adjusting attributes according to auditory cues.",
+    "contribution": "This paper introduces a real-time rich-text captioning system to solve the problem of conveying speaker intent through dynamic text attributes, achieving more engaging communication for diverse users.",
+    "technical_comparison": {
+        "prior_work": "Previous real-time captioning systems lack the capability to modify text attributes dynamically based on speech characteristics.",
+        "novelty": "This work utilizes a continuous audio analysis approach to adjust word-level text attributes in real-time, improving user engagement and the conveyance of speaker intent."
+    },
+    "key_innovation": "The method uniquely combines real-time speech segmentation with immediate visual text adjustments based on paralinguistic cues like loudness and emphasis.",
+    "real_world_impact": "The approach has the potential to significantly improve accessibility for Deaf, hard-of-hearing individuals, and second-language learners, enhancing how they interact with multimedia content.",
+    "limitations": "Challenges include computational efficiency in the integration of over-segmented parts and the need for further improvements in positioning timing accuracy.",
+    "new_terms": {
+        "paralinguistic cues": "**Paralinguistic cues** refer to features of spoken communication that convey meaning beyond the words spoken, such as intonation, tone, and loudness.",
+        "rich-text captions": "**Rich-text captions** are enhanced text representations that include varied attributes like font size and style to capture the nuances of spoken language."
+    },
+    "open_sourcing": ""
+}

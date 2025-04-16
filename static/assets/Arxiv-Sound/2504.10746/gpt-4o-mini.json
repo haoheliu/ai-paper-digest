@@ -1,0 +1,22 @@
+{
+    "title": "Hearing Anywhere in Any Environment",
+    "author": "Xiulong Liu (University of Washington), Anurag Kumar (Meta), Paul Calamia (Meta), Sebastia V. Amengual (Meta), Calvin Murdock (Meta), Ishwarya Ananthabhotla (Meta), Philip Robinson (Meta), Eli Shlizerman (University of Washington), Vamsi Krishna Ithapu (Meta), Ruohan Gao (University of Maryland, College Park)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a new approach for predicting room impulse responses using geometric and acoustical features, which could directly enhance Haohe Liu's research on audio generation and restoration technologies by providing insights into room acoustics modeling.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses how to accurately predict room impulse responses across different environments using minimal reference measurements, which is essential for immersive acoustic simulations.",
+    "contribution": "This work introduces the XRIR framework to solve the challenge of cross-room room impulse response prediction, achieving significant improvements in accuracy over previous methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods required dense RIR measurements for each room and were limited to single environments.",
+        "novelty": "This work improves generalization by utilizing a single model that captures both geometric and acoustic features with minimal data collection."
+    },
+    "key_innovation": "Combines a geometric feature extractor with a reference RIR encoder, enabling real-time adaptability to new environments with minimal measurements.",
+    "real_world_impact": "The approach holds potential for applications in virtual reality and augmented reality environments, improving user experience through realistic soundscapes.",
+    "limitations": "The model might not generalize well in highly complex acoustic environments that differ significantly from the training dataset.",
+    "new_terms": {
+        "Room Impulse Response (RIR)": "**Room Impulse Response (RIR)** represents how sound behaves in a given space, capturing reflections, absorption, and diffusion features essential for audio modeling.",
+        "Geometric Feature Extractor": "**Geometric Feature Extractor** refers to a component designed to analyze spatial configurations within an environment to inform acoustic modeling."
+    },
+    "open_sourcing": ""
+}

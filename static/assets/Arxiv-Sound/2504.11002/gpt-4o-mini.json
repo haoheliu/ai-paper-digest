@@ -1,0 +1,21 @@
+{
+    "title": "Dopamine Audiobook: A Training-free MLLM Agent for Emotional and Human-like Audiobook Generation",
+    "author": "Yan Rong (The Hong Kong University of Science and Technology), Shan Yang (Tencent AI Lab), Guangzhi Lei (Tencent AI Lab), Li Liu (The Hong Kong University of Science and Technology), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents techniques for emotional expressiveness and human-like quality in audio generation, which directly aligns with Haohe Liu's research interests in audio generation and text-to-audio applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper discusses generating audiobooks that convey emotions and human-like speech patterns from text or image inputs, addressing the limitations of existing text-to-speech models.",
+    "contribution": "This paper introduces Dopamine Audiobook, a unified training-free system for generating emotional audiobooks and providing an evaluation framework to ensure output quality according to human preferences.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focus on single text-to-speech systems that often lack emotional adaptability and proper evaluations compared to human standards.",
+        "novelty": "This work combines multiple state-of-the-art models in a flexible system that enhances emotional expressiveness through paralinguistic features and an adaptive capability-based selection process."
+    },
+    "key_innovation": "The integration of a multimodal large language model as an intelligent agent to guide the storytelling and speech generation process uniquely enhances interactivity and emotion in generated audiobooks.",
+    "real_world_impact": "This framework can revolutionize audiobook production and accessibility, improving user experiences for various applications, including personalized storytelling for visually impaired individuals.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "multimodal large language model (MLLM)": "**Multimodal large language model** refers to a type of model capable of processing and understanding multiple forms of data inputs (like text, audio, and images), effectively integrating them for robust outputs."
+    },
+    "open_sourcing": "The project website with audio samples can be found at https://dopamine-audiobook.github.io"
+}

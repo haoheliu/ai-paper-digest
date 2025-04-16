@@ -1,0 +1,22 @@
+{
+    "title": "SteerMusic: Enhanced Musical Consistency for Zero-shot Text-Guided and Personalized Music Editing",
+    "author": "Xinlei Niu (Australian National University), Kin Wai Cheuk (Sony AI), Jing Zhang (Australian National University), Naoki Murata (Sony AI), Chieh-Hsin Lai (Sony AI), Michele Mancusi (Sony Europe B.V.), Woosung Choi (Sony AI), Giorgio Fabbro (Sony Europe B.V.), Wei-Hsiang Liao (Sony AI), Charles Patrick Martin (Australian National University), Yuki Mitsufuji (Sony AI)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The techniques developed, such as the delta denoising score, could enhance audio generation capabilities and potentially improve Haohe Liu's ongoing research in audio synthesis and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses text-guided music editing to manipulate existing music using natural language prompts while ensuring high fidelity to the original audio content.",
+    "contribution": "SteerMusic introduces delta denoising score techniques to solve music editing challenges, achieving improved preservation of musical content and user-directed personalization.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with consistency and often required extensive training on datasets, leading to high computational costs.",
+        "novelty": "This work enhances consistency by directly manipulating audio in the data space instead of relying on extensive pre-trained models."
+    },
+    "key_innovation": "Incorporates a score distillation framework that allows zero-shot editing by managing audio directly in its latent space, significantly reducing inversion errors.",
+    "real_world_impact": "This research has the potential to revolutionize fields like game development and film production by providing more intuitive and flexible audio editing tools.",
+    "limitations": "While notable, the methods require fine-tuning of user-defined styles, which may not always capture the desired nuances in complex musical contexts.",
+    "new_terms": {
+        "delta denoising score": "**Delta denoising score** refers to a method that optimizes audio modulation by measuring the differences in denoising scores between source and target conditions.",
+        "score distillation": "**Score distillation** is the process of refining generated data using gradients derived from a pre-trained model to follow certain constraints more accurately."
+    },
+    "open_sourcing": "Audio examples are available on https://steermusic.pages.dev/"
+}
