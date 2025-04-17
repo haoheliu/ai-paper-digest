@@ -1,0 +1,21 @@
+{
+    "title": "Edge Intelligence for Wildlife Conservation: Real-Time Hornbill Call Classification Using TinyML",
+    "author": "Kong Ka Hing (Sunway University), Mehran Behjati (Sunway University), Vala Saleh (Shiraz University of Technology), Yap Kian Meng (Sunway University), Anwar P.P. Abdul Majeed (Sunway University), Yufan Zheng (Xi'an Jiaotong\u2013Liverpool University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper focuses on deploying machine learning techniques on edge devices for real-time audio classification, which could be beneficial for Haohe Liu's work in audio applications and generative models by providing insights into processing audio data in constrained environments.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper tackles the task of real-time identification and classification of hornbill vocalizations using edge devices equipped with machine learning models.",
+    "contribution": "This paper introduces Tiny Machine Learning (TinyML) for classifying hornbill calls to solve wildlife conservation challenges, achieving an accuracy of 97.5% during testing.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often require substantial computational resources and do not operate in real-time or on low-power devices.",
+        "novelty": "This work improves by implementing a lightweight machine learning model that can accurately classify audio signals on an Arduino Nano 33 BLE Sense, significantly enhancing the accessibility and feasibility of wildlife monitoring technologies."
+    },
+    "key_innovation": "Utilizes TinyML on microcontrollers to perform efficient, real-time audio classification, enabling wildlife conservation efforts in remote habitats.",
+    "real_world_impact": "The implementation of this technology could revolutionize wildlife monitoring, providing conservationists with reliable tools for protecting endangered species while minimizing resource expenditure.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "Tiny Machine Learning (TinyML)": "**Tiny Machine Learning (TinyML)** refers to the deployment of machine learning algorithms on resource-constrained devices, allowing for efficient processing with minimal energy consumption, making it suitable for real-time applications in various fields including environmental monitoring."
+    },
+    "open_sourcing": ""
+}

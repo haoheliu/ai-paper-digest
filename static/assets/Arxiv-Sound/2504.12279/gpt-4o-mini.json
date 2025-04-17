@@ -1,0 +1,22 @@
+{
+    "title": "Dysarthria Normalization via Local Lie Group Transformations for Robust ASR",
+    "author": "Mikhail Osipov (Independent Researcher)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper explores techniques to enhance automatic speech recognition (ASR) specifically for dysarthric speech, a domain directly relevant to Haohe Liu's work in speech and audio processing, enabling potential incorporation of these methods in his projects.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of improving automatic speech recognition for dysarthric speakers by modeling speech distortions as transformations in the time-frequency domain.",
+    "contribution": "This paper introduces a framework that models dysarthric speech distortions with local Lie group transformations, achieving significant reductions in word error rates for challenging dysarthric samples.",
+    "technical_comparison": {
+        "prior_work": "Existing methods lack specificity and often rely on large paired datasets, rendering them less interpretable.",
+        "novelty": "This work applies a structured mathematical framework to model distortions, allowing for smoother transformations and improved interpretability over typical black-box methods."
+    },
+    "key_innovation": "The use of Lie group transformations offers a unique, structured way to represent and invert dysarthric speech distortions, enabling better adaptation and comprehension of the underlying dynamics.",
+    "real_world_impact": "This work could significantly enhance ASR systems for dysarthric speakers, improving communication aids and accessibility tools for individuals with speech disorders.",
+    "limitations": "No specific limitations were mentioned by the author.",
+    "new_terms": {
+        "Lie group transformations": "**Lie group transformations** refer to smooth, continuous mappings that allow the modeling of complex changes and symmetries, particularly useful in understanding geometric transformations in data.",
+        "word error rate (WER)": "**Word error rate (WER)** is a metric used to evaluate the performance of ASR systems, indicating the percentage of incorrectly recognized words in a given speech sample."
+    },
+    "open_sourcing": ""
+}

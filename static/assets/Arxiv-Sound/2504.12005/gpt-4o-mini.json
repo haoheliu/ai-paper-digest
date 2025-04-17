@@ -1,0 +1,21 @@
+{
+    "title": "Voice Conversion with Diverse Intonation using Conditional Variational Auto-Encoder",
+    "author": "Soobin Suh (Seoul National University), Dabi Ahn (Kakao Brain), Heewoong Park (Seoul National University), Jonghun Park (Seoul National University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's exploration of voice conversion using conditional variational auto-encoders could enhance Haohe Liu's work in audio synthesis and voice generation, especially in creating more nuanced audio outputs.",
+    "field": "Applications-Speech and Audio",
+    "background": "Voice conversion aims to synthesize a target speaker's voice while preserving the linguistic content of the source speaker\u2019s utterance, enabling diverse intonations for the same sentence.",
+    "contribution": "This paper introduces a conditional variational autoencoder model for voice conversion to solve the limitation of generating a single intonation, achieving diverse synthetic utterances with improved sound quality.",
+    "technical_comparison": {
+        "prior_work": "Conventional voice conversion models produced only one intonation per input, limiting expressive capacity.",
+        "novelty": "The proposed CVAE-based model enhances diversity by utilizing a stochastic latent variable, allowing multiple intonations to be generated for the same linguistic content."
+    },
+    "key_innovation": "The ability to leverage Gaussian distributions in latent space enables diverse intonation generation without sacrificing sound quality.",
+    "real_world_impact": "The advancements could significantly improve applications like speech synthesis and voice localization in digital assistants and entertainment, allowing for more expressive and personalized voice outputs.",
+    "limitations": "While the model shows promise, it may struggle with intonation shifts that deviate too far from the linguistic structure, potentially resulting in loss of clarity.",
+    "new_terms": {
+        "conditional variational autoencoder (CVAE)": "**Conditional Variational Autoencoder (CVAE)** is a generative model that learns to produce outputs conditioned on input variables, allowing for controlled generation of data."
+    },
+    "open_sourcing": ""
+}
