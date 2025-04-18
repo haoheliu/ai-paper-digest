@@ -1,0 +1,22 @@
+{
+    "title": "GOAT-TTS: LLM-based Text-To-Speech Generation Optimized via A Dual-Branch Architecture",
+    "author": "Yaodong Song (Institute of Artificial Intelligence (TeleAI), China Telecom), Hongjie Chen (Institute of Artificial Intelligence (TeleAI), China Telecom), Jie Lian (Institute of Artificial Intelligence (TeleAI), China Telecom), Yuxin Zhang (Institute of Artificial Intelligence (TeleAI), China Telecom), Guangmin Xia (Institute of Artificial Intelligence (TeleAI), China Telecom), Zehan Li (Institute of Artificial Intelligence (TeleAI), China Telecom), Genliang Zhao (Institute of Artificial Intelligence (TeleAI), China Telecom), Jian Kang (Institute of Artificial Intelligence (TeleAI), China Telecom), ..., Jie Li (Institute of Artificial Intelligence (TeleAI), China Telecom)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The dual-branch architecture proposed in this study could inform methods for generating high-quality audio from textual input, which is directly relevant to creating robust audio-processing systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper deals with generating high-quality speech from text using advanced machine learning techniques while addressing inherent challenges like acoustic characteristic loss.",
+    "contribution": "GOAT-TTS introduces a dual-branch architecture for text-to-speech generation to solve issues of acoustic quality loss and prompt dependence, achieving competitive TTS performance.",
+    "technical_comparison": {
+        "prior_work": "Previous text-to-speech systems struggled with quantization effects leading to acoustic degradation and lacked flexibility regarding transcript requirements.",
+        "novelty": "This work overcomes these limitations through a continuous representation encoding and a selective fine-tuning method that preserves linguistic capabilities."
+    },
+    "key_innovation": "Combines a speech encoder with a language model utilizing a two-phase training process for optimal speech generation while maintaining foundational text comprehension.",
+    "real_world_impact": "The algorithms developed have the potential to enhance automated speech synthesis systems, improving applications in virtual assistants and accessibility technologies.",
+    "limitations": "The authors did not explicitly mention any limitations.",
+    "new_terms": {
+        "modality-alignment": "**Modality-alignment** refers to the process of ensuring that different modalities (like text and audio) are effectively integrated within a joint learning framework.",
+        "multi-token prediction": "**Multi-token prediction** allows the model to generate multiple outputs in a single inference process, improving the efficiency and coherence of generated audio."
+    },
+    "open_sourcing": ""
+}

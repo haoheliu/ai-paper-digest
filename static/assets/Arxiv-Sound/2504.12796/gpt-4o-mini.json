@@ -1,0 +1,19 @@
+{
+    "title": "A Survey on Cross-Modal Interaction Between Music and Multimodal Data",
+    "author": "Sifei Li (MAIS, Institute of Automation, Chinese Academy of Sciences), Mining Tan (MAIS, Institute of Automation, Chinese Academy of Sciences), Feier Shen (School of Artificial Intelligence, University of Chinese Academy of Sciences), Minyan Luo (MAIS, Institute of Automation, Chinese Academy of Sciences), Zijiao Yin (School of Artificial Intelligence, University of Chinese Academy of Sciences), Fan Tang (Institute of Computing Technology, Chinese Academy of Sciences), Weiming Dong (MAIS, Institute of Automation, Chinese Academy of Sciences), Changsheng Xu (MAIS, Institute of Automation, Chinese Academy of Sciences)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This survey provides comprehensive insights into cross-modal interactions involving music, especially highlighting the development of AI applications which can directly influence Haohe's work in text-to-audio generation and audio-language modeling.",
+    "field": "Applications-Creative AI",
+    "background": "The survey examines how music interacts with other modalities such as text and images, exploring various applications in AI-driven music and multimodal data.",
+    "contribution": "This paper introduces a classification of cross-modal interactions between music and multimodal data, achieving a clearer understanding of the potential applications and future research direction in this field.",
+    "technical_comparison": {
+        "prior_work": "Previous studies often focused on either audio or other modalities separately, lacking a cohesive understanding of their interaction.",
+        "novelty": "This survey categorizes interactions into three distinct types and traces their development systematically, providing an organized overview that aids in future research."
+    },
+    "key_innovation": "Offers a structured classification and analysis of cross-modal tasks in the context of music, which has not been comprehensively addressed in existing literature.",
+    "real_world_impact": "This survey can serve as a reference for researchers and developers aiming to integrate music effectively within multimodal systems, influencing creative applications in entertainment and education.",
+    "limitations": "No significant limitations are explicitly mentioned by the authors.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

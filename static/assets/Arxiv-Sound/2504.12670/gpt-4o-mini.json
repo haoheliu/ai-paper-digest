@@ -1,0 +1,22 @@
+{
+    "title": "Temporal Attention Pooling for Frequency Dynamic Convolution in Sound Event Detection",
+    "author": "Hyeonuk Nam (KAIST), Yong-Hwa Park (KAIST)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper addresses sound event detection, a field related to audio processing, which is central to Haohe Liu's research interests in audio generation and processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sound event detection (SED) involves identifying and localizing specific sound events within an audio signal, informing applications like surveillance and multimedia indexing.",
+    "contribution": "This paper introduces temporal attention pooling to replace standard pooling methods in frequency dynamic convolution, achieving a significant improvement in performance for transient sound detection.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, particularly frequency dynamic convolution, utilized temporal average pooling, which may miss transient sound features.",
+        "novelty": "The proposed method improves detection accuracy by adaptively weighting temporal features, enhancing the model's ability to recognize transient sounds."
+    },
+    "key_innovation": "The integration of a temporal attention pooling mechanism, which dynamically assigns different weights to temporal features based on their significance.",
+    "real_world_impact": "Enhancements in sound event detection have practical applications in smart environments and automated surveillance, improving the reliability and accuracy of such systems.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "temporal average pooling": "**Temporal average pooling** is a method where the contribution of all temporal frames is treated equally, potentially leading to loss of critical information in transient sound events.",
+        "frequency dynamic convolution": "**Frequency dynamic convolution** is a convolution technique that adapts its kernels based on the frequency characteristics of sound, allowing for better detection of non-stationary audio signals."
+    },
+    "open_sourcing": "The official implementation code is available on GitHub."
+}
