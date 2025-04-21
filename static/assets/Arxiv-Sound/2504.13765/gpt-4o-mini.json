@@ -1,0 +1,21 @@
+{
+    "title": "Modeling L1 Influence on L2 Pronunciation: An MFCC-Based Framework for Explainable Machine Learning and Pedagogical Feedback",
+    "author": "Peyman Jahanbin (University of Kansas), ..., ",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The study applies Mel-Frequency Cepstral Coefficients (MFCCs) to model L2 pronunciation, which is directly relevant to Haohe Liu's work in audio and speech processing. It offers insights on distinguishing language backgrounds that can enhance automated feedback in speech technologies.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating how first language influence manifests in second language English speech using acoustic features extracted from spontaneous speech samples.",
+    "contribution": "This paper introduces a multimethod framework combining inferential statistics and machine learning to analyze MFCCs, providing insights into L1 transfer effects on L2 pronunciation.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches primarily used controlled settings to assess pronunciation features through subjective ratings, limiting applicability.",
+        "novelty": "This work integrates advanced statistical and machine learning methods in a realistic setting to objectively quantify L1-induced pronunciation variations."
+    },
+    "key_innovation": "Utilizes a combination of inferential statistics and machine learning for a more comprehensive and interpretable analysis of L1 transfer in L2 pronunciation.",
+    "real_world_impact": "The findings can inform curriculum design and automated assessment tools in ESL/EFL instruction, potentially enhancing the effectiveness of pronunciation teaching.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "Mel-Frequency Cepstral Coefficients (MFCCs)": "**Mel-Frequency Cepstral Coefficients (MFCCs)** are a representation of the short-term power spectrum of sound, commonly used in speech and audio processing to capture phonetics and timbre."
+    },
+    "open_sourcing": ""
+}

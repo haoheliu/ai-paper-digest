@@ -1,0 +1,22 @@
+{
+    "title": "Acoustic to Articulatory Inversion of Speech; Data Driven Approaches, Challenges, Applications, and Future Scope",
+    "author": "Leena G Pillai (University of Kerala), D. Muhammad Noorul Mubarak (Digital University Kerala), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work directly focuses on Acoustic-to-Articulatory Inversion (AAI), which ties closely with Haohe Liu's interests in audio processing and speech synthesis. The integration of articulatory data can improve models used in text-to-speech and related tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper reviews approaches for inverting speech signals to infer articulatory movements based on acoustic features, with a focus on machine learning techniques.",
+    "contribution": "This paper introduces a comprehensive review of data-driven methods for AAI to solve the inversion problem, achieving better clarity in articulatory positions and movements during speech production.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused predominantly on speaker-dependent approaches with limited datasets.",
+        "novelty": "This review highlights advancements in speaker-independent models leveraging deep learning techniques and the availability of parallel acoustic-articulatory datasets."
+    },
+    "key_innovation": "The integration of multiple data-driven machine learning approaches for more reliable articulatory feedback systems that can be used in speech therapy and language training.",
+    "real_world_impact": "The development of user-friendly visual feedback systems could significantly enhance speech therapy for individuals with speech disorders, by providing clear articulatory targets.",
+    "limitations": "Limited availability of large parallel datasets for AAI remains a challenge for further advancements.",
+    "new_terms": {
+        "Acoustic-to-Articulatory Inversion (AAI)": "**Acoustic-to-Articulatory Inversion** refers to the process of deducing articulatory movements from acoustic signals of speech, important for applications in speech synthesis and recognition.",
+        "Electromagnetic Articulography (EMA)": "**Electromagnetic Articulography** is a technique used to track the movement of articulators (like the tongue) using magnetic fields, providing valuable data for studying speech production."
+    },
+    "open_sourcing": ""
+}
