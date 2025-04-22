@@ -1,0 +1,22 @@
+{
+    "title": "ARIA-MIDI: A Dataset of Piano MIDI Files for Symbolic Music Modeling",
+    "author": "Louis Bradshaw (Queen Mary University of London), Simon Colton (Queen Mary University of London), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper's automated approach to generating MIDI datasets through audio transcription could apply to Haohe Liu's audio generation research, especially in leveraging large, high-quality datasets for training models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a method for compiling a dataset of MIDI files from piano performances available online, focusing on symbolic representation which is critical for music generation tasks.",
+    "contribution": "This paper introduces a scalable, language model-guided method for curating and preprocessing audio to create a dataset of over one million MIDI transcriptions, achieving high representation of diverse musical styles.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets of symbolic music like MAESTRO and Lakh were either limited in size or quality, often relying on manual transcription.",
+        "novelty": "This work enhances dataset quality by using automated techniques for crawling, classifying, and segmenting audio recordings while reducing human intervention."
+    },
+    "key_innovation": "The use of language modeling to prioritize and validate the quality of recordings significantly improves the efficiency and diversity of the dataset.",
+    "real_world_impact": "The dataset can accelerate research in music information retrieval (MIR) and generative music models, facilitating advancements in automatic music composition and analysis.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "symbolic representation": "**Symbolic representation** refers to the encoding of music in a manner that captures the notes and their attributes rather than the audio signals themselves, enabling analysis and synthesis in digital music.",
+        "automatic music transcription (AMT)": "**Automatic music transcription (AMT)** involves using algorithms to convert audio recordings of music into symbolic notation formats such as MIDI, facilitating further analysis and manipulation."
+    },
+    "open_sourcing": "Dataset available at https://github.com/loubbrad/aria-midi"
+}

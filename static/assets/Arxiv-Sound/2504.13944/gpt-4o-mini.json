@@ -1,0 +1,22 @@
+{
+    "title": "Mixer Metaphors: audio interfaces for non-musical applications",
+    "author": "Tace McNamara (SensiLab, Monash University), Jon McCormack (SensiLab, Monash University), Maria Teresa Llano (University of Sussex), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores the application of audio metaphors to non-musical interfaces which could inspire innovative user interaction techniques for Haohe's research in audio and language processing.",
+    "field": "Applications-Creative AI",
+    "background": "The paper discusses a tangible device that uses audio mixing metaphors to interact with large language models, aiming to enhance creative interactions beyond traditional chat interfaces.",
+    "contribution": "This paper introduces the Memetic Mixer, a device that leverages audio mixing controls to facilitate creative manipulation of large language models (LLMs), achieving a more engaging interaction experience.",
+    "technical_comparison": {
+        "prior_work": "Previous user interfaces for LLMs primarily utilized chat-bot styles which lacked tangible interaction.",
+        "novelty": "This work incorporates physical controls like knobs and faders to provide users with more intuitive and expressive controls over the interaction with LLMs."
+    },
+    "key_innovation": "The Memetic Mixer uniquely integrates audio mixer metaphors into the realm of text generation, allowing users to experiment with different LLM personalities and outputs through tactile controls.",
+    "real_world_impact": "While the device is still in experimental stages, its innovative approach could revolutionize how users interact with generative AI systems, making them more accessible and engaging.",
+    "limitations": "The study's scope is limited to a small sample size with specific users (fine art students), which may not generalize to a wider audience.",
+    "new_terms": {
+        "Large Language Models (LLMs)": "**Large Language Models** are advanced artificial intelligence systems capable of generating human-like text based on vast datasets and complex algorithms.",
+        "tangible interaction": "**Tangible interaction** refers to user interactions with digital information through physical representations, making the interface more intuitive and engaging."
+    },
+    "open_sourcing": ""
+}

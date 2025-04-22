@@ -1,0 +1,22 @@
+{
+    "title": "DIFFVOX: A Differentiable Model for Capturing and Analysing Professional Effects Distributions",
+    "author": "Chin-Yun Yu (Centre for Digital Music, Queen Mary University of London), Marco A. Mart\u00ednez-Ram\u00edrez (Sony AI), Junghyun Koo (Sony AI), Ben Hayes (Centre for Digital Music, Queen Mary University of London), Wei-Hsiang Liao (Sony AI), Gy\u00f6rgy Fazekas (Centre for Digital Music, Queen Mary University of London), Yuki Mitsufuji (Sony Group Corporation), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper presents a differentiable model which could be beneficial for audio processing tasks such as music source separation or restoration, relevant to Haohe's work on audio enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research develops a model for effectively optimizing and capturing vocal effects used in music production through gradient-based methods.",
+    "contribution": "DIFFVOX introduces a differentiated approach to model vocal effects and analyze their parameter distributions, achieving better insights into audio processing practices.",
+    "technical_comparison": {
+        "prior_work": "Previous frameworks often utilized non-informative priors or lacked direct optimization of effects parameters.",
+        "novelty": "DIFFVOX enables end-to-end optimization of vocal effects through differentiable implementations, providing more accurate and nuanced controls."
+    },
+    "key_innovation": "The integration of gradient-based optimization within vocal effects processing allows for real-time adjustments and enhanced parameter exploration.",
+    "real_world_impact": "The method enhances the production quality in music, enabling automatic mixing processes and potentially revolutionizing audio effect applications in both professional and home settings.",
+    "limitations": "The model does not account for non-linear effects or heavy automation found in complex mixes.",
+    "new_terms": {
+        "differentiable": "**Differentiable** refers to the capability of a function to have a derivative, allowing for the computation of gradients which is essential for optimization in machine learning.",
+        "parameterization": "**Parameterization** is the process of defining a mathematical description of a model using parameters that can be tuned for optimization."
+    },
+    "open_sourcing": "The source code and vocal presets dataset are available at https://github.com/SonyResearch/diffvox"
+}

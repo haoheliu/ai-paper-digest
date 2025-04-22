@@ -1,0 +1,21 @@
+{
+    "title": "Protecting Your Voice: Temporal-aware Robust Watermarking",
+    "author": "Yue Li (National Huaqiao University), Weizhi Liu (National Huaqiao University), Dongdong Lin (National Huaqiao University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed temporal-aware robust watermarking method directly relates to Haohe Liu's research focus on audio and speech processing. This approach can enhance tasks like voice synthesis and copyright protection in audio content.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study proposes a novel watermarking technique that embeds a watermark directly into the time-domain features of audio signals to protect speech and singing voices from misuse.",
+    "contribution": "This paper introduces the *True* method to solve the challenge of watermarking in audio while maximizing fidelity and robustness, achieving a PESQ score of 4.63.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on embedding watermarks in the frequency domain, which can compromise audio fidelity, particularly lower-dimensional details.",
+        "novelty": "This work shifts watermarking to the temporal domain, which retains finer audio details while ensuring robustness through innovative architecture and an attack simulator."
+    },
+    "key_innovation": "The method uses a lightweight content-driven encoder and a temporal-aware gated convolutional network to enhance watermarking without sacrificing audio quality.",
+    "real_world_impact": "This approach has significant implications for copyright protection in voice synthesis applications, helping to combat deepfake technologies that misuse audio content.",
+    "limitations": "The authors do not explicitly mention any limitations in their approach.",
+    "new_terms": {
+        "temporal-aware gated convolutional network": "**Temporal-aware gated convolutional network** refers to a specialized neural network architecture designed to extract features from audio signals in the time domain, optimizing both temporal detail and watermark extraction."
+    },
+    "open_sourcing": ""
+}

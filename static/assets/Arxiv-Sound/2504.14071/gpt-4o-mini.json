@@ -1,0 +1,22 @@
+{
+    "title": "Evaluating Human-AI Interaction via Usability, User Experience and Acceptance Measures for MMM-C: A Creative AI System for Music Composition",
+    "author": "Renaud Bougueng Tchemeube (Simon Fraser University), Jeffrey Ens (Simon Fraser University), Cale Plut (Simon Fraser University), Philippe Pasquier (Simon Fraser University), Maryam Safi (Steinberg Media Technologies GmbH), Yvan Grabit (Steinberg Media Technologies GmbH), Jean-Baptiste Rolland (Steinberg Media Technologies GmbH), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The exploration of usability and user experience in AI tools like MMM-C is directly relevant to Dr. Liu's research on generative AI for music and could inform design considerations for future audio generation systems.",
+    "field": "Applications-Creative AI",
+    "background": "This paper investigates how expert composers interact with a generative music AI tool, assessing its usability, user experience, and technology acceptance in a creative context.",
+    "contribution": "This study introduces a mixed-methods approach to evaluate a creative AI music composition tool, identifying key areas of usability and user experience that impact expert composers.",
+    "technical_comparison": {
+        "prior_work": "Existing tools often lack thorough evaluations focused on expert users and their specific needs, mostly testing novice users instead.",
+        "novelty": "This work uniquely assesses both hobbyist and professional composers' interactions, highlighting the complexity and requirements for controlling generative AI in composition."
+    },
+    "key_innovation": "It uniquely integrates usability studies with creative AI evaluation, providing insights into how such systems can better support expert users in the music composition process.",
+    "real_world_impact": "The findings could guide future developments of music AI tools, enhancing user satisfaction and creativity, which impacts professional music composition workflows.",
+    "limitations": "No significant differences were observed between hobbyist and professional users, indicating a lack of differentiation in user experience based on expertise.",
+    "new_terms": {
+        "usability": "**Usability** refers to the ease with which users can utilize a system to achieve their goals effectively and efficiently.",
+        "user experience": "**User experience** encompasses all aspects of the end-user\u2019s interaction with the company, its services, and its products."
+    },
+    "open_sourcing": ""
+}

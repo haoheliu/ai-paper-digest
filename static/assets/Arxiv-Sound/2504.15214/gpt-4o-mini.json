@@ -1,0 +1,22 @@
+{
+    "title": "Histogram-based Parameter-efficient Tuning for Passive Sonar Classification",
+    "author": "Amirmohammad Mohammadi (Texas A&M University), Davelle Carreiro (Massachusetts Institute of Technology Lincoln Laboratory), Alexandra Van Dine (Massachusetts Institute of Technology Lincoln Laboratory), Joshua Peeples (Texas A&M University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed histogram-based parameter-efficient tuning method could enhance audio classification tasks by improving accuracy and computational efficiency in processing acoustic data, which is relevant to Haohe Liu's research in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Classifying passive sonar data to identify ships based on underwater acoustic signals, while efficiently tuning a pre-trained model using a novel method.",
+    "contribution": "This paper introduces a histogram-based parameter-efficient tuning (HPT) method to solve the problem of adapting pre-trained models for underwater acoustic classification, achieving better accuracy and faster training than conventional approaches.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, such as adapters, are limited by their inability to effectively capture distributional shifts in feature embeddings.",
+        "novelty": "This work improves on these methods by implementing histogram layers to learn and modulate feature distributions, thereby enhancing classification performance."
+    },
+    "key_innovation": "Integrating histogram layers into neural architectures to create a unique representation of feature distributions, allowing for more effective adaptation without retraining the entire model.",
+    "real_world_impact": "The proposed method offers a scalable and efficient solution for sonar classification tasks, with potential applications in marine monitoring and security-related evaluations.",
+    "limitations": "The authors acknowledge that optimal performance may depend on careful tuning of hyper-parameters such as bin numbers.",
+    "new_terms": {
+        "parameter-efficient tuning": "**Parameter-efficient tuning** is a method that freezes the weights of a pre-trained model while allowing only a small number of parameters to be updated for specific downstream tasks.",
+        "histogram layer": "**Histogram layer** is a type of neural network layer that captures and summarizes statistical distributions of input data to enhance feature representation."
+    },
+    "open_sourcing": "The code is publicly available at https://github.com/Advanced-Vision-and-Learning-Lab/HLAST_DeepShip_ParameterEfficient"
+}

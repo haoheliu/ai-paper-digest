@@ -1,0 +1,21 @@
+{
+    "title": "SOLIDO: A Robust Watermarking Method for Speech Synthesis via Low-Rank Adaptation",
+    "author": "Yue Li (National Huaqiao University), Weizhi Liu (National Huaqiao University), Dongdong Lin (National Huaqiao University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The methodology employed in SOLIDO, particularly involving low-rank adaptation and parameter-efficient fine-tuning, can be relevant for enhancing watermarking in audio synthesis and ensuring robust protection against audio manipulations. Such techniques could be useful in improving the resilience and authentication aspects of audio generation systems in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generative watermarking for speech synthesis aims to embed traceable information within generated audio to protect copyrights and prevent misuse.",
+    "contribution": "SOLIDO introduces a combined approach of low-rank adaptation and a lightweight fine-tuning strategy to address the challenges of watermarking speech synthesis, achieving high extraction accuracy and minimizing computational overhead.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically involved high computational costs or lacked robustness against variable-length attacks, making them less suitable for flexible audio inputs.",
+        "novelty": "This work improves by embedding watermarks directly into the generating process of diffusion models using fewer parameters and maintaining a lightweight architecture, enabling efficient and robust watermark extraction."
+    },
+    "key_innovation": "The integration of low-rank adaptation allows the proposed method to enforce copyright protection with significantly reduced computational load compared to traditional approaches.",
+    "real_world_impact": "This approach enhances the security of AI-generated audio content, providing a practical solution for safeguarding intellectual property in an increasingly digitized environment, relevant for various industries including entertainment and broadcasting.",
+    "limitations": "The method's effectiveness still needs validation across a wider range of audio types and potential unforeseen manipulations in dynamic environments.",
+    "new_terms": {
+        "low-rank adaptation": "**Low-rank adaptation** refers to a technique in machine learning where only a small number of additional parameters are trained, while keeping most of the model parameters fixed, thus reducing the computational effort needed for re-training the model."
+    },
+    "open_sourcing": ""
+}

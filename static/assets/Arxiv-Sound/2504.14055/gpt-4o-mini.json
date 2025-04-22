@@ -1,0 +1,22 @@
+{
+    "title": "Apollo: An Interactive Environment for Generating Symbolic Musical Phrases using Corpus-based Style Imitation",
+    "author": "Renaud Bougueng Tchemeube (Simon Fraser University), Jeff Ens (Simon Fraser University), Philippe Pasquier (Simon Fraser University), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The system developed in this paper employs machine learning techniques for generative music, which aligns with Haohe Liu's research on audio and music processing, particularly in the application of generative models.",
+    "field": "Applications-Creative AI",
+    "background": "Developing an interactive music application that uses machine learning algorithms to generate musical compositions in the style of a specified corpus.",
+    "contribution": "This paper introduces Apollo, an interactive music generation system that allows users to manage musical corpora, train generative models, and produce new musical phrases.",
+    "technical_comparison": {
+        "prior_work": "Many existing music generation systems provide limited interaction and fixed models for users without allowing corpus manipulation.",
+        "novelty": "Apollo enhances user control by supporting corpus preparation, model selection, training, and generation parameter adjustments, enabling direct engagement in the ML process."
+    },
+    "key_innovation": "Apollo uniquely combines corpus management with interactive machine learning for music composition, allowing real-time feedback and creative exploration.",
+    "real_world_impact": "By facilitating user interaction with generative models, Apollo promotes creativity among musicians and researchers, potentially transforming approaches to music production and composition.",
+    "limitations": "The current version of Apollo only supports MIDI files for corpus management, restricting the usability for broader musical representations.",
+    "new_terms": {
+        "corpus-based style imitation": "**Corpus-based style imitation** refers to generating new musical works in the style of existing compositions by training models on a specific set of music samples.",
+        "interactive machine learning": "**Interactive machine learning** involves user engagement in the training process, allowing iterative adjustments based on feedback to enhance model performance."
+    },
+    "open_sourcing": "A demo of the system can be found at http://metacreation.net/apollo/"
+}

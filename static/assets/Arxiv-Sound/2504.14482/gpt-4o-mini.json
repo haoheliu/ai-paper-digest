@@ -1,0 +1,22 @@
+{
+    "title": "DialogueAgents: A Hybrid Agent-Based Speech Synthesis Framework for Multi-Party Dialogue",
+    "author": "Xiang Li (State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications), Duyi Pan (Department of Computer Science and Engineering, Hong Kong University of Science and Technology), Hongru Xiao (Department of Computer Science and Engineering, Hong Kong University of Science and Technology), Jiale Han (Hong Kong University of Science and Technology), Jing Tang (Department of Computer Science and Engineering, Hong Kong University of Science and Technology), Jiabao Ma (State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications), Wei Wang (Hong Kong University of Science and Technology), Bo Cheng (State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The hybrid framework proposed integrates diverse elements of speech synthesis and multi-party dialogue. This aligns with my work on audio-language modeling and could inspire improvements for text-to-audio generation tasks, enriching my research on contextual audio synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenges of synthesizing dialogues that involve multiple participants and turns, which is crucial for realistic human-computer interaction.",
+    "contribution": "This paper introduces DialogueAgents to solve the issue of generating engaging multi-party dialogues, achieving a refined and high-quality synthesis through iterative agent collaboration.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets often have limited emotional expressiveness and participant variety, primarily relying on manual transcription or single-speaker dialogue.",
+        "novelty": "The proposed framework iteratively refines dialogue scripts and synthesizes speech using distinct agents, improving coherence and emotional expression."
+    },
+    "key_innovation": "The integration of a script writer, a speech synthesizer, and a dialogue critic enables automatic and iterative enhancement of dialogue scripts.",
+    "real_world_impact": "This work can significantly impact applications in virtual assistants, gaming, and social robotics by enabling more human-like and engaging dialogue interactions.",
+    "limitations": "The framework may face challenges in scaling to additional languages and cultural expressions beyond those tested.",
+    "new_terms": {
+        "paralinguistic": "**Paralinguistic** refers to the non-verbal elements of communication used to convey meaning, such as tone, pitch, and pauses.",
+        "emotional MOS": "**Emotional Mean Opinion Score (EMOS)** is a metric used to evaluate the emotional expressiveness of synthesized speech."
+    },
+    "open_sourcing": "https://github.com/uirlx/DialogueAgents"
+}

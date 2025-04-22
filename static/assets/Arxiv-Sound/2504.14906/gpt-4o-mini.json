@@ -1,0 +1,22 @@
+{
+    "title": "OmniAudio: Generating Spatial Audio from 360-Degree Video",
+    "author": "Huadai Liu (Zhejiang University), Tianyi Luo (Zhejiang University), Qikai Jiang (Zhejiang University), Kaicheng Luo (Zhejiang University), Peiwen Sun (Hong Kong University of Science and Technology), Jialei Wang (Zhejiang University), Rongjie Huang (Zhejiang University), Qian Chen (Tongyi Lab, Alibaba Group), ..., Wei Xue (Hong Kong University of Science and Technology)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper is directly related to audio generation from video, which aligns closely with Dr. Liu's focus on audio processing and generation technologies. Besides, methods for generating spatial audio can enhance existing work in audio-language modeling and text-to-audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper researches how to generate spatial audio from 360-degree video, providing realistic sound representations that match visual scenes.",
+    "contribution": "OmniAudio introduces a novel task of spatial audio generation from 360-degree video, achieving state-of-the-art performance in generating First-order Ambisonics audio.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily generated non-spatial audio or relied on fixed perspective inputs, lacking spatial awareness.",
+        "novelty": "This work improves by employing a dual-branch architecture that leverages both panoramic and field-of-view video inputs, enabling comprehensive audio generation based on full visual context."
+    },
+    "key_innovation": "The introduction of a self-supervised pre-training strategy that combines existing non-spatial audio datasets with a novel dataset for spatial audio generation, facilitating high-quality audio outputs.",
+    "real_world_impact": "This technology can significantly enhance immersive experiences in virtual reality and improve accessibility for the hearing impaired by providing rich, realistic audio content for visual media.",
+    "limitations": "No specific limitations were mentioned in the abstract or introduction.",
+    "new_terms": {
+        "First-order Ambisonics (FOA)": "**First-order Ambisonics (FOA)** is a spatial audio representation format that enables precise spatial audio reproduction, capturing sound directionality essential for immersive experiences.",
+        "360-degree video": "**360-degree video** refers to video recordings where a view in every direction is recorded at the same time, often used for immersive virtual reality experiences."
+    },
+    "open_sourcing": "Code and datasets were announced to be released at https://github.com/liuhuadai/OmniAudio"
+}

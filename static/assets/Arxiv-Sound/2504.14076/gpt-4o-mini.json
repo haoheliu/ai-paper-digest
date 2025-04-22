@@ -1,0 +1,22 @@
+{
+    "title": "Transformation of audio embeddings into interpretable, concept-based representations",
+    "author": "Alice Zhang (Dept. of Electrical and Computer Engineering, Univ. of Texas at Austin), Edison Thomaz (Dept. of Electrical and Computer Engineering, Univ. of Texas at Austin), Lie Lu (Dolby Laboratories), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a method to improve interpretability of audio embeddings, which can be applied in Haohe Liu's research on audio analysis and generation, enhancing understanding and manipulation of sound representations.",
+    "field": "Applications-Speech and Audio",
+    "background": "Transforming dense audio embeddings into sparse, interpretable representations that link audio signals to high-level semantic concepts.",
+    "contribution": "This paper introduces a post-hoc method to convert CLAP embeddings into human-interpretable, concept-based representations, achieving improved interpretability while maintaining competitive performance on audio classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for audio interpretability primarily focused on visualizing spectral features or utilizing model-agnostic techniques that do not leverage semantic understanding.",
+        "novelty": "This work enhances interpretability through a sparse linear decomposition of audio embeddings using semantic concept dictionaries, bypassing the need for labeled data."
+    },
+    "key_innovation": "It introduces a comprehensive approach to creating concept-based representations that make audio embeddings understandable without requiring extensive expert labeling.",
+    "real_world_impact": "The method can significantly aid in real-world applications such as audio editing and scene analysis, promoting responsible AI use in audio technologies.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "CLAP": "**CLAP** refers to a model that aligns audio and text representations in a shared latent space through contrastive learning.",
+        "concept-based representation": "**Concept-based representation** refers to a method that simplifies high-dimensional data into interpretable semantic concepts that humans can understand."
+    },
+    "open_sourcing": "Three audio-specific vocabularies for concept-based interpretability of audio embeddings are publicly available."
+}

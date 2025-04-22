@@ -1,0 +1,22 @@
+{
+    "title": "Calliope: An Online Generative Music System for Symbolic Multi-Track Composition",
+    "author": "Renaud Bougueng Tchemeube (Simon Fraser University), Jeff Ens (Simon Fraser University), Philippe Pasquier (Simon Fraser University), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The system employs a Transformer model for music generation, which could inform my own generative AI research by incorporating similar machine learning architectures and methodologies for audio applications.",
+    "field": "Applications-Creative AI",
+    "background": "Generating symbolic music using a web application that employs machine learning models to assist users in multi-track composition tasks.",
+    "contribution": "Calliope introduces a web-based interface for generative music creation to solve the challenges in multi-track composition, achieving enhanced interactive capabilities for users.",
+    "technical_comparison": {
+        "prior_work": "Existing systems primarily focus on either symbolic or audio generation separately, often lacking in real-time user interaction and control.",
+        "novelty": "Calliope combines multi-track MIDI manipulation with an intuitive interface and rich generative parameters, allowing for a dynamic user-led compositional process."
+    },
+    "key_innovation": "The system integrates bar selection and rich parameter controls to streamline user interaction with generative models for music composition.",
+    "real_world_impact": "The system could transform the composition process for both amateurs and professionals, enabling richer collaborative and creative opportunities in music production.",
+    "limitations": "The current version is labeled as in beta, suggesting some limitations in functionality and user experience.",
+    "new_terms": {
+        "bar in-filling": "**Bar in-filling** is a generative technique that allows the model to fill in specific sections of music, ensuring continuity and coherence within multi-track compositions.",
+        "Temperature": "**Temperature** in machine learning refers to a parameter controlling the randomness of predictions in model outputs, influencing how conservative or experimental the generated results are."
+    },
+    "open_sourcing": "Calliope is publicly available at https://metacreation.net/calliope."
+}

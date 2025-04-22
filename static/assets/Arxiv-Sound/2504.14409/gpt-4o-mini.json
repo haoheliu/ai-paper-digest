@@ -1,0 +1,22 @@
+{
+    "title": "Data Augmentation Using Neural Acoustic Fields With Retrieval-Augmented Pre-training",
+    "author": "Christopher Ick (Mitsubishi Electric Research Laboratories), Gordon Wichern (Mitsubishi Electric Research Laboratories), Yoshiki Masuyama (Mitsubishi Electric Research Laboratories), Fran\u00e7ois G. Germain (Mitsubishi Electric Research Laboratories), Jonathan Le Roux (Mitsubishi Electric Research Laboratories), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses techniques for room impulse response estimation, which could directly inform applications in audio generation and enhancement tasks such as speech restoration and music source separation, relevant to Dr. Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses room impulse response estimation for unseen locations using limited training examples, aiming to improve data augmentation for room acoustics applications.",
+    "contribution": "This paper introduces neural acoustic fields and retrieval-augmented pre-training to enhance room impulse response estimation, achieving improved acoustic quality measures.",
+    "technical_comparison": {
+        "prior_work": "Previous methods generally lack sufficient pre-training data or rely on fixed geometric models, leading to limited generalization.",
+        "novelty": "This work utilizes a large external dataset paired with room geometries for effective retrieval and fine-tuning, which allows for robust RIR estimation at new locations."
+    },
+    "key_innovation": "Combines neural acoustic fields with a retrieval strategy to generate room-specific RIRs effectively and flexibly.",
+    "real_world_impact": "This approach can significantly enhance immersive audio experiences in virtual reality and adaptive audio systems by providing high-quality room acoustics simulations.",
+    "limitations": "The model's effectiveness is still dependent on the quality of external datasets and assumptions regarding room geometry.",
+    "new_terms": {
+        "Room Impulse Response (RIR)": "**Room Impulse Response (RIR)** is a representation of how sound behaves in a given space, capturing reflections and reverberations over time.",
+        "Low-Rank Adaptation (LoRA)": "**Low-Rank Adaptation (LoRA)** is a technique used in deep learning to adapt pre-trained models efficiently using a low-rank representation of weight changes."
+    },
+    "open_sourcing": ""
+}
