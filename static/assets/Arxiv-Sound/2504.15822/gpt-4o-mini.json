@@ -1,0 +1,22 @@
+{
+    "title": "Quantifying Source Speaker Leakage in One-to-One Voice Conversion",
+    "author": "Scott Wellington (University of Bath), Xuechen Liu (National Institute of Informatics), Junichi Yamagishi (National Institute of Informatics), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper addresses information leakage in voice conversion systems, relevant to audio privacy concerns that Haohe Liu may encounter in audio synthesis and machine learning tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Voice conversion systems aim to convert a speaker's voice to sound like another, while this study evaluates how much information about the source speaker can be inferred from the converted voice.",
+    "contribution": "This paper introduces a method to quantify the leakage of source speaker information in voice conversion, achieving a solid understanding of privacy risks associated with synthetic voice outputs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked a systematic approach to quantify the privacy implications of voice conversion and primarily focused on perceptual similarity between converted and targeted voices.",
+        "novelty": "This work improves by employing Earth Mover's Distance to measure the similarity of cosine similarity distributions that indicate information leakage."
+    },
+    "key_innovation": "The integration of Earth Mover's Distance in measuring source speaker leakage offers a novel quantitative framework, moving beyond subjective evaluations.",
+    "real_world_impact": "The findings emphasize the necessity for voice conversion systems to enhance privacy measures, informing the development of more secure audio technologies.",
+    "limitations": "The study acknowledges potential biases due to using a single vocoder model, which may affect generalizability.",
+    "new_terms": {
+        "Earth Mover's Distance": "**Earth Mover's Distance (EMD)** is a measure of the distance between two probability distributions over a region; it quantifies the minimum cost of transforming one distribution into another.",
+        "cosine distance": "**Cosine distance** measures the cosine of the angle between two vectors, used to determine similarity between embeddings in machine learning."
+    },
+    "open_sourcing": ""
+}

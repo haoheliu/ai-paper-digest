@@ -1,0 +1,22 @@
+{
+    "title": "Exploring the User Experience of AI-Assisted Sound Searching Systems for Creative Workflows",
+    "author": "Haohe Liu (Centre for Vision, Speech and Signal Processing, University of Surrey), Thomas Deacon (Centre for Vision, Speech and Signal Processing, University of Surrey), Wenwu Wang (Centre for Vision, Speech and Signal Processing, University of Surrey), Matt Paradis (Research and Development, British Broadcasting Corporation), Mark D. Plumbley (Centre for Vision, Speech and Signal Processing, University of Surrey), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper explores the application of AI in sound searching, closely aligning with Haohe Liu's interests in audio generation and retrieval. The insights on user experience and system performance could inform improvements in audio-language models and their applications in sound design.",
+    "field": "Applications-Speech and Audio",
+    "background": "Efficiently retrieving sound effects using AI technologies to enhance audio production workflows in various creative industries.",
+    "contribution": "This paper introduces a contrastive language-audio pre-training-based sound searching system (CLAP-UI) to solve inefficiencies in traditional sound retrieval methods, achieving improved user satisfaction and performance.",
+    "technical_comparison": {
+        "prior_work": "Traditional audio retrieval systems rely heavily on manual annotations and word-matching techniques, often yielding irrelevant results.",
+        "novelty": "This work enhances retrieval performance by using a CLAP model, allowing users to perform natural language searches that align with audio content without needing extensive human-generated metadata."
+    },
+    "key_innovation": "The integration of natural language processing into audio retrieval systems, enabling users to search semantically rather than relying solely on keywords or annotations.",
+    "real_world_impact": "This research could significantly streamline the workflow for audio professionals, fostering creativity and efficiency in sound design across various media formats such as film, radio, and gaming.",
+    "limitations": "The study mentions that the AI system sometimes struggles with complex queries involving multiple audio requirements and relies on a lower-fidelity dataset, which may limit its applicability.",
+    "new_terms": {
+        "contrastive language-audio pre-training": "**Contrastive language-audio pre-training** is a machine learning technique that aligns audio and text representations in a shared embedding space through supervised learning, allowing natural language queries to retrieve audio content.",
+        "semantic retrieval": "**Semantic retrieval** refers to the process of matching queries based on their meaning rather than exact keyword matches, enhancing search relevance."
+    },
+    "open_sourcing": ""
+}

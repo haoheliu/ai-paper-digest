@@ -1,0 +1,22 @@
+{
+    "title": "SimulS2S-LLM: Unlocking Simultaneous Inference of Speech LLMs for Speech-to-Speech Translation",
+    "author": "Keqi Deng (University of Cambridge), Wenxi Chen (Shanghai Jiao Tong University), Xie Chen (Shanghai Jiao Tong University), Philip C. Woodland (University of Cambridge), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed methods for simultaneous inference and boundary-aware speech prompts can be applied to enhance Haohe Liu's work in speech restoration and audio generation, particularly in generating high-quality outputs efficiently.",
+    "field": "Applications-Speech and Audio",
+    "background": "Simultaneous speech translation involves translating spoken input into output before the input speech has finished, making it challenging due to the continuous nature of speech and the need for low latency.",
+    "contribution": "SimulS2S-LLM introduces a novel method for simultaneous speech-to-speech translation that utilizes offline-trained large language models to handle live input streams, achieving improved translation quality with reduced latency.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods for simultaneous speech translation rely on cascaded systems that suffer from error propagation and latency issues.",
+        "novelty": "This work overcomes these limitations by enabling the offline training of large language models for simultaneous inference, utilizing a continuous integrate and fire mechanism for boundary-aware speech prompts."
+    },
+    "key_innovation": "Employs a test-time wait-k strategy and boundary-aware prompt extraction to optimize the performance of large language models during simultaneous speech translation.",
+    "real_world_impact": "Enhances real-time communication systems by improving the efficiency and accuracy of speech translation applications, potentially benefiting interactions in multilingual environments.",
+    "limitations": "The paper does not focus on extremely low latency scenarios, and the methods have only been demonstrated on a limited number of language pairs.",
+    "new_terms": {
+        "simultaneous speech translation": "**Simultaneous speech translation** is the process of translating spoken speech into another language in real-time, often requiring the output to be generated before the complete speech input is received.",
+        "continuous integrate and fire": "**Continuous integrate and fire** is a mechanism that accumulates activation over time, allowing the model to generate outputs based on partial inputs, enhancing responsiveness."
+    },
+    "open_sourcing": ""
+}
