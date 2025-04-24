@@ -1,0 +1,21 @@
+{
+    "title": "Insect-Computer Hybrid Speaker: Speaker using Chirp of the Cicada Controlled by Electrical Muscle Stimulation",
+    "author": "Yuga Tsukuda (Research and Development Center for Digital Nature, University of Tsukuba), Naoto Nishida (University of Tsukuba), Jun-Li Lu (Research and Development Center for Digital Nature, University of Tsukuba), Yoichi Ochiai (Research and Development Center for Digital Nature, University of Tsukuba), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "This paper explores the use of biological systems for sound generation, which could inspire novel methods in audio synthesis and sound manipulation, relevant to Haohe Liu's work in audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating sound output using the natural chirping of cicadas, controlled by electrical muscle stimulation, to facilitate interaction in music and communication.",
+    "contribution": "This paper introduces an insect-computer hybrid speaker system utilizing electrical muscle stimulation to manipulate cicada chirps, achieving a method for generating complex sound patterns.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods use electronic speakers attached to insects, which can hinder insect mobility and effectiveness.",
+        "novelty": "This approach directly controls cicada's sound production with minimal mechanical interference, retaining the insect's mobility."
+    },
+    "key_innovation": "The integration of live insects as sound generators controlled by electrical stimulation enables a more organic and efficient method of sound production.",
+    "real_world_impact": "Potential applications include creating unique soundscapes or audio tools for emergency communication that are more energy-efficient than electronic alternatives.",
+    "limitations": "No specific limitations were mentioned by the authors, but practical deployment and ethical considerations of using live insects could pose challenges.",
+    "new_terms": {
+        "Electrical Muscle Stimulation (EMS)": "**Electrical Muscle Stimulation** is a technique involving electric currents to stimulate muscle contractions, often used in therapeutic and experimental setups."
+    },
+    "open_sourcing": ""
+}

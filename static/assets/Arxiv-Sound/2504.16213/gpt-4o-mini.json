@@ -1,0 +1,22 @@
+{
+    "title": "TinyML for Speech Recognition",
+    "author": "Andrew Barovic (Department of Computer Science, University of Colorado Colorado Springs), Armin Moin (Department of Computer Science, University of Colorado Colorado Springs), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores deploying machine learning models for speech recognition on resource-constrained devices, which could inform methods for improving audio processing tasks like speech enhancement and generation, particularly using reduced computational resources.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper deals with recognizing spoken commands in a lifetime resource-constrained environment using a compact machine learning model deployed on an Internet of Things device.",
+    "contribution": "This paper introduces a quantized 1D convolutional neural network model for speech recognition on IoT devices, achieving 97% accuracy on recognizing 23 keywords.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on a limited set of keywords and required more computational resources.",
+        "novelty": "This work improves by enabling recognition of a complex set of 23 keywords with high accuracy on a low-power microcontroller."
+    },
+    "key_innovation": "The approach utilizes quantization techniques to efficiently compress the model while maintaining acceptable performance levels, allowing for real-time speech recognition in resource-constrained environments.",
+    "real_world_impact": "This work enables practical voice-command applications in smart home devices, enhancing accessibility for elderly or disabled individuals. It could also facilitate significant advancements in voice-controlled IoT applications.",
+    "limitations": "The dataset was collected from a single individual's voice, which limits generalization across diverse voices and environments.",
+    "new_terms": {
+        "TinyML": "**Tiny Machine Learning (TinyML)** is a field of machine learning focused on deploying lightweight models on low-power, resource-constrained devices.",
+        "quantization": "**Quantization** in machine learning refers to the process of reducing the precision of the numbers used in the model, which can lead to reduced model size and computation requirements but can also affect performance."
+    },
+    "open_sourcing": "The prototype is available at https://github.com/qas-lab/BarovicREU."
+}

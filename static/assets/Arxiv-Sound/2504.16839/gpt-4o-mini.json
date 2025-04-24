@@ -1,0 +1,22 @@
+{
+    "title": "SMART: Tuning a symbolic music generation system with an audio domain aesthetic reward",
+    "author": "Nicolas Jonason (KTH Royal Institute of Technology), Luca Casini (KTH Royal Institute of Technology), Bob L. T. Sturm (KTH Royal Institute of Technology), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper's exploration of using audio aesthetic preference models for symbolic music generation aligns closely with my work in audio processing and generative models, particularly in contextualizing the aesthetic quality of generated audio outputs.",
+    "field": "Applications-Creative AI",
+    "background": "This research investigates whether aesthetic preference models for audio can be utilized to enhance the output of symbolic music generation systems through reinforcement learning.",
+    "contribution": "The paper introduces SMART, a reinforcement learning approach that fine-tunes a symbolic music generation system by leveraging audio-generated aesthetic ratings, achieving improved subjective ratings from listeners.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on symbolic rewards or incorporated less nuanced audio feedback in the optimization loop.",
+        "novelty": "This work combines symbolic music generation with direct audio assessment using an audio aesthetic preference model as a reward, enhancing the fidelity of the generated outputs."
+    },
+    "key_innovation": "SMART uniquely utilizes the relationship between generated MIDI and its audio counterpart to apply aesthetic feedback, offering a dynamic learning approach rather than static data filtering.",
+    "real_world_impact": "This research may lead to more expressive and enjoyable automated music generation tools, fostering creativity in music production and potentially benefiting artists and composers.",
+    "limitations": "One limitation noted is that over-optimization can reduce diversity in generated outputs, which can affect creativity and variability.",
+    "new_terms": {
+        "Symbolic-to-Audio Rendering": "**Symbolic-to-Audio Rendering** is the process of converting symbolic music representations (like MIDI) into audible sound, preserving musical elements like timing and dynamics.",
+        "Reinforcement Learning (RL)": "**Reinforcement Learning** is a type of machine learning where agents learn to make decisions by taking actions in an environment to maximize some notion of cumulative reward."
+    },
+    "open_sourcing": ""
+}

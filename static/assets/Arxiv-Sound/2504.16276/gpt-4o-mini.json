@@ -1,0 +1,21 @@
+{
+    "title": "An Automated Pipeline for Few-Shot Bird Call Classification, a Case Study with the Tooth-Billed Pigeon",
+    "author": "Abhishek Jana (Colossal Biosciences), Moeumu Uili (Colorado State University), James Atherton (BirdLife International), Mark O'Brien (Toledo Zoo), Joe Wood (Toledo Zoo), Leandra Brickson (Colossal Biosciences), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper develops a novel few-shot classification pipeline which could be applied to audio event detection tasks, such as speaker recognition or specific sound detection with limited audio samples.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to classify calls of rare bird species using only a handful of audio recordings, addressing the challenges posed by limited data availability in conservation scenarios.",
+    "contribution": "This paper introduces a few-shot bird call classification pipeline to solve the problem of detecting rare species calls from minimal audio data, achieving high recall and accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous models like BirdNET and Perch have shown high accuracy for common species but struggle with rare species due to insufficient training data.",
+        "novelty": "This work employs embedding spaces from large models and a cosine similarity-based classifier tailored for minimal data, improving performance for rare species detection."
+    },
+    "key_innovation": "Utilizes a targeted detection pipeline that combines advanced preprocessing and clustering techniques with minimal training data to maximize detection accuracy.",
+    "real_world_impact": "This system can significantly aid conservation efforts by providing a practical tool for detecting rare bird species, potentially impacting efforts to monitor endangered populations.",
+    "limitations": "The model's efficacy is contingent on available sound recordings and may be affected by species-specific acoustic similarity, as evidenced by its reliance on existing classifiers.",
+    "new_terms": {
+        "few-shot classification": "**Few-shot classification** refers to machine learning approaches that learn from only a few training examples, often utilized in scenarios where data is scarce."
+    },
+    "open_sourcing": "The end-to-end pipeline is publicly available at https://github.com/colossal-compsci/few-shot-bird-call"
+}

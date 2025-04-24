@@ -1,0 +1,21 @@
+{
+    "title": "Using Phonemes in cascaded S2S translation pipeline",
+    "author": "Rene Pilz (University of Liechtenstein), Johannes Schneider (University of Liechtenstein)",
+    "quality": 7,
+    "relevance": 4,
+    "relevance_why": "",
+    "field": "Applications-Language",
+    "background": "This paper investigates the effectiveness of using phonemic representations within a speech-to-speech translation pipeline, particularly for translations between English and German.",
+    "contribution": "This paper introduces a phonemic approach in sequence-to-sequence translation to solve challenges associated with low-resource languages, achieving comparable quality to traditional text-based methods.",
+    "technical_comparison": {
+        "prior_work": "Conventional translation methods depend heavily on written language forms and require extensive data for training, limiting their applicability to under-resourced languages.",
+        "novelty": "This work enhances existing translation frameworks by evaluating the efficacy of phonemic representations across the entire process, not just during input."
+    },
+    "key_innovation": "The integration of phonemic representations throughout the S2S pipeline simplifies the translation process, particularly benefiting low-resource languages by reducing computational requirements.",
+    "real_world_impact": "The findings potentially improve real-time translation quality in multilingual communications, especially in regions with limited resources or no official written languages. No immediate real-world impact.",
+    "limitations": "The study highlights limitations in semantic understanding of the model, which affect all translations regardless of the representation used.",
+    "new_terms": {
+        "phonemic representation": "**Phonemic representation** refers to the abstract representations of phonemes in speech that can be used to improve speech processing tasks like translation and synthesis."
+    },
+    "open_sourcing": "Research outputs are publicly available at https://github.com/fungus75/Phonemes_S2S_Pipeline"
+}
