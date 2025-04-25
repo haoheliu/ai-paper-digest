@@ -1,0 +1,21 @@
+{
+    "title": "Multifaceted Evaluation of Audio-Visual Capability for MLLMs: Effectiveness, Efficiency, Generalizability and Robustness",
+    "author": "Yusheng Zhao (Peking University), Junyu Luo (Peking University), Xiao Luo (University of California, Los Angeles), Weizhi Zhang (University of Illinois Chicago), Zhiping Xiao (University of Washington), Wei Ju (Peking University), Philip S. Yu (University of Illinois Chicago), Ming Zhang (Peking University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper evaluates multi-modal large language models (MLLMs), which could enhance Haohe Liu's work in audio-language modeling and generative tasks by providing insights into how MLLMs handle audio-visual data.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research assesses multi-modal large language models' performance in processing and understanding information from both audio and visual signals across various dimensions.",
+    "contribution": "This paper introduces a comprehensive evaluation framework to assess the audio-visual capabilities of MLLMs, demonstrating their effectiveness and limitations.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluations focused mainly on vision and text, neglecting the audio modality, limiting the understanding of MLLMs' full potential.",
+        "novelty": "This work offers a multifaceted approach analyzing effectiveness, efficiency, generalizability, and robustness, highlighting areas for improvement."
+    },
+    "key_innovation": "The methods used include extensive experiments to assess MLLMs under various conditions, including real-world implications such as robustness to adversarial attacks.",
+    "real_world_impact": "The findings provide insights into optimizing MLLMs, potentially improving applications such as audio-visual recognition, scene understanding, and autonomous systems.",
+    "limitations": "The paper does not propose solutions for the identified weaknesses, such as the models' reliance on visual modalities and computational inefficiencies.",
+    "new_terms": {
+        "multi-modal large language models (MLLMs)": "**Multi-modal large language models (MLLMs)** are advanced AI models capable of integrating and processing information from various modalities, including text, audio, and visual signals."
+    },
+    "open_sourcing": ""
+}

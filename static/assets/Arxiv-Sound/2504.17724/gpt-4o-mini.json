@@ -1,0 +1,22 @@
+{
+    "title": "Unsupervised EEG-based decoding of absolute auditory attention with canonical correlation analysis",
+    "author": "Nicolas Heintz (KU Leuven), Tom Francart (KU Leuven), Alexander Bertrand (KU Leuven), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces unsupervised methods for EEG-based auditory attention decoding, directly aligning with techniques applicable in speech and audio processing, which is relevant for Haohe Liu\u2019s work on audio and speech.",
+    "field": "Applications-Speech and Audio",
+    "background": "Decoding whether a subject is actively listening to an auditory stimulus using EEG signals, contrasting with traditional methods that rely on supervised learning and explicit labeling.",
+    "contribution": "This paper introduces an unsupervised auditory attention decoding algorithm that employs canonical correlation analysis to improve EEG-based predictions, achieving higher accuracy and adaptability than existing supervised models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods required labeled data for training, which limited applicability in real-world scenarios where attention labels are not available.",
+        "novelty": "This work implements a self-adaptive CCA model that can utilize unlabeled data, allowing it to adjust to non-stationary EEG signals without the need for a calibration phase."
+    },
+    "key_innovation": "Leveraging a combination of canonical correlation analysis and minimally informed linear discriminant analysis to achieve an unsupervised decoding model that adapts to individual EEG patterns.",
+    "real_world_impact": "This work paves the way for implementing real-time auditory attention monitoring in wearable devices, enhancing applications in hearing aids and neurofeedback.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "canonical correlation analysis": "**Canonical correlation analysis (CCA)** is a statistical method used to identify relationships between two multivariate datasets by finding linear combinations of variables from both datasets that are maximally correlated.",
+        "minimally informed linear discriminant analysis": "**Minimally informed linear discriminant analysis (MILDA)** is a classifier variant designed to minimize reliance on labeled data while still providing effective separability between classes."
+    },
+    "open_sourcing": ""
+}

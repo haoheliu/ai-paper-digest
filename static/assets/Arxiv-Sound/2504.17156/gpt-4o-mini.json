@@ -1,0 +1,21 @@
+{
+    "title": "Waveform-Logmel Audio Neural Networks for Respiratory Sound Classification",
+    "author": "Jiadong Xie (College of Integrated Circuits, Zhejiang University), Yunlian Zhou (Department of Pulmonology, Children's Hospital Zhejiang University), Mingsheng Xu (College of Integrated Circuits, Zhejiang University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses advancements in respiratory sound classification, which is highly relevant to Haohe Liu's work on audio processing and could inform methods for improved audio analysis and modeling.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper focuses on classifying respiratory sounds using deep learning techniques, specifically integrating waveforms and spectrogram analysis for better diagnostic capabilities.",
+    "contribution": "This paper introduces the Waveform-Logmel Audio Neural Networks (WLANN) framework to solve the classification of respiratory sounds, achieving 90.3% sensitivity and 93.6% total score.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly utilized either waveform or spectrogram data but struggled with temporal and frequency resolution.",
+        "novelty": "This work combines both waveform and log-mel spectrogram inputs, while using a Bidirectional Gated Recurrent Unit (Bi-GRU) for improved contextual modeling of features."
+    },
+    "key_innovation": "The unique combination of time-domain waveforms and frequency domain log-mel spectrograms enhances feature extraction and context modeling for respiratory sounds.",
+    "real_world_impact": "The proposed model could significantly improve diagnostic accuracy for respiratory diseases, which is essential for public health and medical applications.",
+    "limitations": "Potential limitations were not explicitly mentioned in the paper.",
+    "new_terms": {
+        "Bidirectional Gated Recurrent Unit (Bi-GRU)": "**Bidirectional Gated Recurrent Unit** is a type of recurrent neural network that processes data in both forward and backward directions, capturing context from past and future sequences."
+    },
+    "open_sourcing": ""
+}
