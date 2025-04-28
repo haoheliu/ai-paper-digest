@@ -1,0 +1,22 @@
+{
+    "title": "Kimi-Audio: An Open-Source Audio Foundation Model for Audio Understanding, Generation, and Conversation",
+    "author": "Kimi Team",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "Kimi-Audio directly relates to audio generation and understanding, fields that are central to Haohe Liu's research in text-to-audio generation and audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Building a versatile audio model that understands, generates, and converses in audio by leveraging advancements in large language models and continuous audio features.",
+    "contribution": "Kimi-Audio introduces a novel audio foundation model architecture that effectively processes both audio and text to achieve state-of-the-art performance in multiple audio-related tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous audio models generally target specific tasks like speech recognition or audio generation separately or lack open-source access.",
+        "novelty": "This work combines audio and language processing in a unified architecture, utilizing an innovative hybrid tokenization approach to improve efficiency and comprehension."
+    },
+    "key_innovation": "By integrating discrete semantic audio tokens with continuous acoustic vectors, Kimi-Audio allows for better perception and richer generation capabilities in audio tasks.",
+    "real_world_impact": "Kimi-Audio's open-source nature and its ability to perform various audio-related tasks can significantly contribute to advancements in speech technology and audio processing applications.",
+    "limitations": "No",
+    "new_terms": {
+        "detokenizer": "**Detokenizer** is a component that converts semantic tokens back into a format that can be understood, such as audio waveforms.",
+        "vector quantization": "**Vector quantization** is a process for compressing data by representing it as a set of vectors derived from a fixed codebook."
+    },
+    "open_sourcing": "The code, model checkpoints, and evaluation toolkits are available at https://github.com/MoonshotAI/Kimi-Audio."
+}

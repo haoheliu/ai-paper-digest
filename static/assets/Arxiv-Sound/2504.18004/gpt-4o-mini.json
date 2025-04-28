@@ -1,0 +1,22 @@
+{
+    "title": "Assessing the Utility of Audio Foundation Models for Heart and Respiratory Sound Analysis",
+    "author": "Daisuke Niizumi (NTT Communication Science Laboratories), Daiki Takeuchi (NTT Communication Science Laboratories), Masahiro Yasuda (NTT Communication Science Laboratories), Binh Thien Nguyen (NTT Communication Science Laboratories), Yasunori Ohishi (NTT Communication Science Laboratories), Noboru Harada (NTT Communication Science Laboratories)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper evaluates audio foundation models that can be applied in various audio-related tasks, including enhancement for audio processing and generative models, which are relevant to Dr. Liu's research in audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper investigates the effectiveness of pre-trained audio models in classifying and analyzing heart and respiratory sounds to establish their practical utility without fine-tuning.",
+    "contribution": "This study introduces a comparison of several audio foundation models' performances on tasks related to heart and respiratory sounds, achieving state-of-the-art results on certain tasks with cleaner data while providing insights on their applicability.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often only demonstrated effective use on less diverse or specific audio tasks, with limited benchmarking against state-of-the-art performance.",
+        "novelty": "This work broadens the evaluation scope to include off-the-shelf audio foundation models in real-world clinical scenarios, emphasizing their comparative performance across various tasks."
+    },
+    "key_innovation": "Highlights the potential for general-purpose audio models to outperform specialized models, suggesting broader applicability in audio tasks.",
+    "real_world_impact": "The findings present significant implications for deploying audio models in clinical settings, ultimately enhancing diagnostic capabilities for heart and respiratory health.",
+    "limitations": "The paper acknowledges that models underperform on noisy data tasks, suggesting the need for further fine-tuning for practical implementations.",
+    "new_terms": {
+        "foundation models": "**Foundation models** are large pre-trained models that can be adapted to various tasks without extensive training, serving as a base for specific applications.",
+        "SOTA (state-of-the-art)": "**State-of-the-art** refers to the highest level of development or performance achieved in a particular field."
+    },
+    "open_sourcing": "The evaluation code is available online."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "DOSE: Drum One-Shot Extraction from Music Mixture",
+    "author": "Suntae Hwang (Seoul National University), Seonghyeon Kang (Seoul National University), Kyungsu Kim (Seoul National University), Semin Ahn (Seoul National University), Kyogu Lee (Seoul National University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper's focus on drum sound extraction and generation aligns closely with Dr. Liu's interests in audio synthesis and enhancement. The techniques discussed could potentially be adapted for audio restoration and source separation tasks, which are central to Dr. Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves extracting drum one-shot samples from mixtures of music, which requires generating isolated drum sounds from complex audio.",
+    "contribution": "This paper introduces Drum One-Shot Extraction to solve the problem of isolating drum sounds from mixed audio, achieving superior quality compared to traditional source separation methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on music source separation to isolate drum tracks, which were often dependent on the quality of the separation algorithms and introduced artifacts.",
+        "novelty": "This work improves by employing a generation-based approach using neural audio codec models, allowing for direct synthesis of drum one-shots without intermediate separation."
+    },
+    "key_innovation": "Utilizes a model that directly generates drum sounds from music mixtures, focusing on accurately capturing the transient response of drum hits.",
+    "real_world_impact": "This approach streamlines music production workflows, enabling music producers to easily extract high-quality drum samples from their projects, thus enhancing creative possibilities.",
+    "limitations": "The authors note the lack of paired data from real commercial music as a limitation and suggest future work will address this.",
+    "new_terms": {
+        "Frechet Audio Distance (FAD)": "**Frechet Audio Distance (FAD)** is a metric for measuring the similarity between two audio distributions based on deep audio embeddings, providing a quantitative evaluation of audio generation quality.",
+        "Multi-Scale Spectral Similarity (MSS)": "**Multi-Scale Spectral Similarity (MSS)** evaluates audio generated samples against a reference considering their time-frequency representations to assess perceptual similarity."
+    },
+    "open_sourcing": "The code, model checkpoint, and audio examples are available at https://github.com/HSUNEH/DOSE"
+}

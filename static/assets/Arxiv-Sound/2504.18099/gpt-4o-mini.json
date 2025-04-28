@@ -1,0 +1,22 @@
+{
+    "title": "Tracking Articulatory Dynamics in Speech with a Fixed-Weight BiLSTM-CNN Architecture",
+    "author": "Leena G Pillai (University of Kerala), D. Muhammad Noorul Mubarak (University of Kerala), Elizabeth Sherly (Digital University Kerala), ..., Leena G Pillai (Digital University Kerala)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper focuses on predicting articulatory movements from acoustic signals using a Bidirectional Long Short-Term Memory model combined with Convolutional Neural Networks, which could enhance audio feature extraction methods applicable in text-to-audio generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Estimating the movements of speech articulators, specifically the tongue and lip, during speech production to understand how speech sounds are produced.",
+    "contribution": "This paper introduces a novel stacked Bidirectional Long Short-Term Memory and Convolutional Neural Network architecture to predict articulatory features, achieving improved accuracy and smoother trajectories in speech articulation prediction.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with jagged predictions and required extensive parallel acoustic-articulatory data, limiting generalization capabilities.",
+        "novelty": "This work improves prediction smoothness by utilizing a fixed-weight initialization approach in the Convolutional layer, achieving better results with fewer training epochs."
+    },
+    "key_innovation": "Employs a fixed-weight initialization technique in the smoothing layer to enhance the continuity and accuracy of predicted tongue and lip movements.",
+    "real_world_impact": "This model has the potential to advance speech recognition and synthesis technologies, especially in applications for individuals with speech disorders, offering insights for clinical practices.",
+    "limitations": "The authors note that the cross-corpus generalization still poses challenges due to linguistic and phonetic differences.",
+    "new_terms": {
+        "Electromagnetic Articulography (EMA)": "**Electromagnetic Articulography (EMA)** is a technique for tracking the movement of speech organs using electromagnetic sensors placed on the articulators.",
+        "Acoustic-to-Articulatory Inversion (AAI)": "**Acoustic-to-Articulatory Inversion (AAI)** refers to the process of deducing the movements of articulators from the acoustic speech signals."
+    },
+    "open_sourcing": ""
+}

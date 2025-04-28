@@ -1,0 +1,21 @@
+{
+    "title": "Seeing Soundscapes: Audio-Visual Generation and Separation from Soundscapes Using Audio-Visual Separator",
+    "author": "Minjae Kang (King's College London), Martim Brandao (King's College London), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper addresses audio-visual generation from mixed audio inputs, which aligns with Haohe Liu's interests in audio-speech processing and generative synthesis. The methodologies could inform audio-language models and multi-modal integrations.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating images from audio, particularly from mixed audio containing multiple classes while separating sounds related to different objects.",
+    "contribution": "This paper introduces the Audio-Visual Generation And Separation model (AV-GAS) to solve the challenge of generating images from multi-class audio, achieving 7% higher Class Representation Score (CRS) and 4% higher R@2 than existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focus on single-class audio inputs for image generation, often failing to address mixed audio scenarios.",
+        "novelty": "This work successfully generates a combined image of all classes and separate images for each class from mixed audio, employing an audio-visual separator for improved alignment."
+    },
+    "key_innovation": "The model uniquely combines audio-visual generation and separation tasks, allowing for both mixed and individual class image outputs from complex audio inputs.",
+    "real_world_impact": "This research could significantly enhance applications in education, healthcare, and creative industries by improving audio-visual integration and visualization. No immediate real-world impact.",
+    "limitations": "The model is currently limited to separating two audio sources and may struggle with generating plausible images involving more complex sounds or people.",
+    "new_terms": {
+        "Class Representation Score (CRS)": "**Class Representation Score (CRS)** is a metric used to evaluate the effectiveness of generated images in containing all relevant visual classes from the audio input."
+    },
+    "open_sourcing": ""
+}
