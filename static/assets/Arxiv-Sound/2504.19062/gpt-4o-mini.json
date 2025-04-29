@@ -1,0 +1,22 @@
+{
+    "title": "Versatile Framework for Song Generation with Prompt-based Control",
+    "author": "Yu Zhang (Zhejiang University), Wenxiang Guo (Zhejiang University), Changhao Pan (Zhejiang University), Zhiyuan Zhu (Zhejiang University), Ruiqi Li (Zhejiang University), Jingyu Lu (Zhejiang University), Rongjie Huang (Zhejiang University), Zhou Zhao (Zhejiang University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper's focus on song generation aligns with Haohe Liu's work in audio, music, and speech processing, particularly as it explores innovative frameworks for controlling musical output through various prompts, which can enhance real-time generation and manipulation in music composition.",
+    "field": "Applications-Creative AI",
+    "background": "The paper aims to create a versatile framework for generating complete songs that include vocals and accompaniments based on diverse prompts while ensuring high-quality production and alignment.",
+    "contribution": "This paper introduces VersBand, a multi-task song generation framework, to solve the challenges of synthesizing high-quality songs with effective prompt-based control, achieving enhanced quality and alignment of musical components.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with generating aligned vocals and accompaniments and lacked robust control mechanisms.",
+        "novelty": "This work decouples vocal and accompaniment generation while introducing a Mixture of Experts (MOE) strategy for enhanced adaptability and quality across various musical styles."
+    },
+    "key_innovation": "The combination of VocalBand for vocal synthesis and AccompBand for accompaniment generation with intelligent expert selection provides greater flexibility and quality in creating music.",
+    "real_world_impact": "This framework can be significant for creative industries, enabling artists and producers to quickly generate high-quality music tailored to specific styles or emotional content.",
+    "limitations": "The paper mentions limitations in the model's dependence on multiple sub-models, which complicates training and inference processes.",
+    "new_terms": {
+        "Mixture of Experts (MOE)": "**Mixture of Experts** is a model architecture that dynamically selects different subsets of experts for various inputs, enhancing performance on tasks by using specialized knowledge.",
+        "flow-matching model": "**Flow-matching model** refers to a generative modeling approach where the generation of data points is formulated as optimizing the alignment of data distributions in a smooth manner."
+    },
+    "open_sourcing": "Audio samples are available at https://VersBand.github.io."
+}

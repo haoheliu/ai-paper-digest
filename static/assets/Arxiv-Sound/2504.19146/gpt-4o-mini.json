@@ -1,0 +1,22 @@
+{
+    "title": "Muyan-TTS: A Trainable Text-to-Speech Model Optimized for Podcast Scenarios with a $50K Budget",
+    "author": "Xin Li (MYZY AI), Kaikai Jia (MYZY AI), Hao Sun (MYZY AI), Jun Dai (MYZY AI), Ziyang Jiang (MYZY AI), ..., Kearney (MYZY AI)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "Muyan-TTS introduces novel methods for text-to-speech synthesis that could enhance speaker adaptation and audio generation, aligning with Haohe Liu's interests in audio processing and synthesis. Its focus on podcasts may inform future work in high-quality audio content generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a text-to-speech system tailored for podcasting applications that provides high-quality, customizable voice synthesis from text input.",
+    "contribution": "Muyan-TTS introduces an open-source text-to-speech model pre-trained on podcast data to enable zero-shot synthesis capability, achieving notable voice adaptation and speech quality.",
+    "technical_comparison": {
+        "prior_work": "Existing TTS models often lack transparency in training procedures and do not cater specifically to podcast scenarios, limiting adaptability and performance.",
+        "novelty": "This work incorporates a large language model with a VITS-based decoder to enhance robustness and synthesis quality, while also providing a comprehensive open-source training pipeline."
+    },
+    "key_innovation": "Integrates a large language model with a VITS decoder to effectively bridge text and speech modalities, enhancing flexibility for different speaker characteristics.",
+    "real_world_impact": "Addresses the growing demand for high-quality, interactive voice synthesis in applications like podcasts, potentially revolutionizing the accessibility of TTS technology for content creators.",
+    "limitations": "The model's performance can be compromised by its dependencies on specific input formats and may struggle with multilingual capabilities.",
+    "new_terms": {
+        "VITS": "**Variational Inference Text-to-Speech** - a generative model for text-to-speech synthesis that reduces hallucinations and enhances phonetic modeling.",
+        "zero-shot TTS": "**Zero-shot text-to-speech** - refers to the ability of a TTS system to generate speech for unseen text without requiring specific training on that text content."
+    },
+    "open_sourcing": "Code and models are available at https://github.com/MYZY-AI/Muyan-TTS"
+}

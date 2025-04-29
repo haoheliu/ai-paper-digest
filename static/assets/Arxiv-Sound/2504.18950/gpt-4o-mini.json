@@ -1,0 +1,22 @@
+{
+    "title": "Speaker Retrieval in the Wild: Challenges, Effectiveness and Robustness",
+    "author": "Erfan Loweimi (University of Cambridge), Mengjie Qian (University of Cambridge), Kate Knill (University of Cambridge), Mark Gales (University of Cambridge), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper addresses speaker retrieval systems in uncontrolled environments, which is relevant for improving the robustness of audio processing tasks, including speaker recognition and enhancements in historical audio archives, areas directly related to Haohe Liu's interests.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speaker retrieval aims to identify and rank instances of a specific speaker from large audio archives, often facing challenges due to poor metadata and varied acoustic conditions.",
+    "contribution": "This paper introduces a framework for speaker retrieval systems designed to operate in uncontrolled environments, achieving significant advancements in handling noisy labels and diverse acoustic conditions.",
+    "technical_comparison": {
+        "prior_work": "Previous systems often rely on clean and well-annotated datasets and struggle in varied real-world scenarios.",
+        "novelty": "This work leverages advanced diarisation and embedding techniques while addressing noisy and limited metadata, enhancing the system's adaptability."
+    },
+    "key_innovation": "The integration of state-of-the-art speaker embedding models and innovative handling of diverse acoustic conditions allows for improved speaker retrieval accuracy in real-world applications.",
+    "real_world_impact": "The findings from this paper can directly influence speaker detection and retrieval in historical audio archives and media monitoring, ultimately enhancing accessibility and utility of large audio data collections.",
+    "limitations": "No explicit limitations were discussed regarding the methodology, but the reliance on existing noisy metadata poses inherent constraints.",
+    "new_terms": {
+        "diarisation": "**Diarisation** is the process of segmenting an audio stream into portions corresponding to different speakers, determining 'who spoke when.'",
+        "embedding": "**Embedding** refers to a numerical representation of a speaker's voice characteristics in a high-dimensional space aimed at capturing speaker identity distinctly."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Improving Pretrained YAMNet for Enhanced Speech Command Detection via Transfer Learning",
+    "author": "Sidahmed Lachenani (University of Medea), Hamza Kheddar (University of Medea), Mohamed Ouldzmirli (University of Medea), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The research utilizes transfer learning with YAMNet, demonstrating techniques relevant for enhancing model performance in audio classification, which can be informative for Haohe's work in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing the accuracy of speech command recognition by adapting a pretrained deep learning model (YAMNet) to detect specific audio commands efficiently.",
+    "contribution": "This paper introduces a transfer learning method to fine-tune YAMNet for improved speech command detection, achieving a recognition accuracy of 95.28%.",
+    "technical_comparison": {
+        "prior_work": "Traditional approaches to speech recognition are computationally intensive and require large datasets, making them less effective in practical applications.",
+        "novelty": "This work leverages a pretrained YAMNet model for audio classification, applying data augmentation and tailored feature extraction to enhance recognition rates significantly."
+    },
+    "key_innovation": "The adaptation of YAMNet for speech command detection via transfer learning, demonstrating effective feature extraction and optimization for specific command sets.",
+    "real_world_impact": "Enhancing speech command recognition systems can improve user interaction in smart devices, potentially leading to broader applications in IoT and automation.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "YAMNet": "**YAMNet** is a deep learning model developed by Google for audio classification, pretrained on a large dataset to recognize various audio events.",
+        "transfer learning": "**Transfer Learning** is a machine learning technique where a model developed for a specific task is reused as the starting point for a model on a second task."
+    },
+    "open_sourcing": ""
+}

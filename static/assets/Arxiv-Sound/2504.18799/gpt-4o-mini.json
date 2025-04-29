@@ -1,0 +1,22 @@
+{
+    "title": "A Comprehensive Survey on Multimodal Music Emotion Recognition",
+    "author": "Rashini Liyanarachchi (University of New South Wales), Aditya Joshi (University of New South Wales), Erik Meijering (University of New South Wales), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper provides a thorough framework and an overview of techniques in multimodal music emotion recognition, which can be relevant for developing more advanced audio generation and analysis tools in Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Multimodal music emotion recognition aims to identify and classify emotions expressed in music by integrating different sources of information such as audio, lyrics, and physiological signals.",
+    "contribution": "This paper introduces a four-stage MMER framework addressing data selection, feature extraction, feature processing, and emotion prediction, achieving insights into the challenges and advancements in the field.",
+    "technical_comparison": {
+        "prior_work": "Previous works often focused on unimodal approaches and traditional methods, which may not utilize the full spectrum of data types available.",
+        "novelty": "This work emphasizes multimodal approaches and highlights the importance of feature fusion and deep learning techniques, therefore providing a more comprehensive strategy for emotion recognition."
+    },
+    "key_innovation": "The holistic four-stage framework integrates diverse data types and contemporary deep learning methods to enhance the accuracy and reliability of music emotion detection.",
+    "real_world_impact": "The advancements in this survey could lead to improved music recommendation systems and therapeutic applications, enhancing user experience in audio applications.",
+    "limitations": "Challenges related to the scarcity of large annotated datasets and the need for real-time processing capabilities are acknowledged.",
+    "new_terms": {
+        "multimodal": "**Multimodal** refers to the integration of multiple forms of data or information (e.g., audio, lyrics, video) to improve analysis or prediction tasks.",
+        "feature fusion": "**Feature fusion** is the process of combining various features from multiple data modalities to create a unified representation that can enhance model performance."
+    },
+    "open_sourcing": ""
+}

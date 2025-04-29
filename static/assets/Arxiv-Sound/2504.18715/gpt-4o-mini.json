@@ -1,0 +1,22 @@
+{
+    "title": "Spatial Speech Translation: Translating Across Space With Binaural Hearables",
+    "author": "Tuochao Chen (Paul G. Allen School, University of Washington), Runlin He (Paul G. Allen School, University of Washington), Qirui Wang (Paul G. Allen School, University of Washington), Shyamnath Gollakota (Paul G. Allen School, University of Washington), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper addresses real-time speech translation that preserves spatial cues, which could significantly enhance audio processing applications, including speech restoration and audio language modeling tasks in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task setting involves translating multiple speakers' speech in a noisy environment in real-time, while preserving the spatial characteristics of each speaker's audio.",
+    "contribution": "This paper introduces a system for real-time binaural translation of speech while maintaining spatial awareness and unique voice characteristics of individual speakers.",
+    "technical_comparison": {
+        "prior_work": "Previous methods failed to maintain spatial awareness during speech translation, particularly in noisy environments with multiple speakers.",
+        "novelty": "This work combines joint localization, speech separation, and binaural rendering to achieve robust multi-speaker translation and expressive voice characteristics."
+    },
+    "key_innovation": "Utilizes a search-based method for joint localization and separation, tuned for real-time processing through mobile hardware, enabling translation that retains speaker directionality and prosody.",
+    "real_world_impact": "The proposed system enhances communication in multi-lingual and multi-speaker scenarios, potentially benefiting various fields such as multilingual customer service, education, and travel.",
+    "limitations": "The output quality may degrade if the separation model produces significant distortions, which affects the overall translation accuracy.",
+    "new_terms": {
+        "binaural rendering": "**Binaural rendering** refers to the simulation of 3D sound using stereo audio to create the perception that sound sources are located at specific points in a three-dimensional space.",
+        "head-related transfer function (HRTF)": "**Head-related transfer function (HRTF)** describes how the shape of the human head and ears affect the way we perceive sound from different angles."
+    },
+    "open_sourcing": "Code, dataset available at https://github.com/chentuochao/Spatial-Speech-Translation"
+}

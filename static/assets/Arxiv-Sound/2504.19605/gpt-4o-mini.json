@@ -1,0 +1,22 @@
+{
+    "title": "A Comparative Study on Positional Encoding for Time-frequency Domain Dual-path Transformer-based Source Separation Models",
+    "author": "Kohei Saijo (Waseda University), Tetsuji Ogawa (Waseda University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper addresses positional encoding methods in Transformer-based models for source separation, which is highly relevant to Haohe Liu's work in audio processing and could provide insights into improving neural architectures used in his research, especially in tasks like speech enhancement and music separation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating the impact of different positional encoding approaches on the effectiveness of Transformer models in separating audio sources from mixed signals.",
+    "contribution": "This study introduces a comprehensive comparison of four positional encoding methods (Absolute, Relative, Rotary, and No Positional Encoding) to improve source separation performance, particularly focusing on length extrapolation capabilities.",
+    "technical_comparison": {
+        "prior_work": "Previous models often used fixed positional encoding schemes like absolute positional encoding, which limit generalization on longer sequences.",
+        "novelty": "This work systematically evaluates how various positional encoding methods affect both performance on training sequences and their generalization to longer sequences beyond training."
+    },
+    "key_innovation": "The incorporation of convolutional layers allows the model to encode positional information implicitly, enhancing the length extrapolation capabilities without explicit positional encoding.",
+    "real_world_impact": "This study has potential real-world implications for audio processing applications, such as improving speech separation in real-time communication systems and enhancing music source separation techniques in various audio applications.",
+    "limitations": "The study does not explore all possible positional encoding methods, and results are based on specific model architectures, which may limit generalization to other architectures.",
+    "new_terms": {
+        "positional encoding": "**Positional encoding** is a technique used in Transformers to provide contextual information regarding the positions of elements in a sequence, which is crucial for understanding the sequence structure.",
+        "length extrapolation": "**Length extrapolation** refers to the model's ability to generalize and perform well on input sequences that are longer than those seen during training."
+    },
+    "open_sourcing": ""
+}

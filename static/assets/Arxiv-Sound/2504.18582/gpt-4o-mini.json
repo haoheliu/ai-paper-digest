@@ -1,0 +1,22 @@
+{
+    "title": "Speaker Diarization for Low-Resource Languages Through Wav2vec Fine-Tuning",
+    "author": "Abdulhady Abas Abdullah (Artificial Intelligence and Innovation Centre, University of Kurdistan Hewler, Erbil, Iraq), Sarkhel H. Taher Karim (Computer Science Department, College of Science, University of Halabja, Kurdistan Region, Iraq), Sara Azad Ahmed (Computer Engineering Department, Komar University of Science and Technology), Kanar R. Tariq (Information Technology Department, Technical College of Informatics, Sulaimani Polytechnic University, Sulaymaniyah, Iraq), Tarik A. Rashid (Artificial Intelligence and Innovation Centre, University of Kurdistan Hewler, Erbil, Iraq)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work utilizes transfer learning and self-supervised methods to improve speaker diarization for low-resource languages like Kurdish, which aligns with Haohe Liu's focus on innovative audio processing techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speaker diarization is the task of partitioning audio streams by speaker identity, aiming to identify who speaks when in recordings involving multiple speakers.",
+    "contribution": "This study introduces the fine-tuning of the Wav2Vec model for Kurdish speaker diarization to improve performance metrics like Diarization Error Rate (DER) and cluster purity.",
+    "technical_comparison": {
+        "prior_work": "Existing diarization systems often struggle with low-resource languages due to lack of annotated data and language-specific features.",
+        "novelty": "This work enhances Wav2Vec's representations specifically for Kurdish through fine-tuning and data augmentation to better manage acoustic diversity."
+    },
+    "key_innovation": "The study effectively utilizes a dual-loss approach to optimize both speaker classification and temporal alignment in Kurdish audio, significantly mitigating challenges in recognizing overlapping speech.",
+    "real_world_impact": "Enhancing speaker diarization for Kurdish can improve transcription services in media and strengthen communication tools in multilingual settings, promoting digital access and cultural preservation.",
+    "limitations": "The dataset has limited diversity and may not represent all dialects of Kurdish adequately, which can affect generalization.",
+    "new_terms": {
+        "Diarization Error Rate (DER)": "**Diarization Error Rate (DER)** quantifies how often the speaker is incorrectly identified by comparing the predicted segments against the actual speaker label clusters.",
+        "cross-entropy loss": "**Cross-entropy loss** is a measure from the field of machine learning to assess the performance of a classification model whose output is a probability value between 0 and 1."
+    },
+    "open_sourcing": ""
+}
