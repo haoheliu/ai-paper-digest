@@ -1,0 +1,21 @@
+{
+    "title": "Enhancing Non-Core Language Instruction-Following in Speech LLMs via Semi-Implicit Cross-Lingual CoT Reasoning",
+    "author": "Hongfei Xue (Northwestern Polytechnical University), Jun Zhang (ByteDance Inc.), Yufeng Tang (ByteDance Inc.), Xuelong Geng (Northwestern Polytechnical University), Hexin Liu (Nanyang Technological University), Lei Xie (Northwestern Polytechnical University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces a novel framework (XS-CoT) that could significantly enhance performance for non-core language processing in speech recognition tasks, which aligns closely with the focus on audio and language processing in Haohe Liu's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "The development of large language models for speech applications often shows lower performance in non-core languages due to limited data availability.",
+    "contribution": "This paper introduces the XS-CoT framework to improve instruction-following performance in speech LLMs for non-core languages, achieving up to 45% better responses compared to direct supervised fine-tuning.",
+    "technical_comparison": {
+        "prior_work": "Existing frameworks generally struggle with low-resource languages and often rely heavily on explicit reasoning via intermediate tokens, leading to latency issues.",
+        "novelty": "XS-CoT incorporates a semi-implicit reasoning scheme, reducing inference delays while retaining effective reasoning by compressing less critical intermediate details."
+    },
+    "key_innovation": "The framework generates multiple types of tokens sequentially, leveraging core language reasoning to improve responses in non-core languages.",
+    "real_world_impact": "If successfully implemented, this approach could make speech technologies more accessible across different languages, improving user interactions in multilingual contexts.",
+    "limitations": "The paper does not explicitly mention any limitations but implies challenges related to maintaining model performance across diverse languages.",
+    "new_terms": {
+        "XS-CoT": "**Cross-lingual Speech Chain-of-Thought** is a framework combining speech-to-text translation and iterative reasoning strategies for improved multilingual instruction-following in speech models."
+    },
+    "open_sourcing": "Datasets in Japanese, German, and French have been open-sourced to support the XS-CoT training process."
+}

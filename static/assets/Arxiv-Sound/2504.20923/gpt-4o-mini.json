@@ -1,0 +1,22 @@
+{
+    "title": "End-to-end Audio Deepfake Detection from RAW Waveforms: a RawNet-Based Approach with Cross-Dataset Evaluation",
+    "author": "Andrea Di Pierno (IMT School of Advanced Studies Lucca), Luca Guarnera (University of Catania), Dario Allegra (University of Catania), Sebastiano Battiato (University of Catania), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed RawNetLite model could enhance Haohe Liu's research on audio generation and restoration by providing robust mechanisms to detect deepfakes, which is vital in maintaining the integrity of audio content.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on developing an efficient model to detect audio deepfakes by analyzing raw waveforms rather than processed audio features.",
+    "contribution": "This paper introduces RawNetLite to solve the challenge of audio deepfake detection, achieving up to 99.7% F1-score on in-domain data and significant generalization on out-of-domain datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on handcrafted features or large pretrained models, often failing to generalize under new conditions.",
+        "novelty": "This work improves by using a lightweight, end-to-end architecture that directly processes raw audio, enhancing robustness and generalization across different datasets."
+    },
+    "key_innovation": "The RawNetLite model utilizes an end-to-end learning approach on raw audio waveforms without the need for handcrafted features or extensive preprocessing.",
+    "real_world_impact": "The research addresses the increasing concern of audio deepfakes in digital media and could inform the development of real-time detection systems, enhancing authenticity and trust in audio communications.",
+    "limitations": "The authors note challenges in generalization to unseen manipulations, with performance degrading significantly on certain tasks.",
+    "new_terms": {
+        "Focal Loss": "**Focal Loss** is a loss function used in machine learning to address class imbalance by down-weighting easy examples and focusing training on hard-to-classify instances.",
+        "Equal Error Rate (EER)": "**Equal Error Rate (EER)** is a performance metric used to evaluate binary classification systems, indicating the rate at which false positives equal false negatives."
+    },
+    "open_sourcing": "Code and pretrained models are available at https://iplab.dmi.unict.it/mfs/Deepfakes/PaperRawNet2025/"
+}

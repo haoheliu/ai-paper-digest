@@ -1,0 +1,22 @@
+{
+    "title": "APG-MOS: Auditory Perception Guided-MOS Predictor for Synthetic Speech",
+    "author": "Zhicheng Lian (Beijing Normal University), Lizhi Wang (Beijing Normal University), Hua Huang (Beijing Normal University), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "This work integrates auditory perception modeling with deep learning for speech quality assessment, which is directly relevant to Haohe Liu's interest in audio processing and generative AI methodologies.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to automatically assess the quality of synthetic speech by approximating human perceptual scores without needing extensive manual evaluations.",
+    "contribution": "This paper introduces an auditory perception guidance model to enhance the prediction accuracy of mean opinion scores (MOS) for synthetic speech, achieving notable performance improvements over existing models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely relied on either expert knowledge-driven approaches or fully data-driven techniques, failing to consistently align with human auditory perception.",
+        "novelty": "This work combines biological auditory modeling with a new semantic distortion framework and a progressive learning strategy, offering a more integrated approach."
+    },
+    "key_innovation": "The model uniquely employs cochlear-inspired auditory processing to convert acoustic signals into biologically meaningful representations, enhancing the MOS prediction capacity.",
+    "real_world_impact": "By providing a more reliable automatic speech quality assessment tool, this research has practical implications for improving synthetic speech systems widely used in applications like virtual assistants and accessibility tools.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "mean opinion score (MOS)": "**Mean Opinion Score (MOS)** is a common metric used to measure the quality of synthesized speech by averaging scores given by human listeners.",
+        "residual vector quantization (RVQ)": "**Residual Vector Quantization (RVQ)** is a technique for capturing semantic distortions by quantizing residuals between raw speech representations and their modeled counterparts."
+    },
+    "open_sourcing": "The code and checkpoints will be made available in a public repository upon publication."
+}

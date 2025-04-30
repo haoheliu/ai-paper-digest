@@ -1,0 +1,22 @@
+{
+    "title": "Pediatric Asthma Detection with Google's HeAR Model: An AI-Driven Respiratory Sound Classifier",
+    "author": "Abul Ehtesham (Kent State University), Saket Kumar (Northeastern University), Aditi Singh (Cleveland State University), Tala Talaei Khoei (Northeastern University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods employed for audio classification and respiratory sound analysis can be adapted to Haohe Liu's work in audio processing, particularly in enhancing diagnostic tools using machine learning in healthcare.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "Detecting asthma in children by analyzing respiratory sounds through an AI model designed to classify various types of wheezing and normal sounds.",
+    "contribution": "This study introduces an AI-powered diagnostic pipeline using Google's Health Acoustic Representations to classify pediatric respiratory sounds, achieving over 91% accuracy.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods for diagnosing asthma in children often rely on invasive or subjective techniques like spirometry and auscultation.",
+        "novelty": "This work improves by utilizing a robust foundation audio model to classify respiratory sounds non-invasively and effectively, demonstrating high accuracy with minimal audio data."
+    },
+    "key_innovation": "Employs embeddings generated from a large, pretrained model to classify short audio clips of pediatric respiratory sounds efficiently.",
+    "real_world_impact": "The method has the potential to enhance asthma screening in low-resource settings, improving healthcare access and early detection among children.",
+    "limitations": "The authors do not explicitly mention any limitations.",
+    "new_terms": {
+        "Health Acoustic Representations": "**Health Acoustic Representations** is a model developed by Google for analyzing health-related acoustic signals, trained on a large dataset of health audio clips including cough sounds.",
+        "SPRSound dataset": "**SPRSound dataset** is an open-access collection of pediatric respiratory sounds with annotations, providing a benchmark for respiratory sound classification."
+    },
+    "open_sourcing": "The SPRSound dataset is open-access and available for use in research."
+}

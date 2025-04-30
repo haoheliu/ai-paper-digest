@@ -1,0 +1,22 @@
+{
+    "title": "TriniMark: A Robust Generative Speech Watermarking Method for Trinity-Level Attribution",
+    "author": "Yue Li (National Huaqiao University), Weizhi Liu (National Huaqiao University), Dongdong Lin (National Huaqiao University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper focuses on generative speech watermarking, which could be applicable in the domain of music generation and audio authenticity, aligning with Haohe Liu's interests in audio generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generative speech watermarking involves embedding information into generated speech to protect intellectual property and track generated content across models.",
+    "contribution": "This paper introduces TriniMark, a generative watermarking approach that allows for simultaneous traceability of content, model, and user, achieving robust performance against various attacks.",
+    "technical_comparison": {
+        "prior_work": "Previous watermarking methods were primarily focused on either content-level or model-level traceability but lacked robustness and versatility against attacks.",
+        "novelty": "This work combines two-stage training and a fine-tuning strategy that effectively incorporates watermarks into different generative models without significant degradation in audio quality."
+    },
+    "key_innovation": "The method\u2019s unique bonded structure effectively embeds watermarks directly into the waveforms, ensuring recovery robustness while maintaining high audio fidelity.",
+    "real_world_impact": "The innovation could significantly enhance copyright protection and authenticity verification in various applications involving generated speech, which is increasingly relevant in the era of deepfakes and synthetic audio.",
+    "limitations": "The authors do not explicitly mention limitations, but the balance between watermark capacity and audio quality could present practical challenges.",
+    "new_terms": {
+        "trinity traceability": "**Trinity traceability** refers to the simultaneous ability to trace back the generated content to the model and the user, enhancing copyright protection and authenticity validation.",
+        "waveform-guided fine-tuning": "**Waveform-guided fine-tuning** is a strategy where the diffusion model is jointly optimized with a pretrained encoder-decoder setup to incorporate watermarking without losing generative capability."
+    },
+    "open_sourcing": ""
+}

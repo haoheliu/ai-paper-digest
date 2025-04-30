@@ -1,0 +1,21 @@
+{
+    "title": "Effect of Avatar Head Movement on Communication Behaviour, Experience of Presence and Conversation Success in Triadic Conversations",
+    "author": "Angelika Kothe (Carl von Ossietzky Universit\u00e4t Oldenburg), Volker Hohmann (Carl von Ossietzky Universit\u00e4t Oldenburg), Giso Grimm (Carl von Ossietzky Universit\u00e4t Oldenburg), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study explores real-time communication dynamics in virtual environments, which could inform audio-visual integration techniques in Haohe Liu's audio processing research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating the influence of animated head movements in virtual conversations on participants' communication behaviors and interactions within a controlled environment.",
+    "contribution": "This paper introduces an evaluation of animated avatars in virtual conversations to solve issues of communication barriers, achieving insights into the impact on speech behavior and conversation success.",
+    "technical_comparison": {
+        "prior_work": "Traditional studies on communication do not consider the effects of nonverbal cues like head movements in virtual settings.",
+        "novelty": "This work uniquely employs animated head movements of avatars derived from real-time data to enhance realism in virtual conversations."
+    },
+    "key_innovation": "Utilizes transmitted head movements of real interlocutors to animate avatars, significantly improving perceived realism and conversational effectiveness in virtual settings.",
+    "real_world_impact": "The findings could enhance the design of virtual communication tools and improve user experiences in applications such as virtual conferencing, gaming, and therapy.",
+    "limitations": "The study's reliance on a small participant group may limit the generalizability of the results.",
+    "new_terms": {
+        "triadic conversations": "**Triadic conversations** involve interactions between three participants, allowing for the study of turn-taking and attentional shifts among interlocutors."
+    },
+    "open_sourcing": ""
+}

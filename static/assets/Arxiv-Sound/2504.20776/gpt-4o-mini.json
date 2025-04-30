@@ -1,0 +1,21 @@
+{
+    "title": "ECOSoundSet: a finely annotated dataset for the automated acoustic identification of Orthoptera and Cicadidae in North, Central and temperate Western Europe",
+    "author": "David Funosas (Station d'\u00c9cologie Th\u00e9orique et Exp\u00e9rimentale), Elodie Massol (Universit\u00e9 Paul Sabatier - Toulouse III), Yves Bas (Centre d'Ecologie et des Sciences de la Conservation), ..., Maxime Cauchoix (Universit\u00e9 Paul Sabatier - Toulouse III)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The dataset and methodologies described could enhance Haohe's existing work on audio processing, especially in developing models that recognize complex sound patterns in ecological contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves identifying various species of insects based on their unique acoustic signatures captured in recordings, with a focus on Orthoptera and Cicadidae.",
+    "contribution": "This paper introduces the ECOSoundSet dataset to solve the challenge of automating species identification in acoustic monitoring, achieving a comprehensive resource for deep learning model training.",
+    "technical_comparison": {
+        "prior_work": "Previous insect sound identification algorithms in Europe were limited in scope and mostly focused on a small number of species.",
+        "novelty": "This work improves by providing a large, expertly annotated dataset covering a significant portion of insect sound diversity, which is essential for training more robust models."
+    },
+    "key_innovation": "The dataset features both weakly and strongly labeled recordings, facilitating more effective training of deep learning models for acoustic classification.",
+    "real_world_impact": "This dataset can significantly advance automated insect monitoring, aiding biodiversity studies and conservation efforts by enabling effective tracking of insect populations over time.",
+    "limitations": "No",
+    "new_terms": {
+        "Passively Acoustic Monitoring (PAM)": "**Passive Acoustic Monitoring (PAM)** refers to the technique of recording sounds in an environment to study animal populations, particularly those that produce sounds, without human presence during the data collection."
+    },
+    "open_sourcing": "The dataset is available on Zenodo at https://doi.org/10.5281/zenodo.15043893."
+}
