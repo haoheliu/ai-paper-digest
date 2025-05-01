@@ -1,0 +1,22 @@
+{
+    "title": "Differentiable Room Acoustic Rendering with Multi-View Vision Priors",
+    "author": "Derong Jin (University of Maryland, College Park), Ruohan Gao (University of Maryland, College Park), ... , Kristen Grauman (University of Texas at Austin)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The integration of multi-view vision and acoustic modeling may inspire novel approaches in audio-visual alignment tasks, enhancing methodologies in audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating realistic room acoustic experiences requires estimating room impulse responses (RIRs) from both sparse measurements and visual inputs.",
+    "contribution": "This paper introduces the Audio-Visual Differentiable Room Acoustic Rendering (AV-DAR) framework to solve room impulse response estimation, achieving significant improvements in accuracy and efficiency over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for RIR estimation either depend on extensive data or are computationally expensive.",
+        "novelty": "This work improves upon existing approaches by combining multi-view visual observations with acoustic beam tracing in a differentiable framework, enabling efficient learning from sparse data."
+    },
+    "key_innovation": "Utilizes visual cues to inform acoustic reflection properties within a physics-based rendering framework, enhancing data efficiency and interpretability.",
+    "real_world_impact": "The approach promises to enhance immersive audio experiences in applications such as virtual reality and audio navigation, making spatial audio more accurate and accessible.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "room impulse response (RIR)": "**Room Impulse Response (RIR)** refers to the characterization of how sound propagates from a source to a listener within a space, including all reflections and diffractions.",
+        "acoustic beam tracing": "**Acoustic Beam Tracing** is a method for modeling sound propagation that utilizes beam shapes instead of ray lines, improving the accuracy of reflection path detection in acoustic rendering."
+    },
+    "open_sourcing": ""
+}

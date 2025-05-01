@@ -1,0 +1,22 @@
+{
+    "title": "Design, analysis, and experimental validation of a stepped plate parametric array loudspeaker",
+    "author": "Woongji Kim (Pohang University of Science and Technology), Beomseok Oh (Pohang University of Science and Technology), Chayeong Kim (Pohang University of Science and Technology), Wonkyu Moon (Pohang University of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The findings on parametric array loudspeakers and their optimization techniques could influence methods in audio synthesis and enhancement tasks in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "A new loudspeaker design that leverages nonlinear acoustic phenomena to produce highly directional sound without relying on complex multi-transducer arrays.",
+    "contribution": "This study introduces a stepped plate parametric array loudspeaker that enhances audio performance by using a single ultrasonic transducer and an innovative stepped plate design.",
+    "technical_comparison": {
+        "prior_work": "Traditional parametric array loudspeakers rely on complex arrays of transducers, which can be costly and difficult to manage.",
+        "novelty": "This work improves speaker design by simplifying to a single transducer setup, enhancing sound directionality and reducing manufacturing costs."
+    },
+    "key_innovation": "Introduces a novel stepped plate structure that compensates for phase differences, enabling better sound field coherence with reduced complexity.",
+    "real_world_impact": "Could revolutionize speaker design for applications such as targeted audio delivery, thus expanding usage areas like museums, digital signage, and personal listening spaces.",
+    "limitations": "The study identifies inherent challenges in fabrication of certain structures and potential performance limitations at specific audio frequencies.",
+    "new_terms": {
+        "parametric array loudspeakers": "**Parametric array loudspeakers** utilize high-frequency ultrasonic waves to produce audible sound through nonlinear interactions in the air.",
+        "stepped plate": "**Stepped plate** refers to a plate with annular steps designed to approximate the coherent output of a uniformly vibrating surface for improved sound performance."
+    },
+    "open_sourcing": ""
+}
