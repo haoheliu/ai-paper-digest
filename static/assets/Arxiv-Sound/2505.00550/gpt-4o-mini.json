@@ -1,0 +1,22 @@
+{
+    "title": "Bridging Cultural and Digital Divides: A Low-Latency JackTrip Framework for Equitable Music Education in the Global South",
+    "author": "Tiange Zhou (School of Future Design, Beijing Normal University), Marco Bidin (Department of Instrument Engineering, Xinghai Conservatory of Music), ..., Jack Trip Team (Stanford University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper explores low-latency audio streaming that can be applied to real-time music education, which could enhance audio generation tasks and collaborative music-making processes in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study develops a low-latency audio streaming framework to enhance music education in regions with limited internet infrastructure, enabling real-time ensemble performances.",
+    "contribution": "This paper introduces the JackTrip framework to solve the challenges of high latency and limited bandwidth in music education, achieving significant improvements in audio fidelity and cultural preservation.",
+    "technical_comparison": {
+        "prior_work": "Traditional platforms like Zoom and Skype are optimized for speech communication but struggle with high latency and poor audio fidelity for real-time music performance.",
+        "novelty": "JackTrip operates without centralized servers and is designed specifically for music, achieving latencies under 30 ms compared to Zoom's 140 ms, thereby enhancing synchrony in performance."
+    },
+    "key_innovation": "JackTrip's decentralized architecture allows for low-cost, low-latency music education even in resource-limited environments, accommodating complex musical traditions.",
+    "real_world_impact": "This framework has the potential to empower music educators and students in the Global South, enhancing cultural exchange and preserving local musical traditions through technology.",
+    "limitations": "Challenges remain in electricity availability and digital literacy among users, which may hinder technology adoption in certain areas.",
+    "new_terms": {
+        "low-latency": "**Low-latency** refers to the minimal delay in transmission of audio signals, crucial for real-time performance and communication.",
+        "edge computing": "**Edge computing** involves processing data near the source of data generation rather than relying on a centralized data center, improving speed and efficiency."
+    },
+    "open_sourcing": "JackTrip is open-source software that can be customized for specific cultural requirements."
+}

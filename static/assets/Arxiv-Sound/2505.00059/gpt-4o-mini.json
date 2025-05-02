@@ -1,0 +1,22 @@
+{
+    "title": "BERSting at the Screams: A Benchmark for Distanced, Emotional and Shouted Speech Recognition",
+    "author": "Paige Tutt\u00f3s\u00eda (Simon Fraser University), Mantaj Dhillon (Simon Fraser University), Luna Sang (Simon Fraser University), Shane Eastwood (Simon Fraser University), Poorvi Bhatia (Simon Fraser University), Quang Minh Dinh (Simon Fraser University), Avni Kapoor (Simon Fraser University), Yewon Jin (Simon Fraser University), ..., Angelica Lim (Simon Fraser University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The dataset provides valuable insights and benchmarks for emotion and distance effects in speech recognition, directly applicable to Haohe Liu's work in audio processing and quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research focuses on improving automatic speech recognition (ASR) for distanced and emotionally varied speech, addressing real-world challenges faced by current ASR systems.",
+    "contribution": "This paper introduces the BERSt dataset to solve the problem of distanced and emotional speech recognition, achieving improved data diversity for benchmarks across multiple speech tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing ASR and speech emotion recognition datasets lack sufficient emotional and distance variations, often relying on professional recordings without naturalistic settings.",
+        "novelty": "This work improves by utilizing smartphone recordings across varied environments, capturing real-life distance and emotion dynamics for speech recognition systems."
+    },
+    "key_innovation": "Captures emotional and shouted speech at varying distances within real home environments, making it a unique resource for developing robust ASR systems.",
+    "real_world_impact": "Addresses critical needs in emergency response technologies by enabling more reliable speech recognition systems under challenging conditions, potentially enhancing public safety and user convenience.",
+    "limitations": "Emotion validation has not been confirmed for the collected data, which may affect the robustness of emotional analysis.",
+    "new_terms": {
+        "automatic speech recognition (ASR)": "**Automatic Speech Recognition (ASR)** is a technology that enables machines to identify and process human speech, converting it into text or commands.",
+        "speech emotion recognition (SER)": "**Speech Emotion Recognition (SER)** is the task of identifying emotional states from speech signals, which adds complexity to standard ASR tasks."
+    },
+    "open_sourcing": "The dataset is publicly available for use at https://huggingface.co/datasets/chocobearz/BERSt."
+}
