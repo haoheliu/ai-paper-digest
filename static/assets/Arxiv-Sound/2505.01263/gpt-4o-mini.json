@@ -1,0 +1,21 @@
+{
+    "title": "FlowDubber: Movie Dubbing with LLM-based Semantic-aware Learning and Flow Matching based Voice Enhancing",
+    "author": "Gaoxiang Cong (Institute of Computing Technology, Chinese Academy of Sciences), Zhedong Zhang (Hangzhou Dianzi University), Liang Li (Institute of Computing Technology, Chinese Academy of Sciences), Amin Beheshti (Macquarie University), Yuankai Qi (Macquarie University), Jiadong Pan (Institute of Computing Technology, Chinese Academy of Sciences), Anton van den Hengel (University of Adelaide), Qingming Huang (UCAS)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper introduces innovative methods in audio-visual synchronization, which could enhance Haohe Liu's work on audio generation and processing, particularly in preserving timbre and voice quality.",
+    "field": "Applications-Speech and Audio",
+    "background": "Movie dubbing involves converting movie scripts into speech that aligns temporally and emotionally with silent video clips, while retaining the vocal characteristics of a reference audio.",
+    "contribution": "FlowDubber introduces a large language model (LLM) based architecture to enhance movie dubbing quality by achieving high-quality audio-visual synchronization and pronunciation.",
+    "technical_comparison": {
+        "prior_work": "Previous dubbing methods primarily focused on reducing word error rates or involved heavy reliance on convoluted pre-training processes, often neglecting lip sync accuracy and acoustic quality.",
+        "novelty": "This work combines LLM-driven semantic learning with a dual contrastive alignment mechanism to significantly improve both synchronization and clarity in generated speech."
+    },
+    "key_innovation": "Implementing dual contrastive aligning to ensure precise lip movement synchronization with phoneme sequences derived from LLM, thereby enhancing the dubbing experience.",
+    "real_world_impact": "The proposed method could greatly improve the quality of automated movie dubbing, making it more viable for film production and personalized audio-visual applications. No immediate real-world impact.",
+    "limitations": "The paper does not explicitly detail any limitations.",
+    "new_terms": {
+        "Dual Contrastive Aligning": "**Dual Contrastive Aligning** refers to a technique that simultaneously aligns two different modalities (in this case, lip motion and phoneme sequences) to enhance synchronization accuracy."
+    },
+    "open_sourcing": "Demos are available at https://galaxycong.github.io/LLM-Flow-Dubber/"
+}

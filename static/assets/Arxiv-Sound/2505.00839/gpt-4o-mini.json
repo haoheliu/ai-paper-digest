@@ -1,0 +1,22 @@
+{
+    "title": "SMSAT: A Multimodal Acoustic Dataset and Deep Contrastive Learning Framework for Affective and Physiological Modeling of Spiritual Meditation",
+    "author": "Ahmad Suleman (AITeC, National Center for Physics, Pakistan), Yazeed Alkhrijah (Department of Electrical Engineering, Imam Mohammad ibn Saud Islamic University, Saudi Arabia), Misha Urooj Khan (CERN, Switzerland), Hareem Khan (University of Engineering, Taxila), Muhammad Abdullah Husnain Ali Faiz (University of Engineering, Taxila), Mohamad A. Alawad (Department of Electrical Engineering, Imam Mohammad ibn Saud Islamic University, Saudi Arabia), Zeeshan Kaleem (King Fahd University of Petroleum & Minerals, Saudi Arabia), Guan Gui (Nanjing University of Posts and Telecommunications, China)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The study presents a novel dataset and deep learning framework that could be leveraged for affective computing tasks relevant to audio processing, which aligns with Dr. Liu's interests in audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research analyzes the impact of different auditory stimuli on emotional and physiological states using a newly created dataset and a deep learning model.",
+    "contribution": "This paper introduces the SMSAT dataset and a contrastive learning-based architecture to analyze affective states during spiritual meditation, achieving 99.99% accuracy in classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing models show classification accuracies up to 90%, often lacking in dataset diversity and multimodality.",
+        "novelty": "This work improves upon them by providing a multimodal dataset and a robust contrastive learning framework that achieves higher accuracy."
+    },
+    "key_innovation": "The integration of physiological data with auditory stimuli to predict affective states using a self-supervised contrastive learning approach.",
+    "real_world_impact": "This research has significant implications for developing mental health applications, potentially improving therapeutic audio interventions for stress reduction.",
+    "limitations": "The dataset might not include all relevant demographic variations or tackle all auditory contexts.",
+    "new_terms": {
+        "Spiritual Meditation (SM)": "**Spiritual Meditation (SM)** involves various techniques that promote relaxation, emotional well-being, and mindfulness, often through engaging with spiritual or philosophical content.",
+        "Contrastive Learning": "**Contrastive Learning** is a self-supervised learning approach where models learn to differentiate between similar and dissimilar data points without needing labeled data."
+    },
+    "open_sourcing": "The source code and dataset are publicly available at https://www.kaggle.com/datasets/crdkhan/qmsat-dataset."
+}

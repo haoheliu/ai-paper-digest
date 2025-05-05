@@ -1,0 +1,22 @@
+{
+    "title": "HOW MUCH TO DEREVERBERATE? LOW-LATENCY SINGLE-CHANNEL SPEECH ENHANCEMENT IN DISTANT MICROPHONE SCENARIOS",
+    "author": "Satvik Venkatesh (L-Acoustics), Philip Coleman (L-Acoustics), Arthur Benilov (L-Acoustics), Simon Brown (L-Acoustics), Selim Sheta (L-Acoustics), Frederic Roskam (L-Acoustics), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The study's focus on speech enhancement techniques, particularly dereverberation for distant microphone scenarios, aligns closely with my research interest in audio restoration and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper investigates techniques for enhancing speech quality and intelligibility captured via distant microphones in large reverberant environments like conference rooms and theaters.",
+    "contribution": "This paper introduces a method for real-time single-channel speech enhancement in distant microphone settings, achieving significant improvements in intelligibility and quality compared to traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically address small-room settings or short microphone distances, leading to suboptimal performance in larger spaces.",
+        "novelty": "This work incorporates volume-based reverberation time sampling and adaptive impulse response shaping, enabling effective dereverberation in challenging environments."
+    },
+    "key_innovation": "It uniquely simulates room acoustics by considering room volume and reverberation time to generate more realistic training data for speech enhancement models.",
+    "real_world_impact": "The methods proposed have practical applications in environments like lectures and performances, enhancing audience experience by improving speech clarity and reducing background noise effects.",
+    "limitations": "The paper does not explicitly mention any limitations but may face challenges in generalizing to various acoustic environments beyond those studied.",
+    "new_terms": {
+        "dereverberation": "**Dereverberation** refers to the process of reducing reverberation, or the persistence of sound in an environment, to improve speech clarity.",
+        "reverberation time (T60)": "**Reverberation time (T60)** is the time it takes for a sound to decay by 60 dB in a space, influencing how echo and clarity are perceived."
+    },
+    "open_sourcing": ""
+}

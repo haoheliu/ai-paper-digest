@@ -1,0 +1,22 @@
+{
+    "title": "GVPT \u2013 A software for guided visual pitch tracking",
+    "author": "Hyunjin Cho (University of Iowa), Farhad Tabasi (University of Iowa Health Care), Jeremy D. Greenlee (Iowa Neuroscience Institute), Rahul Singh (University of Iowa), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "GVPT provides real-time visual feedback for pitch control, which is crucial for developing new methodologies in audio generation and speech synthesis, areas directly related to Haohe Liu's research on audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "GVPT facilitates the tracking and adjustment of voice pitch in real time during speech training, allowing subjects to visualize and modify their vocal pitch to meet specific targets.",
+    "contribution": "GVPT introduces a comprehensive software tool for guided visual pitch tracking to solve challenges in pitch control during voice training, achieving real-time audiovisual feedback for participants.",
+    "technical_comparison": {
+        "prior_work": "Previous pitch tracking tools often lacked real-time feedback or modularity in tasks, making them less flexible.",
+        "novelty": "GVPT improves by offering adjustable parameters, customizable feedback styles, and dynamic task management, making it adaptable to varied experimental conditions."
+    },
+    "key_innovation": "Integrates multiple visual guidance styles and real-time feedback mechanisms to enhance pitch control learning in subjects.",
+    "real_world_impact": "The software has potential applications in clinical settings for speech disorders, facilitating innovative training techniques and improving outcomes for patients with pitch regulation issues.",
+    "limitations": "No limitations mentioned.",
+    "new_terms": {
+        "transistor-transistor logic (TTL)": "**Transistor-Transistor Logic** refers to a class of digital circuits built from bipolar junction transistors (BJTs) and resistors that enables precise timing and synchronization in data collection systems.",
+        "YIN fundamental frequency estimator": "**YIN fundamental frequency estimator** is an algorithm used for pitch detection in audio signals, notable for its accuracy and efficiency in real-time applications."
+    },
+    "open_sourcing": "GVPT is freely available for download as a Windows executable file."
+}

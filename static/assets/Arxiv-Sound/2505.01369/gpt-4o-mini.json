@@ -1,0 +1,22 @@
+{
+    "title": "BINAMIX - A PYTHON LIBRARY FOR GENERATING BINAURAL AUDIO DATASETS",
+    "author": "Dan Barry (University College Dublin), Davoud Shariat Panah (University College Dublin), Alessandro Ragano (University College Dublin), Jan Skoglund (Google LLC), Andrew Hines (University College Dublin), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The library facilitates the generation of binaural audio datasets, which can directly aid Haohe Liu's work in speech, audio, and music processing, particularly in dataset creation for training models.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating binaural audio datasets for testing and validation, which is essential for research and development in spatial audio.",
+    "contribution": "BINAMIX introduces a flexible framework for binaural audio dataset generation, solving the issue of limited access and high costs in creating spatial audio datasets, achieving reproducible methodologies in spatial audio.",
+    "technical_comparison": {
+        "prior_work": "Existing binaural rendering tools do not offer robust mixing capabilities and integration with datasets like SADIE II.",
+        "novelty": "This library combines binaural mixing, interpolation of Head Related Impulse Responses, and multi-track support into a single, open-source framework."
+    },
+    "key_innovation": "The use of modified Delaunay triangulation for precise interpolation of sampling points and support for various speaker layouts.",
+    "real_world_impact": "The library can greatly enhance research and development in spatial audio technologies, leading to improved audio experiences in virtual and immersive environments.",
+    "limitations": "Plans to add multichannel reverb and support for dynamic source movement, which are not currently implemented.",
+    "new_terms": {
+        "Head Related Impulse Response (HRIR)": "**HRIR** characterizes how an ear receives a sound from a specific point in space, essential for creating accurate spatial audio.",
+        "Binaural Room Impulse Response (BRIR)": "**BRIR** is a spatial audio measurement that captures how sound interacts with a specific environment before reaching the listener's ear."
+    },
+    "open_sourcing": "The library is released under the Apache 2.0 License at https://github.com/QxLabIreland/Binamix/"
+}
