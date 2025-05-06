@@ -1,0 +1,22 @@
+{
+    "title": "Low-Complexity Acoustic Scene Classification with Device Information in the DCASE 2025 Challenge",
+    "author": "Florian Schmid (Institute of Computational Perception, Johannes Kepler University Linz), Paul Primus (Institute of Computational Perception, Johannes Kepler University Linz), Toni Heittola (Computing Sciences, Tampere University), Annamaria Mesaros (Computing Sciences, Tampere University), Irene Mart\u00edn-Morato (Computing Sciences, Tampere University), Gerhard Widmer (Institute of Computational Perception, Johannes Kepler University Linz), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The framework for incorporating device information can enhance audio processing applications, particularly in context-aware models for speech and music synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "Acoustic Scene Classification involves identifying the environment type of recorded sounds, such as public places, using short audio excerpts.",
+    "contribution": "This paper introduces a method for integrating device-specific characteristics into acoustic scene classification, enhancing model performance by 1.17% when using device information.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on device generalization without integrating device characteristics at inference, limiting model adaptability.",
+        "novelty": "This work improves the approach by explicitly allowing the use of device information during inference, facilitating device-specific model adaptation."
+    },
+    "key_innovation": "The use of device information at inference time enables specialized model adaptation, reflecting realistic deployment in variable environments.",
+    "real_world_impact": "The findings can significantly improve the deployment of acoustic scene classification systems in mobile and embedded devices, making them more robust and accurate in diverse real-world situations.",
+    "limitations": "The paper does not address potential performance impacts of device-specific modeling on completely new devices.",
+    "new_terms": {
+        "acoustic scene classification": "**Acoustic Scene Classification** refers to the process of classifying audio recordings based on the environment from which they originate.",
+        "device-specific models": "**Device-specific models** are machine learning models that are tailored to utilize characteristics of the specific recording devices used to gather the training data."
+    },
+    "open_sourcing": "Source Code: https://github.com/CPJKU/dcase2025"
+}

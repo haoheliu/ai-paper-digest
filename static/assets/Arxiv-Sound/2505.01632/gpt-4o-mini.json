@@ -1,0 +1,22 @@
+{
+    "title": "Transfer Learning-Based Deep Residual Learning for Speech Recognition in Clean and Noisy Environments",
+    "author": "Noussaiba Djeffal (University of Sciences and Technology, USTHB), Hamza Kheddar (University of MEDEA), Djamel Addou (University of Sciences and Technology, USTHB), Sid Ahmed Selouani (University of Moncton), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper presents a novel approach in enhancing speech recognition systems that could directly inform Dr. Liu's work on audio and speech processing, particularly in understanding the robustness of models in noisy environments.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses automatic speech recognition (ASR) performance degradation caused by non-stationary environmental noise, proposing a deep learning model that improves recognition across various conditions.",
+    "contribution": "This paper introduces a transfer learning framework using a Residual neural network (ResNet) for speech recognition in both clean and noisy environments, achieving significant accuracy improvements.",
+    "technical_comparison": {
+        "prior_work": "Previous speech recognition systems suffered from significant performance drops in noisy settings and often utilized basic convolutional models.",
+        "novelty": "This work enhances performance by employing a transfer learning approach with ResNet, which uses residual connections to maintain high accuracy even in challenging acoustic conditions."
+    },
+    "key_innovation": "Integrates a robust feature extraction frontend within an ASR framework, leveraging transfer learning from a pre-trained ResNet to enhance robustness against noise.",
+    "real_world_impact": "The advancements made could encourage further usage of deep learning techniques in ubiquitous speech recognition applications, particularly in consumer electronics where noisy environments are common.",
+    "limitations": "No specific limitations of the proposed model were mentioned in the paper.",
+    "new_terms": {
+        "Residual neural network (ResNet)": "**Residual neural network (ResNet)** is a type of deep learning architecture that incorporates skip connections to enable training of deeper networks without suffering from vanishing gradient problems.",
+        "Noise Robustness": "**Noise robustness** refers to the ability of a system, especially ASR systems, to perform accurately despite the presence of external noise in the audio input."
+    },
+    "open_sourcing": ""
+}

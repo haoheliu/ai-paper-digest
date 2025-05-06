@@ -1,0 +1,23 @@
+{
+    "title": "MaskClip: Detachable Clip-on Piezoelectric Sensing of Mask Surface Vibrations for Real-time Noise-Robust Speech Input",
+    "author": "Hirotaka Hiraki (The University of Tokyo), Jun Rekimoto (The University of Tokyo), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The innovative use of piezoelectric sensing for speech recognition could inspire new approaches to audio signal processing in various applications, including speech enhancement for healthcare and industrial environments.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a device that captures speech effectively while wearing a mask by detecting vibrations on the mask surface, aiming to improve speech recognition in noisy environments.",
+    "contribution": "This paper introduces MaskClip, a detachable piezoelectric sensor device to solve the challenge of clear speech recognition while wearing masks, achieving a Character Error Rate of 6.1% in noisy conditions.",
+    "technical_comparison": {
+        "prior_work": "Existing solutions often rely on computational resources or direct skin contact, making them less effective in maintaining hygiene and performance in noisy settings.",
+        "novelty": "This work improves by utilizing mask surface vibrations through piezoelectric sensing, reducing noise interference without requiring skin contact."
+    },
+    "key_innovation": "The MaskClip leverages the piezoelectric effect to detect mask vibrations, providing a non-intrusive way to capture clear voice signals amid background noise.",
+    "real_world_impact": "The device has significant potential for use in medical settings, cleanrooms, and industrial environments, enhancing clarity in voice communication while maintaining necessary protective measures.",
+    "limitations": "The authors did not mention any specific limitations.",
+    "new_terms": {
+        "piezoelectric": "**Piezoelectric** refers to materials that generate an electric charge in response to mechanical stress, effectively transforming mechanical energy into electrical energy.",
+        "Character Error Rate (CER)": "**Character Error Rate (CER)** is a metric commonly used to evaluate speech recognition systems by measuring the number of incorrectly recognized characters relative to the total number of characters.",
+        "detachable clip-on design": "**Detachable clip-on design** refers to a design where the device can be easily attached and removed without altering the integrity or hygiene of the mask."
+    },
+    "open_sourcing": ""
+}

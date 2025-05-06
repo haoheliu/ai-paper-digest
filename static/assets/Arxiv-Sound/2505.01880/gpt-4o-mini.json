@@ -1,0 +1,22 @@
+{
+    "title": "Weakly-supervised Audio Temporal Forgery Localization via Progressive Audio-language Co-learning Network",
+    "author": "Junyan Wu (Sun Yat-sen University), Wenbo Xu (Sun Yat-sen University), Wei Lu (Sun Yat-sen University), Xiangyang Luo (Zhengzhou University), Rui Yang (Alibaba Group), Shize Guo (Zhengzhou University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This work introduces methods for weakly-supervised audio forgery localization, which could enhance existing techniques in audio processing, particularly in the context of generative music or speech synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "Audio temporal forgery localization identifies specific segments in audio that have been manipulated, utilizing weakly-supervised learning when detailed annotations are scarce.",
+    "contribution": "This paper introduces the Progressive Audio-language Co-learning Network (LOCO) to solve the problem of localization under weak supervision, achieving state-of-the-art performance across multiple datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for audio forgery localization require precise annotations, limiting their applicability in real-world scenarios where such data is hard to acquire.",
+        "novelty": "This work develops a co-learning framework that dynamically integrates audio features and language prompts to effectively address localization without full annotations."
+    },
+    "key_innovation": "The innovative use of audio-language co-learning and the progressive refinement strategy allows the method to adaptively learn relevant features from weak annotations.",
+    "real_world_impact": "This method has the potential to significantly enhance the detection of audio manipulation, contributing to security in applications like authentication and content creation.",
+    "limitations": "The paper does not address potential challenges in generalizing the approach to entirely new types of audio manipulations beyond those explored in the experiments.",
+    "new_terms": {
+        "weakly-supervised learning": "**Weakly-supervised learning** refers to training a model using incomplete or imprecise labels, rather than fully labeled data.",
+        "Progressive Audio-language Co-learning Network (LOCO)": "LOCO is a method developed to jointly learn from audio signals and language prompts to better identify manipulated audio segments."
+    },
+    "open_sourcing": "Code and pre-trained models are available at https://github/ItzJuny/LOCO"
+}

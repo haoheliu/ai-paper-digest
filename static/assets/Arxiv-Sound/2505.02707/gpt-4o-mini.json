@@ -1,0 +1,18 @@
+{
+    "title": "Voila: Voice-Language Foundation Models for Real-Time Autonomous Interaction and Voice Role-Play",
+    "author": "Yemin Shi (Maitrix.org), Yu Shu (Maitrix.org), Siwei Dong (Maitrix.org), Guangyi Liu (Maitrix.org), Jaward Sesay, Jingwen Li, and Zhiting Hu",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper introduces an end-to-end voice-language model, which could inspire the development of new audio generation methods and enhance text-to-audio generation approaches that Haohe Liu is exploring.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a voice AI agent that can engage in proactive and autonomous conversations, listening continuously while responding naturally and emotionally.",
+    "contribution": "Voila introduces a family of large audio-language foundation models to solve the limitations of traditional conversational AI systems, achieving low-latency and emotionally expressive interactions.",
+    "technical_comparison": "Previous methods relied on modular pipelines introducing significant latency and loss of vocal nuances. This work improves by employing an end-to-end architecture that enables full-duplex communication with rich vocal details.",
+    "key_innovation": "The model's ability to integrate voice and language seamlessly allows users to define speaker characteristics easily and supports wide-ranging audio applications without task-specific specialization.",
+    "real_world_impact": "Voila's innovations promise to enhance human-machine interactions profoundly, making AI more effective as a companion and assistant in practical applications across various sectors.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "full-duplex": "**Full-duplex** refers to the capability of a system to transmit and receive data simultaneously, allowing for more natural interaction that mimics human conversation."
+    },
+    "open_sourcing": "Voila is fully opensourced to support open research and accelerate progress."
+}

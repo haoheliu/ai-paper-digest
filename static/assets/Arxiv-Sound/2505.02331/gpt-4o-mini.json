@@ -1,0 +1,21 @@
+{
+    "title": "VAEmo: Efficient Representation Learning for Visual-Audio Emotion with Knowledge Injection",
+    "author": "Hao Cheng (Hefei University of Technology), Zhenzhen Hu (Hefei University of Technology), Zhiwei Zhao (Hefei University of Technology), Jia Li (Hefei University of Technology), Richang Hong (Hefei University of Technology), Yichao He (Hefei University of Technology), Meng Wang (Hefei University of Technology), ..., Jia Li (Hefei University of Technology)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The proposed method integrates audio and visual modalities for emotion recognition, which aligns with Haohe Liu's interests in machine learning for audio and audio-visual analysis. The model's efficiency could inform similar approaches in music generation and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Audio-visual emotion recognition aims to determine human emotions from audio and visual signals, providing a more nuanced understanding of affective states.",
+    "contribution": "VAEmo introduces a two-stage training paradigm with knowledge injection to solve the challenges in audio-visual emotion recognition, achieving state-of-the-art results in multiple emotional datasets while maintaining a compact architecture.",
+    "technical_comparison": {
+        "prior_work": "Previous methods either relied on separate encoders for audio and visual data or lacked explicit alignment of emotional semantics, often resulting in large models.",
+        "novelty": "This work improves by utilizing a unified encoder that captures cross-modal features effectively while incorporating detailed emotional descriptions from Multimodal Large Language Models (MLLMs)."
+    },
+    "key_innovation": "The framework's distinct two-stage approach enables meaningful emotion modeling through the targeted injection of knowledge without requiring extensive labeled data.",
+    "real_world_impact": "The advancements in emotion recognition can enhance interactive AI systems, enabling more empathetic user experiences in applications like virtual assistants or therapy tools.",
+    "limitations": "No",
+    "new_terms": {
+        "Multimodal Large Language Models (MLLMs)": "**Multimodal Large Language Models (MLLMs)** refer to models that can process and generate content from multiple modalities, such as text, audio, and visuals, thus enriching the semantic understanding needed for diverse applications."
+    },
+    "open_sourcing": "Source code and pre-trained models will be available at https://github.com/MSA-LMC/VAEmo"
+}
