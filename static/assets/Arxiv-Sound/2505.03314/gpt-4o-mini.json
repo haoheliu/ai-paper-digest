@@ -1,0 +1,22 @@
+{
+    "title": "Mamba-Diffusion Model with Learnable Wavelet for Controllable Symbolic Music Generation",
+    "author": "Jincheng Zhang (Centre for Digital Music Queen Mary University of London), Gyorgy Fazekas (Centre for Digital Music Queen Mary University of London), Charalampos Saitis (Centre for Digital Music Queen Mary University of London), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores controllable music generation using diffusion models, which could inform techniques for synthesizing and manipulating audio or music in Haohe's work on generative AI for music.",
+    "field": "Applications-Creative AI",
+    "background": "The task focuses on controllable symbolic music generation, aiming to create musical sequences conditioned on user-defined parameters such as chords, using advanced neural network architectures.",
+    "contribution": "This paper introduces a novel diffusion model combining a Transformer-Mamba block with a learnable wavelet transform to generate symbolic music while maintaining controllability over musical elements.",
+    "technical_comparison": {
+        "prior_work": "Existing models primarily targeted generic symbolic music generation using recurrent or standard neural architectures, limiting control over musical features.",
+        "novelty": "This paper significantly enhances controllability and generation quality through the innovative use of a hybrid Transformer-Mamba architecture and wavelet transforms for improved feature representations."
+    },
+    "key_innovation": "The integration of a learnable wavelet transform into a diffusion model framework allows for capturing intricate musical details while enabling user control over music generation inputs.",
+    "real_world_impact": "This work is likely to impact music composition tools, allowing broader user interaction with generative models in music, making it easier for composers to create personalized musical pieces.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "Mamba": "**Mamba** refers to a linear-time sequence modeling method that employs selective state spaces for improved efficiency in processing sequential data.",
+        "learnable wavelet transform": "**Learnable wavelet transform** allows for an adaptive decomposition of signals at multiple frequency scales, enhancing feature extraction capabilities in neural networks."
+    },
+    "open_sourcing": "The code is available at https://github.com/jinchengzhanggg/proffusion"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "BLAB: Brutally Long Audio Bench",
+    "author": "Orevaoghene Ahia (University of Washington), Martijn Bartelds (Stanford University), Kabir Ahuja (University of Washington), Hila Gonen (University of Washington), Valentin Hofmann (University of Washington), Siddhant Arora (Carnegie Mellon University), Shuyue Stella Li (University of Washington), Vishal Puttagunta (The Ohio State University), Mofetoluwa Adeyemi (University of Waterloo), Charishma Buchireddy (The Ohio State University), ..., Noah A. Smith (University of Washington)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The benchmark evaluates long-form audio processing, which could advance methodologies in Haohe Liu's work on audio-language modeling.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating long-form audio benchmarks to test audio language models on tasks like localization, emotion identification, and speaker counting.",
+    "contribution": "This paper introduces BLAB as a benchmark designed to assess audio models' capabilities on long audio samples, achieving more granular understanding in localization, counting, emotion, and duration estimation tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks focus largely on short audio clips, limiting model training to isolated utterances.",
+        "novelty": "BLAB utilizes extensive audio samples up to 2 hours, providing a deeper evaluation of models\u2019 capabilities relevant to real-world applications."
+    },
+    "key_innovation": "The benchmark tests audio models on intricate tasks across long-form content, enhancing the scope of evaluation beyond conventional short-duration metrics.",
+    "real_world_impact": "This research aims to improve the robustness of audio language models, enhancing their applicability across various domains such as media, entertainment, and accessibility technology.",
+    "limitations": "The models evaluated struggle significantly with longer durations and complex tasks, indicating the need for further research.",
+    "new_terms": {
+        "BLAB": "**Brutally Long Audio Bench** is a new benchmark for assessing the capabilities of audio language models on long-duration audio tasks.",
+        "localization tasks": "**Localization tasks** involve identifying specific segments within an audio file, including timestamps for events."
+    },
+    "open_sourcing": "Data and code are available at https://github.com/orevaahia/brutally_long_audio_bench"
+}

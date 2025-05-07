@@ -1,0 +1,21 @@
+{
+    "title": "The Inverse Drum Machine: Source Separation Through Joint Transcription and Analysis-by-Synthesis",
+    "author": "Bernardo Torres (T\u00e9l\u00e9com Paris), Geoffroy Peeters (T\u00e9l\u00e9com Paris), Ga\u00ebl Richard (T\u00e9l\u00e9com Paris), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores innovations in drum source separation, an area that overlaps with Haohe Liu's interests in audio processing. The use of joint transcription and synthesis methods could inform future projects on audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on separating individual drum sounds from a mixed audio recording using only transcription data, eliminating the need for separate stem recordings.",
+    "contribution": "This paper introduces a novel analysis-by-synthesis framework for drum source separation, achieving results comparable to supervised methods that require isolated recordings.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on supervised training using isolated stem recordings or traditional matrix factorization techniques that have limited adaptability.",
+        "novelty": "The proposed method leverages deep learning within an unsupervised framework, allowing for effective separation from mixed recordings without needing isolated tracks."
+    },
+    "key_innovation": "The integration of automatic drum transcription with one-shot sample synthesis within a multitask learning framework is a unique approach that enhances separation quality.",
+    "real_world_impact": "This work enables greater flexibility and efficiency in music production, opening pathways for innovative applications in remixing and educational tools. It may also assist musicians with less access to isolated recordings.",
+    "limitations": "The approach may struggle with instruments that require more complex temporal characteristics, such as cymbals and hi-hats, due to fixed one-shot sample durations.",
+    "new_terms": {
+        "analysis-by-synthesis": "**Analysis-by-synthesis** is an approach in signal processing where models first analyze an audio signal to derive its features and then use those features to synthesize audio, typically for purposes such as separation or enhancement."
+    },
+    "open_sourcing": "https://github.com/bernardo-torres/inverse-drum-machine"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "A study on audio synchronous steganography detection and distributed guide inference model based on sliding spectral features and intelligent inference drive",
+    "author": "Wei Meng (Dhurakij Pundit University), ..., Wei Meng (PCBM,Sasin School of Management of Chulalongkorn University)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper explores detection methods for synced steganography in audio streams, which could enhance methods for audio preservation and quality restoration tasks in Haohe Liu's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting hidden messages in audio streams, particularly in the context of military communication on public platforms.",
+    "contribution": "This paper introduces a model that combines sliding window spectral feature extraction with intelligent inference to detect and decode synchronized steganographic signals in audio.",
+    "technical_comparison": "Previous methods primarily relied on static analyses or simple detection techniques, which often failed against dynamic and complex audio environments. This work improves detection accuracy by implementing real-time sliding spectral analysis and deep learning models.",
+    "key_innovation": "The integration of sliding spectral feature extraction with an intelligent inference framework allows for high-resolution detection and decoding in streaming audio.",
+    "real_world_impact": "The method could provide significant advancements in audio security, particularly in preventing covert military communications on popular platforms.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "synchronous steganography": "**Synchronous steganography** is a method of hiding information in a continuous stream, maintaining stability in the frequency modulation to avoid detection.",
+        "short-time Fourier transform (STFT)": "**Short-time Fourier transform (STFT)** is a mathematical technique to analyze the frequency spectrum of signals over short time windows, useful in audio processing."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Knowledge Distillation for Speech Denoising by Latent Representation Alignment with Cosine Distance",
+    "author": "Diep Luong (Tampere University, Nokia Technologies), Konstantinos Drossos (Nokia Technologies), Mikko Heikkinen (Nokia Technologies), ..., Tuomas Virtanen (Tampere University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed method of knowledge distillation for speech denoising through latent representation alignment can enhance Haohe Liu's existing work in speech restoration and audio quality enhancement, fitting into his interest in utilizing deep learning for audio tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Knowledge distillation techniques are used to transfer knowledge from a complex model (teacher) to a simpler model (student) for effective speech denoising while accommodating various dimensional mismatches.",
+    "contribution": "This paper introduces a refined knowledge distillation method that aligns latent representations using cosine distance, enabling greater model efficiency in speech denoising applications.",
+    "technical_comparison": {
+        "prior_work": "Existing methods struggle with dimensional mismatches and rely heavily on numerical balancing of loss functions, often reducing robustness and requiring careful tuning.",
+        "novelty": "This work utilizes cosine distance for model output alignment, mitigating issues related to distribution matching and allowing for flexible model architecture."
+    },
+    "key_innovation": "The method leverages cosine similarity for aligning latent features, facilitating an effective transfer of knowledge without strict dimensional constraints while maintaining model performance.",
+    "real_world_impact": "Improvements in speech denoising models can significantly enhance user experiences in low-resource audio processing applications, including hearing aids and mobile devices.",
+    "limitations": "The proposed method may have conflicting objectives in integrating training processes, potentially limiting its effectiveness in feature extraction from the teacher model.",
+    "new_terms": {
+        "cosine distance": "**Cosine distance** is a metric that measures the cosine of the angle between two non-zero vectors in inner product space, assessing their orientation rather than magnitude.",
+        "latent representation": "**Latent representation** refers to a compressed version of data that captures essential characteristics without redundancy, often used in neural network architectures."
+    },
+    "open_sourcing": ""
+}

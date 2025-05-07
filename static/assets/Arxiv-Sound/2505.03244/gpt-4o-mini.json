@@ -1,0 +1,21 @@
+{
+    "title": "SONICRAG : HIGH FIDELITY SOUND EFFECTS SYNTHESIS BASED ON RETRIEVAL AUGMENTED GENERATION",
+    "author": "Yu-Ren Guo (National Taiwan University of Science and Technology), Wen-Kai Tai (National Taiwan University of Science and Technology), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents a novel framework combining large language models with audio synthesis, directly aligning with Haohe Liu's work in audio generation and modeling. It discusses techniques that could enhance audio synthesis tasks and the interaction of language models with audio assets.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves synthesizing high-fidelity sound effects by leveraging retrieval-augmented generation methods and existing sound effect databases.",
+    "contribution": "This paper introduces SonicRAG to solve the limitations in high-fidelity audio synthesis, achieving improved sound effect generation with a context-aware retrieval mechanism.",
+    "technical_comparison": {
+        "prior_work": "Existing methods struggle with high-quality audio and require extensive annotated datasets, leading to a lack of flexibility in sound design.",
+        "novelty": "This work improves by integrating retrieval-augmented generation with a small set of quality sound effects, enhancing both diversity and quality without the need for extensive recording."
+    },
+    "key_innovation": "The unique combination of retrieval-augmented generation with a user-friendly scripting language for audio synthesis simplifies complex sound manipulation tasks.",
+    "real_world_impact": "SonicRAG has the potential to significantly streamline sound design workflows in film and gaming industries, allowing designers to create high-quality sound effects more efficiently.",
+    "limitations": "The framework relies on existing relational audio files, which may restrict its general applicability to users without extensive libraries.",
+    "new_terms": {
+        "Retrieval-Augmented Generation": "**Retrieval-Augmented Generation** refers to a method that combines generative models with retrieval techniques to enhance output quality by retrieving relevant data during generation."
+    },
+    "open_sourcing": ""
+}

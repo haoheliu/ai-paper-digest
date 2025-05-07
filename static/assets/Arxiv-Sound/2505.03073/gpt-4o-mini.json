@@ -1,0 +1,21 @@
+{
+    "title": "Coupling the Heart to Musical Machines",
+    "author": "Eric Easthope (University of British Columbia)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper explores biofeedback control via heart rate, which could inform techniques for audio generation and manipulation, particularly in creating responses that align with human physiological signals.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper investigates using heart rate as a control mechanism in musical performance through a biofeedback loop involving the heartbeat and audio playback.",
+    "contribution": "This work introduces a novel photoplethysmogram-based controller to manipulate sound in real-time by varying audio playback tempo according to heart rate.",
+    "technical_comparison": {
+        "prior_work": "Previous systems primarily used breath as a control input for musical interfaces, which limits the range of physiological signals exploited.",
+        "novelty": "This research extends the biofeedback paradigm to include heart rate, enabling more intimate and responsive audio control mechanisms."
+    },
+    "key_innovation": "The integration of heart rate feedback to dynamically adjust audio tempo in a real-time musical context introduces a fresh perspective on human-computer interaction.",
+    "real_world_impact": "This controller could be useful in therapeutic music applications and interactive installations, enhancing user engagement and emotional response through music.",
+    "limitations": "The paper does not extensively address the impact of real-world variability in heart rates or the physiological differences among users.",
+    "new_terms": {
+        "photoplethysmogram": "**Photoplethysmogram (PPG)** is a non-invasive method used to detect blood volume changes in the microvascular bed of tissue, often used for monitoring heart rate."
+    },
+    "open_sourcing": ""
+}
