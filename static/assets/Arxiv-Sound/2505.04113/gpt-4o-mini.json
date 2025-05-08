@@ -1,0 +1,22 @@
+{
+    "title": "Advancing Zero-shot Text-to-Speech Intelligibility across Diverse Domains via Preference Alignment",
+    "author": "Xueyao Zhang (The Chinese University of Hong Kong, Shenzhen), Yuancheng Wang (The Chinese University of Hong Kong, Shenzhen), Chaoren Wang (The Chinese University of Hong Kong, Shenzhen), Ziniu Li (The Chinese University of Hong Kong, Shenzhen), Zhuo Chen (ByteDance Seed), Zhizheng Wu (The Chinese University of Hong Kong, Shenzhen), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores zero-shot text-to-speech (TTS) intelligibility across various challenging domains, directly related to Dr. Liu's work in speech generation and restoration. Insights from preference alignment and dataset construction methodologies could enhance the robustness of audio generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses intelligibility issues in zero-shot text-to-speech systems, particularly in cases where articulatory difficulty and language switching occur.",
+    "contribution": "This paper introduces the Intelligibility Preference Speech Dataset (INTP) and preference alignment techniques to improve TTS intelligibility in challenging scenarios, demonstrating significant improvements in performance.",
+    "technical_comparison": {
+        "prior_work": "Previous TTS methods suffered from poor intelligibility in complex scenarios due to data limitations and architecture-specific issues.",
+        "novelty": "The study proposes a broader and more diverse dataset along with a preference alignment framework that adapts across different TTS architectures, facilitating targeted improvements."
+    },
+    "key_innovation": "Utilizes a preference alignment framework that combines human feedback and multiple TTS models to optimally enhance synthesized speech intelligibility across diverse domains.",
+    "real_world_impact": "This approach has the potential to significantly enhance real-world applications of TTS systems, making them more reliable for users across various contexts, particularly for non-native speakers and multilingual scenarios.",
+    "limitations": "The dataset may not fully capture all edge cases, such as specialized jargon or low-resource languages, which could limit generalizability.",
+    "new_terms": {
+        "preference alignment": "**Preference alignment** is a method that optimizes model performance by aligning generated outputs with user preferences, typically sourced from human feedback or comparative analysis.",
+        "zero-shot TTS": "**Zero-shot text-to-speech (TTS)** refers to the ability of a TTS model to generate speech without explicit training on the specific target language or speech style presented during inference."
+    },
+    "open_sourcing": "All resources used in this study will be open-sourced at Amphion."
+}

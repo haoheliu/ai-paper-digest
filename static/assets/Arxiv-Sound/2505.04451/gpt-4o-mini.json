@@ -1,0 +1,21 @@
+{
+    "title": "Automatic Music Transcription using Convolutional Neural Networks and Constant-Q transform",
+    "author": "Yohannis Telila (Universit\u00e0 di Pisa), Tommaso Cucinotta (Scuola Superiore Sant'Anna), Davide Bacciu (Universit\u00e0 di Pisa), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The paper applies convolutional neural networks and constant-Q transforms to automatic music transcription, techniques that could enhance Haohe Liu's research on audio processing, particularly in music source separation and text-to-audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automatic music transcription involves analyzing audio recordings of musical pieces to detect notes played, which is particularly challenging with polyphonic music.",
+    "contribution": "This paper introduces a holistic architecture for automatic music transcription using convolutional neural networks and constant-Q transforms, achieving high accuracy in note detection.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized non-negative matrix factorization and various neural network architectures but faced challenges with polyphony and noise.",
+        "novelty": "This work improves note detection by using a convolutional neural network architecture to analyze time-frequency representations of audio signals."
+    },
+    "key_innovation": "Employs a unique combination of constant-Q transforms for feature extraction and a holistic CNN architecture for simultaneous multi-pitch detection.",
+    "real_world_impact": "The proposed system can significantly aid musicians by automating the transcription process, making music composition and sharing more accessible.",
+    "limitations": "The research is based on synthetic data, which may not fully capture the complexities of real-world audio.",
+    "new_terms": {
+        "Constant-Q transform": "**Constant-Q transform** is a time-frequency representation that maintains a constant frequency resolution across scales, making it particularly suitable for music analysis."
+    },
+    "open_sourcing": ""
+}

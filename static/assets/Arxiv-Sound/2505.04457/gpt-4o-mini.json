@@ -1,0 +1,21 @@
+{
+    "title": "Miipher-2: A Universal Speech Restoration Model for Million-Hour Scale Data Restoration",
+    "author": "Shigeki Karita (Google DeepMind), Yuma Koizumi (Google DeepMind), Heiga Zen (Google DeepMind), Haruko Ishikawa (Google DeepMind), Robin Scheibler (Google DeepMind), Michiel Bacchiani (Google DeepMind), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper addresses significant challenges in speech restoration and directly contributes to improving audio quality, which aligns closely with Haohe Liu's research in speech and audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speech restoration aims to enhance degraded audio signals to high-quality versions, important for applications such as training data cleaning for speech synthesizers.",
+    "contribution": "This paper introduces Miipher-2 to solve the problem of cleaning large-scale noisy speech datasets, achieving superior performance in restoration quality across multiple languages.",
+    "technical_comparison": {
+        "prior_work": "Existing models typically require explicit conditioning or are less efficient on unseen languages and large datasets.",
+        "novelty": "This work utilizes a frozen Universal Speech Model for feature extraction and employs parallel adapters for improved efficiency and scalability without external conditioning."
+    },
+    "key_innovation": "Combines a frozen, pre-trained model with an efficient architecture to perform speech restoration without requiring additional contextual information, enabling applicability to low-resource languages.",
+    "real_world_impact": "The proposed system can significantly enhance the quality of public speech datasets, benefiting various applications including text-to-speech synthesis and improving ASR systems. Its efficient processing makes large-scale implementation feasible.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Universal Speech Model": "**Universal Speech Model** is a self-supervised learning model pre-trained on diverse data across multiple languages, used here for enhanced feature extraction in speech restoration."
+    },
+    "open_sourcing": ""
+}

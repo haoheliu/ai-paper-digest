@@ -1,0 +1,22 @@
+{
+    "title": "Aliasing Reduction in Neural Amp Modeling by Smoothing Activations",
+    "author": "Ryota Sato (Stanford University), Julius O. Smith III (Stanford University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper investigates activation functions' impact on aliasing reduction in neural amp modeling. This could be directly applicable for improving audio generation models and enhancing quality in Haohe Liu's research involving audio and music processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on reducing aliasing artifacts in neural network-based audio modeling for guitar amplifiers by using modified activation functions.",
+    "contribution": "This paper introduces the Aliasing-to-Signal Ratio (ASR) to assess aliasing in neural amp models, achieving lower aliasing levels without significantly impacting waveform accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in neural amp modeling struggled with aliasing artifacts due to nonlinear activation functions, generally requiring extensive parameter tuning.",
+        "novelty": "This work improves by introducing smoother activation functions that manage aliasing and leverage the new ASR metric for evaluation."
+    },
+    "key_innovation": "Smoothing activation functions while maintaining a balance between waveform accuracy and aliasing reduction makes the method distinctive.",
+    "real_world_impact": "Enhancements in aliasing reduction could lead to clearer and more realistic sound recreations in digital audio applications, broadening user experience in music production.",
+    "limitations": "No limitations were explicitly mentioned in the study.",
+    "new_terms": {
+        "Aliasing-to-Signal Ratio (ASR)": "**Aliasing-to-Signal Ratio (ASR)** is a quantitative measure introduced to capture the proportion of energy in a signal that arises from aliasing artifacts compared to the total harmonic energy.",
+        "Error-to-Signal Ratio (ESR)": "**Error-to-Signal Ratio (ESR)** refers to a metric that evaluates the accuracy of neural models by comparing the output signal to target signals."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Accelerating Audio Research with Robotic Dummy Heads",
+    "author": "Austin Lu (University of Illinois Urbana-Champaign), Kanad Sarkar (University of Illinois Urbana-Champaign), Yongjie Zhuang (Stony Brook University), Leo Lin (University of Illinois Urbana-Champaign), Ryan M. Corey (University of Illinois Chicago), Andrew C. Singer (Stony Brook University), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The robotic dummy head can be utilized for generating controlled audio datasets and simulating human sound sources, which aligns with Dr. Liu's focus on audio generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study introduces a robotic acoustic dummy head designed to automate and improve the realism of audio experiments, simulating various speaking and listening scenarios.",
+    "contribution": "This paper introduces a robotic dummy head to solve the limitations of traditional audio research tools, achieving realistic sound generation with the ability to move and record simultaneously.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized static loudspeakers or expensive mannequins that lacked mobility and generated unwanted motor noise.",
+        "novelty": "This work utilizes a quiet motorized platform for realistic movement without detrimental noise interference."
+    },
+    "key_innovation": "Integrates a low-noise stepper motor into a 3D printed dummy head, enabling realistic, repeatable audio experiments in dynamic scenarios.",
+    "real_world_impact": "This tool has the potential to enhance the efficiency of audio research and facilitate the development of advanced audio processing systems, impacting various applications in speech enhancement and source separation.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "head-related transfer function (HRTF)": "**Head-related transfer function (HRTF)** refers to the response of an individual's ears to sound arriving from different directions, critical for spatial audio processing.",
+        "interaural level difference (ILD)": "**Interaural level difference (ILD)** is the difference in sound level reaching each ear, which helps in localizing sound sources."
+    },
+    "open_sourcing": "Design files are provided as open-source on GitHub."
+}
