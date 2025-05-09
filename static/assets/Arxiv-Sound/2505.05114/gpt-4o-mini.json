@@ -1,0 +1,22 @@
+{
+    "title": "Listen to Extract: Onset-Prompted Target Speaker Extraction",
+    "author": "Pengjie Shen (Inner Mongolia University), Kangrui Chen (Southern University of Science and Technology), Shulin He (Inner Mongolia University), Pengru Chen (Southern University of Science and Technology), Shuqi Yuan (Southern University of Science and Technology), He Kong (Southern University of Science and Technology), Xueliang Zhang (Inner Mongolia University), Zhong-Qiu Wang (Southern University of Science and Technology)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed LExt method offers a novel approach to target speaker extraction that could inspire innovations in audio processing technologies relevant to Haohe Liu's research interests, particularly in text-to-audio generation and audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Target speaker extraction involves isolating the speech of a specific speaker from a mixture of voices in a noisy environment.",
+    "contribution": "This paper introduces LExt, a method that concatenates an enrollment utterance to a mixed signal, prompting neural networks to effectively extract the target speaker's voice.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically relied on fixed-length speaker embeddings for extraction, leading to less effective conditioning on recurrent features.",
+        "novelty": "This work improves upon those methods by seamlessly integrating an enrollment utterance at the waveform level, allowing for more dynamic and effective extraction of the target speaker's voice."
+    },
+    "key_innovation": "The unique aspect of LExt is the real-time concatenation of an enrollment utterance with the mixture signal, effectively creating an artificial onset for better extraction performance.",
+    "real_world_impact": "LExt could significantly improve applications such as speech recognition and personal assistants where clear target speaker extraction is critical. Its simplicity could lead to faster implementation in real-time systems.",
+    "limitations": "LExt requires the enrollment utterance to be used during inference, which increases computational demands and limits storage efficiency compared to fixed-length systems.",
+    "new_terms": {
+        "onset": "**Onset** refers to the moment when a sound begins, crucial for timing and extraction in speech separation tasks.",
+        "monaural": "**Monaural** refers to audio that is recorded or played back through a single channel, as opposed to stereo or multi-channel audio."
+    },
+    "open_sourcing": "See the demo at https://zqwang7.github.io/demos/LExt_demo/index.html"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "FLAM: Frame-Wise Language-Audio Modeling",
+    "author": "Yusong Wu (Adobe Research), Christos Tsirigotis (Mila - Quebec AI Institute), Ke Chen (Adobe Research), Cheng-Zhi Anna Huang (Massachusetts Institute of Technology), Aaron Courville (Mila - Quebec AI Institute), Oriol Nieto (Adobe Research), Prem Seetharaman (Adobe Research), Justin Salamon (Adobe Research)",
+    "quality": 9,
+    "relevance": 8,
+    "relevance_why": "The paper presents a novel approach to open-vocabulary sound event detection, which could enhance audio generation tasks where specific sound localizations in audio are required, directly applicable to my research in audio language modeling.",
+    "field": "Applications-Speech and Audio",
+    "background": "Frame-wise sound event detection aims to identify and localize the precise timing of various sound events within an audio clip based on text descriptions.",
+    "contribution": "FLAM introduces an open-vocabulary contrastive audio-language model to localize specific sound events in audio clips, achieving state-of-the-art performance on both open-vocabulary and closed-set sound event detection tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous models in the audio-language domain primarily focused on global audio-text alignment without localizing specific sound events in time.",
+        "novelty": "FLAM innovates by integrating frame-wise learning with logit adjustment techniques, addressing spurious correlations and enhancing the model's capability to classify events across variable frames."
+    },
+    "key_innovation": "The key innovation lies in its frame-level contrastive objective which allows for precise temporal localization of sound events, coupled with a scalable data augmentation strategy.",
+    "real_world_impact": "FLAM's advancements in sound event detection can significantly improve applications such as media indexing, content retrieval, and accessibility tools, potentially transforming user experiences across multimedia platforms.",
+    "limitations": "The training corpus, while extensive, could still be limited in diversity and scale, suggesting areas for future improvement.",
+    "new_terms": {
+        "logit adjustment": "**Logit adjustment** refers to modifying the output probabilities of a model by adding a bias term to correct for imbalances in training data, enhancing the model's calibration and robustness."
+    },
+    "open_sourcing": "The ASFX-SED dataset is publicly released for future benchmarking."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "ReverbMiipher: Generative Speech Restoration meets Reverberation Characteristics Controllability",
+    "author": "Wataru Nakata (Google DeepMind), Yuma Koizumi (Google DeepMind), Shigeki Karita (Google DeepMind), Robin Scheibler (Google DeepMind), Haruko Ishikawa (Google DeepMind), Adriana Guevara-Rukoz (Google), Heiga Zen (Google DeepMind), Michiel Bacchiani (Google DeepMind)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper explores generative speech restoration techniques, which align closely with Haohe Liu's research in voice restoration and quality enhancement. The ability to control reverberation could enhance existing restoration frameworks like VoiceFixer and improve sound quality in various contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of removing noise from speech while preserving and controlling reverberation, which is often considered undesirable noise in traditional contexts.",
+    "contribution": "ReverbMiipher introduces a new model for speech restoration that allows users to manipulate reverberation characteristics while effectively denoising speech, achieving improved sound fidelity.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for speech restoration typically focus on either denoising or reverberation removal, often leading to loss of spatial characteristics. This work improves by incorporating a dedicated ReverbEncoder that extracts and conditionally controls reverberation features.",
+        "novelty": "Unlike traditional two-stage speech enhancement systems, ReverbMiipher integrates reverberation control directly into the speech restoration process."
+    },
+    "key_innovation": "The model's ability to disentangle reverberation from other speech attributes and permit its manipulation offers unprecedented flexibility in audio processing.",
+    "real_world_impact": "This work could enhance speech quality in diverse applications like virtual reality, augmented reality, and telecommunication technologies by offering more immersive auditory experiences.",
+    "limitations": "The paper does not mention specific limitations or constraints of the proposed method.",
+    "new_terms": {
+        "Reverberation Encoder": "**ReverbEncoder** is a feature extraction module that encodes reverberation characteristics from a speech signal, enabling its manipulation during restoration."
+    },
+    "open_sourcing": "Speech samples can be accessed online at https://google.github.io/df-conformer/reverb_miipher/"
+}

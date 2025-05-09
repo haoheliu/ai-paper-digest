@@ -1,0 +1,22 @@
+{
+    "title": "Pairing Real-Time Piano Transcription with Symbol-Level Tracking for Precise and Robust Score Following",
+    "author": "Silvan D. Peter (Institute of Computational Perception, Johannes Kepler University), Patricia H U (Institute of Computational Perception, Johannes Kepler University), Gerhard Widmer (Institute of Computational Perception, Johannes Kepler University, LIT AI Lab, Linz Institute of Technology), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper offers a novel approach combining audio transcription with symbolic music tracking, which can enhance Haohe Liu's work in audio processing and machine learning methods applicable to music generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Score following involves recognizing the current position in a musical score during a performance, while ensuring precise alignment is maintained in real-time.",
+    "contribution": "This paper introduces a hybrid method that improves real-time music tracking by integrating audio-to-note transcription with a symbol-level tracker for enhanced precision and robustness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mostly employed audio-to-audio alignment techniques, which often plateau in performance and lack robustness in real-time applications.",
+        "novelty": "The proposed system shifts to a symbolic domain approach, leveraging transcription to compare musical notes as symbols, significantly enhancing tracking accuracy."
+    },
+    "key_innovation": "Utilizes both real-time audio transcription and symbol-level tracking to achieve robust and precise music score following even with imperfect transcription outputs.",
+    "real_world_impact": "This work can significantly improve applications like live music accompaniment, automatic score displays, and real-time music visualizations, enhancing user experiences in live performances.",
+    "limitations": "The system's performance is limited by the transcription model's latency and accuracy, which might affect real-time tracking in highly variable performances.",
+    "new_terms": {
+        "symbol-level tracking": "**Symbol-level tracking** refers to the process of aligning musical notes represented as symbols (like MIDI) rather than relying solely on raw audio input, allowing for finer control and adaptation to the score.",
+        "online time warping (OLTW)": "**Online time warping (OLTW)** is an algorithmic approach for aligning two time-dependent sequences in real-time, adjusting for shifts in tempo and timing."
+    },
+    "open_sourcing": ""
+}

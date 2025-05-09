@@ -1,0 +1,22 @@
+{
+    "title": "A Multi-Agent AI Framework for Immersive Audiobook Production through Spatial Audio and Neural Narration",
+    "author": "Arul Selvamani Shaja (Cisco Systems, Inc.), Nia D'Souza Ganapathy (Bombay International School), ..., ",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents advanced neural text-to-speech and spatial audio synthesis techniques that align closely with Haohe Liu's work on audio generation and restoration, particularly in terms of creating immersive audio experiences.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper explores the automation of audiobook production using a multi-agent framework that integrates deep learning models for speech generation and spatial sound design.",
+    "contribution": "This research introduces a multi-agent AI framework for audiobook production to solve the challenges of immersive storytelling, achieving enhanced audio realism and listener engagement.",
+    "technical_comparison": {
+        "prior_work": "Traditional audiobook production involves manual narration and sound design, often leading to high costs and lengthy production times.",
+        "novelty": "This work improves upon existing methods by automating narration with neural text-to-speech and dynamic spatial audio synthesis, significantly reducing production time and costs."
+    },
+    "key_innovation": "The unique integration of multiple AI agents specializing in various aspects of audiobook production allows for real-time, immersive audio experiences tailored to narrative content.",
+    "real_world_impact": "This framework could revolutionize the audiobook industry by making high-quality, immersive audiobooks accessible to a broader audience, including those with visual impairments.",
+    "limitations": "Limitations regarding computational complexity and scalability in diverse playback environments are acknowledged but not explicitly detailed.",
+    "new_terms": {
+        "higher-order ambisonics": "**Higher-order ambisonics** is an advanced spatial audio technique that enables 3D sound field representation and manipulation, allowing for immersive audio experiences.",
+        "Dynamic Time Warping (DTW)": "**Dynamic Time Warping** is an algorithm used to align sequences of audio or text that may vary in speed or timing, ensuring synchronization between narration and sound effects."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Inter - Diffusion Generation Model of Speakers and Listeners for Effective Communication",
+    "author": "Jinhe Huang (Nanjing Agriculture University), Gaoge Han (City University of Hong Kong), Yongkang Cheng (Nanjing Agriculture University), Jinwei Li (University of Chinese Academy of Sciences), Minghang Yu (Northwest A&F University), Jing Zhang (University of Chinese Academy of Sciences), Shilei Wang (Northwestern Polytechnical University), ..., Xingjian Gu (Nanjing Agriculture University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper offers insights into gesture generation, which can be related to human-level audio interaction, making it relevant for enhancing multimodal audio generation systems that integrate gestures with speech.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Generating full-body gestures for both speakers and listeners during communication to enhance interaction realism in virtual settings.",
+    "contribution": "This paper introduces the Inter-Diffusion Generation Model to solve the gap in listener gesture generation, achieving improved gesture naturalness and synchronization with speech.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused mainly on speaker gesture generation, ignoring listener interactions, which limits realism in virtual communication.",
+        "novelty": "This work improves by integrating listener gestures into a joint generation framework, allowing dynamic interaction and context-aware generation based on dialogue flow."
+    },
+    "key_innovation": "Incorporates gesture generation for both speakers and listeners using a novel inter-diffusion mechanism for enhanced interaction realism.",
+    "real_world_impact": "This model has potential applications in fields like virtual reality, gaming, and film, creating more immersive user experiences by simulating realistic human interactions.",
+    "limitations": "The model's reliance on traditional Markov-chain-based diffusion could hinder real-time application performance.",
+    "new_terms": {
+        "Inter-Diffusion Generation Model": "**Inter-Diffusion Generation Model** is a framework that simultaneously generates gestures for speakers and listeners by capturing their interactive dynamics during communication.",
+        "Fr\u00e9chet Gesture Distance (FGD)": "**Fr\u00e9chet Gesture Distance** is a metric used to quantify the similarity between generated gestures and real-world gestures by measuring the distance between their latent feature distributions."
+    },
+    "open_sourcing": ""
+}

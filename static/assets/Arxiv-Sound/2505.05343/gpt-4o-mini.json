@@ -1,0 +1,22 @@
+{
+    "title": "Hearing and Seeing Through CLIP: A Framework for Self-Supervised Sound Source Localization",
+    "author": "Sooyoung Park (School of Electrical Engineering, KAIST, South Korea), Arda Senocak (School of Electrical Engineering, KAIST, South Korea), Joon Son Chung (School of Electrical Engineering, KAIST, South Korea), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents a novel framework for sound source localization by leveraging multimodal models like CLIP, which could enhance Haohe Liu's work on audio-related tasks, especially in audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sound source localization refers to the capability to detect and locate sound-emitting objects within a visual scene by understanding the connections between audio and visual modalities.",
+    "contribution": "This paper introduces a self-supervised sound source localization method that utilizes CLIP's multimodal alignment without requiring explicit textual annotations, achieving strong performance in various localization tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing sound source localization methods often require explicit text inputs or annotations, which limits their generalization to real-world applications.",
+        "novelty": "This work improves upon prior methods by using an AudioTokenizer to generate audio-driven embeddings compatible with the CLIP model, facilitating audio-visual alignment without the need for textual data."
+    },
+    "key_innovation": "The introduction of the AudioTokenizer, which converts audio signals into tokens that can be processed by CLIP's text encoder, represents a unique approach to bridging audio and visual modalities.",
+    "real_world_impact": "This framework enhances sound localization capabilities in real-world scenarios where annotated data is often unavailable, potentially improving applications in robotics and multimedia processing.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "CLIP": "**Contrastive Language-Image Pretraining** is a model that aligns images and text in a shared representation space, facilitating flexible use across multiple modalities.",
+        "AudioTokenizer": "**AudioTokenizer** is a module that converts audio inputs into discrete embeddings, allowing them to be processed similarly to textual inputs in multimodal frameworks."
+    },
+    "open_sourcing": ""
+}

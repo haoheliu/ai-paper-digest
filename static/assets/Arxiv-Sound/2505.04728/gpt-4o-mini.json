@@ -1,0 +1,22 @@
+{
+    "title": "Data Standards in Audiology: A Mixed-Methods Exploration of Community Perspectives and Implementation Considerations",
+    "author": "Charlotte Vercammen (Sonova AG), Antje Heinrich (University of Manchester), Christophe Lesimple (Sonova AG), Alessia Paglialonga (CNR-IEIIT), Jan-Willem A. Wasmann (Radboud university medical center), Mareike Buhl (Universit\u00e9 Paris Cit\u00e9), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper discusses data standardization in audiology which is relevant for developing robust datasets for tasks such as audio quality enhancement and restoration in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The development and implementation of standardized data formats in audiology, which aims to enhance data sharing and interoperability across clinical and research settings.",
+    "contribution": "This paper introduces a mixed-methods approach to gather community perspectives on data standards in audiology, identifying key challenges and opportunities.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in audiology have lacked a consensus on data standardization, hindering interoperability and data sharing.",
+        "novelty": "This work combines quantitative survey data with qualitative expert insights to provide a comprehensive understanding of community needs and existing challenges."
+    },
+    "key_innovation": "Provides a community-centered approach to developing data standards, emphasizing the importance of stakeholder perspectives in shaping initiatives.",
+    "real_world_impact": "This research has the potential to improve the efficiency and effectiveness of hearing healthcare services by promoting better data integration and usability.",
+    "limitations": "No specific limitations mentioned.",
+    "new_terms": {
+        "interoperability": "**Interoperability** is the ability of different systems and organizations to work together (inter-operate), particularly in terms of technology and data standards.",
+        "FAIR principles": "**FAIR principles** stand for Findable, Accessible, Interoperable, and Reusable data, aimed at making data more usable and auditable."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "HOW TO INFER REPEAT STRUCTURES IN MIDI PERFORMANCES",
+    "author": "Silvan D. PETER (Institute of Computational Perception, Johannes Kepler University), Patricia HU (Institute of Computational Perception, Johannes Kepler University), Gerhard WIDMER (Institute of Computational Perception, Johannes Kepler University, LIT AI Lab, Linz Institute of Technology), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The method developed in this paper provides a framework for inferring musical structures in MIDI performances, which could enhance Haohe Liu's work in music processing and audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper presents a method for automatically inferring repeat structures in MIDI performances by aligning them with musical scores.",
+    "contribution": "This paper introduces an algorithm to infer repeat structures in MIDI performances, achieving high accuracy in aligning performance segments with scores.",
+    "technical_comparison": {
+        "prior_work": "Previous methods generally rely on manual annotation for aligning scores and performances, which is time-consuming and error-prone.",
+        "novelty": "This work automates the process using a local sequence alignment method combined with score-informed backtracking, thus improving efficiency and accuracy."
+    },
+    "key_innovation": "Combines local sequence alignment and backtracking informed by score structures to create a comprehensive framework for repeat structure analysis.",
+    "real_world_impact": "This method could significantly streamline the curation of MIDI performance data, making it easier to analyze and correct large performance datasets which is beneficial for music researchers and AI applications in music.",
+    "limitations": "While the method shows promise, it relies on the accuracy of dataset annotations, potentially limiting its effectiveness in poorly annotated datasets.",
+    "new_terms": {
+        "repeat structure": "**Repeat structure** refers to the organization of musical material in compositions that involves sections being played multiple times, which affects how performances are aligned with musical scores.",
+        "local sequence alignment": "**Local sequence alignment** is a method used to identify the best matching subsequences within two sequences, allowing for comparisons that highlight similarities and differences."
+    },
+    "open_sourcing": "The method is available in the python music alignment library parangonar: https://github.com/sildater/parangonar"
+}
