@@ -1,0 +1,21 @@
+{
+    "title": "Learning Music Audio Representations With Limited Data",
+    "author": "Christos Plachouras (Queen Mary University of London), Emmanouil Benetos (Queen Mary University of London), Johan Pauwels (Queen Mary University of London), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores music audio representation learning, which is directly relevant to Haohe Liu's interests in audio processing, particularly in scenarios where data is limited. Insights into how limited data affects model performance can inform Haohe's work on music and audio generation.",
+    "field": "Deep Learning-Generative Models",
+    "background": "The study investigates the performance of various audio representation models when trained on small datasets, assessing their usefulness for music information retrieval tasks.",
+    "contribution": "This paper introduces an empirical study of music audio representation models trained with limited data to evaluate their performance across multiple music information retrieval tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing models often require large datasets for effective training, leaving limited data scenarios underexplored.",
+        "novelty": "This work systematically evaluates model performance under constrained data conditions, demonstrating that representations from limited data can sometimes match those from larger datasets."
+    },
+    "key_innovation": "Highlights that even untrained models can yield comparable performance to those pretrained on larger datasets, challenging traditional views on the necessity of extensive training data.",
+    "real_world_impact": "Offers valuable insights for applications in diverse music domains, especially for underrepresented music styles and personalized listening experiences, making it practical for industry usage.",
+    "limitations": "The effectiveness of learned representations varies significantly with the downstream tasks and might not be robust against noise.",
+    "new_terms": {
+        "linear separability": "**Linear separability** refers to the ability of a linear classifier to perfectly separate data points of different classes with a straight line (or hyperplane) in the feature space."
+    },
+    "open_sourcing": "Code repository: https://github.com/chrispla/limited-music-representations"
+}
