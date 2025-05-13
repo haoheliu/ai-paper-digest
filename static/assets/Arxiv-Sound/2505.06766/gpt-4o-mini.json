@@ -1,0 +1,19 @@
+{
+    "title": "Beyond Identity: Generalizable Deepfake Audio Detection",
+    "author": "Yasaman Ahmadiadli (Toronto Metropolitan University), Xiao-Ping Zhang (Toronto Metropolitan University), Naimul Khan (Toronto Metropolitan University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This work improves deepfake audio detection, which is relevant to advancements in audio signal processing and could inform Haohe Liu's research in audio generation and restoration techniques. The framework proposed could potentially enhance models for text-to-audio tasks by integrating artifact identification strategies.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of detecting deepfake audio, which poses security risks by mimicking speakers' voices, and focuses on improving model generalization across different datasets.",
+    "contribution": "This paper introduces an identity-independent detection framework using Artifact Detection Modules (ADMs) to enhance generalization by focusing on forgery-specific artifacts rather than speaker traits.",
+    "technical_comparison": "Previous methods often relied on speaker-dependent cues, leading to poor generalization across datasets. This work improves upon that by isolating manipulation artifacts, allowing the model to focus on universal features relevant to detecting deepfakes.",
+    "key_innovation": "The design of Dynamic Artifact Generation techniques ensures the model can learn from a diverse range of introduced artifacts while maintaining speaker identity, enhancing robustness against unseen attacks.",
+    "real_world_impact": "This framework could significantly improve the accuracy and reliability of audio authentication systems and fraud detection mechanisms in real-world applications, which are becoming increasingly critical as deepfake technology evolves.",
+    "limitations": "No",
+    "new_terms": {
+        "Artifact Detection Modules (ADMs)": "**Artifact Detection Modules (ADMs)** are specialized components designed to isolate and amplify synthetic artifacts in audio data to enhance detection accuracy.",
+        "dynamic artifact generation": "**Dynamic artifact generation** refers to techniques that introduce variability in the generated artifacts to prevent overfitting to specific patterns associated with speaker identities."
+    },
+    "open_sourcing": ""
+}

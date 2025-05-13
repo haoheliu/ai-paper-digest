@@ -1,0 +1,22 @@
+{
+    "title": "Multi-band Frequency Reconstruction for Neural Psychoacoustic Coding",
+    "author": "Dianwen Ng (MiroMind, Singapore), Kun Zhou (Tongyi Speech Lab, Alibaba Group, Singapore), Yi-Wen Chao (Nanyang Technological University, Singapore), Zhiwei Xiong (Nanyang Technological University, Singapore), Bin Ma (Tongyi Speech Lab, Alibaba Group, Singapore), Eng Siong Chng (Nanyang Technological University, Singapore), ..., Dianwen Ng (MiroMind, Singapore)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces a novel Neural Psychoacoustic Coding framework, which can enhance speech and audio applications relevant to Haohe Liu's research in audio generation and quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Neural Psychoacoustic Coding aims to achieve high-quality audio compression by leveraging psychoacoustic principles, while also effectively reconstructing audio signals.",
+    "contribution": "This paper introduces the MUFFIN framework to solve the problem of efficient audio compression, achieving state-of-the-art (SOTA) reconstructions, even at extremely low bitrates.",
+    "technical_comparison": {
+        "prior_work": "Existing Neural Audio Codecs struggle with preserving fine details and often apply uniform quantization across frequency bands, leading to artifacts.",
+        "novelty": "This work proposes a multi-band spectral residual vector quantization that allocates bitrate based on psychoacoustic insights, optimizing quantization for distinct frequency bands."
+    },
+    "key_innovation": "The framework employs multi-band frequency reconstruction guided by psychoacoustic principles, effectively separating content and speaker attributes during quantization.",
+    "real_world_impact": "The MUFFIN framework promises to revolutionize audio coding in bandwidth-constrained environments, making high-fidelity audio more accessible in telecommunications and streaming.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "Neural Psychoacoustic Coding": "**Neural Psychoacoustic Coding** refers to a framework that combines neural network approaches to audio coding with principles derived from psychoacoustics to enhance audio signal processing and reconstruction.",
+        "Multi-Band Spectral Residual Vector Quantization": "**Multi-Band Spectral Residual Vector Quantization** is a technique that quantizes audio signals by separating them into frequency bands, allowing for more perceptually optimized compression."
+    },
+    "open_sourcing": "Demos and codes are available at https://demos46.github.io/muffin/ and https://github.com/dianwen-ng/MUFFIN"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Lightweight End-to-end Text-to-speech Synthesis for low resource on-device applications",
+    "author": "Biel Tura Vecino (Alexa AI), Adam Gabrys (Alexa AI), Daniel M \u02dbatwicki (Alexa AI), Andrzej Pomirski (Alexa AI), Tom Iddon (Alexa AI), Marius Cotescu (Alexa AI), Jaime Lorenzo-Trueba (Alexa AI), ..., Adam Gabrys",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed Lightweight End-to-End Text-to-Speech (LE2E) model emphasizes efficiency and quality, which could inform developments in audio generation and restoration tasks such as speech synthesis and enhancement in Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a compact and efficient text-to-speech synthesis model that can operate on low-resource devices, providing high-quality voice outputs without relying on extensive computational resources.",
+    "contribution": "This paper introduces the Lightweight E2E-TTS (LE2E) model, which solves the challenges of producing high-quality speech synthesis in low-resource scenarios, achieving a 90% reduction in model size and 10\u00d7 faster processing speed compared to existing state-of-the-art systems.",
+    "technical_comparison": {
+        "prior_work": "Previous models like VITS and JETS provide high-quality TTS synthesis but are computationally expensive and unsuitable for on-device applications.",
+        "novelty": "LE2E streamlines the training process by employing a joint training architecture that integrates both the acoustic model and vocoder into a single system, eliminating cross-domain training mismatches."
+    },
+    "key_innovation": "Combines acoustic representation learning with waveform generation in a compact model to enhance performance without requiring multiple individual training pipelines.",
+    "real_world_impact": "This model enables real-time speech synthesis on low-end devices, broadening access to TTS technology in various applications, especially where internet connectivity is not feasible.",
+    "limitations": "No",
+    "new_terms": {
+        "end-to-end (E2E)": "**End-to-end** refers to a modeling approach where the entire process of transforming an input (text) into an output (speech) is done through a single model, simplifying the workflow.",
+        "mean opinion score (MOS)": "**Mean Opinion Score (MOS)** is a subjective measure used to evaluate the perceived quality of synthesized speech, usually rated by human listeners on a scale from 1 to 5."
+    },
+    "open_sourcing": ""
+}

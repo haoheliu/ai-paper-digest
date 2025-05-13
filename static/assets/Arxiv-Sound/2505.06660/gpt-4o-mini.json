@@ -1,0 +1,22 @@
+{
+    "title": "TS-SUPERB: A Target Speech Processing Benchmark for Speech Self-Supervised Learning Models",
+    "author": "Junyi Peng (Brno University of Technology), Takanori Ashihara (NTT Corporation), Marc Delcroix (NTT Corporation), Tsubasa Ochiai (NTT Corporation), Oldrich Plchot (Brno University of Technology), Shoko Araki (NTT Corporation), Jan Cernocky (Brno University of Technology), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The methods and benchmarks presented in this paper align with Haohe Liu's focus on speech and audio processing, particularly in enhancements and source separation which could inform his work on audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper presents a benchmark for evaluating self-supervised learning models in complex target-speech processing scenarios, which often include multiple speakers and background noise.",
+    "contribution": "TS-SUPERB introduces a unified benchmark suite for evaluating self-supervised learning in target-speech tasks, achieving comprehensive insights into model performance under practical multi-talker conditions.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks primarily focus on single-speaker scenarios, resulting in an incomplete assessment of speech processing models in realistic multi-talker environments.",
+        "novelty": "This work significantly expands the evaluation framework by including tasks like target speech extraction and personal voice activity detection, which require a dual-objective approach not addressed by previous benchmarks."
+    },
+    "key_innovation": "Integrates a unified architecture for the target speech encoder that is adaptable across different downstream tasks, enabling more efficient training and evaluation.",
+    "real_world_impact": "The benchmark could drive advances in speech technologies for complex environments like smart assistants and telecommunications, ultimately enhancing user experiences in noisy conditions.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "self-supervised learning (SSL)": "**Self-supervised learning (SSL)** is a machine learning paradigm where models learn representations from unlabeled data without explicit supervision, often leveraging large datasets to pre-train on a variety of tasks.",
+        "target-speech processing (TS)": "**Target-speech processing (TS)** involves identifying and extracting speech from a specific speaker within a mixture of multiple voices and background noise."
+    },
+    "open_sourcing": "The code is available at https://github.com/BUTSpeechFIT/TS_SUPERB"
+}

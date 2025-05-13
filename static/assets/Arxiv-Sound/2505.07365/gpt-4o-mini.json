@@ -1,0 +1,22 @@
+{
+    "title": "Multi-Domain Audio Question Answering Toward Acoustic Content Reasoning in the DCASE 2025 Challenge",
+    "author": "Chao-Han Huck Yang (NVIDIA), Sreyan Ghosh (University of Maryland, College Park), Qing Wang (University of Science and Technology of China), Jaeyeon Kim (Seoul National University), Hengyi Hong (University of Science and Technology of China), Sonal Kumar (University of Maryland, College Park), Guirui Zhong (University of Science and Technology of China), Zhifeng Kong (NVIDIA), ..., Bryan Catanzaro (NVIDIA)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The insights into audio question answering and diverse datasets could inform Haohe Liu's audio generation and manipulation tasks, particularly in developing audio-language models that perform well across various acoustic contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves answering questions based on audio inputs, requiring models to interpret acoustic scenes and reason about the sounds within various contexts.",
+    "contribution": "This paper introduces the DCASE 2025 Challenge Audio Question Answering task to solve complexities in audio understanding, achieving substantial performance variation across models and subsets.",
+    "technical_comparison": {
+        "prior_work": "Previous models excelled in audio classification but struggled with interactive reasoning tied to audio content.",
+        "novelty": "This work presents a multi-domain benchmark testing audio-language models on interactive question answering, combining auditory understanding with contextual reasoning."
+    },
+    "key_innovation": "The structured multi-domain dataset enables evaluation of models on diverse acoustic challenges, promoting comprehensive auditory understanding and reasoning capabilities.",
+    "real_world_impact": "This challenge fosters advancements in AI agents' ability to perceive and interact with the world through sound, which is crucial for applications in environment monitoring and human-computer interaction.",
+    "limitations": "The performance of the models remains low, highlighting significant room for improvement in comprehensive audio understanding.",
+    "new_terms": {
+        "audio question answering": "**Audio question answering** refers to the task of generating answers to questions based on audio inputs while interpreting both the sounds and their contextual information.",
+        "multi-domain benchmarks": "**Multi-domain benchmarks** are diverse datasets designed to evaluate model performance across various settings and tasks, allowing for a broader assessment of capabilities."
+    },
+    "open_sourcing": "All datasets are available via a HuggingFace repository."
+}

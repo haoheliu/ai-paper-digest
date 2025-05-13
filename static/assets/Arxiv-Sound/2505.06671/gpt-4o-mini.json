@@ -1,0 +1,22 @@
+{
+    "title": "RADE: A Neural Codec for Transmitting Speech over HF Radio Channels",
+    "author": "David Rowe (Supported by a grant from Amateur Radio Digital Communications), Jean-Marc Valin (Xiph.Org Foundation), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces a novel neural network approach for speech transmission over HF radio channels, which could inform Haohe Liu's research on audio quality enhancement and machine learning applications in audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a system for compressing and transmitting speech over high-frequency radio channels using deep learning techniques and traditional signal processing methods.",
+    "contribution": "RADE introduces a neural autoencoder that integrates speech coding with modulation and channel coding for efficient speech transmission, achieving improved intelligibility over traditional HF systems.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often used separate components for speech coding and channel protection, leading to efficiency losses and latency issues.",
+        "novelty": "This work combines these processes in a unified framework, enabling more robust performance in noisy and multipath environments with lower latency."
+    },
+    "key_innovation": "The use of a neural codec that directly generates continuously valued QAM symbols from speech features, allowing for end-to-end optimization of the entire transmission chain.",
+    "real_world_impact": "The system enhances speech intelligibility in humanitarian and emergency communications over HF radio, improving operability in remote areas without infrastructure.",
+    "limitations": "The authors note potential limitations related to specific DSP techniques used for performance optimization in practical settings.",
+    "new_terms": {
+        "QAM symbols": "**Quadrature Amplitude Modulation (QAM)** is a modulation scheme that conveys data by changing the amplitude of two signals, typically referred to as in-phase and quadrature, to transmit information.",
+        "OFDM": "**Orthogonal Frequency Division Multiplexing (OFDM)** is a method of encoding digital data on multiple carrier frequencies, which improves resistance to interference in highly dispersive channels."
+    },
+    "open_sourcing": ""
+}

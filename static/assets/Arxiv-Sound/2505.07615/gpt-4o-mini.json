@@ -1,0 +1,22 @@
+{
+    "title": "Diffused Responsibility: Analyzing the Energy Consumption of Generative Text-to-Audio Diffusion Models",
+    "author": "Riccardo Passoni (Politecnico di Milano), Francesca Ronchini (Politecnico di Milano), Luca Comanducci (Politecnico di Milano), Romain Serizel (Universit\u00e9 de Lorraine, CNRS, Inria), Fabio Antonacci (Politecnico di Milano)",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The methodology for analyzing energy consumption in text-to-audio models can inform the efficiency of Haohe Liu's generative audio research, particularly concerning energy-aware model deployment.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper examines how the energy consumption of Generative Text-to-Audio models varies with parameters like inference steps and batch size.",
+    "contribution": "This paper introduces an analysis framework for energy consumption in text-to-audio diffusion models, addressing the trade-offs between audio quality and energy efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on model accuracy without addressing energy efficiency.",
+        "novelty": "This work provides a detailed energy evaluation framework, emphasizing the importance of energy consumption during inference, which has been overlooked in prior studies."
+    },
+    "key_innovation": "By integrating energy consumption metrics into the evaluation of text-to-audio models, this research promotes a more sustainable approach to audio generation.",
+    "real_world_impact": "The findings can help practitioners choose models that balance performance with environmental impact, influencing future designs in generative audio technologies.",
+    "limitations": "The analysis mainly focuses on inference time and does not consider the training phase, which is significantly energy-intensive.",
+    "new_terms": {
+        "Pareto frontier": "**Pareto frontier** is a set of optimal solutions in a multi-objective optimization scenario where no objective can be improved without worsening another.",
+        "Fr\u00e9chet Audio Distance": "**Fr\u00e9chet Audio Distance (FAD)** is a metric for assessing the quality of generated audio by measuring the distance between distributions of generated and real audio samples."
+    },
+    "open_sourcing": "The code used for this analysis is available at https://anonymous.4open.science/r/DiffGenEnergy."
+}

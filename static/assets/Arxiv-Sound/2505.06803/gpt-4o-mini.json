@@ -1,0 +1,22 @@
+{
+    "title": "Bridging Ears and Eyes: Analyzing Audio and Visual Large Language Models to Humans in Visible Sound Recognition and Reducing Their Sensory Gap via Cross-Modal Distillation",
+    "author": "Xilin Jiang (Columbia University), Junkai Wu (University of Washington), Vishal Choudhari (Columbia University), Nima Mesgarani (Columbia University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores audio and visual large language models (LLMs), which can provide insights into enhancing audio-language modeling and generative audio tasks, an area closely related to Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The authors investigate the recognition of sound objects using audio-only, silent video, or sounded video inputs, comparing model performances to human capabilities.",
+    "contribution": "This paper introduces a cross-modal distillation framework to mitigate sensory gaps observed in audio and visual LLMs, achieving significant accuracy improvements in sound classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing studies have mostly evaluated audio or visual LLMs in isolation, lacking direct comparisons across modalities.",
+        "novelty": "This work contrasts audio and visual LLMs directly and employs a heuristic switch for guided knowledge transfer, enhancing weaker modalities effectively."
+    },
+    "key_innovation": "Develops a heuristic-based approach for cross-modal distillation, leveraging strengths from one modality to reinforce the predictive capabilities of another.",
+    "real_world_impact": "This research has the potential to improve multimodal systems in sound recognition applications, enhancing real-world usage in fields like surveillance, assistive technology, and content creation.",
+    "limitations": "The study's scope is limited to sound recognition, raising questions about broader reasoning and contextual inference not evaluated.",
+    "new_terms": {
+        "cross-modal distillation": "**Cross-modal distillation** refers to a technique where knowledge is transferred between models operating in different sensory modalities to improve performance.",
+        "heuristic switch": "**Heuristic switch** is a decision-making component used to determine when to apply distillation based on the relative performance of the modalities involved."
+    },
+    "open_sourcing": ""
+}

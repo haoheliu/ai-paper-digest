@@ -1,0 +1,19 @@
+{
+    "title": "On the Cost and Benefits of Training Context with Utterance or Full Conversation Training: A Comparative Study",
+    "author": "Hyouin Liu (Divergence 2% LLC), Zhikuan Zhang (Divergence 2% LLC)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This study on training paradigms for text-to-speech systems aligns closely with Haohe Liu's interests in speech synthesis, particularly in optimizing model training for better contextual understanding and audio quality.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper compares two training methodologies\u2014utterance-level with context and full conversation\u2014to improve the naturalness and coherence of synthesized speech in conversational contexts.",
+    "contribution": "This paper introduces a comparative analysis of utterance-level versus conversation-level training for speech synthesis, achieving higher mean opinion scores and better training efficiency with the former.",
+    "technical_comparison": {
+        "prior_work": "Prior discourse in TTS focuses on either utterance-level synthesis or broader conversation-based models, often struggling with contextual relevance and resource demands.",
+        "novelty": "This study systematically evaluates both approaches using the same architecture, revealing that utterance-level training can outperform the broader conversation training in both quality and efficiency."
+    },
+    "key_innovation": "Utilizes a structured empirical analysis of training paradigms to directly compare performance metrics in TTS models tailored for dialogue.",
+    "real_world_impact": "The findings could guide future developments in conversational AI by providing clear recommendations for training methodologies, potentially enhancing user experience in natural language interactions.",
+    "limitations": "The analysis is constrained to a specific model architecture and limited dataset, which may affect generalizability.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

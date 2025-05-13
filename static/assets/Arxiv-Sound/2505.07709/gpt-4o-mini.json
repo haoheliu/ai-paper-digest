@@ -1,0 +1,22 @@
+{
+    "title": "ISAC: An Invertible and Stable Auditory Filter Bank with Customizable Kernels for ML Integration",
+    "author": "Daniel Haider (Acoustics Research Institute, Austrian Academy of Sciences), Felix Perfler (Acoustics Research Institute, Austrian Academy of Sciences), Peter Balazs (Interdisciplinary Transformation University Austria), Clara Hollomey (University of Applied Sciences St. Polten), Nicki Holighaus (Acoustics Research Institute, Austrian Academy of Sciences)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed ISAC filter bank could enhance audio processing tasks in Dr. Liu's research, such as audio generation and quality enhancement, by providing a robust and customizable auditory filter bank.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research introduces an auditory filter bank designed for machine learning applications, emphasizing invertibility, stability, and customizable kernel sizes for audio processing.",
+    "contribution": "This paper introduces ISAC, an auditory filter bank with customizable kernels to solve the problem of integrating efficient audio processing into machine learning frameworks, achieving stable and invertible transformations.",
+    "technical_comparison": {
+        "prior_work": "Previous filter banks lacked user-defined kernel sizes and stability during learning, often favoring fixed bandwidths and identity on spectral characteristics.",
+        "novelty": "ISAC allows for controlled kernel sizes while maintaining auditory accuracy, improving numerical stability and integration into neural networks."
+    },
+    "key_innovation": "The method allows for a customizable maximum kernel size while ensuring stability and invertibility throughout the training process.",
+    "real_world_impact": "The ISAC filter bank enhances audio processing applications, including speech enhancement and audio synthesis, paving the way for more efficient audio analysis tools.",
+    "limitations": "No specific limitations are mentioned.",
+    "new_terms": {
+        "critical bands": "**Critical bands** refer to frequency ranges within which multiple auditory filters respond, essential for understanding human auditory perception.",
+        "power spectral density (PSD)": "**Power spectral density** describes how the power of a signal is distributed across different frequencies, crucial for evaluating the performance of filter banks."
+    },
+    "open_sourcing": "The implementation is available as a PyTorch module within the 'hybra' package, which can be installed via pip."
+}

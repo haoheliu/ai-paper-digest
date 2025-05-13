@@ -1,0 +1,22 @@
+{
+    "title": "STRAUSS: Sonification Tools & Resources for Analysis Using Sound Synthesis",
+    "author": "James W. Trayford (Institute of Cosmology and Gravitation, University of Portsmouth), Samantha Youles (Institute of Cosmology and Gravitation, University of Portsmouth), Chris Harrison (School of Mathematics, Statistics and Physics, Newcastle University), Rose Shepherd (School of Mathematics, Statistics and Physics, Newcastle University), Nicolas Bonne (Institute of Cosmology and Gravitation, University of Portsmouth), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses 'strauss,' a Python package for sonification, which can contribute to Haohe Liu's work in audio generation and enhancement by providing a novel approach to analyzing and representing data in audio format.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sonification is the process of representing data through sound, which can offer new insights and accessibility, particularly for individuals who are visually impaired.",
+    "contribution": "This paper introduces the strauss package to solve the lack of accessible and flexible tools for sonifying data, achieving a comprehensive pipeline for producing customizable audio representations of various datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing sonification tools often lack cross-domain applicability and are not optimized for user accessibility, frequently relying on proprietary software.",
+        "novelty": "This work promotes a modular and fully open-source framework that minimizes dependencies while providing comprehensive features for both novice and expert users."
+    },
+    "key_innovation": "The strauss package uniquely combines sound synthesis with flexible data processing, allowing tailored audio outputs from complex scientific data.",
+    "real_world_impact": "By enhancing the accessibility of data through sound, this tool could significantly benefit education and outreach in various scientific fields, particularly helping visually impaired individuals engage with complex datasets.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "sonification": "**Sonification** refers to the use of non-verbal audio to convey information, allowing data to be interpreted through sound.",
+        "FOSS": "**Free and Open Source Software (FOSS)** indicates software that allows users to view, modify, and distribute its code without restrictions."
+    },
+    "open_sourcing": "strauss is fully open-source and available for integration into scientific workflows."
+}

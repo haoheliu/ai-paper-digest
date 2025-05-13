@@ -1,0 +1,22 @@
+{
+    "title": "Interpretable SHAP-bounded Bayesian Optimization for Underwater Acoustic Metamaterial Coating Design",
+    "author": "Hansani Weeratunge (Sri Lanka Institute of Information Technology), Dominic M. Robe (The University of Melbourne), Elnaz Hajizadeh (The University of Melbourne), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper combines Bayesian optimization with SHAP analysis, which could inform and enhance predictive modeling in sound generation tasks, particularly in understanding how design variables affect acoustic performance.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Optimizing the sound absorption performance of polyurethane coatings embedded with voids requires efficient navigation through complex design parameters.",
+    "contribution": "This paper introduces an interpretability-informed Bayesian optimization framework that utilizes SHapley Additive exPlanations to refine design parameters for underwater acoustic coatings, resulting in improved acoustic performance.",
+    "technical_comparison": {
+        "prior_work": "Traditional optimization methods in material design often rely on brute-force techniques that can be inefficient, particularly in high-dimensional spaces.",
+        "novelty": "This work integrates machine learning interpretability to dynamically adjust optimization search spaces, thereby increasing efficiency without requiring additional simulations."
+    },
+    "key_innovation": "Combines SHAP analysis with Bayesian optimization to enhance the interpretability of design influences and streamline multi-dimensional optimization processes.",
+    "real_world_impact": "This approach could significantly improve the design and deployment of acoustic metamaterials, enhancing applications in naval architecture and underwater acoustics.",
+    "limitations": "The approach may still be limited by the representativeness of the initial data and the complexity of the material behavior not captured in the model.",
+    "new_terms": {
+        "SHapley Additive exPlanations (SHAP)": "**SHAP** is an interpretability method based on cooperative game theory that provides insights into the contribution of individual features to model predictions.",
+        "Bayesian Optimization": "**Bayesian Optimization** is a probabilistic model-based method for optimizing expensive black-box functions by balancing exploration and exploitation strategies."
+    },
+    "open_sourcing": ""
+}
