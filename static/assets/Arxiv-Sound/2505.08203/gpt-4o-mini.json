@@ -1,0 +1,22 @@
+{
+    "title": "Not that Groove: Zero-Shot Symbolic Music Editing",
+    "author": "Li Zhang (Drexel University), ..., Harry Zhang (Drexel University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper focuses on symbolic music editing with large language models (LLMs), which correlates with Dr. Liu's interests in audio processing and creative AI, particularly in generative music systems.",
+    "field": "Applications-Creative AI",
+    "background": "Symbolic music editing is the task of modifying musical compositions based on natural language requests, specifically focusing on drum grooves using a notation optimized for interaction with language models.",
+    "contribution": "This paper introduces the Not that Groove dataset and leverages zero-shot prompting with LLMs to effectively edit drum grooves, achieving a notable pass rate of 68% on unit tests assessing musical quality.",
+    "technical_comparison": {
+        "prior_work": "Most existing methods address audio generation rather than symbolic editing or require large amounts of instruction-specific training data.",
+        "novelty": "This work demonstrates that LLMs can be employed for zero-shot editing of symbolic music, reducing the need for extensive datasets."
+    },
+    "key_innovation": "Utilizes a novel drumroll representation that closely resembles natural language, allowing LLMs to optimize their understanding and output of music compositions.",
+    "real_world_impact": "This approach could enable music producers to have greater creative control, facilitating quicker iterations in music production and enhancing AI's role in creative fields.",
+    "limitations": "The methodology focuses solely on 1-bar drum grooves, limiting its applicability to more complex musical structures or styles.",
+    "new_terms": {
+        "drumroll notation": "**Drumroll notation** is a simplified textual representation of drum patterns, akin to a coding language, making it easier for large language models to interpret and edit.",
+        "unit test": "**Unit tests** in this context refer to automatic evaluations of edited musical pieces to ensure they meet specific minimal criteria defined by musical expertise."
+    },
+    "open_sourcing": "Resources for this paper can be found at github.com/zharry29/drums-with-llm-2"
+}

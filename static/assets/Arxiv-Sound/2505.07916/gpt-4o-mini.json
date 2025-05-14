@@ -1,0 +1,22 @@
+{
+    "title": "MiniMax-Speech: Intrinsic Zero-Shot Text-to-Speech with a Learnable Speaker Encoder",
+    "author": "MiniMax Team, ..., Haohe Liu (University of Surrey)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper introduces significant advancements in text-to-speech synthesis, particularly with zero-shot voice cloning, which can be applied to enhance audio generation techniques in Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves generating high-fidelity speech from text while preserving the unique voice characteristics of a target speaker using minimal voice data.",
+    "contribution": "The paper introduces MiniMax-Speech, a TTS model that enables high-quality zero-shot voice cloning without transcription, achieving state-of-the-art results in both fidelity and speaker similarity across multiple languages.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in voice cloning typically require both reference audio and corresponding text, which can lead to mismatches affecting output quality.",
+        "novelty": "This work improves voice cloning fidelity by using a learnable speaker encoder that extracts vocal features from untranscribed audio, enabling robust zero-shot synthesis."
+    },
+    "key_innovation": "The architecture introduces a learnable speaker encoder integrated with an autoregressive Transformer, allowing high-quality speech generation without needing transcription.",
+    "real_world_impact": "This advancement can significantly improve applications such as conversational AI, voice assistants, and personalized audio content generation, thereby enhancing user experiences in various domains.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "zero-shot": "**Zero-shot learning** refers to a model's ability to generalize for tasks it has not explicitly been trained on, which is a significant characteristic of the proposed TTS system.",
+        "autoregressive": "**Autoregressive models** are a class of models that predict future values based on previously observed values, commonly used in time-series predictions."
+    },
+    "open_sourcing": "The implementation is available at https://minimax-ai.github.io/tts_tech_report"
+}

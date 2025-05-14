@@ -1,0 +1,22 @@
+{
+    "title": "A Mamba-based Network for Semi-supervised Singing Melody Extraction Using Confidence Binary Regularization",
+    "author": "Xiaoliang He (School of Comp. Science & Technology Donghua University), Kangjie Dong (School of Comp. Science & Technology Donghua University), Jingkai Cao (School of Comp. Science & Technology Donghua University), Shuai Yu (School of Comp. Science & Technology Donghua University), Wei Li (School of Comp. Science & Technology Fudan University), Yi Yu (Grad. School of Adv. Science & Eng. Hiroshima University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a semi-supervised learning approach for music information retrieval, which could enhance audio-based systems and methods relevant to Haohe Liu's research in audio generation and signal processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Singing melody extraction seeks to isolate the fundamental frequency from polyphonic music, which is vital for music information retrieval applications.",
+    "contribution": "This paper introduces a mamba-based network for semi-supervised singing melody extraction to address the inefficiencies of existing transformer-based methods, achieving improved extraction accuracy.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often rely on transformer architectures that have quadratic computational costs and require large labeled datasets.",
+        "novelty": "This work improves efficiency by leveraging a mamba-based architecture that processes input spectrograms with linear complexity and introduces confidence binary regularization to enhance learning from unlabeled data."
+    },
+    "key_innovation": "The use of a coarse-to-fine method in the note-f0 decoder simulates musical performance characteristics and utilizes confidence binary regularization to further improve performance with limited labeled data.",
+    "real_world_impact": "This research could significantly enhance music information retrieval applications like melody extraction, potentially leading to more effective music recognition systems and improved user experiences.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "mamba-based network": "**Mamba-based network** refers to a computational model that achieves linear complexity in processing input data, inspired by the efficiency of the vision mamba architecture.",
+        "confidence binary regularization": "**Confidence binary regularization** is a technique that encourages consistent predictions across augmented versions of the input data, promoting the use of both labeled and unlabeled data for better model training."
+    },
+    "open_sourcing": "Codes are available in https://github.com/Tinkle01/SpectMamba"
+}
