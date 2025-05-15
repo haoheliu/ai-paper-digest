@@ -1,0 +1,21 @@
+{
+    "title": "Adaptive Noise Resilient Keyword Spotting Using One-Shot Learning",
+    "author": "Luciano Sebastian Martinez-Rau (Mid Sweden University), Quynh Nguyen Phuong Vu (Mid Sweden University), Yuxuan Zhang (Mid Sweden University), Bengt Oelmann (Mid Sweden University), Sebastian Bader (Mid Sweden University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The approach uses one-shot learning for noise adaptation, which can inspire less resource-intensive methods in audio processing tasks, enhancing adaptability in real-world scenarios.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a keyword spotting system that can effectively adapt to changing noise conditions in real-time with minimal data requirements.",
+    "contribution": "This paper introduces a low-complexity method for continuous noise adaptation using one-shot learning to enhance performance in noisy environments.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for keyword spotting often required extensive data and longer training times to achieve robustness against noise.",
+        "novelty": "This work reduces the data and computation required for adaptation, allowing for rapid adaptation with only one example and one training epoch."
+    },
+    "key_innovation": "The utilization of one-shot learning for transferring noise resilience to pretrained models significantly decreases resource needs, making it suitable for embedded systems.",
+    "real_world_impact": "This approach can lead to more reliable keyword spotting systems in everyday devices, enhancing user experience in noisy environments where traditional systems fail.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "one-shot learning": "**One-shot learning** is a type of machine learning where the model learns information about object categories from a very small number of training samples, often just one."
+    },
+    "open_sourcing": ""
+}

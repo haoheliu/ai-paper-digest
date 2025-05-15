@@ -1,0 +1,21 @@
+{
+    "title": "Voice Timbre Attribute Detection 2025 Challenge Evaluation Plan",
+    "author": "Zhengyan Sheng (NERC-SLIP, University of Science and Technology of China), Jinghao He (NERC-SLIP, University of Science and Technology of China), Liping Chen (NERC-SLIP, University of Science and Technology of China), Kong Aik Lee (Department of Electrical and Electronic Engineering, The Hong Kong Polytechnic University), Zhen-Hua Ling (NERC-SLIP, University of Science and Technology of China)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper outlines a challenge focusing on voice timbre attributes, which aligns closely with Dr. Liu's interest in audio-generation, voice manipulation, and speaker recognition, making it relevant for collaborative developments in these areas.",
+    "field": "Applications-Speech and Audio",
+    "background": "The challenge evaluates if two voices differ significantly in a specified timbre descriptor, providing a framework to understand human perceptions of voice qualities.",
+    "contribution": "The paper introduces the Voice Timbre Attribute Detection challenge to solve voice attribute comparison, enhancing understanding of voice characteristics through specified descriptors.",
+    "technical_comparison": {
+        "prior_work": "Existing systems often focus on direct voice recognition or attribute labeling but do not quantify comparative voice qualities.",
+        "novelty": "This challenge shifts the emphasis to quantifiable differences in timbre attributes, facilitating more granular analyses of voice characteristics."
+    },
+    "key_innovation": "The challenge approach of comparing voice pairs based on subjective timbre characteristics provides new insights for developing explainable audio technologies.",
+    "real_world_impact": "This initiative can lead to advancements in automated voice recognition systems, helping improve applications in communication tools, entertainment, and accessibility.",
+    "limitations": "No significant limitations are mentioned; however, the challenge might be limited to the speakers included in the dataset.",
+    "new_terms": {
+        "timbre": "**Timbre** refers to the characteristic quality or color of a sound that distinguishes different types of sound production, such as voices or musical instruments."
+    },
+    "open_sourcing": "The challenge framework and baseline methods are available on GitHub at https://github.com/vTAD2025-Challenge/vTAD"
+}

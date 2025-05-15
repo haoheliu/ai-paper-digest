@@ -1,0 +1,22 @@
+{
+    "title": "SingNet: Towards a Large-Scale, Diverse, and In-the-Wild Singing Voice Dataset",
+    "author": "Yicheng Gu (School of Data Science, The Chinese University of Hong Kong), Chaoren Wang (School of Data Science, The Chinese University of Hong Kong), Junan Zhang (School of Data Science, The Chinese University of Hong Kong), Xueyao Zhang (School of Data Science, The Chinese University of Hong Kong), Zihao Fang (School of Data Science, The Chinese University of Hong Kong), Haorui He (School of Data Science, The Chinese University of Hong Kong), Zhizheng Wu (School of Data Science, The Chinese University of Hong Kong), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The development of a large-scale singing voice dataset is directly relevant to Haohe Liu's work on audio synthesis and restoration, as high-quality datasets are crucial for training models in these domains.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper introduces SingNet, a dataset containing 3000 hours of diverse singing voice data collected from the internet to enhance applications such as singing voice synthesis and conversion.",
+    "contribution": "SingNet introduces an automated data processing pipeline to extract and curate singing voice data, enabling the creation of a previously unattainable large-scale dataset for research.",
+    "technical_comparison": {
+        "prior_work": "Previous singing voice datasets were limited in scale and diversity, often requiring significant manual effort for data collection.",
+        "novelty": "This work automated the process using state-of-the-art deep learning techniques and digital signal processing, enabling a scalable and extensible dataset creation."
+    },
+    "key_innovation": "The automated pipeline for data extraction from in-the-wild sources significantly reduces the manual effort and scales dataset creation efficiently.",
+    "real_world_impact": "This dataset can advance research in singing voice applications, potentially leading to improvements in entertainment, music production, and AI synthesis capabilities.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "source separation": "**Source separation** refers to techniques that isolate individual sound sources from a mixed audio signal, essential for extracting clean vocal tracks from music.",
+        "neural vocoder": "**Neural vocoder** is a type of neural network used to generate high-fidelity audio waveforms from processed features, enhancing the realism of synthetic voices."
+    },
+    "open_sourcing": "The authors plan to open-source various state-of-the-art models trained on the SingNet dataset after the review period."
+}
