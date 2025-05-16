@@ -1,0 +1,22 @@
+{
+    "title": "Theoretical Model of Acoustic Power Transfer Through Solids",
+    "author": "Ippokratis Kochliaridis (Department of Industrial Engineering and Management, International Hellenic University), Michail E. Kiziroglou (Department of Industrial Engineering and Management, International Hellenic University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods discussed could apply to audio signal transmission through solids, potentially assisting in challenges like underwater communication or medical implants, which could resonate with Haohe's interests in audio and speech applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper provides a theoretical framework for transmitting power and data wirelessly through solid materials using acoustic waves.",
+    "contribution": "This paper introduces a comprehensive mathematical model for acoustic power transfer systems, achieving insights into efficiency and application potential.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often struggled with solid barriers, particularly in environments requiring reliable data transmission through metallic materials.",
+        "novelty": "This work models acoustic transmission efficiency more accurately, enhancing understanding of system impedance and load calculations."
+    },
+    "key_innovation": "Integrates a detailed equivalent circuit model to analyze the acoustic propagation through various media and evaluate performance metrics.",
+    "real_world_impact": "If developed further, this technology could revolutionize wireless energy transfer in marine and medical applications, providing solutions where traditional electromagnetic methods fail.",
+    "limitations": "Specific challenges related to practical implementations, like optimizing impedance matching in various materials, are not thoroughly addressed.",
+    "new_terms": {
+        "acoustic power transfer": "**Acoustic power transfer** refers to the process of transferring energy through mechanical waves in a medium, useful in various applications like sensing and wireless power supply.",
+        "impedance matching": "**Impedance matching** is the process of making the impedance of a system match that of its load to maximize power transfer and minimize reflections."
+    },
+    "open_sourcing": ""
+}

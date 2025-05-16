@@ -1,0 +1,22 @@
+{
+    "title": "ListenNet: A Lightweight Spatio-Temporal Enhancement Nested Network for Auditory Attention Detection",
+    "author": "Cunhang Fan (Anhui University), Xiaoke Yang (Anhui University), Hongyu Zhang (Anhui University), Ying Chen (Anhui University), Lu Li (Anhui University), Jian Zhou (Anhui University), Zhao Lv (Anhui University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents an advanced approach to auditory attention detection using EEG signals, which could inform the methodologies in Haohe Liu's work on audio processing tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting which speaker a listener is attending to in environments with multiple speakers based on brain signals.",
+    "contribution": "This paper introduces ListenNet, a lightweight architecture, to solve the challenge of effectively capturing spatio-temporal dependencies in EEG signals, achieving improved detection accuracy while reducing parameter count significantly.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often treated spatial and temporal features separately, leading to inefficiencies in capturing the full context.",
+        "novelty": "ListenNet integrates spatio-temporal dependencies and dynamic temporal patterns within a single model framework, enhancing performance and generalization."
+    },
+    "key_innovation": "Utilizes a combination of Spatio-temporal Dependency Encoder, Multi-scale Temporal Enhancement, and Cross-Nested Attention to effectively model complex temporal relationships in EEG data.",
+    "real_world_impact": "This approach can enhance applications in smart hearing aids and other auditory-focused technologies, improving user interaction in complex sound environments.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Spatio-temporal Dependency Encoder": "**Spatio-temporal Dependency Encoder** is a component that captures dependencies in both space and time from EEG signals to improve attention detection.",
+        "Cross-Nested Attention": "**Cross-Nested Attention** refers to an attention mechanism that enhances multi-level feature integration from spatio-temporal data, improving the model's ability to focus on relevant information."
+    },
+    "open_sourcing": "Code is available at: https://github.com/fchest/ListenNet"
+}

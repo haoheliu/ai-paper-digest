@@ -1,0 +1,22 @@
+{
+    "title": "Learning Nonlinear Dynamics in Physical Modelling Synthesis Using Neural Ordinary Differential Equations",
+    "author": "Victor Zheleznov (University of Edinburgh), Stefan Bilbao (University of Edinburgh), Alec Wright (University of Edinburgh), Simon King (University of Edinburgh), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methodology for modeling nonlinear dynamics using neural ordinary differential equations could inspire novel approaches to audio processing tasks in Haohe Liu's research, particularly in audio generation and restoration applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper explores modeling nonlinear dynamics of distributed musical systems, such as vibrating strings, through a hybrid approach combining physics-based modeling and machine learning.",
+    "contribution": "This paper introduces a hybrid model that leverages modal synthesis and neural ordinary differential equations to effectively capture nonlinear dynamics in vibrating strings, achieving this using synthetic data generation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods have primarily focused on either purely data-driven approaches or rigid physics-based models, often sacrificing interpretability or flexibility.",
+        "novelty": "This work improves by integrating a neural network to model nonlinear interactions while retaining the interpretability of physical parameters in the modal synthesis framework."
+    },
+    "key_innovation": "The use of neural ordinary differential equations allows for a more fluid capturing of nonlinear behaviors in complex systems without overwhelming computational requirements.",
+    "real_world_impact": "This approach has potential applications in the fields of audio synthesis and virtual instruments, enabling more expressive and realistic sound generation while reducing computational costs.",
+    "limitations": "Authors note the inability to train models solely using displacement information, as they rely on both displacement and velocity for optimal performance.",
+    "new_terms": {
+        "modal synthesis": "**Modal synthesis** is a sound synthesis method that represents sound as a sum of individual modes of vibration, each characterized by its own frequency and motion.",
+        "neural ordinary differential equations": "**Neural ordinary differential equations** are a type of neural network where the dynamics of the system are formulated as a continuous-time model represented by ordinary differential equations parameterized by neural networks."
+    },
+    "open_sourcing": "Code and datasets are available on the accompanying GitHub repository."
+}

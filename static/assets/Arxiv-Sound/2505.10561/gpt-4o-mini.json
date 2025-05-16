@@ -1,0 +1,23 @@
+{
+    "title": "Improving Basic Capabilities of Text-to-Audio Generation via Fine-grained AI Feedback",
+    "author": "Zehan Wang (Zhejiang University), Ke Lei (Zhejiang University), Chen Zhu (Zhejiang University), Jiawei Huang (Zhejiang University), Sashuai Zhou (Zhejiang University), Luping Liu (The University of Hong Kong), Xize Cheng (Zhejiang University), Shengpeng Ji (Zhejiang University), Zhenhui Ye (Zhejiang University), Tao Jin (Zhejiang University), Zhou Zhao (Zhejiang University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper offers insights into enhancing audio generation, which aligns well with Dr. Liu\u2019s focus on text-to-audio models and audio quality enhancement. The methodologies discussed could be leveraged for improving Dr. Liu's ongoing projects.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves generating coherent and high-quality audio from detailed text prompts that describe multiple events, often challenging for existing models.",
+    "contribution": "This paper introduces fine-grained AI audio scoring pipelines to address issues in event occurrence, sequence, and acoustic quality in Text-to-Audio generation, achieving improved human preference alignment.",
+    "technical_comparison": {
+        "prior_work": "Existing text-to-audio models struggle with accurately generating multi-event narratives and maintaining audio quality, often leading to incomplete or disordered outputs.",
+        "novelty": "This work enhances model capabilities through fine-tuned AI feedback mechanisms and constructs a large audio preference dataset crucial for effective model training."
+    },
+    "key_innovation": "Innovatively uses AI scoring to provide detailed feedback on audio generation, enabling the model to learn specific aspects of audio quality and event alignment.",
+    "real_world_impact": "By improving text-to-audio generation, the research could enhance applications in entertainment, education, and accessibility, facilitating richer audio experiences that align with user expectations.",
+    "limitations": "The model's performance still relies heavily on the quality of training data and may not handle very complex narrative structures as effectively.",
+    "new_terms": {
+        "Event Occurrence Score": "**Event Occurrence Score** quantifies whether all described events in a text prompt are present in the generated audio.",
+        "Event Sequence Score": "**Event Sequence Score** assesses the temporal alignment of events in the audio relative to the textual description.",
+        "Acoustic&Harmonic Quality": "**Acoustic&Harmonic Quality** evaluates the overall sound quality and harmony of generated audio outputs."
+    },
+    "open_sourcing": "The project page is available at https://T2Afeedback.github.io"
+}

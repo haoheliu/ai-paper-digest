@@ -1,0 +1,22 @@
+{
+    "title": "SpecWav-Attack: Leveraging Spectrogram Resizing and Wav2Vec 2.0 for Attacking Anonymized Speech",
+    "author": "Yuanzhong Zheng (Qifu Technology), Yuqi Li (Qifu Technology), Yaoxuan Wang (Qifu Technology), Jianjun Yin (Fudan University), Zhongtian Guo (Fudan University), Haojun Fei (Qifu Technology), ...",
+    "quality": 5,
+    "relevance": 7,
+    "relevance_why": "The paper explores adversarial attacks in speech processing, which could inform Haohe Liu\u2019s work on audio quality enhancement and restoration by providing insights into vulnerabilities in speech anonymization systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper presents an efficient model that detects speakers within anonymized speech, highlighting the weaknesses in current speech anonymization techniques.",
+    "contribution": "SpecWav-Attack introduces an adversarial model that leverages Wav2Vec2 and spectrogram resizing to enhance the attack efficacy on anonymized speech, achieving significantly improved detection metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lack robustness and generalization against variations in anonymized data.",
+        "novelty": "This approach employs Wav2Vec2 for feature extraction and incorporates data augmentation techniques that improve the model's adaptability to diverse speech inputs."
+    },
+    "key_innovation": "Combines spectrogram resizing with Wav2Vec2 for enhanced feature extraction, resulting in a more robust adversarial model for speaker detection.",
+    "real_world_impact": "The findings underline critical security challenges in voice privacy, suggesting a pressing need for improved defense mechanisms in anonymized speech systems.",
+    "limitations": "No explicit limitations are mentioned in the paper.",
+    "new_terms": {
+        "Effective Equal Error Rate (EER)": "**Effective Equal Error Rate (EER)** is a performance metric used in speaker recognition to evaluate the trade-off between false acceptance and false rejection rates.",
+        "spectrogram resizing": "**Spectrogram resizing** involves adjusting the time-frequency representation of audio, which can distort certain features while preserving the underlying audio content."
+    },
+    "open_sourcing": ""
+}
