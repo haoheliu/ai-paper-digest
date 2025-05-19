@@ -1,0 +1,22 @@
+{
+    "title": "CAMEO: Collection of Multilingual Emotional Speech Corpora",
+    "author": "Iwona Christop (Adam Mickiewicz University), Maciej Czajka (Adam Mickiewicz University), ..., Adam Mickiewicz University",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The CAMEO collection enhances the availability of multilingual emotional datasets, which could be utilized in Haohe Liu's research on audio processing and emotion recognition.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a standardized multilingual collection of emotional speech datasets to improve emotion recognition systems.",
+    "contribution": "CAMEO introduces a curated collection of multilingual emotional speech datasets to solve the issues in the SER domain, achieving a comprehensive benchmarking framework.",
+    "technical_comparison": {
+        "prior_work": "Existing emotional speech datasets often lack standardization and accessibility, limiting their applicability in multilingual contexts.",
+        "novelty": "CAMEO standardizes data formats, metadata, and provides a leaderboard for ongoing evaluation, addressing cross-language emotion recognition challenges."
+    },
+    "key_innovation": "The collection is openly accessible, allowing for reproducible benchmarking across different speech emotion recognition systems and languages.",
+    "real_world_impact": "Facilitates advancements in emotion recognition technologies which can improve human-computer interaction and applications in mental health and customer service.",
+    "limitations": "Some influential datasets were excluded due to licensing issues, and the evaluation primarily uses the macro-averaged F1 score which may not fully reflect performance in imbalanced scenarios.",
+    "new_terms": {
+        "speech emotion recognition (SER)": "**Speech Emotion Recognition** refers to the task of identifying and classifying emotions based on vocal characteristics in audio signals.",
+        "macro-averaged F1 score": "**Macro-averaged F1 score** calculates the F1 score for each class independently and then takes the average, highlighting performance across all classifications equally."
+    },
+    "open_sourcing": "The CAMEO collection is publicly available on the Hugging Face platform."
+}

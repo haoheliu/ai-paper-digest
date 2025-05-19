@@ -1,0 +1,22 @@
+{
+    "title": "Seeing Sound, Hearing Sight: Uncovering Modality Bias and Conflict of AI models in Sound Localization",
+    "author": "Yanhao Jia (Nanyang Technological University), Ji Xie (Nanyang Technological University), S Jivaganesh (Nanyang Technological University), Hao Li (Peking University), Xu Wu (Shenzhen University), Mengmi Zhang (Nanyang Technological University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The study investigates sound source localization (SSL) in multimodal AI models, which can be applicable to Haohe Liu's research in audio processing and speech enhancement, specifically in improving the robustness of models against conflicting cues.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sound source localization is determining the spatial origin of sounds in a visual scene, which is crucial for applications like autonomous vehicles and assistive devices for the visually impaired.",
+    "contribution": "This paper introduces a systematic evaluation framework for audio-visual localization models under various conditions, revealing performance gaps between humans and AI models.",
+    "technical_comparison": {
+        "prior_work": "Prior methods often relied on single-modal datasets or simplistic assumptions about sound source localization, yielding performance limitations in complex scenarios.",
+        "novelty": "This work leverages a new high-quality stereo audio dataset and incorporates psychophysical experiments to evaluate model performance across diverse audiovisual conditions."
+    },
+    "key_innovation": "Utilizes 3D simulation to generate depth-aware stereo audio for images, enhancing the realism and applicability of audio-visual datasets in SSL.",
+    "real_world_impact": "The improved understanding of modality biases could inform better design of AI systems for real-world applications involving sound localization, enhancing the safety and reliability of technologies such as assistive devices and autonomous vehicles.",
+    "limitations": "While the model outperforms existing benchmarks, challenges remain in rapidly evolving real-world conditions that might introduce further discrepancies in multimodal integration.",
+    "new_terms": {
+        "modality bias": "**Modality bias** refers to the tendency of AI models to favor one sensory modality (e.g., visual) over others (e.g., auditory) when processing inputs for tasks like sound localization.",
+        "sound source localization (SSL)": "**Sound source localization** is the ability to identify where a sound originates from in a three-dimensional space, often essential for effective interaction with the environment."
+    },
+    "open_sourcing": "All code, data, and models will be made public."
+}

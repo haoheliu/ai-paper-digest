@@ -1,0 +1,22 @@
+{
+    "title": "NEOLIGHTNING: A MODERN REIMAGINATION OF GESTURE-BASED SOUND DESIGN",
+    "author": "Yonghyun Kim (Georgia Institute of Technology), Sangheon Park (Georgia Institute of Technology), Donghoon Seu (Georgia Institute of Technology), Alexandria Smith (Georgia Institute of Technology), Marcus Parker (Georgia Institute of Technology), ..., Alex Serafin (Georgia Institute of Technology)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The system's focus on gesture recognition and sound design parallels some aspects of Haohe Liu's interests in audio processing and generative techniques.",
+    "field": "Applications-Creative AI",
+    "background": "Reimagining an obsolete musical interface (Buchla Lightning) with modern gesture recognition technology to enable expressive interaction for sound design.",
+    "contribution": "This paper introduces NeoLightning to solve the accessibility issues of the original Buchla Lightning, achieving a modern platform that integrates gesture recognition for immersive sound design.",
+    "technical_comparison": {
+        "prior_work": "Previous gesture-based instruments required specialized hardware and operated in 2D, limiting user interaction.",
+        "novelty": "This work improves by leveraging camera-based input and 3D interaction, making gesture recognition accessible without specialized equipment."
+    },
+    "key_innovation": "Combines advanced gesture recognition technology with visual feedback in a 3D space, enhancing the interactivity and expressiveness of musical performance.",
+    "real_world_impact": "The developed system could facilitate new forms of musical expression and performance, making gesture-based sound design more accessible to contemporary users.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "gesture-based interaction": "**Gesture-based interaction** refers to the method of controlling systems through physical motions or gestures, often using cameras or sensors to translate these movements into commands.",
+        "real-time multimedia processing": "**Real-time multimedia processing** refers to the capability of a system to process audio and visual data simultaneously without perceptible delay."
+    },
+    "open_sourcing": "Code and demo available at: https://github.com/yonghyunk1m/ReimaginingTheBuchlaLightning"
+}

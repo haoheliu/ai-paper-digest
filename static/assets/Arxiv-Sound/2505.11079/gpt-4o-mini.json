@@ -1,0 +1,21 @@
+{
+    "title": "A4: Unlocking the Capabilities of Audio Large Language Models for Audio Deepfake Detection",
+    "author": "Hao Gu (Institute of Automation, Chinese Academy of Sciences), Jianhua Tao (Department of Automation, Tsinghua University), Yong Ren (Institute of Automation, Chinese Academy of Sciences), Jiangyan Yi (Department of Automation, Tsinghua University), Zheng Lian (Institute of Automation, Chinese Academy of Sciences), Yujie Chen (Anhui University), Chenglong Wang (Taizhou University), Jiayi He (Institute of Automation, Chinese Academy of Sciences), Zhengqi Wen (Beijing National Research Center for Information Science and Technology, Tsinghua University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This work is highly relevant as it explores the application of Audio Large Language Models (ALLMs) to audio deepfake detection, aligning closely with my research interests in audio systems and generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper tackles the problem of detecting deepfake audio generated through advanced speech synthesis technologies and aims to leverage ALLMs for this task.",
+    "contribution": "The paper introduces a novel framework called A4 that reformulates audio deepfake detection as an audio question answering problem, significantly improving detection accuracy in resource-scarce settings.",
+    "technical_comparison": {
+        "prior_work": "Prior methods typically rely on hand-crafted features or end-to-end models trained on large datasets, which may not generalize well in data-scarce scenarios.",
+        "novelty": "This work enhances ALLMs' capability by employing supervised fine-tuning for improved performance in fake audio detection and demonstrating robustness in limited training data situations."
+    },
+    "key_innovation": "The A4 framework uniquely combines ALLMs with the task of deepfake detection by structuring it as an audio question-answering task, allowing for more contextual understanding.",
+    "real_world_impact": "This research potentially aids in developing robust systems for detecting misinformation in audio, addressing societal concerns about deepfakes and media trust.",
+    "limitations": "The study primarily focuses on the effectiveness of ALLMs, and may not explore all possible architectures or methods for deepfake detection, which could limit broader applicability.",
+    "new_terms": {
+        "Audio Large Language Models": "**Audio Large Language Models (ALLMs)** are advanced models capable of understanding and generating audio data, integrating language model capabilities with audio processing."
+    },
+    "open_sourcing": ""
+}

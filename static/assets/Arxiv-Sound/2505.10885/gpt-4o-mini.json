@@ -1,0 +1,22 @@
+{
+    "title": "BanglaFake: Constructing and Evaluating a Specialized Bengali Deepfake Audio Dataset",
+    "author": "Istiaq Ahmed Fahad (Institute of Information Technology, University of Dhaka), Kamruzzaman Asif (Institute of Information Technology, University of Dhaka), Sifat Sikder (Institute of Information Technology, University of Dhaka), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper contributes a novel dataset specifically for deepfake audio detection in Bengali, which could be useful for developing audio detection models that Haohe Liu's research may intersect with, particularly in generating or altering audio content.",
+    "field": "Applications-Speech and Audio",
+    "background": "Deepfake audio detection for low-resource languages is challenging due to limited datasets and subtle acoustic features, requiring specialized resources for advancement in the field.",
+    "contribution": "This paper introduces BanglaFake, a specialized Bengali deepfake audio dataset to solve the problem of deepfake audio detection in low-resource languages, achieving a novel benchmark for future research.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets in deepfake audio detection mainly focus on high-resource languages, lacking the necessary data for Bengali.",
+        "novelty": "This work provides a dedicated dataset tailored to the unique characteristics of Bengali speech, enhancing the training and testing of detection models specifically designed for this language."
+    },
+    "key_innovation": "The dataset is generated using state-of-the-art Text-to-Speech models to ensure high quality, addressing challenges in detecting subtle differences between real and fake audio.",
+    "real_world_impact": "The introduction of BanglaFake can significantly bolster research in deepfake detection for Bengali speakers, leading to better detection mechanisms that can prevent social and legal issues arising from audio manipulation.",
+    "limitations": "The dataset currently comprises a single speaker's audio, limiting generalizability across diverse speaker variations.",
+    "new_terms": {
+        "Mean Opinion Score": "**Mean Opinion Score (MOS)** is a measure used to evaluate the quality of synthesized speech, often rated by listeners on a scale based on naturalness and intelligibility.",
+        "t-SNE": "**t-distributed Stochastic Neighbor Embedding (t-SNE)** is a machine learning algorithm for dimensionality reduction, particularly useful for visualizing high-dimensional datasets."
+    },
+    "open_sourcing": "The dataset is publicly available at https://huggingface.co/datasets/sifat1221/banglaFake"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Multi-Stage Speaker Diarization for Noisy Classrooms",
+    "author": "Ali Sartaz Khan (Stanford University), Ahmed Attia (University of Maryland), Tol\u00falo.p\u00e9. \u00d2g\u00fanr\u00e8 (Stanford University), Dorottya Demszky (Stanford University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The methods proposed in this paper for improving speaker diarization, particularly in noisy environments, could inform enhancements in speech restoration and source separation tasks relevant to Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speaker diarization entails identifying which speaker is speaking at any given time in audio recordings, particularly challenging in noisy classroom settings.",
+    "contribution": "This paper introduces an innovative multi-stage diarization pipeline to solve noise-induced issues in classrooms, achieving Diarization Error Rates as low as 17% in teacher-student interactions.",
+    "technical_comparison": {
+        "prior_work": "Previous diarization models performed poorly in noisy classrooms with Diarization Error Rates exceeding 50%.",
+        "novelty": "This study improves by integrating denoising techniques and a hybrid Voice Activity Detection approach to enhance speaker separation and reduce errors."
+    },
+    "key_innovation": "Combines denoising, advanced Voice Activity Detection models, and speaker embedding methods to create a robust diarization system suited for classroom audio.",
+    "real_world_impact": "Enhanced speaker diarization can lead to better understanding of classroom dynamics, improving educational strategies and fostering collaborative learning environments.",
+    "limitations": "While the methods show promise, the performance is not optimized for all types of classroom dynamics and could be limited by the quality of the training datasets.",
+    "new_terms": {
+        "Diarization Error Rate (DER)": "**Diarization Error Rate (DER)** quantifies the accuracy of speaker diarization systems, computing missed detections, false alarms, and misclassifications.",
+        "Voice Activity Detection (VAD)": "**Voice Activity Detection (VAD)** is a technology used to detect the presence or absence of human speech within an audio signal."
+    },
+    "open_sourcing": "Code available at https://github.com/EduNLP/nemo-multistage-classroom-diarization"
+}

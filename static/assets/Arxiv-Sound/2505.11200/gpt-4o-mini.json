@@ -1,0 +1,22 @@
+{
+    "title": "Audio Turing Test: Benchmarking the Human-likeness of Large Language Model-based Text-to-Speech Systems in Chinese",
+    "author": "Xihuai Wang (Shanghai Jiao Tong University), Ziyi Zhao (Meituan), Siyu Ren (Meituan), Shao Zhang (Shanghai Jiao Tong University), Song Li (Meituan), Xiaoyu Li (Meituan), Ziwen Wang (Meituan), Lin Qiu (Meituan), Weinan Zhang (Shanghai Jiao Tong University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The methods and frameworks introduced in this paper directly align with Haohe Liu's interests in audio and speech synthesis, particularly in evaluating and improving TTS systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper proposes a novel evaluation framework for text-to-speech systems that assesses the human-likeness of synthesized speech in Chinese, addressing limitations in current evaluation metrics.",
+    "contribution": "This paper introduces the Audio Turing Test (ATT) and a corresponding dataset (ATT-Corpus) to evaluate the human-likeness of text-to-speech systems, achieving a more sensitive assessment than traditional metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on Mean Opinion Scores (MOS) which are subjective and influenced by various factors, leading to inconsistent results.",
+        "novelty": "This work improves evaluation by implementing a Turing Test-like protocol, which allows evaluators to judge human-likeness directly, thus providing a robust, less biased framework."
+    },
+    "key_innovation": "Uses a multi-dimensional evaluation corpus and a simplified evaluation approach to enhance assessment clarity and consistency.",
+    "real_world_impact": "The proposed evaluation framework could significantly influence the development of TTS systems, making them more human-like and effective in real-world applications like voice assistants and audiobooks.",
+    "limitations": "The ATT framework is currently language-specific, focusing only on Chinese speech synthesis.",
+    "new_terms": {
+        "Mean Opinion Score (MOS)": "**Mean Opinion Score (MOS)** is a standard metric used to assess the quality of synthesized speech based on listener ratings.",
+        "Audio Turing Test (ATT)": "**Audio Turing Test (ATT)** is a proposed evaluation framework that assesses the human-likeness of synthesized speech through direct judgments rather than traditional scoring metrics."
+    },
+    "open_sourcing": "The ATT-Corpus and Auto-ATT are publicly available in a Hugging Face collection."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Machine Learning Approaches to Vocal Register Classification in Contemporary Male Pop Music",
+    "author": "Alexander Kim (Hamilton College), Prof. Charlotte Botha (Hamilton College), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores machine learning techniques applicable to audio signal classification, particularly in vocal registers, which can enhance the audio generation models and restoration tasks in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Classifying vocal registers in male pop music using machine learning techniques applied to audio spectrograms.",
+    "contribution": "This paper introduces two machine learning models, Support Vector Machine (SVM) and Convolutional Neural Network (CNN), to classify vocal registers, achieving high accuracy in their predictions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on manual labeling and lacked robust machine learning approaches for audio classification.",
+        "novelty": "This work combines advanced image processing techniques with audio analysis by converting audio signals into mel-spectrograms for classification."
+    },
+    "key_innovation": "Utilizes mel-spectrograms to analyze audio signals, allowing for nuanced classification of vocal qualities in contemporary male pop vocals.",
+    "real_world_impact": "The developed Automatic Vocal Register Analysis (AVRA) software has potential applications in music education and production by providing insights into vocal techniques.",
+    "limitations": "The dataset was limited to contemporary male pop music, which restricts generalizability to other genres and voice types.",
+    "new_terms": {
+        "mel-spectrogram": "**Mel-spectrogram** is a time-frequency representation of audio that uses the Mel scale to map frequencies, emphasizing how humans perceive sounds."
+    },
+    "open_sourcing": ""
+}

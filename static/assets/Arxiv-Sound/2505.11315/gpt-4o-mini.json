@@ -1,0 +1,22 @@
+{
+    "title": "Improving Inference-Time Optimisation for Vocal Effects Style Transfer with a Gaussian Prior",
+    "author": "Chin-Yun Yu (Centre for Digital Music, Queen Mary University of London), Marco A. Mart\u00ednez-Ram\u00edrez (Sony AI), Junghyun Koo (Sony AI), Wei-Hsiang Liao (Sony AI), Yuki Mitsufuji (Sony Group Corporation), Gyorgy Fazekas (Centre for Digital Music, Queen Mary University of London), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses style transfer in audio effects, a relevant area for Haohe Liu's research in audio manipulation and generation. Techniques like incorporating a Gaussian prior could enhance the performance of audio effect models in projects like AudioLDM.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper focuses on an optimization approach to transfer vocal effects from reference audio to raw audio tracks, addressing the challenge of unrealistic results caused by the absence of prior knowledge.",
+    "contribution": "This paper introduces a Gaussian prior to the parameter estimation in style transfer for vocal effects aiming to improve realism and accuracy in the output audio.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like ST-ITO relied solely on embedding space distance for parameter optimization, which could lead to unrealistic results.",
+        "novelty": "This work incorporates a statistical prior to refine the optimization process, enhancing the realism of generated audio."
+    },
+    "key_innovation": "Utilizes a Gaussian prior derived from a vocal preset dataset to guide the inference-time optimization for audio effects, achieving more realistic style transfer.",
+    "real_world_impact": "The proposed method could lead to improved audio processing applications in music production and audio effects, enhancing the quality of automated mixing systems.",
+    "limitations": "The dependence on a limited vocal preset dataset could restrict generality in broader contexts.",
+    "new_terms": {
+        "Gaussian prior": "**Gaussian prior** refers to a statistical prior distribution that is modeled as a Gaussian function, which provides a mean and variance to guide the optimization process.",
+        "maximum-a-posteriori estimation": "**Maximum-a-posteriori estimation (MAP)** is a statistical method that estimates the parameters of a model by maximizing the posterior distribution given prior knowledge."
+    },
+    "open_sourcing": "Will be pushed to github.com/SonyResearch/diffvox."
+}

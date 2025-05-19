@@ -1,0 +1,21 @@
+{
+    "title": "Classifying Shelf Life Quality of Pineapples by Combining Audio and Visual Features",
+    "author": "Yi-Lu Jiang (National Chiayi University), Wen-Chang Chang (National Chiayi University), Ching-Lin Wang (National Chung Cheng University), Kung-Liang Hsu (National Chung Cheng University), Chih-Yi Chiu (National Chung Cheng University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The use of machine learning techniques for quality classification based on audiovisual data could inspire similar approaches in audio and speech processing, potentially improving methodologies for quality assessment in those domains.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study develops a model to classify the shelf life quality of pineapples through an automated combination of audio and visual data without damaging the fruit.",
+    "contribution": "This paper introduces a contrastive audiovisual masked autoencoder framework to solve the problem of pineapple quality classification, achieving 84% accuracy in distinguishing four levels of shelf life quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on unimodal assessments using either auditory or visual inputs, limiting their classification capabilities.",
+        "novelty": "This work enhances classification performance by integrating audio and visual modalities, outperforming single-modality models by up to 18%."
+    },
+    "key_innovation": "The unique use of a multimodal approach that fuses audio and visual features, enabling a more accurate assessment of pineapple quality.",
+    "real_world_impact": "This research could significantly reduce food waste and improve post-harvest decision-making processes in the agriculture sector, benefiting producers economically.",
+    "limitations": "The study does not address the potential impact of varying environmental conditions on acoustic and visual data quality.",
+    "new_terms": {
+        "contrastive audiovisual masked autoencoder": "**Contrastive audiovisual masked autoencoder** is a machine learning model that combines information from different modalities (audio and visual) to enhance learning and representation accuracy by contrasting and reconstructing input data."
+    },
+    "open_sourcing": "The dataset PQC500 is available on GitHub: http://github.com/ncyuMARSLab/PQC500."
+}

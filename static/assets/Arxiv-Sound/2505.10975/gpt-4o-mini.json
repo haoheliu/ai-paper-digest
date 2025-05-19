@@ -1,0 +1,22 @@
+{
+    "title": "Survey of End-to-End Multi-Speaker Automatic Speech Recognition for Monaural Audio",
+    "author": "Xinlu He (Worcester Polytechnic Institute), Jacob Whitehill (Worcester Polytechnic Institute), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper provides a comprehensive review of end-to-end multi-speaker automatic speech recognition (ASR) systems, focusing on architectures that are crucial for Haohe Liu's research in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Multi-speaker automatic speech recognition involves transcribing audio that contains overlapping speech from multiple speakers, aiming to identify who is speaking what.",
+    "contribution": "This survey introduces a systematic taxonomy of end-to-end neural approaches for multi-speaker ASR, highlighting various architectural paradigms and improvements.",
+    "technical_comparison": {
+        "prior_work": "Existing literature reviews on ASR primarily focus on single-speaker systems, lacking comprehensive analysis for multi-speaker ASR.",
+        "novelty": "This work consolidates recent research advancements, analyzes architectural paradigms, and compares methods across standard benchmarks."
+    },
+    "key_innovation": "Offers a structured review and comparison of distinct E2E architectures for multi-speaker ASR, specifically differentiating between Single-Input Multiple-Output and Single-Input Single-Output frameworks.",
+    "real_world_impact": "The findings and insights from this survey can inform the development of more accurate and robust ASR systems that are applicable in real-world environments like meetings and group discussions.",
+    "limitations": "The survey does not delve into hyperparameter tuning for different architectures or provide detailed performance metrics across all existing methods.",
+    "new_terms": {
+        "end-to-end (E2E)": "**End-to-End (E2E)** systems directly map raw audio inputs to transcriptions without intermediate processing steps.",
+        "Permutation Invariant Training (PIT)": "**Permutation Invariant Training (PIT)** is a training approach that addresses the output label ambiguity in multi-speaker scenarios by evaluating all possible permutations of outputs."
+    },
+    "open_sourcing": ""
+}
