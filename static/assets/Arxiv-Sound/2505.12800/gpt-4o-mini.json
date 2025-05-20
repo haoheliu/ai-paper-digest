@@ -1,0 +1,21 @@
+{
+    "title": "OZSpeech: One-step Zero-shot Speech Synthesis with Learned-Prior-Conditioned Flow Matching",
+    "author": "Hieu-Nghia Huynh-Nguyen (FPT Software AI Center), Ngoc Son Nguyen (FPT Software AI Center), Huynh Nguyen Dang (FPT Software AI Center), Thieu Vo (FPT Software AI Center), Truong-Son Hy (University of Alabama at Birmingham), Van Nguyen (FPT Software AI Center), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed model provides new methods in zero-shot speech synthesis, which directly relates to audio and speech capabilities that Haohe Liu explores in his research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves generating speech from text and an acoustic prompt, aiming to mimic an unseen speaker's voice using advanced machine learning techniques.",
+    "contribution": "OZSpeech introduces a novel framework for zero-shot text-to-speech synthesis by utilizing optimal transport conditional flow matching for efficient one-step sampling, achieving significant improvements in content accuracy and model efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with computational efficiency and required multiple sampling steps, leading to delays and higher resource consumption.",
+        "novelty": "This work enhances TTS by enabling one-step sampling through a learned prior distribution, thus reducing noise sensitivity and maintaining high-performance metrics."
+    },
+    "key_innovation": "The model leverages an innovative learned prior distribution to streamline the synthesis process, drastically cutting down computation time while maintaining output quality.",
+    "real_world_impact": "The model's efficiency and robustness against noise can significantly enhance applications such as virtual assistants and accessibility tools, improving user experience in critical scenarios.",
+    "limitations": "The authors note that synthesized speech may exhibit slight distortions, impacting overall quality.",
+    "new_terms": {
+        "optimal transport": "**Optimal transport** is a mathematical theory related to comparing probability distributions, focusing on minimizing transportation costs between distributions."
+    },
+    "open_sourcing": "Code and audio samples are available at the demo page."
+}

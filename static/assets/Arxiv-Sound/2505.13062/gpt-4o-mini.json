@@ -1,0 +1,21 @@
+{
+    "title": "Hearing from Silence: Reasoning Audio Descriptions from Silent Videos via Vision-Language Model",
+    "author": "Yong Ren (Institute of Automation, Chinese Academy of Sciences), Chenxing Li (Tencent AI Lab), Le Xu (Institute of Automation, Chinese Academy of Sciences), Hao Gu (Institute of Automation, Chinese Academy of Sciences), Duzhen Zhang (Tencent AI Lab), Yujie Chen (Institute of Automation, Chinese Academy of Sciences), Manjie Xu (Tencent AI Lab), Ruibo Fu (Institute of Automation, Chinese Academy of Sciences), Shan Yang (Tencent AI Lab), Dong Yu (Tencent AI Lab)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses the challenge of reasoning audio descriptions from visual inputs, which is closely related to audio generation tasks and multimodal learning, both relevant to Haohe Liu's work on audio-language models and text-to-audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves generating audio descriptions from silent videos, relying on multimodal understanding to match visual stimuli with sounds, reflecting an inherent cognitive ability in humans.",
+    "contribution": "This paper introduces the Reasoning Audio Descriptions from Silent Videos (SVAD) task to solve the challenge of generating audio descriptions without audio inputs, achieving significant improvements in audiovisual model reasoning.",
+    "technical_comparison": {
+        "prior_work": "Existing methods struggle with modal-mismatch reasoning and require audio descriptions for video-to-audio tasks.",
+        "novelty": "This work improves by employing a Chain-of-Thought-based supervised fine-tuning strategy along with a specially constructed CoT-AudioCaps dataset to enhance reasoning capabilities."
+    },
+    "key_innovation": "Introduces a structured reasoning approach that decomposes the SVAD task into understanding visual content, inferring sound events, and generating audio descriptions sequentially.",
+    "real_world_impact": "Enhancements in video foley applications and accessibility tools, leading to more engaging audiovisual content can arise from this research.",
+    "limitations": "No",
+    "new_terms": {
+        "modal-mismatch reasoning": "**Modal-mismatch reasoning** refers to the ability to make inferences about one modality (e.g., audio) based on information from another modality (e.g., video), which poses unique challenges in AI models."
+    },
+    "open_sourcing": ""
+}

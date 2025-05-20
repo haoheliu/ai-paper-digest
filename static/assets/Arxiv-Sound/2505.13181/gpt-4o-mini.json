@@ -1,0 +1,21 @@
+{
+    "title": "Efficient Speech Language Modeling via Energy Distance in Continuous Latent Space",
+    "author": "Zhengrui Ma (Chinese Academy of Sciences), Yang Feng (Chinese Academy of Sciences), Chenze Shao (Tencent Inc), Fandong Meng (Tencent Inc), Jie Zhou (Tencent Inc), Min Zhang (Soochow University), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The paper explores continuous latent space modeling for speech synthesis, which aligns with Haohe Liu's work in audio generation and restoration. The techniques proposed could enhance audio and speech quality manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the task of modeling speech waveforms by converting them into continuous latent representations, thereby improving autoregressive speech generation without the reliance on discrete tokenization.",
+    "contribution": "This paper introduces a method called SLED to solve the challenge of speech language modeling in continuous latent space, achieving efficient training and strong performance in zero-shot and streaming speech synthesis.",
+    "technical_comparison": {
+        "prior_work": "Previous methods involve discretization of audio, which leads to information loss and necessitates complex hierarchical architectures for modeling.",
+        "novelty": "This work improves by employing a lightweight conditional generative model alongside energy distance, facilitating more direct and efficient modeling of speech without introducing discretization errors."
+    },
+    "key_innovation": "The use of energy distance as a training objective for generative models in continuous latent space reduces complexity while maintaining high fidelity in speech synthesis.",
+    "real_world_impact": "SLED could significantly enhance the efficiency and quality of speech synthesis applications, making it valuable for real-time text-to-speech systems and voice cloning technologies.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "energy distance": "**Energy distance** is a statistical measure used to quantify the distance between probability distributions, which aids in the training of generative models by accounting for distributional differences."
+    },
+    "open_sourcing": "Demos and code are available at https://github.com/ictnlp/SLED-TTS"
+}

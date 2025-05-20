@@ -1,0 +1,22 @@
+{
+    "title": "ASR-FAIRBENCH: Measuring and Benchmarking Equity Across Speech Recognition Systems",
+    "author": "Anand Rai (Indian Institute of Technology, Kharagpur), Satyam Rahangdale (Indian Institute of Technology, Kharagpur), Utkarsh Anand (Indian Institute of Technology, Kharagpur), Animesh Mukherjee (Indian Institute of Technology, Kharagpur), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces a fairness benchmark for Automatic Speech Recognition (ASR), which is highly relevant to Haohe Liu's research on audio processing and could inform the development of fairer speech technologies in his projects.",
+    "field": "Social and Economic Aspects of ML-Fairness",
+    "background": "The ASR-FAIRBENCH leaderboard evaluates speech recognition system performance across different demographic groups to ensure technological fairness.",
+    "contribution": "ASR-FAIRBENCH introduces the Fairness-Adjusted ASR Score (FAAS) to solve the issue of disparity in ASR accuracy among various demographic groups, achieving a more equitable evaluation framework for ASR systems.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks focused solely on overall accuracy, often overlooking fairness across demographic groups.",
+        "novelty": "This work combines traditional metrics with fairness assessments using Poisson regression to provide a multifaceted evaluation."
+    },
+    "key_innovation": "The integration of fairness metrics with ASR accuracy creates a more nuanced evaluation system that helps identify and address biases in speech recognition models.",
+    "real_world_impact": "By promoting fairness in ASR technologies, this benchmark could lead to more inclusive applications in voice recognition software, enhancing usability for diverse user groups.",
+    "limitations": "No explicit limitations are mentioned.",
+    "new_terms": {
+        "Fairness-Adjusted ASR Score (FAAS)": "**Fairness-Adjusted ASR Score (FAAS)** is a metric that combines traditional ASR accuracy measures with evaluations of fairness across demographic groups to encourage equitable performance in ASR systems.",
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a common metric used to assess the accuracy of speech recognition systems, calculated based on the number of substitutions, deletions, and insertions during transcription."
+    },
+    "open_sourcing": "https://huggingface.co/spaces/satyamr196/ASR-FairBench"
+}

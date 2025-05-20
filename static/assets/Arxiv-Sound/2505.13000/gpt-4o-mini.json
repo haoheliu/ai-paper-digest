@@ -1,0 +1,22 @@
+{
+    "title": "DualCodec: A Low-Frame-Rate, Semantically-Enhanced Neural Audio Codec for Speech Generation",
+    "author": "Jiaqi Li (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Xiaolong Lin (Baidu Inc.), Zhekai Li (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Shixi Huang (Baidu Inc.), Yuancheng Wang (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Chaoren Wang (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Zhenpeng Zhan (Baidu Inc.), ..., Zhizheng Wu (School of Data Science, The Chinese University of Hong Kong, Shenzhen)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work directly impacts speech generation techniques, potentially improving methods that Haohe Liu employs in text-to-speech synthesis and audio generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Neural audio codecs convert audio signals into discrete codes for efficient storage and transmission, which can enhance speech generation quality and efficiency.",
+    "contribution": "This paper introduces DualCodec, a dual-stream encoding approach that integrates self-supervised representations and waveform representations to enhance speech synthesis quality at lower frame rates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Encodec and SpeechTokenizer lacked the integration of semantic enhancement and low frame rates, typically performing well at higher frame rates but compromising audio quality.",
+        "novelty": "This work improves efficiency and audio quality by proposing a dual encoding strategy to create semantically rich tokens while maintaining lower frame rates."
+    },
+    "key_innovation": "Utilizes a unique dual-stream method that combines self-supervised learning features with waveform representation to enhance semantic content in audio codecs.",
+    "real_world_impact": "By improving speech generation efficiency and quality, DualCodec has the potential to significantly enhance applications in voice assistants, audiobooks, and other speech synthesis tasks.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "self-supervised learning": "**Self-supervised learning** refers to a type of machine learning where the training data provides its own supervision through input-output relationships, often used to learn representations without labeled data.",
+        "dual-stream encoding approach": "**Dual-stream encoding approach** signifies a processing method that uses two distinct pathways to enhance data representation, in this case for audio compression and synthesis."
+    },
+    "open_sourcing": "Demos and codes are available at: https://dualcodec.github.io"
+}

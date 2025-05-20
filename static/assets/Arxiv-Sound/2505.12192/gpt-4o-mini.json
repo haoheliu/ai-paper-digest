@@ -1,0 +1,22 @@
+{
+    "title": "BenSParX: A Robust Explainable Machine Learning Framework for Parkinson's Disease Detection from Bengali Conversational Speech",
+    "author": "Riad Hossain (East Delta University), Muhammad Ashad Kabir (Charles Sturt University), Arat Ibne Golam Mowla (East Delta University), Animesh Chandra Roy (East Delta University), Ranjit Kumar Ghosh (Bangabandhu Sheikh Mujib Medical University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed framework highlights various acoustic feature extraction techniques and model explainability methods that could be applicable to improved audio processing tasks, potentially benefiting applications in speech and audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a framework to detect Parkinson's Disease from Bengali conversational speech using machine learning techniques.",
+    "contribution": "BenSParX introduces the first dataset and robust machine learning framework for detecting Parkinson's Disease in Bengali speakers, achieving high diagnostic accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous studies primarily focused on English or other major languages, with limited feature sets and explainability mechanisms.",
+        "novelty": "This work presents a comprehensive framework with diverse acoustic features, systematic feature selection, extensive hyperparameter tuning, and integrates SHAP for explainability."
+    },
+    "key_innovation": "Integrates a diverse range of acoustic features with SHAP analysis, significantly enhancing model interpretability and diagnostic accuracy for minority language speakers.",
+    "real_world_impact": "Filling a crucial gap in the healthcare landscape, this framework promotes equitable access to early diagnostic tools for Parkinson's Disease among Bengali-speaking populations, improving health outcomes.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "SHAP": "**SHapley Additive exPlanations** is a method used to explain individual predictions of machine learning models by computing the contribution of each feature to the prediction.",
+        "MFCC": "**Mel-Frequency Cepstral Coefficients** are features used in audio processing that capture the perceptual characteristics of speech and are commonly utilized in speech recognition."
+    },
+    "open_sourcing": "The dataset is publicly available at https://github.com/Riad071/BenSParX"
+}

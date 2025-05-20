@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking and Confidence Evaluation of LALMs For Temporal Reasoning",
+    "author": "Debarpan Bhattacharya (Indian Institute of Science), Apoorva Kulkarni (Indian Institute of Science), Sriram Ganapathy (Indian Institute of Science)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper offers a novel dataset (TREA) specifically designed for evaluating temporal reasoning in audio, which aligns with Dr. Liu's work in audio processing and generation, particularly in tasks involving event duration and ordering.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating large audio language models (LALMs) on their ability to understand and reason about temporal aspects of audio content, including event ordering, counting, and duration.",
+    "contribution": "This paper introduces the temporal reasoning evaluation of audio (TREA) dataset to address the lack of fine-grained assessment capabilities in existing LALMs, revealing performance deficits compared to human benchmarks.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluations of LALMs primarily focused on general audio understanding tasks without a specific emphasis on temporal reasoning.",
+        "novelty": "This work introduces a structured approach to benchmarking LALMs against fine-grained temporal reasoning tasks, thereby providing a clearer picture of their limitations."
+    },
+    "key_innovation": "The dataset differentiates various temporal reasoning tasks and employs a unique uncertainty measure for analyzing model robustness against semantically similar perturbations.",
+    "real_world_impact": "The findings highlight significant gaps in current audio language models, suggesting directions for improving their temporal reasoning abilities which could enhance their application in real-world scenarios like audio analysis and human-computer interaction.",
+    "limitations": "While the paper presents a comprehensive evaluation, it does not discuss potential biases in the dataset or the impact of background noise on the model's performance.",
+    "new_terms": {
+        "LALMs": "**Large Audio Language Models** are architectures designed to understand and process both audio and textual information, extending beyond traditional language models.",
+        "TREA": "**Temporal Reasoning Evaluation of Audio** is a dedicated dataset aimed at systematically assessing the ability of LALMs to reason temporally about audio events."
+    },
+    "open_sourcing": "The dataset and code are publicly available at https://github.com/iiscleap/"
+}

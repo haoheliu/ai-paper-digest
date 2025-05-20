@@ -1,0 +1,22 @@
+{
+    "title": "Learning to Highlight Audio by Watching Movies",
+    "author": "Chao Huang (University of Rochester), Ruohan Gao (University of Maryland, College Park), J. M. F. Tsang (Meta Reality Labs Research), Jan Kurcius (Meta Reality Labs Research), Cagdas Bilen (Meta Reality Labs Research), Chenliang Xu (University of Rochester), Anurag Kumar (Meta Reality Labs Research), Sanjeel Parekh (Meta Reality Labs Research)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces a method that integrates audio-visual content for improving sound quality, which could enhance Haohe Liu's research in audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Transforming poorly mixed audio from video content into a well-balanced mix using visual cues.",
+    "contribution": "This paper introduces visually-guided acoustic highlighting to solve audio mixing challenges, achieving improved salience in audio by leveraging visual context from movies.",
+    "technical_comparison": {
+        "prior_work": "Existing methods rely on audio separation techniques that often misalign audio sources or lack visual guidance.",
+        "novelty": "This work utilizes a transformer-based model that combines video and audio streams to enhance audio highlighting, vastly improving coherence and audio quality."
+    },
+    "key_innovation": "The integration of visual information from movies as a supervisory signal for audio enhancement, enabling a more intentional and context-aware audio mix.",
+    "real_world_impact": "This framework can significantly improve the quality of audio in multimedia applications including film editing and sound design, providing a better viewing experience.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "visually-guided acoustic highlighting": "**Visually-guided acoustic highlighting** refers to the process of enhancing audio tracks based on visual cues from corresponding video content to ensure an aligned and harmonious audio-visual experience.",
+        "THE MUDDY MIX DATASET": "**THE MUDDY MIX DATASET** is a newly introduced collection of movie clips designed to provide training supervision for the visually-guided acoustic highlighting task."
+    },
+    "open_sourcing": "The project page with further resources is available at: https://wikichao.github.io/VisAH/"
+}

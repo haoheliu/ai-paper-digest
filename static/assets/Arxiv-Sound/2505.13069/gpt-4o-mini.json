@@ -1,0 +1,22 @@
+{
+    "title": "Suicide Risk Assessment Using Multimodal Speech Features: A Study on the SW1 Challenge Dataset",
+    "author": "Ambre MARIE (LaTIM, UMR INSERM 1101), Ilias MAOUDJ (LaTIM, UMR INSERM 1101), Guillaume DARDENNE (INSERM), Gwenole QUELLEC (INSERM), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The study employs multimodal approaches for speech analysis, which can inform Haohe Liu's work in audio processing and machine learning applications, particularly in enhancing models for audio data interpretation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study focuses on assessing the risk of suicide in adolescents through analysis of their speech, utilizing various audio and text modalities.",
+    "contribution": "This paper introduces a multimodal approach that combines linguistic and acoustic features to improve suicide risk assessment, achieving an accuracy of 69% on the development set.",
+    "technical_comparison": {
+        "prior_work": "Traditional assessment methods primarily relied on clinical interviews or self-reports, often leading to biases and misclassification.",
+        "novelty": "This work integrates deep learning techniques (e.g., WhisperX, RoBERTa, WavLM) with handcrafted acoustic features, utilizing a novel weighted attention mechanism for better feature fusion."
+    },
+    "key_innovation": "The incorporation of weighted attention allows the model to dynamically assess feature importance across different modalities, enhancing predictive ability.",
+    "real_world_impact": "The approach offers a potential tool for clinicians to identify individuals at risk of suicide more effectively, thus promoting timely intervention measures.",
+    "limitations": "The performance gap between development and test sets indicates possible overfitting and challenges in generalizing findings beyond the dataset.",
+    "new_terms": {
+        "multimodal": "**Multimodal** refers to the integration and analysis of multiple forms of data, such as text and audio, to enhance understanding and make predictions.",
+        "acoustic features": "**Acoustic features** are characteristics derived from audio signals, including pitch, tone, and modulation, which can indicate emotional or psychological states."
+    },
+    "open_sourcing": ""
+}

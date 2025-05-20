@@ -1,0 +1,21 @@
+{
+    "title": "RoVo: Robust Voice Protection Against Unauthorized Speech Synthesis with Embedding-Level Perturbations",
+    "author": "Seungmin Kim (Soongsil University), Sohee Park (Soongsil University), Donghyun Kim (Soongsil University), Jisu Lee (Soongsil University), Daeseon Choi (Soongsil University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a novel defense strategy against voice synthesis attacks, which could enhance techniques used in audio and speech processing related to voice cloning and synthesis security, relevant to Haohe Liu's research on audio manipulation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to develop methods to protect audio data from unauthorized synthesis attacks, particularly focusing on preserving speaker identity against advanced voice synthesis technologies.",
+    "contribution": "RoVo introduces embedding-level adversarial perturbations to disrupt voice synthesis, achieving over 70% improvement in defense effectiveness compared to unprotected audio.",
+    "technical_comparison": {
+        "prior_work": "Previous methods inject adversarial noise directly into audio signals, which can be removed by speech enhancement techniques.",
+        "novelty": "RoVo improves by embedding adversarial perturbations at the embedding level, making them difficult to neutralize during enhancement."
+    },
+    "key_innovation": "The technique leverages high-dimensional embedding vectors, allowing for more persistent and robust voice protection against various attacks.",
+    "real_world_impact": "RoVo represents a significant advancement in proactive voice protection, potentially reducing risks associated with voice phishing and misinformation spread through synthesized speech.",
+    "limitations": "The authors do not explicitly mention limitations in their approach.",
+    "new_terms": {
+        "embedding-level adversarial perturbations": "**Embedding-level adversarial perturbations** refer to subtle manipulations added to the internal representations of audio data, rather than the audio signals themselves, to disrupt speaker identification without altering the perceptual quality of the speech."
+    },
+    "open_sourcing": "Sound samples available at: https://smerge0802.github.io/RoVo/"
+}

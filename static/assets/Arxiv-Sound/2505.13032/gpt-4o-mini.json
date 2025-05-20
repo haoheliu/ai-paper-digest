@@ -1,0 +1,22 @@
+{
+    "title": "MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix",
+    "author": "Ziyang Ma (Shanghai Jiao Tong University), Yinghao Ma (Nanyang Technological University), Yanqiao Zhu (Shanghai Jiao Tong University), Chen Yang (Shanghai Jiao Tong University), Yi-Wen Chao (Nanyang Technological University), Ruiyang Xu (Shanghai Jiao Tong University), Wenxi Chen (Shanghai Jiao Tong University), ... , Xie Chen (Shanghai Jiao Tong University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The benchmark designed for evaluating audio-language models aligns closely with Haohe Liu's work in audio and speech processing, particularly in areas like audio captioning and deep reasoning training methods.",
+    "field": "Applications-Speech and Audio",
+    "background": "MMAR provides a comprehensive evaluation framework through 1,000 audio-question-answer pairs that necessitate multi-step reasoning across varying audio modalities.",
+    "contribution": "MMAR introduces a rigorous benchmark for audio-language models to assess their reasoning capabilities across diverse tasks, aiming to advance research in audio reasoning.",
+    "technical_comparison": {
+        "prior_work": "Previous benchmarks primarily assess surface-level understanding, limiting the evaluation of deeper reasoning within audio tasks.",
+        "novelty": "MMAR focuses on deep reasoning across mixed-modal audio inputs and employs a hierarchical taxonomy for structuring tasks, which previous benchmarks did not provide."
+    },
+    "key_innovation": "A unique combination of hierarchical task categorization, real-world audio examples, and Chain-of-Thought annotations to enhance reasoning capabilities.",
+    "real_world_impact": "By setting a new standard for evaluating audio-language models, MMAR could lead to significant improvements in real-world applications such as speech recognition, audio captioning, and multimodal AI systems.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Audio-Language Models (ALMs)": "**Audio-Language Models** refer to models that combine audio processing and language understanding to interpret and generate audio-related data.",
+        "Chain-of-Thought (CoT)": "**Chain-of-Thought** is a reasoning framework that traces the thought process leading to a conclusion or answer, promoting interpretability in AI models."
+    },
+    "open_sourcing": "https://github.com/ddlBoJack/MMAR"
+}

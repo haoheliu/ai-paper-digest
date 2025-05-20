@@ -1,0 +1,19 @@
+{
+    "title": "AnalyticKWS: Towards Exemplar-Free Analytic Class Incremental Learning for Small-footprint Keyword Spotting",
+    "author": "Yang Xiao (The University of Melbourne), Tianyi Peng (Nanyang Technological University), Rohan Kumar Das (Fortemedia Singapore), Yuchen Hu (Nanyang Technological University), Huiping Zhuang (South China University of Technology), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The method\u2019s contributions to keyword spotting directly overlap with Haohe Liu\u2019s focus on audio processing and speech technologies, particularly in improving performance while safeguarding user privacy.",
+    "field": "Applications-Speech and Audio",
+    "background": "Incremental learning for keyword spotting aims to append new keywords in models while ensuring past knowledge remains intact, addressing the problem of catastrophic forgetting.",
+    "contribution": "AnalyticKWS introduces an exemplar-free analytic learning method to mitigate catastrophic forgetting in keyword spotting systems, achieving higher accuracy with reduced memory usage and computational demand.",
+    "technical_comparison": "Previous methods generally rely on storing past examples to maintain performance on earlier tasks, leading to privacy and memory concerns. This work improves by using a closed-form analytical update approach that eliminates the need to store past data while maintaining high accuracy.",
+    "key_innovation": "The unique approach of using recursive least-squares methods for model updates without backpropagation sets this method apart, allowing it to efficiently learn new tasks without historical data.",
+    "real_world_impact": "The proposed method enables efficient and privacy-preserving keyword recognition in real-time applications, especially useful for edge-computing devices with limited resources.",
+    "limitations": "No",
+    "new_terms": {
+        "exemplar-free": "**Exemplar-free** refers to learning methods that do not require storing past data examples to maintain knowledge across tasks.",
+        "analytic learning": "**Analytic learning** is a method that focuses on deriving closed-form solutions to optimize model parameters instead of utilizing traditional gradient-based backpropagation."
+    },
+    "open_sourcing": ""
+}

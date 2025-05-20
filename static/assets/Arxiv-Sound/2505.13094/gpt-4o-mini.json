@@ -1,0 +1,22 @@
+{
+    "title": "Time-Frequency-Based Attention Cache Memory Model for Real-Time Speech Separation",
+    "author": "Guo Chen (Tsinghua University), Kai Li (Tsinghua University), Runxuan Yang (Tsinghua University), Xiaolin Hu (Tsinghua University), ..., Guo Chen (Tsinghua University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed Time-Frequency Attention Cache Memory model (TFACM) for speech separation leverages attention mechanisms and cache memory, which could inform innovative approaches in Haohe Liu's work on audio-related deep learning tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research tackles the task of real-time speech separation from mixed audio signals, aiming to improve clarity and intelligibility in environments with overlapping voices.",
+    "contribution": "The authors introduce the Time-Frequency Attention Cache Memory model (TFACM) to solve the historical information retention problem in causal speech separation, achieving performance comparable to state-of-the-art models with significantly lower complexity.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like TF-GridNet require extensive parameters and have high computational costs, making them less suitable for real-time applications.",
+        "novelty": "TFACM innovatively integrates cache memory and causal attention refinement while using fewer parameters and lower computational resources, improving efficiency and maintainability."
+    },
+    "key_innovation": "The combination of Cache Memory and Causal Attention Refinement allows the model to efficiently store and utilize historical audio features, maintaining high performance in real-time tasks.",
+    "real_world_impact": "This model presents advancements in real-time capabilities for speech separation, which could enhance applications in transcription, virtual assistants, and communication tools. No immediate real-world impact.",
+    "limitations": "No",
+    "new_terms": {
+        "Cache Memory": "**Cache Memory** refers to a storage system for retaining historical data that allows the model to access past information efficiently during processing.",
+        "Causal Attention Refinement": "**Causal Attention Refinement** is an attention mechanism that adjusts the weight of attention based solely on past information to ensure causal modeling."
+    },
+    "open_sourcing": "The TFACM source code is available at https://anonymous.4open.science/r/TFACM-Code/"
+}

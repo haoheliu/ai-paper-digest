@@ -1,0 +1,21 @@
+{
+    "title": "Exploring the Potential of SSL Models for Sound Event Detection",
+    "author": "Hanfang Cui (Shanghai Normal University), Longfei Song (Shanghai Normal University), Li Li (Shanghai Normal University), Dongxing Xu (Unisound AI Technology Co., Ltd.), Yanhua Long (Shanghai Normal University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The integration of self-supervised learning (SSL) models and the proposed framework for sound event detection can enhance audio applications in Haohe Liu's research, particularly in audio generation and quality enhancement tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sound event detection involves identifying and localizing specific acoustic events within audio recordings, a key challenge in audio analysis.",
+    "contribution": "This paper introduces a framework combining various self-supervised learning models to enhance sound event detection, achieving improved detection accuracy and robustness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often focused on a single self-supervised learning model, limiting their representational power and performance in dynamic environments.",
+        "novelty": "This work improves by integrating multiple SSL models and proposing a post-processing method, leading to complementary performance gains in sound event detection."
+    },
+    "key_innovation": "The proposed framework for model fusion leverages diverse SSL representations, enhancing detection capabilities and adaptability to different acoustic conditions.",
+    "real_world_impact": "This study could significantly improve applications in smart environments and healthcare systems by providing more robust sound event detection capabilities, which are crucial for automating monitoring tasks.",
+    "limitations": "No",
+    "new_terms": {
+        "normalized sound event bounding boxes (nSEBBs)": "**Normalized Sound Event Bounding Boxes (nSEBBs)** is a post-processing method that dynamically adjusts detection boundaries for sound events, enhancing the accuracy of event localization."
+    },
+    "open_sourcing": ""
+}

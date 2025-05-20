@@ -1,0 +1,22 @@
+{
+    "title": "Personalized Fine-Tuning with Controllable Synthetic Speech from LLM-Generated Transcripts for Dysarthric Speech Recognition",
+    "author": "Dominik Wagner (Technische Hochschule Nurnberg Georg Simon Ohm), Ilja Baumann (Technische Hochschule Nurnberg Georg Simon Ohm), Natalie Engert (Technische Hochschule Nurnberg Georg Simon Ohm), Seanie Lee (Korea Advanced Institute of Science & Technology), Elmar Noth (Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg), Korbinian Riedhammer (Technische Hochschule Nurnberg Georg Simon Ohm), Tobias Bocklet (Technische Hochschule Nurnberg Georg Simon Ohm), ..., Elmar Noth (Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper explores advancements in speech recognition systems, particularly in generating synthetic dysarthric speech, which aligns with my interest in audio processing and speech synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of automatic speech recognition for dysarthric speakers, who often have impaired speech articulation.",
+    "contribution": "This paper introduces a personalized fine-tuning approach using synthetic speech data generated from large language models (LLMs) to increase the accuracy of dysarthric speech recognition systems.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for dysarthric speech recognition struggled with low accuracy due to few available training examples and high variability among speakers.",
+        "novelty": "This work improves by integrating controllable synthetic speech generation capabilities alongside personalized fine-tuning techniques."
+    },
+    "key_innovation": "Combines synthetic speech generation from a fine-tuned text-to-speech model with personalized adjustments using speaker characteristics.",
+    "real_world_impact": "The enhancements in dysarthric speech recognition could significantly improve communication tools for individuals with speech impairments, leading to better accessibility in everyday life.",
+    "limitations": "The effectiveness of synthetic dysarthric speech generation varies by the speaker's etiology, which may restrict generalization across different dysarthric speech patterns.",
+    "new_terms": {
+        "dysarthric speech": "**Dysarthric speech** refers to speech that is slurred and difficult to understand due to motor control problems affecting the muscles used for speech.",
+        "x-vectors": "**x-vectors** are a type of speaker embedding that captures speaker characteristics in a fixed-dimensional vector, commonly used in speaker recognition tasks."
+    },
+    "open_sourcing": ""
+}

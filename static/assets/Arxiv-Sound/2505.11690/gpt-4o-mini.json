@@ -1,0 +1,22 @@
+{
+    "title": "Automatic Speech Recognition for African Low-Resource Languages: Challenges and Future Directions",
+    "author": "Sukairaj Hafiz Imam (Bayero University, Kano), Babangida Sani (Kalinga University), Dawit Ketema Gete (Debre Birhan University), Bedru Yimam Ahamed (Wollo University), Ibrahim Said Ahmad (Northeastern University), Idris Abdulmumin (University of Pretoria), Seid Muhie Yimam (University of Hamburg), Muhammad Yahuza Bello (Bayero University, Kano), Shamsuddeen Hassan Muhammad (Bayero University, Kano), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses ASR technologies for low-resource African languages, which aligns well with my work in speech processing and could inform the development of more inclusive and efficient models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study explores the challenges in developing automatic speech recognition systems for various African languages, focusing on issues such as data scarcity, linguistic complexity, and ethical considerations.",
+    "contribution": "This paper introduces critical barriers such as data scarcity and linguistic complexity in building automatic speech recognition systems for African languages, while proposing community-driven data collection and lightweight modeling as solutions.",
+    "technical_comparison": {
+        "prior_work": "Existing ASR systems predominantly focus on high-resource languages, using significant datasets but struggle with underrepresented language complexities.",
+        "novelty": "This work emphasizes the importance of community engagement and innovative strategies like self-supervised learning, which have been less explored in low-resource language settings."
+    },
+    "key_innovation": "The emphasis on community-driven data collection and adaptation of ASR systems to local linguistic complexities allows for the creation of inclusive speech technologies.",
+    "real_world_impact": "If successfully implemented, this research could significantly enhance digital accessibility for speakers of African languages and preserve linguistic diversity.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "automatic speech recognition (ASR)": "**Automatic Speech Recognition (ASR)** refers to technology that converts spoken language into text, enabling human-computer interaction through voice.",
+        "self-supervised learning (SSL)": "**Self-Supervised Learning (SSL)** is a machine learning approach where the model learns from unlabeled data by creating its own supervisory signal."
+    },
+    "open_sourcing": ""
+}

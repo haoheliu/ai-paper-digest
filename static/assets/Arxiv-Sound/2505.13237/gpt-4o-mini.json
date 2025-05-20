@@ -1,0 +1,22 @@
+{
+    "title": "SAKURA: On the Multi-hop Reasoning of Large Audio-Language Models Based on Speech and Audio Information",
+    "author": "Chih-Kai Yang (National Taiwan University), Neo Ho (National Taiwan University), Yen-Ting Piao (National Taiwan University), Hung-yi Lee (National Taiwan University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a benchmark for evaluating multi-hop reasoning abilities in large audio-language models, which is relevant as it can inform future developments in audio integration techniques and multimodal systems relevant to Haohe's focus on audio-language models.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating multi-hop reasoning abilities of large audio-language models that process speech and audio inputs, to determine their capacity for integrating information across multiple representations.",
+    "contribution": "This paper introduces the SAKURA benchmark to evaluate large audio-language models' multi-hop reasoning, achieving insights into the models' limitations in integrating audio representations within reasoning tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks focus primarily on speech and audio processing without comprehensive evaluation of reasoning abilities.",
+        "novelty": "This work systematically addresses the gap in evaluating multi-hop reasoning specific to audio and speech contexts, offering a structured approach."
+    },
+    "key_innovation": "The SAKURA benchmark uniquely combines single-hop and multi-hop tasks across various audio attributes, allowing for a nuanced understanding of reasoning processes.",
+    "real_world_impact": "This research could enhance the design and evaluation of audio-language models, leading to more effective systems in fields such as speech recognition, emotion detection, and human-computer interaction.",
+    "limitations": "The study currently only investigates four speech/audio attributes and does not address acoustic variability which may affect performance.",
+    "new_terms": {
+        "multi-hop reasoning": "**Multi-hop reasoning** refers to the capability of models to integrate information from multiple independent facts or sources to answer complex queries.",
+        "large audio-language models (LALMs)": "**Large audio-language models (LALMs)** represent a class of models that integrate audio signals and language understanding for various computational tasks."
+    },
+    "open_sourcing": "The resources related to the dataset and evaluation methods are available at https://github.com/b08202033/SAKURA."
+}

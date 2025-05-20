@@ -1,0 +1,22 @@
+{
+    "title": "Unified Architecture and Unsupervised Speech Disentanglement for Speaker Embedding-Free Enrollment in Personalized Speech Enhancement",
+    "author": "Ziling Huang (Shanghai Normal University), Haixin Guan (Unisound AI Technology Co., Ltd.), Yanhua Long (Shanghai Normal University), ... ",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work significantly contributes to personalized speech enhancement (PSE) without relying on speaker embeddings, which aligns with my focus on generative approaches and voice-based applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper explores a unified framework for speech enhancement and personalized speech enhancement, addressing challenges related to extraction of a target speaker's voice from noisy mixtures.",
+    "contribution": "This paper introduces USEF-PNet and DSEF-PNet, which unify speech enhancement and personalized speech enhancement tasks, enhancing robustness against variations in enrollment speech and improving efficiency.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often require speaker embeddings and separate architectures for speech enhancement and personalized tasks, leading to inefficiencies.",
+        "novelty": "This work consolidates SE and PSE into a single model that can operate effectively across various tasks without needing external embeddings."
+    },
+    "key_innovation": "The model employs a novel unsupervised speech disentanglement mechanism, allowing it to isolate speaker identity information from unrelated content.",
+    "real_world_impact": "This research could lead to more efficient and robust speech enhancement systems for practical applications like personal assistants and conferencing tools, improving user experience.",
+    "limitations": "While exploring long-short enrollment strategies, the effectiveness of pairing short and long enrollment speech was not consistently superior.",
+    "new_terms": {
+        "Personalized Speech Enhancement (PSE)": "**Personalized Speech Enhancement** refers to techniques that enhance the audio quality of a specific speaker's voice in environments with multiple overlapping speakers.",
+        "unsupervised speech disentanglement": "**Unsupervised speech disentanglement** is a method for separating speaker identity from irrelevant acoustic features without labeled data."
+    },
+    "open_sourcing": "Source code and datasets will be publicly available at https://github.com/isHuangZiling/UDSEF-PNet."
+}

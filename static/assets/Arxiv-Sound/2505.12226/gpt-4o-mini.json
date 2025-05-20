@@ -1,0 +1,22 @@
+{
+    "title": "Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis",
+    "author": "Dong Yang (The University of Tokyo), Yiyi Cai (Independent Researcher), Yuki Saito (The University of Tokyo), Lixu Wang (Nanyang Technological University), Hiroshi Saruwatari (The University of Tokyo), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a novel shallow flow matching technique that enhances text-to-speech synthesis models. The methodology could potentially inform similar advancements in Haohe Liu's work on audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves synthesized speech generation from text, enhancing the quality and efficiency of the synthesis process using a new flow-based approach.",
+    "contribution": "This paper introduces shallow flow matching to solve the inefficiencies in traditional flow matching models in TTS, achieving more natural speech synthesis and faster inference times.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically start from noise, which can waste modeling capacity and lead to lower quality outputs.",
+        "novelty": "This work modifies the inference process by starting from intermediate states derived from coarse representations, significantly improving model stability and quality."
+    },
+    "key_innovation": "Implements an orthogonal projection method to determine the temporal position of intermediate states along flow paths to enhance synthesis quality.",
+    "real_world_impact": "The improvements in speech synthesis could lead to more natural-sounding TTS applications, benefiting various fields such as virtual assistants, audiobooks, and accessibility tools.",
+    "limitations": "The authors do not explicitly mention limitations in the paper.",
+    "new_terms": {
+        "Shallow Flow Matching": "**Shallow Flow Matching** is a proposed mechanism that optimizes the flow matching process in text-to-speech synthesis by starting from intermediate states rather than pure noise.",
+        "Conditional Optimal Transport": "**Conditional Optimal Transport** refers to a framework used to describe the transformation of probability distributions under certain conditions, facilitating more efficient data flow modeling."
+    },
+    "open_sourcing": "Demo and codes are available at https://ydqmkkx.github.io/SFMDemo/"
+}

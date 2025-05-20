@@ -1,0 +1,22 @@
+{
+    "title": "MultiActor-Audiobook: Zero-Shot Audiobook Generation with Faces and Voices of Multiple Speakers",
+    "author": "Kyeongman Park (Seoul National University), Seongho Joo (Seoul National University), Kyomin Jung (Seoul National University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper's approach of generating speaker-aligned emotional audiobooks through multimodal inputs and large language models can enhance text-to-speech systems, which aligns with Haohe Liu's focus on audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating audiobooks that utilize visuals and emotions to create a narratively rich audio experience for each character, without prior training on specific voice actors.",
+    "contribution": "MultiActor-Audiobook introduces a zero-shot audiobook generation system that combines facial images and emotional voice synthesis to achieve expressive audio, addressing prior limitations in audiobook creation.",
+    "technical_comparison": {
+        "prior_work": "Traditional audiobook systems require extensive training data or manual annotation for voice characteristics and emotion conveyance.",
+        "novelty": "This work eliminates the need for extensive datasets or manual labor through automated processes that generate speaker personas and instructs TTS systems to provide emotional context dynamically."
+    },
+    "key_innovation": "Utilizes a combination of multimodal speaker persona generation and context-aware instruction generation based on a large language model to synthesize audio dynamically.",
+    "real_world_impact": "This technology could revolutionize audiobook production, making it more accessible and less labor-intensive, potentially impacting areas like education and entertainment.",
+    "limitations": "The system shows lower quality compared to established commercial systems due to its reliance on a less specialized backbone TTS model.",
+    "new_terms": {
+        "zero-shot": "**Zero-shot** learning refers to the ability of a model to make predictions about classes or categories it has not encountered during training.",
+        "multimodal": "**Multimodal** indicates involving multiple types of data (e.g., text, images, audio) in analysis or processing."
+    },
+    "open_sourcing": ""
+}

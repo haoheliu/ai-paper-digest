@@ -1,0 +1,22 @@
+{
+    "title": "Text2midi-InferAlign: Improving Symbolic Music Generation with Inference-Time Alignment",
+    "author": "Abhinaba Roy (Singapore University of Technology and Design), Geeta Puri (Singapore University of Technology and Design), Dorien Herremans (Singapore University of Technology and Design), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper introduces a method that enhances text-to-music generation, which could directly inform Haohe Liu's work in generative AI for music, enabling better alignment between textual descriptions and generated musical compositions.",
+    "field": "Applications-Creative AI",
+    "background": "Symbolic music generation from text descriptions is challenging due to the need for alignment between language and musical elements.",
+    "contribution": "Text2midi-InferAlign introduces inference-time alignment techniques to improve the quality of generated symbolic music, achieving better coherence with text captions and adherence to musical structures.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, while effective at generating midi from text, often lack mechanisms to ensure that generated music maintains structural integrity and aligns closely with the input text.",
+        "novelty": "This work improves by incorporating reward-guided exploration and exploitation phases in a tree search approach to refine music generation based on alignment with specific objectives."
+    },
+    "key_innovation": "The method combines caption mutation and dual reward scores for text-audio consistency and harmonic consistency to enhance symbolic music generation.",
+    "real_world_impact": "This approach could lead to advancements in music composition tools, enabling users to create compositions that more accurately reflect their descriptions or emotions, thus enhancing creative expression.",
+    "limitations": "No",
+    "new_terms": {
+        "text-audio consistency score": "**Text-audio consistency score** measures how well the generated music corresponds to the rhythmic and semantic qualities of the input text.",
+        "harmonic-consistency score": "**Harmonic-consistency score** penalizes music notes that do not conform to the expected musical key."
+    },
+    "open_sourcing": "Code and examples available at https://github.com/AMAAI-Lab/t2m-inferalign"
+}

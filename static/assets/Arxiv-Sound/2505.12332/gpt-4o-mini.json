@@ -1,0 +1,22 @@
+{
+    "title": "VoiceCloak: A Multi-Dimensional Defense Framework against Unauthorized Diffusion-based Voice Cloning",
+    "author": "Qianyue Hu (School of Computer Science and Engineering, Sun Yat-sen University), Wei Lu (School of Computer Science and Engineering, Sun Yat-sen University), Junyan Wu (School of Computer Science and Engineering, Sun Yat-sen University), Xiangyang Luo (State Key Laboratory of Mathematical Engineering and Advanced Computing, Zhengzhou, China), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The framework proposed, VoiceCloak, utilizes adversarial perturbations to protect against unauthorized voice cloning, which is directly related to Haohe Liu's focus on audio processing and voice synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of securing voice against unauthorized cloning using diffusion models, which can produce highly realistic audio outputs from minimal reference samples.",
+    "contribution": "VoiceCloak introduces a multi-dimensional defense framework that obfuscates speaker identity and degrades perceptual quality to counteract unauthorized diffusion-based voice cloning.",
+    "technical_comparison": {
+        "prior_work": "Existing defenses against voice cloning primarily target traditional models, often failing with the more complex diffusion models due to their unique generative processes.",
+        "novelty": "VoiceCloak improves upon previous approaches by integrating psychoacoustic principles into its adversarial perturbations and disrupting attention mechanisms within diffusion models."
+    },
+    "key_innovation": "The integration of auditory perception principles for identity obfuscation and targeted disruption of attention mechanisms specific to diffusion models makes VoiceCloak particularly effective against voice cloning.",
+    "real_world_impact": "VoiceCloak has significant implications for protecting user privacy in voice-based applications, particularly in scenarios susceptible to spoofing, such as banking and security systems.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "Diffusion Models (DMs)": "**Diffusion Models** are generative models that utilize a denoising process iteratively, allowing for the generation of new data by progressively refining noise samples.",
+        "adversarial perturbations": "**Adversarial perturbations** refer to small modifications made to data samples that intentionally disrupt the output of machine learning models, aimed at security or robustness improvements."
+    },
+    "open_sourcing": "Audio samples of VoiceCloak are available at https://voice-cloak.github.io/VoiceCloak/"
+}

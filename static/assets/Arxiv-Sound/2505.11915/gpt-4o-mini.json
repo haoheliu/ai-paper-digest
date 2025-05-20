@@ -1,0 +1,22 @@
+{
+    "title": "BINAQUAL: A Full-Reference Objective Localization Similarity Metric for Binaural Audio",
+    "author": "Davoud Shariat Panah (School of Computer Science, University College Dublin), Jan Skoglund (Google LLC), Dan Barry (School of Computer Science, University College Dublin), Alessandro Ragano (School of Computer Science, University College Dublin), Andrew Hines (School of Computer Science, University College Dublin), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "This paper presents a new objective metric for evaluating spatial audio quality, which can be applied in audio generation tasks and directly relates to audio processing methods in Haohe's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating the spatial fidelity of binaural audio to ensure accurate sound localization during audio playback.",
+    "contribution": "BINAQUAL introduces an objective metric for assessing localization similarity in binaural audio, achieving a reliable method for differentiating spatial audio quality.",
+    "technical_comparison": {
+        "prior_work": "Previous metrics primarily focused on single-point localization accuracy and lacked benchmarks across various audio conditions.",
+        "novelty": "This work adapts the AMBIQUAL metric for binaural audio, enabling sensitivity analysis across multiple dimensions, including angle variation and codec compression."
+    },
+    "key_innovation": "It creates a full-reference model that captures localization similarity through NSIM scores for left and right channels in binaural audio.",
+    "real_world_impact": "Enhancing objective evaluation methods for binaural audio can significantly improve immersive experiences in virtual reality, gaming, and cinema, leading to wider adoption of high-quality spatial audio technologies.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "B-format": "**B-format** represents an ambisonic audio format that captures spatial information in a way that enables versatile playback on various speaker arrangements.",
+        "neurogram similarity index measure (NSIM)": "**Neurogram Similarity Index Measure (NSIM)** is a perceptual quality metric that measures the similarity between audio signals based on their time-frequency components."
+    },
+    "open_sourcing": "The source code of the BINAQUAL model is publicly available at https://github.com/QxLabIreland/Binaqual."
+}

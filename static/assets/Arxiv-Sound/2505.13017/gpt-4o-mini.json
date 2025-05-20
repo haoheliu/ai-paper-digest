@@ -1,0 +1,22 @@
+{
+    "title": "Optimal Scalogram for Computational Complexity Reduction in Acoustic Recognition Using Deep Learning",
+    "author": "Dang Thoai Phan (Joyson Safety Systems), Cao Minh Tran (Nguyen Tat Thanh University), Tuan Anh Huynh (University of Information Technology), Van Thuan Mai (Changwon National University), ..., Ngoc Quy Tran (FPT University)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The research addresses computational efficiency in acoustic recognition which is relevant to Haohe's work involving audio processing and machine learning. Methods for reducing computational intensity could enhance systems in voice and music applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on improving feature extraction from audio signals by optimizing the Continuous Wavelet Transform to reduce computational burden while ensuring effective acoustic recognition.",
+    "contribution": "This paper introduces a method that optimizes wavelet kernel length and hop size to solve the high computational cost of Continuous Wavelet Transform, achieving a significant reduction in processing time.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, like the Short-Time Fourier Transform, were preferred due to their lower computational demands, often sacrificing feature extraction quality.",
+        "novelty": "This work enhances the Continuous Wavelet Transform by allowing variable wavelet lengths and hop sizes, balancing performance with computational efficiency."
+    },
+    "key_innovation": "It uniquely combines adjustable wavelet parameters with selective downsampling to create a more efficient scalogram generation process.",
+    "real_world_impact": "The method could be employed in real-time acoustic recognition systems, making it practical for industrial applications like machinery monitoring and environmental sound classification.",
+    "limitations": "The trade-off between computational efficiency and recognition performance may not be optimal for all types of audio signals.",
+    "new_terms": {
+        "Continuous Wavelet Transform": "**Continuous Wavelet Transform (CWT)** is a time-frequency analysis technique that decomposes a signal into wavelets at various scales for better feature representation.",
+        "scalogram": "**Scalogram** refers to a visual representation of the wavelet transform of a signal, highlighting its features across different time and frequency scales."
+    },
+    "open_sourcing": "GitHub repository: https://github.com/phandangthoai/Optimal_Scalogram"
+}

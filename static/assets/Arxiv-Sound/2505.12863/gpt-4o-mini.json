@@ -1,0 +1,19 @@
+{
+    "title": "Unified Cross-modal Translation of Score Images, Symbolic Music, and Performance Audio",
+    "author": "Jongmin Jung (Department of Artificial Intelligence, Sogang University), Dongmin Kim (Department of Artificial Intelligence, Sogang University), Sihun Lee (Department of Artificial Intelligence, Sogang University), Seola Cho (Sogang Future Lab, Sogang University), Hyungjoon So (Department of Physics Education, Seoul National University), Irmak Bukey (Computer Science Department, Carnegie Mellon University), Chris Donahue (Computer Science Department, Carnegie Mellon University), ..., Dasaem Jeong (Department of Art & Technology, Sogang University)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper introduces a unified approach to multimodal translation in music, which can be applied to audio-language alignment tasks, a key area in Haohe Liu's research.",
+    "field": "Applications-Creative AI",
+    "background": "Developing a model that translates music across various formats\u2014such as score images, MIDI, and audio\u2014designed to streamline music information retrieval tasks.",
+    "contribution": "This paper introduces a unified multimodal translation framework that successfully translates between score images, symbolic scores, performance MIDI, and audio, achieving state-of-the-art results in several music-related tasks.",
+    "technical_comparison": "Previous methods treated multi-modal translations as separate tasks, relying on specialized models. This work improves by using a single encoder-decoder transformer model that can handle multiple translation tasks through tokenization.",
+    "key_innovation": "It effectively tokenizes different music modalities into a coherent sequence format, allowing end-to-end multitask training and enabling direct translation between different music representations.",
+    "real_world_impact": "This research could revolutionize how music is generated and transcribed, potentially enhancing tools for musicians, educators, and music analysts. Its findings may accelerate advancements in audio generation and music education resources.",
+    "limitations": "The model shows modest improvements in automatic music transcription accuracy compared to significant gains in other tasks, and the audio-to-image output quality still requires enhancement for practical use.",
+    "new_terms": {
+        "Optical Music Recognition (OMR)": "**Optical Music Recognition** refers to the technology used to convert different forms of music notation into machine-readable formats.",
+        "Automatic Music Transcription (AMT)": "**Automatic Music Transcription** is the task of converting audio recordings into musical notations, primarily focusing on note and rhythm extraction."
+    },
+    "open_sourcing": ""
+}

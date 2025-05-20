@@ -1,0 +1,22 @@
+{
+    "title": "Acoustic Field Reconstruction in Tubes via Physics-Informed Neural Networks",
+    "author": "Xinmeng Luan (McGill University), Kazuya Yokota (Nagaoka University of Technology), Gary Scavone (McGill University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper explores the use of Physics-Informed Neural Networks (PINNs) for reconstructing acoustic fields, which could provide innovative methods for audio analysis and modeling, relevant for audio processing tasks that Haohe Liu focuses on.",
+    "field": "Applications-Speech and Audio",
+    "background": "Reconstructing the acoustic field in tubes based on limited and noisy pressure observation data at the radiation end, where the radiation model is unknown.",
+    "contribution": "This paper introduces a framework using Physics-Informed Neural Networks (PINNs) to solve inverse problems in acoustic tube analysis, achieving reliable acoustic field reconstruction even with noise.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on traditional numerical techniques like Finite Difference Method (FDM) and Finite Element Method (FEM), which may not handle noise effectively.",
+        "novelty": "This work improves upon traditional methods by incorporating physical laws within the neural network training process, enhancing robustness against noisy data."
+    },
+    "key_innovation": "Combines neural networks with physical laws to reconstruct acoustic fields in challenging conditions where radiation models are unknown.",
+    "real_world_impact": "Offers a novel approach for noise-tolerant acoustic analysis in applications like musical instrument design and biomedical acoustics, potentially transforming how acoustic measurements are interpreted.",
+    "limitations": "The study has only been tested under periodic boundary conditions, limiting its applicability in varied acoustic scenarios.",
+    "new_terms": {
+        "Physics-Informed Neural Networks": "**Physics-Informed Neural Networks (PINNs)** are a class of neural networks that integrate known physical laws into their learning process, allowing them to better predict behavior in complex systems.",
+        "acoustic tube": "**Acoustic tube** refers to a cylindrical structure through which sound waves are propagated, commonly used in the study of musical instruments and acoustics."
+    },
+    "open_sourcing": ""
+}
