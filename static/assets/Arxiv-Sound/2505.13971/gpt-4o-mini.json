@@ -1,0 +1,22 @@
+{
+    "title": "The Multimodal Information Based Speech Processing (MISP) 2025 Challenge: Audio-Visual Diarization and Recognition",
+    "author": "Ming Gao (University of Science and Technology of China), Shilong Wu (University of Science and Technology of China), Hang Chen (University of Science and Technology of China), Jun Du (University of Science and Technology of China), Chin-Hui Lee (Georgia Institute of Technology), Shinji Watanabe (Carnegie Mellon University), Jingdong Chen (Carnegie Mellon University), Siniscalchi Sabato Marco (Northwestern Polytechnical University), ... Odette Scharenborg (University of Palermo)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper focuses on advancements in audio-visual speech processing, which is relevant for improving audio synthesis and generative models, aligning well with Haohe Liu's focus on audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The challenge aims to address complex meeting scenarios by improving transcription accuracy through the integration of audio and visual data.",
+    "contribution": "This paper introduces the MISP 2025 challenge to solve audio-visual diarization and recognition tasks, achieving substantial improvements over baseline metrics in these domains.",
+    "technical_comparison": {
+        "prior_work": "Previous challenges focused on home scenarios with limited data and tasks, primarily in audio-only formats.",
+        "novelty": "This work enhances previous efforts by incorporating multi-modal data from real-world meetings and providing a comprehensive dataset for complex scenarios."
+    },
+    "key_innovation": "The integration of visual data significantly enhances speaker recognition and diarization under challenging acoustic conditions, leveraging additional information to resolve overlapping speech.",
+    "real_world_impact": "Improved audio-visual transcription methods can lead to better meeting analysis tools, making real-time communication more effective and reducing misunderstandings in professional settings.",
+    "limitations": "The paper does not discuss potential limitations of the proposed methods beyond baseline comparisons.",
+    "new_terms": {
+        "Diarization Error Rate (DER)": "**Diarization Error Rate (DER)** is a metric used to evaluate the accuracy of speaker diarization, measuring the time errors due to speaker confusion, false alarms, and missed detections.",
+        "Audio-Visual Speech Recognition (AVSR)": "**Audio-Visual Speech Recognition (AVSR)** combines audio and visual cues to improve the accuracy of transcribing spoken language, particularly in noisy environments."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "SeamlessEdit: Background Noise Aware Zero-Shot Speech Editing with in-Context Enhancement",
+    "author": "Kuan Yu Chen (Graduate Institute of Communication Engineering, National Taiwan University), Jeng-Lin Li (Inventec Corporation), Jian-Jiun Ding (Graduate Institute of Communication Engineering, National Taiwan University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The framework addresses noisy speech editing, which aligns closely with Haohe Liu's work on speech enhancement and restoration. The techniques proposed could potentially enhance voice quality in applications such as podcast editing or speech restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Editing speech that is mixed with background noise to improve audio quality and intelligibility without sacrificing the original vocal characteristics.",
+    "contribution": "SeamlessEdit introduces a noise-resilient speech editing framework to solve the challenges posed by noisy environments, achieving improved naturalness and intelligibility in the edited output.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with noise interference, leading to a degradation of speech quality in real-world scenarios.",
+        "novelty": "This work improves upon existing models by utilizing a frequency-band aware noise suppression module and an in-context refinement strategy to maintain speech integrity during editing."
+    },
+    "key_innovation": "Utilizes in-context learning to enhance the editing quality by effectively integrating noise-suppressed speech into the editing process.",
+    "real_world_impact": "The framework could significantly enhance the process of audio post-production in noisy environments, making it useful for various applications such as interviews and media content editing.",
+    "limitations": "No.",
+    "new_terms": {
+        "in-context learning": "**In-context learning** refers to methods that enhance model performance by providing contextual information during the learning process, allowing models to generate more relevant outputs based on surrounding data."
+    },
+    "open_sourcing": "The demo page and code will be released after paper acceptance."
+}

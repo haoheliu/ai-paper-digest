@@ -1,0 +1,22 @@
+{
+    "title": "Articulatory Feature Prediction from Surface EMG during Speech Production",
+    "author": "Jihwan Lee (University of Southern California), Kevin Huang (University of Southern California), Kleanthis Avramidis (University of Southern California), Simon Pistrosch (Technical University of Munich), Monica Gonzalez-Machorro (Technical University of Munich), Yoonjeong Lee (University of Southern California), Bjorn Schuller (Technical University of Munich), Louis Goldstein (University of Southern California), Shrikanth Narayanan (University of Southern California)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This work explores the use of surface electromyography (EMG) to predict articulatory features which could be applicable to audio synthesis, restoration, and voice generation tasks that Haohe Liu is focused on.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to predict articulatory movements using surface electromyography signals to create intelligible speech waveforms, enhancing assistive technologies for speech production.",
+    "contribution": "This paper introduces a model that predicts articulatory features from surface electromyography signals, achieving a strong correlation (approximately 0.9) for most articulatory features and demonstrating intelligible speech generation.",
+    "technical_comparison": {
+        "prior_work": "Prior methods focused on mapping EMG signals directly to intermediate acoustic features, limiting interpretability and controllability of speech.",
+        "novelty": "This work integrates an EMG encoder with convolutional layers and a Transformer block to decode speech through articulatory features, enhancing interpretability."
+    },
+    "key_innovation": "The method uniquely employs articulatory features as an intermediary between EMG signals and speech waveforms, allowing for clearer insights into muscle activity related to speech.",
+    "real_world_impact": "The approach improves potential applications in speech synthesis for individuals with communication impairments, enhancing accessibility and communication methods.",
+    "limitations": "The method relies on estimated articulatory features from audio due to the lack of large EMG-EMA datasets, which could introduce inaccuracies.",
+    "new_terms": {
+        "articulatory features": "**Articulatory features** are properties related to the position and movement of speech organs (such as the tongue, lips, and jaw) during speech production.",
+        "electromyography": "**Electromyography (EMG)** is a technique for recording muscle electrical activity to assess neuromuscular function, useful in analyzing movements during speech."
+    },
+    "open_sourcing": "https://github.com/lee-jhwn/IS25-emg-ema"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Single-Channel Target Speech Extraction Utilizing Distance and Room Clues",
+    "author": "Runwu Shi (Institute of Science Tokyo), Zirui Lin (Institute of Science Tokyo), Benjamin Yen (IEEE), Jiang Wang (Institute of Science Tokyo), Ragib Amin Nihal (Institute of Science Tokyo), Kazuhiro Nakadai (Institute of Science Tokyo), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed method uses distance and room characteristics for target speech extraction, which could enhance Haohe Liu's audio restoration and enhancement approaches by providing more contextual information for processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of extracting target speech from a mixture in reverberant environments, leveraging speaker distance and room characteristics to improve performance.",
+    "contribution": "This paper introduces a distance and environment-based target speech extraction model to solve the generalization problem of distance clues, achieving improved extraction quality in varied environments.",
+    "technical_comparison": {
+        "prior_work": "Earlier distance-based methods often struggled with generalizing across different acoustic environments since they did not account for room parameters.",
+        "novelty": "This work incorporates room information, such as reverberation time and room dimensions, into the model to enhance its ability to generalize across diverse settings."
+    },
+    "key_innovation": "The model uniquely combines learned embeddings for both distance and room characteristics, enabling better performance in target speech extraction from single-channel audio.",
+    "real_world_impact": "By enhancing target speech extraction capabilities in real-world environments, this research can lead to improved communication systems, including hearing aids and teleconferencing tools.",
+    "limitations": "The model's performance may still be limited in highly dynamic environments or with extensive background noise, which are not explicitly addressed.",
+    "new_terms": {
+        "direct-to-reverberation ratio (DRR)": "**Direct-to-reverberation ratio (DRR)** is a measure used in acoustics to describe the ratio of direct sound levels to reverberant sound levels, indicating how much of the sound is clear versus echoed.",
+        "room impulse response (RIR)": "**Room impulse response (RIR)** represents how an acoustic space alters a sound signal, capturing echoes and reverberations specific to the room's dimensions and materials."
+    },
+    "open_sourcing": "Demonstration materials are available at https://runwushi.github.io/distance-room-demo-page/"
+}

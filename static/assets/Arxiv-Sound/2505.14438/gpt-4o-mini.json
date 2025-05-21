@@ -1,0 +1,21 @@
+{
+    "title": "S2SBench: A Benchmark for Quantifying Intelligence Degradation in Speech-to-Speech Large Language Models",
+    "author": "Yuanbo Fang (South China University of Technology), Haoze Sun (Baichuan Inc.), Jun Liu (Baichuan Inc.), Tao Zhang (Baichuan Inc.), Zenan Zhou (Baichuan Inc.), Weipeng Chen (Baichuan Inc.), Xiaofen Xing (South China University of Technology), Xiangmin Xu (South China University of Technology), ..., Last Author Name",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The benchmark proposed offers a systematic evaluation framework that could directly inform improvements in Haohe Liu's research areas such as audio-generation models by assessing the degradation in reasoning with audio inputs.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating the performance of speech models based on their degradation when processing audio inputs compared to text inputs.",
+    "contribution": "This paper introduces S2SBench to systematically quantify intelligence degradation in end-to-end Speech Large Language Models, achieving a structured evaluation process.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks lack a focused assessment of performance degradation in speech models due to differences in input modalities.",
+        "novelty": "This work fills that gap by offering diagnostic datasets specifically for performance monitoring in speech tasks."
+    },
+    "key_innovation": "The introduction of a pairwise evaluation method using perplexity differences to quantify model degradation allows for fine-grained performance analysis.",
+    "real_world_impact": "By providing a comprehensive evaluation tool, S2SBench could enhance the development of more capable speech models, leading to better human-computer interactions in real-time applications.",
+    "limitations": "The evaluation focuses primarily on speech-to-text settings and does not fully incorporate speech-to-speech capabilities.",
+    "new_terms": {
+        "perplexity": "**Perplexity** is a measurement of how well a probability distribution predicts a sample, often used in language models to gauge predictive performance."
+    },
+    "open_sourcing": "All datasets and evaluation code are available at https://github.com/undobug/S2SBench"
+}

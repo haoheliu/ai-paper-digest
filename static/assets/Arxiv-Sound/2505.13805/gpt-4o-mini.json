@@ -1,0 +1,22 @@
+{
+    "title": "ClapFM-EVC: High-Fidelity and Flexible Emotional Voice Conversion with Dual Control from Natural Language and Speech",
+    "author": "Yu Pan (Kyushu University), Yanni Hu (EverestAI), Yuguang Yang (EverestAI), Jixun Yao (EverestAI), Jianhao Ye (EverestAI), Hongbin Zhou (EverestAI), Lei Ma (University of Tokyo), Jianjun Zhao (Kyushu University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores voice conversion techniques which could enhance Haohe Liu's research in audio processing by providing improved methods for emotional voice control and synthesis, relevant to his work in text-to-audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Emotional voice conversion aims to change the emotional expression of spoken language while retaining the original content and speaker's identity.",
+    "contribution": "This paper introduces ClapFM-EVC, a new framework for generating emotional voice conversions using both natural language prompts and reference speech, achieving high emotional expressiveness and speech quality.",
+    "technical_comparison": {
+        "prior_work": "Previous emotional voice conversion systems primarily relied on GANs and lacked flexibility in emotional expression control, often using limited categorical labels or reference speech.",
+        "novelty": "This work incorporates dual control from natural language and enhances emotion intensity manipulation, presenting a more advanced and flexible framework compared to prior methods."
+    },
+    "key_innovation": "Combines advanced contrastive learning with adaptive processing to allow flexible emotional intensity adjustments during voice conversion.",
+    "real_world_impact": "This framework can improve applications like voice assistants and dubbing, making conversations more engaging and emotionally expressive. No immediate real-world impact.",
+    "limitations": "No",
+    "new_terms": {
+        "Emotional Voice Conversion (EVC)": "**Emotional Voice Conversion** refers to the technology that modifies the emotional tone of voice while preserving linguistic content and identity.",
+        "Conditional Flow Matching (CFM)": "**Conditional Flow Matching** is a novel approach used in this paper to improve the naturalness and quality of generated speech through a matching process conditioned on emotional embeddings."
+    },
+    "open_sourcing": ""
+}

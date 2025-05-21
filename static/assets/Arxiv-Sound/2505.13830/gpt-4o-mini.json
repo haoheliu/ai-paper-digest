@@ -1,0 +1,22 @@
+{
+    "title": "Improving Noise Robustness of LLM-based Zero-shot TTS via Discrete Acoustic Token Denoising",
+    "author": "Ye-Xin Lu (National Engineering Research Center of Speech and Language Information Processing, University of Science and Technology of China), Hui-Peng Du, Fei Liu, Yang Ai, Zhen-Hua Ling",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses zero-shot text-to-speech synthesis and noise robustness, which are significant topics within speech technology that align with Haohe Liu's interests in audio enhancement and synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "Zero-shot text-to-speech synthesis aims to generate a speaker's voice based on a short audio sample without prior training data for that speaker.",
+    "contribution": "This paper introduces a codec denoiser that enhances noisy audio prompts at the discrete acoustic token level to achieve noise-robust text-to-speech synthesis, improving speech quality.",
+    "technical_comparison": {
+        "prior_work": "Existing methods typically rely on speech enhancement models at the signal level, which can introduce artifacts and increase computational complexity.",
+        "novelty": "This work improves on these methods by directly denoising discrete acoustic tokens, reducing noise sensitivity and computational cost while maintaining speech quality."
+    },
+    "key_innovation": "Utilizes a novel system architecture that operates at the token level rather than the signal level, enabling more effective noise reduction in speech synthesis.",
+    "real_world_impact": "This approach could significantly enhance the usability of TTS systems in real-world noisy environments, enabling better accessibility for users in diverse situations.",
+    "limitations": "The paper does not mention any specific limitations but acknowledges the inherent challenges in speech synthesis from noisy inputs.",
+    "new_terms": {
+        "zero-shot TTS": "**Zero-shot text-to-speech synthesis** refers to the ability to synthesize speech from a speaker's voice using minimal audio samples without prior training on that speaker's data.",
+        "discrete acoustic tokens": "**Discrete acoustic tokens** are the representations of audio inputs that capture significant speech features, used as an intermediary in synthesized speech processing."
+    },
+    "open_sourcing": ""
+}

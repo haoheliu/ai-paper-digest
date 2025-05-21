@@ -1,0 +1,22 @@
+{
+    "title": "Universal Acoustic Adversarial Attacks for Flexible Control of Speech-LLMs",
+    "author": "Rao Ma (ALTA Institute, Department of Engineering, University of Cambridge), Mengjie Qian (ALTA Institute, Department of Engineering, University of Cambridge), Vyas Raina (ALTA Institute, Department of Engineering, University of Cambridge), Mark Gales (ALTA Institute, Department of Engineering, University of Cambridge), Kate Knill (ALTA Institute, Department of Engineering, University of Cambridge), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The study of adversarial attacks on speech models directly relates to Haohe Liu's work on audio processing and source separation, as robust models are essential for reliable audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper investigates universal adversarial attacks that prepend malicious audio segments to manipulate the outputs of speech large language models (LLMs), aiming to either suppress outputs or alter task instructions based on specific attributes.",
+    "contribution": "This paper introduces universal acoustic adversarial attacks to control output from speech LLMs, achieving high rates of output suppression and task alteration.",
+    "technical_comparison": {
+        "prior_work": "Previous methods required crafting specific perturbations for each input, limiting their practicality in real-time scenarios.",
+        "novelty": "This work improves upon those methods by developing universal and selective attacks that work with fixed audio segments, greatly enhancing adaptability and effectiveness."
+    },
+    "key_innovation": "The introduction of selective adversarial attacks that only activate upon detecting specific attributes in the input audio, allowing for targeted control.",
+    "real_world_impact": "This research highlights significant vulnerabilities in speech LLMs, indicating urgent needs for robust designs in critical applications such as voice assistants and automated transcription services.",
+    "limitations": "The attacks rely on white-box access during training, which might not be feasible in all real-world scenarios.",
+    "new_terms": {
+        "universal adversarial perturbations": "**Universal adversarial perturbations** are input-agnostic changes that can be applied to a wide range of inputs to mislead machine learning models.",
+        "selective attacks": "**Selective attacks** target specific inputs or conditions, altering outputs only when certain features are present, allowing for precise manipulation without affecting all inputs."
+    },
+    "open_sourcing": ""
+}

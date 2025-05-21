@@ -1,0 +1,22 @@
+{
+    "title": "Complexity of frequency fluctuations and the interpretive style in the bass viola da gamba",
+    "author": "Igor Lugo (Universidad Nacional Aut\u00f3noma de M\u00e9xico), Martha G. Alatriste-Contreras (Universidad Nacional Aut\u00f3noma de M\u00e9xico), Rafael S\u00e1nchez-Guevara (Universidad Nacional Aut\u00f3noma de M\u00e9xico), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper explores frequency fluctuations in music, potentially useful for improving audio processing and analysis techniques relevant to Haohe's work in speech and music.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study models audio signals of musical performances as complex networks to analyze the relationship between frequency fluctuations and decipher the interpretative style of musicians.",
+    "contribution": "This paper introduces a complex network approach for analyzing frequency fluctuations in music to characterize interpretative styles based on musician performances.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on traditional music notation or focused narrowly on specific aspects of audio analysis.",
+        "novelty": "This work leverages a complex network perspective and statistical analysis to reveal emergent patterns in musical performances using spectral decomposition."
+    },
+    "key_innovation": "The unique integration of audio signal processing with complex network theory allows for nuanced insights into musical interpretive styles through statistical regularities.",
+    "real_world_impact": "The findings can inform audio processing technologies and enhance algorithmic music generation, potentially aiding musicians in interpreting and reproducing complex styles.",
+    "limitations": "The study is limited by the reliance on a specific set of audio recordings, which may not be representative of broader musical practices.",
+    "new_terms": {
+        "complex network": "**Complex network** refers to a mathematical representation where nodes represent values (like sound frequencies) and edges represent relationships between them, helping analyze their interactions.",
+        "spectral decomposition": "**Spectral decomposition** is the process of breaking down a signal into its constituent frequencies to analyze its frequency content."
+    },
+    "open_sourcing": "The database and code will be available in the project name [The complexity of frequency fluctuations in music](https://osf.io/x2qat/?view_only=2ab85b52307b43388da4b52212f2598f), Open Science Framework."
+}

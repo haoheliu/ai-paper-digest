@@ -1,0 +1,22 @@
+{
+    "title": "Score-Based Training for Energy-Based TTS Models",
+    "author": "Wanli Sun (School of Computer Science, University of Sheffield), Anton Ragni (School of Computer Science, University of Sheffield), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The proposed methods like sliced score matching (SSM) and delta loss could be directly applicable in Haohe Liu's work on latent diffusion models and text-to-audio generation. These techniques may facilitate enhanced training strategies for audio tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper explores training methods for energy-based models (EBMs) in text-to-speech synthesis, aiming to improve how these models generate audio using learned scores.",
+    "contribution": "This paper introduces Sliced Score Matching (SSM) and a new score-based loss function called delta loss to solve the challenges of training energy-based TTS models, achieving better integration with first-order inference algorithms.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Noise Contrastive Estimation (NCE) focus on contrasting samples but have limitations in terms of noisy sample quality and optimization efficiency in text-to-speech applications.",
+        "novelty": "This work improves by proposing delta loss that directly optimizes scores towards effective audio synthesis, which can lead to faster and more accurate convergence."
+    },
+    "key_innovation": "The introduction of delta loss, which encourages scores to provide direct updates towards target speech samples, allows for immediate improvements in inference accuracy.",
+    "real_world_impact": "This research offers practical methods that could lead to advancements in real-time speech synthesis and audio generation tasks, impacting industries reliant on TTS technologies.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "Sliced Score Matching (SSM)": "**Sliced Score Matching** is a technique that optimizes models by comparing their score gradients along random projections, allowing for efficient training without high computational costs.",
+        "delta loss": "**Delta loss** is a new loss function that steers model scores directly towards the difference between noisy and reference samples to facilitate faster convergence."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "A Semantic Information-based Hierarchical Speech Enhancement Method Using Factorized Codec and Diffusion Model",
+    "author": "Yang Xiang (Hithink Research), Canan Huang (Hithink Research), Desheng Hu (Hithink Research), Jingguang Tian (Hithink Research), Xinhui Hu (Hithink Research), Chao Zhang (Tsinghua University)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper presents techniques for speech enhancement that can improve audio quality and restoration, which are crucial for Haohe Liu's research in audio quality enhancement, speech restoration, and related areas. The ability to recover semantic and acoustic attributes hierarchically could enhance the performance of text-to-audio generation tasks as well.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speech enhancement aims to improve the quality and intelligibility of noisy speech by removing background noise, particularly in challenging acoustic environments.",
+    "contribution": "This paper introduces a semantic information-based hierarchical framework to enhance speech by disentangling semantic and acoustic attributes, achieving improved clean speech recovery in noisy settings.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on directly estimating full speech signals without considering hierarchical semantic information, often performing poorly in complex noise scenarios.",
+        "novelty": "This work improves by modeling speech enhancement hierarchically, predicting semantic attributes first and then acoustic ones, thus simplifying the estimation process and yielding better performance."
+    },
+    "key_innovation": "The hierarchical modeling approach allows for a more accurate and robust retrieval of speech information by first addressing simpler semantic attributes before tackling more complex acoustic attributes.",
+    "real_world_impact": "The proposed method promises to significantly enhance the quality of speech signals in noisy environments, benefiting applications like hearing aids and transcription services. It also aids in downstream text-to-speech systems, potentially leading to more intelligible and natural speech synthesis.",
+    "limitations": "No",
+    "new_terms": {
+        "semantic attribute": "**Semantic attribute** refers to aspects of a speech signal that convey meaning and context, aiding in the understanding of the spoken content.",
+        "acoustic attribute": "**Acoustic attribute** encompasses the characteristics of the sound itself, such as timbre and prosody, which are essential for accurate sound reproduction and enhancement."
+    },
+    "open_sourcing": ""
+}

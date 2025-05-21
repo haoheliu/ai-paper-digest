@@ -1,0 +1,22 @@
+{
+    "title": "Pairwise Evaluation of Accent Similarity in Speech Synthesis",
+    "author": "Jinzuomu Zhong (Centre for Speech Technology Research, University of Edinburgh), Suyuan Liu (Department of Linguistics, University of British Columbia), Dan Wells (Centre for Speech Technology Research, University of Edinburgh), Korin Richmond (Centre for Speech Technology Research, University of Edinburgh), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed methods for evaluating accent similarity through both subjective and objective metrics could enhance Haohe Liu's work on audio processing, especially in aspects like accent identification and generation, potentially contributing to improved multi-accent synthesis systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper explores how to effectively evaluate similarities between different accents in generated speech synthesis systems through enhanced listening tests and pronunciation distance metrics.",
+    "contribution": "This paper introduces refined subjective evaluation methods and pronunciation-related metrics to solve the challenge of assessing accent similarity in speech, achieving better statistical significance with fewer listeners.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluation methods were often limited by reliance on inadequate metrics, such as Word Error Rate (WER), which may not accurately reflect accent differences or could exhibit bias.",
+        "novelty": "This work improves by implementing a combination of enhanced XAB listening tests and new objective measures based on vowel formants and phonetic posteriorgrams, allowing for more reliable accent evaluations."
+    },
+    "key_innovation": "The incorporation of accent transcription for listeners and the highlighting of perceived differences enhances the detail and reliability in evaluations.",
+    "real_world_impact": "The findings can lead to more inclusive speech technologies that accurately represent various accents, improving user experience in applications like virtual assistants and automated translations.",
+    "limitations": "The paper notes limitations of commonly used metrics like WER and suggests that further research into more inclusive evaluation metrics is necessary.",
+    "new_terms": {
+        "phonetic posteriorgrams": "**Phonetic posteriorgrams** are probabilistic representations capturing the likelihood of phonetic elements appearing in speech, useful for analyzing pronunciation accuracy.",
+        "XAB listening test": "**XAB listening test** is a method where participants compare two speech samples to a reference, allowing for subjective assessments of features like accent."
+    },
+    "open_sourcing": ""
+}

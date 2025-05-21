@@ -1,0 +1,22 @@
+{
+    "title": "VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation",
+    "author": "Yubin Kim (Massachusetts Institute of Technology), Taehan Kim (Independent Researcher), Wonjune Kang (Massachusetts Institute of Technology), Eugene Park (Massachusetts Institute of Technology), Joonsik Yoon (Seoul National University Hospital), Dongjae Lee (Doctor Diary), Xin Liu (Google Research), ..., Hae Won Park (Massachusetts Institute of Technology)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents VocalAgent, a framework utilizing large language models for vocal health diagnostics, which has direct applications for audio processing and generative models in Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "A robust model aims to diagnose voice disorders using audio inputs while addressing issues like safety and ethical considerations in healthcare.",
+    "contribution": "VocalAgent introduces a fine-tuned audio large language model for classifying voice disorders, achieving superior accuracy over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Traditional machine learning approaches primarily focused on binary classification and struggled with explainability.",
+        "novelty": "This work employs advanced large language models for deeper insights and interpretable outputs, improving overall diagnostic accuracy and robustness."
+    },
+    "key_innovation": "Leverages the capabilities of large language models to provide nuanced analysis and explainable insights for vocal health diagnostics.",
+    "real_world_impact": "VocalAgent enhances accessibility to vocal health diagnostics, potentially improving treatment outcomes for millions affected by voice disorders while addressing ethical concerns.",
+    "limitations": "The paper mentions limitations related to cross-linguistic generalizability and the absence of extensive safety alignment processes.",
+    "new_terms": {
+        "Voice Handicap Index (VHI)": "**Voice Handicap Index (VHI)** is a questionnaire used to assess the impact of voice disorders on patients' daily lives based on their perceptions of voice problems.",
+        "Grade, Roughness, Breathiness, Asthenia, Strain (GRBAS)": "**GRBAS scale** is a clinical tool used to evaluate the quality of voice in terms of various perceptual attributes, essential in voice disorder diagnosis."
+    },
+    "open_sourcing": ""
+}

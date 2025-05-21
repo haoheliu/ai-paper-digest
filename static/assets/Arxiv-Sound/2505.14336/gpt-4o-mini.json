@@ -1,0 +1,21 @@
+{
+    "title": "Scaling and Enhancing LLM-based AVSR: A Sparse Mixture of Projectors Approach",
+    "author": "Umberto Cappellazzo (Imperial College London), Minsu Kim (Meta AI), Stavros Petridis (Imperial College London), Daniele Falavigna (Fondazione Bruno Kessler), Alessio Brutti (Fondazione Bruno Kessler), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed Sparse Mixture of Projectors (SMoP) approach can enhance audio-visual speech recognition tasks, which could be integrated into Haohe's work on audio processing and generation, especially for achieving robustness in noisy environments.",
+    "field": "Applications-Speech and Audio",
+    "background": "Audio-Visual Speech Recognition (AVSR) integrates visual cues with audio inputs to enhance speech recognition accuracy in noisy environments.",
+    "contribution": "This paper introduces a Sparse Mixture of Projectors (SMoP) module to enhance the efficiency and performance of multimodal large language models (LLMs) in AVSR, achieving improved accuracy despite using smaller models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in AVSR often relied on large models with high computational costs, compromising deployment in resource-limited settings.",
+        "novelty": "This work improves by introducing sparsely-gated mixtures of experts that allow smaller LLMs to perform comparably to larger counterparts while reducing inference costs."
+    },
+    "key_innovation": "Utilizes sparsely-gated expert projectors to scale the model capacity effectively without significant increases in computational costs.",
+    "real_world_impact": "This research could lead to more accessible and efficient audio-visual speech recognition systems, making technology more applicable in everyday voice-activated applications even in challenging acoustic environments.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "Sparse Mixture of Projectors": "**Sparse Mixture of Projectors (SMoP)** is a novel technique for embedding multimodal data into language model architectures efficiently, leveraging a limited number of expert layers to optimize performance without proportional increases in computational costs."
+    },
+    "open_sourcing": ""
+}

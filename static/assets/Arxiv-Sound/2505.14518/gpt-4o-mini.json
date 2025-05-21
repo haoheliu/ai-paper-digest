@@ -1,0 +1,22 @@
+{
+    "title": "Teaching Audio-Aware Large Language Models What Does Not Hear: Mitigating Hallucinations through Synthesized Negative Samples",
+    "author": "Chun-Yi Kuan (National Taiwan University), Hung-yi Lee (National Taiwan University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper focuses on reducing audio hallucinations in audio-aware large language models (ALLMs), which directly relates to Haohe Liu's work in audio-linguistic alignment and quality enhancement, helping to improve accuracy in audio perception tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study addresses issues where audio-aware models incorrectly identify non-existent sounds, aiming to enhance their reliability by distinguishing between present and absent sounds.",
+    "contribution": "This paper introduces LISTEN (Learning to Identify Sounds Through Extended Negative Samples) to solve hallucination issues in audio-aware large language models, achieving improved accuracy and efficiency in audio processing tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often require complex datasets and fine-tuning of model parameters, which can be inefficient and time-consuming.",
+        "novelty": "This work employs a contrastive-like training approach using synthesized data from the model's own architecture, eliminating the need for extensive modifications or large datasets."
+    },
+    "key_innovation": "Integrates contrastive learning with synthesized negative samples, allowing the model to learn what sounds are not present in addition to those that are.",
+    "real_world_impact": "By improving the reliability and accuracy of audio-aware models, this research can enhance public safety applications like emergency response systems and improve user interactions with audio-based technologies.",
+    "limitations": "No explicit limitations were stated by the authors.",
+    "new_terms": {
+        "audio-aware large language models (ALLMs)": "**Audio-aware large language models** are a class of models designed to process and interpret audio alongside text inputs.",
+        "contrastive-like training": "**Contrastive-like training** refers to a method where a model learns to differentiate between positive (present) and negative (absent) samples to improve classification tasks."
+    },
+    "open_sourcing": ""
+}

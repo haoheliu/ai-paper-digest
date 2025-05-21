@@ -1,0 +1,21 @@
+{
+    "title": "FMSD-TTS: Few-shot Multi-Speaker Multi-Dialect Text-to-Speech Synthesis for \u00dc-Tsang, Amdo and Kham Speech Dataset Generation",
+    "author": "Yutong Liu (University of Electronic Science and Technology of China), Ziyue Zhang (University of Electronic Science and Technology of China), Ban Ma-bao (University of Electronic Science and Technology of China), Yuqing Cai (Tibet University), Yongbin Yu (University of Electronic Science and Technology of China), Renzeng Duojie (Tibet University), Xiangxiang Wang (University of Electronic Science and Technology of China), Fan Gao (University of Electronic Science and Technology of China), Cheng Huang (University of Texas Southwestern Medical Center), Nyima Tashi (Tibet University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper presents a novel approach to text-to-speech synthesis capable of generating multi-dialect speech, which could inform similar methodologies in audio language models, particularly regarding dialect diversity and representation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Few-shot text-to-speech synthesis tasks involve generating natural-sounding speech across multiple dialects with only limited reference audio samples.",
+    "contribution": "FMSD-TTS introduces a few-shot, multi-speaker, multi-dialect text-to-speech framework to enhance the generation of Tibetan speech datasets, achieving higher dialectal expressiveness and speaker similarity.",
+    "technical_comparison": {
+        "prior_work": "Prior methods for Tibetan dialect synthesis either struggled with limited training data or used complex multi-model architectures.",
+        "novelty": "This work improves upon these limitations by integrating a dialect-specialized dynamic routing network within a unified architecture, enhancing performance with fewer resources."
+    },
+    "key_innovation": "The use of a Dialect-Specialized Dynamic Routing Network (DSDR-Net) to dynamically adapt processing based on dialect enhances the model's ability to accurately capture nuanced dialect characteristics.",
+    "real_world_impact": "The model's ability to generate high-quality, synthetic Tibetan speech can facilitate language preservation and improve accessibility in speech technologies for Tibetan speakers.",
+    "limitations": "The model's performance may be constrained by the pre-trained speaker encoder's reliance on non-Tibetan data, potentially impacting speaker consistency.",
+    "new_terms": {
+        "Dialect-Specialized Dynamic Routing Network": "**Dialect-Specialized Dynamic Routing Network (DSDR-Net)** is a novel architecture component that allows for tailored processing of dialects within a text-to-speech model, enhancing feature learning specific to each dialect."
+    },
+    "open_sourcing": "The authors plan to release the generated synthetic Tibetan speech corpus and an evaluation toolkit for standardized assessment."
+}

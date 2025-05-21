@@ -1,0 +1,22 @@
+{
+    "title": "Steering Deep Non-Linear Spatially Selective Filters for Weakly Guided Extraction of Moving Speakers in Dynamic Scenarios",
+    "author": "Jakob Kienegger (University of Hamburg), Timo Gerkmann (University of Hamburg), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents methods for target speaker extraction, which could be beneficial for Haohe Liu's work in speech processing, particularly in enhancing audio signals in complex environments.",
+    "field": "Applications-Speech and Audio",
+    "background": "Target speaker extraction involves distinguishing and enhancing a speaker's voice from a recording with multiple overlapping speech sources.",
+    "contribution": "This paper introduces a weakly guided extraction pipeline that only requires the initial direction of a moving speaker, demonstrating improvements in handling dynamic acoustic scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches often relied on continuous and accurate directional information, which limits their effectiveness in real-world dynamic environments.",
+        "novelty": "This work enhances robustness by only requiring initial speaker direction and includes a joint training strategy that improves extraction performance even with inaccurate tracking."
+    },
+    "key_innovation": "The unique aspect of this method is its ability to perform well in dynamic situations without needing continuous tracking by leveraging learning-based weak guidance.",
+    "real_world_impact": "The advancements in speaker extraction can have immediate applications in improving communication technologies in noisy environments, such as conference calls and assistive listening devices.",
+    "limitations": "The paper might not address limitations concerning how fluctuations in speaker positioning could affect accuracy in real-time applications.",
+    "new_terms": {
+        "weakly guided extraction": "**Weakly guided extraction** refers to a method that depends only on initial positional information rather than continuous tracking of a target speaker's location.",
+        "spatially selective filters": "**Spatially selective filters** are algorithms designed to enhance specific audio signals based on their spatial characteristics relative to a microphone array."
+    },
+    "open_sourcing": ""
+}

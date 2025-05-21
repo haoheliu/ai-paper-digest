@@ -1,0 +1,22 @@
+{
+    "title": "AdaKWS: Towards Robust Keyword Spotting with Test-Time Adaptation",
+    "author": "Yang Xiao (The University of Melbourne), Tianyi Peng (Nanyang Technological University), Yanghao Zhou (National University of Singapore), Rohan Kumar Das (Fortemedia), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The focus on robust keyword spotting and test-time adaptation aligns closely with Haohe Liu's interests in speech processing and audio enhancement, particularly in handling noisy environments.",
+    "field": "Applications-Speech and Audio",
+    "background": "Keyword spotting identifies specific spoken keywords from audio input, crucial in areas like virtual assistants that often encounter noise.",
+    "contribution": "AdaKWS introduces a test-time adaptation method tailored for keyword spotting to enhance performance in noisy environments, achieving improved robustness over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Tent and ETA primarily focused on entropy minimization and required source data for adaptation, which hindered performance under diverse noise conditions.",
+        "novelty": "This work leverages selective entropy minimization and introduces pseudo-keyword consistency for robust feature selection, which improves adaptability without needing source data."
+    },
+    "key_innovation": "Combines two novel approaches: adjusting model confidence via prediction entropy and identifying stable features through pseudo-keyword consistency, thus enhancing robust keyword spotting.",
+    "real_world_impact": "This approach can significantly advance applications in noisy environments, strengthening the effectiveness of devices like smart speakers and voice-activated assistants.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "Test-Time Adaptation (TTA)": "**Test-Time Adaptation (TTA)** is a technique that enables a model to adjust its parameters during inference to handle domain shifts or noise without retraining on the original dataset.",
+        "Pseudo-Keyword Consistency (PKC)": "**Pseudo-Keyword Consistency (PKC)** is a metric that assesses the stability of model predictions by evaluating how consistent the features are when the input is altered, which helps in identifying reliable samples."
+    },
+    "open_sourcing": "The code will be released in due course."
+}

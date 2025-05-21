@@ -1,0 +1,22 @@
+{
+    "title": "Direction-Aware Neural Acoustic Fields for Few-Shot Interpolation of Ambisonic Impulse Responses",
+    "author": "Christopher Ick (Mitsubishi Electric Research Laboratories), Gordon Wichern (Mitsubishi Electric Research Laboratories), Yoshiki Masuyama (Mitsubishi Electric Research Laboratories), Fran\u00e7ois Germain (Mitsubishi Electric Research Laboratories), Jonathan Le Roux (Mitsubishi Electric Research Laboratories), ..., Haohe Liu (University of Surrey)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores few-shot learning in audio contexts, specifically for acoustics and impulse response generation, which aligns with Dr. Liu's focus on audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work aims to interpolate room impulse responses from a few measurements in new environments for accurate spatial audio rendering.",
+    "contribution": "This paper introduces Direction-Aware Neural Fields (DANF) to solve the challenge of accurate room impulse response interpolation with few samples, achieving enhanced spatial audio representation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused mainly on binaural audio or did not consider directional information for impulse responses.",
+        "novelty": "This work incorporates Ambisonic format and a novel intensity vector loss to explicitly enhance directional modeling, improving the acoustic rendering quality."
+    },
+    "key_innovation": "The inclusion of a direction-aware loss effectively captures sound directionality, which is typically overlooked in existing neural acoustic field methods.",
+    "real_world_impact": "This approach has potential applications in virtual reality and augmented reality sound reproduction, enhancing immersive auditory experiences.",
+    "limitations": "Overfitting issues were noted when adapting models with limited training examples, particularly in warm-start scenarios.",
+    "new_terms": {
+        "Ambisonic": "**Ambisonic** is an audio format that captures three-dimensional sound fields, allowing for spatial playback based on listener position.",
+        "room impulse response (RIR)": "**Room impulse response** is a measure of how sound behaves in an environment, characterizing the acoustic properties based on reflections and reverberations."
+    },
+    "open_sourcing": ""
+}

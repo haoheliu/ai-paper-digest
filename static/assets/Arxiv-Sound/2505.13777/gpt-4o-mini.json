@@ -1,0 +1,22 @@
+{
+    "title": "Sat2Sound: A Unified Framework for Zero-Shot Soundscape Mapping",
+    "author": "Subash Khanal (Washington University in St. Louis), Srikumar Sastry (Washington University in St. Louis), Aayush Dhakal (Washington University in St. Louis), Adeel Ahmad (Washington University in St. Louis, Taylor Geospatial Institute), Nathan Jacobs (Washington University in St. Louis), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The framework integrates audio, satellite imagery, and textual descriptions, which can inform and enhance audio generation tasks by enabling better soundscape retrieval and synthesis, aligning with mechanisms for generating audio as explored in your research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper proposes a method for predicting and mapping sound distributions globally, leveraging satellite imagery and audio samples to enhance acoustic experiences.",
+    "contribution": "Sat2Sound introduces a multimodal representation learning framework that integrates audio, audio captions, satellite images, and soundscape descriptions to enhance soundscape mapping and synthesis.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on satellite images and geotagged audio but struggled with capturing diverse sound sources.",
+        "novelty": "This work enhances existing datasets with semantically rich soundscape descriptions from vision-language models and incorporates a shared codebook for soundscape concepts."
+    },
+    "key_innovation": "Sat2Sound's unique feature is its ability to learn a shared codebook of soundscape concepts, allowing for local alignment between audio, text, and images.",
+    "real_world_impact": "The framework can facilitate immersive acoustic experiences across various applications like augmented reality and urban planning, providing tools for public health monitoring and real estate analytics.",
+    "limitations": "No limitations are explicitly mentioned in the paper.",
+    "new_terms": {
+        "soundscape mapping": "**Soundscape mapping** refers to the process of predicting and visualizing the distribution and characteristics of sounds in a specific geographical area.",
+        "contrastive learning": "**Contrastive learning** is a technique used to learn representations by contrasting positive (similar) pairs against negative (dissimilar) pairs."
+    },
+    "open_sourcing": "The code and models will be publicly available."
+}

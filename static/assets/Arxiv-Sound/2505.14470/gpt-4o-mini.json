@@ -1,0 +1,22 @@
+{
+    "title": "PAST: Phonetic-Acoustic Speech Tokenizer",
+    "author": "Nadav Har-Tuv (The Hebrew University of Jerusalem), Or Tal (The Hebrew University of Jerusalem), Yossi Adi (The Hebrew University of Jerusalem), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed PAST framework introduces methods for integrating phonetic supervision directly into speech tokenization, which could enhance the audio generation and restoration tasks that are critical in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "PAST is a framework that tokenizes speech by jointly capturing phonetic and acoustic representations without relying on external models, facilitating improved performance in tasks like speech synthesis.",
+    "contribution": "PAST introduces a novel tokenizer that integrates supervised phonetic data to enhance speech tokenization, achieving superior performance in phonetic representation and signal reconstruction compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like hybrid tokenizers depend heavily on pretrained models for phonetic features and often require additional vocoders for synthesis, which complicates the process and may degrade quality.",
+        "novelty": "This work eliminates the need for such pretrained models and vocoders by directly incorporating phonetic supervision, simplifying the pipeline and enhancing performance."
+    },
+    "key_innovation": "The framework's ability to seamlessly combine phonetic information with signal reconstruction using supervised tasks makes it unique.",
+    "real_world_impact": "The development of PAST might enhance the quality of applications in real-time speech generation and language modeling, further advancing technologies in natural language processing.",
+    "limitations": "The reliance on labeled phonetic data may limit the scalability of this approach to low-resource languages.",
+    "new_terms": {
+        "phonetic supervision": "**Phonetic supervision** refers to the use of phoneme-level annotations during training to improve model performance in understanding speech sounds.",
+        "Residual Vector Quantization (RVQ)": "**Residual Vector Quantization** is a technique that sequentially quantizes the residual signals after each quantization step to enhance the compression of audio signals."
+    },
+    "open_sourcing": "The full implementation, including code, model checkpoints, and training samples, is available at pages.cs.huji.ac.il/adiyoss-lab/PAST."
+}

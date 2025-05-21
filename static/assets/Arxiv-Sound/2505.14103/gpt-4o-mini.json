@@ -1,0 +1,19 @@
+{
+    "title": "AudioJailbreak: Jailbreak Attacks against End-to-End Large Audio-Language Models",
+    "author": "Guangke Chen (Pengcheng Laboratory), Fu Song (Institute of Software, Chinese Academy of Sciences), Xiaojun Jia (Nanyang Technological University), Yang Liu (Nanyang Technological University), Zhe Zhao (RealAI), Yanchen Qiao (Pengcheng Laboratory), Weizhe Zhang (Pengcheng Laboratory), ..., Haohe Liu",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper discusses innovative audio jailbreak attacks that exploit vulnerabilities in Large Audio-Language Models (LALMs), which could inform strategies in audio generation, speech synthesis, and other audio-related tasks in Dr. Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study focuses on the development and evaluation of AudioJailbreak, a new method for conducting jailbreak attacks against LALMs, allowing attackers to manipulate model responses through audio inputs.",
+    "contribution": "AudioJailbreak introduces a novel approach for audio jailbreaking that enhances asynchrony, universality, stealthiness, and over-the-air robustness, achieving significantly improved attack success rates.",
+    "technical_comparison": "Previous methods assume adversaries fully control prompts and utilize time-aligned attacks, which are not effective for weak adversaries. This work enhances versatility by allowing suffixal audios and crafting perturbations across multiple prompts.",
+    "key_innovation": "The method uniquely allows for stealthy audio manipulation that effectively conceals malicious intent while ensuring robustness against audio distortions experienced in real-world environments.",
+    "real_world_impact": "Potentially allows for advanced attacks on speech interfaces and voice-activated systems, raising significant security concerns in practical applications.",
+    "limitations": "The paper does not explicitly mention limitations but assumes that adversaries can prepare appropriately for attacks.",
+    "new_terms": {
+        "LALMs": "**Large Audio-Language Models** are models designed to process and respond to audio inputs, integrating both language understanding and audio capabilities.",
+        "jailbreak prompts": "**Jailbreak prompts** refer to specially crafted audio inputs designed to bypass the safety mechanisms of AI models and elicit unauthorized output."
+    },
+    "open_sourcing": "Implementation and audio samples are available at https://audiojailbreak.github.io/AudioJailbreak."
+}

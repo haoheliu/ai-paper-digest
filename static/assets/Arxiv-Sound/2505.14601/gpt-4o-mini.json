@@ -1,0 +1,22 @@
+{
+    "title": "Listen, Analyze, and Adapt to Learn New Attacks: An Exemplar-Free Class Incremental Learning Method for Audio Deepfake Source Tracing",
+    "author": "Yang Xiao (The University of Melbourne), Rohan Kumar Das (Fortemedia Singapore), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The method proposed, AnaST, focuses on audio deepfake source tracing, which aligns closely with Haohe Liu's interests in audio-quality improvement and deepfake detection. The analytic learning framework could be adapted for tasks like audio enhancement and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Class incremental learning for audio deepfake detection: adapt a model to new synthetic speech attacks while preserving knowledge of previously learned attacks without using historical data.",
+    "contribution": "This work introduces an exemplar-free analytic class incremental learning method, AnaST, to tackle the challenge of adapting to new audio deepfake sources while retaining previously learned knowledge.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in source tracing either used exemplars or struggled with catastrophic forgetting, which results in poor knowledge retention.",
+        "novelty": "This work improves by utilizing recursive least-squares updating procedures for classifiers while keeping the feature extractor fixed, enabling efficient adaptation to new tasks without historical examples."
+    },
+    "key_innovation": "Combines fixed feature extraction with analytic learning, allowing for quick updates in the classifier using only one epoch of new data.",
+    "real_world_impact": "The proposed method provides a practical solution for real-time audio deepfake detection and source tracing, which can enhance security in various applications like copyright protection and legal investigations.",
+    "limitations": "The study does not mention any limitations explicitly, but the reliance on fixed feature extraction could limit adaptability to significantly different attack types.",
+    "new_terms": {
+        "exemplar-free": "**Exemplar-free** refers to methods that do not require storing previous data samples (exemplars) to avoid catastrophic forgetting.",
+        "analytic learning": "**Analytic learning** replaces traditional backpropagation with analytic techniques like recursive least-squares to update model parameters."
+    },
+    "open_sourcing": "The code for implementation will be released publicly."
+}
