@@ -1,0 +1,22 @@
+{
+    "title": "Towards Inclusive ASR: Investigating Voice Conversion for Dysarthric Speech Recognition in Low-Resource Languages",
+    "author": "Chin-Jou Li (Carnegie Mellon University), Eunjung Yeo (Carnegie Mellon University), Kwanghee Choi (Carnegie Mellon University), Paula Andrea Perez-Toro (FAU Erlangen-Nurnberg), Masao Someki (Carnegie Mellon University), Rohan Kumar Das (Fortemedia), Zhengjun Yue (TU Delft), Juan Rafael Orozco-Arroyave (FAU Erlangen-Nurnberg), Elmar Noth (FAU Erlangen-Nurnberg), David R. Mortensen (Carnegie Mellon University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper focuses on voice conversion techniques to improve automatic speech recognition for dysarthric speakers in low-resource languages, which aligns with my interest in advanced audio and speech processing techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study addresses the challenge of recognizing speech from individuals with dysarthria, particularly in languages that lack sufficient speech data.",
+    "contribution": "This paper introduces a method for generating dysarthric-like speech in low-resource languages through voice conversion, achieving improved speech recognition accuracy across Spanish, Italian, and Tamil.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on dysarthric speech recognition in high-resource languages, often using limited data augmentation techniques.",
+        "novelty": "This work leverages a voice conversion model trained on English dysarthric speech to generate synthetic dysarthric-like data for languages without existing resources."
+    },
+    "key_innovation": "Innovatively applies voice conversion to mimic dysarthric speech characteristics in non-English languages, enhancing data availability for training ASR models.",
+    "real_world_impact": "This approach could significantly improve accessibility for dysarthric individuals across various linguistic communities, fostering inclusivity in speech technologies.",
+    "limitations": "The study acknowledges that it utilizes a single voice conversion model, limiting the exploration of other potentially superior methods.",
+    "new_terms": {
+        "dysarthria": "**Dysarthria** is a motor speech disorder resulting from neurological injury, characterized by slurred or slow speech affecting intelligibility.",
+        "voice conversion": "**Voice conversion** is a technique used to modify a source speaker's voice to sound like that of a target speaker while preserving the linguistic content."
+    },
+    "open_sourcing": ""
+}

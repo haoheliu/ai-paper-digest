@@ -1,0 +1,22 @@
+{
+    "title": "Replay Attacks Against Audio Deepfake Detection",
+    "author": "Nicolas Muller (Fraunhofer AISEC, Germany), Piotr Kawa (Wroc\u0142aw University of Science and Technology, Poland), Wei-Herng Choong (Resemble AI, USA), Adriana Stan (Technical University of Cluj-Napoca, Romania), Aditya Tirumala Bukkapatnam (Resemble AI, USA), Karla Pizzi (Neodyme AG, Germany), Alexander Wagner (Fraunhofer AISEC, Germany), Philip Sperl (Fraunhofer AISEC, Germany)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work reveals vulnerabilities in audio deepfake detection that could impact Haohe Liu's research on audio quality enhancement and generative models. Understanding these vulnerabilities can inform the design of more robust systems for audio generation and processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating the robustness of audio deepfake detection methods against replay attacks, where recorded audio is played back and re-recorded to deceive detection systems.",
+    "contribution": "This paper introduces the ReplayDF dataset and analyzes the effectiveness of existing detection models under replay attack conditions, highlighting significant performance degradation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on theoretical aspects of audio deepfake detection without extensive empirical validation against replay attacks.",
+        "novelty": "This work provides a comprehensive dataset specifically designed to assess the impact of replay attacks on audio deepfake detection models, offering a practical framework for future research."
+    },
+    "key_innovation": "The introduction of the ReplayDF dataset allows for controlled testing and evaluation of audio deepfake detection systems under realistic attack scenarios.",
+    "real_world_impact": "The findings can guide the development of more resilient audio deepfake detection techniques, which are critical for safeguarding against misinformation and identity fraud in digital audio applications.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Equal Error Rate (EER)": "**Equal Error Rate (EER)** refers to the point at which the false acceptance rate and false rejection rate of a biometric system are equal, serving as a common measure of performance.",
+        "Room Impulse Response (RIR)": "**Room Impulse Response (RIR)** is the response of a room to an audio signal, representing how sound propagates and reflects within that environment."
+    },
+    "open_sourcing": "The ReplayDF dataset is released for noncommercial research use."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Moonbeam: A MIDI Foundation Model Using Both Absolute and Relative Music Attributes",
+    "author": "Zixun Guo (Centre for Digital Music Queen Mary University of London), Simon Dixon (Centre for Digital Music Queen Mary University of London)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents innovative techniques for symbolic music modeling, utilizing methods that could enhance generative music systems and audio modeling, areas directly related to Haohe Liu's research in audio generation and music processing.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "The study focuses on developing Moonbeam, a transformer-based foundation model for symbolic music that effectively represents various music attributes to improve both music classification and generation tasks.",
+    "contribution": "Moonbeam introduces a novel tokenization method and Multidimensional Relative Attention to address challenges in symbolic music processing, achieving improved performance in downstream tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing models often rely on limited tokenization methods that do not adequately capture expressive music traits, leading to suboptimal performance on diverse music tasks.",
+        "novelty": "Moonbeam enhances the modeling of both absolute and relative musical attributes in a compact manner, which significantly improves simultaneous understanding and generation capabilities."
+    },
+    "key_innovation": "Combines a unique tokenization approach with a multidimensional attention mechanism that jointly captures various aspects of music, elevating the representation quality.",
+    "real_world_impact": "The model's advancements could facilitate improved music generation technologies, making them more adaptable and creative in real-world applications like music composition or interactive media.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "Multidimensional Relative Attention": "**Multidimensional Relative Attention** is a novel attention mechanism that accounts for multiple dimensions of positional information in data sequences, enhancing the understanding of contextual relationships in music encoding."
+    },
+    "open_sourcing": "The code, pretrained model, and generated samples are available on GitHub."
+}

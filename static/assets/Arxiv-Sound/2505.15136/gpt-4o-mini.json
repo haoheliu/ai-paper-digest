@@ -1,0 +1,22 @@
+{
+    "title": "Hybrid Audio Detection Using Fine-Tuned Audio Spectrogram Transformers: A Dataset-Driven Evaluation of Mixed AI-Human Speech",
+    "author": "Kunyang Huang (Kean University), Bin Hu (Kean University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper addresses hybrid audio detection, which could be directly applicable to Haohe Liu's research in audio manipulation and restoration. The proposed dataset and fine-tuned models can provide insights into countering audio spoofing, potentially benefiting audio quality enhancement tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting audio that is a mix of human and AI-generated speech, which presents a growing challenge due to the sophistication of voice cloning technologies.",
+    "contribution": "This paper introduces a novel hybrid audio dataset and fine-tuned Audio Spectrogram Transformers to solve the detection of mixed AI-human speech, achieving 97% classification accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on binary classifications of genuine versus fully synthetic audio and poorly handled hybrid attacks.",
+        "novelty": "This work offers a comprehensive dataset and tailored models that effectively classify hybrid audio, enhancing robustness compared to traditional models."
+    },
+    "key_innovation": "The creation of a hybrid dataset that mixes human and AI-generated audio, coupled with specialized transformer models, significantly improves detection accuracy in real-world scenarios.",
+    "real_world_impact": "The findings can help strengthen speech-based authentication systems against emerging hybrid threats, contributing to enhanced security in voice-related applications.",
+    "limitations": "The dataset currently focuses on TTS synthesis and AI-based voice cloning, which may limit its robustness against other spoofing techniques.",
+    "new_terms": {
+        "hybrid audio": "**Hybrid audio** refers to audio samples that combine elements from both human speech and AI-generated speech, presenting unique challenges for detection.",
+        "Audio Spectrogram Transformer (AST)": "**Audio Spectrogram Transformer (AST)** is a deep learning architecture designed for audio classification tasks, utilizing the transformer model to capture long-range dependencies in spectrogram representations."
+    },
+    "open_sourcing": ""
+}

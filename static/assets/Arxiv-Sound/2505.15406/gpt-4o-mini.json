@@ -1,0 +1,22 @@
+{
+    "title": "Audio Jailbreak: An Open Comprehensive Benchmark for Jailbreaking Large Audio-Language Models",
+    "author": "Zirui Song (Mohamed bin Zayed University of Artificial Intelligence), Qian Jiang (Mohamed bin Zayed University of Artificial Intelligence), Mingxuan Cui (Mohamed bin Zayed University of Artificial Intelligence), Mingzhe Li (ByteDance), Lang Gao (Mohamed bin Zayed University of Artificial Intelligence), Zeyu Zhang (Australia National University), Zixiang Xu (Mohamed bin Zayed University of Artificial Intelligence), Yanbo Wang (Mohamed bin Zayed University of Artificial Intelligence), ..., Xiuying Chen (Mohamed bin Zayed University of Artificial Intelligence)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper introduces a novel benchmark (AJailBench) for evaluating jailbreak vulnerabilities in Large Audio-Language Models (LAMs), which aligns closely with my focus on advanced audio modeling techniques and their safety.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating the safety and robustness of Large Audio-Language Models against adversarial audio inputs to prevent the generation of harmful content.",
+    "contribution": "This paper introduces AJailBench, a benchmark comprising 1,495 adversarial audio prompts to systematically evaluate jailbreak vulnerabilities in Large Audio-Language Models, achieving comprehensive safety assessments.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on text-based jailbreaks, lacking systematic evaluation in the audio domain.",
+        "novelty": "This work provides a robust framework with static and dynamic adversarial audio testing, utilizing semantic consistency constraints to retain the intent of appeals while testing model robustness."
+    },
+    "key_innovation": "Incorporates an Audio Perturbation Toolkit (APT) that generates semantically preserved adversarial audio variations, ensuring effective testing conditions mimicking real-world scenarios.",
+    "real_world_impact": "The findings emphasize the importance of robust safety mechanisms for audio-based AI systems, driving future improvements in model alignment and ethical standards in AI deployments.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "jailbreak": "**Jailbreak** refers to the process of bypassing security measures of software to access restricted features or content.",
+        "semantic consistency constraint": "**Semantic consistency constraint** is a criterion that ensures the meaning of a statement remains intact after manipulations or transformations, particularly relevant in adversarial scenarios."
+    },
+    "open_sourcing": "AJailBench is open-sourced and can be accessed at https://github.com/mbzuai-nlp/AudioJailbreak."
+}

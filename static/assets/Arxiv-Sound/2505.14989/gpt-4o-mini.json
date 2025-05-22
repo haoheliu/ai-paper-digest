@@ -1,0 +1,22 @@
+{
+    "title": "Discrete Audio Representations for Automated Audio Captioning",
+    "author": "Jingguang Tian (Hithink RoyalFlush AI Research Institute), Haoqin Sun (TMCC, Nankai University), Xinhui Hu (Hithink RoyalFlush AI Research Institute), Xinkang Xu (Hithink RoyalFlush AI Research Institute), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores automated audio captioning (AAC) using discrete audio representations, which is directly related to Haohe Liu's research in audio-language modeling and audio captioning. The introduction of a supervised audio tokenizer could enhance Haohe's existing models and data strategies.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automated audio captioning aims to generate natural language descriptions for audio clips, rapidly transforming audio data into contextual narratives.",
+    "contribution": "This paper introduces a supervised audio tokenizer to improve the semantic understanding in automated audio captioning, achieving performance levels competitive with continuous audio representations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods utilize unsupervised tokenization, leading to performance degradation in AAC models due to potential information loss.",
+        "novelty": "This work enhances AAC by applying supervised training on audio tokens, allowing for better representation of audio events and a more informed tokenizer."
+    },
+    "key_innovation": "The use of a supervised audio tokenizer trained with an audio tagging objective distinguishes this work, aiming to effectively capture audio event information.",
+    "real_world_impact": "This research can significantly improve the effectiveness of automated audio captioning systems, making them applicable in real-time audio analysis, content creation, and enhanced user experiences in various applications.",
+    "limitations": "No",
+    "new_terms": {
+        "audio tokens": "**Audio tokens** are discrete representations derived from audio signals, facilitating easier integration with language models. The paper distinguishes between semantic tokens, which capture meaning, and acoustic tokens that preserve sound fidelity.",
+        "supervised audio tokenizer": "**Supervised audio tokenizer** refers to a method trained on labeled audio data to enhance understanding and extraction of meaningful audio events."
+    },
+    "open_sourcing": ""
+}

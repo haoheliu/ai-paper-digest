@@ -1,0 +1,19 @@
+{
+    "title": "TCSinger 2: Customizable Multilingual Zero-shot Singing Voice Synthesis",
+    "author": "Yu Zhang (Zhejiang University), Wenxiang Guo (Zhejiang University), Changhao Pan (Zhejiang University), Dongyu Yao (Zhejiang University), Zhiyuan Zhu (Zhejiang University), Ziyue Jiang (Zhejiang University), Yuhan Wang (Zhejiang University), Tao Jin (Zhejiang University), Zhou Zhao (Zhejiang University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a novel approach to zero-shot singing voice synthesis that enhances style transfer and control, which can be particularly useful for Dr. Liu's interests in audio generation and processing tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Zero-shot singing voice synthesis involves generating singing voices in various styles without prior training on those specific styles, using audio or textual prompts to guide the synthesis.",
+    "contribution": "TCSinger 2 introduces advanced techniques for modeling blurred phoneme boundaries and multi-level style control, achieving improved synthesis quality and singer similarity metrics.",
+    "technical_comparison": "Previous methods for singing voice synthesis often relied heavily on annotated phoneme and note boundaries, which led to poor transitions and quality issues in zero-shot scenarios. This work improves by employing a Blurred Boundary Content Encoder to enhance boundary handling and robustness.",
+    "key_innovation": "The integration of a Custom Audio Encoder for extracting multi-faceted style representations from various input types and the Flow-based Custom Transformer for stable synthesis is unique.",
+    "real_world_impact": "This research has the potential to significantly enhance music production, professional dubbing, and personalized audio generation tools, improving the versatility and quality of synthesized singing voices.",
+    "limitations": "The authors acknowledge reliance on manually labeled styles, which can introduce errors, and the need for further improvements in inference speed.",
+    "new_terms": {
+        "Blurred Boundary Content Encoder": "**Blurred Boundary Content Encoder** is a component of the model that predicts and manages the transitions between phoneme and note boundaries to ensure smoothness in singing voice synthesis.",
+        "Flow-based Custom Transformer": "**Flow-based Custom Transformer** refers to the novel Transformer architecture used to enhance the generation process with flow-matching techniques for more stable outputs."
+    },
+    "open_sourcing": "Singing voice samples are available at https://aaronz345.github.io/TCSinger2Demo/"
+}

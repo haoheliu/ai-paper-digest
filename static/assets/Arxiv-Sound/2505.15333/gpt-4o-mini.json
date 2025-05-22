@@ -1,0 +1,22 @@
+{
+    "title": "Leveraging Unit Language Guidance to Advance Speech Modeling in Textless Speech-to-Speech Translation",
+    "author": "Yuhao Zhang (Northeastern University), Xiangnan Ma (Northeastern University), Kaiqi Kou (Northeastern University), Peizhuo Liu (Northeastern University), Weiqiao Shan (Northeastern University), Benyou Wang (The Chinese University of Hong Kong), Tong Xiao (Northeastern University), ..., Jingbo Zhu (Northeastern University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The introduction of a unit language to improve speech modeling aligns well with Haohe Liu's interests in audio and speech processing, particularly methods that leverage innovative language representations to enhance performance and usability.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a method to enhance textless speech-to-speech translation by introducing a unit language format for better acoustic and linguistic feature extraction.",
+    "contribution": "The paper introduces a unit language representation to solve the challenges in textless speech-to-speech translation, achieving performance improvements comparable to models using text.",
+    "technical_comparison": {
+        "prior_work": "Conventional models struggle with error propagation and learning alignment in untranscribed speech data.",
+        "novelty": "This work improves by integrating unit language and multi-task learning approaches to guide both cross-modal and cross-lingual modeling more effectively."
+    },
+    "key_innovation": "The concept of unit language acts as a text-like representation derived from speech units, providing a novel way to tackle speech modeling in the absence of text data.",
+    "real_world_impact": "This approach could significantly enhance communication between speakers of different languages without written text, facilitating greater accessibility in multilingual contexts.",
+    "limitations": "The proposed solution does not completely resolve conflicts between the cross-modal and cross-lingual learning aspects.",
+    "new_terms": {
+        "unit language": "**Unit language** refers to a representation format constructed from contiguous speech units using n-gram modeling, intended to enhance alignment and feature extraction without relying on traditional text.",
+        "multi-task learning": "**Multi-task learning** is a machine learning paradigm where multiple learning tasks share the same model but learn from differing data inputs, allowing for more generalized learning."
+    },
+    "open_sourcing": "https://github.com/xiaozhang521/Unit_Language"
+}

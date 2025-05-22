@@ -1,0 +1,22 @@
+{
+    "title": "MIKU-PAL: An Automated and Standardized Multimodal Method for Speech Paralinguistic and Affect Labeling",
+    "author": "Yifan Cheng (Fish Audio), Ruoyi Zhang (Carnegie Mellon University), Jiatong Shi (Huazhong University of Science and Technology), ..., Jiatong Shi (Nanjing University of Information Science and Technology)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a multimodal framework for emotion annotation that could enhance audio generation and speech synthesis tasks by providing richer datasets with multiple emotion categories.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves automatically annotating emotional speech from video data using a multimodal approach to enhance the diversity and consistency of emotion categories.",
+    "contribution": "This paper introduces MIKU-PAL to solve the challenge of obtaining large-scale and consistent emotional speech datasets, achieving a high annotation accuracy (68.5% on MELD) and significant consistency (Fleiss \u03ba = 0.93).",
+    "technical_comparison": {
+        "prior_work": "Existing methods rely heavily on manual annotations, which are expensive and inconsistent across datasets.",
+        "novelty": "MIKU-PAL automates the annotation process using a multimodal large language model, which significantly reduces costs and improves consistency, allowing for the labeling of 26 nuanced emotional categories."
+    },
+    "key_innovation": "The use of a fully automated pipeline that integrates audio and visual data to perform emotion identification, enabling annotations at a low cost and in a significantly shorter time frame.",
+    "real_world_impact": "The created MIKU-EmoBench dataset is a substantial contribution to the field of emotional speech synthesis, potentially improving the realism and emotional range of synthesized speech in applications such as virtual assistants, gaming, and film.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "Fleiss \u03ba": "**Fleiss \u03ba** is a statistical measure used to assess the reliability of agreement between multiple raters, indicating the level of consensus in their annotations.",
+        "multimodal large language model": "**Multimodal large language model** refers to a machine learning model that can process and analyze multiple forms of data (such as text, audio, and visual) to make inferences or predictions."
+    },
+    "open_sourcing": "Dataset available at https://huggingface.co/datasets/WhaleDolphin/MIKU-EmoBench"
+}

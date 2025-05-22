@@ -1,0 +1,21 @@
+{
+    "title": "SHEET: A Multi-purpose Open-source Speech Human Evaluation Estimation Toolkit",
+    "author": "Wen-Chin Huang (Nagoya University), Erica Cooper (National Institute of Information and Communications Technology), Tomoki Toda (Nagoya University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The toolkit addresses the evaluation of speech quality, which aligns with Dr. Liu's focus on speech processing and quality enhancement. The training recipes and support for multiple datasets could aid in developing and evaluating audio-related models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a toolkit designed for evaluating the quality of speech samples using machine learning models, aiming to streamline the subjective assessment process typically reliant on human judgment.",
+    "contribution": "This work introduces SHEET, an open-source toolkit that facilitates subjective speech quality assessment by providing comprehensive training and evaluation scripts, supporting multiple datasets and models.",
+    "technical_comparison": {
+        "prior_work": "Existing toolkits provide limited functionality; many focus solely on pre-trained models or restrict users to narrow dataset scopes without training capabilities.",
+        "novelty": "SHEET offers a flexible framework, enabling diverse training and evaluation functionalities for researchers working with various speech quality assessment models."
+    },
+    "key_innovation": "The toolkit's modular design allows for easy integration of multiple datasets and models, enhancing the reproducibility and accessibility of SSQA research.",
+    "real_world_impact": "SHEET has the potential to advance research on speech quality assessment significantly, making it easier for researchers and practitioners to develop robust models that assess and improve speech quality in various applications.",
+    "limitations": "The toolkit may still depend on the robustness of the underlying speech SSL models which could vary in generalization across different tasks.",
+    "new_terms": {
+        "subjective speech quality assessment (SSQA)": "**Subjective speech quality assessment (SSQA)** involves measuring speech quality based on human perception, typically through listener evaluations that yield subjective scores."
+    },
+    "open_sourcing": "Available on GitHub: https://github.com/unilight/sheet"
+}

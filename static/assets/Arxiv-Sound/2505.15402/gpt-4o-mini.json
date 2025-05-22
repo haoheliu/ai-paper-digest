@@ -1,0 +1,22 @@
+{
+    "title": "Prosody-Adaptable Audio Codecs for Zero-Shot Voice Conversion via In-Context Learning",
+    "author": "Junchuan Zhao (School of Computing, National University of Singapore), Xintong Wang (School of Computing, National University of Singapore), Ye Wang (School of Computing, National University of Singapore), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper's focus on voice conversion and prosody control aligns well with Haohe Liu's interests in audio processing and speech synthesis. The proposed method could enhance personalization in audio applications by effectively manipulating prosody.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper explores voice conversion techniques that transform a speaker's voice characteristics while retaining the linguistic content, with a focus on prosody management and zero-shot capabilities.",
+    "contribution": "This paper introduces the Prosody-Aware Codec Encoder (PACE) to solve challenges in zero-shot voice conversion, achieving improved prosody control and speaker identity preservation.",
+    "technical_comparison": {
+        "prior_work": "Most existing voice conversion systems inadequately manage the disentanglement of prosody and timbre, primarily focusing on content features.",
+        "novelty": "This work improves upon previous methods by explicitly isolating prosody with the PACE module, which allows more nuanced voice transformations."
+    },
+    "key_innovation": "The introduction of a prosody-aware codec encoder allows detailed control of prosodic features independent of the speaker's timbre.",
+    "real_world_impact": "This research could significantly impact areas like personalized voice synthesis in assistive technology, multimedia content creation, and entertainment by enabling users to control voice attributes more effectively.",
+    "limitations": "The paper does not explicitly mention limitations but could face challenges in generalizing to highly variable speech types or accents.",
+    "new_terms": {
+        "prosody": "**Prosody** refers to the rhythm, stress, and intonation of speech, which plays a crucial role in conveying meaning and emotion.",
+        "zero-shot voice conversion": "**Zero-shot voice conversion** is the ability of a voice conversion system to adapt to new, unseen speakers without retraining on their specific voice data."
+    },
+    "open_sourcing": ""
+}

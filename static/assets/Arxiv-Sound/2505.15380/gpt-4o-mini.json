@@ -1,0 +1,22 @@
+{
+    "title": "Accelerating Autoregressive Speech Synthesis Inference With Speech Speculative Decoding",
+    "author": "Zijian Lin (Shenzhen International Graduate School, Tsinghua University), Yang Zhang (Tencent), Yougen Yuan (Tencent), Yuming Yan (Tencent), Jinjiang Liu (Shenzhen International Graduate School, Tsinghua University), Zhiyong Wu (Shenzhen International Graduate School, Tsinghua University), Pengfei Hu (Tencent), Qun Yu (Tencent)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a novel acceleration framework for autoregressive speech synthesis that can potentially enhance the efficiency of audio generation tasks, relevant to Dr. Liu's work on efficient speech synthesis systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research addresses the delay caused by sequential token generation in autoregressive speech synthesis models and proposes a novel method for speeding up the inference process.",
+    "contribution": "The paper introduces Speech Speculative Decoding (SSD) to solve the problem of slow inference in autoregressive speech synthesis, achieving a 1.4x speedup while maintaining audio quality.",
+    "technical_comparison": {
+        "prior_work": "Previous autoregressive methods produce tokens sequentially, causing significant latency and inefficiencies.",
+        "novelty": "This work improves efficiency by using a draft model for candidate token generation followed by parallel verification from a larger target model."
+    },
+    "key_innovation": "The introduction of a lightweight draft model that generates candidate tokens alongside a tolerance factor for more flexible acceptance criteria, allowing greater efficiency without sacrificing audio quality.",
+    "real_world_impact": "This methodology offers substantial improvements in the speed of speech synthesis systems, which can have widespread applications in real-time communication and interactive voice systems.",
+    "limitations": "The authors do not mention significant limitations; however, the reliance on model size and design may affect the generalization capability in diverse scenarios.",
+    "new_terms": {
+        "autoregressive speech synthesis": "**Autoregressive speech synthesis** refers to a model that generates speech token-by-token in a sequential manner, trapping the generation process in a time-consuming loop reliant on previously generated tokens.",
+        "Speech Speculative Decoding (SSD)": "**Speech Speculative Decoding (SSD)** is an innovative framework designed to increase the speed and efficiency of speech synthesis by generating and verifying candidate token sequences through two models."
+    },
+    "open_sourcing": "Speech samples can be accessed at https://thuhcsi.github.io/interspeech2025-SSD/"
+}

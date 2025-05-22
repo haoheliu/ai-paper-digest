@@ -1,0 +1,22 @@
+{
+    "title": "AsynFusion: Towards Asynchronous Latent Consistency Models for Decoupled Whole-Body Audio-Driven Avatars",
+    "author": "Tianbao Zhang (Beihang University), Jian Zhao (TeleAI of China Telecom), Yuer Li (Beihang University), Zheng Zhu (GigaAI), Ping Hu (Beihang University), Zhaoxin Fan (Beihang University), Wenjun Wu (Beihang University), Xuelong Li (TeleAI of China Telecom), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed framework for generating synchronized body gestures and facial expressions from audio can directly enhance Dr. Liu's work in audio-driven applications, potentially improving audio-visual synthesis and multimodal integration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on generating coordinated facial expressions and body gestures in real-time using audio input, which is crucial for creating lifelike digital humans and enhancing virtual interactions.",
+    "contribution": "AsynFusion introduces a dual-branch architecture with a Cooperative Synchronization Module to achieve high-quality and efficient generation of synchronized animations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically generated expressions and gestures separately, leading to limited coordination between them.",
+        "novelty": "This work improves on these limitations by implementing asynchronous sampling and a bidirectional feature interaction mechanism, facilitating real-time generation."
+    },
+    "key_innovation": "The framework decouples expression and gesture generation processes, allowing for parallel processing and interaction without sacrificing animation quality.",
+    "real_world_impact": "This framework has immediate applications in virtual reality, remote communication, and digital entertainment, potentially enhancing user interaction with avatars.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "Asynchronous Latent Consistency Model": "**Asynchronous Latent Consistency Model (LCM)** refers to a technique that improves the efficiency of generative models by allowing the model to produce outputs at different sampling rates depending on the characteristics of the input data.",
+        "Cooperative Synchronization Module": "**Cooperative Synchronization Module** is an architectural component that enables different parts of a model to communicate and align features in real-time during generation."
+    },
+    "open_sourcing": ""
+}

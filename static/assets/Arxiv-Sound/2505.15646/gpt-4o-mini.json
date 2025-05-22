@@ -1,0 +1,22 @@
+{
+    "title": "Word Level Timestamp Generation for Automatic Speech Recognition and Translation",
+    "author": "Ke Hu (NVIDIA), Krishna Puvvada (NVIDIA), Elena Rastorgueva (NVIDIA), Zhehuai Chen (NVIDIA), He Huang (NVIDIA), Shuoyang Ding (NVIDIA), Kunal Dhawan (NVIDIA), Hainan Xu (NVIDIA), ..., Jagadeesh Balam (NVIDIA), Boris Ginsburg (NVIDIA)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's exploration of word-level timestamp prediction using the Canary model aligns with Haohe Liu's work in audio processing, particularly for tasks requiring synchronization between audio and text, such as speech enhancement and translation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on creating precise timestamps for words in automatic speech recognition and translation, enhancing searchability and accessibility of spoken content.",
+    "contribution": "This paper introduces a data-driven method to directly generate word-level timestamps within the Canary model, achieving accuracy rates of 80-90% with minimal degradation in transcription quality.",
+    "technical_comparison": {
+        "prior_work": "Existing timestamp prediction methods often rely on separate alignment systems, which can delay processing and compromise accuracy.",
+        "novelty": "This work improves by integrating timestamp prediction directly into the ASR model, leveraging the NeMo Forced Aligner as a teacher model."
+    },
+    "key_innovation": "Utilizes a special token to represent timestamps, allowing the model to learn when each word is spoken while minimizing external dependencies.",
+    "real_world_impact": "The approach significantly enhances the usability of automatic speech recognition systems for accessibility applications, such as generating accurate subtitles and improving user interactions with speech content.",
+    "limitations": "The study notes that timestamp accuracy varies by language, with German showing poorer performance compared to others.",
+    "new_terms": {
+        "timestamp prediction": "**Timestamp prediction** refers to the process of assigning specific timeframes to each word in speech, aiding in accurate transcription and synchronization of spoken content.",
+        "forced alignment": "**Forced alignment** is a technique that aligns spoken audio with a given transcript, ensuring that words in the text match their corresponding audio segments."
+    },
+    "open_sourcing": "The code is open-sourced through NeMo and the checkpoint is released at Hugging Face."
+}

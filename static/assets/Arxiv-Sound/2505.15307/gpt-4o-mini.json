@@ -1,0 +1,22 @@
+{
+    "title": "Towards Pre-training an Effective Respiratory Audio Foundation Model",
+    "author": "Daisuke Niizumi (NTT Communication Science Laboratories, NTT Corporation), Daiki Takeuchi (NTT Communication Science Laboratories, NTT Corporation), Masahiro Yasuda (NTT Communication Science Laboratories, NTT Corporation), Binh Thien Nguyen (NTT Communication Science Laboratories, NTT Corporation), Yasunori Ohishi (NTT Communication Science Laboratories, NTT Corporation), Noboru Harada (NTT Communication Science Laboratories, NTT Corporation)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The research provides valuable insights into the pre-training of audio models, which could potentially enhance audio processing tasks in Haohe Liu's work across various audio-related applications.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "This research focuses on pre-training audio foundation models specifically for analyzing respiratory sounds, which can assist in non-invasive health diagnostics.",
+    "contribution": "This paper introduces an effective pre-training strategy for respiratory audio models to improve their diagnostic capabilities, achieving state-of-the-art performance in sound classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled due to limited and non-diverse datasets, affecting their performance in specific acoustic tasks.",
+        "novelty": "This work combines a large general audio dataset (AudioSet) with respiratory sounds to enhance feature learning and classification accuracy significantly."
+    },
+    "key_innovation": "Demonstrates the importance of utilizing diverse datasets and preserving frequency-wise information in feature aggregation to improve model accuracy.",
+    "real_world_impact": "This advancement in respiratory audio processing can enhance clinical diagnosis tools, potentially benefiting health monitoring and disease detection practices.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "AudioSet": "**AudioSet** is a large-scale dataset of human-labeled audio events, used extensively for training audio classification models.",
+        "respiratory audio": "**Respiratory audio** refers to sounds produced during respiration, such as coughing and breathing, which can be analyzed for health diagnostics."
+    },
+    "open_sourcing": "https://github.com/nttcslab/eval-audio-repr/tree/main/plugin/OPERA"
+}

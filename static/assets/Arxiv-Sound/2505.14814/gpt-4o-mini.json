@@ -1,0 +1,22 @@
+{
+    "title": "GraphemeAug: A Systematic Approach to Synthesized Hard Negative Keyword Spotting Examples",
+    "author": "Harry Zhang (Google DeepMind), Kurt Partridge (Google DeepMind), Pai Zhu (Google DeepMind), Neng Chen (Google DeepMind), Hyun Jin Park (Google DeepMind), Dhruuv Agarwal (Google DeepMind), Quan Wang (Google DeepMind), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper directly addresses keyword spotting (KWS), which relates closely to Haohe Liu's work in speech and audio processing. The systematic generation of confusables can inform better training techniques for speech recognition systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "Keyword spotting is the task of detecting specific words in audio, and this paper focuses on generating challenging examples that are acoustically similar to the target keywords to improve model accuracy.",
+    "contribution": "This paper introduces the GraphemeAug algorithm to systematically create synthetic confusables, enhancing the robustness of KWS models, achieving a 61% improvement in AUC on synthetic hard negatives.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied on mining existing datasets for confusable phrases, which can be limited in variety and coverage.",
+        "novelty": "This work systematically generates confusables through grapheme mutations, ensuring a broader and more diverse set of training data without requiring extensive existing audio datasets."
+    },
+    "key_innovation": "It leverages simple edits to the written representation of keywords to produce a wide range of acoustically similar phrases.",
+    "real_world_impact": "The findings can enhance the performance of real-world KWS systems, reducing false activations from confusable phrases which are increasingly important in user interaction with voice-activated systems.",
+    "limitations": "No explicit limitations are mentioned by the author.",
+    "new_terms": {
+        "Grapheme": "**Grapheme** refers to the smallest unit of a writing system, like letters or characters, used here to manipulate keyword text for generating confusables.",
+        "AUC": "**Area Under the Curve (AUC)** is a performance measurement for classification problems at various threshold settings, used here to indicate model performance."
+    },
+    "open_sourcing": ""
+}

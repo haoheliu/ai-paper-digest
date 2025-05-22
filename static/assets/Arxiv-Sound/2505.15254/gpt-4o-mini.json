@@ -1,0 +1,22 @@
+{
+    "title": "Voice-ENHANCE: Speech Restoration using a Diffusion-based Voice Conversion Framework",
+    "author": "Kyungguen Byun (Qualcomm Technologies Inc.), Jason Filos (Qualcomm Technologies Inc.), Erik Visser (Qualcomm Technologies Inc.), Sunkuk Moon (Qualcomm Technologies Inc.), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed speech restoration method leveraging a two-stage approach with generative models is directly applicable to Haohe Liu's research in speech enhancement and restoration, offering insights into improving audio quality techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves enhancing speech signals degraded by noise and other distortions to achieve high-quality output through a novel two-stage generative framework.",
+    "contribution": "This paper introduces a framework that combines speaker-agnostic speech restoration with voice conversion to achieve studio-level quality speech, demonstrating improved objective quality metrics over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Prior methods typically focus on single-task restoration or are vulnerable to noise, leading to degraded outputs.",
+        "novelty": "This approach enhances robustness by applying a generative speech restoration model before voice conversion, addressing the input noise issue effectively."
+    },
+    "key_innovation": "Employing a dual-stage system that combines a generative speech restoration model with voice conversion to significantly improve speech quality in noisy environments.",
+    "real_world_impact": "The framework could be pivotal in practical applications like telecommunications and voice assistants, leading to clearer and more intelligible speech outputs in challenging conditions.",
+    "limitations": "No",
+    "new_terms": {
+        "voice conversion": "**Voice conversion** refers to techniques used to transform one person's voice to sound like another's while preserving the linguistic content.",
+        "generative speech restoration (GSR)": "**Generative speech restoration (GSR)** is a method that aims to recover and enhance degraded speech signals using advanced generative models."
+    },
+    "open_sourcing": ""
+}

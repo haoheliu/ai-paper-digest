@@ -1,0 +1,22 @@
+{
+    "title": "Segmentation-Variant Codebooks for Preservation of Paralinguistic and Prosodic Information",
+    "author": "Nicholas Sanders (The Centre for Speech Technology Research, University of Edinburgh), Yuanchao Li (The Centre for Speech Technology Research, University of Edinburgh), Korin Richmond (The Centre for Speech Technology Research, University of Edinburgh), Simon King (The Centre for Speech Technology Research, University of Edinburgh), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's focus on preserving paralinguistic and prosodic information in speech models could inform innovative approaches for generating expressive audio, bonding with Haohe Liu's interests in audio generation and music synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research addresses quantization challenges in speech processing models to preserve emotional and prosodic features while being efficient.",
+    "contribution": "This work introduces Segmentation-Variant Codebooks (SVCs) to capture prosodic and paralinguistic information better than standard methods, achieving significant improvements in classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on phonetic content and often lost fine-grained emotional details during quantization.",
+        "novelty": "This work improves by utilizing multiple segmentation levels for encoding, which retains crucial prosodic features that are typically blurred in continuous representations."
+    },
+    "key_innovation": "The unique approach of segmenting speech into various linguistic units enhances the retention of emotional tones in audio representation.",
+    "real_world_impact": "Improving the expressive quality of speech synthesis models could have broad applications in voice assistants, interactive entertainment, and education, potentially enhancing user experience significantly.",
+    "limitations": "The paper highlights future research directions but does not explicitly mention limitations.",
+    "new_terms": {
+        "Segmentation-Variant Codebooks": "**Segmentation-Variant Codebooks** refer to a novel method of quantizing speech that considers different levels of linguistic segmentation such as frames, phones, words, and utterances to preserve important speech characteristics.",
+        "Discrete Speech Units (DSUs)": "**Discrete Speech Units (DSUs)** are compact representations of speech that enable efficient processing while aiming to retain linguistic information."
+    },
+    "open_sourcing": ""
+}
