@@ -1,0 +1,18 @@
+{
+    "title": "AUDIOTRUST: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models",
+    "author": "Kai Li (Nanyang Technological University), Can Shen (BNBU), Yile Liu (Waseda University), Jirui Han (HUST), Kelong Zheng (BJTU), Xuechao Zou (Hong Kong Polytechnic University), Zhe Wang (University of Rochester), ..., Wei Dong (Nanyang Technological University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces a comprehensive evaluation framework, AudioTrust, specifically for Audio Large Language Models (ALLMs). It covers dimensions relevant to Haohe's research area, such as safety, privacy, and robustness, which are crucial for developing trustworthy audio technologies.",
+    "field": "Evaluation-Methodology",
+    "background": "The paper discusses the need for proper trustworthiness evaluation of audio language models, focusing on unique audio-specific risks and frameworks for assessment.",
+    "contribution": "AudioTrust introduces a trustworthiness evaluation framework to solve the challenge of assessing ALLMs, achieving a detailed analysis across six dimensions.",
+    "technical_comparison": "Previous methods primarily target text modalities without addressing audio-specific risks. This work improves by offering a multifaceted assessment framework specifically designed for audio, focusing on unique trust dimensions.",
+    "key_innovation": "The introduction of a structured benchmark that encompasses diverse real-world audio scenarios and a robust automated evaluation pipeline sets it apart from existing methodologies.",
+    "real_world_impact": "This framework could significantly influence the safe deployment of audio models in applications like healthcare, thereby enhancing the integrity and reliability of audio interactions.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "Audio Large Language Models (ALLMs)": "**Audio Large Language Models (ALLMs)** are machine learning models designed to process and generate audio content, leveraging large datasets and sophisticated algorithms."
+    },
+    "open_sourcing": "The benchmark and framework are available at <https://github.com/JusperLee/AudioTrust>"
+}

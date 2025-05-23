@@ -1,0 +1,22 @@
+{
+    "title": "Discrete Tokens Exhibit Interlanguage Speech Intelligibility Benefit: an Analytical Study Towards Accent-robust ASR Only with Native Speech Data",
+    "author": "Kentaro Onda (The University of Tokyo), Keisuke Imoto (Kyoto University), Satoru Fukayama (National Institute of Advanced Industrial Science and Technology), Daisuke Saito (The University of Tokyo), Nobuaki Minematsu (The University of Tokyo), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses automatic speech recognition (ASR), which is fundamentally connected to audio processing. The findings on robust algorithms for dealing with accents could enhance Haohe Liu's work in speech restoration and general audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates whether discrete token-based ASR can improve recognition of foreign-accented speech by utilizing only native language data, simulating human perception and intelligibility benefits.",
+    "contribution": "This paper introduces a method to improve ASR performance with discrete tokens trained on a speaker's native language, achieving better intelligibility for accented speech.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on accent-specific training data, which limited their applicability across various accents.",
+        "novelty": "This work improves by utilizing only native speech data to create discrete tokens, making it adaptable to a wider range of accents without needing specific accent data."
+    },
+    "key_innovation": "It models the human perception of speech through discrete tokenization, enhancing recognition for accented speech based on the listener's native language.",
+    "real_world_impact": "This method may enable more inclusive ASR applications capable of understanding diverse accents, improving user experiences for non-native English speakers in technological products like virtual assistants.",
+    "limitations": "The study primarily focuses on Japanese-accented English and might not generalize to all languages or accents without further validation.",
+    "new_terms": {
+        "interlanguage speech intelligibility benefit": "**Interlanguage speech intelligibility benefit (ISIB)** refers to the phenomenon where non-native speakers understand accented speech better when both speaker and listener share the same native language.",
+        "discrete tokens": "**Discrete tokens** are representations extracted from self-supervised learning models that symbolize segments of speech for ASR tasks."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Selective Invocation for Multilingual ASR: A Cost-effective Approach Adapting to Speech Recognition Difficulty",
+    "author": "Hongfei Xue (Northwestern Polytechnical University), Yufeng Tang (ByteDance), Jun Zhang (ByteDance), Xuelong Geng (Northwestern Polytechnical University), Lei Xie (Northwestern Polytechnical University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed method utilizes large language models for adaptive speech recognition, which aligns well with Haohe Liu's research in audio processing and generative models, particularly in enhancing automatic speech recognition systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves automatically recognizing spoken language in multilingual settings, while adapting the system's operation based on the complexity of the input speech.",
+    "contribution": "This paper introduces the Selective Invocation for Multilingual Automatic Speech Recognition (SIMA) to solve the challenge of efficiently transcribing speech input by determining its complexity, achieving reduced word error rates and lower invocation costs.",
+    "technical_comparison": {
+        "prior_work": "Existing methods, such as language identification models, suffer from high costs and inaccuracies due to misclassification of input language.",
+        "novelty": "SIMA improves by dynamically assessing speech complexity to decide whether to invoke a specialized model or utilize direct transcription."
+    },
+    "key_innovation": "The integration of a confidence evaluation strategy that includes classification into three output types to better manage the invocation of models based on speech complexity.",
+    "real_world_impact": "The proposed method can lead to significant cost savings in commercial applications of speech recognition while enhancing accuracy in challenging conditions, making it viable for widespread deployment.",
+    "limitations": "The proposed model's performance might still lag behind dedicated models on out-of-domain data, indicating that there is room for improvement.",
+    "new_terms": {
+        "SOTA": "**State-of-the-art** refers to the highest level of development achieved in a field at a particular time, representing the best performance currently available.",
+        "LID": "**Language Identification** is the process of determining the language spoken in a given audio input."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Dialogue in Resonance: An Interactive Music Piece for Piano and Real-Time Automatic Transcription System",
+    "author": "Hayeon Bang (Graduate School of Culture Technology, KAIST), Taegyun Kwon (Graduate School of Culture Technology, KAIST), Juhan Nam (Graduate School of Culture Technology, KAIST), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper's exploration of real-time automatic music transcription using deep learning models may inform similar approaches in audio generation tasks, linking to Haohe Liu's research on audio processing.",
+    "field": "Applications-Creative AI",
+    "background": "Creating an interactive music piece where a human pianist and a computer-controlled piano communicate musically in real-time using transcription technology.",
+    "contribution": "This paper introduces a novel framework that combines structured composition with live interaction through automatic music transcription, achieving a dynamic musical dialogue.",
+    "technical_comparison": {
+        "prior_work": "Previous interactive systems predominantly focused on either improvisation or prescribed scores but lacked a balance of both.",
+        "novelty": "This work uniquely integrates real-time transcription with a structured compositional approach, allowing an automated system to respond meaningfully in a live performance."
+    },
+    "key_innovation": "Utilizes real-time automatic music transcription to foster interactive dialogue between a human pianist and a computer-controlled piano, blurring lines between performer and machine.",
+    "real_world_impact": "This application of real-time transcription may influence future collaborative music systems and enhance performances by allowing greater expressive potential.",
+    "limitations": "The paper does not mention significant limitations but cites challenges with transcription accuracy in certain acoustic environments.",
+    "new_terms": {
+        "automatic music transcription": "**Automatic Music Transcription (AMT)** is the process of converting audio recordings of musical performance into a symbolic representation, typically MIDI, capturing note timing and velocity.",
+        "Disklavier": "**Disklavier** is a brand of player piano designed to play back recorded performances of both acoustic and digital sources, equipped with MIDI capabilities."
+    },
+    "open_sourcing": "A performance video, along with the score and system demonstration, is accessible at the web demo."
+}

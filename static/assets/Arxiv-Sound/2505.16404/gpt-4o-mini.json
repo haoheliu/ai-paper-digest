@@ -1,0 +1,22 @@
+{
+    "title": "UBGAN: Enhancing Coded Speech with Blind and Guided Bandwidth Extension",
+    "author": "Kishan Gupta (Fraunhofer IIS), Srikanth Korse (International Audio Laboratories Erlangen), Andreas Brendel (Fraunhofer IIS), Nicola Pia (Fraunhofer IIS), Guillaume Fuchs (Fraunhofer IIS, International Audio Laboratories Erlangen), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper's focus on bandwidth extension in coded speech aligns well with Haohe Liu's interests in audio processing and enhancement. The proposed UBGAN method could inform advancements in algorithms for improving audio quality, such as in voice restoration or super-resolution tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper tackles the problem of enhancing the perceptual quality of speech codec outputs by generating higher frequency content from lower frequency coded audio signals.",
+    "contribution": "UBGAN introduces a modular Generative Adversarial Network (GAN) framework to extend wideband coded speech to super-wideband signals, achieving noticeable improvements in audio quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often operate in a one-size-fits-all approach for specific codecs and bandwidths, lacking adaptability.",
+        "novelty": "This work innovatively applies a GAN-based modulation in the subband domain to improve adaptability across various codecs."
+    },
+    "key_innovation": "The integration of guided and blind bandwidth extension strategies allows for flexible improvement of coded speech outputs without significant computational overhead.",
+    "real_world_impact": "The developed model is expected to enhance user experiences in real-time communications by providing clearer and more intelligible speech, especially over limited bandwidth scenarios.",
+    "limitations": "While promising, the model may struggle with very high-quality core codecs, being primarily trained on lower bitrate and lower quality settings.",
+    "new_terms": {
+        "Subband Domain": "**Subband domain** refers to a processing approach where signals are split into several frequency bands, allowing for targeted processing in each band.",
+        "Generative Adversarial Network (GAN)": "**Generative Adversarial Network (GAN)** is a class of machine learning frameworks designed by two neural networks contesting with each other to produce new, synthetic instances of data that can pass for real data."
+    },
+    "open_sourcing": ""
+}

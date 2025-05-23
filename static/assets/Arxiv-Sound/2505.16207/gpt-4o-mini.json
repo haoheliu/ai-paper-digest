@@ -1,0 +1,22 @@
+{
+    "title": "Differentiable K-means for Fully-optimized Discrete Token-based ASR",
+    "author": "Kentaro Onda (The University of Tokyo), Yosuke Kashiwagi (Sony Group Corporation), Emiru Tsunoo (Sony Group Corporation), Hayato Futami (Sony Group Corporation), Shinji Watanabe (Carnegie Mellon University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses improving automatic speech recognition (ASR) through differentiable k-means, which could enhance techniques for audio and speech processing methodologies in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study examines the optimization of discrete token representations in ASR using a differentiable version of k-means clustering, allowing for improved error propagation in training.",
+    "contribution": "This paper introduces differentiable k-means to solve the problem of suboptimal discrete token generation for ASR, achieving higher recognition accuracy and clearer phonetic representations.",
+    "technical_comparison": {
+        "prior_work": "Traditional k-means is non-differentiable and hinders backpropagation, limiting the integration of token generation with ASR objectives.",
+        "novelty": "This work integrates differentiable k-means to seamlessly optimize both clustering and ASR training, enabling effective fine-tuning of the model's parameters."
+    },
+    "key_innovation": "Enables gradient-based optimization of discrete tokens while incorporating task-specific objectives, facilitating superior performance in ASR tasks.",
+    "real_world_impact": "This research has practical implications for improving ASR systems, potentially leading to more accurate and reliable speech recognition tools in various applications.",
+    "limitations": "No specific limitations were noted in the paper.",
+    "new_terms": {
+        "differentiable k-means": "**Differentiable k-means** is a variant of the k-means clustering algorithm that allows for gradient-based optimization by employing continuous approximations, enabling it to be used in neural network training.",
+        "self-supervised learning (SSL)": "**Self-supervised learning (SSL)** refers to a set of methods where the algorithm learns from unlabeled data by generating supervisory signals from the data itself."
+    },
+    "open_sourcing": ""
+}

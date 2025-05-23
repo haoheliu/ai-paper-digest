@@ -1,0 +1,22 @@
+{
+    "title": "Unlocking Temporal Flexibility: Neural Speech Codec with Variable Frame Rate",
+    "author": "Hanglei Zhang (MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University), Yiwei Guo (MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University), Zhihan Li (MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University), Xiang Hao (Department of Data Science and Artificial Intelligence, The Hong Kong Polytechnic University), Xie Chen (MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University), Kai Yu (MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper's focus on dynamic frame rate allocation in speech codecs aligns well with Dr. Liu's research interests in audio processing and generative models, particularly methods that enhance audio quality while improving efficiency.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a neural speech codec that adjusts frame rates dynamically based on temporal information density to improve efficiency in audio processing.",
+    "contribution": "This paper introduces Temporally Flexible Coding (TFC) to solve the inefficiencies of Constant Frame Rate codecs, achieving better audio quality and reduced sequence length.",
+    "technical_comparison": {
+        "prior_work": "Previous methods operated predominantly under Constant Frame Rate (CFR) principles, resulting in wasted resources for low-information segments like silence.",
+        "novelty": "This work improves by incorporating Variable Frame Rate (VFR) coding based on information density, allowing efficient temporal frame allocation."
+    },
+    "key_innovation": "TFC leverages dynamic frame rate adjustments based on temporal entropy, enabling more efficient coding of silent and voiced segments.",
+    "real_world_impact": "Improving the efficiency and flexibility of neural speech codecs could enhance applications in real-time audio processing and generative speech models, leading to faster and higher-quality audio generation.",
+    "limitations": "The implementation is currently limited to a single codec backbone and needs further exploration for broader applications.",
+    "new_terms": {
+        "Temporally Flexible Coding": "**Temporally Flexible Coding (TFC)** is a method that introduces dynamic frame rate adjustments in speech codecs, enabling efficient representation of audio features.",
+        "Variable Frame Rate": "**Variable Frame Rate (VFR)** refers to a coding strategy that allows different frame rates across the audio duration, optimizing bitrate based on content complexity."
+    },
+    "open_sourcing": ""
+}

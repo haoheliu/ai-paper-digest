@@ -1,0 +1,22 @@
+{
+    "title": "Prosodically Enhanced Foreign Accent Simulation by Discrete Token-based Resynthesis Only with Native Speech Corpora",
+    "author": "Kentaro Onda (The University of Tokyo), Keisuke Imoto (Kyoto University), Satoru Fukayama (National Institute of Advanced Industrial Science and Technology), Daisuke Saito (The University of Tokyo), Nobuaki Minematsu (The University of Tokyo), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods for simulating accents and the use of discrete token-based resynthesis could inform audio generation techniques, particularly in enhancing the realism of synthesized speech across different languages.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study investigates accent simulation in speech synthesis, particularly focusing on how to replicate foreign accents without needing accented speech training data.",
+    "contribution": "This paper introduces a duration-modification module to enhance foreign accent simulation, achieving more accurate representations of accented speech using solely native speech corpora.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with duration-related accents and relied on limited accent data for training, which affected their versatility.",
+        "novelty": "This work introduces a new module for duration adjustment that operates on native data only, enhancing the realism and accuracy of synthesized accents."
+    },
+    "key_innovation": "The integration of prosodic features like duration control into a discrete token-based speech resynthesis framework, allowing for realistic foreign accent simulation.",
+    "real_world_impact": "This research could enhance language learning tools and automatic speech recognition systems, making them more robust to accents in spoken communication.",
+    "limitations": "The study mentions the pilot nature and acknowledges needing further empirical evaluations of intelligibility improvements.",
+    "new_terms": {
+        "discrete token-based resynthesis": "**Discrete token-based resynthesis** refers to reconstructing speech by using distinct units or tokens generated from a larger model, reflecting the cognitive processes of speech perception and production.",
+        "prosodic features": "**Prosodic features** encompass the rhythm, stress, and intonation patterns in speech that affect how it is perceived and understood."
+    },
+    "open_sourcing": ""
+}

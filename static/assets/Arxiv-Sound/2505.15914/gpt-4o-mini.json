@@ -1,0 +1,22 @@
+{
+    "title": "A Novel Deep Learning Framework for Efficient Multichannel Acoustic Feedback Control",
+    "author": "Yuan-Kuei Wu (National Taiwan University), Juan Azcarreta (Meta), Kashyap Patel (Meta), Buye Xu (Meta), Jung-Suk Lee (Meta), Sanha Lee (Meta), Ashutosh Pandey (Meta), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper provides insights into deep learning approaches for acoustic feedback control, which could be beneficial for Haohe Liu's research in audio quality enhancement, especially in managing feedback in audio processing systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a framework to manage acoustic feedback in devices with multiple microphones and speakers to enhance audio signals and reduce howling effects.",
+    "contribution": "This paper introduces a Convolutional Recurrent Network for multichannel acoustic feedback control, achieving significant improvements in speech enhancement and computational efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on traditional digital signal processing techniques or single-channel deep learning approaches, which struggled with computational demands and convergence issues.",
+        "novelty": "This work improves upon these by integrating spatial and temporal processing within a unified deep learning model while employing three innovative training strategies."
+    },
+    "key_innovation": "Combining Convolutional and Recurrent layers in a resource-efficient manner to effectively handle multichannel inputs and dynamically suppress feedback.",
+    "real_world_impact": "This framework could potentially revolutionize audio devices, improving their usability in real-world acoustics, especially in mobile or edge-device settings like hearing aids.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Convolutional Recurrent Network": "**Convolutional Recurrent Network** is a neural network architecture that combines convolutional layers for spatial feature extraction with recurrent layers for temporal dependencies, making it suitable for sequential data such as audio.",
+        "In-a-Loop Training": "**In-a-Loop Training** is a training method where model outputs are fed back into the system to simulate real-time performance during the training phase."
+    },
+    "open_sourcing": ""
+}

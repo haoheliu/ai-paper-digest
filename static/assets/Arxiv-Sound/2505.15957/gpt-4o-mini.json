@@ -1,0 +1,21 @@
+{
+    "title": "Towards Holistic Evaluation of Large Audio-Language Models: A Comprehensive Survey",
+    "author": "Chih-Kai Yang (National Taiwan University), Neo S. Ho (National Taiwan University), Hung-yi Lee (National Taiwan University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper provides a comprehensive survey and taxonomy for evaluating large audio-language models (LALMs), which can directly inform Haohe Liu's work on audio and speech processing by offering insights into benchmarking methods, gaps in the literature, and promising future directions.",
+    "field": "Evaluation-Meta Studies",
+    "background": "The paper reviews various evaluation frameworks for large audio-language models, categorizing them into four dimensions to enhance systematic assessment.",
+    "contribution": "This survey introduces a structured taxonomy of LALM evaluations to solve the scatter of existing benchmarks, achieving a clearer overview for researchers.",
+    "technical_comparison": {
+        "prior_work": "Previous surveys largely focused on technical specifications like model architectures but overlooked comprehensive evaluation methodologies.",
+        "novelty": "This work presents an organized classification of benchmarks across diverse tasks, filling a critical gap in the current literature."
+    },
+    "key_innovation": "It systematically categorizes evaluations of LALMs based on objectives such as auditory awareness, reasoning, dialogue, and safety considerations.",
+    "real_world_impact": "This survey is poised to enhance the development of more robust evaluation frameworks for LALMs, significantly impacting the fields of human-computer interaction and automated audio analysis.",
+    "limitations": "The taxonomy is based solely on existing benchmarks and may not encompass all potential task settings.",
+    "new_terms": {
+        "large audio-language models": "**Large audio-language models (LALMs)** are multimodal models that integrate audio processing capabilities with language understanding, aimed at tasks involving speech and sound."
+    },
+    "open_sourcing": "The authors plan to actively maintain and release a collection of the surveyed papers to support ongoing advancements in the field."
+}

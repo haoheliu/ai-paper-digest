@@ -1,0 +1,22 @@
+{
+    "title": "From Tens of Hours to Tens of Thousands: Scaling Back-Translation for Speech Recognition",
+    "author": "Tianduo Wang (Singapore University of Technology and Design), Lu Xu (ByteDance Seed), Wei Lu (Singapore University of Technology and Design), Shanbo Cheng (ByteDance Seed), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces a scalable method for generating synthetic speech using text-to-speech models, which can enhance audio-language tasks, potentially benefiting Haohe Liu's research on text-to-audio generation and audio-language modeling.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating synthetic speech from limited transcribed audio in various languages to improve the performance of automatic speech recognition systems.",
+    "contribution": "This paper introduces Speech Back-Translation to solve the challenge of data scarcity in multilingual ASR, achieving a significant increase in available training data from tens of hours to over 500,000 hours of synthetic speech.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggle with the reliance on large amounts of labeled data to train TTS models effectively, often failing to generalize to low-resource languages.",
+        "novelty": "This work employs a targeted fine-tuning approach for TTS models, enabling effective synthesis from a fraction of the traditional data requirements."
+    },
+    "key_innovation": "Demonstrates that high-quality synthetic speech can be generated from minimal real transcribed data, drastically scaling the training dataset and improving ASR performance.",
+    "real_world_impact": "The scalable generation of synthetic speech can enhance ASR systems, making them more accessible for low-resource languages, thereby bridging gaps in linguistic technologies.",
+    "limitations": "While the approach shows promise, it may not sufficiently capture the complexity of real-world speech scenarios affected by varied environmental conditions.",
+    "new_terms": {
+        "Back-Translation": "**Back-Translation** is a data augmentation technique where a model translates data from one language to another and uses the generated outputs to enhance training data.",
+        "Text-to-Speech (TTS)": "**Text-to-Speech (TTS)** refers to the technology that converts text input into spoken voice output."
+    },
+    "open_sourcing": "https://github.com/tianduowang/speech-bt"
+}
