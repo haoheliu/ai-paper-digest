@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking Expressive Japanese Character Text-to-Speech with VITS and Style-BERT-VITS2",
+    "author": "Zackary Rackauckas (Columbia University), Julia Hirschberg (Columbia University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper evaluates advanced text-to-speech models (VITS and Style-BERT-VITS2) which could be relevant for improving speech synthesis and audio generation tasks in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves synthesizing expressive speech from Japanese characters, focusing on pitch-accent sensitivity and voice consistency.",
+    "contribution": "This study benchmarks VITS and Style-BERT-VITS2 models on character-specific datasets, achieving high naturalness and intelligibility in synthesized speech.",
+    "technical_comparison": {
+        "prior_work": "Previous models struggled with pitch-accent modeling and voice consistency in character-driven speech synthesis.",
+        "novelty": "This work incorporates enhanced pitch-accent controls and a WavLM-based discriminator, improving the synthesis of expressive and consistent speech."
+    },
+    "key_innovation": "The integration of pitch-accent adjustments and advanced neural architectures specifically tailored for Japanese character speech synthesis.",
+    "real_world_impact": "The findings have significant implications for applications such as language learning tools, animated character voiceovers, and conversational agents, enhancing user experience through better speech quality.",
+    "limitations": "Higher computational demands may limit deployment on resource-constrained devices.",
+    "new_terms": {
+        "pitch-accent": "**Pitch-accent** refers to the use of pitch variations to convey meanings in spoken language, particularly critical in languages like Japanese.",
+        "WavLM": "**WavLM** is a model designed to improve audio signal understanding, often used to enhance the naturalness of synthesized speech."
+    },
+    "open_sourcing": "Models and code may be available via the authors' repositories, though specific links were not provided in the paper."
+}

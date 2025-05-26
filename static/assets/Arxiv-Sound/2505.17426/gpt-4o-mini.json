@@ -1,0 +1,22 @@
+{
+    "title": "UniTTS: An end-to-end TTS system without decoupling of acoustic and semantic information",
+    "author": "Rui Wang (International Digital Economy Academy), Qianguo Sun (International Digital Economy Academy), Tianrong Chen (Emdoor Information Co., Ltd), Zhiyun Zeng (Emdoor Information Co., Ltd), Junlong Wu (Emdoor Information Co., Ltd), Jiaxing Zhang (Shenzhen Yijiayiban Information Technology Co., Ltd), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a novel approach to Text-To-Speech (TTS) that utilizes an advanced neural audio codec which can have direct applications in audio generation tasks, an area critical to Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper discusses a new TTS system that integrates both acoustic and semantic modeling without requiring strict alignment between the two modalities, aiming to improve speech synthesis quality.",
+    "contribution": "UniTTS introduces a unified training framework that combines audio modeling and text synthesis to solve the problem of aligned acoustic representation, achieving significant improvements in speech quality and emotional expressiveness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for TTS often separate acoustic and semantic information, leading to inefficiencies and loss of audio information.",
+        "novelty": "This work leverages a single-codebook audio codec that achieves near-perfect utilization without semantic alignment, enhancing both performance and training capabilities."
+    },
+    "key_innovation": "The incorporation of a dual-phase Audio Language Model training framework that supports varied audio-modal tasks while retaining LLM text capabilities.",
+    "real_world_impact": "The UniTTS system has the potential to significantly improve real-world applications in TTS technology, leading to more natural and emotionally expressive speech synthesis.",
+    "limitations": "The paper does not explicitly mention limitations, focusing more on the strengths of the proposed method.",
+    "new_terms": {
+        "Text-To-Speech (TTS)": "**Text-To-Speech** is a technology that converts written text into spoken voice output, utilizing machine learning to synthesize speech.",
+        "Residual Vector Quantization (RVQ)": "**Residual Vector Quantization** refers to a method for audio compression and representation that efficiently encodes audio signals into a reduced dimensional space."
+    },
+    "open_sourcing": "Source code and model checkpoints are publicly available at https://github.com/IDEA-Emdoor-Lab/UniTTS and https://github.com/IDEA-Emdoor-Lab/DistilCodec."
+}

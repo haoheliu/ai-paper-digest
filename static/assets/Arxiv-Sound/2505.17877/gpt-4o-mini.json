@@ -1,0 +1,22 @@
+{
+    "title": "Toward Optimal ANC: Establishing Mutual Information Lower Bound",
+    "author": "Fran\u00e7ois Derrida (Ben-Gurion University of the Negev), Shahar Lutati (Tel Aviv University), Eliya Nachmani (Ben-Gurion University of the Negev), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper establishes foundational theoretical limits for Active Noise Cancellation (ANC) methods, which could inform the design and evaluation of audio processing algorithms in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper derives theoretical limits on Active Noise Cancellation systems, focusing on information-theoretic and support-based constraints to establish performance bounds.",
+    "contribution": "This paper introduces a unified lower bound on the cancellation performance of ANC systems to evaluate and guide algorithm improvements.",
+    "technical_comparison": {
+        "prior_work": "Previous ANC methods lacked a standardized framework for assessing cancellation limits, often relying on empirical results that vary across setups.",
+        "novelty": "This work combines information-theoretic analysis with physical support limitations to propose a robust theoretical ceiling on the achievable noise cancellation."
+    },
+    "key_innovation": "Integrates two perspectives\u2014information-theoretic and spectral support constraints\u2014to create a comprehensive performance benchmark for ANC algorithms.",
+    "real_world_impact": "The theoretical benchmarks established in this work can guide future improvements in ANC technologies, enhancing user experiences in various noisy environments.",
+    "limitations": "The requirement for high-quality data to compute the information-theoretic bounds could restrict the applicability across settings with limited audio samples.",
+    "new_terms": {
+        "Active Noise Cancellation (ANC)": "**Active Noise Cancellation (ANC)** refers to technology that uses anti-noise sound waves to minimize unwanted background noise.",
+        "Normalized Mean Squared Error (NMSE)": "**Normalized Mean Squared Error (NMSE)** is a performance metric used to quantify the effectiveness of noise cancellation systems."
+    },
+    "open_sourcing": ""
+}

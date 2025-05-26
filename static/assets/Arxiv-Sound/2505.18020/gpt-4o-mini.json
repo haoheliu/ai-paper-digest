@@ -1,0 +1,21 @@
+{
+    "title": "Effects of auditory distance cues and reverberation on spatial perception and listening strategies",
+    "author": "Fulvio Missoni (University of Genoa), Katarina Poole (Imperial College London), Lorenzo Picinali (Imperial College London), Andrea Canessa (University of Genoa), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "This study investigates spatial hearing mechanisms in reverberant environments, which can inform techniques in audio processing and the development of audio enhancement tools for improved spatial perception.",
+    "field": "Applications-Speech and Audio",
+    "background": "Understanding how distance and reverberation affect spatial auditory perception helps in designing better audio devices and environments.",
+    "contribution": "This paper introduces a framework to analyze the influence of listener movement and acoustic conditions on sound localization accuracy, revealing adaptive strategies employed by listeners in variable environments.",
+    "technical_comparison": {
+        "prior_work": "Previous studies primarily examined static conditions or contained limited variability in acoustic environments during listening tasks.",
+        "novelty": "This study incorporates dynamic listener movements and a broader range of acoustic conditions, enhancing ecological validity in the research of spatial hearing."
+    },
+    "key_innovation": "Focuses on the adaptive use of head movements in reverberant environments to compensate for auditory uncertainty, providing insights into human acoustic navigation.",
+    "real_world_impact": "The findings could inform the design of better auditory systems, such as hearing aids and spatial audio systems, ensuring enhanced performance in real-world acoustic settings.",
+    "limitations": "The study sample size is small and predominantly composed of young adults, which may limit the generalizability of the findings.",
+    "new_terms": {
+        "head-related transfer function (HRTF)": "**Head-related transfer function (HRTF)** represents how the shape of the ear and head interact with sound waves coming from different directions, affecting sound localization."
+    },
+    "open_sourcing": ""
+}

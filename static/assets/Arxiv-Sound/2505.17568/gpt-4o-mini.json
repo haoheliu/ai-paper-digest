@@ -1,0 +1,22 @@
+{
+    "title": "JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models",
+    "author": "Zifan Peng (Hong Kong University of Science and Technology (Guangzhou)), Yule Liu (Hong Kong University of Science and Technology (Guangzhou)), Zhen Sun (Hong Kong University of Science and Technology (Guangzhou)), Mingchen Li (University of North Texas), Zeren Luo (Hong Kong University of Science and Technology (Guangzhou)), Jingyi Zheng (Hong Kong University of Science and Technology (Guangzhou)), Wenhan Dong (Hong Kong University of Science and Technology (Guangzhou)), Xinlei He (Hong Kong University of Science and Technology (Guangzhou)), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This work provides a systematic evaluation framework for Audio Language Models (ALMs) against jailbreak attacks, which is pivotal for enhancing the robustness of models used in Haohe Liu's research on audio processing, speech synthesis, and generative models.",
+    "field": "Evaluation-Methodology",
+    "background": "JALMBench is a benchmark designed to assess the effectiveness of jailbreak attacks on Audio Language Models while providing a comprehensive dataset and unified framework for evaluation.",
+    "contribution": "JALMBench introduces a modular benchmark framework to evaluate the vulnerabilities of Audio Language Models to various jailbreak attacks, achieving insights into model robustness and security weaknesses.",
+    "technical_comparison": {
+        "prior_work": "Previous evaluations of models focused on text modalities or lacked comprehensive multi-model comparisons, limiting the understanding of safety in audio contexts.",
+        "novelty": "JALMBench fills this gap by offering a structured approach to benchmark both audio and text vulnerabilities across multiple models, highlighting unique attack behaviors."
+    },
+    "key_innovation": "Utilizes a dual-modality approach to assess attack success rates across both text and audio inputs, revealing specific vulnerabilities and their implications on model safety.",
+    "real_world_impact": "The framework lays the groundwork for improving the safety and reliability of Audio Language Models, which are increasingly critical in applications involving speech and audio generation, potentially reducing misuse and harmful outputs.",
+    "limitations": "The dataset and evaluated models currently lack extensive diversity in certain language accents, which could affect generalizability.",
+    "new_terms": {
+        "jailbreak attacks": "**Jailbreak attacks** refer to manipulations aimed at bypassing the safety mechanisms of language models, allowing users to generate unwanted or unsafe outputs.",
+        "Audio Language Models (ALMs)": "**Audio Language Models (ALMs)** are models that process audio inputs directly, enabling various applications in speech understanding and synthesis."
+    },
+    "open_sourcing": "The dataset and code are available at https://huggingface.co/datasets/AnonymousUser000/JALMBench and https://github.com/sfofgalaxy/JALMBench."
+}

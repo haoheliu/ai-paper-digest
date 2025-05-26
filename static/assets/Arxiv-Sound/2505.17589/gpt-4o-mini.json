@@ -1,0 +1,22 @@
+{
+    "title": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+    "author": "Zhihao Du (Speech Team, Tongyi Lab, Alibaba Group), Changfeng Gao (Speech Team, Tongyi Lab, Alibaba Group), Yuxuan Wang (Speech Team, Tongyi Lab, Alibaba Group), Fan Yu (Speech Team, Tongyi Lab, Alibaba Group), Tianyu Zhao (Speech Team, Tongyi Lab, Alibaba Group), Hao Wang (Speech Team, Tongyi Lab, Alibaba Group), Xiang Lv (Speech Team, Tongyi Lab, Alibaba Group), Hui Wang (Speech Team, Tongyi Lab, Alibaba Group), ..., Jieping Ye (Speech Team, Tongyi Lab, Alibaba Group)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The advancements in zero-shot multilingual speech synthesis and techniques like Differentiable Reward Optimization (DiffRO) for improving speech quality are highly pertinent to Dr. Liu's research in audio processing and synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper focuses on improving speech synthesis quality and versatility to enable multilingual generation capabilities for speech synthesis models in real-world scenarios.",
+    "contribution": "CosyVoice 3 introduces a novel speech tokenizer and a differentiable reward model to improve zero-shot multilingual speech synthesis, achieving better content consistency and speaker similarity compared to its predecessor.",
+    "technical_comparison": {
+        "prior_work": "Previous models had limitations in language coverage, domain diversity, and overall synthesis quality.",
+        "novelty": "This work scales training data to one million hours and employs a new tokenization method that captures prosody and emotional features effectively."
+    },
+    "key_innovation": "The speech tokenizer developed via supervised multi-task training provides enhanced emotion and pronunciation style recognition, improving the naturalness of synthesized speech.",
+    "real_world_impact": "This model significantly advances the field of speech synthesis, potentially leading to widespread applications in multilingual environments, enhancing user experiences in digital communication.",
+    "limitations": "The study mentions limitations in training data availability for challenging scenarios and areas where further improvement is needed.",
+    "new_terms": {
+        "Differentiable Reward Optimization": "**Differentiable Reward Optimization (DiffRO)** is a method that utilizes gradient-based optimization techniques to improve generated outputs by maximizing specific rewards calculated from predictions.",
+        "speech tokenizer": "**Speech tokenizer** is a system designed to convert speech segments into discrete tokens that capture essential semantic and emotional information."
+    },
+    "open_sourcing": "https://funaudiollm.github.io/cosyvoice3"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Speechless: Speech Instruction Training Without Speech for Low Resource Languages",
+    "author": "Alan Dao (Menlo Research), Dinh Bach Vu (Menlo Research), Huy Hoang Ha (Menlo Research), Tuan Le Duc Anh (Menlo Research), Shreyas Gopal (Nanyang Technological University), Yue Heng Yeo (Nanyang Technological University), Warren Keng Hoong Low (Menlo Research), Eng Siong Chng (Nanyang Technological University), Jia Qi Yip (Menlo Research)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The approach of generating semantic speech tokens aligns well with Haohe Liu's focus on audio and speech processing, particularly in developing new methods that do not rely on existing text-to-speech systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating synthetic speech instruction data for voice assistants in languages with limited resources without relying on traditional text-to-speech systems.",
+    "contribution": "This paper introduces the Speechless framework to solve the problem of speech instruction data scarcity, achieving competitive automatic speech recognition performance for low-resource languages like Vietnamese.",
+    "technical_comparison": {
+        "prior_work": "Previous methods required high-quality text-to-speech systems for generating synthetic speech, which are often unavailable for low-resource languages.",
+        "novelty": "This work improves by utilizing a quantized speech encoder to generate semantic tokens directly from text, bypassing the need for waveform synthesis."
+    },
+    "key_innovation": "The integration of model training stages that align semantic representations with existing speech encoders, thus eliminating dependency on traditional text-to-speech technologies.",
+    "real_world_impact": "Addresses critical gaps in speech technology for low-resource languages, potentially improving accessibility and usability of voice assistants in linguistically diverse regions.",
+    "limitations": "Performance degradation observed on text-based benchmarks indicates issues with catastrophic forgetting during speech instruction tuning.",
+    "new_terms": {
+        "semantic tokens": "**Semantic tokens** are discrete representations of meanings that capture essential information from spoken or written language without needing detailed acoustic characteristics.",
+        "residual vector quantizer": "**Residual Vector Quantizer** is a technique for encoding high-dimensional data into a lower-dimensional discrete space, optimizing the representation for meaningful semantic retrieval."
+    },
+    "open_sourcing": "The training code and synthetic datasets are released on GitHub and Hugging Face."
+}

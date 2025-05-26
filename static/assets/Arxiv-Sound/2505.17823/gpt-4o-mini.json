@@ -1,0 +1,22 @@
+{
+    "title": "Source Separation of Small Classical Ensembles: Challenges and Opportunities",
+    "author": "Gerardo Roa-Dabike (University of Salford), Trevor J. Cox (University of Salford), Jon P. Barker (University of Sheffield), Michael A. Akeroyd (University of Nottingham), Scott Bannister (University of Leeds), Bruno Fazenda (University of Salford), Jennifer Firth (University of Nottingham), Simone Graetzer (University of Salford), ..., William M. Whitmer (University of Nottingham)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper addresses music source separation (MSS), which is crucial for improving audio processing for individuals with hearing loss, a key area of interest in Haohe Liu's research. The focus on classical ensembles could also benefit his work in music generation and audio enhancements.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves separating audio recordings of multiple instruments in classical ensembles to enhance listening experiences, particularly for people with hearing loss.",
+    "contribution": "This paper introduces a novel dataset and machine learning approaches to achieve MSS for classical music ensembles, achieving modest separation improvements over existing methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily targeted non-causal separation of popular music, achieving high performance but lacking robustness in classical music environments.",
+        "novelty": "This work utilizes both causal and non-causal models and introduces new synthetic datasets to better train models for classical music."
+    },
+    "key_innovation": "Combines synthesized data with real recordings while implementing a flexible convolutional model that can function in both causal and non-causal modes.",
+    "real_world_impact": "This research has the potential to significantly improve music listening experiences for individuals with hearing loss, making classical music more accessible and enjoyable.",
+    "limitations": "The models struggle with instrument separation in real-world recordings, particularly due to the limited diversity and realism of training datasets.",
+    "new_terms": {
+        "Signal-to-Distortion Ratio (SDR)": "**Signal-to-Distortion Ratio (SDR)** is a measure of the quality of audio separation, quantifying how much of the desired signal is preserved compared to the distortion introduced.",
+        "ConvTasNet": "**ConvTasNet** is a deep learning architecture designed for audio source separation, enabling works to be processed in either a causal or non-causal manner."
+    },
+    "open_sourcing": ""
+}

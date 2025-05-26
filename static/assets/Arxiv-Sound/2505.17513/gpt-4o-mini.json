@@ -1,0 +1,22 @@
+{
+    "title": "What You Read Isn't What You Hear: Linguistic Sensitivity in Deepfake Speech Detection",
+    "author": "Binh Nguyen (Independent Researcher), Shuju Shi (Indiana University), Ryan Ofman (Deep Media AI), Thai Le (Indiana University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper explores the linguistic sensitivity in audio anti-spoofing systems, which could inform future work on improving the robustness of speech synthesis and detection systems, directly aligning with Haohe Liu's focus on audio generation and quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the task of detecting deepfake audio by evaluating the impacts of linguistic variations in transcripts on the performance of anti-spoofing systems.",
+    "contribution": "This paper introduces transcript-level adversarial attacks to assess and exploit the linguistic sensitivity of audio anti-spoofing systems, achieving substantial degradation in detection accuracy.",
+    "technical_comparison": {
+        "prior_work": "Most existing audio anti-spoofing attacks focus on acoustic-level manipulations such as noise and frequency masking.",
+        "novelty": "This work shifts the focus to linguistic variations, demonstrating that subtle changes in the transcript can significantly impact detection accuracy."
+    },
+    "key_innovation": "Develops a model-agnostic framework to generate linguistically valid perturbations in transcripts, allowing targeted attacks on audio spoofing protections.",
+    "real_world_impact": "The findings highlight significant vulnerabilities in current anti-spoofing technology, suggesting immediate improvements are necessary to secure voice-based systems against fraudulent uses.",
+    "limitations": "The study primarily utilizes English-language data, which may limit the generalizability of the findings to other languages.",
+    "new_terms": {
+        "adversarial attacks": "**Adversarial attacks** are techniques used to create inputs designed to fool machine learning models, often through subtle modifications.",
+        "anti-spoofing systems": "**Anti-spoofing systems** are security mechanisms designed to detect and prevent deceptive practices such as the use of deepfake audio."
+    },
+    "open_sourcing": "All source code will be publicly available."
+}

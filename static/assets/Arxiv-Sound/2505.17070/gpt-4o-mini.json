@@ -1,0 +1,22 @@
+{
+    "title": "Improving endpoint detection in end-to-end streaming ASR for conversational speech",
+    "author": "Anandh C (Uniphore Software Systems, India), Karthik Pandia Durai (Uniphore Software Systems, India), Jeena Prakash (Uniphore Software Systems, India), Manickavela Arumugam (Uniphore Software Systems, India), Kadri Hacioglu (Uniphore Software Systems, USA), S. Pavankumar Dubagunta (Uniphore Software Systems, India), Andreas Stolcke (Uniphore Software Systems, USA), Shankar Venkatesan (Uniphore Software Systems, India), Aravind Ganapathiraju (Uniphore Software Systems, India), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper proposes methods to improve endpoint detection in Automatic Speech Recognition (ASR), which could enhance speech processing tasks relevant to Haohe Liu's research in audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to accurately detect the end of speech segments in conversations, which is crucial for effective transcription and interaction in speech recognition systems.",
+    "contribution": "This paper introduces a method using a voice activity detection network and end-of-word tokens to improve endpoint detection in streaming Automatic Speech Recognition systems, achieving reduced latency and improved accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on blank tokens for endpoint detection, which led to issues like false endpoints and missed speech.",
+        "novelty": "This work integrates a voice activity detection model with a transducer-based ASR approach to provide more reliable speech detection and rapid endpoint identification."
+    },
+    "key_innovation": "Employs a dedicated speech activity detection network alongside an end-of-word token to address latency in endpoint detection effectively.",
+    "real_world_impact": "Improving endpoint detection can significantly enhance user experience in applications such as customer service bots and transcription services, potentially impacting various industries relying on speech interaction.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Automatic Speech Recognition (ASR)": "**Automatic Speech Recognition (ASR)** is a technology that enables the recognition and translation of spoken language into text by computers.",
+        "end-of-word token (EOW)": "**End-of-word token (EOW)** is a special marker used to indicate the completion of a word in the output of a speech recognition model, which helps prevent word fragmentation."
+    },
+    "open_sourcing": ""
+}

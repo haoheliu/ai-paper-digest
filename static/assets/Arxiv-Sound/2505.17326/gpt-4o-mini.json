@@ -1,0 +1,22 @@
+{
+    "title": "VoxRAG: A Step Toward Transcription-Free RAG Systems in Spoken Question Answering",
+    "author": "Zackary Rackauckas (Columbia University), Julia Hirschberg (Columbia University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This work utilizes a novel retrieval-augmented generation system that processes spoken queries directly for semantic retrieval, which could enhance Haohe Liu's research in audio processing and question answering frameworks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper discusses a system for retrieving relevant audio segments in response to spoken queries without relying on transcription.",
+    "contribution": "VoxRAG introduces a transcription-free speech-to-speech retrieval system that leverages audio embeddings for directly retrieving and generating answers from spoken audio.",
+    "technical_comparison": {
+        "prior_work": "Traditional RAG systems often depend on transcription for retrieval and generation, which can introduce errors and limit performance.",
+        "novelty": "This work eliminates the transcription step, allowing for direct retrieval from audio and employing CLAP embeddings for semantic matching."
+    },
+    "key_innovation": "The use of audio embeddings for retrieval without prior transcription represents a significant advancement in spoken question answering.",
+    "real_world_impact": "The implementation of VoxRAG could significantly improve efficiency in retrieving information from audio sources like podcasts, making it practical for real-world applications in information retrieval.",
+    "limitations": "While functional, the system's precision and accuracy in retrieval and answers remain a challenge, with significant gaps noted in factual specificity.",
+    "new_terms": {
+        "retrieval-augmented generation": "**Retrieval-augmented generation** refers to a system that combines information retrieval and generative processes to provide contextual answers based on retrieved content.",
+        "CLAP embeddings": "**Contrastive Language-Audio Pretraining (CLAP)** embeddings are audio representations that capture semantic meaning aligned with language, facilitating better retrieval without textual transcription."
+    },
+    "open_sourcing": "The authors have indicated that VoxRAG is an open-source project."
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Cross-modal Learning with Text-Based Large Language Models for Audio and Image Understanding",
+    "author": "Prateek Verma (Stanford University), Mert Pilanci (Stanford University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a novel architecture using text-based Large Language Models (LLMs) for classifying audio and image inputs, which could enhance methods used in audio processing and multimodal learning, aligning well with my current focus areas.",
+    "field": "Deep Learning-Foundation Models",
+    "background": "This research focuses on using pre-trained text-based Large Language Models to classify audio and images by repurposing their learned internal representations, effectively bypassing the need for traditional encoders.",
+    "contribution": "This paper introduces a method to utilize text-based Large Language Models in audio and image classification, achieving competitive performance without the need for separate encoding architectures.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches typically rely on either frozen LLM weights or separate encoders for audio and image processing, which limits adaptability and efficiency.",
+        "novelty": "This work improves on previous methods by fine-tuning text LLM weights to serve directly as classifiers for non-text modalities, thus enhancing performance and efficiency."
+    },
+    "key_innovation": "The use of pre-trained text LLMs as flexible classifiers for different modalities without the constraints of traditional encoding architectures.",
+    "real_world_impact": "By leveraging existing LLM weights, this approach could significantly reduce the computational resources needed for training new models, facilitating faster deployment in real-world applications across various domains.",
+    "limitations": "No specific limitations are mentioned in the paper.",
+    "new_terms": {
+        "Parameter-Efficient Fine-Tuning (PEFT)": "**Parameter-Efficient Fine-Tuning (PEFT)** refers to techniques that allow models to be fine-tuned by adapting only a small subset of their parameters, reducing computational costs while maintaining performance."
+    },
+    "open_sourcing": ""
+}

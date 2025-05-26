@@ -1,0 +1,22 @@
+{
+    "title": "Impact of Frame Rates on Speech Tokenizer: A Case Study on Mandarin and English",
+    "author": "Haoyang Zhang (Peking University, China), Hexin Liu (Nanyang Technological University, Singapore), Xiangyu Zhang (UNSW, Australia), Qiquan Zhang (UNSW, Australia), Yuchen Hu (Nanyang Technological University, Singapore), Junqi Zhao (University of Surrey, UK), Fei Tian (StepFun, China), Xuerui Yang (StepFun, China), Eng Siong Chng (Nanyang Technological University, Singapore)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This study investigates the impact of frame rates on speech tokenization across different languages, focusing on Mandarin and English, which is highly relevant to Haohe Liu's work on speech processing and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Analyzing the effectiveness of speech tokenizers in converting speech signals into discrete tokens and examining how frame rates impact their performance across tonal and non-tonal languages.",
+    "contribution": "This paper introduces a systematic analysis of frame rates in speech tokenization to solve the challenge of information loss in tonal languages, achieving insights into optimizing token selection.",
+    "technical_comparison": {
+        "prior_work": "Previous methods generally selected frame rates through empirical experimentation, often overlooking semantic information loss.",
+        "novelty": "This work systematically evaluates the interplay between frame rates and language characteristics, proposing padding strategies to improve tokenization in tonal languages."
+    },
+    "key_innovation": "Proposes an innovative padding strategy to mitigate the adverse effects of low frame rates on tonal languages during speech tokenization.",
+    "real_world_impact": "Findings can lead to improved speech recognition systems, especially in tonal languages, enhancing performance in automatic speech recognition and text-to-speech applications.",
+    "limitations": "The study focuses only on Mandarin and English, limiting the generalizability of findings to other languages with different linguistic properties.",
+    "new_terms": {
+        "speech tokenizer": "**Speech tokenizer** is a component that converts continuous speech signals into discrete tokens, essential for integrating speech data into language models.",
+        "frame rate": "**Frame rate** refers to the frequency at which audio samples are taken, impacting the amount of information captured in speech tokenization."
+    },
+    "open_sourcing": ""
+}

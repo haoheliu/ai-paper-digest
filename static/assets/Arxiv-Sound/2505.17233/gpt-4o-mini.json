@@ -1,0 +1,21 @@
+{
+    "title": "Semantic-Aware Interpretable Multimodal Music Auto-Tagging",
+    "author": "Andreas Patakis (National Technical University of Athens), Vassilis Lyberatos (National Technical University of Athens), Spyridon Kantarelis (National Technical University of Athens), Edmund Dervakos (National Technical University of Athens), Giorgos Stamou (National Technical University of Athens), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on interpretable models for music auto-tagging aligns with Haohe Liu's interests in audio processing and generative models, specifically in enhancing user understanding and interaction with automatic music systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automatically assigning semantic labels to audio tracks requires understanding their musical and emotional characteristics, a task that is pivotal for organizing extensive music collections.",
+    "contribution": "This paper introduces a framework that combines musically meaningful multimodal features from audio and lyrics, aiming to enhance interpretability and trust in music auto-tagging systems.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches often relied heavily on black-box deep learning models, which lacked comprehensibility in their decision-making processes.",
+        "novelty": "This work employs an Expectation Maximization algorithm to cluster features semantically and assign weights based on their relevance, resulting in clearer explanations for tagging decisions."
+    },
+    "key_innovation": "The method's unique approach lies in using semantically grouped perceptual features from both audio and lyrics, providing interpretable insights while maintaining competitive tagging accuracy.",
+    "real_world_impact": "By increasing interpretability, this framework could improve trust in automatic music classification systems, facilitating broader adoption in digital libraries and personalized music applications.",
+    "limitations": "The model\u2019s performance on datasets without lyrics indicates it may underutilize the full range of available audio features.",
+    "new_terms": {
+        "Expectation Maximization (EM)": "**Expectation Maximization (EM)** is an iterative optimization algorithm used for finding maximum likelihood estimates in statistical models, particularly where data is incomplete or has missing values."
+    },
+    "open_sourcing": "https://github.com/AndreasPatakis/SAMAT"
+}

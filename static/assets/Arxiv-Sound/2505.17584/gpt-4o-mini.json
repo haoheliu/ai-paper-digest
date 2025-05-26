@@ -1,0 +1,19 @@
+{
+    "title": "Private kNN-VC: Interpretable Anonymization of Converted Speech",
+    "author": "Carlos Franzreb (German Research Center for Artificial Intelligence), Arnab Das (German Research Center for Artificial Intelligence), Tim Polzehl (German Research Center for Artificial Intelligence), Sebastian Moller (Technical University of Berlin), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The research on speaker anonymization and voice conversion methods is pertinent to Haohe Liu's focus on audio processing, particularly in addressing privacy concerns in audio datasets and applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper examines methods for concealing speaker identities in voice conversion while maintaining utility, specifically focusing on the effects of prosodic features such as duration and variation of phones.",
+    "contribution": "This paper introduces an enhanced version of kNN-VC to anonymize speaker identities by modifying phone durations and variations, achieving significant improvements in privacy measured by equal error rate (EER).",
+    "technical_comparison": {
+        "prior_work": "Previous voice conversion systems often allow for speaker identification due to leftover prosodic features. This work improves by specifically targeting and modifying these prosodic characteristics to obscure identity.",
+        "novelty": "The extension of kNN-VC utilizes interpretable components for anonymization, offering configurable adjustments to phone duration and variation that enhance privacy."
+    },
+    "key_innovation": "The method uniquely combines phone duration and variation manipulation, making it adjustable to achieve varying levels of privacy without severely compromising speech quality.",
+    "real_world_impact": "The proposed system can significantly contribute to applications requiring speech data privacy, such as secure communications or medical record handling, thereby enhancing user confidentiality.",
+    "limitations": "Some residual personally identifiable information (PII) may still exist in the anonymized output, and the results depend heavily on the target selection algorithm used.",
+    "new_terms": {},
+    "open_sourcing": "The code and weights for the proposed anonymization system are available at https://github.com/carlosfranzreb/private_knnvc"
+}

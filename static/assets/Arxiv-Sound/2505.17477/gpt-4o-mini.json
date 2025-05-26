@@ -1,0 +1,22 @@
+{
+    "title": "Reverse-Speech-Finder: A Neural Network Backtracking Architecture for Generating Alzheimer's Disease Speech Samples and Improving Diagnosis Performance",
+    "author": "Victor OK Li (The University of Hong Kong), Yang Han (The University of Hong Kong), Jacqueline CK Lam (The University of Hong Kong), Lawrence YL Cheung (The Chinese University of Hong Kong), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The approach leverages large language models for analyzing speech data, a method that could inform audio-based diagnostic tools and techniques in Haohe Liu's research in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on generating speech samples associated with Alzheimer's Disease (AD) and improving diagnostic accuracy through identifying key linguistic markers in speech.",
+    "contribution": "This paper introduces Reverse-Speech-Finder (RSF) to solve the problem of limited AD speech sample availability and interpretability in existing models, achieving a 3.5% improvement in accuracy and a 3.2% increase in F1 score for AD detection.",
+    "technical_comparison": {
+        "prior_work": "Traditional models like SHAP and Integrated Gradients focus on identifying associative speech markers but lack robust data generation and backtracking capabilities.",
+        "novelty": "RSF employs a neural architecture that backtracks from predicted neurons to discover the most probable speech markers, thus enhancing the interpretability and generation of relevant data."
+    },
+    "key_innovation": "The unique backtracking method used in RSF, which identifies the most probable speech tokens from the neural activations, facilitates the generation of novel and relevant speech samples.",
+    "real_world_impact": "This approach could enhance non-invasive diagnostics for Alzheimer's Disease, improving early detection strategies and potentially influencing future medical practices.",
+    "limitations": "The authors mention limitations related to the reliance on existing speech data for training, indicating a need for more diverse data collections to validate marker effectiveness.",
+    "new_terms": {
+        "Reverse-Speech-Finder (RSF)": "**Reverse-Speech-Finder (RSF)** is a neural network architecture designed to identify and utilize speech markers for Alzheimer's Disease detection through a backtracking method.",
+        "Most Probable Neurons (MPNs)": "**Most Probable Neurons (MPNs)** refer to specific neurons in the neural network that have the highest activation probability for predicting the disease."
+    },
+    "open_sourcing": ""
+}
