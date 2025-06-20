@@ -1,0 +1,22 @@
+{
+    "title": "SONIC: Sound Optimization for Noise In Crowds",
+    "author": "Pranav M N (Indian Institute of Technology Madras), Gandham Sai Santhosh (Indian Institute of Technology Madras), Tejas Joshi (Indian Institute of Technology Madras), S Sriniketh Desikan (Indian Institute of Technology Madras), Eswar Gupta (Indian Institute of Technology Madras), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper focuses on real-time noise suppression using adaptive filtering, which aligns closely with Haohe Liu's work in audio enhancement and generative models. Techniques from this research could inform future models for robust audio quality improvement in various applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to enhance speech intelligibility in noisy environments using a real-time noise suppression system based on low-power embedded devices.",
+    "contribution": "SONIC introduces a novel adaptive filtering framework specifically for real-time noise suppression in audio applications, achieving significant improvements in speech clarity in noisy environments.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily employed traditional Active Noise Cancellation (ANC) and computationally heavy AI-based denoising techniques, which often require substantial resources or lead to reduced audio clarity.",
+        "novelty": "This work enhances speech intelligibility using a low-powered microcontroller with adaptive filtering, specifically through the LMS algorithm, making it feasible for real-time applications without relying on cloud processing."
+    },
+    "key_innovation": "SONIC leverages an ARM Cortex-M7 microcontroller to perform real-time noise suppression using adaptive filtering, achieving better performance while being resource-efficient.",
+    "real_world_impact": "This embedded system could be applied in devices like smart speakers, hearing aids, and IoT interfaces, offering improved user experiences in noisy environments. It underlines a step forward in real-time audio processing without heavy computation.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "LMS": "**Least Mean Squares** is an adaptive filtering algorithm used to minimize the difference between the desired output and the actual output by iteratively updating the filter coefficients.",
+        "ANC": "**Active Noise Cancellation** refers to a method of reducing unwanted sound by adding a second sound specifically designed to cancel out the first."
+    },
+    "open_sourcing": ""
+}

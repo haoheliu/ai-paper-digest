@@ -1,0 +1,19 @@
+{
+    "title": "Towards Neural Audio Codec Source Parsing",
+    "author": "Orchid Chetia Phukan (IIIT-Delhi, India), Girish (UPES, India), Mohd Mujtaba Akhtar (V.B.S.P.U, India), Arun Balaji Buduru (IIIT-Delhi, India), Rajesh Sharma (University of Tartu, Estonia), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The novel approach to analyze and parse audio codec parameters can enhance Haohe Liu's existing work in audio generation and restoration, particularly in understanding and optimizing audio synthesis processes.",
+    "field": "Applications-Speech and Audio",
+    "background": "Neural Audio Codec Source Parsing aims to identify underlying codec parameters used in generating deepfake audio, addressing challenges posed by open-set conditions where unknown codecs may appear.",
+    "contribution": "This paper introduces Neural Audio Codec Source Parsing to solve the limitations in traditional source attribution methods, achieving structured regression over audio codec parameters for more efficient identification.",
+    "technical_comparison": "Previous methods for audio attribution primarily focused on binary classification, often failing to distinguish features of unseen codecs. This work improves upon them by employing a structured regression framework that considers generative parameters of audio codecs.",
+    "key_innovation": "Proposes the use of hyperbolic geometry to separate feature representations, allowing for enhanced prediction accuracy across multiple tasks related to audio codecs.",
+    "real_world_impact": "This research can significantly improve the reliability of audio deepfake detection systems, enhancing forensic capabilities and security in audio communications among other applications.",
+    "limitations": "The authors mention the model's dependency on extensive training data for optimal performance, possibly limiting its applicability to datasets with sufficient diversity.",
+    "new_terms": {
+        "codecfakes": "**Codecfakes** refer to a new class of audio deepfakes generated using neural audio codecs, posing unique detection challenges.",
+        "Neural Audio Codec Source Parsing": "**Neural Audio Codec Source Parsing (NACSP)** is a proposed framework for analyzing the parameters of audio codecs to improve source attribution for generated audio."
+    },
+    "open_sourcing": "We will release the source code and model checkpoints upon completion of double-blind review to facilitate future research for NACSP."
+}

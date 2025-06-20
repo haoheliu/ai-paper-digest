@@ -1,0 +1,22 @@
+{
+    "title": "CMI-Bench: A Comprehensive Benchmark for Evaluating Music Instruction Following",
+    "author": "Yinghao Ma (Queen Mary University of London), Siyou Li (Queen Mary University of London), Juntao Yu (Queen Mary University of London), Emmanouil Benetos (Queen Mary University of London), Akira Maezawa (Yamaha Corporation), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents a benchmark that evaluates audio-text large language models (LLMs) in music-related tasks, directly aligning with my research interests in audio processing and generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper establishes a standardized evaluation framework for music information retrieval (MIR) tasks, assessing the performance of various models in interpreting and processing music data.",
+    "contribution": "CMI-Bench introduces a comprehensive benchmarking framework for evaluating audio-text models on a variety of MIR tasks, achieving a robust comparison against traditional supervised models.",
+    "technical_comparison": {
+        "prior_work": "Existing benchmarks primarily focus on limited tasks or rely on simplified evaluation metrics that do not reflect the complexity of real-world music analysis.",
+        "novelty": "CMI-Bench reformulates traditional MIR annotations into instruction-following tasks and provides standardized evaluation metrics, allowing for direct comparison with existing supervised systems."
+    },
+    "key_innovation": "Combines core MIR tasks with emerging instruction-following paradigms, creating a more versatile and comprehensive assessment tool for audio-text models.",
+    "real_world_impact": "CMI-Bench lays the groundwork for future advancements in music-aware AI by highlighting the limitations and potential biases of current models, encouraging further research and development in this area.",
+    "limitations": "The paper points out performance gaps between LLMs and supervised models, particularly in sequential tasks and issues of generalization, culture, and gender bias.",
+    "new_terms": {
+        "instruction following": "**Instruction following** refers to the capability of models to complete tasks based on natural language prompts that specify actions or outputs.",
+        "music information retrieval": "**Music information retrieval (MIR)** is the interdisciplinary field that focuses on retrieving and analyzing music-related information from audio, text, and other formats."
+    },
+    "open_sourcing": "The authors provide an evaluation toolkit supporting various open-source audio-text LLMs, facilitating accessibility and reproducibility."
+}

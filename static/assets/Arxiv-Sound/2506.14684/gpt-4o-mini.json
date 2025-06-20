@@ -1,0 +1,22 @@
+{
+    "title": "Refining music sample identification with a self-supervised graph neural network",
+    "author": "Aditya Bhattacharjee (Queen Mary University of London), Ivan Meresman Higgs (Queen Mary University of London), Emmanouil Benetos (Queen Mary University of London), Mark Sandler (Queen Mary University of London), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The use of Graph Neural Networks and contrastive learning could enhance Haohe Liu's work in audio quality enhancement and music generation, providing new methods for processing audio data.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves recognizing and identifying segments of music recordings that have been reused in different audio works, even after transformations like pitch-shifting and time-stretching.",
+    "contribution": "This paper introduces a lightweight Graph Neural Network architecture within a contrastive learning framework to improve sample identification in music, achieving a mean average precision (mAP) of 44.2%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with identifying samples subjected to musical modifications and required significant computational resources.",
+        "novelty": "This work uses fewer parameters (only 9% of the prior models) while offering comparable performance and an effective two-stage retrieval pipeline."
+    },
+    "key_innovation": "The combination of a Graph Neural Network with a binary cross-attention classifier for robust sample identification and retrieval refinement.",
+    "real_world_impact": "This approach could significantly improve automatic music identification systems, benefiting copyright attribution and enabling more efficient music retrieval solutions.",
+    "limitations": "The model appears less effective with samples that undergo significant time-stretching (>5%), indicating a potential weakness in handling dramatic tempo changes.",
+    "new_terms": {
+        "mean average precision (mAP)": "**Mean Average Precision (mAP)** is a metric used to evaluate information retrieval systems, summarizing the precision of the retrieved items at multiple cutoff points.",
+        "graph neural network (GNN)": "**Graph Neural Network (GNN)** is a type of neural network that operates on graph structures, capturing relationships between nodes (data points) based on their connectivity."
+    },
+    "open_sourcing": "https://github.com/chymaera96/NeuralSampleID"
+}

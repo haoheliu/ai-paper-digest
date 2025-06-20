@@ -1,0 +1,22 @@
+{
+    "title": "Factorized RVQ-GAN For Disentangled Speech Tokenization",
+    "author": "Sameer Khurana (Mitsubishi Electric Research Laboratories), Dominik Klement (Brno University of Technology), Antoine Laurent (LIUM University), Dominik Bobos (Phonexia), Juraj Novosad (Phonexia), Peter Gazdik (Phonexia), Ellen Zhang (Massachusetts Institute of Technology), ..., Jonathan Le Roux (Mitsubishi Electric Research Laboratories)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed Hierarchical Audio Codec (HAC) can enhance audio and music signal processing tasks through its factorization approach to speech tokenization, which may be applicable in audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses speech tokenization, aiming to represent speech signals as discrete tokens across three linguistic levels: acoustic, phonetic, and lexical, facilitating improved audio representation.",
+    "contribution": "This paper introduces the Hierarchical Audio Codec (HAC) to solve the challenge of disentangling speech representation into acoustic, phonetic, and lexical levels, achieving higher fidelity and linguistic interpretability in audio generation tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods predominantly focused on either phonetic or acoustic tokenization, often resulting in limited linguistic coherence or naturalness in generated speech.",
+        "novelty": "This work innovates by concurrently modeling three linguistic levels within a unified architecture, thereby improving the quality and interpretability of generated speech."
+    },
+    "key_innovation": "HAC's unique structure allows for the simultaneous encoding of multiple linguistic layers, offering a richer and more nuanced representation of speech.",
+    "real_world_impact": "The advancements in HAC have the potential to significantly improve technologies in speech synthesis, understanding, and other audio processing applications, paving the way for more contextually aware systems.",
+    "limitations": "No",
+    "new_terms": {
+        "RVQ-GAN": "**Residual Vector Quantization Generative Adversarial Network** is a framework that combines residual learning and GAN architectures to compress audio more effectively.",
+        "knowledge distillation": "**Knowledge distillation** is a technique where a smaller model is trained to reproduce the behavior of a larger pre-trained model, improving performance in tasks without extensive resources."
+    },
+    "open_sourcing": ""
+}

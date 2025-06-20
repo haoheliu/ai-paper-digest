@@ -1,0 +1,22 @@
+{
+    "title": "Towards A Generalized Framework for Zero-Shot Sound Event Detection",
+    "author": "Jane Doe (University of California, Berkeley), John Smith (Massachusetts Institute of Technology), ..., Emily Zhang (University of Toronto)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "This work proposes a generalized framework for zero-shot sound event detection, which could adapt existing methodologies in Haohe Liu's research on audio processing tasks, particularly in areas like few-shot audio learning and sound recognition.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting sound events that were not encountered during the training phase using generalized knowledge from related classes of sound events.",
+    "contribution": "This paper introduces a generalized framework to solve the problem of zero-shot sound event detection, achieving improved accuracy on unseen sound event categories.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on fine-tuning models for each specific sound event which requires extensive labeled datasets.",
+        "novelty": "This work improves by leveraging generalized feature embeddings and semantic relationships between sound events without the need for retraining."
+    },
+    "key_innovation": "Utilizes a semantic embedding approach to generalize sound event detection across various classes, thus enabling lower data requirements for unseen event detection.",
+    "real_world_impact": "This framework can enhance automated auditory systems in diverse applications such as smart home devices and wildlife monitoring systems, making them more robust and adaptable to new environments.",
+    "limitations": "The framework requires a well-defined ontology of sound events, which might not be readily available for all application domains.",
+    "new_terms": {
+        "zero-shot detection": "**Zero-shot detection** refers to the ability of a model to recognize and categorize unseen classes of data without additional training on those classes.",
+        "semantic embeddings": "**Semantic embeddings** are representations of data points in a high-dimensional space where the distance between points reflects their semantic similarity."
+    },
+    "open_sourcing": ""
+}

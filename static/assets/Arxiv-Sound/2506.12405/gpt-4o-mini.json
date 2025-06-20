@@ -1,0 +1,21 @@
+{
+    "title": "Methods for pitch analysis in contemporary popular music: multiple pitches from harmonic tones in Vitalic's music",
+    "author": "Emmanuel Deruty (Sony Computer Science Laboratories), Maarten Grachten (Department of Architecture, Design and Media Technology), David Meredith (Sony Computer Science Laboratories), Pascal Arbez-Nicolas (Citizen Records), Andreas Hasselholt J\u00f8rgensen (Sony Computer Science Laboratories), Oliver S\u00f8nderm\u00f8lle Hansen (Sony Computer Science Laboratories), Magnus Stensli (Sony Computer Science Laboratories), ..., Christian N\u00f8rk\u00e6r Petersen (Sony Computer Science Laboratories)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The methods and findings regarding pitch perception and tonal fission can inform Haohe's work in audio modeling, particularly in understanding how to generate and manipulate audio features that relate to complex sounds.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study investigates the ability to perceive multiple pitches from a single harmonic tone in popular contemporary music, focusing on the music of electronic artist Vitalic.",
+    "contribution": "This paper introduces listening tests to analyze tonal fission, demonstrating how harmonic complex tones can convey multiple perceived pitches and varying perceptions across listeners.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly considered harmonic tones as transmitting a single fundamental pitch, often overlooking the complexity introduced by tone characteristics and listener perceptions.",
+        "novelty": "This work expands on earlier analyses by empirically testing listener perceptions and linking them to specific signal characteristics, thus highlighting the roles of tonal fission in contemporary music."
+    },
+    "key_innovation": "Utilizes an empirical approach with listener tests to examine how different music styles can produce multiple pitch perceptions from singular tonal sources.",
+    "real_world_impact": "This research has practical implications for music production and sound design, potentially influencing how artists approach sound creation and manipulation in contemporary music.",
+    "limitations": "No significant limitations are mentioned by the authors.",
+    "new_terms": {
+        "tonal fission": "**Tonal fission** is the perception of multiple pitches from a single harmonic complex tone, a phenomenon explored through listening tests in this study."
+    },
+    "open_sourcing": ""
+}

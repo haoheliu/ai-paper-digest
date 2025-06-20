@@ -1,0 +1,22 @@
+{
+    "title": "pycnet-audio: A Python package to support bioacoustics data processing",
+    "author": "Zachary J. Ruff (Oregon State University), Damon B. Lesmeister (Oregon State University), ..., USDA Forest Service Pacific Northwest Research Station",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This package is highly relevant to Dr. Liu's work on audio processing. The automation of acoustic data analysis and the PNW-Cnet model can enhance the efficiency and accuracy of his research in audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper discusses a Python package designed for processing extensive acoustic data with the aim of detecting and analyzing specific wildlife sounds.",
+    "contribution": "The paper introduces the pycnet-audio package to facilitate automated acoustic data processing, achieving efficient workflow management for large audio datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often required extensive manual interventions and a limited scope for processing various species or sounds.",
+        "novelty": "This work enables the processing of large datasets (up to 105 hours) on consumer-grade hardware with a focus on automated detection, streamlining workflows considerably."
+    },
+    "key_innovation": "The pycnet-audio package provides an application programming interface (API) allowing researchers to define custom workflows, which is a significant step toward flexibility compared to GUI-based solutions.",
+    "real_world_impact": "This work can significantly benefit wildlife research by improving the efficiency and effectiveness of acoustic monitoring, potentially leading to better conservation strategies and ecological insights.",
+    "limitations": "No",
+    "new_terms": {
+        "Automated Recording Units (ARUs)": "**Automated Recording Units (ARUs)** are devices used for passive acoustic monitoring to capture audio from the environment, especially in wildlife studies.",
+        "acoustic indices": "**Acoustic indices** are quantitative measures derived from audio recordings that can indicate various ecological parameters, such as biodiversity or species presence."
+    },
+    "open_sourcing": "The software is available on GitHub at https://github.com/zjruff/pycnet-audio."
+}

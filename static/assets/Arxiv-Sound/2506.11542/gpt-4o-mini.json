@@ -1,0 +1,22 @@
+{
+    "title": "Amplifying Artifacts with Speech Enhancement in Voice Anti-spoofing",
+    "author": "Thanapat Trachu (Chulalongkorn University), Thanathai Lertpetchpun (University of Southern California), Ekapol Chuangsuwanich (Chulalongkorn University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a method for amplifying artifacts in spoofed audio using speech enhancement techniques, which can inform advancements in Haohe Liu's work on audio quality enhancement and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves detecting whether an audio utterance is genuine or spoofed, with a focus on enhancing the detection of spoofed utterances by amplifying their inherent artifacts.",
+    "contribution": "This paper introduces a model-agnostic pipeline that enhances spoofed speech artifacts using a three-step process involving noise addition, noise extraction, and noise amplification, achieving significant improvements in detection performance.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily aimed at refining countermeasures focused on architectural improvements without addressing artifact visibility in spoofed utterances.",
+        "novelty": "This work improves by explicitly targeting the amplification of artifacts rather than merely their detection, leading to better classification outcomes."
+    },
+    "key_innovation": "The pipeline effectively intertwines noise and artifact amplification to enhance the detectability of spoofed audio without losing significant quality from genuine voices.",
+    "real_world_impact": "This method can significantly bolster the robustness of speaker verification systems against spoofing attacks, enhancing security in various applications such as voice banking and personal assistants.",
+    "limitations": "The paper does not mention specific limitations but implies potential challenges with the choice of noise types and SNR levels for optimal performance.",
+    "new_terms": {
+        "anti-spoofing": "**Anti-spoofing** refers to techniques used to determine whether an audio input is authentic or has been artificially generated or manipulated.",
+        "signal-to-noise ratio (SNR)": "**Signal-to-noise ratio (SNR)** is a measure used in communications and signal processing to express the ratio of signal power to noise power, indicating the quality of the transmitted information."
+    },
+    "open_sourcing": ""
+}

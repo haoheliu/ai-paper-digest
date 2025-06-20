@@ -1,0 +1,22 @@
+{
+    "title": "Versatile Symbolic Music-for-Music Modeling via Function Alignment",
+    "author": "Junyan Jiang (NYU Shanghai), Daniel Chin (NYU Shanghai), Liwei Lin (NYU Shanghai), Xuanjie Liu (Music X Lab, MBZUAI), Gus Xia (NYU Shanghai), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores music-for-music modeling, which could enhance the efficiency of audio generation tasks, including text-to-music synthesis that Haohe Liu is involved in. The use of pretrained models and parameter-efficient approaches aligns well with current trends in audio research.",
+    "field": "Applications-Creative AI",
+    "background": "The task focuses on unifying music generation and analysis by modeling music sequences directly as they can be represented within the same modality, enabling various music-related tasks like chord recognition and melody generation.",
+    "contribution": "This paper introduces function alignment to unify music generation and analysis tasks, achieving enhanced performance across multiple symbolic music tasks such as chord-conditioned melody generation.",
+    "technical_comparison": {
+        "prior_work": "Previous models dealt with music tasks as distinct mappings between music and labels, often requiring complex conditional generation processes.",
+        "novelty": "This work improves upon existing methods by proposing a unified music-for-music modeling approach that leverages knowledge transfer across pretrained models."
+    },
+    "key_innovation": "The method integrates two language models through cross-attentive and self-attentive adapters to enhance the modeling of music sequences for both generative and analytical tasks.",
+    "real_world_impact": "The framework could significantly enhance music generation applications, making it easier for users to create compelling music compositions and analysis tools. This is particularly relevant for the entertainment and educational sectors.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "music-for-music modeling": "**Music-for-music modeling** refers to the approach of treating both music generation and understanding tasks as sequence-to-sequence problems where inputs and outputs are both musical sequences.",
+        "function alignment": "**Function alignment** is a theoretical framework that emphasizes the dynamic interplay between two or more agents (in this case, models), facilitating a more effective sharing of knowledge."
+    },
+    "open_sourcing": "All demos, code, and model weights are publicly available at https://ismir2025submission25.github.io/function-alignment/"
+}

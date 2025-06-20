@@ -1,0 +1,22 @@
+{
+    "title": "StreamMel: Real-Time Zero-shot Text-to-Speech via Interleaved Continuous Autoregressive Modeling",
+    "author": "Hui Wang (Nankai University), Yifan Yang (Microsoft Corporation), Shujie Liu (Microsoft Corporation), Jinyu Li (Microsoft Corporation), Lingwei Meng (Microsoft Corporation), Yanqing Liu (Microsoft Corporation), Yan Lu (Microsoft Corporation), Yong Qin (Nankai University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The continuous mel-spectrogram modeling approach in StreamMel could enhance audio generation tasks by providing a more efficient framework for real-time applications, which aligns with Dr. Liu's interests in audio synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of generating high-quality speech in real-time for unseen speakers, enhancing the capabilities of zero-shot Text-to-Speech synthesis systems while reducing latency.",
+    "contribution": "StreamMel introduces a single-stage streaming framework for zero-shot text-to-speech synthesis, achieving significantly lower latency while preserving high speaker similarity and naturalness.",
+    "technical_comparison": {
+        "prior_work": "Previous streaming TTS systems operate in complex multi-stage pipelines, causing latency and reduced performance due to their reliance on discrete representations.",
+        "novelty": "This work simplifies the process by modeling interleaved text and continuous acoustic features in one autoregressive framework, effectively lowering latency without sacrificing quality."
+    },
+    "key_innovation": "StreamMel uniquely interleaves text and mel-spectrogram tokens to enable low-latency and high-quality speech synthesis in a single autoregressive step.",
+    "real_world_impact": "The advancements in StreamMel could revolutionize real-time applications such as live conversational agents and simultaneous interpretation, making them more efficient and natural-sounding.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "autoregressive modeling": "**Autoregressive modeling** is a statistical approach where future values are predicted based on past values, making it suitable for sequential data like audio.",
+        "mel-spectrogram": "**Mel-spectrogram** is a representation of audio signals that mimics human perception of sound frequencies, essential for high-quality audio synthesis."
+    },
+    "open_sourcing": "Audio samples are available at: https://aka.ms/StreamMel"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "PAL: Probing Audio Encoders via LLMs - A Study of Information Transfer from Audio Encoders to LLMs",
+    "author": "Tony Alex (University of Surrey), Wish Suharitdamrong (University of Surrey), Sara Atito (University of Surrey), Armin Mustafa (University of Surrey), Philip J. B. Jackson (University of Surrey), Imran Razzak (Mohamed bin Zayed University of AI), Muhammad Awais (University of Surrey), ..., Armin Mustafa (University of Surrey)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed architecture and insights on audio input integration could be applied to enhance audio-related tasks in Haohe's research, particularly in text-to-audio generation and audio quality enhancement.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Improving how large language models (LLMs) interact with audio data to enhance their capacity to understand and generate audio-related content.",
+    "contribution": "This paper introduces architectural modifications that optimize the interaction between audio encoders and LLMs to improve audio information transfer, achieving performance improvements of 10% to 60% over baselines.",
+    "technical_comparison": {
+        "prior_work": "Existing audio-LLM architectures often inadequately integrate audio data, mixing it in early layers or extensively routing through FFN layers, which can limit performance and efficiency.",
+        "novelty": "This work presents delayed audio integration and a reliance on the attention mechanism alone for processing audio, improving model efficiency and effectiveness."
+    },
+    "key_innovation": "The integration of audio encoders is optimized by delaying their introduction and utilizing the attention mechanism exclusively, thereby preserving LLMs' textual context.",
+    "real_world_impact": "Enhancing the efficiency of audio-language models can significantly boost applications in multimedia content generation, sound design, and human-computer interaction by allowing more natural language queries regarding audio data.",
+    "limitations": "The paper does not address the scalability of their approach to larger datasets or the potential computational costs.",
+    "new_terms": {
+        "text-to-audio generation": "**Text-to-audio generation** is the process of creating audio output (like music or sound effects) based on textual input descriptions.",
+        "delayed fusion": "**Delayed fusion** refers to integrating multiple types of input data at a later stage in processing to enhance model input context and effectiveness."
+    },
+    "open_sourcing": "Project page: https://ta012.github.io/PAL/"
+}

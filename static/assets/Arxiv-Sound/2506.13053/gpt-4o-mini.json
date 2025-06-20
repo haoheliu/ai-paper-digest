@@ -1,0 +1,22 @@
+{
+    "title": "ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching",
+    "author": "Han Zhu (Xiaomi Corp.), Wei Kang (Xiaomi Corp.), Zengwei Yao (Xiaomi Corp.), Liyong Guo (Xiaomi Corp.), Fangjun Kuang (Xiaomi Corp.), Zhaoqing Li (Xiaomi Corp.), Weiji Zhuang (Xiaomi Corp.), ..., Daniel Povey (Xiaomi Corp.)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed flow-matching based approach and innovative upsampling methods could aid in improving the efficiency and quality of audio generation tasks, which is central to Haohe Liu's research in audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a text-to-speech (TTS) model capable of generating human-like speech from text input while adapting to the voice characteristics of a reference audio without requiring extensive training on that voice.",
+    "contribution": "This paper introduces ZipVoice to solve the challenges of slow inference and large model sizes in text-to-speech systems, achieving a balance between performance and efficiency.",
+    "technical_comparison": {
+        "prior_work": "Existing zero-shot TTS models often require large models and many sampling steps for quality synthesis, resulting in slow inference rates.",
+        "novelty": "ZipVoice utilizes a compact model size and an innovative flow distillation method to reduce the number of required function evaluations, enhancing efficiency significantly."
+    },
+    "key_innovation": "Integrates a high-quality Zipformer architecture for its flow-matching decoder and employs an average upsampling method to achieve better speech-text alignment while maintaining intelligibility.",
+    "real_world_impact": "ZipVoice provides a promising approach for real-time applications in TTS technology, making it suitable for various consumer and commercial uses, such as virtual assistants and automated audiobook generation.",
+    "limitations": "The effectiveness and efficiency of the model may vary depending on the specific characteristics of the reference audio used for synthesis, since the study focuses primarily on large-scale multilingual datasets.",
+    "new_terms": {
+        "flow-matching": "**Flow-matching** is a generative modeling approach that transforms a simple initial data distribution into a more complex target distribution using a time-dependent vector field.",
+        "Zipformer": "**Zipformer** refers to a neural network architecture that enhances model efficiency by reusing attention weights and improving feature representation, originally designed for automatic speech recognition."
+    },
+    "open_sourcing": "Codes, model checkpoints, and demo samples are publicly available."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Phonikud: Hebrew Grapheme-to-Phoneme Conversion for Real-Time Text-to-Speech",
+    "author": "Amit Roth (Hebrew University of Jerusalem), Arnon Turetzky (Bar-Ilan University), Ella Zeldes (Bar-Ilan University), Guy Mor-Lan (Bar-Ilan University), ..., Yael Segal (Hebrew University of Jerusalem)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The G2P conversion method proposed can enhance text-to-speech systems, which are directly applicable to Haohe Liu's research in audio generation and restoration, particularly in generating intelligible speech from text inputs.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses the challenge of converting unvocalized Hebrew text into phonemically detailed representations for efficient text-to-speech synthesis.",
+    "contribution": "Phonikud introduces an enhanced diacritization method for Hebrew text to accurately predict phonetic features like stress, achieving improved real-time Hebrew text-to-speech performance.",
+    "technical_comparison": {
+        "prior_work": "Existing models struggled with the ambiguity of Hebrew phonetic features, requiring larger architectures that were slow and inefficient for real-time applications.",
+        "novelty": "Phonikud enhances a state-of-the-art diacritization model with lightweight prediction heads for stress and shva realization, resulting in accurate G2P conversion while maintaining small model size."
+    },
+    "key_innovation": "The combination of enhanced vowel diacritization with additional phonetic symbols allows for precise transcription of Hebrew text into IPA, enabling efficient real-time TTS.",
+    "real_world_impact": "This work significantly enhances the accessibility of Hebrew TTS systems, benefitting applications like screen readers for the visually impaired and voice assistant technologies on resource-constrained devices.",
+    "limitations": "The performance relies heavily on the underlying diacritization model, which may output inaccuracies affecting transcription quality.",
+    "new_terms": {
+        "grapheme-to-phoneme conversion (G2P)": "**Grapheme-to-Phoneme conversion (G2P)** refers to the process of converting written text (graphemes) into their corresponding phonetic representations (phonemes) to aid in speech synthesis.",
+        "International Phonetic Alphabet (IPA)": "**International Phonetic Alphabet (IPA)** is an alphabet used by linguists to accurately represent the sounds of spoken languages."
+    },
+    "open_sourcing": "The code, data, and models have been released at https://phonikud.github.io"
+}

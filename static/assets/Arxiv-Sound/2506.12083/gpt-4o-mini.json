@@ -1,0 +1,22 @@
+{
+    "title": "TuneGenie: Reasoning-based LLM agents for preferential music generation",
+    "author": "Amitesh Pandey, Jafarbek Arifdjanov, Ansh Tiwari, ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper explores the application of Large Language Models (LLMs) in music generation, which aligns with Haohe Liu's work in audio processing and generative models. Insights on LLMs' reasoning capabilities could inform advancements in text-to-audio generation in music synthesis.",
+    "field": "Applications-Creative AI",
+    "background": "The study investigates how Large Language Models can analyze individual music preferences from various data sources to generate personalized music prompts.",
+    "contribution": "This paper introduces TuneGenie, a system leveraging LLMs to convert user music preferences into prompts for generative music models like Suno AI, achieving personalized music generation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on direct music generation without integrating user preferences or reasoning mechanisms.",
+        "novelty": "This work employs a model that translates user preferences into LLM-generated prompts, facilitating a more tailored music generation strategy."
+    },
+    "key_innovation": "The unique integration of reasoning-based LLMs with generative music models to produce music that aligns closely with user preferences.",
+    "real_world_impact": "The approach has potential applications in personalized music streaming services, enhancing user engagement through customized music experiences.",
+    "limitations": "The reliance on a proprietary system (Suno AI) and computational limitations due to the need for web scraping in practical applications.",
+    "new_terms": {
+        "generative music models": "**Generative music models** are algorithms that generate new music compositions based on learned patterns from existing music data.",
+        "LLMs": "**Large Language Models** are advanced neural network models capable of understanding and generating human-like text based on vast datasets."
+    },
+    "open_sourcing": ""
+}

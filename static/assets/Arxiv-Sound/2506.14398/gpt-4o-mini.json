@@ -1,0 +1,22 @@
+{
+    "title": "A Comparative Study on Proactive and Passive Detection of Deepfake Speech",
+    "author": "Chia-Hua Wu (National Institute of Informatics, Japan), Wanying Ge (National Institute of Informatics, Japan), Xin Wang (National Institute of Informatics, Japan), Junichi Yamagishi (National Institute of Informatics, Japan), Yu Tsao (Academia Sinica, Taiwan), Hsin-Min Wang (Academia Sinica, Taiwan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores both proactive watermarking and passive detection methods, which are crucial for enhancing the robustness of audio verification systems, directly relevant to Haohe Liu's work in speech restoration and generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study evaluates effectiveness and robustness of two distinct approaches\u2014proactive watermarking and passive deepfake detectors\u2014in identifying synthetic speech under varying conditions.",
+    "contribution": "This paper introduces a unified evaluation framework for proactive and passive detection methods to assess their performance under common datasets and manipulation conditions, revealing critical differences in robustness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often focused on either passive detection or watermarking without direct comparisons across common evaluation metrics.",
+        "novelty": "This work establishes standardized datasets and metrics, allowing for more insightful assessments and comparisons of diverse detection techniques."
+    },
+    "key_innovation": "The holistic evaluation framework that simultaneously analyzes the performance of passive and proactive detection methods under varied conditions and manipulations.",
+    "real_world_impact": "Improving detection of deepfake speech can significantly enhance trust in automated speech applications and help mitigate misinformation. No immediate real-world impact is suggested without further practical implementations.",
+    "limitations": "The robustness of both approaches needs further enhancement, especially under unseen manipulation types related to audio codec compression.",
+    "new_terms": {
+        "EER": "**Equal Error Rate** measures the rate at which false acceptance and false rejection rates are equal, commonly used to evaluate biometric and detection systems.",
+        "ASVspoof": "**Automatic Speaker Verification Spoof** challenges are initiatives aimed at fostering research and development in detection of spoofed voice inputs."
+    },
+    "open_sourcing": "The authors have made their training and evaluation code available on Github."
+}

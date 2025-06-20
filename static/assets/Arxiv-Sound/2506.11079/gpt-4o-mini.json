@@ -1,0 +1,21 @@
+{
+    "title": "Improving Child Speech Recognition and Reading Mistake Detection by Using Prompts",
+    "author": "Lingyun Gao (Centre for Language Studies, Radboud University), Cristian Tejedor-Garcia (Centre for Language Studies, Radboud University), Catia Cucchiarini (Centre for Language Studies, Radboud University), Helmer Strik (Centre for Language Studies, Radboud University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces prompting methods that enhance speech recognition and reading mistake detection, which can be applied to improve audio-based applications in education and potentially benefit generative audio technologies being developed by Haohe Liu.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on automatically evaluating children's reading aloud performance using speech recognition systems and prompts to detect reading mistakes.",
+    "contribution": "This paper introduces a multimodal approach combining Whisper and large language models with prompts to improve child speech recognition and reading mistake detection, achieving significant performance enhancements.",
+    "technical_comparison": {
+        "prior_work": "Prior speech recognition models primarily struggled with child speech and reading evaluations, focusing on accurate transcription without effectively detecting reading mistakes.",
+        "novelty": "This work enhances the recognition capability by utilizing text prompts and a hybrid prompting approach that integrates audio context with advanced language models."
+    },
+    "key_innovation": "The novel use of irrelevant text with generated mistakes as prompts significantly improves the transcription and detection of reading errors.",
+    "real_world_impact": "This research could lead to advancements in educational tools facilitating better monitoring of children's reading skills, potentially increasing literacy rates and providing automated feedback mechanisms.",
+    "limitations": "The study does not mention further challenges regarding scalability to other languages or broad applicability outside the specific dataset used.",
+    "new_terms": {
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a common metric for evaluating speech recognition accuracy, calculated as the number of errors (insertions, deletions, substitutions) divided by the total number of words spoken."
+    },
+    "open_sourcing": "https://github.com/Lingygao/reading-mistake-detection-with-prompt"
+}

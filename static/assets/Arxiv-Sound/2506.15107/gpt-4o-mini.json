@@ -1,0 +1,22 @@
+{
+    "title": "I Know You're Listening: Adaptive Voice for HRI",
+    "author": "Paige Ir\u00e8ne Tutt\u00f6s\u00ed (Simon Fraser University), Angelica Lim (Simon Fraser University), Jean-Julien Aucouturier (FEMTO-ST Institute, CNRS), Mo Chen (Simon Fraser University), Lawrence Kim (Simon Fraser University), Tony Belpaeme (Ghent University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper focuses on adaptive voice synthesis for social robots in language teaching, which could inform new approaches in audio generation and TTS systems related to educational applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper discusses using social robots to teach second languages through adaptive voice synthesis, tailored to both social context and the needs of language learners.",
+    "contribution": "This thesis introduces a lightweight and expressive robot voice, adaptive vocal characteristics based on environmental noise, and a clear TTS system for L2 learners to improve language comprehension.",
+    "technical_comparison": {
+        "prior_work": "Existing approaches to TTS in robotics often lack expressivity and adaptability in real-time environments.",
+        "novelty": "This work improves by integrating emoji prompting for expressivity and adapting voice characteristics based on ambient conditions, enhancing listener engagement."
+    },
+    "key_innovation": "Implemented a fine-tuned TTS voice system that uses emoji-driven nuances to enhance expressivity, along with a contextual adaptation mechanism for varying environments.",
+    "real_world_impact": "This research could significantly enhance the effectiveness of educational robots, making them more engaging and effective for language learners in diverse environments.",
+    "limitations": "No explicit limitations are mentioned by the author.",
+    "new_terms": {
+        "TTS": "**Text-to-Speech** refers to technology that converts written text into spoken voice output.",
+        "L2": "**Second Language (L2)** refers to any language learned in addition to a person's native language."
+    },
+    "open_sourcing": ""
+}

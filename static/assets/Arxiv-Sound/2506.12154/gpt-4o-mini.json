@@ -1,0 +1,21 @@
+{
+    "title": "Adapting Whisper for Streaming Speech Recognition via Two-Pass Decoding",
+    "author": "Haoran Zhou (Bloomberg, USA), Xingchen Song (WeNet Open Source Community, China), Brendan Fahy (Bloomberg, USA), Qiaochu Song (WeNet Open Source Community, China), Binbin Zhang (WeNet Open Source Community, China), Zhendong Peng (WeNet Open Source Community, China), Anshul Wadhawan (Bloomberg, USA), Vinay Ramesh (Bloomberg, USA), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses the adaptation of a well-known speech recognition model for streaming applications, which aligns with Haohe Liu's work on audio processing and restoration, specifically in speech. Techniques developed could enhance real-time performance and manipulation of audio signals in his projects.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research presents a method for enhancing an existing speech recognition model, Whisper, to effectively handle real-time streaming speech inputs.",
+    "contribution": "This paper introduces a Unified Two-Pass (U2) architecture to adapt Whisper for streaming speech recognition, achieving significant improvements in latency and accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on Whisper's non-streaming architecture, which led to inefficiencies and inaccuracies when processing incomplete audio.",
+        "novelty": "This work integrates a Connectionist Temporal Classification decoder and an attention rescoring mechanism, enabling real-time processing without prior dependency on long historical inputs."
+    },
+    "key_innovation": "The hybrid tokenizer approach simplifies the token space for rapid recognition while retaining the richer tokenization for final transcription.",
+    "real_world_impact": "The proposed model is suitable for practical applications in live transcription services and voice-activated systems, facilitating better user experiences in real-time environments.",
+    "limitations": "Limited data during fine-tuning could reduce generalization performance against tougher test sets.",
+    "new_terms": {
+        "Connectionist Temporal Classification (CTC)": "**Connectionist Temporal Classification (CTC)** is a type of neural network output layer used in sequence prediction tasks to handle unaligned input-output sequences, enabling the model to predict sequences of variable length without needing explicit alignment during training."
+    },
+    "open_sourcing": "The implementation is available through the WeNet toolkit, which supports open-source contributions."
+}

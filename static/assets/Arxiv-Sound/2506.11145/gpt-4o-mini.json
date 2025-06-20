@@ -1,0 +1,22 @@
+{
+    "title": "TRACKING OF INTERMITTENT AND MOVING SPEAKERS: DATASET AND METRICS",
+    "author": "Taous Iatariene (Orange Innovation), Alexandre Guerin (Orange Innovation), Romain Serizel (Universite de Lorraine, CNRS, Inria, LORIA), ..., Taous Iatariene (Orange Innovation)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces LibriJump, a dataset that simulates acoustic scenes of intermittent speakers. This could aid in developing models for audio generation and enhancement tasks in situations where speaker movements are not predictable, potentially benefiting applications in speech synthesis and audio restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study addresses the challenge of tracking speakers who may change position when silent, exploring the implications for identity management and spatial track continuity.",
+    "contribution": "This paper introduces the LibriJump dataset to solve the problem of tracking intermittent and moving speakers, achieving improved identity assignment performance evaluation using new tracking association metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely assume continuous movement or silence for speaker tracking, which may lead to identity assignment errors during directional changes.",
+        "novelty": "This work improves by providing a dataset that specifically addresses discontinuous spatial tracks and introducing association metrics that evaluate ID assignment performance globally."
+    },
+    "key_innovation": "The creation of a synthetic dataset focusing on intermittent speakers and the introduction of novel tracking association metrics to replace traditional tracking evaluation methods.",
+    "real_world_impact": "The development of LibriJump could significantly enhance real-world applications in multi-speaker tracking settings, such as conference recordings or dynamic environments, improving tracking robustness in audio systems.",
+    "limitations": "The dataset relies on synthetic data, which may not fully replicate the complexities of real-world acoustic scenarios.",
+    "new_terms": {
+        "First Order Ambisonics": "**First Order Ambisonics** is a method for recording and reproducing three-dimensional sound fields, capturing spatial audio with a set of microphones to allow for immersive listening experiences.",
+        "tracking association metrics": "**Tracking association metrics** are evaluation measures used to assess the accuracy of identity assignment in tracking systems, focusing on the relationship between predicted and actual identities across frames."
+    },
+    "open_sourcing": "The dataset will be shared on zenodo.org upon publication."
+}

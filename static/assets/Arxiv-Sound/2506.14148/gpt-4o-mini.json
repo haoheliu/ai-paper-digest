@@ -1,0 +1,22 @@
+{
+    "title": "Acoustic scattering AI for non-invasive object classifications: A case study on hair assessment",
+    "author": "Long-Vu Hoang (Hanoi University of Science and Technology), Tuan Nguyen (Institute for Infocomm Research), Tran Huy Dat (Institute for Infocomm Research), ... , A\u2217STAR",
+    "quality": 7,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on using acoustic scattering for non-invasive classification aligns closely with methodologies aimed at improving audio processing and classification tasks, which could inform sequence models developed by Haohe Liu.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to classify different hair types and moisture levels by analyzing the acoustic scattering patterns from hair samples, a task typically challenging due to the complexities of material structures.",
+    "contribution": "This paper introduces an acoustic-based classification system to solve hair assessment challenges, achieving nearly 90% accuracy in classifying hair types and moisture levels.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods primarily rely on visual classification methods subject to lighting and occlusion issues.",
+        "novelty": "This work utilizes acoustic scattering instead of visual data to gain a deeper understanding of object properties, increasing classification reliability and privacy."
+    },
+    "key_innovation": "The use of acoustic scattering allows for the extraction of structural and material information without physical contact or visual inspection, making it a unique non-invasive approach.",
+    "real_world_impact": "This innovation could have significant implications for industries beyond hair assessment, including medical imaging and material quality inspection, by opening avenues for privacy-preserving analysis.",
+    "limitations": "The study does not extensively validate the approach across a wider variety of materials or real-world conditions.",
+    "new_terms": {
+        "acoustic scattering": "**Acoustic scattering** refers to the phenomenon where incoming acoustic waves are deflected and modified by an object, providing insights into the object's internal and external structures.",
+        "Exponential Sine Sweep (ESS)": "**Exponential Sine Sweep (ESS)** is a type of test signal that sweeps through a range of frequencies exponentially, enhancing signal-to-noise ratios in acoustic measurements."
+    },
+    "open_sourcing": "https://github.com/tuanio/Acoustic Scattering AI-Noninvasive Object Classifications"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Persistent Homology of Music Network with Three Different Distances",
+    "author": "Eunwoo Heo (Pohang University of Science & Technology), Byeongchan Choi (Pohang University of Science & Technology), Myung Ock Kim (Korea Institute for Advanced Study), Mai Lan Tran (Pohang University of Science & Technology), Jae-Hun Jung (Pohang University of Science & Technology), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper applies persistent homology to music graph networks, which could offer insights for Haohe Liu's work on audio-related tasks that comprise graph representations.",
+    "field": "Applications-Creative AI",
+    "background": "The study analyzes music data represented as graphs and uses persistent homology methods to uncover topological structures with different distance measures.",
+    "contribution": "This paper introduces three distinct distance definitions for music graph networks to analyze their impact on persistent homology, revealing systematic relationships in music data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in music analysis applied persistent homology but did not explore various distance definitions or their effects on topological insights.",
+        "novelty": "This work systematically studies the impact of distance definitions on persistent homology, establishing clear inclusion relations among graphs."
+    },
+    "key_innovation": "Demonstrates how changing distance definitions based on graph pathways affects the topological insights derived from music data.",
+    "real_world_impact": "Enhances understanding of the structure of music data, potentially aiding in AI music composition and analysis. No immediate real-world impact.",
+    "limitations": "The effect of non-metric behavior of certain distance definitions on the analysis is not fully explored.",
+    "new_terms": {
+        "persistent homology": "**Persistent homology** is a method in topological data analysis that studies the changing topology of data across various scales, identifying features that persist over different distance thresholds.",
+        "Vietoris-Rips complex": "**Vietoris-Rips complex** is a construction from a point cloud that captures relationships between points based on a defined distance, facilitating the analysis of topological features."
+    },
+    "open_sourcing": ""
+}

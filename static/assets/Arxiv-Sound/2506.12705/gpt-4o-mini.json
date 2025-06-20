@@ -1,0 +1,21 @@
+{
+    "title": "Using Neurogram Similarity Index Measure (NSIM) to Model Hearing Loss and Cochlear Neural Degeneration",
+    "author": "Ahsan Cheema (Harvard University), Sunil Puria (Harvard University), ..., Massachusetts Eye and Ear Infirmary (MEEI)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The NSIM method could be applied in audio signal processing for speech recognition tasks, which links to Haohe Liu's research in audio and speech generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper investigates how NSIM, a measure of similarity between auditory nerve fiber responses, can quantify hearing loss and cochlear neural degeneration through simulation of auditory responses.",
+    "contribution": "This paper introduces NSIM as a new metric to quantify the performance of individuals with hearing loss on phoneme recognition tasks and assess cochlear neural degeneration.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on using standard audiometric evaluations to assess hearing loss without addressing underlying neural deficits.",
+        "novelty": "This work improves by utilizing a computational model to simulate auditory responses and directly compare neurograms, offering a more detailed assessment of auditory function."
+    },
+    "key_innovation": "NSIM provides a quantitative approach to evaluate auditory responses and detect cochlear neural degeneration, allowing for tailored hearing aid design.",
+    "real_world_impact": "The proposed method could improve hearing aids' effectiveness by addressing not just the loss of hair cells but also underlying neural damage, enhancing the quality of life for individuals with hearing loss.",
+    "limitations": "The study primarily simulates one hearing loss profile and does not fully generalize across all types of hearing loss.",
+    "new_terms": {
+        "Neurogram Similarity Index Measure (NSIM)": "**Neurogram Similarity Index Measure (NSIM)** is a method used to quantify the similarity between neural responses to sound, analogous to image similarity measures used in visual processing."
+    },
+    "open_sourcing": ""
+}

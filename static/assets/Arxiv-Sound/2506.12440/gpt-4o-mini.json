@@ -1,0 +1,21 @@
+{
+    "title": "Style-based Composer Identification and Attribution of Symbolic Music Scores: a Systematic Survey",
+    "author": "Federico Simonetta",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The systematic examination of methodologies for composer identification and authorship attribution using symbolic music scores can inform better data handling and model evaluation techniques for audio-related research, particularly in text-to-audio generation tasks.",
+    "field": "Applications-Creative AI",
+    "background": "The paper reviews the challenges and methodologies in identifying composers from symbolic music scores, focusing on improving the reliability and reproducibility of attribution tasks.",
+    "contribution": "This paper introduces a comprehensive review of 58 peer-reviewed works in the field of composer identification, establishing guidelines to enhance model evaluation and reliability.",
+    "technical_comparison": {
+        "prior_work": "Previous studies often suffer from inadequate validation processes and concentration on simplistic accuracy metrics, which may distort authorship claims.",
+        "novelty": "This work emphasizes the importance of robust evaluation metrics like Balanced Accuracy and the need for rigorous experimental validation through cross-validation methods."
+    },
+    "key_innovation": "Presents actionable guidelines for future research to improve the reliability of computational analyses in composer attribution tasks.",
+    "real_world_impact": "Enhancing the reliability of composer identification research could significantly impact musicology, allowing for more accurate repatriation of works to their rightful composers and deepening the understanding of stylometric analysis.",
+    "limitations": "The paper mainly focuses on symbolic representations and does not account for models using audio recordings or MIDI performances which may introduce confounding variables.",
+    "new_terms": {
+        "Balanced Accuracy": "**Balanced Accuracy** is a metric that adjusts the traditional accuracy calculation by taking into account the performance of a model across all classes, particularly beneficial for imbalanced datasets."
+    },
+    "open_sourcing": ""
+}

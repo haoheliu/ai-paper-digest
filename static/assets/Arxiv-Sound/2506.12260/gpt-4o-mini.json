@@ -1,0 +1,23 @@
+{
+    "title": "Improving Speech Enhancement with Multi-Metric Supervision from Learned Quality Assessment",
+    "author": "Wei Wang (Shanghai Jiao Tong University), Wangyou Zhang (Shanghai Jiao Tong University), Chenda Li (Shanghai Jiao Tong University), Jaitong Shi (Carnegie Mellon University), Shinji Watanabe (Carnegie Mellon University), Yanmin Qian (Shanghai Jiao Tong University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The proposed framework for multi-metric supervision in speech enhancement aligns closely with Haohe Liu's work on speech quality restoration, particularly in enhancing auditory learning and improving speech intelligibility.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on enhancing speech quality by leveraging multi-metric supervised learning through a Speech Quality Assessment model, addressing limitations in traditional speech enhancement methods which rely heavily on clean reference signals.",
+    "contribution": "This paper introduces Uni-VERSA-Ext, an enhanced Speech Quality Assessment model, to improve supervised training for Speech Enhancement models, achieving better perceptual quality predictions across multiple metrics.",
+    "technical_comparison": {
+        "prior_work": "Traditional Speech Enhancement methods often rely on clean reference signals and low-level objectives that do not correlate well with human perception.",
+        "novelty": "This work employs a differentiable multi-metric assessment approach that provides a robust supervisory signal even in the absence of clean references."
+    },
+    "key_innovation": "Utilizes an expanded and improved Speech Quality Assessment model to facilitate training on both real and simulated data, which significantly enhances model generalization and robustness.",
+    "real_world_impact": "By enabling training on more diverse data and aligning with human perceptual quality, this research could lead to more effective speech enhancement solutions in applications like teleconferencing and hearing aids.",
+    "limitations": "Potential adversarial outputs may occur when the Speech Quality Assessment model is exploited, necessitating careful supervision.",
+    "new_terms": {
+        "SI-SNR": "**Scale-Invariant Signal-to-Noise Ratio** is a commonly used metric for measuring the quality of a signal in relation to noise.",
+        "Uni-VERSA-Ext": "**Uni-VERSA-Ext** refers to the extended version of the original Speech Quality Assessment model that predicts a broader set of quality metrics.",
+        "PESQ": "**Perceptual Evaluation of Speech Quality** is an objective measurement that assesses the quality of speech signals."
+    },
+    "open_sourcing": "All training data used in the experiments will be made publicly available."
+}

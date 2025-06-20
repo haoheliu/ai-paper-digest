@@ -1,0 +1,23 @@
+{
+    "title": "Seamless Dysfluent Speech Text Alignment for Disordered Speech Analysis",
+    "author": "Zongli Ye (Zhejiang University), Jiachen Lian (UC Berkeley), Xuanru Zhou (Zhejiang University), Jinming Zhang (Zhejiang University), Haodong Li (Southern University of Science and Technology), Shuhe Li (Zhejiang University), Chenxu Guo (Zhejiang University), Anaisha Das (UC Berkeley), ..., Gopala Anumanchipalli (UC Berkeley)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on advanced techniques for modeling and analyzing dysfluent speech could enhance Haohe Liu's work in audio processing, particularly in speech restoration and generation by improving the understanding of non-standard speech patterns.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses the challenge of aligning disordered speech with intended text, which is crucial for automating the diagnosis of neurodegenerative speech disorders.",
+    "contribution": "This paper introduces Neural LCS to solve the problem of dysfluent speech-text alignment, achieving significant improvements in accuracy compared to traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Hard LCS ignored phoneme similarities, leading to misalignment in dysfluent speech.",
+        "novelty": "Neural LCS utilizes a robust phoneme-level modeling approach that accounts for contextual similarities and improves alignment accuracy."
+    },
+    "key_innovation": "Neural LCS is unique in its ability to handle partial alignments and provides context-aware mapping of phoneme similarities, offering a more linguistically grounded solution for dysfluent speech.",
+    "real_world_impact": "This work could significantly improve automated systems for diagnosing and analyzing speech disorders, thus potentially enhancing patient treatment outcomes and clinical efficiencies.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "Neural LCS": "**Neural Longest Common Subsequence** is an advanced alignment method that incorporates deep learning techniques for identifying corresponding segments in dysfluent and intended speech.",
+        "dysfluency": "**Dysfluency** refers to disruptions in the flow of speech, such as repetitions, substitutions, or insertions, which are particularly pertinent in disorders like stuttering.",
+        "forced alignment": "**Forced alignment** is a phonetic alignment technique used to sync text and audio by determining the exact timing of speech sounds."
+    },
+    "open_sourcing": "https://github.com/Berkeley-Speech-Group/Neural-LCS.git"
+}

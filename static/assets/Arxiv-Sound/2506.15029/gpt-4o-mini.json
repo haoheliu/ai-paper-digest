@@ -1,0 +1,22 @@
+{
+    "title": "An accurate and revised version of optical character recognition-based speech synthesis using LabVIEW",
+    "author": "Prateek Mehta (Birla Institute of Technology, India), Anasuya Patil (Birla Institute of Technology, India), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The paper focuses on Optical Character Recognition (OCR) and Speech Synthesis systems, which may provide insights for developing similar systems in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work centers on creating a system that converts printed text into spoken words to aid visually impaired individuals, utilizing optical character recognition technology.",
+    "contribution": "This paper introduces an OCR-based speech synthesis system implemented in LabVIEW to improve accessibility for visually impaired users, achieving a high level of text recognition accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous OCR systems faced challenges regarding accuracy, font compatibility, and speed of text-to-speech conversion.",
+        "novelty": "This work enhances efficiency by integrating improved character recognition and customizable speech synthesis in a user-friendly environment."
+    },
+    "key_innovation": "Utilizes LabVIEW software to streamline the conversion of scanned documents into speech, enabling real-time audio outputs.",
+    "real_world_impact": "The proposed system can significantly enhance educational access for visually impaired individuals and has the potential for wider applications in assistive technology.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "optical character recognition": "**Optical Character Recognition (OCR)** is a technology that converts different types of documents, such as scanned paper documents or PDFs, into editable and searchable data.",
+        "LabVIEW": "**Laboratory Virtual Instrument Engineering Workbench (LabVIEW)** is a system-design platform and development environment from National Instruments that allows for visual programming."
+    },
+    "open_sourcing": ""
+}

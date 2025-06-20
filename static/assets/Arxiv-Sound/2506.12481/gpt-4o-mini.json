@@ -1,0 +1,22 @@
+{
+    "title": "Exploring Audio Cues for Enhanced Test-Time Video Model Adaptation",
+    "author": "Runhao Zeng (Shenzhen MSU-BIT University), Qi Deng (South China University of Technology), Ronghao Zhang (South China University of Technology), Shuaicheng Niu (Nanyang Technological University), Jian Chen (South China University of Technology), Xiping Hu (Shenzhen MSU-BIT University), Victor C. M. Leung (Shenzhen MSU-BIT University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper highlights the integration of audio information in video models, which could inspire methods for enhancing audio quality in multimodal systems or facilitate cross-modal improvements in my research areas.",
+    "field": "Applications-Speech and Audio",
+    "background": "Test-time adaptation (TTA) aims to improve video model performance on unseen data by leveraging self-supervised learning during testing.",
+    "contribution": "This paper introduces an audio-assisted approach for TTA in video classification, achieving notable performance improvements through the incorporation of audio cues.",
+    "technical_comparison": {
+        "prior_work": "Existing TTA methods focus primarily on visual cues, limiting their adaptation capabilities under visual corruption.",
+        "novelty": "This work enhances video TTA by using audio-derived pseudo-labels mapped to video categories, effectively leveraging complementary audio information during adaptation."
+    },
+    "key_innovation": "The method uniquely employs large language models to facilitate the mapping of audio predictions to video labels, circumventing the need for retraining.",
+    "real_world_impact": "This approach shows significant potential for real-world applications in video classification, especially in challenging conditions where visual data is compromised.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "test-time adaptation (TTA)": "**Test-time adaptation** refers to methods that enable a model to adjust to new, unseen data distributions during the testing phase.",
+        "pseudo-labeling": "**Pseudo-labeling** involves generating labels for unlabeled data based on model predictions, which can then serve as guidance for adaptation."
+    },
+    "open_sourcing": "Code: https://github.com/keikeiqi/Audio-Assisted-TTA"
+}

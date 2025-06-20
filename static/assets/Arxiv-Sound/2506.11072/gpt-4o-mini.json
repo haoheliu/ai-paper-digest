@@ -1,0 +1,22 @@
+{
+    "title": "Can We Trust Machine Learning? The Reliability of Features from Open-Source Speech Analysis Tools for Speech Modeling",
+    "author": "Tahiya Chowdhury (Colby College), Veronica Romero (Colby College), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper evaluates how different features extracted from speech analysis tools impact machine learning models for autism diagnosis, which is relevant for enhancing audio and speech processing technologies in line with Haohe Liu's research interests.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study analyzes the reliability of speech features extracted from two open-source tools, OpenSMILE and Praat, for classifying adolescents with Autism Spectrum Disorder.",
+    "contribution": "The paper introduces a comparative analysis of speech features extracted from two widely used tools to assess their reliability and impact on machine learning classification models for autism diagnosis.",
+    "technical_comparison": {
+        "prior_work": "Existing studies primarily focus on raw classification performance without evaluating the nuances in feature extraction from different tools.",
+        "novelty": "This research provides a detailed examination of feature extraction discrepancies between OpenSMILE and Praat, highlighting significant differences in measured features tied to demographic factors."
+    },
+    "key_innovation": "The unique aspect of this paper lies in its systematic comparison of feature outputs across two popular speech analysis tools, addressing the broader implications for bias and reproducibility in machine learning applications for mental health.",
+    "real_world_impact": "The findings raise important questions about the validity of machine learning tools in clinical settings, emphasizing the need for standardized feature extraction to improve diagnostic accuracy in real-world healthcare applications.",
+    "limitations": "Limitations include potential biases in the dataset, gender imbalance, and the exclusive focus on English language data.",
+    "new_terms": {
+        "pitch variability": "**Pitch variability** refers to the fluctuations in frequency of the speaker's voice, which can indicate emotional and communicative engagement.",
+        "mean pitch": "**Mean pitch** is the average frequency of a speaker's voice during a given time period, useful in understanding speech patterns."
+    },
+    "open_sourcing": ""
+}

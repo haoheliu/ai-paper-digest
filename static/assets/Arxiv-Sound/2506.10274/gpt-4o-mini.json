@@ -1,0 +1,22 @@
+{
+    "title": "Discrete Audio Tokens: More Than a Survey!",
+    "author": "Pooneh Mousavi (Concordia University, Mila-Quebec AI Institute), Gallil Maimon (The Hebrew University of Jerusalem), Adel Moumen (University of Cambridge), Darius Petermann (Indiana University), Jiatong Shi (Carnegie Mellon University), Haibin Wu (Microsoft), Haici Yang (Indiana University), Anastasia Kuznetsova (Indiana University), ..., Ricard Marxer (Universit\u00e9 de Toulon)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The comprehensive analysis of discrete audio tokens directly aligns with Dr. Liu's work on audio generation and restoration, particularly in applying innovative tokenization methods for efficient audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating varying methods of audio tokenization across speech, music, and general audio to facilitate efficient audio processing in machine learning applications.",
+    "contribution": "This paper introduces a unified taxonomy and benchmark for discrete audio tokenizers, addressing limitations in previous studies by offering a thorough comparative analysis.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on either speech applications or singular aspects of tokenization, often lacking a comprehensive overview.",
+        "novelty": "This work provides a robust framework for evaluating and comparing various tokenization methods across multiple audio domains."
+    },
+    "key_innovation": "Presents a detailed taxonomy of audio tokenization methods, facilitating better understanding and guiding future research directions.",
+    "real_world_impact": "This advancement in discrete audio processing can significantly enhance various applications in audio synthesis, recognition, and multimodal interactions.",
+    "limitations": "No",
+    "new_terms": {
+        "discrete audio tokens": "**Discrete audio tokens** are compact representations of audio designed to be efficient for storage and processing, serving as a bridge between continuous audio features and machine learning applications.",
+        "quantization techniques": "**Quantization techniques** refer to methods used to convert continuous representations into discrete forms, which can improve efficiency and performance in audio processing tasks."
+    },
+    "open_sourcing": "For more information, including the main results and tokenizer database, please refer to the project website at https://poonehmousavi.github.io/dates-website/"
+}

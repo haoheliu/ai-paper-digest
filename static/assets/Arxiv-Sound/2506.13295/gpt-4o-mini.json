@@ -1,0 +1,22 @@
+{
+    "title": "Instance-Specific Test-Time Training for Speech Editing in the Wild",
+    "author": "Taewoo Kim (Korea Electronics Technology Institute), Uijong Lee (Korea Electronics Technology Institute), Hayoung Park (Korea Electronics Technology Institute), Choongsang Cho (Korea Electronics Technology Institute), Nam In Park (National Forensic Service), Young Han Lee (Korea Electronics Technology Institute)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents approaches to speech editing that may inform and enhance Haohe Liu's work on audio enhancement and generative models, particularly in aligning acoustic features and improving prosodic controls.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study addresses the challenge of modifying spoken content while maintaining naturalness and coherence in real-world acoustic conditions, such as noise and reverberation.",
+    "contribution": "This paper introduces instance-specific test-time training (TTT) to solve the challenges of speech editing, achieving significant improvements in acoustic consistency and speech rate control.",
+    "technical_comparison": {
+        "prior_work": "Existing speech editing models often struggle with acoustic mismatches and do not adapt well to unseen environments.",
+        "novelty": "This work enhances speech editing performance by adapting the model to individual test samples in real time, leveraging ground-truth features for smoothing transitions and prosodic consistency."
+    },
+    "key_innovation": "The unique application of test-time training allows for real-time adaptation of speech models based on specific acoustic contexts, which is not common in prior editing systems.",
+    "real_world_impact": "This method could significantly improve automatic speech editing systems used in practical applications like podcast editing, video production, and assistive technologies, enhancing user experiences.",
+    "limitations": "The study does not address the challenges of training data diversity and overall scalability in different environments.",
+    "new_terms": {
+        "instance-specific test-time training": "**Instance-specific test-time training (TTT)** refers to a training approach that adjusts model parameters in response to specific characteristics of each input instance during inference, rather than relying solely on the pre-trained model.",
+        "spectrogram denoiser": "**Spectrogram denoiser** is a model component designed to transform noisy mel-spectrogram inputs into cleaner output, enhancing the audio quality."
+    },
+    "open_sourcing": ""
+}

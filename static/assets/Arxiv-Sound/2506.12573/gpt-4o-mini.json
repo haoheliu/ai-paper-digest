@@ -1,0 +1,22 @@
+{
+    "title": "Video-Guided Text-to-Music Generation Using Public Domain Movie Collections",
+    "author": "Haven Kim (University of California San Diego), Zachary Novack (University of California San Diego), Weihan Xu (Duke University), Julian McAuley (University of California San Diego), Hao-Wen Dong (University of Michigan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work discusses integrating multimodal inputs (video and text) into music generation, which could be applicable in improving audio generation tasks in Haohe Liu's projects on audio manipulation and music synthesis.",
+    "field": "Applications-Creative AI",
+    "background": "Generating music that aligns with specific video content and emotional tone requires understanding both visual and audio attributes, challenging traditional text-only models.",
+    "contribution": "This paper introduces the Open Screen Sound Library (OSSL) dataset and proposes a video adapter for enhancing text-to-music models, achieving improved fidelity and mood compatibility in generated music.",
+    "technical_comparison": {
+        "prior_work": "Previous models primarily operated on unimodal inputs, such as text or audio, limiting their capability to capture the nuanced context of film.",
+        "novelty": "This work incorporates a video conditioning mechanism within a pre-trained text-to-music generation model, allowing it to consider both visual and textual cues for enhanced output."
+    },
+    "key_innovation": "The integration of a video adapter enables the model to utilize video content as an additional contextual input, addressing a gap in existing audio generation models.",
+    "real_world_impact": "By providing a dataset and methodology for effectively generating film music, this work has the potential to transform creative processes in music composition for media, enhancing viewer experiences.",
+    "limitations": "Limited subjective evaluation due to a small participant size in user studies.",
+    "new_terms": {
+        "autoregressive transformer": "An **autoregressive transformer** is a neural network architecture that generates sequences of data (like audio) one step at a time, using the previously generated content to inform each subsequent generation.",
+        "cross-attention": "In **cross-attention**, the model pays attention to information from a different input modality (like video) while processing its primary input (like text), integrating information across modalities."
+    },
+    "open_sourcing": "The dataset, code, and demo are publicly available at https://havenpersona.github.io/ossl-v1."
+}

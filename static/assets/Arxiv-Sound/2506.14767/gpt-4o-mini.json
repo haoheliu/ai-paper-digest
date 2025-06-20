@@ -1,0 +1,22 @@
+{
+    "title": "A Variational Framework for Improving Naturalness in Generative Spoken Language Models",
+    "author": "Li-Wei Chen (Carnegie Mellon University), Takuya Higuchi (Apple), Zakaria Aldeneh (Apple), Ahmed Hussen Abdelaziz (Apple), Alexander Rudnicky (Carnegie Mellon University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed approach integrates learned features to improve speech generation, which parallels Dr. Liu's interests in enhancing audio synthesis through innovative methodologies like latent diffusion models.",
+    "field": "Applications-Speech and Audio",
+    "background": "Improving the naturalness of generated speech by learning paralinguistic features directly from continuous speech signals without manual extraction.",
+    "contribution": "This work introduces a variational autoencoder framework that learns to optimize continuous speech attributes alongside semantic tokens, enhancing the quality of speech synthesis.",
+    "technical_comparison": {
+        "prior_work": "Existing methods typically rely on discrete semantic tokens and hand-engineered features, limiting the representation of speech continuity and naturalness.",
+        "novelty": "This framework allows automatic learning of continuous features to complement semantic tokens, reducing reliance on manual feature engineering."
+    },
+    "key_innovation": "Combining a variational autoencoder with an autoregressive model to generate speech that better captures the full spectrum of linguistic and paralinguistic features.",
+    "real_world_impact": "By improving the naturalness of generated speech, this framework has potential applications in conversational agents and other voice interaction systems, enhancing user experience.",
+    "limitations": "The framework's performance is sensitive to hyperparameter choices, and the evaluation is limited to English datasets.",
+    "new_terms": {
+        "variational autoencoder": "**Variational autoencoder** is a generative model that learns to capture underlying data distributions by incorporating latent variables and optimizing a lower-bound probability objective.",
+        "semantic tokens": "**Semantic tokens** are discrete units derived from continuous speech data that primarily represent linguistic information, often lacking paralinguistic richness."
+    },
+    "open_sourcing": "Code, samples, and models are available at https://github.com/b04901014/vae-gslm"
+}

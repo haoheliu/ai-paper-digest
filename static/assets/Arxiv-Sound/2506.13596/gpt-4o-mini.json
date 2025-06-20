@@ -1,0 +1,19 @@
+{
+    "title": "Qwen vs. Gemma Integration with Whisper: A Comparative Study in Multilingual SpeechLLM Systems",
+    "author": "Tuan Nguyen (Institute for Infocomm Research (I2R), A*STAR, Singapore), Long-Vu Hoang (Institute for Infocomm Research (I2R), A*STAR, Singapore, SoICT, Hanoi University of Science and Technology, Vietnam), Huy-Dat Tran (Institute for Infocomm Research (I2R), A*STAR, Singapore), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses integrating large language models with speech recognition systems, which is relevant to optimizing audio processing and generative models in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study focuses on improving multilingual speech recognition using combinations of large language models and speech encoders to achieve lower error rates in diverse languages and accents.",
+    "contribution": "This paper introduces a three-stage training methodology and a modular architecture that combines Whisper as a speech encoder with Qwen2.5 and Gemma3 as language models to effectively reduce word and character error rates.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches have primarily relied on standalone Whisper models or basic LLM integrations, which resulted in suboptimal performance across languages.",
+        "novelty": "This work improves upon earlier methods by proposing a modular architecture and a structured training process that iteratively refines each component for better alignment and performance."
+    },
+    "key_innovation": "The use of a lightweight linear projector and a structured three-stage training approach allows effective integration between speech encoders and language models, enhancing multilingual speech recognition.",
+    "real_world_impact": "The proposed system achieves significant performance improvements, making it more effective for real-world applications in multilingual speech recognition, ultimately aiding in communication across different languages.",
+    "limitations": "The paper does not mention specific limitations.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "A Survey on World Models Grounded in Acoustic Physical Information",
+    "author": "Xiaoliang Chen (SoundAI Technology Co., Ltd.), Le Chang (SoundAI Technology Co., Ltd.), Xin Yu (SoundAI Technology Co., Ltd.), Yunhe Huang (SoundAI Technology Co., Ltd.), Xianling Tu (SoundAI Technology Co., Ltd.)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The survey explores advanced methodologies for acoustic world models, which could inform the development of audio-centric applications in Haohe Liu's work, particularly in areas like audio generation and analysis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper reviews approaches for building models that utilize acoustic signals to understand and predict physical interactions and environments, enhancing AI's capability to reason about the physical world.",
+    "contribution": "This survey introduces frameworks leveraging acoustic physical information to enhance world models, achieving improved perceptual accuracy and causal reasoning in AI systems.",
+    "technical_comparison": {
+        "prior_work": "Previous models primarily focused on visual or single-modal sensing which limited their understanding of complex physical interactions.",
+        "novelty": "This work bridges acoustic-based representations with physical reasoning, enabling richer environmental simulations and predictions."
+    },
+    "key_innovation": "Introduces a comprehensive approach for integrating acoustic signals into world models to develop a nuanced understanding of physical environments.",
+    "real_world_impact": "The frameworks presented could lead to significant advancements in robotics, healthcare, and autonomous driving, enhancing AI systems\u2019 interaction with real-world environments.",
+    "limitations": "The survey lacks detailed empirical assessments of the discussed methodologies and their practical implementations.",
+    "new_terms": {
+        "Physics-Informed Neural Networks (PINNs)": "**Physics-Informed Neural Networks (PINNs)** integrate physical laws into neural networks for improved data efficiency and accuracy in scientific modeling.",
+        "Acoustic Simultaneous Localization and Mapping (Acoustic SLAM)": "**Acoustic SLAM** is a method that uses sound to map environments and localize an agent within them, suitable for scenarios lacking visual information."
+    },
+    "open_sourcing": ""
+}

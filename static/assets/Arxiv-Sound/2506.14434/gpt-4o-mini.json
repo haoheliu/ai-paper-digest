@@ -1,0 +1,22 @@
+{
+    "title": "Unifying Streaming and Non-streaming Zipformer-based ASR",
+    "author": "Bidisha Sharma (Uniphore), Karthik Pandia Durai (Uniphore), Shankar Venkatesan (Uniphore), Jeena J Prakash (Uniphore), Shashi Kumar (Idiap Research Institute), Malolan Chetlur (Uniphore), Andreas Stolcke (Uniphore)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed framework for unifying streaming and non-streaming Automatic Speech Recognition (ASR) models using right-context could support Haohe's research in audio enhancement and restoration, particularly in contexts where speech recognition is critical.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves creating a flexible Automatic Speech Recognition (ASR) model capable of processing speech in real-time (streaming) and from complete audio files (non-streaming), employing future context for improved accuracy.",
+    "contribution": "This paper introduces a framework that trains a unified end-to-end ASR model for both streaming and non-streaming applications, achieving a relative reduction in word error rate (WER) by 7.9% with minor latency changes.",
+    "technical_comparison": {
+        "prior_work": "Previous models typically trained separate systems for streaming and non-streaming, leading to increased resource use and maintenance concerns.",
+        "novelty": "This work integrates a dynamic right-context in training using chunked attention masking, allowing a more flexible approach that optimizes performance across varying applications."
+    },
+    "key_innovation": "Combines streaming and non-streaming ASR capabilities by strategically incorporating right-context frames during training and inference, allowing users to balance accuracy and latency based on needs.",
+    "real_world_impact": "The approach can streamline ASR development in commercial applications, potentially reducing operational costs while enhancing performance across different environments and user requirements.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "Automatic Speech Recognition (ASR)": "**Automatic Speech Recognition (ASR)** is a technology that enables computers to recognize and process human speech into text.",
+        "right-context": "**Right-context is the audio frames that follow the current frame in processing, providing additional linguistic context that can aid in more accurate recognition."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Mitigating Non-Target Speaker Bias in Guided Speaker Embedding",
+    "author": "Shota Horiguchi (NTT Corporation), Takanori Ashihara (NTT Corporation), Marc Delcroix (NTT Corporation), Atsushi Ando (NTT Corporation), Naohiro Tawara (NTT Corporation), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses techniques for improving speaker embeddings in multi-speaker conditions, which is highly relevant to audio signal processing and could enhance tasks related to audio generation and restoration in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Extracting clear speaker embeddings from recordings with overlapping speech to improve speaker identification and diarization performance.",
+    "contribution": "This paper introduces a method that adapts global statistics in speaker embedding extraction to mitigate bias from non-target speakers, achieving better identification performance in both low and high overlap ratios.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on global statistics that contaminated speaker embeddings with non-target speaker information.",
+        "novelty": "This work improves by specifically using statistics from intervals only where the target speaker is active, enhancing the robustness of embeddings in less overlapping conditions."
+    },
+    "key_innovation": "The proposed technique uniquely adapts speaker embedding extraction processes to focus only on the target speaker's active intervals, reducing noise from non-target speakers.",
+    "real_world_impact": "Improving the accuracy of speaker verification and diarization has significant practical implications in applications like conference transcription, assistive technologies, and customer service automation.",
+    "limitations": "The method's efficacy relies on the accuracy of speech activity detection for both target and non-target speakers.",
+    "new_terms": {
+        "guided speaker embedding": "**Guided speaker embedding** is a method that utilizes speaker activity cues to enhance speaker embedding extraction from multi-speaker recordings.",
+        "squeeze-and-excitation block": "**Squeeze-and-excitation block** is a neural network component that recalibrates channel-wise feature importance to enhance the performance of deep learning models."
+    },
+    "open_sourcing": ""
+}

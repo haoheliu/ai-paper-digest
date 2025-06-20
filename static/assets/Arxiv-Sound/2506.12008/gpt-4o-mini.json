@@ -1,0 +1,22 @@
+{
+    "title": "Reimagining Dance: Real-time Music Co-creation between Dancers and AI",
+    "author": "Olga Vechtomova (University of Waterloo), Jeff Bos (WordSynth Inc.)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents an innovative approach to dynamic interaction between dancers and AI, which could inform new methods in audio processing and interactive music generation that are applicable to Haohe's research areas.",
+    "field": "Applications-Creative AI",
+    "background": "The research investigates a system where dancers' movements influence real-time music generation, establishing a cooperative relationship between human performances and AI.",
+    "contribution": "This paper introduces a multi-modal architecture that combines audio and movement representations to create responsive musical environments, achieving a unique collaboration between dancers and AI.",
+    "technical_comparison": {
+        "prior_work": "Existing AI systems in dance mostly generate choreography in response to music rather than vice versa.",
+        "novelty": "This work dynamically shapes music through dancer movements, enabling the system to respond creatively in real time."
+    },
+    "key_innovation": "The system allows dancers to act as co-composers, significantly expanding the interactive dimensions of performance art.",
+    "real_world_impact": "This research transforms traditional dance by integrating AI as a responsive collaborator, which could influence live performance and artistic expression across various contexts.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "multi-modal architecture": "**Multi-modal architecture** refers to a system that integrates different types of data inputs\u2014such as movement and sound\u2014to generate a cohesive output.",
+        "Generative Adversarial Network (GAN)": "**Generative Adversarial Networks (GANs)** are a class of machine learning frameworks in which two neural networks contest with each other to generate new, synthetic instances of data."
+    },
+    "open_sourcing": ""
+}

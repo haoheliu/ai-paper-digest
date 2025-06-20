@@ -1,0 +1,22 @@
+{
+    "title": "Enabling automatic transcription of child-centered audio recordings from real-world environments",
+    "author": "Daniil Kocharov (Signal Processing Research Centre, Tampere University), Okko R\u00e4s\u00e4nen (Signal Processing Research Centre, Tampere University)",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The automatic transcription methods proposed in this paper could be leveraged to enhance research on audio processing and improve data analysis in child language development, aligning closely with your work in audio and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work focuses on developing a method to automatically transcribe noisy child-centered audio from real-world environments, evaluating the effectiveness of automatic speech recognition in these challenging conditions.",
+    "contribution": "This paper introduces a classification method to detect utterances suitable for automatic transcription, achieving a median word error rate of 0% for selected utterances.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with high word error rates when applying automatic speech recognition techniques to longform audio without proper preprocessing.",
+        "novelty": "This work improves transcription quality by automatically filtering utterances, enabling more accurate ASR output and significantly reducing overall error rates."
+    },
+    "key_innovation": "The unique aspect of this method lies in its ability to intelligently select portions of audio where transcription is likely to be accurate, thus optimizing the use of existing ASR technologies.",
+    "real_world_impact": "This advance in automatic transcription can facilitate large-scale linguistic research, potentially impacting educational methods and child language development studies by making audio data analysis more feasible.",
+    "limitations": "The current work is limited to English varieties, which could restrict its applicability to other languages without effective ASR models.",
+    "new_terms": {
+        "automatic speech recognition (ASR)": "**Automatic Speech Recognition** (ASR) is a technology that enables the recognition and translation of spoken language into text by computer systems.",
+        "word error rate (WER)": "**Word Error Rate** (WER) is a common metric used to evaluate the accuracy of speech recognition systems, calculated as the sum of insertions, deletions, and substitutions divided by the total number of words."
+    },
+    "open_sourcing": ""
+}

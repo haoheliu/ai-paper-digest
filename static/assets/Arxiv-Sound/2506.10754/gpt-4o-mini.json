@@ -1,0 +1,23 @@
+{
+    "title": "BNMusic: Blending Environmental Noises into Personalized Music",
+    "author": "Chi Zuo (Wuhan University), Martin B. M\u00f8ller (Bang&Olufsen), Pablo Mart\u00ednez-Nuevo (Bang&Olufsen), Huayang Huang (Wuhan University), Yu Wu (Wuhan University), Ye Zhu (Princeton University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper's focus on generating music that blends with environmental noise aligns well with Haohe Liu's interests in audio generation, potentially enhancing user experience in noisy environments, which is relevant for applications in speech and audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a method to blend environmental noise with personalized music generated from user-provided prompts, aiming to reduce the annoyance caused by persistent background sound.",
+    "contribution": "BNMusic introduces a novel framework for blending environmental noise with music to minimize noise perception, achieving a Harmonious auditory experience.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically focus on acoustic masking or noise cancellation techniques that often require higher volumes for effectiveness and struggle to align music with environmental noise.",
+        "novelty": "This work enhances blending through a two-stage process\u2014first generating rhythmically aligned music and then adaptively amplifying it, thereby achieving better integration without excessive loudness."
+    },
+    "key_innovation": "The two-stage approach involving outpainting and inpainting in a mel-spectrogram representation allows the generated music to harmoniously integrate with environmental noise, reducing its perceptibility.",
+    "real_world_impact": "The method could significantly improve auditory experiences in public environments, such as transportation systems or offices, by providing a pleasant sound environment without the need for personal devices.",
+    "limitations": "Limitations include challenges with mismatched prompts leading to poor blending and potential processing speed issues limiting real-time applications.",
+    "new_terms": {
+        "mel-spectrogram": "**Mel-spectrogram** is a representation of sound in the frequency domain, where audio is converted into a visual format that highlights perceptually important frequency components.",
+        "outpainting": "**Outpainting** is a technique used to expand or generate content beyond the existing boundaries of a given input, often used in image and audio synthesis.",
+        "inpainting": "**Inpainting** refers to the process of reconstructing missing or corrupted parts of an input based on surrounding context."
+    },
+    "open_sourcing": ""
+}

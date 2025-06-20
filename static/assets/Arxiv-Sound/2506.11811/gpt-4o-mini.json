@@ -1,0 +1,22 @@
+{
+    "title": "Abstract Sound Fusion with Unconditioned Inversion Model",
+    "author": "Jing Liu (Central Conservatory of Music, Beijing, China), EnQi Lian (Central Conservatory of Music, Beijing, China)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces innovative methods for sound fusion and audio synthesis using advanced inversion techniques, which could enhance generative audio models in Haohe Liu's research, particularly in text-to-audio generation and audio manipulation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sound fusion aims to creatively combine an original sound and a reference sound to produce a new audio output that transcends simple additive mixing.",
+    "contribution": "This paper introduces novel Stochastic Differential Equation (SDE) and Ordinary Differential Equation (ODE) inversion models to solve sound fusion, achieving controllable synthesis of abstract sounds.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily utilized naive approaches for sound mixing and lacked robust inversion techniques for nuanced audio editing.",
+        "novelty": "This work improves by implementing inversion models based on DPMSolver++ samplers, which stabilize the sampling process and enhance auditory feature preservation."
+    },
+    "key_innovation": "The models circumvent circular dependencies in noise prediction, allowing for flexibility in prompt-guided sampling without requiring prompt conditioning.",
+    "real_world_impact": "The findings could impact creative fields like music and sound design, facilitating innovative audio synthesis and enhancing creative AI applications.",
+    "limitations": "Some loss of detail in audio reconstruction was noted, particularly with low-frequency components.",
+    "new_terms": {
+        "sound fusion": "**Sound fusion** refers to the process of synthesizing different audio elements to create a new sound that incorporates features from both sources.",
+        "inversion models": "**Inversion models** are techniques that aim to reverse the process of audio generation to reconstruct original sound features based on latent representations."
+    },
+    "open_sourcing": "The audio fusion algorithm and related models are available on GitHub."
+}

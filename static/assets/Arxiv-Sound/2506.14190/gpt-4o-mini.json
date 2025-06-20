@@ -1,0 +1,22 @@
+{
+    "title": "AsyncSwitch: Asynchronous Text-Speech Adaptation for Code-Switched ASR",
+    "author": "Tuan Nguyen (Institute for Infocomm Research (I\u00b2R) A*STAR Singapore), Huy-Dat Tran (Institute for Infocomm Research (I\u00b2R) A*STAR Singapore), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper addresses the challenge of code-switching in Automatic Speech Recognition (ASR), which is highly relevant to my work in audio-language modeling and could inform my approaches to developing advanced models for speech generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Improving ASR systems' ability to understand and transcribe speech that switches between languages within a single conversation, particularly in multilingual contexts.",
+    "contribution": "AsyncSwitch introduces a three-stage asynchronous adaptation framework to improve ASR performance in code-switched settings, achieving a significant reduction in word error rates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused heavily on paired speech-text data for training, often resulting in limited performance in low-resource languages.",
+        "novelty": "This work leverages large-scale, text-rich web data to pre-train models, followed by fine-tuning on limited bilingual speech-text data, enhancing model robustness for code-switching."
+    },
+    "key_innovation": "The unique three-stage process allows for efficient adaptation of ASR models using predominantly textual data before incorporating speech data, enabling better performance with limited resources.",
+    "real_world_impact": "This framework can make ASR systems more inclusive and effective in multilingual communities, particularly in regions with significant code-switching, like Southeast Asia.",
+    "limitations": "The applicability of the findings may be limited to the specific language dynamics of Malaysian and Singaporean contexts, potentially affecting generalizability.",
+    "new_terms": {
+        "code-switching": "**Code-switching** is the practice of alternating between two or more languages or dialects in a conversation, which presents challenges for traditional ASR systems.",
+        "word error rates (WER)": "**Word error rates (WER)** measure the accuracy of ASR systems by calculating the percentage of incorrect words based on the total number of words."
+    },
+    "open_sourcing": ""
+}

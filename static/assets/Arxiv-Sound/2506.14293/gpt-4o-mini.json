@@ -1,0 +1,22 @@
+{
+    "title": "SLEEPING-DISCO 9M: A LARGE-SCALE PRE-TRAINING DATASET FOR GENERATIVE MUSIC MODELING",
+    "author": "Tawsif Ahmed (Sleeping AI), Andrej Radonjic (Wyndl Labs), Gollam Rabby (L3S Research Centre), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The dataset created in this research is highly relevant for training generative music models and could benefit Haohe's work in audio generation and music synthesis tasks.",
+    "field": "Applications-Creative AI",
+    "background": "Creating a dataset containing high-quality, popular music with detailed metadata to facilitate generative music modeling.",
+    "contribution": "The Sleeping-DISCO 9M dataset introduces a comprehensive collection of popular song lyrics and their corresponding audio clips to solve the scarcity of varied music datasets, achieving a large-scale and structured resource for training generative models.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets often consisted of limited music quality or metadata, lacking representation of popular music.",
+        "novelty": "Sleeping-DISCO 9M stands out by providing both a substantial quantity of clips and rich metadata, including language diversity and artist information."
+    },
+    "key_innovation": "The dataset's breadth includes 8.9 million lyrics, 648,000 artists, and metadata in 169 languages, enabling extensive applications in generative music tasks.",
+    "real_world_impact": "This dataset can significantly enhance the capabilities of music generation models, leading to the creation of more sophisticated and culturally relevant music applications.",
+    "limitations": "No specific limitations are mentioned.",
+    "new_terms": {
+        "metadata": "**Metadata** refers to data that provides information about other data, such as details on song lyrics, artists, and albums.",
+        "generative music modeling": "**Generative music modeling** is a subfield of artificial intelligence which involves training models to create music compositions based on various inputs."
+    },
+    "open_sourcing": "The dataset is shared under CC-BY-NC-ND 4.0, allowing for non-commercial use with attribution."
+}

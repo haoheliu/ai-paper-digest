@@ -1,0 +1,22 @@
+{
+    "title": "Manipulated Regions Localization For Partially Deepfake Audio: A Survey",
+    "author": "Jiayi He (Institute of Automation, Chinese Academy of Sciences), Jiangyan Yi (Tsinghua University), Jianhua Tao (Tsinghua University), Siding Zeng (University of Chinese Academy of Sciences), Hao Gu (Institute of Automation, Chinese Academy of Sciences)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The survey discusses methods for localizing manipulated regions in partly deepfake audio, which directly overlaps with Haohe Liu's interest in audio manipulation and enhancement techniques. Techniques from this survey could potentially be adapted for generative audio tasks such as restoration and synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "This survey comprehensively reviews various techniques for detecting and localizing manipulated segments within audio that have been partially altered by deepfake technology.",
+    "contribution": "This survey introduces a systematic overview of the state-of-the-art methods for localizing manipulated regions in partially deepfake audio, addressing the challenges and limitations of current research efforts.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily dealt with fully fake audio detection, lacking a structured approach to localize partial manipulations effectively.",
+        "novelty": "The survey highlights diverse methodologies, datasets, and evaluation metrics that are specifically tailored to the nuances of partially manipulated audio, offering a robust framework for further advancement."
+    },
+    "key_innovation": "Integrated a wide range of existing research methods and evaluation approaches, providing a comprehensive roadmap for future studies in the manipulation localization field.",
+    "real_world_impact": "This survey helps in raising awareness about the emerging threats posed by partially deepfake audio and identifies critical research gaps, suggesting directions for future explorations that can have a significant impact in audio security and authenticity.",
+    "limitations": "The survey may not cover the very latest developments in deepfake technology due to its static nature; it relies heavily on existing studies, which can sometimes introduce biases or gaps in the narrative.",
+    "new_terms": {
+        "deepfake audio": "**Deepfake audio** refers to artificially generated audio that uses machine learning to imitate real human speech, either fully synthesized or partially manipulated.",
+        "manipulation localization": "**Manipulation localization** is the process of identifying and pinpointing specific segments within audio that have been altered or spoofed."
+    },
+    "open_sourcing": ""
+}

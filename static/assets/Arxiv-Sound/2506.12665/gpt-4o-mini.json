@@ -1,0 +1,22 @@
+{
+    "title": "ANIRA: An Architecture for Neural Network Inference in Real-Time Audio Applications",
+    "author": "Valentin Ackva (Technische Universit\u00e4t Berlin), Fares Schulz (Technische Universit\u00e4t Berlin), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses a library for integrating neural networks into real-time audio applications, which aligns with Dr. Liu's work in audio generation and processing.",
+    "field": "Infrastructure-Machine Learning Libraries",
+    "background": "The research aims to enable efficient neural network inference in real-time audio applications by minimizing inference time while ensuring continuous audio signal flow.",
+    "contribution": "This paper introduces the ANIRA library to solve the challenge of real-time neural network inference in audio applications, achieving improved management of latency and inference times.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often did not meet real-time requirements due to high computational demands and real-time violations from inference engines.",
+        "novelty": "This work enhances performance by decoupling inference from audio callbacks, using a static thread pool to manage inference tasks independently."
+    },
+    "key_innovation": "ANIRA's unique architecture allows for seamless integration of multiple neural network architectures while managing latency effectively.",
+    "real_world_impact": "The library could enable the development of responsive audio applications such as plugins, smart musical instruments, and real-time audio effects, benefiting both developers and users.",
+    "limitations": "The paper does not address potential scalability issues with a static thread pool when scaling to larger models or more complex operations.",
+    "new_terms": {
+        "real-time violations": "**Real-time violations** refer to instances where processing delays exceed acceptable time limits, potentially causing interruptions in continuous audio output.",
+        "static thread pool": "**Static thread pool** is a fixed-size set of threads that manage tasks concurrently, preventing performance degradation associated with excessive thread creation."
+    },
+    "open_sourcing": "The source code of the library is publicly available on GitHub."
+}

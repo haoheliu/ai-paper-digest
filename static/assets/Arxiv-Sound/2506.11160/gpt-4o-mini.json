@@ -1,0 +1,22 @@
+{
+    "title": "S2ST-Omni: An Efficient and Scalable Speech-to-Speech Translation Framework via Seamlessly Speech-Text Alignment and Streaming Speech Decoder",
+    "author": "Yu Pan (Kyushu University), Yuguang Yang (Ximalaya Inc.), Yanni Hu (Ximalaya Inc.), Jianhao Ye (Ximalaya Inc.), Xiang Zhang (Ximalaya Inc.), Hongbin Zhou (Ximalaya Inc.), Lei Ma (The University of Tokyo), Jianjun Zhao (Kyushu University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods discussed in this framework could enhance tasks involving audio processing and speech synthesis, as it introduces a seamless speech-text alignment that may benefit audio generation methodologies similar to those pursued in audio-language modeling.",
+    "field": "Applications-Speech and Audio",
+    "background": "Multilingual speech-to-speech translation aims to convert spoken utterances from one language directly into spoken output in another language.",
+    "contribution": "S2ST-Omni introduces a novel framework for multilingual speech-to-speech translation that leverages pretrained models and a lightweight speech adapter to enhance translation quality and real-time responsiveness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods largely rely on large-scale parallel speech corpora and cascaded architectures, resulting in limitations in terms of scalability and latency.",
+        "novelty": "This work integrates pretrained multimodal models to reduce dependence on parallel data and employs a streaming speech decoder to enable real-time speech synthesis."
+    },
+    "key_innovation": "The framework's unique combination of a speech-text alignment approach and a streaming decoder allows for efficient real-time translation without compromising quality.",
+    "real_world_impact": "The proposed framework has significant potential for practical applications in real-time multilingual communication systems, enhancing globalization efforts and accessibility. Its efficiency and effectiveness may facilitate better communication among diverse linguistic communities.",
+    "limitations": "The paper does not explicitly mention limitations but acknowledges that substantial room for improving translation accuracy exists.",
+    "new_terms": {
+        "S2ST": "**Speech-to-Speech Translation** refers to converting spoken language in one language directly into spoken language in another language.",
+        "streaming decoder": "**Streaming Speech Decoder** is a component that processes input data continuously, allowing for real-time speech synthesis as opposed to waiting for a complete input."
+    },
+    "open_sourcing": ""
+}

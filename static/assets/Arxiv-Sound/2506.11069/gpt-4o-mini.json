@@ -1,0 +1,21 @@
+{
+    "title": "Regularized Federated Learning for Privacy-Preserving Dysarthric and Elderly Speech Recognition",
+    "author": "Tao Zhong (The Chinese University of Hong Kong), Mengzhe Geng (National Research Council Canada), Shujie Hu (The Chinese University of Hong Kong), Guinan Li (The Chinese University of Hong Kong), Xunying Liu (The Chinese University of Hong Kong), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores advanced federated learning techniques that can address data scarcity and privacy concerns in speech recognition, which are critical for Haohe Liu's research focusing on audio processing and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper investigates federated learning techniques to improve speech recognition for dysarthric and elderly speakers while preserving data privacy.",
+    "contribution": "This paper introduces regularized federated learning methodologies to enhance speech recognition performance, achieving statistically significant word error rate reductions.",
+    "technical_comparison": {
+        "prior_work": "Existing federated learning approaches primarily focus on healthy adult speech, which suffers from issues like data imbalance and scarcity when applied to dysarthric and elderly speech.",
+        "novelty": "This work introduces parameter-based, embedding-based, and loss-based regularization techniques to effectively handle these unique challenges in federated learning."
+    },
+    "key_innovation": "The integration of multiple levels of regularization in the federated learning process to enhance the robustness of speech recognition models across diverse datasets.",
+    "real_world_impact": "By improving speech recognition technology for dysarthric and elderly populations, this research could significantly enhance communication aids and healthcare assessments.",
+    "limitations": "The performance still lags behind centralized methods, indicating the need for further exploration.",
+    "new_terms": {
+        "federated learning": "**Federated learning** is a decentralized approach to machine learning that allows multiple clients to collaboratively learn a shared model while keeping their data local, thus enhancing data privacy."
+    },
+    "open_sourcing": ""
+}

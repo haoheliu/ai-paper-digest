@@ -1,0 +1,22 @@
+{
+    "title": "Confidence-Based Self-Training for EMG-to-Speech: Leveraging Synthetic EMG for Robust Modeling",
+    "author": "Xiaodan Chen (CY Cergy Paris Universite), Xiaoxue Gao (A*STAR), Mathias Quoy (CY Cergy Paris Universite), Alexandre Pitti (CY Cergy Paris Universite), Nancy F. Chen (A*STAR), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper explores the use of synthetic data in the context of EMG-to-speech conversion, which directly aligns with Haohe Liu's research interests in audio and speech processing. The techniques outlined could enhance audio generation and restoration methodologies.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on reconstructing speech from electromyographic (EMG) signals, particularly addressing challenges in data scarcity and reliability by employing synthetic data generation and self-training techniques.",
+    "contribution": "This paper introduces the Confidence-based Multi-Speaker Self-training (CoM2S) approach to solve the challenge of limited EMG-speech data, achieving improved speech synthesis accuracy and reduced word error rates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods faced challenges relating to data scarcity and the quality of existing datasets, which often had incompatible recording configurations.",
+        "novelty": "This work improves by systematically employing a filtering mechanism based on phoneme-level confidence to select high-quality synthetic data for self-training, effectively enhancing model performance."
+    },
+    "key_innovation": "Utilizes synthetic EMG data combined with confidence filtering to optimize the training process for EMG-to-speech models.",
+    "real_world_impact": "The proposed framework could significantly advance EMG-based speech synthesis applications, potentially aiding in assistive technologies for individuals with speech impairments.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "Voiced Electromyography (V-ETS)": "**Voiced Electromyography (V-ETS)** refers to the approach of reconstructing speech from the electrical activity of the muscles associated with vocalization.",
+        "soft speech units": "**Soft Speech Units** are speaker-independent representations that can be utilized in various speech synthesis tasks."
+    },
+    "open_sourcing": "The authors plan to release the codes and the proposed Libri-EMG dataset as open-access."
+}

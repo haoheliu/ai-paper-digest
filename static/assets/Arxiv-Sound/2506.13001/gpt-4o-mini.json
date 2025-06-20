@@ -1,0 +1,19 @@
+{
+    "title": "Personalizable Long-Context Symbolic Music Infilling with MIDI-RWKV",
+    "author": "Christian Zhou-Zheng (Metacreation Lab, Simon Fraser University), Philippe Pasquier (Metacreation Lab, Simon Fraser University), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "This paper presents a framework designed for symbolic music generation, which can enhance generative AI tools like MusicLDM by providing strategies for long-context generation and personalization, potentially useful for generating unique music from text inputs.",
+    "field": "Applications-Creative AI",
+    "background": "This research introduces a model for generating and completing multi-track symbolic music by leveraging long contextual information and user-defined musical attributes.",
+    "contribution": "The paper introduces MIDI-RWKV, a long-context music infilling system that utilizes RWKV architecture to enhance computer-assisted music composition through effective context manipulation and personalization.",
+    "technical_comparison": "Prior methods in symbolic music infilling are limited by short context windows and often lack user control. This work improves by employing the RWKV-7 architecture, which allows for infinite context lengths while maintaining coherency and control over musical attributes.",
+    "key_innovation": "Utilizes new prompt formats and adaptive techniques to enable long-context symbolic music infilling effectively and facilitates user personalization without extensive retraining.",
+    "real_world_impact": "This framework has the potential to empower composers by integrating seamlessly with digital audio workstations, thereby enhancing creative expression through AI-assisted music generation.",
+    "limitations": "The model's dependency on training data could limit its effectiveness on highly unique styles outside its training distribution.",
+    "new_terms": {
+        "RWKV": "**RWKV** is a type of recurrent neural network architecture that is designed for efficient long-context sequence modeling, combining advantages of both recurrent and transformer models.",
+        "Bar-Fill representation": "**Bar-Fill representation** refers to a specific encoding format that facilitates symbolic music infilling by marking sections of music to be regenerated within a defined structure."
+    },
+    "open_sourcing": "Model weights and code available at https://github.com/christianazinn/MIDI-RWKV"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Do Music Preferences Reflect Cultural Values? A Cross-National Analysis Using Music Embedding and World Values Survey",
+    "author": "Yongjae Kim (Graduate School of Culture Technology), Seongchan Park (Graduate School of Culture Technology), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The study's methodologies for music embedding and cultural analysis can inform new approaches in audio and cultural computing, especially considering Haohe's focus on audio data and its alignment with cultural contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "Analyzing the relationship between national music preferences and underlying cultural values through music data, audio embeddings, and semantic captioning.",
+    "contribution": "This paper introduces a method for clustering national music preferences based on statistical analysis of musical features and cultural values, achieving significant correlations with established cultural frameworks.",
+    "technical_comparison": {
+        "prior_work": "Previous analyses largely relied on low-level acoustic features or diversity metrics without addressing deeper cultural meanings of music.",
+        "novelty": "This work employs advanced techniques such as audio embeddings and semantic captioning to reveal complex cultural dynamics in music preferences."
+    },
+    "key_innovation": "Utilizes a contrasting embedding approach to highlight distinctive cultural characteristics through music, emphasizing the underlying cultural signals within musical preferences.",
+    "real_world_impact": "Findings suggest that music data can serve as a valuable resource for understanding cultural boundaries globally, enhancing cross-cultural analysis in various fields, including social sciences and marketing.",
+    "limitations": "The approach is correlational and may overlook finer regional variations in musical preferences.",
+    "new_terms": {
+        "audio embeddings": "**Audio embeddings** refer to high-dimensional vector representations of audio content, capturing both acoustic features and semantic content for analysis and comparisons.",
+        "contrastive embeddings": "**Contrastive embeddings** are a method of representing data such that the differences between examples are highlighted, enabling the identification of unique characteristics across categories."
+    },
+    "open_sourcing": ""
+}

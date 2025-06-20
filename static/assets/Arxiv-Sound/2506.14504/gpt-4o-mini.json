@@ -1,0 +1,22 @@
+{
+    "title": "Evolving music theory for emerging musical languages",
+    "author": "Emmanuel Deruty (Sony Computer Science Laboratories), Emmanuel Deruty (Aalborg University), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper critically examines traditional pitch concepts, arguing for a perception-centered model, which could enhance Haohe Liu's work in audio processing and generative models by providing a deeper understanding of musical structure.",
+    "field": "Applications-Creative AI",
+    "background": "The study involves rethinking pitch perception in contemporary popular music, particularly in electronic contexts, where sounds may convey multiple pitches dependent on listeners.",
+    "contribution": "This paper introduces a flexible, perception-centered model of pitch in contemporary popular music to address discrepancies in traditional music theory frameworks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily assumed pitch as a fixed, objective property, relying on traditional Western classical music frameworks.",
+        "novelty": "This work challenges this view, demonstrating that pitch can vary by listener and context, highlighting phenomena like tonal fusion and fission."
+    },
+    "key_innovation": "Utilizes phenomenological and inductive methods to redefine pitch perception, allowing for multiple interpretations of sound in electronic music.",
+    "real_world_impact": "By reframing pitch theory, the findings could influence music production techniques and tools, enhancing creative expression in electronic music genres.",
+    "limitations": "The paper may not comprehensively address the implications of the proposed model across all musical contexts.",
+    "new_terms": {
+        "tonal fission": "**Tonal fission** refers to the phenomenon where a single tone is perceived as conveying multiple distinct pitches, varying by listener and context.",
+        "perceptual multistability": "**Perceptual multistability** describes a situation where perceptions can shift over time, leading to different interpretations of the same stimulus."
+    },
+    "open_sourcing": ""
+}

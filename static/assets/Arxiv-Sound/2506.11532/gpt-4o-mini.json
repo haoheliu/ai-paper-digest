@@ -1,0 +1,22 @@
+{
+    "title": "From Sharpness to Better Generalization for Speech Deepfake Detection",
+    "author": "Wen Huang (Shanghai Jiao Tong University), Xuechen Liu (National Institute of Informatics), Xin Wang (National Institute of Informatics), Junichi Yamagishi (National Institute of Informatics), Yanmin Qian (Shanghai Jiao Tong University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper explores sharpness in model training, which could enhance the robustness of audio deepfake detection models, directly relating to Haohe Liu's research in speech restoration and audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speech Deepfake Detection focuses on identifying whether audio is genuine or synthetic, crucial for addressing issues like misinformation and fraud.",
+    "contribution": "This paper introduces Sharpness-Aware Minimization (SAM) to improve the generalization performance of speech deepfake detection models, achieving better robustness across diverse unseen datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on performance metrics for evaluation without a theoretical understanding of generalization.",
+        "novelty": "This work integrates sharpness as a theoretical measure of generalization, explicitly minimizing it to enhance model robustness."
+    },
+    "key_innovation": "Utilizes sharpness as a diagnostic tool to evaluate model robustness and employs SAM to achieve flatter loss landscapes during training.",
+    "real_world_impact": "Enhancing generalization in speech deepfake detection can lead to more reliable systems in real-world applications facing diverse conditions and spoofing techniques.",
+    "limitations": "No",
+    "new_terms": {
+        "sharpness": "**Sharpness** refers to the sensitivity of a model's performance to small changes in its parameters, with lower sharpness indicating better generalization capability.",
+        "Sharpness-Aware Minimization (SAM)": "**Sharpness-Aware Minimization (SAM)** is an optimization technique that aims to minimize both the loss function and the sharpness, resulting in improved model stability and generalization."
+    },
+    "open_sourcing": "Code available at: https://github.com/niiyamagishilab/SAM-AntiSpoofing"
+}

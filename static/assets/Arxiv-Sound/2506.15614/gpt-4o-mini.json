@@ -1,0 +1,22 @@
+{
+    "title": "TTSOps: A Closed-Loop Corpus Optimization Framework for Training Multi-Speaker TTS Models from Dark Data",
+    "author": "Kentaro Seki (University of Tokyo), Shinnosuke Takamichi (University of Tokyo), Saeki Takaaki (University of Tokyo), Hiroshi Saruwatari (University of Tokyo), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses a method for optimizing corpus construction for text-to-speech systems, which can inform similar approaches in audio processing and generation tasks, such as speech enhancement methods relevant to Haohe's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on creating high-quality, diverse multi-speaker text-to-speech systems using poorly labeled web data by evaluating and optimizing training data selection and cleansing through an automated feedback loop.",
+    "contribution": "This paper introduces TTSOps, a closed-loop framework for optimizing the training corpus, leveraging dark data to improve performance in text-to-speech synthesis models.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often rely on fixed data quality metrics without considering model robustness to noise or variations in data quality during training.",
+        "novelty": "TTSOps dynamically selects the most suitable data cleansing method and incorporates an evaluation-in-the-loop strategy to adaptively filter training data based on its expected contribution to model performance."
+    },
+    "key_innovation": "The unique integration of model-aware evaluation and adaptive data cleansing creates a highly efficient pipeline for handling diverse and noisy datasets.",
+    "real_world_impact": "The proposed framework allows the construction of more robust TTS systems from real-world data, increasing accessibility and usability in applications such as voice assistants and content creation.",
+    "limitations": "While the framework is promising, its dependency on pseudo Mean Opinion Scores for quality assessment may limit accuracy in certain cases.",
+    "new_terms": {
+        "dark data": "**Dark data** refers to large volumes of unstructured data that are generated but not structured or labeled for specific tasks, which poses challenges for traditional data processing techniques.",
+        "mean opinion score (MOS)": "**Mean Opinion Score (MOS)** is a widely used metric for assessing the quality of synthesized speech based on human perceptual ratings."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "VISAGE: Video-to-Spatial Audio Generation",
+    "author": "Jaeyeon Kim (Seoul National University), Heeseung Yun (Seoul National University), Gunhee Kim (Seoul National University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This work is relevant to Haohe Liu's research as it tackles the generation of spatial audio from visual content, which is closely related to audio generation and can complement his work in latent diffusion models for audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves creating first-order ambisonics audio directly from silent video frames, improving the immersive experience in various media.",
+    "contribution": "This paper introduces a framework called ViSAGe to solve the challenge of spatial audio generation from silent videos, achieving coherent and high-quality first-order ambisonics outputs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on generating mono audio or relied on audio spatialization from already generated mono inputs, which often led to inaccuracies in timing and spatial coherence.",
+        "novelty": "This work improves by integrating visual features and camera directions directly into the audio generation process, allowing for real-time contextual audio output."
+    },
+    "key_innovation": "Combines neural audio codecs with visual cues to generate directional spatial audio, ensuring natural sound field representation from silent video.",
+    "real_world_impact": "This research has potential applications in film, virtual reality, and augmented reality, by enhancing the audio-visual synchronization and immersiveness of media experiences.",
+    "limitations": "The paper does not mention any explicit limitations.",
+    "new_terms": {
+        "first-order ambisonics": "**First-order ambisonics** is a spatial audio format that captures sound from all directions using four channels, which can be decoded to recreate a 3D sound field.",
+        "neural audio codec": "**Neural audio codec** refers to machine learning models designed to efficiently compress and generate audio, allowing for high-quality audio synthesis and transmission."
+    },
+    "open_sourcing": "Project page: https://jaeyeonkim99.github.io/visage"
+}

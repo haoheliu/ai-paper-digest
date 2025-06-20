@@ -1,0 +1,22 @@
+{
+    "title": "Advances in Small-Footprint Keyword Spotting: A Comprehensive Review of Efficient Models and Algorithms",
+    "author": "Soumen Garai (National Institute of Technology, Durgapur), Suman Samui (National Institute of Technology, Durgapur), ..., Soumen Garai",
+    "quality": 7,
+    "relevance": 7,
+    "relevance_why": "The paper provides insights into Tiny Machine Learning frameworks that can optimize speech processing models for edge devices, directly applicable to audio and speech applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "Small-Footprint Keyword Spotting (SF-KWS) focuses on identifying specific keywords from continuous speech signals in resource-constrained devices.",
+    "contribution": "This paper introduces a comprehensive overview of SF-KWS techniques, categorizing them into seven distinct groups and discussing their applicability in TinyML frameworks, achieving reduced computational complexity and enhanced efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on traditional KWS models that often did not optimize for edge device constraints.",
+        "novelty": "This work emphasizes modern deep learning techniques and TinyML frameworks for efficient KWS deployment, balancing model complexity with resource limitations."
+    },
+    "key_innovation": "The review categorizes SF-KWS methodologies and emphasizes the integration of TinyML frameworks, facilitating deployment on low-power devices.",
+    "real_world_impact": "This research lays the groundwork for improving on-device keyword recognition in consumer electronics, enhancing user experience while addressing privacy and energy concerns.",
+    "limitations": "The review does not provide new experimental results or breakthroughs but serves as a foundational overview.",
+    "new_terms": {
+        "Tiny Machine Learning": "**Tiny Machine Learning (TinyML)** refers to deploying machine learning models on low-power devices with limited computational resources, focusing on optimizing model size and efficiency.",
+        "Multi-objective optimization": "**Multi-objective optimization (MOO)** involves solving problems with multiple conflicting objectives, balancing trade-offs such as accuracy and resource usage in model deployment."
+    },
+    "open_sourcing": "https://github.com/sumansamui/Small-footprint-keyword-spotting.git"
+}

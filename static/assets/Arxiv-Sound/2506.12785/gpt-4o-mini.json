@@ -1,0 +1,22 @@
+{
+    "title": "Frequency Dynamic Convolutions for Sound Event Detection",
+    "author": "Hyeonuk Nam (Korea Advanced Institute of Science and Technology), Yong-Hwa Park (Korea Advanced Institute of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces innovative convolutional techniques that could enhance audio and sound event detection models, which align closely with my interests in audio quality enhancement and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting specific sound events in audio signals by utilizing advanced convolutional neural network architectures to adaptively process frequency-dependent characteristics.",
+    "contribution": "This paper introduces Frequency Dynamic Convolution (FDY conv) to solve the limitations of traditional convolutional models in effectively capturing frequency-dependent audio characteristics, achieving a significant improvement in sound event detection accuracy.",
+    "technical_comparison": {
+        "prior_work": "Prevailing methods utilize standard 2D convolutions that assume uniform properties across frequency and time dimensions, which can miss essential audio characteristics.",
+        "novelty": "This work dynamically adjusts convolutional kernels based on the input signal's frequency composition, allowing for improved feature representation and detection performance."
+    },
+    "key_innovation": "FDY conv employs frequency-specific attention weights to dynamically combine multiple basis kernels, enhancing representation of diverse audio characteristics.",
+    "real_world_impact": "By improving sound event detection accuracy, this approach has the potential to enhance applications in surveillance, smart home audio systems, and automated audio transcription, thereby impacting various industries relying on audio analysis.",
+    "limitations": "The model's reliance on synthesizing attention weights across frequency may limit its flexibility in representing every unique audio event.",
+    "new_terms": {
+        "Frequency Dynamic Convolution": "**Frequency Dynamic Convolution** refers to a convolutional approach that adjusts its filters based on the frequency content of the input sound signal, improving detection of sound events.",
+        "attention weight": "**Attention weight** is a parameter that allows the model to focus on certain aspects of input data more than others, guiding the model's learning process."
+    },
+    "open_sourcing": ""
+}

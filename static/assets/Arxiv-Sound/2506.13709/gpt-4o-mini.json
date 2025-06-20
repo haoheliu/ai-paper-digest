@@ -1,0 +1,22 @@
+{
+    "title": "SpeechRefiner: Towards Perceptual Quality Refinement for Front-End Algorithms",
+    "author": "Sirui Li (The Chinese University of Hong Kong, Shenzhen), Shuai Wang (Nanjing University, Suzhou), Zhijun Liu (The Chinese University of Hong Kong, Shenzhen), Zhongjie Jiang (Tencent, Shenzhen), Yannan Wang (Tencent, Shenzhen), Haizhou Li (The Chinese University of Hong Kong, Shenzhen), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed SpeechRefiner enhances the perceptual quality of speech signals, which is crucial for audio-related functionalities in Haohe Liu's research, particularly in speech enhancement and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves improving the perceptual quality of speech that has been pre-processed by various algorithms, which often introduce artifacts that detract from audio clarity.",
+    "contribution": "SpeechRefiner introduces a novel post-processing tool using Conditional Flow Matching to improve speech perceptual quality, achieving significant enhancement across various front-end algorithms.",
+    "technical_comparison": {
+        "prior_work": "Previous methods are often specific to one task (e.g., speech enhancement) and require additional co-training, which limits their adaptability and increases complexity.",
+        "novelty": "SpeechRefiner is task-agnostic and can refine outputs from various front-ends without needing task-specific modifications, thereby simplifying the process."
+    },
+    "key_innovation": "Utilizes Conditional Flow Matching to generalize across multiple front-end processing scenarios, improving sound quality uniformly.",
+    "real_world_impact": "This model can significantly enhance audio clarity in applications such as smart conferencing and hearing aids, improving user experience in real-world scenarios.",
+    "limitations": "The model struggles with merging multiple speakers into a single voice and can produce semantically meaningless output on severely distorted speech.",
+    "new_terms": {
+        "Conditional Flow Matching": "**Conditional Flow Matching** is a probabilistic method that allows for the transformation of a simple distribution into a more complex one by conditioning on another variable, simplifying the mapping process.",
+        "Conformer": "**Conformer** is an architecture that combines convolutional and transformer layers to capture both local and global dependencies in sequence data."
+    },
+    "open_sourcing": "https://speechrefiner.github.io/SpeechRefiner/"
+}

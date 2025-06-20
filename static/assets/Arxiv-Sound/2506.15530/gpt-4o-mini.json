@@ -1,0 +1,21 @@
+{
+    "title": "Diff-TONE: Timestep Optimization for Instrument Editing in Text-to-Music Diffusion Models",
+    "author": "Teysir Baoueb (LTCI, Telecom Paris, Institut Polytechnique de Paris), Xiaoyu Bie (LIX, Ecole Polytechnique, Institut Polytechnique de Paris), Xi Wang (LIX, Ecole Polytechnique, Institut Polytechnique de Paris), Gael Richard (LTCI, Telecom Paris, Institut Polytechnique de Paris), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses text-to-music generation and instrument editing, advancing methodologies that could be applied for automatic music composition and manipulation tasks relevant to Haohe's work in audio and music processing.",
+    "field": "Applications-Creative AI",
+    "background": "The task involves altering the instrumentation of audio tracks generated from textual descriptions, maintaining the original piece's content while replacing instruments.",
+    "contribution": "Diff-TONE introduces a method to edit musical instrument timbres in generated audio by selecting optimal timesteps for prompt modification, balancing content preservation with the desired timbre.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely on aligned datasets or require new training, complicating scalability and efficiency.",
+        "novelty": "This work enhances control by selecting a well-chosen intermediate timestep through an instrument classifier, avoiding retraining and maintaining generation speed."
+    },
+    "key_innovation": "The method leverages a pretrained text-to-music diffusion model to facilitate targeted editing of music timbres without compromising the structural integrity of the original audio.",
+    "real_world_impact": "This approach can empower musicians and composers with advanced tools for customizing music tracks, enhancing creative processes and potentially leading to new musical styles.",
+    "limitations": "The model may fail to identify an appropriate timestep for prompt modification, and late selections can lead to ineffective edits.",
+    "new_terms": {
+        "text-to-music diffusion models": "**Text-to-music diffusion models** are generative models that create music audio based on textual descriptions using diffusion techniques."
+    },
+    "open_sourcing": "Audio samples are available at: https://diff-tone.github.io."
+}

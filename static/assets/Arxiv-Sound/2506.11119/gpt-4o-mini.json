@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking Foundation Speech and Language Models for Alzheimer's Disease and Related Dementia Detection from Spontaneous Speech",
+    "author": "Jingyu Li (Georgia Institute of Technology), Lingchao Mao (Georgia Institute of Technology), Hairong Wang (Georgia Institute of Technology), Zhendong Wang (Shandong Mental Health Center), Xi Mao (University of Texas Rio Grande Valley), Xuelei Sherry Ni (Kennesaw State University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper's focus on benchmarking speech and language models for the detection of Alzheimer's Disease could provide methodologies and insights applicable in Haohe Liu's research on audio processing and machine learning, particularly for improving models in the healthcare domain.",
+    "field": "Machine Learning for Sciences-Healthcare",
+    "background": "The study involves classifying cognitive status (healthy control, mild cognitive impairment, Alzheimer's Disease) from spontaneous speech using modern machine learning techniques.",
+    "contribution": "This paper introduces a comprehensive benchmarking framework for automatic speech recognition models to improve early detection of Alzheimer's Disease via non-invasive methods.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods rely heavily on manual feature extraction and mostly focus on binary classifications, with limited datasets.",
+        "novelty": "This work employs state-of-the-art foundation models, assesses multi-class cognitive status classification, and integrates acoustic and linguistic features to enhance detection performance."
+    },
+    "key_innovation": "Utilizes advanced representations from speech and language models to capture a wide variety of markers from spontaneous speech related to cognitive decline.",
+    "real_world_impact": "The findings could significantly advance scalable and non-invasive early detection methods for Alzheimer's and related dementias, potentially improving patient care and outcomes.",
+    "limitations": "No identifiable limitations were explicitly mentioned, although the performance may depend heavily on data quality and model generalizability.",
+    "new_terms": {
+        "foundation models": "**Foundation models** are large-scale pre-trained models that serve as a base for various downstream tasks in machine learning, leveraging large datasets to capture substantial contextual information.",
+        "spontaneous speech": "**Spontaneous speech** refers to natural spoken language produced without pre-planned scripts, typically used in assessments and analysis of cognitive functions."
+    },
+    "open_sourcing": ""
+}

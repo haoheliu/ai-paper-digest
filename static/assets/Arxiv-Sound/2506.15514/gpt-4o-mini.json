@@ -1,0 +1,21 @@
+{
+    "title": "Exploiting Music Source Separation for Automatic Lyrics Transcription with Whisper",
+    "author": "Jaza Syed (Queen Mary University of London), Ivan Meresman Higgs (Queen Mary University of London), Ond\u0159ej C\u00edfka (AudioShake), Mark Sandler (Queen Mary University of London), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores using source separation to enhance Automatic Lyrics Transcription (ALT), which parallels audio enhancement techniques that could be applied to Haohe Liu's work in audio processing and music source separation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automatic Lyrics Transcription aims to extract lyrics from musical recordings, challenging due to interference from musical accompaniment.",
+    "contribution": "This paper introduces a novel method using source separation techniques to improve the transcription accuracy of lyrics, achieving state-of-the-art results in long-form lyric transcription.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with the high interference of musical accompaniment in Automatic Lyrics Transcription, leading to poor results.",
+        "novelty": "This work combines Whisper's ASR capabilities with Hybrid Demucs source separation, optimizing lyric transcription performance."
+    },
+    "key_innovation": "It leverages RMS-VAD (Root Mean Square Voice Activity Detection) for better segmentation in long-form transcription, improving overall accuracy.",
+    "real_world_impact": "The proposed approach could enhance the accuracy of music-related applications, such as lyric databases and music retrieval systems, benefiting both researchers and end-users in the music industry.",
+    "limitations": "The author does not mention explicit limitations in the paper.",
+    "new_terms": {
+        "RMS-VAD": "**Root Mean Square Voice Activity Detection** is a method for identifying vocal activity in audio recordings based on amplitude levels, improving segmentation efficiency."
+    },
+    "open_sourcing": "The experimental code is available as open source."
+}

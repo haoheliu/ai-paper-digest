@@ -1,5 +1,405 @@
 {
   "Arxiv-Sound": {
+    "2506.15614": {
+      "json_path": "Arxiv-Sound/2506.15614/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15614/images/_page_2_Figure_9.jpeg"
+    },
+    "2506.15556": {
+      "json_path": "Arxiv-Sound/2506.15556/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15556/images/_page_1_Figure_1.jpeg"
+    },
+    "2506.15548": {
+      "json_path": "Arxiv-Sound/2506.15548/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15548/images/_page_0_Figure_14.jpeg"
+    },
+    "2506.15530": {
+      "json_path": "Arxiv-Sound/2506.15530/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15530/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.15514": {
+      "json_path": "Arxiv-Sound/2506.15514/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15514/images/_page_3_Figure_10.jpeg"
+    },
+    "2506.15456": {
+      "json_path": "Arxiv-Sound/2506.15456/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15456/images/_page_0_Figure_12.jpeg"
+    },
+    "2506.15220": {
+      "json_path": "Arxiv-Sound/2506.15220/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15220/images/_page_3_Figure_0.jpeg"
+    },
+    "2506.15154": {
+      "json_path": "Arxiv-Sound/2506.15154/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15154/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.15107": {
+      "json_path": "Arxiv-Sound/2506.15107/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2506.15029": {
+      "json_path": "Arxiv-Sound/2506.15029/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15029/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.15000": {
+      "json_path": "Arxiv-Sound/2506.15000/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.15000/images/_page_3_Picture_11.jpeg"
+    },
+    "2506.14877": {
+      "json_path": "Arxiv-Sound/2506.14877/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14877/images/_page_1_Figure_2.jpeg"
+    },
+    "2506.14864": {
+      "json_path": "Arxiv-Sound/2506.14864/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2506.14767": {
+      "json_path": "Arxiv-Sound/2506.14767/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14767/images/_page_2_Figure_1.jpeg"
+    },
+    "2506.14750": {
+      "json_path": "Arxiv-Sound/2506.14750/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14750/images/_page_2_Figure_1.jpeg"
+    },
+    "2506.14723": {
+      "json_path": "Arxiv-Sound/2506.14723/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14723/images/_page_1_Figure_1.jpeg"
+    },
+    "2506.14684": {
+      "json_path": "Arxiv-Sound/2506.14684/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14684/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.14504": {
+      "json_path": "Arxiv-Sound/2506.14504/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14504/images/_page_2_Figure_2.jpeg"
+    },
+    "2506.14503": {
+      "json_path": "Arxiv-Sound/2506.14503/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2506.14434": {
+      "json_path": "Arxiv-Sound/2506.14434/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14434/images/_page_1_Figure_4.jpeg"
+    },
+    "2506.14398": {
+      "json_path": "Arxiv-Sound/2506.14398/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14398/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.14396": {
+      "json_path": "Arxiv-Sound/2506.14396/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14396/images/_page_0_Figure_11.jpeg"
+    },
+    "2506.14293": {
+      "json_path": "Arxiv-Sound/2506.14293/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14293/images/_page_0_Picture_7.jpeg"
+    },
+    "2506.14226": {
+      "json_path": "Arxiv-Sound/2506.14226/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14226/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.14223": {
+      "json_path": "Arxiv-Sound/2506.14223/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14223/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.14204": {
+      "json_path": "Arxiv-Sound/2506.14204/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14204/images/_page_1_Figure_1.jpeg"
+    },
+    "2506.14190": {
+      "json_path": "Arxiv-Sound/2506.14190/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14190/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.14177": {
+      "json_path": "Arxiv-Sound/2506.14177/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14177/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.14153": {
+      "json_path": "Arxiv-Sound/2506.14153/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14153/images/_page_2_Figure_1.jpeg"
+    },
+    "2506.14148": {
+      "json_path": "Arxiv-Sound/2506.14148/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.14148/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.13970": {
+      "json_path": "Arxiv-Sound/2506.13970/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2506.13969": {
+      "json_path": "Arxiv-Sound/2506.13969/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13969/images/_page_5_Figure_3.jpeg"
+    },
+    "2506.13833": {
+      "json_path": "Arxiv-Sound/2506.13833/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13833/images/_page_9_Figure_0.jpeg"
+    },
+    "2506.13709": {
+      "json_path": "Arxiv-Sound/2506.13709/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13709/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.13642": {
+      "json_path": "Arxiv-Sound/2506.13642/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13642/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.13596": {
+      "json_path": "Arxiv-Sound/2506.13596/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13596/images/_page_0_Figure_14.jpeg"
+    },
+    "2506.13595": {
+      "json_path": "Arxiv-Sound/2506.13595/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13595/images/_page_4_Figure_3.jpeg"
+    },
+    "2506.13455": {
+      "json_path": "Arxiv-Sound/2506.13455/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2506.13295": {
+      "json_path": "Arxiv-Sound/2506.13295/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13295/images/_page_1_Figure_1.jpeg"
+    },
+    "2506.13272": {
+      "json_path": "Arxiv-Sound/2506.13272/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13272/images/_page_0_Picture_5.jpeg"
+    },
+    "2506.13199": {
+      "json_path": "Arxiv-Sound/2506.13199/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13199/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.13127": {
+      "json_path": "Arxiv-Sound/2506.13127/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13127/images/_page_2_Figure_1.jpeg"
+    },
+    "2506.13053": {
+      "json_path": "Arxiv-Sound/2506.13053/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13053/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.13001": {
+      "json_path": "Arxiv-Sound/2506.13001/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.13001/images/_page_3_Figure_0.jpeg"
+    },
+    "2506.12935": {
+      "json_path": "Arxiv-Sound/2506.12935/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12935/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.12817": {
+      "json_path": "Arxiv-Sound/2506.12817/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12817/images/_page_1_Figure_2.jpeg"
+    },
+    "2506.12785": {
+      "json_path": "Arxiv-Sound/2506.12785/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2506.12705": {
+      "json_path": "Arxiv-Sound/2506.12705/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12705/images/_page_1_Figure_16.jpeg"
+    },
+    "2506.12672": {
+      "json_path": "Arxiv-Sound/2506.12672/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12672/images/_page_1_Figure_9.jpeg"
+    },
+    "2506.12665": {
+      "json_path": "Arxiv-Sound/2506.12665/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12665/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.12627": {
+      "json_path": "Arxiv-Sound/2506.12627/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12627/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.12573": {
+      "json_path": "Arxiv-Sound/2506.12573/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12573/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.12570": {
+      "json_path": "Arxiv-Sound/2506.12570/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12570/images/_page_1_Figure_1.jpeg"
+    },
+    "2506.12500": {
+      "json_path": "Arxiv-Sound/2506.12500/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12500/images/_page_0_Figure_11.jpeg"
+    },
+    "2506.12481": {
+      "json_path": "Arxiv-Sound/2506.12481/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12481/images/_page_0_Figure_10.jpeg"
+    },
+    "2506.12440": {
+      "json_path": "Arxiv-Sound/2506.12440/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12440/images/_page_4_Figure_3.jpeg"
+    },
+    "2506.12405": {
+      "json_path": "Arxiv-Sound/2506.12405/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12405/images/_page_6_Figure_0.jpeg"
+    },
+    "2506.12325": {
+      "json_path": "Arxiv-Sound/2506.12325/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12325/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.12311": {
+      "json_path": "Arxiv-Sound/2506.12311/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12311/images/_page_0_Figure_0.jpeg"
+    },
+    "2506.12285": {
+      "json_path": "Arxiv-Sound/2506.12285/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12285/images/_page_1_Picture_0.jpeg"
+    },
+    "2506.12260": {
+      "json_path": "Arxiv-Sound/2506.12260/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12260/images/_page_2_Figure_3.jpeg"
+    },
+    "2506.12222": {
+      "json_path": "Arxiv-Sound/2506.12222/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12222/images/_page_1_Figure_4.jpeg"
+    },
+    "2506.12199": {
+      "json_path": "Arxiv-Sound/2506.12199/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12199/images/_page_1_Figure_1.jpeg"
+    },
+    "2506.12154": {
+      "json_path": "Arxiv-Sound/2506.12154/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12154/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.12083": {
+      "json_path": "Arxiv-Sound/2506.12083/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12083/images/_page_4_Figure_2.jpeg"
+    },
+    "2506.12073": {
+      "json_path": "Arxiv-Sound/2506.12073/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12073/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.12067": {
+      "json_path": "Arxiv-Sound/2506.12067/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12067/images/_page_3_Figure_0.jpeg"
+    },
+    "2506.12059": {
+      "json_path": "Arxiv-Sound/2506.12059/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12059/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.12008": {
+      "json_path": "Arxiv-Sound/2506.12008/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.12008/images/_page_0_Figure_10.jpeg"
+    },
+    "2506.11862": {
+      "json_path": "Arxiv-Sound/2506.11862/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11862/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.11811": {
+      "json_path": "Arxiv-Sound/2506.11811/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11811/images/_page_4_Figure_2.jpeg"
+    },
+    "2506.11747": {
+      "json_path": "Arxiv-Sound/2506.11747/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11747/images/_page_4_Figure_2.jpeg"
+    },
+    "2506.11620": {
+      "json_path": "Arxiv-Sound/2506.11620/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11620/images/_page_4_Figure_0.jpeg"
+    },
+    "2506.11605": {
+      "json_path": "Arxiv-Sound/2506.11605/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11605/images/_page_4_Figure_0.jpeg"
+    },
+    "2506.11542": {
+      "json_path": "Arxiv-Sound/2506.11542/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11542/images/_page_1_Figure_11.jpeg"
+    },
+    "2506.11532": {
+      "json_path": "Arxiv-Sound/2506.11532/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11532/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.11514": {
+      "json_path": "Arxiv-Sound/2506.11514/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11514/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.11476": {
+      "json_path": "Arxiv-Sound/2506.11476/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11476/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.11403": {
+      "json_path": "Arxiv-Sound/2506.11403/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11403/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.11350": {
+      "json_path": "Arxiv-Sound/2506.11350/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11350/images/_page_0_Figure_9.jpeg"
+    },
+    "2506.11331": {
+      "json_path": "Arxiv-Sound/2506.11331/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11331/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.11169": {
+      "json_path": "Arxiv-Sound/2506.11169/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11169/images/_page_1_Figure_1.jpeg"
+    },
+    "2506.11160": {
+      "json_path": "Arxiv-Sound/2506.11160/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11160/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.11145": {
+      "json_path": "Arxiv-Sound/2506.11145/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11145/images/_page_0_Picture_14.jpeg"
+    },
+    "2506.11130": {
+      "json_path": "Arxiv-Sound/2506.11130/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11130/images/_page_2_Figure_0.jpeg"
+    },
+    "2506.11121": {
+      "json_path": "Arxiv-Sound/2506.11121/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11121/images/_page_0_Figure_13.jpeg"
+    },
+    "2506.11119": {
+      "json_path": "Arxiv-Sound/2506.11119/gpt-4o-mini.json",
+      "first_image": null
+    },
+    "2506.11096": {
+      "json_path": "Arxiv-Sound/2506.11096/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11096/images/_page_2_Figure_1.jpeg"
+    },
+    "2506.11091": {
+      "json_path": "Arxiv-Sound/2506.11091/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11091/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.11090": {
+      "json_path": "Arxiv-Sound/2506.11090/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11090/images/_page_0_Figure_12.jpeg"
+    },
+    "2506.11079": {
+      "json_path": "Arxiv-Sound/2506.11079/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11079/images/_page_1_Figure_4.jpeg"
+    },
+    "2506.11075": {
+      "json_path": "Arxiv-Sound/2506.11075/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11075/images/_page_0_Figure_12.jpeg"
+    },
+    "2506.11074": {
+      "json_path": "Arxiv-Sound/2506.11074/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11074/images/_page_1_Figure_16.jpeg"
+    },
+    "2506.11072": {
+      "json_path": "Arxiv-Sound/2506.11072/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11072/images/_page_2_Figure_8.jpeg"
+    },
+    "2506.11069": {
+      "json_path": "Arxiv-Sound/2506.11069/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11069/images/_page_1_Figure_16.jpeg"
+    },
+    "2506.11064": {
+      "json_path": "Arxiv-Sound/2506.11064/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.11064/images/_page_0_Figure_11.jpeg"
+    },
+    "2506.10754": {
+      "json_path": "Arxiv-Sound/2506.10754/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.10754/images/_page_1_Figure_0.jpeg"
+    },
+    "2506.10676": {
+      "json_path": "Arxiv-Sound/2506.10676/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.10676/images/_page_1_Figure_2.jpeg"
+    },
+    "2506.10423": {
+      "json_path": "Arxiv-Sound/2506.10423/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.10423/images/_page_1_Figure_2.jpeg"
+    },
+    "2506.10274": {
+      "json_path": "Arxiv-Sound/2506.10274/gpt-4o-mini.json",
+      "first_image": "Arxiv-Sound/2506.10274/images/_page_2_Figure_0.jpeg"
+    },
     "2505.18096": {
       "json_path": "Arxiv-Sound/2505.18096/gpt-4o-mini.json",
       "first_image": "Arxiv-Sound/2505.18096/images/_page_0_Figure_2.jpeg"

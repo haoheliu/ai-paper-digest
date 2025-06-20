@@ -1,0 +1,22 @@
+{
+    "title": "Can we train ASR systems on Code-switch without real code-switch data? Case study for Singapore's languages",
+    "author": "Tuan Nguyen (Institute for Infocomm Research), Huy-Dat Tran (Institute for Infocomm Research), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses novel data augmentation methods for Automatic Speech Recognition (ASR) systems, which could enhance audio recognition performance, a key focus area in Haohe Liu's research. The adoption of synthetic data aligns with the ideas of scalable data solutions in audio applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper aims to develop automatic speech recognition systems that effectively handle code-switching between languages by employing synthetic data generation techniques, addressing challenges posed by the scarcity of real code-switched data.",
+    "contribution": "This paper introduces a phrase-level mixing method to generate synthetic code-switched data to improve ASR systems, achieving significant performance enhancements on various test sets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on real code-switch data, which is scarce and expensive to obtain.",
+        "novelty": "This work improves upon traditional lexicon-based mixing by using a more flexible phrase-mixing approach that better reflects natural conversation patterns."
+    },
+    "key_innovation": "The phrase-level mixing technique allows for the creation of realistic synthetic code-switched speech from existing monolingual data, facilitating the training of ASR models without requiring annotated code-switching datasets.",
+    "real_world_impact": "By improving ASR systems for multilingual environments, this method has the potential to enhance communication technology in diverse linguistic contexts, particularly in Southeast Asia.",
+    "limitations": "No",
+    "new_terms": {
+        "code-switching": "**Code-switching** is the practice of alternating between two or more languages or dialects within a single discourse.",
+        "phrase-level mixing": "**Phrase-level mixing** refers to the technique of blending segments or phrases from different languages to create coherent synthetic speech samples."
+    },
+    "open_sourcing": "Datasets and model APIs are available upon email request."
+}

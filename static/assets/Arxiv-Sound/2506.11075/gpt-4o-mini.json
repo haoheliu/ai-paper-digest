@@ -1,0 +1,19 @@
+{
+    "title": "Fifteen Years of Child-Centered Long-Form Recordings: Promises, Resources, and Remaining Challenges to Validity",
+    "author": "Loann Peurey (LSCP, ENS, France), Marvin Lavechin (BabyDevLab, University of East London, UK), Tarek Kunze (LSCP, ENS, France), Manel Khentout (LSCP, ENS, France), Lucas Gautheron (IZWT, University of Wuppertal, Germany), Emmanuel Dupoux (LSCP, ENS, France), Alejandrina Cristia (LSCP, ENS, France), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses challenges in automated metric interpretation that could enrich Haohe Liu's understanding of audio analysis in children's language, particularly in refining audio processing models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the analysis of long-form audio recordings made by children to study their language environment and development.",
+    "contribution": "This paper introduces a review of long-form audio recordings and their implications in child language research, highlighting metrics for evaluating data quality.",
+    "technical_comparison": "Previous systems often relied on manual annotations for assessments, which were time-consuming and limited in scale. This work improves by proposing automated quality control metrics to enhance data processing accuracy.",
+    "key_innovation": "The framework for troubleshooting algorithm performance variations through automated metrics is a unique aspect of this work.",
+    "real_world_impact": "It offers important insights for researchers and clinicians aiming to use child-centered audio data more effectively, potentially guiding interventions in child language development.",
+    "limitations": "The paper does not provide a fully automated quality control system and relies on further methodological work to enhance analyses.",
+    "new_terms": {
+        "long-form recordings": "**Long-form recordings** refer to extensive audio recordings collected over a whole day, capturing natural language usage in children's environments.",
+        "voice-type classifiers": "**Voice-type classifiers** are algorithms used to differentiate between various speakers in recorded audio, such as children and adults."
+    },
+    "open_sourcing": ""
+}
