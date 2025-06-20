@@ -176,9 +176,10 @@
     let dislikedPapers = new Set();
     let paperLists = {};    // { listName: [paperId,...] }
 
-    let mainIndex = null;   // The big index.json from /static/assets/index.json
-    let paperCache = {};    // paperCache[cat] => array of {id,info,data}
-    let filteredPapers = [];
+    // Remove the old paperCache and mainIndex - we'll load papers on demand
+    let currentPapers = []; // Current page papers
+    let totalPapers = 0;    // Total papers count
+    let totalPages = 1;     // Total pages count
 
     // field filter
     const ALL_FIELDS = [
@@ -233,7 +234,8 @@
     let selectedFields = new Set(ALL_FIELDS);
 
     let currentCategory = "Arxiv-Sound";
-    let currentPage=1, itemsPerPage=4;
+    let currentPage = 1;
+    let itemsPerPage = 10;
 
     // UI references
     const loadingSpinner = document.getElementById("loadingSpinner");
@@ -263,8 +265,8 @@
       loadingSpinner.classList.remove("hidden");
       try {
         await loadServerData();   // get liked/disliked/lists from server
-        await loadMainIndex();    // load index.json
         setupFieldFilter();
+        setupEventListeners();
       } catch(e){ console.error(e); }
       finally { loadingSpinner.classList.add("hidden"); }
       loadCategory("Arxiv-Sound");
@@ -280,10 +282,77 @@
       } catch(e){ console.error("failed get_data:",e); }
     }
 
-    async function loadMainIndex(){
-      let resp=await fetch("/static/assets/index.json");
-      if(!resp.ok) throw new Error("Failed to load index.json");
-      mainIndex=await resp.json();
+    function setupEventListeners() {
+      // Category tabs
+      categoryTabs.addEventListener("click", (e) => {
+        if (e.target.classList.contains("nav-link")) {
+          // Remove active class from all tabs
+          document.querySelectorAll("#categoryTabs .nav-link").forEach(tab => tab.classList.remove("active"));
+          // Add active class to clicked tab
+          e.target.classList.add("active");
+          
+          const category = e.target.getAttribute("data-category");
+          if (category) {
+            loadCategory(category);
+          }
+        }
+      });
+
+      // Filter controls
+      applySearchBtn.addEventListener("click", () => {
+        currentPage = 1;
+        loadCategory(currentCategory);
+      });
+
+      minQualityInput.addEventListener("change", () => {
+        currentPage = 1;
+        loadCategory(currentCategory);
+      });
+
+      minRelevanceInput.addEventListener("change", () => {
+        currentPage = 1;
+        loadCategory(currentCategory);
+      });
+
+      itemsPerPageSelect.addEventListener("change", () => {
+        itemsPerPage = parseInt(itemsPerPageSelect.value);
+        currentPage = 1;
+        loadCategory(currentCategory);
+      });
+
+      // Pagination controls
+      prevPageBtn.addEventListener("click", () => {
+        if (currentPage > 1) {
+          currentPage--;
+          loadCategory(currentCategory);
+        }
+      });
+
+      nextPageBtn.addEventListener("click", () => {
+        if (currentPage < totalPages) {
+          currentPage++;
+          loadCategory(currentCategory);
+        }
+      });
+
+      goToPageBtn.addEventListener("click", () => {
+        const page = parseInt(jumpToPageInput.value);
+        if (page >= 1 && page <= totalPages) {
+          currentPage = page;
+          loadCategory(currentCategory);
+        }
+      });
+
+      // Search on Enter key
+      searchInput.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") {
+          currentPage = 1;
+          loadCategory(currentCategory);
+        }
+      });
+
+      // PDF Export
+      exportPdfBtn.addEventListener("click", exportCollectedPapersToPDF);
     }
 
     function setupFieldFilter(){
@@ -303,7 +372,8 @@
         let cb=document.getElementById(safeId);
         cb.addEventListener("change", ()=>{
           if(cb.checked) selectedFields.add(field); else selectedFields.delete(field);
-          renderPapers();
+          currentPage = 1;
+          loadCategory(currentCategory);
         });
       });
     }
@@ -314,43 +384,52 @@
         renderUserData();
         return;
       }
-      if(category==="Collected"){
-        currentCategory=category;
-        renderPapers();
-        return;
-      }
-      if(paperCache[category]){
-        currentCategory=category;
-        renderPapers();
-        return;
-      }
+
+      currentCategory = category;
       loadingSpinner.classList.remove("hidden");
+      filterRow.style.display = "";
+      papersContainer.style.display = "";
+      paginationControls.style.display = "none";
+
       try {
-        let catObj=mainIndex[category]||{};
-        let tasks=Object.entries(catObj).map(async ([paperId, info])=>{
-          try {
-            let r=await fetch(`/static/assets/${info.json_path}`);
-            let d=await r.json();
-            let images=info.images||(info.first_image?[info.first_image]:[]);
-            return {id:paperId,info:{images},data:d};
-          } catch(e){ console.error(e); return null; }
-        });
-        let results=await Promise.all(tasks);
-        paperCache[category]=results.filter(x=>x);
-      } catch(e){ console.error(e); paperCache[category]=[]; }
-      finally{
+        await loadPapersForCategory(category);
+        renderPapers();
+      } catch(e){ 
+        console.error(e); 
+        papersContainer.innerHTML='<div class="col">Error loading papers</div>';
+      } finally {
         loadingSpinner.classList.add("hidden");
-        filterRow.style.display="";
-        papersContainer.style.display="";
-        paginationControls.style.display="none";
-        currentCategory=category;
-        updateFiltersAndRender();
       }
     }
 
-    function updateFiltersAndRender(){
-      currentPage=1;
-      renderPapers();
+    async function loadPapersForCategory(category) {
+      const params = new URLSearchParams({
+        page: currentPage,
+        per_page: itemsPerPage,
+        min_quality: minQualityInput.value || "",
+        min_relevance: minRelevanceInput.value || "",
+        search: searchInput.value || "",
+        fields: Array.from(selectedFields).join(",")
+      });
+
+      let url;
+      if (category === "Collected") {
+        url = `/get_collected_papers?${params}`;
+      } else {
+        params.set("category", category);
+        url = `/get_papers?${params}`;
+      }
+
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`Failed to load papers: ${response.statusText}`);
+      }
+
+      const data = await response.json();
+      currentPapers = data.papers;
+      totalPapers = data.total;
+      totalPages = data.total_pages;
+      currentPage = data.page;
     }
 
     function renderPapers(){
@@ -358,80 +437,26 @@
         renderUserData();
         return;
       }
-      let minQ=parseInt(minQualityInput.value)||0;
-      let minR=parseInt(minRelevanceInput.value)||0;
-      let searchTxt=searchInput.value.toLowerCase().trim();
-      let readedSet=new Set(paperLists["readed"]||[]);
 
-      if(currentCategory==="Collected"){
-        // gather all from all categories
-        let all=[];
-        Object.keys(paperCache).forEach(cat=>all.push(...paperCache[cat]));
-        // remove disliked
-        all=all.filter(x=>!dislikedPapers.has(x.id));
-        // do not remove read if liked; if read but not liked => hide
-        all=all.filter(x=> {
-          if(readedSet.has(x.id) && (likedPapers[x.id]||0)<=0) {
-            return false;
-          }
-          return true;
-        });
-        // keep only liked>0
-        all=all.filter(x=>(likedPapers[x.id]||0)>0);
-        // field+search
-        filteredPapers=all.filter(item=>{
-          let {quality,relevance,field,title,author}=item.data;
-          if((quality||0)<minQ) return false;
-          if((relevance||0)<minR) return false;
-          if(field&&!selectedFields.has(field)) return false;
-          let combined=(title+" "+(author||"")).toLowerCase();
-          return(!searchTxt||combined.includes(searchTxt));
-        });
-        // sort by like desc
-        filteredPapers.sort((a,b)=>{
-          let la=likedPapers[a.id]||0, lb=likedPapers[b.id]||0;
-          return lb-la;
-        });
-      } else {
-        // normal category
-        if(!paperCache[currentCategory]){
-          papersContainer.innerHTML='<div class="col">No papers found (not loaded or error)</div>';
-          paginationControls.style.display='none';
-          return;
-        }
-        let all=paperCache[currentCategory];
-        // remove disliked
-        all=all.filter(x=>!dislikedPapers.has(x.id));
-        // remove readed from these categories
-        all=all.filter(x=>!readedSet.has(x.id));
-        // apply filter
-        filteredPapers=all.filter(item=>{
-          let {quality,relevance,field,title,author}=item.data;
-          if((quality||0)<minQ) return false;
-          if((relevance||0)<minR) return false;
-          if(field&&!selectedFields.has(field)) return false;
-          let combined=(title+" "+(author||"")).toLowerCase();
-          return(!searchTxt||combined.includes(searchTxt));
-        });
-      }
-
-      if(filteredPapers.length===0){
+      if(currentPapers.length === 0){
         papersContainer.innerHTML='<div class="col">No papers found.</div>';
         paginationControls.style.display='none';
         return;
-      } else {
-        paginationControls.style.display='flex';
       }
 
-      itemsPerPage=parseInt(itemsPerPageSelect.value);
-      let totalPages=Math.ceil(filteredPapers.length/itemsPerPage);
-      currentPage=Math.max(1, Math.min(currentPage,totalPages));
+      // Show pagination controls
+      paginationControls.style.display='flex';
+      currentPageSpan.textContent = currentPage;
+      totalPagesSpan.textContent = totalPages;
 
-      let start=(currentPage-1)*itemsPerPage, end=start+itemsPerPage;
-      let pageData=filteredPapers.slice(start,end);
+      // Update pagination button states
+      prevPageBtn.disabled = currentPage <= 1;
+      nextPageBtn.disabled = currentPage >= totalPages;
 
       papersContainer.innerHTML="";
-      pageData.forEach(({id, info, data})=>{
+      const readedSet = new Set(paperLists["readed"] || []);
+
+      currentPapers.forEach(({id, info, data})=>{
         let col=document.createElement("div");
         col.className="col";
 
@@ -559,8 +584,6 @@
         papersContainer.appendChild(col);
       });
 
-      currentPageSpan.textContent=currentPage;
-      totalPagesSpan.textContent=totalPages;
       attachZoomHandlers();
     }
 
@@ -579,24 +602,23 @@
       // readed => paperLists["readed"] if any
       let readedArr=(paperLists["readed"]||[]);
       // liked => any paper with like>0
-      let allP=[];
-      Object.keys(paperCache).forEach(cat=> allP.push(...paperCache[cat]));
       let likedArr=[];
-      allP.forEach(obj=>{
-        let c=likedPapers[obj.id]||0;
-        if(c>0) likedArr.push(obj.id);
+      Object.keys(likedPapers).forEach(paperId => {
+        if (likedPapers[paperId] > 0) {
+          likedArr.push(paperId);
+        }
       });
 
       // custom lists => everything else in paperLists
       let customListHtml="";
       Object.entries(paperLists).forEach(([listName, arr])=>{
         if(listName==="readed") return; // we handle readed separately
-        customListHtml+=buildUserDataSection(`List: ${listName}`, arr, allP);
+        customListHtml+=buildUserDataSection(`List: ${listName}`, arr);
       });
 
-      let dislikedHtml = buildUserDataSection(`Disliked Papers`, dislikedArr, allP);
-      let readedHtml   = buildUserDataSection(`Readed Papers`, readedArr, allP);
-      let likedHtml    = buildUserDataSection(`Liked Papers`, likedArr, allP, true); // sorted by likes desc?
+      let dislikedHtml = buildUserDataSection(`Disliked Papers`, dislikedArr);
+      let readedHtml   = buildUserDataSection(`Readed Papers`, readedArr);
+      let likedHtml    = buildUserDataSection(`Liked Papers`, likedArr, true); // sorted by likes desc?
 
       container.innerHTML+=`
         ${dislikedHtml}
@@ -611,7 +633,7 @@
     }
 
     // Collapsible sections for user data
-    function buildUserDataSection(title, arrOfIds, allPapers, doSortByLikes=false){
+    function buildUserDataSection(title, arrOfIds, doSortByLikes=false){
       if(!arrOfIds || arrOfIds.length===0){
         return `
           <div class="ud-section-title" data-bs-toggle="collapse" data-bs-target="#ud-${title.replace(/\W+/g,'-')}" aria-expanded="false">
@@ -623,41 +645,41 @@
         `;
       }
 
-      // convert IDs to paper objects
-      let listObjs=arrOfIds.map(id=>{
-        let found=null;
-        for(let cat in paperCache){
-          let paper=paperCache[cat].find(x=>x.id===id);
-          if(paper) {found=paper; break;}
-        }
-        return found;
-      }).filter(x=>x);
-
-      if(doSortByLikes){
-        listObjs.sort((a,b)=>{
-          let la=likedPapers[a.id]||0, lb=likedPapers[b.id]||0;
-          return lb-la;
-        });
-      }
-
-      let lines=listObjs.map(obj=>{
-        let {id, data}=obj;
-        let c=likedPapers[id]||0;
-        let link=`https://arxiv.org/abs/${id}`;
+      // For user data, we'll just show the paper IDs and titles from the liked papers
+      // since we don't have all paper data loaded
+      let lines = arrOfIds.map(id => {
+        let c = likedPapers[id] || 0;
+        let link = `https://arxiv.org/abs/${id}`;
         // add undo button if we are in disliked papers
-        let extraBtn="";
-        if(title==="Disliked Papers"){
-          extraBtn=`<button class="btn btn-sm btn-outline-secondary ms-2" onclick="undoDislikePaper('${id}')">Undo Dislike</button>`;
+        let extraBtn = "";
+        if(title === "Disliked Papers"){
+          extraBtn = `<button class="btn btn-sm btn-outline-secondary ms-2" onclick="undoDislikePaper('${id}')">Undo Dislike</button>`;
         }
 
         return `
           <li>
-            <a href="${link}" target="_blank"><strong>${data.title||id}</strong></a>
+            <a href="${link}" target="_blank"><strong>${id}</strong></a>
             (ID: ${id}), likes:${c}
             ${extraBtn}
           </li>
         `;
       }).join("");
+
+      // Sort by likes if requested
+      if (doSortByLikes) {
+        lines = arrOfIds
+          .sort((a, b) => (likedPapers[b] || 0) - (likedPapers[a] || 0))
+          .map(id => {
+            let c = likedPapers[id] || 0;
+            let link = `https://arxiv.org/abs/${id}`;
+            return `
+              <li>
+                <a href="${link}" target="_blank"><strong>${id}</strong></a>
+                (ID: ${id}), likes:${c}
+              </li>
+            `;
+          }).join("");
+      }
 
       return `
         <div class="ud-section-title" data-bs-toggle="collapse" data-bs-target="#ud-${title.replace(/\W+/g,'-')}" aria-expanded="false">
@@ -685,7 +707,8 @@
         if(result.likes>=0 && dislikedPapers.has(paperId)){
           dislikedPapers.delete(paperId);
         }
-        renderPapers();
+        // Reload current page to reflect changes
+        await loadCategory(currentCategory);
       } catch(e){ console.error("likePaper error:", e); }
     }
 
@@ -703,7 +726,8 @@
         if(newLikes<0){
           dislikedPapers.add(paperId);
         }
-        renderPapers();
+        // Reload current page to reflect changes
+        await loadCategory(currentCategory);
       } catch(e){ console.error("dislikePaper error:", e); }
     }
 
@@ -723,7 +747,8 @@
           dislikedPapers.delete(paperId);
         }
         renderUserData();
-        renderPapers();
+        // Reload current page to reflect changes
+        await loadCategory(currentCategory);
       } catch(e){ console.error("undoDislikePaper error:", e);}
     }
 
@@ -740,7 +765,8 @@
         if(!paperLists["readed"].includes(paperId)){
           paperLists["readed"].push(paperId);
         }
-        renderPapers();
+        // Reload current page to reflect changes
+        await loadCategory(currentCategory);
       } catch(e){ console.error("markPaperRead error:", e); }
     }
 
@@ -757,7 +783,8 @@
           let idx=paperLists["readed"].indexOf(paperId);
           if(idx>=0) paperLists["readed"].splice(idx,1);
         }
-        renderPapers();
+        // Reload current page to reflect changes
+        await loadCategory(currentCategory);
       } catch(e){ console.error("markPaperUnread error:", e); }
     }
 
@@ -804,84 +831,58 @@
     }
 
     // ---------- PDF Export ----------
-    exportPdfBtn.addEventListener("click", exportCollectedPapersToPDF);
     async function exportCollectedPapersToPDF(){
-      // gather all liked>0
-      let all=[];
-      Object.keys(paperCache).forEach(cat=>all.push(...paperCache[cat]));
-      // remove disliked
-      let arr=all.filter(x=>!dislikedPapers.has(x.id));
-      // remove read if not liked
-      let readSet=new Set(paperLists["readed"]||[]);
-      arr=arr.filter(x=> !(readSet.has(x.id) && (likedPapers[x.id]||0)<=0));
-      let likedOnly=arr.filter(x=>(likedPapers[x.id]||0)>0);
-
-      if(likedOnly.length===0){
-        alert("No liked papers to export yet.");
-        return;
-      }
-      let doc=new jsPDF({unit:"pt",format:"letter"});
-      doc.setFont("helvetica","normal");
-      let yPos=40;
-      doc.setFontSize(14);
-      doc.text(`Collected Papers (${likedOnly.length})`,40,yPos);
-      yPos+=20;
-
-      doc.setFontSize(10);
-      likedOnly.forEach((p,i)=>{
-        let {id,data}=p;
-        if(yPos>700){ doc.addPage(); yPos=40; }
-        doc.setFont("","bold");
-        doc.text(`${i+1}. Title: ${data.title||id}`,40,yPos);
-        yPos+=14;
-
-        doc.setFont("","normal");
-        if(data.author){
-          let aText=`Authors: ${data.author}`;
-          let splitted=doc.splitTextToSize(aText,500);
-          doc.text(splitted,40,yPos);
-          yPos+=splitted.length*12+6;
+      // Get all collected papers from the server
+      try {
+        const response = await fetch("/get_collected_papers?per_page=1000"); // Get all papers
+        if (!response.ok) {
+          throw new Error("Failed to load papers for export");
         }
-        let qrf=`Quality: ${data.quality||''} | Relevance: ${data.relevance||''} | Field: ${data.field||''}`;
-        doc.text(qrf,40,yPos);
-        yPos+=14;
-        yPos+=20;
-      });
+        const data = await response.json();
+        const likedOnly = data.papers;
 
-      let d=new Date();
-      let yyyy=d.getFullYear(), mm=String(d.getMonth()+1).padStart(2,'0'), dd=String(d.getDate()).padStart(2,'0');
-      let filename=`${yyyy}-${mm}-${dd}_${likedOnly.length}_collected_papers.pdf`;
-      doc.save(filename);
+        if(likedOnly.length === 0){
+          alert("No liked papers to export yet.");
+          return;
+        }
+
+        let doc = new jsPDF({unit:"pt",format:"letter"});
+        doc.setFont("helvetica","normal");
+        let yPos = 40;
+        doc.setFontSize(14);
+        doc.text(`Collected Papers (${likedOnly.length})`,40,yPos);
+        yPos += 20;
+
+        doc.setFontSize(10);
+        likedOnly.forEach((p,i)=>{
+          let {id,data} = p;
+          if(yPos > 700){ doc.addPage(); yPos = 40; }
+          doc.setFont("","bold");
+          doc.text(`${i+1}. Title: ${data.title||id}`,40,yPos);
+          yPos += 14;
+
+          doc.setFont("","normal");
+          if(data.author){
+            let aText = `Authors: ${data.author}`;
+            let splitted = doc.splitTextToSize(aText,500);
+            doc.text(splitted,40,yPos);
+            yPos += splitted.length*12+6;
+          }
+          let qrf = `Quality: ${data.quality||''} | Relevance: ${data.relevance||''} | Field: ${data.field||''}`;
+          doc.text(qrf,40,yPos);
+          yPos += 14;
+          yPos += 20;
+        });
+
+        let d = new Date();
+        let yyyy = d.getFullYear(), mm = String(d.getMonth()+1).padStart(2,'0'), dd = String(d.getDate()).padStart(2,'0');
+        let filename = `${yyyy}-${mm}-${dd}_${likedOnly.length}_collected_papers.pdf`;
+        doc.save(filename);
+      } catch(e) {
+        console.error("PDF export error:", e);
+        alert("Failed to export PDF. Please try again.");
+      }
     }
-
-    // ---------- Tab switching ----------
-    categoryTabs.addEventListener("click",(evt)=>{
-      if(!evt.target.classList.contains("nav-link")) return;
-      document.querySelectorAll("#categoryTabs .nav-link").forEach(tab=>tab.classList.remove("active"));
-      evt.target.classList.add("active");
-      let cat=evt.target.getAttribute("data-category");
-      loadCategory(cat);
-    });
-
-    // ---------- Filter/Pagination events ----------
-    applySearchBtn.addEventListener("click",()=>{ currentPage=1; renderPapers(); });
-    prevPageBtn.addEventListener("click",()=>{
-      currentPage=Math.max(1,currentPage-1); renderPapers();
-    });
-    nextPageBtn.addEventListener("click",()=>{
-      let tPages=Math.ceil(filteredPapers.length/itemsPerPage);
-      currentPage=Math.min(tPages,currentPage+1);
-      renderPapers();
-    });
-    itemsPerPageSelect.addEventListener("change",()=>{
-      currentPage=1; renderPapers();
-    });
-    goToPageBtn.addEventListener("click",()=>{
-      let tPages=Math.ceil(filteredPapers.length/itemsPerPage);
-      let t=parseInt(jumpToPageInput.value)||1;
-      if(t<1) t=1; if(t>tPages) t=tPages;
-      currentPage=t; renderPapers();
-    });
 
     function setLastUpdated(){
       let d=new Date();
