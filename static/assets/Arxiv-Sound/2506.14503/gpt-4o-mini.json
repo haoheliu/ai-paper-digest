@@ -1,0 +1,22 @@
+{
+    "title": "An Open Research Dataset of the 1932 Cairo Congress of Arab Music",
+    "author": "Baris Bozkurt (Zayed University, Dubai, United Arab Emirates)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The dataset of Arab music recordings includes acoustic features and metadata useful for studies in music information retrieval, which can inform improvements in audio generation and analysis tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a dataset to facilitate computational studies of Arab music by providing metadata, melodic and rhythmic annotations, and acoustic features extracted from historical recordings.",
+    "contribution": "This paper introduces the ORD-CC32 dataset to solve the lack of structured data on Arab music, achieving comprehensive representation of diverse regional musical practices.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets focused on specific traditions or lacked cross-regional coverage.",
+        "novelty": "This dataset encompasses varied Arab music traditions and offers detailed annotations for tuning analysis and comparison."
+    },
+    "key_innovation": "The dataset provides a unique, machine-readable framework combining historical recordings with contemporary analysis tools, facilitating systematic empirical research.",
+    "real_world_impact": "This work could enhance the understanding and preservation of Arab musical heritage, promoting future technological advancements in music processing and machine learning applications in ethnomusicology.",
+    "limitations": "No audio recordings included due to property rights restrictions.",
+    "new_terms": {
+        "maqam": "**Maqam** refers to a system of melodic modes used in traditional Arabic music characterized by specific interval structures and emotional expressions.",
+        "iqa'at": "**Iqa'at** are rhythmic patterns in Arabic music that dictate the timing and structure of musical compositions."
+    },
+    "open_sourcing": "The dataset is available on Zenodo at https://zenodo.org/records/15682346"
+}
