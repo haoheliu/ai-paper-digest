@@ -1,0 +1,21 @@
+{
+    "title": "State-Space Models in Efficient Whispered and Multi-dialect Speech Recognition",
+    "author": "Aref Farhadipour (University of Zurich), Homayoon Beigi (Recognition Technologies, Inc. and Columbia University), Volker Dellwo (University of Zurich), Hadi Veisi (University of Tehran), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The research addresses speech recognition in challenging conditions, such as whispered speech and dialect variation, which could inform innovations in audio processing and restoration methods relevant to Haohe's work in audio enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Improving automatic speech recognition (ASR) systems' performance in recognizing whispered speech across different dialects while using minimal data.",
+    "contribution": "This paper introduces a Mamba-based state-space model combined with fine-tuned self-supervised learning models to tackle challenges in whispered speech recognition and dialect variation, significantly improving performance metrics.",
+    "technical_comparison": {
+        "prior_work": "Existing models often focus on either whispered speech or dialect variation separately and typically require extensive datasets for training.",
+        "novelty": "This work uses a Mamba state-space approach that operates efficiently with limited data, integrating whispered and normal speech into the training process."
+    },
+    "key_innovation": "The Mamba model reduces computational complexity while effectively handling speech recognition for whispered and dialectal variations.",
+    "real_world_impact": "The findings contribute to enhancing speech recognition technology, particularly in privacy-focused applications where whispered communication is necessary and in diverse linguistic settings.",
+    "limitations": "The authors did not explicitly mention limitations, but the dataset sizes for whispered speech are inherently limited, which could affect generalization.",
+    "new_terms": {
+        "Mamba-based model": "**Mamba-based model** refers to a state-space model designed for efficient sequence modeling, allowing for long-range dependencies while maintaining lower computational costs."
+    },
+    "open_sourcing": "https://github.com/areffarhadi/Mamba-ASR"
+}

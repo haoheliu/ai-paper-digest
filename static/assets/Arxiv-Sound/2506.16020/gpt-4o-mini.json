@@ -1,0 +1,21 @@
+{
+    "title": "VS-Singer: Vision-Guided Stereo Singing Voice Synthesis with Consistency Schrodinger Bridge",
+    "author": "Zijing Zhao (School of Computer Science and Technology, Xinjiang University), Kai Wang (Xinjiang Key Laboratory of Multi-lingual Information Technology), Hao Huang (Joint International Research Laboratory of Silk Road Multilingual Cognitive Computing), Ying Hu (School of Computer Science and Technology, Xinjiang University), Liang He (Department of Electronic Engineering, Tsinghua University), Jichen Yang (School of Cyber Security, Guangdong Polytechnic Normal University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The integration of visual cues with audio synthesis approaches can inform techniques in generative models for audio and speech applications, specifically enhancing audio-visual alignment in machine learning tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves generating stereo singing voices from textual and visual inputs, improving audio quality and aligning it with the visual perspective in a single inference step.",
+    "contribution": "This paper introduces a vision-guided model to synthesize stereo singing voices using spatial cues from images, achieving consistent and immersive audio generation with improved inference speed.",
+    "technical_comparison": {
+        "prior_work": "Previous models use multiple stages for audio synthesis and often require lengthy sampling processes, resulting in lower speed and possible quality degradation.",
+        "novelty": "This work employs a unified framework that combines visual input with an innovative one-step sample generation approach, significantly speeding up the synthesis process."
+    },
+    "key_innovation": "Utilizes a combined modal interaction network and a consistency Schrodinger bridge for fast and coherent generation of stereo audio directly from visual inputs.",
+    "real_world_impact": "The proposed method could facilitate more immersive audio experiences in AR/VR applications, enhancing user engagement in interactive media. It also has potential implications for personalized AI-driven content generation in music and entertainment.",
+    "limitations": "No",
+    "new_terms": {
+        "consistency Schrodinger bridge": "**Consistency Schrodinger bridge** is a mathematical framework integrating consistency training with score-based generative models to enhance audio synthesis quality while enabling rapid sampling."
+    },
+    "open_sourcing": "Audio samples are available at: https://usinger1.github.io/VS-Signer/"
+}

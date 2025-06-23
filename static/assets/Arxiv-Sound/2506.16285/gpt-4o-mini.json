@@ -1,0 +1,23 @@
+{
+    "title": "Advancing Automated Speaking Assessment Leveraging Multifaceted Relevance and Grammar Information",
+    "author": "Hao-Chien Lu (National Taiwan Normal University), Jhen-Ke Lin (National Taiwan Normal University), Hong-Yun Lin (National Taiwan Normal University), Chung-Chun Wang (National Taiwan Normal University), Berlin Chen (National Taiwan Normal University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper discusses enhancements in automated speaking assessment which can directly apply to Haohe Liu's interest in audio processing and speech quality improvement. The integration of nuanced grammar evaluations may offer insights into improving speech recognition models.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automated speaking assessment aims to evaluate spoken language proficiency, focusing on aspects like delivery, language use, and content relevance.",
+    "contribution": "This paper introduces a hybrid scoring model that combines a multifaceted relevance module and fine-grained grammar error features to improve assessment accuracy.",
+    "technical_comparison": {
+        "prior_work": "Existing methods typically focus on single aspects of speech, assessing only delivery or language use in isolation.",
+        "novelty": "This work improves by integrating multiple relevance assessments from questions, images, and exemplars to evaluate responses holistically."
+    },
+    "key_innovation": "Combines various dimensions of response evaluation through a multifaceted approach, enhancing content relevance and providing detailed grammatical analysis.",
+    "real_world_impact": "The proposed model has the potential to significantly improve language assessment scores in educational settings, thereby aiding L2 learners in real-time feedback and proficiency improvement.",
+    "limitations": "The accuracy of the response-splitting component may be limited by the design of its prompt, potentially affecting its performance with diverse responses.",
+    "new_terms": {
+        "automated speaking assessment (ASA)": "**Automated speaking assessment (ASA)** refers to technologies designed to evaluate spoken language effectively through machine learning and natural language processing methods.",
+        "grammar error correction (GEC)": "**Grammar error correction (GEC)** is a process that identifies and corrects grammatical mistakes in written or spoken language.",
+        "multifaceted relevance module": "**Multifaceted relevance module** is a framework that assesses content relevance by integrating multiple sources of information, such as questions, exemplars, and images."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "ITO-MASTER: Inference-Time Optimization for Audio Effects Modeling of Music Mastering Processors",
+    "author": "Junghyun Koo (Sony AI, Japan), Marco A. Mart\u00ednez-Ram\u00edrez (Sony AI, Japan), Wei-Hsiang Liao (Sony AI, Japan), Giorgio Fabbro (Sony Europe B.V., Germany), Michele Mancusi (Sony Europe B.V., Germany), Yuki Mitsufuji (Sony AI, Japan), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The proposed ITO-Master framework enhances mastering style transfer through inference-time optimization, which could be valuable for guidance in audio and music processing tasks, aligning with my interests in audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automated music mastering involves adapting the mastering characteristics of a reference track to enhance a target track, simulating a professional mastering process.",
+    "contribution": "This paper introduces the ITO-Master framework to solve user control limitations in audio effects modeling during mastering, achieving improved adaptability and performance in audio mastering tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods lacked user control and flexibility, applying fixed processing without options for fine-tuning.",
+        "novelty": "This work allows dynamic refinement of audio effects by optimizing the reference embedding during inference, significantly enhancing user adaptability."
+    },
+    "key_innovation": "The ability to optimize reference embeddings in real-time for audio mastering, enabling more precise control over mastering effects.",
+    "real_world_impact": "The framework provides a practical solution for both professionals and amateurs in the music industry, enhancing the flexibility and quality of automated music mastering processes.",
+    "limitations": "No",
+    "new_terms": {
+        "Inference-Time Optimization": "**Inference-Time Optimization** refers to the process of adjusting model parameters or embeddings during the inference phase rather than during training, to enhance performance dynamically.",
+        "maximizing cosine similarity": "**Maximizing cosine similarity** is a metric-based optimization approach that seeks to align the direction of two vectors, thus ensuring they are as similar as possible in terms of their orientation in space."
+    },
+    "open_sourcing": "The implementation details can be found in an open-source repository."
+}

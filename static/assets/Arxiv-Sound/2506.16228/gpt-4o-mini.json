@@ -1,0 +1,22 @@
+{
+    "title": "Spatio-spectral diarization of meetings by combining TDOA-based segmentation and speaker embedding-based clustering",
+    "author": "Tobias Cord-Landwehr (Paderborn University), Tobias Gburrek (Paderborn University), Marc Deegen (Paderborn University), Reinhold Haeb-Umbach (Paderborn University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The proposed spatio-spectral diarization methodology optimizes speaker identification in meetings which can be beneficial for enhancing the performance of automatic speech recognition systems and possibly can also be adapted to audio-language tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to accurately identify and assign speaker segments in a meeting using a combination of spatial and spectral information without needing extensive training data.",
+    "contribution": "This paper introduces a hybrid diarization approach that employs Time Difference of Arrival (TDOA) for segmentation and speaker embeddings for clustering, achieving significant reductions in Diarization Error Rate (DER) in both compact and distributed microphone setups.",
+    "technical_comparison": {
+        "prior_work": "Current methods typically rely on spectral or spatial information alone, which can struggle with overlapping speech and speaker movement.",
+        "novelty": "This work improves by effectively integrating spatial cues for segment detection with embedding-based clustering, thus enhancing robustness against overlapping speakers and changes in position."
+    },
+    "key_innovation": "The integration of TDOA-based segmentation and speaker embedding clustering allows for more accurate diarization without the need for in-domain training data or specific microphone arrangements.",
+    "real_world_impact": "This hybrid approach can significantly enhance meeting transcription technologies, leading to better performance in applications such as virtual conferencing, automated note-taking, and accessibility services.",
+    "limitations": "The model's performance may decrease with very close microphone placements where spatial information becomes less effective.",
+    "new_terms": {
+        "Time Difference of Arrival (TDOA)": "**Time Difference of Arrival (TDOA)** is a technique used to estimate the location of sound sources based on the time delay of sound waves reaching different microphones.",
+        "Diarization Error Rate (DER)": "**Diarization Error Rate (DER)** is a metric used to evaluate the accuracy of speaker diarization systems, calculated by the proportion of incorrectly assigned speech segments."
+    },
+    "open_sourcing": "github.com/fgnt/spatiospectral_diarization"
+}

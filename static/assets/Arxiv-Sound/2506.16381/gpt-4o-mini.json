@@ -1,0 +1,22 @@
+{
+    "title": "INSTRUCTTTSEVAL: Benchmarking Complex Natural-Language Instruction Following in Text-to-Speech Systems",
+    "author": "Kexin Huang (Fudan University), Qian Tu (Fudan University), Liwei Fan (Fudan University), Chenchen Yang (Fudan University), Dong Zhang (Fudan University), Shimin Li (Fudan University), Zhaoye Fei (Fudan University), Qinyuan Cheng (Fudan University), Xipeng Qiu (Fudan University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper discusses benchmarks for instruction-driven Text-to-Speech (TTS) systems, which aligns well with Dr. Liu's focus on speech synthesis and modeling, particularly in generating expressive audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "Designing benchmarks for assessing how well TTS systems can interpret and execute complex natural-language style descriptions to improve speech synthesis.",
+    "contribution": "This paper introduces INSTRUCTTTSEVAL, a comprehensive benchmark for complex natural-language instruction following in TTS systems, achieving improved model assessment for various acoustic features.",
+    "technical_comparison": {
+        "prior_work": "Existing TTS systems mainly rely on fixed dialog or brief prompts for style control, often limiting expressive capabilities.",
+        "novelty": "This benchmark provides a structured, automatic evaluation framework encompassing diverse tasks like Acoustic-Parameter Specification and Role-Play to enhance TTS expressiveness."
+    },
+    "key_innovation": "Combines fine-grained acoustic feature instruction and high-level expressive style directives into a unified scoring system, allowing for more nuanced evaluations of TTS systems.",
+    "real_world_impact": "The proposed benchmark can catalyze advancements in TTS technology, making synthesized speech more natural and user-friendly in real-world applications like virtual assistants and educational tools.",
+    "limitations": "Potential data imbalance in emotional and role-based instruction categories may affect model evaluation consistency.",
+    "new_terms": {
+        "paralinguistic information": "**Paralinguistic information** refers to the non-verbal elements of communication, such as tone, pitch, and emotion, which play a crucial role in interpreting spoken language.",
+        "Acoustic-Parameter Specification": "**Acoustic-Parameter Specification (APS)** is a task assessing whether a TTS model can manipulate low-level acoustic features such as pitch and speed based on explicit instructions."
+    },
+    "open_sourcing": "Available at https://github.com/KexinHUANG19/InstructTTSEval"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Learning Magnitude Distribution of Sound Fields via Conditioned Autoencoder",
+    "author": "Shoichi Koyama (National Institute of Informatics, Tokyo, Japan), Kenji Ishizuka (Yamaha Corporation, Shizuoka, Japan)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed method of estimating the acoustic transfer function magnitude through a conditioned autoencoder could inform Dr. Liu's audio processing tasks, particularly in areas like audio restoration and generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Estimating the magnitude distribution of sound fields from sparse measurements to gauge acoustic characteristics without reliable phase information.",
+    "contribution": "This paper introduces a neural-network-based approach for the estimation of acoustic transfer function magnitude using a conditioned autoencoder, achieving accurate estimations even with limited receivers.",
+    "technical_comparison": {
+        "prior_work": "Conventional methods often rely on complex amplitude estimations, limiting their use in scenarios with unreliable phase data.",
+        "novelty": "This work improves by leveraging a conditioned autoencoder architecture to facilitate magnitude estimation, decoupled from phase information."
+    },
+    "key_innovation": "The unique architecture of the model allows the integration of diverse datasets without retraining, enhancing computational efficiency during inference.",
+    "real_world_impact": "This method could improve audio-related applications by providing reliable magnitude estimations in various conditions, greatly benefiting spatial audio systems, room acoustics evaluation, and sound design.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "acoustic transfer function (ATF)": "**Acoustic transfer function (ATF)** is a mathematical representation describing how a sound signal transformed as it travels through an environment from a source to a receiver."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "EDNet: A Distortion-Agnostic Speech Enhancement Framework with Gating Mamba Mechanism and Phase Shift-Invariant Training",
+    "author": "Doyeop Kwak (School of Electric Engineering, Korea Advanced Institute of Science and Technology), Youngjoon Jang (School of Electric Engineering, Korea Advanced Institute of Science and Technology), Seongyu Kim (School of Electric Engineering, Korea Advanced Institute of Science and Technology), Joon Son Chung (School of Electric Engineering, Korea Advanced Institute of Science and Technology)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The framework addresses speech enhancement challenges which align closely with Haohe Liu's research on audio and speech processing, especially methods for speech restoration and quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing speech signals that are degraded by various distortions, such as noise, reverberation, or bandwidth limitations, to improve intelligibility and quality.",
+    "contribution": "EDNet introduces a Gating Mamba module and Phase Shift-Invariant Training to effectively combine different speech enhancement strategies, achieving significant improvements in multiple distortion scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous speech enhancement methods often focus on either masking or mapping strategies, with fixed approaches that can lead to suboptimal results in varied real-world conditions.",
+        "novelty": "EDNet improves upon this by dynamically adapting its processing strategy based on local input features, enabling a more flexible and effective solution."
+    },
+    "key_innovation": "The Gating Mamba mechanism allows for adaptive integration of masking and mapping techniques, tailored to specific distortion characteristics without requiring fixed input assumptions.",
+    "real_world_impact": "EDNet has the potential to significantly enhance real-world communication systems, such as hearing aids and teleconferencing, by improving the clarity of speech across diverse environments and conditions.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Gating Mamba": "**Gating Mamba** is a novel component in the EDNet architecture that adaptively selects between masking and mapping techniques for speech enhancement.",
+        "Phase Shift-Invariant Training": "**Phase Shift-Invariant Training (PSIT)** is a strategy that improves phase estimation during training, allowing for shifts in phase that do not affect perceptual quality."
+    },
+    "open_sourcing": ""
+}

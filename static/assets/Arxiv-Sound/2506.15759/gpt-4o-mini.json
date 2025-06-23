@@ -1,0 +1,22 @@
+{
+    "title": "Sonic4D: Spatial Audio Generation for Immersive 4D Scene Exploration",
+    "author": "Siyi Xie (University of Science and Technology of China), Hanxin Zhu (University of Science and Technology of China), Tianyu He (University of Science and Technology of China), Xin Li (University of Science and Technology of China), Zhibo Chen (University of Science and Technology of China), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "Sonic4D's innovative methods for generating spatial audio could significantly enhance the immersive quality of audio-visual applications, closely aligning with Haohe Liu's focus on audio processing and generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating spatial audio that aligns with dynamic 4D scenes captured in a single video to create immersive audiovisual experiences.",
+    "contribution": "Sonic4D introduces a three-stage framework for seamless generation of spatial audio, addressing the lack of audio in dynamic scene rendering, thus achieving a more immersive user experience.",
+    "technical_comparison": {
+        "prior_work": "Previous methods have focused on visual content rendering without considering spatial audio, lacking integration of sound that varies with user perspective.",
+        "novelty": "This work introduces a modular approach combining pre-trained models for audio and visual data, enhancing flexibility and effectiveness in rendering audiovisual content."
+    },
+    "key_innovation": "The unique three-stage pipeline that integrates dynamic scene generation, sound source localization, and physics-driven audio synthesis creates a cohesive immersive experience.",
+    "real_world_impact": "This framework has the potential to transform applications in virtual reality, filmmaking, and gaming by providing realistic audio that enhances user immersion.",
+    "limitations": "The quality of the synthesized audio may be limited due to simplistic modeling, and it currently handles only a single sound source per video.",
+    "new_terms": {
+        "Room Impulse Responses (RIRs)": "**Room Impulse Responses** characterize how sound propagates in a given space, capturing reflections and reverberations that influence spatial perception.",
+        "Monaural": "**Monaural** audio refers to sound recorded or reproduced through a single channel, in contrast to stereo or multi-channel formats that offer spatial sound."
+    },
+    "open_sourcing": "Audio and video examples are available at [https://x-drunker.github.io/Sonic4D-project-page](https://x-drunker.github.io/Sonic4D-project-page)."
+}

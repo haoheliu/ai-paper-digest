@@ -1,0 +1,22 @@
+{
+    "title": "LM-SPT: LM-Aligned Semantic Distillation for Speech Tokenization",
+    "author": "Daejin Jo (Kakao), Jeeyoung Yun (Korea University), Byungseok Roh (Kakao), Sungwoong Kim (Korea University), ..., Martin Gale (Kakao)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper presents a novel method for speech tokenization that enhances semantic alignment with language models, which is pertinent to Haohe Liu's research on audio synthesis and processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of effectively tokenizing speech into discrete representations that align with language models, improving the integration of speech and text.",
+    "contribution": "This paper introduces the LM-SPT method for speech tokenization to solve the issue of alignment with language models, achieving higher reconstruction fidelity and improved performance on downstream tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, such as SpeechTokenizer and Mimi, used rigid pooling techniques for feature alignment, often leading to loss of important semantic information.",
+        "novelty": "LM-SPT improves this by employing a reconstruction-driven semantic distillation that minimizes discrepancies between original and reconstructed waveforms without rigid alignment."
+    },
+    "key_innovation": "It utilizes an auxiliary decoder for waveform reconstruction, allowing the tokenizer to learn semantically rich and compact representations while avoiding interference between tasks.",
+    "real_world_impact": "The method shows promise for enhancing the quality and efficiency of speech synthesis applications, potentially improving real-time speech processing systems.",
+    "limitations": "The authors note that performance at very low frame rates remains a challenge.",
+    "new_terms": {
+        "semantic tokens": "**Semantic tokens** are discrete representations of speech that capture high-level linguistic content, enhancing alignment with text and language models.",
+        "semantic distillation": "**Semantic distillation** is a training strategy that focuses on learning meaningful representations by distilling information from high-level features, rather than raw features."
+    },
+    "open_sourcing": ""
+}

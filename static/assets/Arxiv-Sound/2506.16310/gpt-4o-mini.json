@@ -1,0 +1,22 @@
+{
+    "title": "Optimizing Multilingual Text-to-Speech with Accents and Emotions",
+    "author": "Pranav Pawar (Dwarkadas J. Sanghvi College of Engineering), Akshansh Dwivedi (Dwarkadas J. Sanghvi College of Engineering), Jenish Boricha (Dwarkadas J. Sanghvi College of Engineering), Himanshu Gohil (Dwarkadas J. Sanghvi College of Engineering), Aditya Dubey (Dwarkadas J. Sanghvi College of Engineering)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper's development of a multilingual TTS system with accent and emotional variability aligns well with improvements in audio synthesis techniques relevant to Haohe Liu's research in speech generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves creating a text-to-speech system that can generate speech in multiple languages with appropriate accents and emotional tones, addressing the gaps in current TTS technologies.",
+    "contribution": "This research introduces a new TTS architecture that integrates accent differentiation and emotion modeling, achieving a 23.7% improvement in accent accuracy and 85.3% emotion recognition from native listeners.",
+    "technical_comparison": {
+        "prior_work": "Previous multilingual TTS systems struggled with maintaining accents and emotional expressions across languages, often leading to unnatural speech synthesis.",
+        "novelty": "This work integrates a language-specific phoneme alignment hybrid encoder-decoder and emotion embedding layers, allowing for real-time accent shifts and emotional consistency."
+    },
+    "key_innovation": "The unique aspect is the capability of real-time code-switching between accents while maintaining emotional context, enhancing the adaptability of the speech synthesis system.",
+    "real_world_impact": "This model can greatly improve applications in EdTech and accessibility, providing more culturally sensitive and engaging educational tools and media, essentially enhancing user interaction and learning.",
+    "limitations": "No",
+    "new_terms": {
+        "code-switching": "**Code-switching** refers to the practice of alternating between two or more languages or varieties of language in conversation, which this model handles dynamically.",
+        "phoneme alignment": "**Phoneme alignment** is the process of mapping spoken sounds to their corresponding written representations to enhance accurate pronunciation in speech models."
+    },
+    "open_sourcing": ""
+}

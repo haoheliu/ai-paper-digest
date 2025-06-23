@@ -1,0 +1,22 @@
+{
+    "title": "Streaming Non-Autoregressive Model for Accent Conversion and Pronunciation Improvement",
+    "author": "Tuan-Nam Nguyen (Karlsruhe Institute of Technology), Ngoc-Quan Pham (Karlsruhe Institute of Technology), S\u00b8eymanur Akti (Karlsruhe Institute of Technology), Alexander Waibel (Karlsruhe Institute of Technology, Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a streaming accent conversion model that could enhance real-time speech applications relevant to Haohe Liu's focus on audio processing and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Accent conversion models aim to modify non-native speech into a native-like accent in real-time, which is essential for improving communication across languages.",
+    "contribution": "This paper introduces a streaming accent conversion model to solve the challenge of real-time audio processing, achieving high-quality audio synthesis while maintaining speaker identity and prosody.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on non-streaming approaches that processed complete utterances, making them unsuitable for real-time applications.",
+        "novelty": "This work modifies a non-streaming model for incremental processing, leveraging an Emformer architecture and optimized inference for streaming capabilities."
+    },
+    "key_innovation": "Transforms speech in real-time, maintaining audio quality and speaker characteristics through an innovative incremental processing framework.",
+    "real_world_impact": "This model can significantly enhance applications in video conferencing and language learning by providing seamless accent conversion, potentially improving communication effectiveness across diverse speakers.",
+    "limitations": "The latency of 0.8s is not yet ideal for low-latency needs in dynamic settings.",
+    "new_terms": {
+        "Emformer": "**Emformer** is a type of Transformer architecture optimized for low-latency streaming applications, utilizing an efficient attention mechanism.",
+        "bottleneck extractor": "**Bottleneck extractor** refers to a model component that identifies and eliminates unwanted features, such as accent attributes, to improve pronunciation in speech conversion."
+    },
+    "open_sourcing": "The authors have provided implementation source code for streaming inference."
+}

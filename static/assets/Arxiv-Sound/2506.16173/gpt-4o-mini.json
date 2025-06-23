@@ -1,0 +1,22 @@
+{
+    "title": "Single-Microphone-Based Sound Source Localization for Mobile Robots in Reverberant Environments",
+    "author": "Jiang Wang (Institute of Science Tokyo), Runwu Shi (Institute of Science Tokyo), Benjamin Yen (Institute of Science Tokyo), He Kong (Southern University of Science and Technology), Kazuhiro Nakadai (Institute of Science Tokyo), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work on sound source localization using a single microphone could enhance Haohe Liu's research in audio processing, particularly in improving the capability of audio systems in real-world scenarios like speech enhancement or music generation, where distance estimation can significantly impact audio fidelity.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of locating sound sources using only a single microphone mounted on a mobile robot in acoustically complex environments, specifically focusing on reverberation effects.",
+    "contribution": "This paper introduces an online sound source localization method utilizing a lightweight neural network to achieve real-time distance estimation using reverberant signals, facilitating accurate sound source localization in moving robots.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on multiple microphones or structured setups that are impractical for smaller robotic platforms. They mostly focus on direction-of-arrival estimation rather than precise positioning.",
+        "novelty": "This work employs a single microphone combined with a neural network and an extended Kalman filter, achieving robust distance measurement and sound source localization without complex hardware configurations."
+    },
+    "key_innovation": "Integrates a compact neural network model with temporal filtering and self-attention mechanisms to effectively process reverberant audio for reliable distance estimation.",
+    "real_world_impact": "The proposed method improves mobile robot capabilities in environments where audio cues are vital, like search-and-rescue operations or interactive applications, enhancing their autonomy and responsiveness.",
+    "limitations": "No",
+    "new_terms": {
+        "room impulse response (RIR)": "**Room impulse response (RIR)** is the characterization of how sound propagates from a source to a receiver in a specific environment, affected by reflections and absorptions.",
+        "direct-to-reverberant ratio (DRR)": "**Direct-to-reverberant ratio (DRR)** measures the ratio of direct sound energy to reverberated sound energy, which declines as the distance between the sound source and the microphone increases."
+    },
+    "open_sourcing": "The code has been open-sourced at https://github.com/JiangWAV/single-mic-SSL."
+}

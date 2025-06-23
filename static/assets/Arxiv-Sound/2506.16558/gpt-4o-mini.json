@@ -1,0 +1,22 @@
+{
+    "title": "Automatic Speech Recognition Biases in Newcastle English: an Error Analysis",
+    "author": "Dana Serditova (University of Freiburg), Kevin Tang (Heinrich Heine University Dusseldorf), Jochen Steffens (University of Applied Sciences Dusseldorf), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper examines biases in Automatic Speech Recognition systems with a focus on regional dialects, providing insights that can be applied to improve ASR models for diverse linguistic backgrounds, relevant to my studies in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper investigates the performance of Automatic Speech Recognition systems on Newcastle English, highlighting errors attributable to regional dialect features.",
+    "contribution": "This study introduces a two-stage error analysis methodology to tackle ASR biases in regional dialects, achieving a deeper understanding of the linguistic features affecting recognition accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous research predominantly focused on social biases (racial, age, gender) affecting ASR but did not adequately address regional dialects.",
+        "novelty": "This work systematically analyzes dialect-specific features, providing a framework for recognizing regional biases in ASR systems."
+    },
+    "key_innovation": "The study utilizes a comprehensive error analysis approach to correlate ASR misrecognitions with phonological, lexical, and morphosyntactic features of Newcastle English.",
+    "real_world_impact": "The findings advocate for enhancing ASR training data with more regional variety, potentially improving ASR technology's applicability across diverse speaker demographics.",
+    "limitations": "The absence of linguistic feature tagging may lead to misclassification of dialect patterns as errors.",
+    "new_terms": {
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a common metric for evaluating the performance of ASR systems, calculated as the number of errors divided by the total number of words in the reference transcription.",
+        "morphosyntactic": "**Morphosyntactic** refers to the branch of linguistics that studies how morphological and syntactic processes interact in forming a sentence structure."
+    },
+    "open_sourcing": ""
+}
