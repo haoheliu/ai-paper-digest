@@ -1,0 +1,23 @@
+{
+    "title": "JIS: A Speech Corpus of Japanese Idol Speakers with Various Speaking Styles",
+    "author": "Yuto Kondo (NTT Corporation), Hirokazu Kameoka (NTT Corporation), Kou Tanaka (NTT Corporation), Takuhiro Kaneko (NTT Corporation)",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The construction of the JIS corpus aligns with Haohe Liu's interest in audio generation, particularly in using diverse speaker voices in speech generation AI. The focus on specific speaker characteristics can aid in developing more personalized audio applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "A novel speech corpus comprising recordings from Japanese female live idols, aimed at enhancing text-to-speech synthesis and voice conversion technologies.",
+    "contribution": "This paper introduces the Japanese Idol Speech Corpus (JIS) to advance speech generation research, achieving a unique dataset with 169 young female idol speakers for evaluations of speaker similarity.",
+    "technical_comparison": {
+        "prior_work": "Previous speech corpora like JVS lack focused demographic representation of speakers and typically have anonymized voices.",
+        "novelty": "This work provides a non-anonymous and culturally significant dataset that emphasizes specific characteristics of young female idols, enabling more rigorous evaluations of generated voices."
+    },
+    "key_innovation": "The JIS corpus uniquely combines a culturally specific demographic with diversified speech styles, enhancing the evaluation and development of personalized speech synthesis technologies.",
+    "real_world_impact": "By providing a rich dataset reflecting real-world idol culture, JIS can improve TTS and VC applications, particularly in entertainment and personalized user interactions.",
+    "limitations": "Usage of the corpus is restricted to non-commercial, basic research, which may limit its broader application in commercial projects.",
+    "new_terms": {
+        "voice conversion": "**Voice conversion** is a technology that changes the voice characteristics of a speaker\u2019s voice into that of another speaker's voice without altering the spoken content.",
+        "text-to-speech synthesis": "**Text-to-speech synthesis** is a technology that converts written text into spoken word.",
+        "Japanese live idol": "**Japanese live idols** are entertainment performers, often characterized by their singing, dancing, and engagement with fans, playing a significant role in Japanese pop culture."
+    },
+    "open_sourcing": "JIS will be distributed free of charge for academic research."
+}

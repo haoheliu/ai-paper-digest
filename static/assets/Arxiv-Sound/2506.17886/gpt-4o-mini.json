@@ -1,0 +1,22 @@
+{
+    "title": "GD-Retriever: Controllable Generative Text-Music Retrieval with Diffusion Models",
+    "author": "Julien Guinot (Centre for Digital Music, Queen Mary University of London), Elio Quinton (Music & Audio Machine Learning Lab, Universal Music Group), Gy\u00f6rgy Fazekas (Centre for Digital Music, Queen Mary University of London), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper proposes a generative approach to text-music retrieval that allows for higher controllability and interactivity in search results, enhancing potential applications in audio generation and manipulation, which directly aligns with my interest in text-to-audio generation and enhancements.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on improving the retrieval of music pieces based on textual descriptions by utilizing generative models, allowing users to interactively refine their search results.",
+    "contribution": "This paper introduces the Generative Diffusion Retriever (GDR) to solve the problem of insufficient controllability in text-music retrieval, achieving better retrieval performance over traditional contrastive models.",
+    "technical_comparison": {
+        "prior_work": "Traditional contrastive models provide limited interactivity and are often inflexible, requiring multiple text queries for satisfactory results.",
+        "novelty": "GDR employs a generative diffusion model to create queries in an audio latent space directly from text, enabling user-guided modifications using techniques like negative prompting."
+    },
+    "key_innovation": "The GDR framework enhances retrieval by allowing users to influence the generation of audio queries through generative techniques, enabling a more dynamic and controllable search process.",
+    "real_world_impact": "GDR's innovations could significantly improve music retrieval systems, making them more user-friendly and effective for various applications in creative AI, such as personalized music recommendation and generation.",
+    "limitations": "The effectiveness of GDR is limited by domain adaptation challenges, particularly when there is a mismatch between the data used for training and the datasets for evaluation.",
+    "new_terms": {
+        "Generative Diffusion Model": "**Generative Diffusion Model** is a type of generative model that progressively refines samples from noise through a learned denoising process, particularly useful for producing high-quality outputs.",
+        "Negative Prompting": "**Negative Prompting** is a controllability technique that allows a model to understand not only what to generate but also what to exclude from the output."
+    },
+    "open_sourcing": "Code is made available at https://github.com/Pliploop/GDRetriever"
+}

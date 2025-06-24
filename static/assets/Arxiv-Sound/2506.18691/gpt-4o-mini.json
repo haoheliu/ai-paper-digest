@@ -1,0 +1,19 @@
+{
+    "title": "Evaluating Multichannel Speech Enhancement Algorithms at the Phoneme Scale Across Genders",
+    "author": "Nasser-Eddine Monir (Universite de Lorraine, CNRS, Inria, LORIA), Paul Magron (Universite de Lorraine, CNRS, Inria, LORIA), Romain Serizel (Universite de Lorraine, CNRS, Inria, LORIA), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores the phoneme-level impacts and gender-specific characteristics in speech enhancement algorithms, which could inform better models for audio processing tasks in Haohe's work, particularly in the areas of speech restoration and audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study evaluates the effectiveness of speech enhancement algorithms by analyzing performance metrics for different phonemes in both male and female speaking voices in noise-contaminated environments.",
+    "contribution": "This paper introduces gender-specific phoneme analysis to speech enhancement evaluation, achieving better noise reduction and perceptual quality for female speech.",
+    "technical_comparison": {
+        "prior_work": "Previous speech enhancement evaluations typically focus on utterance-level metrics, potentially overlooking phoneme-specific challenges.",
+        "novelty": "This work proposes a phoneme-level assessment that reveals significant differences in performance across genders, providing a more detailed understanding of speech enhancement efficacy."
+    },
+    "key_innovation": "Evaluates speech enhancement algorithms not just at a general level but also across individual phonemes and different genders, highlighting distinct improvement areas.",
+    "real_world_impact": "By tailoring speech enhancement to gender and phoneme-specific characteristics, this research can lead to more effective hearing aids and communication technologies, enhancing speech intelligibility in everyday situations.",
+    "limitations": "The study does not detail the effects of variations beyond controlled environments and may not generalize to all speech contexts.",
+    "new_terms": {},
+    "open_sourcing": "Both code and pretrained model weights are available online."
+}

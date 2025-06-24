@@ -1,0 +1,22 @@
+{
+    "title": "Smooth Operators: LLMs Translating Imperfect Hints into Disfluency-Rich Transcripts",
+    "author": "Duygu Altinok (Independent Researcher, Germany)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a method for disfluency transcription, which can directly relate to enhancements in audio processing tasks and could be useful in applications like speech restoration and text-to-speech systems, aligning with Dr. Liu's focus on audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing automatic speech recognition systems by accurately detecting and annotating disfluencies in spoken language, which are critical for understanding intent.",
+    "contribution": "This paper introduces the Smooth-LLaMa framework to solve the problem of disfluency modeling by utilizing Large Language Models (LLMs) for the generation of disfluency tokens and timestamps, achieving high accuracy in transcriptions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on either high-quality text inputs or focused narrowly on specific disfluency types, limiting generalization.",
+        "novelty": "This work utilizes multiple imperfect textual inputs alongside audio features to create robust disfluency-annotated transcripts."
+    },
+    "key_innovation": "Successfully integrates acoustic and textual data in a novel way, allowing for the production of accurate disfluency annotations even when starting from imperfect inputs.",
+    "real_world_impact": "This research has the potential to significantly improve speech therapy tools and dialogue systems by delivering more nuanced and contextually aware transcriptions, enhancing overall user experience.",
+    "limitations": "The paper does not address the scalability or long-term applicability of the models in diverse real-world settings.",
+    "new_terms": {
+        "disfluency": "**Disfluency** refers to breaks, repetitions, or other disruptions in the flow of speech that can affect communication.",
+        "Timestamping": "**Timestamping** relates to annotating audio segments with specific time markers, essential for synchronizing transcription with actual speech."
+    },
+    "open_sourcing": "Code is publicly available on GitHub."
+}

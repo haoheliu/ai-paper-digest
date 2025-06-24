@@ -1,0 +1,21 @@
+{
+    "title": "Adaptive Control Attention Network for Underwater Acoustic Localization and Domain Adaptation",
+    "author": "Quoc Thinh Vo (Drexel University), Joe Woods (Drexel University), Priontu Chowdhury (Drexel University), David K. Han (Drexel University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper presents a novel multi-branch neural network architecture that could inspire similar structures in audio processing tasks, particularly in improving the robustness of audio signal localization and handling domain adaptation, which are relevant to Haohe Liu's research in audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Localizing acoustic sources underwater involves predicting the distance between sound sources and receivers amidst complex acoustic environments.",
+    "contribution": "This paper introduces the Adaptive Control Attention Network (ACA-Net) to address challenges in underwater acoustic localization, achieving state-of-the-art performance in various acoustic environments.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on single-branch architectures, which limited their ability to capture complex feature interactions.",
+        "novelty": "ACA-Net improves upon these approaches by implementing a multi-branch architecture that enhances feature extraction and robustness to noise."
+    },
+    "key_innovation": "The integration of adaptive gain control coupled with multiple feature branches allows for dynamic adjustment of input features, improving model stability and performance.",
+    "real_world_impact": "The proposed methods could significantly advance underwater communication and robotics applications, enabling better navigation and tracking of underwater sources.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "Adaptive Gain Control": "**Adaptive Gain Control (AGC)** is a technique used to adjust the amplitude of input signals dynamically to maintain consistent processing quality across varying signal strengths and conditions."
+    },
+    "open_sourcing": ""
+}

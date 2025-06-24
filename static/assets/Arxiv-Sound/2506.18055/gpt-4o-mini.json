@@ -1,0 +1,22 @@
+{
+    "title": "Face-Voice Association for Audiovisual Active Speaker Detection in Egocentric Recordings",
+    "author": "Jason Clarke (The University of Sheffield), Yoshihiko Gotoh (The University of Sheffield), Stefan Goetze (The University of Sheffield, South Westphalia University of Applied Sciences), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper introduces a novel approach to Active Speaker Detection (ASD) that could be relevant to audio and speech applications, particularly in challenging environments that Haohe Liu may explore in his own research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Active Speaker Detection focuses on identifying which participant in a video is speaking at any given time, particularly in noisy, egocentric recordings.",
+    "contribution": "This paper introduces a new framework, Self-Lifting for audiovisual active speaker detection (SL-ASD), which utilizes face-voice associations to achieve competitive detection capabilities without relying on strict audiovisual synchronization.",
+    "technical_comparison": {
+        "prior_work": "Previous methods depend heavily on the alignment of audio and visual cues, which can fail under occlusions or poor quality visuals.",
+        "novelty": "This work aggregates facial identity information using a transformer-based encoder based on frame quality, reducing reliance on synchronized audiovisual input."
+    },
+    "key_innovation": "The incorporation of a transformer encoder to dynamically weight visual data based on quality in the context of face-voice association provides a fresh perspective on speaker detection.",
+    "real_world_impact": "This approach could significantly improve speaker detection in real environments, enhancing communication technologies and assisting in understanding human speech dynamics in various settings.",
+    "limitations": "The paper does not address the limitations of the model in low-resource situations or highly occluded environments.",
+    "new_terms": {
+        "audiovisual active speaker detection": "**Audiovisual active speaker detection (ASD)** involves using both audio and visual information to identify the active speaker in a conversation.",
+        "transformer encoder": "**Transformer encoder** refers to a type of neural network architecture that is particularly effective in handling sequential data, using mechanisms like self-attention."
+    },
+    "open_sourcing": "Code is available at https://github.com/jclarke98/SL_ASD"
+}

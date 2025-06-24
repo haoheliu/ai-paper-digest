@@ -1,0 +1,22 @@
+{
+    "title": "Episode-specific Fine-tuning for Metric-based Few-shot Learners with Optimization-based Training",
+    "author": "Xuanyu Zhuang (Telecom Paris), Geoffroy Peeters (Telecom Paris), Gael Richard (Telecom Paris), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on few-shot learning methods and their application to audio classification directly relates to Haohe Liu's research in audio processing and could inform methodologies for improving audio model performance.",
+    "field": "Applications-Speech and Audio",
+    "background": "Few-shot classification aims to classify unseen audio samples using a limited number of labeled examples from the same classes.",
+    "contribution": "This paper introduces episode-specific fine-tuning methods for metric-based few-shot learners during inference, achieving improved classification accuracy across various audio datasets.",
+    "technical_comparison": {
+        "prior_work": "Before this work, metric-based models did not thoroughly utilize support samples for model adaptation during inference, relying heavily on pre-trained classification mechanisms.",
+        "novelty": "The introduction of Rotational Division Fine-Tuning (RDFT) and variants like Iterative and Augmented Division Fine-Tuning allows for dynamic adaptation of the embedding space to specific few-shot tasks."
+    },
+    "key_innovation": "The methods proposed enable real-time adaptation of classification models by using support samples effectively during the inference stage, thus enhancing performance in few-shot settings.",
+    "real_world_impact": "The approach has potential applications in real-world audio recognition tasks, such as sound event detection and music recognition, highlighting its significance in enhancing few-shot learning strategies.",
+    "limitations": "The paper acknowledges that overfitting risk exists when performing fine-tuning on very limited labeled samples.",
+    "new_terms": {
+        "few-shot classification": "**Few-shot classification** is a form of machine learning where the goal is to train a model to recognize new classes with very few examples.",
+        "Rotational Division Fine-Tuning": "**Rotational Division Fine-Tuning (RDFT)** is a proposed method where support samples in a few-shot learning scenario are rotated to create pseudo-query and pseudo-support pairs for effective model adaptation."
+    },
+    "open_sourcing": "The code examples are open-sourced at https://github.com/zdsy/Episode-specific-FT"
+}

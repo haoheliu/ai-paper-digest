@@ -1,0 +1,21 @@
+{
+    "title": "SELECTING N-LOWEST SCORES FOR TRAINING MOS PREDICTION MODELS",
+    "author": "Yuto Kondo (NTT Corporation, Japan), Hirokazu Kameoka (NTT Corporation, Japan), Kou Tanaka (NTT Corporation, Japan), Takuhiro Kaneko (NTT Corporation, Japan), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed Nlow-MOS metric introduces a novel approach to speech quality assessment that could be relevant for improving audio and speech processing systems in Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study proposes a new method for predicting speech quality, focusing on low-quality segments in audio data to derive a more representative mean opinion score (MOS).",
+    "contribution": "This paper introduces N-lowest mean opinion score (Nlow-MOS) to solve the inconsistency in human ratings for speech quality, achieving improved performance in prediction accuracy metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on regular mean opinion score (MOS) which aggregates all human ratings, leading to potential bias from higher scores on better segments.",
+        "novelty": "This work enhances prediction by selectively using the lowest ratings, which are suggested to better reflect overall perceived quality."
+    },
+    "key_innovation": "The key innovation lies in the use of Nlow-MOS as a training target for neural models, which emphasizes more reliable low-quality evaluations over average scores.",
+    "real_world_impact": "By improving the accuracy of speech quality predictors, this method could lead to better speech synthesis systems and enhanced user experiences in TTS and voice conversion applications.",
+    "limitations": "The paper does not explicitly mention limitations.",
+    "new_terms": {
+        "N-lowest mean opinion score (Nlow-MOS)": "**N-lowest mean opinion score (Nlow-MOS)** is the average of the N lowest ratings assigned to speech samples, aimed at providing a more robust measure of subjective quality."
+    },
+    "open_sourcing": ""
+}

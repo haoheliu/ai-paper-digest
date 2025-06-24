@@ -1,0 +1,22 @@
+{
+    "title": "Zero-Shot Cognitive Impairment Detection from Speech Using AudioLLM",
+    "author": "Mostafa Shahin (University of New South Wales), Beena Ahmed (University of New South Wales), Julien Epps (University of New South Wales), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper addresses cognitive impairment detection using audio analysis, which aligns with Haohe Liu's interests in audio and speech processing. The use of Zero-Shot learning in this context can provide insights into developing models that require minimal labeled data, beneficial for future projects in audio signal processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on detecting cognitive impairment from speech samples without requiring fine-tuning on labeled data, facilitating early diagnosis in a non-invasive manner.",
+    "contribution": "This paper introduces a Zero-Shot speech-based method for cognitive impairment detection using AudioLLM, achieving performance comparable to traditional supervised methods.",
+    "technical_comparison": {
+        "prior_work": "Prior cognitive impairment detection methods often rely on supervised learning requiring substantial labeled data and may struggle with generalizability.",
+        "novelty": "This work adopts a Zero-Shot approach, leveraging prompt engineering in AudioLLM to classify speech samples, reducing dependency on labeled datasets."
+    },
+    "key_innovation": "The integration of Audio Large Language Models (AudioLLM) for prompt-based classification allows for effective cognitive impairment detection without extensive training on specific datasets.",
+    "real_world_impact": "This approach has the potential to streamline early diagnosis processes for cognitive impairments, making them more accessible and less resource-intensive.",
+    "limitations": "The model's performance may vary across different populations and datasets, and the lack of fine-tuning could limit adaptability to specific clinical settings.",
+    "new_terms": {
+        "Zero-Shot Learning": "**Zero-Shot Learning** refers to the ability of a model to classify data it has never seen before without additional training, relying instead on transferable knowledge.",
+        "Audio Large Language Models (AudioLLM)": "**Audio Large Language Models (AudioLLM)** are neural networks specifically designed to interpret and generate outputs for both audio and text inputs."
+    },
+    "open_sourcing": ""
+}

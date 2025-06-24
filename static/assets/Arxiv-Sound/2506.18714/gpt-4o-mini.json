@@ -1,0 +1,22 @@
+{
+    "title": "Frequency-Weighted Training Losses for Phoneme-Level DNN-based Speech Enhancement",
+    "author": "Nasser-Eddine Monir (Universite de Lorraine, CNRS, Inria, Loria), Paul Magron (Universite de Lorraine, CNRS, Inria, Loria), Romain Serizel (Universite de Lorraine, CNRS, Inria, Loria), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The methods introduced for frequency-weighted training losses focus on enhancing the intelligibility of phonemes in speech signals, directly relating to Dr. Liu's work on audio quality enhancement and speech restoration techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper focuses on improving speech enhancement by developing training losses that better preserve phoneme-specific spectral details, thereby enhancing speech intelligibility under various noise conditions.",
+    "contribution": "This study introduces frequency-weighted variants of the scale-invariant signal-to-distortion ratio (SDR) loss to enhance speech signals, achieving improvements in phoneme intelligibility.",
+    "technical_comparison": {
+        "prior_work": "Existing speech enhancement methods often utilize global loss metrics that overlook the importance of phoneme-specific features.",
+        "novelty": "This work reformulates the SDR in the time-frequency domain with frequency-dependent weighting strategies that prioritize the preservation of crucial acoustic cues."
+    },
+    "key_innovation": "Employs perceptually-informed frequency-weighted scales in the training loss to effectively enhance phoneme intelligibility in noisy conditions.",
+    "real_world_impact": "The findings of this research could significantly improve speech enhancement applications like hearing aids and automatic speech recognition systems, leading to clearer communication in noisy environments.",
+    "limitations": "Limitations in preserving high-frequency details and potential over-reliance on static weighting schemes are noted.",
+    "new_terms": {
+        "scale-invariant signal-to-distortion ratio (SDR)": "**Scale-invariant signal-to-distortion ratio (SDR)** is a metric used to assess the quality of speech enhancement systems by measuring the ratio of the power of the target signal to the power of the distortion caused by noise.",
+        "frequency-weighted loss": "**Frequency-weighted loss** refers to a loss function that applies different weights to different frequency components, allowing for more emphasis on frequency bands that are more critical for perceptual quality."
+    },
+    "open_sourcing": ""
+}

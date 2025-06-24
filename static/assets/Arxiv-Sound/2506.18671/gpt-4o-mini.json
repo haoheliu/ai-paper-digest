@@ -1,0 +1,22 @@
+{
+    "title": "TCDiff++: An End-to-end Trajectory-Controllable Diffusion Model for Harmonious Music-Driven Group Choreography",
+    "author": "Yuqin Dai (Nanjing University of Science and Technology), Wanlu Zhu (Nanjing University of Science and Technology), Ronghui Li (Tsinghua University), Xiu Li (Tsinghua University), Zhenyu Zhang (Nanjing University), Jun Li (Nanjing University of Science and Technology), Jian Yang (Nanjing University of Science and Technology), ..., Zhenyu Zhang (Nanjing University)",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper addresses multi-dancer choreography generation, which could provide insights into synchronization and interaction modeling, relevant for enhancing audio and music generation tasks.",
+    "field": "Applications-Creative AI",
+    "background": "The task involves generating group dance movements based on music input while ensuring coherence and spatial integrity among dancers.",
+    "contribution": "TCDiff++ introduces an end-to-end framework to solve challenges in multi-dancer choreography generation, achieving improved collision prevention and footwork consistency.",
+    "technical_comparison": {
+        "prior_work": "Previous methods exhibit limitations in handling dancer ambiguity and spatial consistency, often resulting in collisions and foot sliding.",
+        "novelty": "This work implements a dancer positioning embedding and introduces a long group diffusion sampling strategy for enhanced stability and coherence in long-duration dance sequences."
+    },
+    "key_innovation": "The model integrates footwork adaptation and dancer spatial embeddings in a unified architecture, which reduces multi-dancer collisions and foot sliding.",
+    "real_world_impact": "The proposed model can enhance automated choreography systems for entertainment and artistic performances, potentially transforming live dance shows and digital performances.",
+    "limitations": "No",
+    "new_terms": {
+        "dancer positioning embedding": "**Dancer positioning embedding** is a technique that encodes spatial relationships among dancers to maintain their relative positions and minimize collisions.",
+        "long group diffusion sampling": "**Long group diffusion sampling** is a method that reduces abrupt positional changes by conditioning noise inputs on previously generated segments, ensuring continuity in choreography."
+    },
+    "open_sourcing": "Details available on the project page: https://da1yuqin.github.io/TCDiffpp.website/"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Two Sonification Methods for the MindCube",
+    "author": "Fangzheng Liu (MIT Media Lab), Don D. Haddad (MIT Media Lab), Lancelot Blanchard (MIT Media Lab), Joseph A. Paradiso (MIT Media Lab), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The integration of generative AI for emotion regulation through music generation is highly relevant, as it aligns closely with recent advancements in generative audio models that Haohe Liu is exploring.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing an interactive music controller that utilizes emotion-detecting technology to create music that regulates emotional states based on real-time user interactions.",
+    "contribution": "This paper introduces two musical mapping methodologies for the MindCube, enabling both AI-driven and manual musical performances to enhance user emotion regulation.",
+    "technical_comparison": "Previous methods primarily focused on static mappings or lacked real-time emotional feedback integration. This work improves by introducing an AI-driven model that generates adaptive music based on user interactions.",
+    "key_innovation": "The unique combination of real-time emotion detection and generative music synthesis enables a novel approach to emotional regulation through sound.",
+    "real_world_impact": "This research has the potential to significantly enhance stress relief and emotional well-being through musical interaction, promoting tools for mental health applications.",
+    "limitations": "No limitations explicitly mentioned by the authors.",
+    "new_terms": {
+        "sonification": "**Sonification** refers to the use of non-speech audio to convey information or data, transforming data into auditory signals.",
+        "generative AI": "**Generative AI** describes algorithms that can create new content, including audio, images, or text, based on learned data representations."
+    },
+    "open_sourcing": "https://github.com/mitmedialab/mindcube-rave"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Human Voice is Unique",
+    "author": "Rita Singh (Carnegie Mellon University), Bhiksha Raj (Carnegie Mellon University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper provides a quantitative framework for understanding the uniqueness of human voice, which can inform mechanisms for speaker identification and voice synthesis tasks relevant to Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Establishing the uniqueness of human voice based on measurable characteristics to support voice processing applications in biometric identification.",
+    "contribution": "This paper introduces a statistical framework to calculate the uniqueness of human voices based on 44 independent acoustic features, achieving an understanding of voice distinctiveness across a large population.",
+    "technical_comparison": {
+        "prior_work": "Previous studies primarily focused on acoustic uniqueness or perceptual comparisons of voices, offering limited insights into the general population's voice matching probabilities.",
+        "novelty": "This work departs from subjective categorizations by employing an objective approach to derive probabilities of voice matches based on quantifiable characteristics."
+    },
+    "key_innovation": "The framework quantizes voice characteristics into distinct cells to calculate the probabilities of voice matches across a hypothesized population of 10 billion, providing concrete statistical insights into voice uniqueness.",
+    "real_world_impact": "The findings have significant implications for speaker verification systems and voice-based biometrics, paving the way for more reliable voice-recognition technologies.",
+    "limitations": "The calculations are based on approximated ranges for the acoustic features and may not capture all dimensions of individual vocal uniqueness.",
+    "new_terms": {
+        "acoustic features": "**Acoustic features** are measurable characteristics of speech sounds that can describe aspects such as pitch, loudness, and more, which influence how a voice is perceived.",
+        "quantization": "**Quantization** refers to the process of dividing a continuous range of values into distinct intervals or categories for analysis."
+    },
+    "open_sourcing": ""
+}

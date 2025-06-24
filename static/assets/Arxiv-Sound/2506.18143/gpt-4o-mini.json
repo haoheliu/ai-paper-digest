@@ -1,0 +1,22 @@
+{
+    "title": "AI Harmonizer: Expanding Vocal Expression with a Generative Neurosymbolic Music AI System",
+    "author": "Lancelot Blanchard (MIT Media Lab), Cameron Holt (Massachusetts Institute of Technology), Joseph A. Paradiso (MIT Media Lab), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper discusses a novel harmonization system that uses advanced machine learning techniques to enrich vocal music, which could inform Haohe Liu's work on audio generation and manipulation.",
+    "field": "Applications-Creative AI",
+    "background": "The paper presents a system that automatically generates four-part vocal harmonies for a given melody without requiring input of harmony from the user.",
+    "contribution": "This paper introduces an AI harmonization system to solve the problem of generating vocal harmonies autonomously, achieving rich choral textures from simple vocal melodies.",
+    "technical_comparison": {
+        "prior_work": "Previous methods require manual input or keyboard interaction for harmonization, limiting accessibility for less experienced users.",
+        "novelty": "This work leverages generative AI techniques to create harmonies without user intervention, providing a fully automated process."
+    },
+    "key_innovation": "The system combines multiple machine learning models to transcribe vocal melodies, generate harmonies, and synthesize vocal lines seamlessly.",
+    "real_world_impact": "The proposed system could significantly enhance live musical performances and creative composition processes, making advanced musical tools accessible to a broader audience.",
+    "limitations": "The current implementation operates offline and may have challenges with real-time performance integration.",
+    "new_terms": {
+        "Generative AI": "**Generative AI** refers to AI systems designed to create new content, such as music or images, often employing techniques from machine learning.",
+        "Anticipatory Music Transformer": "**Anticipatory Music Transformer** is a model architecture that generates music by predicting future notes based on input melodies, allowing for more coherent harmonic compositions."
+    },
+    "open_sourcing": "The implementation is available on GitHub at https://github.com/mitmedialab/ai-harmonizer"
+}

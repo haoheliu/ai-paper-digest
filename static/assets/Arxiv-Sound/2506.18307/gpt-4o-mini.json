@@ -1,0 +1,22 @@
+{
+    "title": "Rethinking Mean Opinion Scores in Speech Quality Assessment: Aggregation through Quantized Distribution Fitting",
+    "author": "Yuto Kondo (NTT Corporation, Japan), Hirokazu Kameoka (NTT Corporation, Japan), Kou Tanaka (NTT Corporation, Japan), Takuhiro Kaneko (NTT Corporation, Japan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed aggregation methods for mean opinion scores (MOS) can enhance prediction models for speech quality assessment that Haohe Liu may find applicable in audio quality evaluation and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speech quality assessment aims to predict the quality of speech samples without relying on lengthy listener evaluations, typically utilizing ratings on a scale of 1 to 5.",
+    "contribution": "This paper introduces a novel score aggregation method based on quantized distribution fitting to improve the accuracy of mean opinion score predictions in speech quality assessment.",
+    "technical_comparison": {
+        "prior_work": "Existing methods, such as the mean opinion score (MOS) and N-lowest MOS, face limitations in handling variability in ratings and incorrect annotations.",
+        "novelty": "This work improves on these limitations by modeling annotator behavior as selecting the closest discrete rating from a continuous mental score, optimizing the aggregation through a derived latent distribution."
+    },
+    "key_innovation": "The method quantizes a latent normal distribution to model how ratings are actually assigned, which allows for a more accurate representative score over traditional MOS.",
+    "real_world_impact": "This innovative approach could significantly enhance the quality assessment of synthesized speech systems, improving user experience in applications like text-to-speech and voice conversion.",
+    "limitations": "The method may require further refinement in optimization techniques to ensure robust performance across variable datasets.",
+    "new_terms": {
+        "mean opinion score (MOS)": "**Mean Opinion Score (MOS)** is a common measure used to assess the quality of audio and video data based on subjective evaluations from listeners.",
+        "quantized distribution fitting": "**Quantized distribution fitting** refers to the process of approximating a continuous distribution by a discrete representation, improving the modeling of complex behaviors like human scoring."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Large-Scale Training Data Attribution for Music Generative Models via Unlearning",
+    "author": "Woosung Choi (Sony AI), Junghyun Koo (Sony AI), Kin Wai Cheuk (Sony AI), Joan Serra (Sony AI), Marco A. Mart\u00ednez-Ram\u00edrez (Sony AI), Yukara Ikemiya (Sony AI), Naoki Murata (Sony AI), Wei-Hsiang Liao (Sony AI), Yuki Mitsufuji (Sony Group Corporation)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces a method of training data attribution in music generation models, which could inform data handling and attribution practices in Haohe Liu's audio-related research, particularly in ethical AI applications.",
+    "field": "Applications-Creative AI",
+    "background": "The task involves identifying which specific training data points influence the generation of particular outputs in music generative models, critical for addressing copyright and ethical concerns.",
+    "contribution": "This paper introduces an unlearning-based method for training data attribution in music models, achieving substantial insight into the influence of training data on generated outputs.",
+    "technical_comparison": {
+        "prior_work": "Traditional attribution methods rely on similarity metrics and black-box approaches that do not leverage model internals.",
+        "novelty": "This work utilizes counterfactual reasoning and machine unlearning to efficiently measure data influence without exhaustive retraining."
+    },
+    "key_innovation": "The integration of machine unlearning with a focus on the Fisher Information Matrix allows for direct and efficient measurement of training data influence.",
+    "real_world_impact": "Enhancing attribution in music generation models promotes ethical AI use, potentially leading to fairer crediting systems for artists, which is a pressing issue in AI-generated content.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "Fisher Information Matrix": "The **Fisher Information Matrix** is a way to measure the amount of information that an observable random variable carries about an unknown parameter, influencing the estimation of model parameters.",
+        "unlearning": "In this context, **unlearning** refers to methods that allow the removal of specific training data from a model without needing to retrain it from scratch."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "From Generality to Mastery: Composer-Style Symbolic Music Generation via Large-Scale Pre-training",
+    "author": "Mingyang Yao (University of California, San Diego), Ke Chen (University of California, San Diego)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores advanced methods for symbolic music generation which could influence music generation techniques in Haohe Liu's research, particularly in audio and music synthesis.",
+    "field": "Applications-Creative AI",
+    "background": "The paper addresses the task of generating musical pieces emulating specific composers' styles using a two-stage training approach.",
+    "contribution": "This paper introduces a two-stage training paradigm for music generation models, pre-training on a large music corpus and fine-tuning on composer-specific data, achieving improved stylistic accuracy and musicality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often struggled due to limited training data for specific composers, resulting in suboptimal performance.",
+        "novelty": "This work improves upon existing models by leveraging general music knowledge from a large corpus during pre-training, which enhances the model's capacity to capture nuanced stylistic features during fine-tuning."
+    },
+    "key_innovation": "The use of a two-stage training process that combines general music training with composer-specific fine-tuning effectively balances broad musical knowledge with intricate style details.",
+    "real_world_impact": "This research can enhance music generation tools, potentially benefiting composers and educators by providing greater access to diverse music compositions for study and inspiration.",
+    "limitations": "No specific limitations were mentioned in the paper.",
+    "new_terms": {
+        "REMI": "**REMI** stands for a music representation format that encodes symbolic music in a way that facilitates music generation tasks.",
+        "adapter modules": "**Adapter modules** are lightweight neural network components that allow a pre-trained model to adapt to new tasks or data without retraining all parameters."
+    },
+    "open_sourcing": "The code implementation and datasets are open-sourced at https://github.com/AndyWeasley2004/Generality-to-Mastery"
+}
