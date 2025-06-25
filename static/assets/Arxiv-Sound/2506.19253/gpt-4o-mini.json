@@ -1,0 +1,22 @@
+{
+    "title": "A Robust Method for Pitch Tracking in the Frequency Following Response using Harmonic Amplitude Summation Filterbank",
+    "author": "Sajad Sadeghkhani (University of Ottawa), Maryam Karimi Boroujeni (University of Ottawa), Hilmi R. Dajani (University of Ottawa), Saeid R. Seydnejad (Shahid Bahonar University of Kerman), Christian Gigu\u00e8re (University of Ottawa), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents a novel pitch tracking method that could enhance Haohe Liu\u2019s research in audio processing, particularly in enhancing the analysis of speech signals and their features.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on effectively estimating the fundamental frequency of Frequency Following Responses to improve understanding of auditory processing in response to speech.",
+    "contribution": "This paper introduces the Harmonic Amplitude Summation (HAS) method to solve the problem of inaccurate pitch tracking in Frequency Following Responses, achieving a reduction in Root-Mean-Square-Error by up to 47.4% compared to standard methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Autocorrelation Function (ACF) struggle with noise interference and octave errors in pitch estimation when applied to Frequency Following Responses.",
+        "novelty": "This work improves by implementing a filterbank that aggregates harmonics while targeting known fundamental frequency ranges, thereby reducing noise influence."
+    },
+    "key_innovation": "The method uniquely employs prominence peak-picking rather than selecting the highest peak, making it resilient to noise effects in the FFR.",
+    "real_world_impact": "This approach has potential implications for enhanced speech processing in clinical settings, aiding in diagnostics related to auditory processing abilities, especially for hearing-impaired individuals.",
+    "limitations": "No",
+    "new_terms": {
+        "Frequency Following Response": "**Frequency Following Response (FFR)** is an auditory brainstem response that reflects how the central auditory system encodes sound frequencies, particularly in speech.",
+        "Harmonic Amplitude Summation": "**Harmonic Amplitude Summation (HAS)** refers to a technique to estimate fundamental frequency by summing the amplitudes of harmonics, focused around a known stimulus frequency."
+    },
+    "open_sourcing": ""
+}

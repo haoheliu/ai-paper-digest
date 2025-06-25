@@ -1,0 +1,22 @@
+{
+    "title": "Learning to Assess Subjective Impressions from Speech",
+    "author": "Yuto Kondo (NTT Corporation, Japan), Hirokazu Kameoka (NTT Corporation, Japan), Kou Tanaka (NTT Corporation, Japan), Takuhiro Kaneko (NTT Corporation, Japan), Noboru Harada (NTT Corporation, Japan)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper's exploration of personalized subjective voice descriptors (SVDs) could inform Dr. Liu's work on audio generation and manipulation by providing a framework for assessing audio characteristics in a nuanced way.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of training neural networks to evaluate subjective impressions from speech, which are often described with qualitative phrases that vary from person to person.",
+    "contribution": "This paper introduces a new framework for subjective voice assessment through SVDs, demonstrating that models can effectively learn from limited data using comparison category ratings (CCRs).",
+    "technical_comparison": {
+        "prior_work": "Existing speech quality assessment models typically rely on absolute category ratings (ACRs) for evaluating speech quality which may not capture nuanced subjective impressions effectively.",
+        "novelty": "This work enhances the assessment process by employing CCRs, which are easier to annotate and potentially more reliable than ACRs, improving the model's learning efficiency."
+    },
+    "key_innovation": "Utilizes personalized subjective voice descriptors to allow for a more nuanced and individualized assessment of speech characteristics.",
+    "real_world_impact": "This methodology could have applications in personalized voice synthesis and voice training, significantly enhancing user experience in various audio-based technologies.",
+    "limitations": "The reliance on limited training data and the complexity of collecting extensive comparative ratings may affect the generalizability of the results.",
+    "new_terms": {
+        "subjective voice descriptors (SVDs)": "**Subjective voice descriptors** are qualitative phrases used to describe characteristics of a speaker's voice, such as 'cute voice' or 'intelligent voice.'",
+        "comparison category ratings (CCRs)": "**Comparison category ratings** are a method of evaluation that involves ranking or comparing pairs of items rather than assigning absolute scores."
+    },
+    "open_sourcing": ""
+}

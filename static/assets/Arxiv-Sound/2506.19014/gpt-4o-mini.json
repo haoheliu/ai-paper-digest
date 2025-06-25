@@ -1,0 +1,22 @@
+{
+    "title": "IndieFake Dataset: A Benchmark Dataset for Audio Deepfake Detection",
+    "author": "Abhay Kumar (Indian Institute of Technology Ropar), Kunal Verma (Indian Institute of Technology Ropar), Omkar More (Indian Institute of Technology Ropar), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces the IndieFake Dataset, which focuses on deepfake audio detection in the Indian context, enhancing resources for various audio-related tasks, including speech synthesis and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenges of detecting audio deepfakes, particularly in South-Asian linguistic and cultural contexts.",
+    "contribution": "The IndieFake Dataset introduces diverse audio samples from Indian speakers to solve the problem of insufficient resources for training robust audio deepfake detection systems, achieving improved detection performance compared to existing datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets, like ASVspoof21, lack ethnic and linguistic diversity, resulting in poor generalizability for Indian speakers.",
+        "novelty": "This work improves upon those limitations by offering a balanced dataset with a variety of speaking styles and contexts specifically tailored for Indian speakers."
+    },
+    "key_innovation": "The dataset leverages a standardized generation methodology that includes both bonafide and deepfake audio samples from a wide range of speakers across different demographics.",
+    "real_world_impact": "The IndieFake Dataset can significantly enhance the accuracy of audio deepfake detection systems, which is crucial for combating the growing risks of misinformation and impersonation in digital communications.",
+    "limitations": "While comprehensive, the dataset's focus on English-speaking Indian speakers may limit its applicability to other languages and dialects.",
+    "new_terms": {
+        "deepfake": "**Deepfake** refers to synthetic media in which a person's likeness is replaced with someone else's, often creating misleading or deceptive content.",
+        "bonafide": "**Bonafide** denotes authentic or genuine audio samples as opposed to altered or synthetic ones."
+    },
+    "open_sourcing": "The dataset will be publicly available upon acceptance."
+}

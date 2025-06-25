@@ -1,0 +1,22 @@
+{
+    "title": "Enhanced Hybrid Transducer and Attention Encoder Decoder with Text Data",
+    "author": "Yun Tang (Samsung Research America), Eesung Kim (Samsung Research America), Vijendra Raj Apsingekar (Samsung Research America), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The joint modeling approach described in this paper leverages textual data for speech recognition and could inform methodologies when integrating audio and language models in Haohe Liu's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research presents a joint optimization framework for automatic speech recognition models, utilizing both speech and text modalities to improve accuracy and facilitate domain adaptation.",
+    "contribution": "This paper introduces the Joint Speech Text TAED model to solve the challenge of integrating large textual datasets into automatic speech recognition, achieving significant reductions in word error rates on various datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically relied solely on speech datasets for training ASR models without effectively utilizing available text data.",
+        "novelty": "The approach enhances hybrid transducer and attention-based models by jointly training with multimodal inputs, leading to improved performance under data-scarce conditions."
+    },
+    "key_innovation": "The model effectively integrates speech and text inputs during training while maintaining performance with only speech data during inference, creating unified representations.",
+    "real_world_impact": "This framework can improve the accuracy of ASR systems, particularly in contexts where speech data is limited, which is critical for developing more robust AI systems for diverse applications.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "Joint Speech Text TAED": "**Joint Speech Text TAED** is a model that integrates both speech and text input modalities into a unified automatic speech recognition framework.",
+        "Word Error Rate (WER)": "**Word Error Rate** is a common metric for evaluating the performance of speech recognition systems, calculated as the number of incorrect words divided by the total number of words."
+    },
+    "open_sourcing": ""
+}

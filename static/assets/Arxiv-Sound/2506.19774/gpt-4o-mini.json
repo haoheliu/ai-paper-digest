@@ -1,0 +1,21 @@
+{
+    "title": "Kling-Foley: Multimodal Diffusion Transformer for High-Quality Video-to-Audio Generation",
+    "author": "Jun Wang (Kuaishou Technology), Xijuan Zeng (Kuaishou Technology), Chunyu Qiang (Kuaishou Technology), Ruilong Chen (Kuaishou Technology), Shiyao Wang (Kuaishou Technology), Le Wang (Kuaishou Technology), Wangjing Zhou (Kuaishou Technology), Pengfei Cai (Kuaishou Technology), ..., Kun Gai (Kuaishou Technology)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper presents significant advancements in multimodal models, specifically in video-to-audio generation, which overlaps with Dr. Liu's work in audio generation and modeling. The methods described could improve audio synthesis tasks in various domains such as sound effects and music generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to automatically generate high-quality audio that is synchronized and semantically aligned with input video and optional text descriptions.",
+    "contribution": "Kling-Foley introduces a large-scale multimodal diffusion transformer to improve video-to-audio generation, achieving state-of-the-art performance in multiple audio-visual alignment metrics.",
+    "technical_comparison": {
+        "prior_work": "Existing models are often limited by the quality of audiovisual datasets and the fixed length of generated audio.",
+        "novelty": "This work resolves these issues by leveraging a multimodal diffusion approach that enhances alignment and produces audio of variable lengths aligned with video content."
+    },
+    "key_innovation": "Integrates multiple conditioning modalities (video, audio, and text) with learned semantic representations to dynamically generate high-fidelity audio that matches the temporal dynamics of input videos.",
+    "real_world_impact": "The framework has the potential to streamline audio production for various multimedia applications, reducing the need for manual sound design and enhancing content creation across industries.",
+    "limitations": "The paper does not mention specific limitations.",
+    "new_terms": {
+        "multimodal diffusion transformer": "**Multimodal diffusion transformer** is a type of neural network architecture designed to handle and integrate different types of data modalities (such as text, audio, and video) using a diffusion-based generative approach."
+    },
+    "open_sourcing": "The authors have released Kling-Audio-Eval, a benchmark dataset for sound generation tasks."
+}

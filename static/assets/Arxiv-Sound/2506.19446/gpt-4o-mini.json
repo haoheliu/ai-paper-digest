@@ -1,0 +1,22 @@
+{
+    "title": "Vo-Ve: An Explainable Voice-Vector for Speaker Identity Evaluation",
+    "author": "Jaejun Lee (Music and Audio Research Group, Seoul National University), Kyogu Lee (Department of Intelligence and Information, Seoul National University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper addresses speaker identity evaluation and interpretability of embedding techniques, which are critical in audio processing tasks including speech synthesis and voice conversion. Vo-Ve's explainability could enhance Haohe's research in audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The work focuses on creating a novel explainable embedding system that captures speaker identity attributes to enhance evaluation methods in speech tasks.",
+    "contribution": "This paper introduces Vo-Ve, a voice-vector embedding that provides explainability in speaker identity evaluation, achieving competitive performance in similarity assessments.",
+    "technical_comparison": {
+        "prior_work": "Conventional speaker embeddings lack interpretability, providing only similarity values without insights on voice attributes.",
+        "novelty": "Vo-Ve offers explicit probabilities for voice attributes, allowing for understanding of what contributes to similarity or dissimilarity between speakers."
+    },
+    "key_innovation": "Vo-Ve uniquely integrates interpretable voice attribute dimensions into speaker embeddings, moving beyond traditional approaches that operate in a less explainable manner.",
+    "real_world_impact": "Vo-Ve could facilitate advancements in speaker verification, voice conversion, and text-to-speech synthesis by providing deeper insights into speaker identity, potentially improving user experience in these applications.",
+    "limitations": "The study acknowledges a limited dimensionality in Vo-Ve, which may impact its expressiveness compared to conventional embeddings.",
+    "new_terms": {
+        "voice-vector": "**Voice-vector** refers to an embedding representation capturing voice identity attributes and their respective probabilities, providing insights into a speaker's characteristics.",
+        "multi-label classification": "**Multi-label classification** is a type of machine learning task in which each instance may be associated with multiple labels, as opposed to a single target label."
+    },
+    "open_sourcing": "The implementation code for Vo-Ve is available at https://github.com/jaejunL/vove."
+}

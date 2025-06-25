@@ -1,0 +1,22 @@
+{
+    "title": "SHAMaNS: Sound Localization with Hybrid Alpha-Stable Spatial Measure and Neural Steerer",
+    "author": "Diego Di Carlo (Center for Advanced Intelligence Project (AIP), RIKEN, Japan), Mathieu Fontaine (LTCI, Telecom Paris, Institut Polytechnique de Paris, France), Aditya Arie Nugraha (Center for Advanced Intelligence Project (AIP), RIKEN, Japan), Yoshiaki Bando (Center for Advanced Intelligence Project (AIP), RIKEN, Japan), Kazuyoshi Yoshii (Graduate School of Engineering, Kyoto University, Japan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a novel method that combines deep learning with a statistical approach to improve sound source localization, which can enhance audio processing tasks that Dr. Liu researches.",
+    "field": "Applications-Speech and Audio",
+    "background": "Sound source localization aims to determine the direction of arrival for multiple audio sources within an environment, crucial for applications in augmented reality and robotics.",
+    "contribution": "SHAMaNS introduces a hybrid model that fuses \u03b1-stable theory and a neural network approach for robust sound source localization, achieving improved accuracy in complex acoustic environments.",
+    "technical_comparison": {
+        "prior_work": "Prior methods primarily utilized either conventional signal processing techniques or purely data-driven approaches, often failing in noisy or complex scenarios.",
+        "novelty": "This work differs by integrating physics-informed neural networks for steering vector interpolation, which mitigates issues with few input measurements and enhances localization robustness."
+    },
+    "key_innovation": "The combination of \u03b1-stable distribution models for sound data and neural network-based steering vector interpolation allows for more accurate localization under difficult acoustic conditions.",
+    "real_world_impact": "This advancement could significantly improve applications in augmented listening, robotics, and autonomous vehicles by allowing better sound source differentiation, even in noisy environments.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "\u03b1-stable distribution": "**\u03b1-stable distribution** is a family of probability distributions characterized by heavy tails, allowing for modeling of data with outliers more effectively than Gaussian distributions.",
+        "steering vector": "**Steering vector** refers to a mathematical representation of how signals from a specific direction interact with an array of sensors, critical for sound localization tasks."
+    },
+    "open_sourcing": "The code used to produce the results of this paper is available at https://github.com/chutlhu/shamans."
+}

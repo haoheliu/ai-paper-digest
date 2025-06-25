@@ -1,0 +1,23 @@
+{
+    "title": "Loss functions incorporating auditory spatial perception in deep learning \u2013 a review",
+    "author": "Boaz Rafaely (Ben-Gurion University of the Negev), Stefan Weinzierl (Technische Universitat Berlin), Or Berebi (Ben-Gurion University of the Negev), Fabian Brinkmann (Technische Universitat Berlin), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper reviews loss functions that incorporate spatial auditory cues, which could be applied in Haohe Liu's work on audio processing, especially in enhancing spatial audio reproduction systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper assesses various loss functions designed to improve binaural audio quality by accounting for psychophysical aspects of spatial hearing.",
+    "contribution": "This review introduces a framework for spatial audio quality metrics and identifies gaps in current loss functions regarding room acoustics and spatial perception.",
+    "technical_comparison": {
+        "prior_work": "Most existing loss functions do not sufficiently consider perceptual attributes related to room acoustics and spatial audio quality.",
+        "novelty": "This work emphasizes the need for loss functions that include dimensions such as source localization and room acoustic perception."
+    },
+    "key_innovation": "The review highlights the integration of perceptual spatial attributes in loss function design and suggests future directions for research in spatial audio processing.",
+    "real_world_impact": "Improving loss functions that capture auditory spatial perception can enhance immersive audio experiences in applications like virtual reality, gaming, and hearing aids, leading to better user satisfaction.",
+    "limitations": "The paper does not provide empirical evaluations of the proposed loss functions, limiting its practical applicability.",
+    "new_terms": {
+        "binaural audio": "**Binaural audio** refers to the reproduction of sound through two channels (usually in headphones) that simulates the natural hearing experience of human listeners.",
+        "interaural time differences (ITDs)": "**Interaural time differences (ITDs)** are the differences in the time it takes for a sound to reach each ear, which are crucial for sound localization.",
+        "room impulse response (RIR)": "**Room impulse response (RIR)** is the response of a room to a sound signal, capturing how sound reflects and reverberates within the space."
+    },
+    "open_sourcing": ""
+}

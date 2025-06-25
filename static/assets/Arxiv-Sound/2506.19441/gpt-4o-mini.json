@@ -1,0 +1,22 @@
+{
+    "title": "TTSDS2: Resources and Benchmark for Evaluating Human-Quality Text to Speech Systems",
+    "author": "C. Minixhofer (University of Surrey), O. Klejch (University of Surrey), P. Bell (University of Surrey), ..., J. Yamagishi (BBC R&D)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The TTSDS2 metric and resources align closely with current research needs for evaluating text-to-speech systems, which is central to Haohe Liu's focus on audio and speech.",
+    "field": "Applications-Speech and Audio",
+    "background": "Text-to-speech systems are evaluated using metrics that may not accurately reflect human quality, especially as synthetic speech approaches indistinguishable quality from real speech.",
+    "contribution": "This paper introduces the Text to Speech Distribution Score 2 (TTSDS2) to improve the evaluation of TTS systems, achieving a better correlation with subjective human evaluations across multiple languages and domains.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with comparable metrics and often lacked validation against subjective evaluations, especially as TTS quality increased.",
+        "novelty": "This work improves by using a distributional analysis comparing synthetic speech to both real speech and noise distributions, with higher correlation coefficients across diverse datasets."
+    },
+    "key_innovation": "The introduction of a multifactorial evaluation metric based on perceptual factors and the dynamic updating of a multilingual dataset allows for more robust and relevant TTS evaluation.",
+    "real_world_impact": "This benchmark can enhance the development of TTS systems, facilitating applications in areas like assistive technology and entertainment where high-quality synthetic speech is crucial.",
+    "limitations": "Some limitations include the computational requirements of the TTSDS2 metric and its inability to account for context in speech generation.",
+    "new_terms": {
+        "TTS": "**Text-to-Speech** refers to the process of converting written text into spoken words using computer-generated speech.",
+        "Spearman correlation": "**Spearman correlation** is a statistical measure of rank correlation, indicating how well the relationship between two variables can be described using a monotonic function."
+    },
+    "open_sourcing": "The datasets and the TTSDS2 evaluation pipeline are available at [github.com/ttsds/pipeline](https://github.com/ttsds/pipeline)"
+}
