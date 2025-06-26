@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking Music Generation Models and Metrics via Human Preference Studies",
+    "author": "Florian Grotschla (ETH Zurich), Ahmet Solak (ETH Zurich), Luca A. Lanzendorfer (ETH Zurich), Roger Wattenhofer (ETH Zurich), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work offers extensive evaluations of music generation models and metrics, which could inform Haohe's research on audio generation methods and foster improvements in evaluation techniques applicable to his projects.",
+    "field": "Evaluation-Human-in-the-Loop",
+    "background": "The study assesses AI-generated music quality through human preferences and compares various metrics to understand their alignment with subjective evaluations.",
+    "contribution": "This paper introduces a comprehensive human evaluation methodology to benchmark current music generation models and metrics, achieving reliable rankings based on participant preferences.",
+    "technical_comparison": {
+        "prior_work": "Existing studies have struggled to correlate human preference with objective metrics effectively.",
+        "novelty": "This work leverages large-scale human surveys and pairs various model audio outputs to ascertain preferences empirically, improving evaluation reliability."
+    },
+    "key_innovation": "Utilizes an extensive dataset of generated music paired with detailed human feedback to create a new standard in evaluating music generation effectiveness.",
+    "real_world_impact": "The outcomes could directly enhance the development of AI-generated music applications and establish new benchmarks for evaluating audio quality. Such advancements could lead to more engaging audio experiences in entertainment.",
+    "limitations": "No limitations explicitly mentioned by the authors.",
+    "new_terms": {
+        "Elo ratings": "**Elo ratings** are a method for calculating the relative skill levels of players in competitor-versus-competitor games, often used to rank performance in various contexts including this study.",
+        "Frechet Audio Distance (FAD)": "**Frechet Audio Distance** is a metric used to assess the similarity of generated audio to real audio by comparing their distributions in feature space."
+    },
+    "open_sourcing": "Available at https://huggingface.co/datasets/disco-eth/AIME"
+}
