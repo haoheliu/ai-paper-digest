@@ -1,0 +1,22 @@
+{
+    "title": "The role of audio-visual integration in the time course of phonetic encoding in self-supervised speech models",
+    "author": "Yi Wang (University of Edinburgh), Oli Danyi Liu (University of Edinburgh), Peter Bell (University of Edinburgh), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The findings on how audio-visual models capture the temporal dynamics of phonetic encoding could inform methodologies in speech and audio processing, particularly in enhancing performance in multimodal audio generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating how audio-visual integration influences the perception of speech sounds and the corresponding time dynamics in self-supervised models.",
+    "contribution": "This study introduces a comparative analysis of the AV-HuBERT and HuBERT models to solve the issue of audio-visual asynchronicity in phonetic encoding, revealing that AV-HuBERT captures less temporal detail than anticipated.",
+    "technical_comparison": {
+        "prior_work": "Previous audio-visual models utilized basic integration mechanisms without addressing the critical temporal alignment of audio-visual cues.",
+        "novelty": "This work highlights the temporal limitations of AV-HuBERT, showing it advances phonetic decodability by only 20 ms due to its feature down-sampling method."
+    },
+    "key_innovation": "Demonstrates a thorough investigation of the asynchronicity between audio and visual inputs in speech processing, emphasizing the limitations of existing self-supervised models.",
+    "real_world_impact": "The insights could lead to more robust audio-visual processing models, improving speech recognition systems, especially in environments with varying audio-visual synchrony.",
+    "limitations": "The study notes that AV-HuBERT may not truly capture the natural dynamics of audio-visual speech processing.",
+    "new_terms": {
+        "decodability": "**Decodability** refers to the capability of a model to accurately predict or classify phonetic sounds from the encoded representations.",
+        "self-supervised learning (SSL)": "**Self-supervised learning** involves training models on unlabeled data by generating supervisory signals from the data itself, enabling the model to learn useful representations."
+    },
+    "open_sourcing": ""
+}

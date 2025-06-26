@@ -1,0 +1,22 @@
+{
+    "title": "An Exploration of ECAPA-TDNN and x-vector Speaker Representations in Zero-shot Multi-speaker TTS",
+    "author": "Marie Kune\u0161ov\u00e1 (NTIS Research Centre), Zdenek Hanzl\u00ed\u010dek (NTIS Research Centre), Jind\u0159ich Matou\u0161ek (NTIS Research Centre), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The paper provides insights into speaker embedding methods that can enhance text-to-speech systems, which may inform Haohe Liu's research in audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study evaluates different speaker embedding techniques for synthesizing speech in the voices of unseen speakers, testing their effectiveness in a zero-shot text-to-speech setting.",
+    "contribution": "This paper introduces a comparative analysis of three speaker encoders\u2014H/ASP, x-vector, and ECAPA-TDNN\u2014evaluating their performance in synthesizing speech across 24 target speakers.",
+    "technical_comparison": {
+        "prior_work": "Earlier studies mostly focused on embedding methods for speaker recognition and did not directly assess their implications for zero-shot text-to-speech synthesis.",
+        "novelty": "This research isolates the influence of speaker encoders on TTS performance while maintaining a consistent TTS framework."
+    },
+    "key_innovation": "The study provides empirical evidence on the effectiveness of traditional and state-of-the-art speaker embeddings, highlighting that the original H/ASP outperforms newer approaches in a TTS context.",
+    "real_world_impact": "The findings can guide the development of more effective TTS systems, potentially improving voice synthesis applications in areas like virtual assistants, gaming, and media accessibility.",
+    "limitations": "The study does not explore any encoder beyond those tested and may assume the results applicable exclusively to the Czech language.",
+    "new_terms": {
+        "zero-shot TTS": "**Zero-shot text-to-speech (TTS)** refers to the ability of a speech synthesis system to create speech for speakers it has not previously learned about, using minimal input data.",
+        "speaker embedding": "**Speaker embedding** is a vector representation of a speaker's voice characteristics used in speaker recognition and synthesis tasks."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Deciphering GunType Hierarchy through Acoustic Analysis of Gunshot Recordings",
+    "author": "Ankit Shah (Carnegie Mellon University), Rita Singh (Carnegie Mellon University), Bhiksha Raj (Carnegie Mellon University), Alexander Hauptmann (Carnegie Mellon University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The methods for acoustic analysis and classification of firearm types can inform audio classification techniques applicable to Haohe Liu's work in audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses firearm identification by analyzing gunshot acoustics, aiming to differentiate various gun types using machine learning techniques applied to audio recordings.",
+    "contribution": "This study introduces a novel machine learning framework for gunshot detection and classification, achieving a mean average precision of 0.58 on clean data.",
+    "technical_comparison": {
+        "prior_work": "Past approaches relied on expensive infrastructure for detection with significant costs associated with implementation.",
+        "novelty": "This work proposes a cost-effective solution that utilizes common recording devices and applies deep learning for improved classification accuracy and real-time capabilities."
+    },
+    "key_innovation": "The integration of a Convolutional Neural Network for simultaneous gunshot detection and classification of firearm types allows for efficient processing of acoustic features.",
+    "real_world_impact": "This research aims to develop an accessible gunshot detection system that can enhance public safety and provide valuable intelligence for law enforcement, with potential applications in urban settings.",
+    "limitations": "Challenges in model generalization when exposed to noisy, uncurated real-world data are acknowledged, indicating a need for improved robustness.",
+    "new_terms": {
+        "mean average precision": "**Mean Average Precision (mAP)** is a standard metric for evaluating the accuracy of classification models that summarizes precision and recall across different thresholds, particularly useful in multi-class settings."
+    },
+    "open_sourcing": ""
+}

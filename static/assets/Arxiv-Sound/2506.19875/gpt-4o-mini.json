@@ -1,0 +1,22 @@
+{
+    "title": "Speaker Embeddings to Improve Tracking of Intermittent and Moving Speakers",
+    "author": "Taous Iatariene (Orange Innovation), Can Cui (University de Lorraine, CNRS, Inria, Loria), Alexandre Guerin (Orange Innovation), Romain Serizel (University de Lorraine, CNRS, Inria, Loria), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper explores the use of speaker embeddings for improving speaker tracking, which could inform techniques in audio analysis and enhance speaker recognition tasks that Dr. Liu is developing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Tracking multiple intermittent and moving speakers in a noisy and reverberant environment, especially when speakers change position during inactivity.",
+    "contribution": "This paper introduces a post-tracking identity reassignment method using speaker embeddings to enhance tracking performance, achieving improved accuracy in speaker identity assignment.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on spatial localization for tracking speaker identities but struggled with intermittent and moving speakers.",
+        "novelty": "This work improves tracking by integrating speaker embeddings derived from enhanced audio signals, thus enabling more robust identity verification."
+    },
+    "key_innovation": "Combines speaker embeddings with spatial information from tracking systems to reassess and correct identity assignments in real-time.",
+    "real_world_impact": "Enhancements in tracking capabilities can significantly improve applications in automated transcription, surveillance, and speech recognition in crowded or dynamic environments.",
+    "limitations": "The paper does not discuss the potential computational overhead of integrating embeddings in real-time processing.",
+    "new_terms": {
+        "beamforming": "**Beamforming** is a signal processing technique that uses multiple microphones to enhance signals coming from specific directions while reducing background noise.",
+        "speaker embeddings": "**Speaker embeddings** are numerical representations of a speaker\u2019s voice characteristics that can be used for tasks like identification and verification."
+    },
+    "open_sourcing": ""
+}

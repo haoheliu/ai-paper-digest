@@ -1,0 +1,21 @@
+{
+    "title": "Lightweight Target-Speaker-Based Overlap Transcription for Practical Streaming ASR",
+    "author": "Ale\u0161 Pra\u017e\u00e1k (University of West Bohemia in Pilsen), Marie Kune\u0161ov\u00e1 (University of West Bohemia in Pilsen), Josef Psutka (University of West Bohemia in Pilsen), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The methods for overlapping speech transcription and target speaker identification are highly relevant to Haohe Liu's work on speech restoration and audio processing, potentially improving audio analysis tasks where speaker separation is critical.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work focuses on improving automatic speech recognition in scenarios where multiple speakers overlap, aiming to accurately transcribe only the target speaker's speech.",
+    "contribution": "This paper introduces a lightweight extension to streaming automatic speech recognition systems to transcribe overlapping speech with minimal computational overhead, achieving significant improvements in word error rates.",
+    "technical_comparison": {
+        "prior_work": "Previous approaches for overlapping speech transcription typically require complex models that are computationally heavy, making them unsuitable for real-time applications.",
+        "novelty": "This work combines a speaker-independent model with a speaker-conditioned model for effective processing in overlapping scenarios, which reduces complexity while enhancing accuracy."
+    },
+    "key_innovation": "Integrates a compact overlap detection mechanism and a speaker-conditioned model to transcribe the target speaker's speech dynamically within an existing ASR framework.",
+    "real_world_impact": "By enabling effective transcription of overlapping speech, this system can greatly enhance real-time media applications such as live broadcasts and debates, improving accessibility and content analysis.",
+    "limitations": "No limitations explicitly mentioned by the authors.",
+    "new_terms": {
+        "Feature-wise Linear Modulation (FiLM)": "**Feature-wise Linear Modulation** is a technique in deep learning where the model's output is conditioned on contextual information, allowing flexible adaptation to various input scenarios."
+    },
+    "open_sourcing": ""
+}

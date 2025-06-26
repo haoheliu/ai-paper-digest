@@ -1,0 +1,22 @@
+{
+    "title": "MATER: Multi-level Acoustic and Textual Emotion Representation for Interpretable Speech Emotion Recognition",
+    "author": "Hyo Jin Jon (Konkuk University), Longbin Jin (Konkuk University), Hyuntaek Jung (Konkuk University), Hyunseo Kim (Konkuk University), Donghun Min (Voinosis Inc.), Eun Yi Kim (Konkuk University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The integration of acoustic and textual features to enhance emotion recognition aligns well with Haohe's work on audio and speech processing, specifically the potential applications for generative tasks in synthesis and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task addresses recognizing emotions in natural speech by categorizing them into specific labels and predicting emotional attributes like valence, arousal, and dominance.",
+    "contribution": "This paper introduces the Multi-level Acoustic and Textual Emotion Representation (MATER) framework to solve the complexities of emotion recognition in speech, achieving competitive performance in the SERNC Challenge.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically focused on either acoustic or textual features separately, resulting in limited context understanding.",
+        "novelty": "MATER improves the integration of these features through a hierarchical framework that captures both low-level cues and high-level semantic context."
+    },
+    "key_innovation": "MATER uniquely combines multi-level processing of acoustic and textual features to enhance the interpretability and accuracy of emotion recognition in speech.",
+    "real_world_impact": "This framework can significantly enhance applications in human-computer interaction, mental health monitoring, and automated customer support systems by providing more nuanced emotional understanding.",
+    "limitations": "The method still faces challenges in predicting arousal and dominance attributes effectively.",
+    "new_terms": {
+        "MATER": "**Multi-level Acoustic and Textual Emotion Representation** is a novel framework that integrates various feature levels for robust emotion recognition in speech.",
+        "Concordance Correlation Coefficient (CCC)": "**Concordance Correlation Coefficient** is a measure of agreement between two variables, useful for evaluating the reliability of predictions against actual values."
+    },
+    "open_sourcing": ""
+}
