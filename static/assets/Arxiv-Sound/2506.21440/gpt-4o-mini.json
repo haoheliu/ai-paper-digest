@@ -1,0 +1,22 @@
+{
+    "title": "Learnable Adaptive Time-Frequency Representation via Differentiable Short-Time Fourier Transform",
+    "author": "M. Leiber, Y. Marnissi, A. Barrau, S. Meignen, L. Massoulie, ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper proposes a differentiable formulation of the Short-Time Fourier Transform (STFT), which can be integrated into neural networks. This innovation has implications for audio signal processing tasks, including speech enhancement and music analysis, areas that align with Haohe Liu's focus on audio and music processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work focuses on improving time-frequency representations of signals through a novel differentiable framework for the Short-Time Fourier Transform that allows parameter optimization via gradient descent.",
+    "contribution": "This paper introduces a differentiable Short-Time Fourier Transform to solve the issue of manually tuning STFT parameters, achieving enhanced time-frequency representations for various audio signals.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically rely on computationally intensive discrete optimization for STFT parameters, often yielding suboptimal results.",
+        "novelty": "This work improves on earlier techniques by providing a continuous optimization approach for tuning STFT parameters, fully integrating with machine learning pipelines."
+    },
+    "key_innovation": "The differentiable STFT framework allows for parameter optimization via gradient descent, which is a significant shift towards adaptive and automatic tuning of audio analysis parameters.",
+    "real_world_impact": "This method has the potential to improve signal analysis in real-time applications, enhancing tasks like speech recognition and audio classification significantly. It could lead to more nuanced audio processing solutions in practical settings.",
+    "limitations": "No",
+    "new_terms": {
+        "differentiable": "**Differentiable** refers to the ability to compute the derivative of a function, enabling optimization techniques like gradient descent to be used effectively.",
+        "time-frequency representation": "**Time-frequency representation** is a method of analyzing signals that contain frequencies that vary with time, crucial in audio and speech processing."
+    },
+    "open_sourcing": "The codes and experimental results are available on GitHub: https://github.com/maxime-leiber/dstft."
+}

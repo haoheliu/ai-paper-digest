@@ -1,0 +1,21 @@
+{
+    "title": "A Hierarchical Deep Learning Approach for Minority Instrument Detection",
+    "author": "Dylan Sechet (CentraleSupelec, Inria, CNRS, LISN Universit\u00e9 Paris-Saclay), Francesca Bugiotti (CentraleSupelec, Inria, CNRS, LISN Universit\u00e9 Paris-Saclay), Matthieu Kowalski (CentraleSupelec, Inria, CNRS, LISN Universit\u00e9 Paris-Saclay), Edouard d'H\u00e9rouville (Linkaband), Filip Langiewicz (Linkaband), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The study utilizes deep learning techniques for hierarchical music prediction, which could inform Haohe Liu's research in music source separation and audio enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves detecting musical instruments within polyphonic audio excerpts, particularly focusing on instruments that are underrepresented in available datasets.",
+    "contribution": "This paper introduces a hierarchical classification system based on the Hornbostel-Sachs taxonomy to improve the detection of rare instruments in music recordings, achieving robust performance at the group-level.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with imbalanced datasets and fine-grained instrument classification.",
+        "novelty": "This work enhances performance by using a two-pass model strategy, where a group prediction model is followed by specialized instruments models."
+    },
+    "key_innovation": "The hierarchical approach allows for more reliable coarse-level instrument detection, effectively bridging the gap between detailed instrument identification and group-level recognition.",
+    "real_world_impact": "This methodology can substantially improve music cataloging and discovery applications, leading to better user experiences in music retrieval systems.",
+    "limitations": "The performance disparity between instrument-level and group-level detection remains a challenge.",
+    "new_terms": {
+        "Hornbostel-Sachs classification": "**Hornbostel-Sachs classification** is a system that categorizes musical instruments based on the method of sound production, facilitating a structured approach to instrument identification."
+    },
+    "open_sourcing": ""
+}

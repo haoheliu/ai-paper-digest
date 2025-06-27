@@ -1,0 +1,22 @@
+{
+    "title": "ThinkSound: Chain-of-Thought Reasoning in Multimodal Large Language Models for Audio Generation and Editing",
+    "author": "Huadai Liu (Tongyi Lab, Alibaba Group), Jialei Wang (Zhejiang University), Kaicheng Luo (Zhejiang University), Wen Wang (Tongyi Lab, Alibaba Group), Qian Chen (Tongyi Lab, Alibaba Group), Zhou Zhao (Zhejiang University), Wei Xue (Hong Kong University of Science and Technology), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a novel framework for audio generation and editing that could enhance Haohe Liu's existing work in text-to-audio models and audio manipulation, potentially improving robustness and creativity in sound synthesis applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the task of generating high-fidelity audio from video content by leveraging reasoning mechanisms, enabling stepwise refinement and editing based on user input.",
+    "contribution": "ThinkSound introduces a three-stage audio generation framework focusing on foundational sound synthesis, user-centric refinement, and guided audio editing, achieving improved audio quality and alignment with visual content.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for video-to-audio generation often produced generic sounds or lacked precise synchronization with visual cues.",
+        "novelty": "ThinkSound enhances audio generation by integrating Chain-of-Thought reasoning that decomposes the complex audio design process into actionable stages, allowing for better contextual audio synthesis."
+    },
+    "key_innovation": "Utilizes stepwise Chain-of-Thought reasoning with multimodal inputs to create highly tailored audio outputs that respond to visual and textual cues.",
+    "real_world_impact": "This framework has significant implications for creative industries like film and gaming, providing more intuitive tools for sound designers and enhancing user interaction in audio editing applications.",
+    "limitations": "The framework's handling of nuanced acoustic properties may still need further refinement.",
+    "new_terms": {
+        "Chain-of-Thought (CoT)": "**Chain-of-Thought (CoT)** reasoning refers to a structured series of reasoning steps that help decompose complex tasks into more manageable parts, particularly in task-driven machine learning.",
+        "multimodal large language model (MLLM)": "**Multimodal large language model (MLLM)** is an AI model that can understand and generate responses across different data types, such as text, images, and audio."
+    },
+    "open_sourcing": "Demo page is available at https://ThinkSound-Demo.github.io"
+}

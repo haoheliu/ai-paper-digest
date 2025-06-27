@@ -1,0 +1,22 @@
+{
+    "title": "SmoothSinger: A Conditional Diffusion Model for Singing Voice Synthesis with Multi-Resolution Architecture",
+    "author": "Kehan Suai (George Washington University), Jinxu Xiang (George Washington University), Fang Jin (George Washington University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents significant advancements in singing voice synthesis, particularly through the proposed diffusion model, which could inform and enhance techniques used in Haohe Liu's research on audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to generate high-quality singing voices from musical scores using a unified machine learning framework known as a diffusion model, which iteratively refines audio outputs.",
+    "contribution": "SmoothSinger introduces a reference-guided dual-branch architecture to improve the synthesis of singing voices, achieving a more natural and artifact-free audio output compared to existing methods.",
+    "technical_comparison": {
+        "prior_work": "Existing singing voice synthesis systems often consist of a two-stage process involving acoustic modeling followed by vocoding, which can introduce misalignments and artifacts.",
+        "novelty": "This work improves upon previous approaches by directly refining low-quality audio in a single framework, thus reducing reliance on separate vocoders and minimizing audio degradation."
+    },
+    "key_innovation": "The integration of a reference audio branch allows the model to utilize contextual information for enhanced voice synthesis while implementing a multi-resolution approach to capture diverse spectral features.",
+    "real_world_impact": "The proposed model shows promise in generating high-fidelity singing voices, which could enhance applications in music production, virtual assistants, and creative audio systems.",
+    "limitations": "No limitations explicitly mentioned.",
+    "new_terms": {
+        "diffusion model": "**Diffusion model** is a class of generative models that gradually transforms simple noise into complex data, allowing for high-quality sample generation.",
+        "reference-guided architecture": "**Reference-guided architecture** refers to a model design that utilizes external audio input as guidance to influence the synthesis process, enhancing contextual awareness."
+    },
+    "open_sourcing": ""
+}

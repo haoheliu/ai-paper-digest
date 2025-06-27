@@ -1,0 +1,22 @@
+{
+    "title": "Step-by-Step Video-to-Audio Synthesis via Negative Audio Guidance",
+    "author": "Akio Hayakawa (Sony AI), Masato Ishii (Sony AI), Takashi Shibuya (Sony AI), Yuki Mitsufuji (Sony AI, Sony Group Corporation), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper introduces a guided audio generation method that can enhance audio synthesis in multimedia applications, aligning well with efforts in generative audio research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Generating audio that accurately corresponds to visual events in videos, similar to the Foley art in film production, while addressing creative and practical challenges.",
+    "contribution": "This paper introduces a novel guided audio synthesis method utilizing Negative Audio Guidance (NAG) to iteratively create distinct audio tracks corresponding to sound events in a video.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically generate entire audio tracks simultaneously without modular control or specialized training datasets.",
+        "novelty": "This work improves the generative process by enabling step-by-step sound event generation, enhancing control and adaptability through the application of audio conditioning techniques."
+    },
+    "key_innovation": "Develops a framework for step-by-step audio synthesis using negative guidance to prevent the re-generation of already created audio events.",
+    "real_world_impact": "Enhances the efficiency of audio production in multimedia content creation, making it easier for creators to generate high-quality audio that syncs with visuals.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Foley": "**Foley** refers to the reproduction of everyday sound effects that are added to films, videos, and other media in post-production to enhance audio quality.",
+        "Negative Audio Guidance (NAG)": "**Negative Audio Guidance** is a novel technique introduced to guide audio generation by specifying sounds that should not appear based on previously generated tracks."
+    },
+    "open_sourcing": ""
+}

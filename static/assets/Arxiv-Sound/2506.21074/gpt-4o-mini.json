@@ -1,0 +1,21 @@
+{
+    "title": "CODECSLIME: Temporal Redundancy Compression of Neural Speech Codec via Dynamic Frame Rate",
+    "author": "Hankun Wang (Shanghai Jiao Tong University), Yiwei Guo (Shanghai Jiao Tong University), Chongtian Shao (Shanghai Jiao Tong University), Bohan Li (Shanghai Jiao Tong University), Xie Chen (Shanghai Jiao Tong University), Kai Yu (Shanghai Jiao Tong University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper presents a dynamic frame rate method that can directly improve audio compression techniques relevant to audio quality enhancement tasks in Haohe Liu's work.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper explores ways to effectively compress the redundancy found in speech by adapting the frame rate dynamically, achieving better audio reconstruction while maintaining low bitrates.",
+    "contribution": "This paper introduces CodecSlime, a novel method to solve temporal redundancy in speech codecs by combining Schedulable Dynamic Frame Rate and a unique training recipe, achieving significant reductions in word error rate by up to 46%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly employed fixed frame rates, which caused inefficiencies in encoding steady-state segments leading to wasted tokens.",
+        "novelty": "This work allows adaptable compression that identifies and reduces redundancy during inference, offering improved performance at lower bitrates."
+    },
+    "key_innovation": "CodecSlime enables dynamic compression of speech features at runtime, adapting to varying temporal densities in speech, which is a significant advance over traditional static models.",
+    "real_world_impact": "By enhancing speech codec efficiency, this research could lead to better quality speech apps and services in low-bitrate scenarios, improving accessibility and usability across devices.",
+    "limitations": "No specific limitations were mentioned by the authors.",
+    "new_terms": {
+        "Schedulable Dynamic Frame Rate (ScheDFR)": "**Schedulable Dynamic Frame Rate (ScheDFR)** is a technique that adaptively compresses speech features during inference to maximize reconstruction quality at dynamically chosen rates."
+    },
+    "open_sourcing": "Audio samples are available at https://acadarmeria.github.io/codecslime/"
+}

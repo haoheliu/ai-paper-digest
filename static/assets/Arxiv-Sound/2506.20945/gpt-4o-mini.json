@@ -1,0 +1,19 @@
+{
+    "title": "A Multi-Stage Framework for Multimodal Controllable Speech Synthesis",
+    "author": "Rui Niu (Shenzhen International Graduate School, Tsinghua University), Weihao Wu (Shenzhen International Graduate School, Tsinghua University), Jie Chen (Youtu Lab, Tencent), Long Ma (Youtu Lab, Tencent), Zhiyong Wu (Shenzhen International Graduate School, Tsinghua University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper's focus on multimodal controllable speech synthesis aligns well with Dr. Liu's research in audio processing and generation, particularly in exploring methods for enhancing audio quality and diversity.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a method to synthesize speech that can be controlled by various input modalities, such as facial images and text prompts, while improving robustness and diversity in output.",
+    "contribution": "This paper introduces a three-stage framework to enhance multimodal speech synthesis, addressing challenges in robustness and generalization, with improved speech quality and stylistic control.",
+    "technical_comparison": "Previous methods relied heavily on matched data triplets for training, limiting their applicability. This work improves by utilizing paired datasets and a robust multi-stage training approach, enhancing generalization without the need for fully matched triplets.",
+    "key_innovation": "The paper's innovative approach combines facial, text, and speech data to train models in a way that builds generalization capability while increasing the diversity of generated speech.",
+    "real_world_impact": "This framework has potential implications in personalized voice synthesis applications, enhancing interactivity in virtual characters and creating more engaging user experiences.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "knowledge distillation": "**Knowledge distillation** is a technique in machine learning where a smaller model (student) is trained to replicate the output of a larger, pre-trained model (teacher) to improve performance and efficiency.",
+        "multimodal": "**Multimodal** refers to integrating and processing data from different sources or modalities, such as visual, auditory, and textual input, to create richer and more informative outputs."
+    },
+    "open_sourcing": ""
+}

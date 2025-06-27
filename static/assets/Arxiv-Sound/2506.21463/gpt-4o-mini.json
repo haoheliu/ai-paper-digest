@@ -1,0 +1,22 @@
+{
+    "title": "Aligning Spoken Dialogue Models from User Interactions",
+    "author": "Anne Wu (Cornell University), Laurent Mazare (Kyutai), Neil Zeghidour (Kyutai), Alexandre Defossez (Kyutai), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The methods for aligning dialogue models with real-time spoken interactions could significantly enhance Haohe Liu's research in speech and audio processing, particularly in developing systems that better understand and generate human-like responses.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing frameworks to enhance spoken dialogue systems by learning from user interactions in real-time conversations.",
+    "contribution": "This paper introduces a novel preference alignment framework to improve spoken dialogue models by leveraging feedback from user interactions, achieving improvements in factual accuracy and safety.",
+    "technical_comparison": {
+        "prior_work": "Previous alignment methods focused on text-based models, often neglecting the unique complexities of spoken dialogue and real-time interactions.",
+        "novelty": "This work specifically addresses the dynamics of spoken conversations, including interruptions and overlapping speech, enabling better human-computer interaction."
+    },
+    "key_innovation": "It uniquely integrates both linguistic and temporal feedback from real-time user interactions to enhance spoken dialogue models.",
+    "real_world_impact": "This framework could lead to more effective and engaging voice interfaces in various applications, impacting customer support, personal assistants, and educational tools.",
+    "limitations": "The study relies on offline data collection and may need further adaptation for online learning environments.",
+    "new_terms": {
+        "full-duplex": "**Full-duplex** communication allows both parties to communicate simultaneously, improving the natural flow of conversation.",
+        "offline alignment": "**Offline alignment** refers to the process of adjusting model parameters based on previously collected data rather than in real-time."
+    },
+    "open_sourcing": ""
+}

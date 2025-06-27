@@ -1,0 +1,22 @@
+{
+    "title": "PeakNetFP: Peak-based Neural Audio Fingerprinting Robust to Extreme Time Stretching",
+    "author": "Guillem Cort\u00e8s-Sebasti\u00e0 (BMAT Licensing S.L.), Benjamin Martin (Deezer Research), Emilio Molina (Music Technology Group, Universitat Pompeu Fabra), Romain Hennequin (Deezer Research), Xavier Serra (Music Technology Group, Universitat Pompeu Fabra), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper's focus on audio fingerprinting and its innovative approach to handling extreme time stretching could provide insights into audio processing techniques that Haohe Liu can adapt for his work on audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Audio fingerprinting identifies audio recordings in a database, which is crucial for applications like music recognition and copyright enforcement, especially when tracks are altered in time or pitch.",
+    "contribution": "This paper introduces PeakNetFP to solve the challenges of identifying time-stretched audio effectively, achieving a Top-1 hit rate of over 90% across various stretching factors.",
+    "technical_comparison": {
+        "prior_work": "Traditional audio fingerprinting systems like QuadFP struggle with extreme time stretching and provide limited robustness under such transformations.",
+        "novelty": "This work integrates neural networks with traditional peak-based methods to enhance performance while significantly reducing model size and input data requirements."
+    },
+    "key_innovation": "Utilizes a hierarchical point cloud network to process sparse spectral peaks, achieving representation learning without relying on dense spectrograms.",
+    "real_world_impact": "Offers an efficient and effective solution for audio identification which can benefit industries that handle large music databases, improving user experiences in applications like music streaming and copyright management.",
+    "limitations": "The performance may decrease in extreme stretching cases compared to more established neural approaches, but it remains effective.",
+    "new_terms": {
+        "Peak-based Neural Audio Fingerprinting": "**Peak-based Neural Audio Fingerprinting** refers to a method of identifying audio tracks using significant updates on local spectral peaks, adapted into a neural framework for better robustness.",
+        "Hierarchical Point Cloud Network": "**Hierarchical Point Cloud Network** is a framework inspired by computer vision that processes non-grid-like, sparse data to capture relevant features effectively."
+    },
+    "open_sourcing": "https://github.com/guillemcortes/peaknetfp"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Prompt-Guided Turn-Taking Prediction",
+    "author": "Koji Inoue (Kyoto University), Mikey Elmers (Kyoto University), Yahui Fu (Kyoto University), Zi Haur Pang (Kyoto University), Divesh Lala (Kyoto University), Keiko Ochi (Kyoto University), Tatsuya Kawahara (Kyoto University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper introduces a novel approach to enhancing turn-taking prediction in dialogue systems, which is highly applicable to Haohe Liu's research on audio generation and enhancement, especially in conversational contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on predicting when to shift speaking turns in conversations based on speech activity and can adapt dynamically based on textual prompts.",
+    "contribution": "This paper introduces a prompt-controlled turn-taking model based on voice activity projection to improve prediction accuracy and adaptability in spoken dialogue systems.",
+    "technical_comparison": {
+        "prior_work": "Previous methods, like VAP, predict turn-taking but lack flexibility in adapting to conversational context or speaker intent.",
+        "novelty": "This work enhances turn-taking models by incorporating textual prompts, allowing for more responsive and context-aware predictions."
+    },
+    "key_innovation": "Integrates textual prompt embeddings into the existing turn-taking prediction model, enabling intuitive control over turn-taking behaviors.",
+    "real_world_impact": "This model could significantly improve the design and interaction quality of conversational AI systems, making them more human-like and responsive in real-time dialogue scenarios.",
+    "limitations": "The reliance on synthetic prompts generated from language models may restrict the model's applicability without natural contextual data.",
+    "new_terms": {
+        "voice activity projection (VAP)": "**Voice Activity Projection** is a framework that predicts speech events in dyadic conversations based on audio input and historical speaker behavior.",
+        "textual prompt embeddings": "**Textual prompt embeddings** are vector representations of instructional sentences that guide the model's response behavior during dialogue."
+    },
+    "open_sourcing": ""
+}
