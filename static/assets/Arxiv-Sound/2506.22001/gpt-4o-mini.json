@@ -1,0 +1,22 @@
+{
+    "title": "WTFormer: A Wavelet Conformer Network for MIMO Speech Enhancement with Spatial Cues Preservation",
+    "author": "Lu Han (Laboratory of Noise and Audio Research, Institute of Acoustics, Chinese Academy of Sciences), Junqi Zhao (Centre for Vision, Speech and Signal Processing, University of Surrey), Renhua Peng (Laboratory of Noise and Audio Research, Institute of Acoustics, Chinese Academy of Sciences), ...",
+    "quality": 6,
+    "relevance": 9,
+    "relevance_why": "This paper presents a novel neural network architecture specifically designed for speech enhancement while preserving spatial cues, a key aspect in Haohe's work related to audio quality enhancement and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Multi-Input Multi-Output (MIMO) speech enhancement aims to recover clean target speech from noisy recordings captured by multiple microphones.",
+    "contribution": "This paper introduces WTFormer to solve the challenge of preserving spatial cues in MIMO speech enhancement, achieving competitive denoising performance with only 0.98M parameters.",
+    "technical_comparison": {
+        "prior_work": "Prior methods often struggle with spatial cue preservation due to reliance on traditional single-output architectures.",
+        "novelty": "WTFormer employs a combination of wavelet transforms and Conformer architecture, leveraging multi-dimensional collaborative attention to effectively capture spatial features while enhancing speech quality."
+    },
+    "key_innovation": "The integration of wavelet convolutions allows the model to enhance and retain spatial cues while efficiently processing multiple channels.",
+    "real_world_impact": "The approach has the potential to significantly improve speech intelligibility in noisy environments, which could influence fields like telecommunications and hearing aids.",
+    "limitations": "The paper does not mention specific limitations of the proposed method.",
+    "new_terms": {
+        "MIMO": "**Multi-Input Multi-Output** refers to systems that use multiple antennas at both the transmitter and receiver end to improve communication performance.",
+        "cIRM": "**Complex Ideal Ratio Mask** is a method used to enhance signal separation by estimating a mask that retains the desired signal while minimizing noise."
+    },
+    "open_sourcing": ""
+}

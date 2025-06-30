@@ -1,0 +1,22 @@
+{
+    "title": "ChildGuard: A Specialized Dataset for Combatting Child-Targeted Hate Speech",
+    "author": "Gautam Siddharth Kashyap (Macquarie University), Mohammad Anas Azeez (Jamia Hamdard), Rafiq Ali (DSEU), Zohaib Hasan Siddiqui (Jamia Hamdard), Jiechao Gao (Center for SDGC, Stanford University), Usman Naseem (Macquarie University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The detection of hate speech and understanding online interactions, particularly for underrepresented demographics like children, can inform audio analysis in social environments.",
+    "field": "Applications-Language",
+    "background": "The paper discusses the creation and characteristics of a dataset intended to identify and analyze hate speech specifically targeting children online.",
+    "contribution": "ChildGuard introduces a curated dataset tailored for child-targeted hate speech detection to address existing gaps in current datasets.",
+    "technical_comparison": {
+        "prior_work": "Existing datasets often lack age-specific context and emotional impact considerations that affect children.",
+        "novelty": "ChildGuard enhances prior datasets by focusing on vocabulary and contextual factors unique to varying child age groups."
+    },
+    "key_innovation": "Incorporates age-specific language analysis and contextual nuances for improved hate speech detection targeted at children.",
+    "real_world_impact": "By providing a dedicated resource for detecting child-targeted hate speech, this work could contribute to fostering a safer digital space for young users online.",
+    "limitations": "No",
+    "new_terms": {
+        "hate speech": "**Hate speech** refers to any communication that belittles or incites hatred against individuals or groups based on characteristics such as age, race, or gender.",
+        "age-specific": "**Age-specific** refers to contexts or categorizations that consider the variations unique to different age groups."
+    },
+    "open_sourcing": "The dataset is publicly available at https://github.com/RafiqAli25/ChildGaurd."
+}

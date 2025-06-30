@@ -1,0 +1,22 @@
+{
+    "title": "Fine-Tuning MIDI-to-Audio Alignment Using a Neural Network on Piano Roll and CQT Representations",
+    "author": "Sebastian Murgul (Klangio GmbH), Moritz Reiser (University of Music Karlsruhe), Michael Heizmann (Karlsruhe Institute of Technology), Christoph Seibert (University of Music Karlsruhe), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a neural network approach for synchronizing audio and MIDI files, which could be useful for enhancing music transcription tasks in Haohe's audio-related research.",
+    "field": "Applications-Music",
+    "background": "The task is to align audio recordings of piano performances with loosely aligned MIDI files through a deep learning model.",
+    "contribution": "This paper introduces a Convolutional Recurrent Neural Network (CRNN) to solve the MIDI-audio alignment problem, achieving up to 20% higher accuracy than standard Dynamic Time Warping methods.",
+    "technical_comparison": {
+        "previous_methods": "Dynamic Time Warping, while standard, suffers from limitations in handling longer recordings and aligning frequencies effectively.",
+        "novelty": "This work employs a CRNN to analyze both piano roll and audio spectrograms, improving alignment precision and robustness through deep learning."
+    },
+    "key_innovation": "Combining Convolutional feature extraction with Recurrent neural layers enhances the integration of temporal and spectral information for better alignment.",
+    "real_world_impact": "The proposed system can significantly streamline the process of music transcription and annotation, benefiting music education, analysis, and performance.",
+    "limitations": "No explicit limitations are mentioned by the authors.",
+    "new_terms": {
+        "Convolutional Recurrent Neural Network (CRNN)": "**CRNN** is a hybrid architecture that combines Convolutional Neural Networks for feature extraction with Recurrent Neural Networks for sequential data processing.",
+        "CQT (Constant Q Transform)": "**CQT** is a spectrogram representation that offers a logarithmic frequency resolution, beneficial for musical applications."
+    },
+    "open_sourcing": ""
+}

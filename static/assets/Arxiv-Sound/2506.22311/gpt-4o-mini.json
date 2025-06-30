@@ -1,0 +1,21 @@
+{
+    "title": "Reconstructing Intelligible Speech from the Pressure Sensor Data in HVACs",
+    "author": "Tarikul Islam Tamiti (Cyber-Security Engineering, George Mason University), Biraj Joshi (Cyber-Security Engineering, George Mason University), Rida Hasan (Cyber-Security Engineering, George Mason University), Anomadarshi Barua (Cyber-Security Engineering, George Mason University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a novel method for reconstructing speech from pressure sensor data, which may inform techniques in audio quality enhancement and speech restoration that are relevant to Dr. Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study explores how to recover intelligible speech from low-resolution pressure sensor data used in HVAC systems, even in noisy conditions.",
+    "contribution": "This paper introduces WaLi, a system designed to reconstruct intelligible speech using complex-valued networks from pressure sensor data, achieving significant quality improvements despite low sampling rates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on recognizing hot words or phrases from pressure sensor data, often needing clear background audio.",
+        "novelty": "This work improves by seamlessly reconstructing both the magnitude and phase of the speech signal, overcoming challenges posed by transient noise."
+    },
+    "key_innovation": "WaLi's unique approach combines complex-valued networks with complex global attention to effectively recover high-frequency components crucial for speech intelligibility.",
+    "real_world_impact": "The findings indicate serious privacy implications for smart HVAC systems in settings like offices and hospitals, potentially raising awareness for better security standards.",
+    "limitations": "The effectiveness of WaLi decreases significantly at sampling frequencies below 500 Hz, limiting its applicability in certain scenarios.",
+    "new_terms": {
+        "Complex Global Attention Block (CGAB)": "**CGAB** is a specialized neural architecture that captures long-range dependencies in both temporal and frequency dimensions of a signal, enhancing the reconstruction process in neural networks."
+    },
+    "open_sourcing": "A demonstration of the reconstructed audio is provided in a linked resource."
+}

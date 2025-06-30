@@ -1,0 +1,22 @@
+{
+    "title": "Language-Aware Prompt Tuning for Parameter-Efficient Seamless Language Expansion in Multilingual ASR",
+    "author": "Hongli Yang (School of Computer Science and Technology, Xinjiang University), Sheng Li (Institute of Science Tokyo), Hao Huang (Joint International Research Laboratory of Silk Road Multilingual Cognitive Computing), Ayiduosi Tuohan (Xinjiang Key Laboratory of Multi-lingual Information Technology), Yizhou Peng (College of Computing and Data Science, Nanyang Technological University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores techniques for multilingual automatic speech recognition (ASR), which aligns closely with Dr. Liu's interests in audio processing and speech enhancement, especially regarding parameter-efficient model tuning and language expansion.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research focuses on improving speech recognition across multiple languages, enabling ASR systems to adapt seamlessly to new languages while maintaining performance.",
+    "contribution": "This paper introduces Language-Aware Prompt Tuning (LAPT) and Entire Soft Prompt Tuning (Entire SPT) to solve the challenges of language interference and expanding to unseen languages in multilingual ASR, achieving significant improvements in character error rates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Full Fine-Tuning (FFT) and traditional Soft Prompt Tuning (SPT) either required extensive computational resources or failed to retain performance on existing languages.",
+        "novelty": "This work enhances the model by integrating soft prompts into both the encoder and decoder fully, allowing for efficient language adaptation without the significant drawbacks of prior methods."
+    },
+    "key_innovation": "Combines shared and separate language prompt tuning strategies to facilitate effective language expansion by leveraging cross-lingual similarities.",
+    "real_world_impact": "The findings can significantly improve multilingual ASR systems, making them more adaptable and efficient for real-world applications across diverse languages and environments.",
+    "limitations": "While the paper presents significant improvements, it does not address performance on extremely low-resource languages or the scalability of the methods with larger multilingual datasets.",
+    "new_terms": {
+        "Language-Aware Prompt Tuning": "**Language-Aware Prompt Tuning (LAPT)** is a method that uses prompt matrices to adapt ASR models effectively to new languages by leveraging similarities between languages.",
+        "Soft Prompt Tuning": "**Soft Prompt Tuning (SPT)** is a technique that adds trainable prompts to model inputs, enhancing model performance without retraining all parameters."
+    },
+    "open_sourcing": "SPT-Whisper toolkit is available at https://github.com/paper-submit-code/SPT-Whisper"
+}

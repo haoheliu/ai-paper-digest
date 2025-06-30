@@ -1,0 +1,22 @@
+{
+    "title": "SPLICED-AUDIO GENERATED DATA FOR ENHANCING FOUNDATIONAL MODELS IN LOW-RESOURCE ARABIC-ENGLISH CODE-SWITCHED SPEECH RECOGNITION",
+    "author": "Muhammad Umar Farooq (Emotech Ltd.), Oscar Saz (Emotech Ltd.)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed SAGE data generation method and the experience replay approach could inform Haohe Liu's work in audio generation and enhancement techniques, particularly in the context of low-resource languages and code-switching.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses the challenging task of recognizing code-switched speech, which involves the mixing of languages within a single utterance, particularly for dialectal Arabic and English.",
+    "contribution": "This paper introduces a novel Spliced-Audio Generated (SAGE) approach to generate data for code-switched speech recognition, achieving a significant improvement in Word Error Rate (WER) on benchmark datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods for generating code-switched data largely relied on either TTS-generated segments or constrained data from monolingual resources.",
+        "novelty": "This work improves by utilizing a unique audio splicing method that employs monolingual data without the constraints of parallel corpora, allowing for greater data augmentation and diversity."
+    },
+    "key_innovation": "The SAGE method creatively combines segments from monolingual sources to generate realistic code-switched utterances, enhancing training data availability without synthetic sounds.",
+    "real_world_impact": "The methodology can lead to more effective speech recognition systems for low-resource languages, enhancing communication for bilingual speakers in practical applications like customer service and education.",
+    "limitations": "While the method shows promising results, it may encounter challenges with speaker variation within generated utterances.",
+    "new_terms": {
+        "SAGE data": "**Spliced-Audio Generated (SAGE) data** refers to artificially created audio segments that combine spliced audio from different languages to enhance training for speech recognition models.",
+        "Word Error Rate (WER)": "**Word Error Rate (WER)** is a common metric used to evaluate the accuracy of speech recognition systems, calculated by the number of incorrect words divided by the total number of words."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Explainable anomaly detection for sound spectrograms using pooling statistics with quantile differences",
+    "author": "Nicolas Thewes (Artificial Intelligence Lab, ZF Friedrichshafen AG), Philipp Steinhauer (Department of Statistics, TU Dortmund University), Patrick Trampert (Artificial Intelligence Lab, ZF Friedrichshafen AG), Markus Pauly (Department of Statistics, TU Dortmund University), Georg Schneider (Artificial Intelligence Lab, ZF Friedrichshafen AG), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper presents a novel method for anomaly detection in sound data, which is relevant to audio signal processing and can potentially enhance tasks like anomaly detection in speech or music applications.",
+    "field": "General Machine Learning-Unsupervised Learning",
+    "background": "Detecting rare and unusual sounds in a dataset of sound recordings to identify potential equipment faults in an industrial setting.",
+    "contribution": "This paper introduces a statistically motivated algorithm for detecting anomalies in sound spectrograms based on quantile pooling statistics to achieve explainability in results.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly relied on deep learning techniques which often lack explainability and may act as black boxes.",
+        "novelty": "This work provides an explainable solution that evaluates sound spectrograms using entry-wise statistical measures, making it easier for experts to interpret results."
+    },
+    "key_innovation": "The method emphasizes transparent anomaly detection using quantile statistics to generate a reference spectrogram for comparison with test spectrograms.",
+    "real_world_impact": "The proposed approach can significantly improve maintenance processes in industrial applications by providing interpretable results that can help experts diagnose issues effectively.",
+    "limitations": "Limited validation across diverse types of machine sounds and potential overfitting on specific machine types.",
+    "new_terms": {
+        "anomalous sound detection": "**Anomalous sound detection (ASD)** is the process of identifying sounds that significantly differ from normal operational sounds, indicating possible faults or issues.",
+        "quantile pooling statistics": "**Quantile pooling statistics** involves using quantiles, like the 99% quantile, to summarize the distribution of sound spectrograms, establishing thresholds for determining anomalies."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Adapting Foundation Speech Recognition Models to Impaired Speech: A Semantic Re-chaining Approach for Personalization of German Speech",
+    "author": "Niclas Pokel (Technical University of Munich), Pehuen Moure (University of Zurich and ETH Zurich), Roman Boehringer (University of Zurich and ETH Zurich), Yingqiang Gao (University of Zurich), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces methods for personalizing Automatic Speech Recognition (ASR) systems, relevant for tasks in speech restoration and recognition, which are key areas in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study addresses challenges in Automatic Speech Recognition for individuals with speech impairments by proposing ways to tailor existing models for better performance.",
+    "contribution": "This paper introduces a lightweight pipeline for personalizing ASR models to enhance transcription quality for impaired speech, achieving significant error rate reductions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggle with limited training data and often require complex setups for data augmentation.",
+        "novelty": "This work improves upon those limitations by combining lightweight data collection techniques with novel algorithms for word selection and semantic reconstruction, allowing for better utilization of existing models."
+    },
+    "key_innovation": "The approach uses semantic re-chaining to synthesize coherent sentence-level utterances from isolated word recordings, making data collection more efficient and streamlining the ASR personalization process.",
+    "real_world_impact": "This research could significantly improve communication for individuals with speech impairments by enhancing the functionality of existing ASR systems in everyday settings.",
+    "limitations": "The work mentions limitations due to the small dataset size, which may affect the generalizability of the findings.",
+    "new_terms": {
+        "semantic re-chaining": "**Semantic re-chaining** is a method that constructs coherent sentence-level utterances from isolated word-level recordings to improve ASR performance.",
+        "biphone coverage": "**Biphone coverage** refers to the inclusion of all possible pairs of consecutive phonemes in speech datasets, which enhances phonetic diversity in ASR training."
+    },
+    "open_sourcing": ""
+}
