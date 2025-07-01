@@ -1,0 +1,22 @@
+{
+    "title": "RELATE: Subjective evaluation dataset for automatic evaluation of relevance between text and audio",
+    "author": "Yusuke Kanamori (The University of Tokyo), Yuki Okamoto (The University of Tokyo), Taisei Takano (The University of Tokyo), Shinnosuke Takamichi (Keio University), Yuki Saito (The University of Tokyo), Hiroshi Saruwatari (The University of Tokyo), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a dataset and a model that evaluates the relevance of synthesized audio to input text, which is directly applicable to Haohe Liu's work on text-to-audio generation and could enhance model evaluation methodologies in similar tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to synthesize realistic audio samples based on descriptive text prompts, with a focus on evaluating how well the audio matches the indicated content.",
+    "contribution": "RELATE introduces a comprehensive dataset and benchmarking model for predicting the subjective evaluation of audio-text relevance, improving the evaluation process in text-to-audio generation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like CLAPScore provided basic relevance evaluation but lacked strong correlations with human judgment and did not focus on subjective evaluation.",
+        "novelty": "This work utilizes a dedicated dataset addressing listener attributes and synthetic audio characteristics, allowing for improved subjective relevance prediction."
+    },
+    "key_innovation": "The introduction of the RELATE dataset, which specifically records listener attributes alongside relevance scores for comprehensive analysis and model training.",
+    "real_world_impact": "This dataset and model could significantly enhance the development of text-to-audio systems by establishing more reliable evaluation criteria and potentially improving the quality of generated audio.",
+    "limitations": "No specific limitations were mentioned regarding the dataset's scope or applicability in the paper.",
+    "new_terms": {
+        "text-to-audio (TTA)": "**Text-to-audio (TTA)** refers to the process of generating audio content based on textual descriptions, a task that combines natural language processing and audio generation technologies.",
+        "CLAPScore": "**CLAPScore** is an unsupervised metric that assesses the relevance of synthesized audio by computing the cosine similarity between audio and text representations."
+    },
+    "open_sourcing": "https://github.com/sarulab-speech/RELATE"
+}

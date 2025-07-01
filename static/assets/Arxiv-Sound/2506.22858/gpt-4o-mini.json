@@ -1,0 +1,22 @@
+{
+    "title": "Mind the Gap: Entity-Preserved Context-Aware ASR Structured Transcriptions",
+    "author": "Duygu Altinok (Independent Researcher, Germany)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The methods for improving entity recognition and formatting in Automatic Speech Recognition (ASR) systems can be directly applied to Haohe Liu's research in audio and speech processing, particularly in audio generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Improving transcription quality in Automatic Speech Recognition systems, particularly for named entities and numerical data in long-form audio contexts.",
+    "contribution": "This paper introduces a novel training approach with extended overlapping context windows to solve entity recognition issues in ASR, achieving a significant reduction in word error rates and improved entity formatting.",
+    "technical_comparison": {
+        "prior_work": "Previous ASR systems struggled with named entities, often increasing word error rates and reducing understanding due to formatting errors. The standard pipeline systems also faced error propagation from initial transcriptions.",
+        "novelty": "This work improves entity handling by creating broader effective context windows and specifically addressing boundary issues with a sliding overlap strategy."
+    },
+    "key_innovation": "The method uniquely incorporates a context-aware training approach that utilizes overlapping windows to enhance the model's ability to recognize and format entities accurately.",
+    "real_world_impact": "Offers significant potential for enhancing speech processing in critical domains like legal, financial, and medical applications, where entity recognition and accurate formatting are vital.",
+    "limitations": "No",
+    "new_terms": {
+        "Effective Semantic Window": "**Effective Semantic Window** refers to a training methodology that expands the context available to a model during training to improve performance in recognizing and formatting entities in speech.",
+        "Named Entity Recognition (NER)": "**Named Entity Recognition (NER)** is a subtask of information extraction that seeks to locate and classify named entities in text into predefined categories such as the names of persons, organizations, locations, etc."
+    },
+    "open_sourcing": ""
+}

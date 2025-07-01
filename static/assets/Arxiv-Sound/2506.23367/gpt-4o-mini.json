@@ -1,0 +1,22 @@
+{
+    "title": "You Sound a Little Tense: L2 Tailored Clear TTS Using Durational Vowel Properties",
+    "author": "Paige Tuttos\u00ed (Simon Fraser University), H. Henny Yeung (Simon Fraser University), Yue Wang (Simon Fraser University), Jean-Julien Aucouturier (SUPMICROTECH, CNRS), Angelica Lim (Simon Fraser University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper explores enhancements to text-to-speech systems, specifically for second language speakers, using vowel duration to improve intelligibility. This aligns well with Haohe's interest in audio and music processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves improving text-to-speech synthesis for second language (L2) speakers by utilizing differences in vowel duration to enhance comprehensibility.",
+    "contribution": "This paper introduces a clarity mode in text-to-speech synthesis tailored for L2 speakers, which significantly reduces transcription errors and is perceived as more respectful and encouraging.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically employed uniform slowing down of speech or emphasized all difficult words, which did not leverage linguistically relevant cues.",
+        "novelty": "This work specifically modifies the duration of tense vowels without affecting lax vowels, providing a more effective and natural form of speech synthesis for L2 listeners."
+    },
+    "key_innovation": "Focuses on adapting speech synthesis through targeted vowel duration modifications rather than general speech rate adjustments, enhancing clarity for L2 users.",
+    "real_world_impact": "The proposed clarity mode could lead to advancements in voice technology applications for L2 speakers, improving their interactions with automated systems in daily life.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "clarity mode": "**Clarity mode** is a feature in text-to-speech systems that modifies speech parameters specifically for the enhancement of intelligibility among second language speakers.",
+        "lax/tens vowels": "**Lax and tense vowels** are articulatory categories of vowels based on their pronunciation duration and intensity, affecting how L2 speakers perceive sounds."
+    },
+    "open_sourcing": "Clarity mode implemented in Matcha-TTS system is open-source."
+}

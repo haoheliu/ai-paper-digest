@@ -1,0 +1,22 @@
+{
+    "title": "Evaluating Sound Similarity Metrics for Differentiable, Iterative Sound-Matching",
+    "author": "Amir Salimi (University of Alberta), Abram Hindle (University of Alberta), Osmar R. Zaiane (University of Alberta), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The exploration of differentiable sound-matching and various loss functions can inform Haohe Liu's work in audio generation and restoration, particularly with respect to the combination of audio features and their manipulation using advanced techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "Differentiable iterative sound-matching automates the process of sound design by using a loss function to iteratively adjust synthesizer parameters towards a target sound.",
+    "contribution": "This paper introduces a comprehensive evaluation of loss functions in sound-matching tasks across different synthesizers, revealing that the performance of loss functions is highly dependent on the synthesis method used.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on specific loss functions and synthesizers in isolation, often yielding inconsistent results without broader applications.",
+        "novelty": "This work systematically combines multiple loss functions with various synthesizer types, allowing for a more generalized understanding of sound-matching efficacy."
+    },
+    "key_innovation": "Identifies unexpected performance discrepancies in traditional methods and introduces a novel DTW (Dynamic Time Warping) for evaluating sound envelopes, which can outperform standard spectrogram comparisons.",
+    "real_world_impact": "Enhances sound design workflows for artists by providing an automated tool for sound synthesis, potentially streamlining the creative process.",
+    "limitations": "The analysis is limited to only a few synthesizer types and loss measures; more exploration across diverse sound synthesis is needed.",
+    "new_terms": {
+        "dynamic time warping": "**Dynamic Time Warping (DTW)** is a technique for measuring similarity between two temporal sequences that may vary in speed, effectively aligning their temporal dimensions.",
+        "differentiable synthesizer": "**Differentiable synthesizer** refers to sound synthesis systems designed to enable gradient-based optimization through differentiable programming, allowing for adjustments in real-time."
+    },
+    "open_sourcing": ""
+}

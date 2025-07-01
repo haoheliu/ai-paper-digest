@@ -1,0 +1,21 @@
+{
+    "title": "TOMI: Transforming and Organizing Music Ideas for Multi-Track Compositions with Full-Song Structure",
+    "author": "Qi He (Music X Lab, MBZUAI), Gus Xia (Music X Lab, MBZUAI), Ziyu Wang (Music X Lab, MBZUAI, New York University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The system proposed integrates concept hierarchies in music generation, aligning closely with audio generation tasks. It offers a novel approach of multi-track composition that could enhance the realism and creativity in Haohe Liu's music generation projects.",
+    "field": "Applications-Creative AI",
+    "background": "The paper discusses an automated music generation system that organizes musical concepts hierarchically to create full-length electronic music compositions.",
+    "contribution": "This paper introduces TOMI to model music concept hierarchy and develop a deep learning-based system for structured electronic music generation, achieving higher quality compositions with better structural coherence.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in music generation often lacked a structured approach to capturing long-term musical elements.",
+        "novelty": "This work improves by employing a four-dimensional data structure for organizing clips, sections, tracks, and transformations, enhancing both the generation process and music quality."
+    },
+    "key_innovation": "The TOMI framework allows for dynamic, hierarchical structuring of music ideas, enabling more coherent and musically logical compositions.",
+    "real_world_impact": "The integration with digital audio workstations like REAPER suggests potential for real-time human-AI collaboration in music production, enhancing the workflows of artists and producers.",
+    "limitations": "The authors acknowledge challenges in maintaining harmonic coherence due to randomness during sample retrieval.",
+    "new_terms": {
+        "TOMI": "**Transforming and Organizing Music Ideas** refers to a framework for music generation that organizes musical ideas hierarchically, enhancing coherence and structure in compositions."
+    },
+    "open_sourcing": "Source code: https://github.com/heqi201255/TOMI. Demo page: https://tomi-2025.github.io/"
+}

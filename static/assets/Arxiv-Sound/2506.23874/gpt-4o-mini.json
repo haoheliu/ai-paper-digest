@@ -1,0 +1,22 @@
+{
+    "title": "URGENT-PK: Perceptually-Aligned Ranking Model Designed for Speech Enhancement Competition",
+    "author": "Jiahe Wang (Shanghai Jiao Tong University), Chenda Li (Shanghai Jiao Tong University), Wei Wang (Shanghai Jiao Tong University), Wangyou Zhang (Shanghai Jiao Tong University), Samuele Cornell (Carnegie Mellon University), Marvin Sach (Technische Universitat Braunschweig), Robin Scheibler (Google DeepMind), Shinji Watanabe (Carnegie Mellon University), Yanmin Qian (Shanghai Jiao Tong University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper introduces a method for ranking speech enhancement systems, which could be applied to improve quality assessment frameworks in Haohe Liu's projects involving audio enhancement and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a reliable model to compare the quality of enhanced speech samples produced by different systems using pairwise evaluations rather than Mean Opinion Scores.",
+    "contribution": "This paper introduces the URGENT-PK ranking model to solve the challenge of inconsistent Mean Opinion Scores for speech quality, achieving superior performance in ranking various speech enhancement systems.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on absolute quality scores like Mean Opinion Scores, which are subjective and require extensive human evaluation.",
+        "novelty": "This work improves by employing a pairwise comparison approach that utilizes limited training data more efficiently for system-level quality assessments."
+    },
+    "key_innovation": "The URGENT-PK model uniquely combines an utterance-level pairwise comparison with a system-level ranking algorithm to assess speech enhancement systems reliably and efficiently.",
+    "real_world_impact": "The proposed model could enhance the evaluation processes in speech enhancement competitions, making assessments faster and potentially leading to better audio quality improvements in real-world applications.",
+    "limitations": "No.",
+    "new_terms": {
+        "Mean Opinion Score (MOS)": "**Mean Opinion Score (MOS)** is a measure used to evaluate the quality of speech or audio that relies on subjective human ratings.",
+        "pairwise comparison": "**Pairwise comparison** is a technique that evaluates the relative quality of two items simultaneously, allowing for more consistent judgments."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "A Self-Training Approach for Whisper to Enhance Long Dysarthric Speech Recognition",
+    "author": "Shiyao Wang (College of Computer Science, Nankai University, China), Jiaming Zhou (College of Computer Science, Nankai University, China), Shiwan Zhao (College of Computer Science, Nankai University, China), Yong Qin (College of Computer Science, Nankai University, China), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The self-training approach proposed in this paper could improve recognition of speech disorders, which is directly applicable to Haohe Liu's work in audio processing, particularly in enhancing speech recognition technologies.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing the recognition of dysarthric speech, which is often fragmented, by using a self-training technique to adapt an ASR model (Whisper) to handle long and potentially incomplete speech inputs.",
+    "contribution": "This paper introduces a novel self-training method for the Whisper model to address the difficulties in recognizing long dysarthric speech, achieving improved performance metrics in a competitive challenge.",
+    "technical_comparison": {
+        "prior_work": "Prior ASR models struggled with incomplete speech segments resulting from input segmentation, which degraded recognition accuracy.",
+        "novelty": "This work improves by segmenting unlabelled long speech data for fine-tuning the ASR model, effectively simulating real-world conditions that lead to incomplete inputs during recognition."
+    },
+    "key_innovation": "The self-training approach incrementally builds a training dataset from long dysarthric speech by generating pseudo-labels through a teacher-student model framework, which enhances model adaptation.",
+    "real_world_impact": "This advancement can significantly enhance accessibility for users with speech impairments, improving their interaction with smart devices and systems reliant on speech recognition.",
+    "limitations": "The authors noted potential overfitting during later iterations of self-training due to the limited availability of high-quality data.",
+    "new_terms": {
+        "dysarthric speech": "**Dysarthric speech** refers to speech that has been affected by weakness in the muscles that control speech, making it difficult to pronounce words clearly.",
+        "self-training": "**Self-training** is a semi-supervised learning technique in which a model first trains on a limited labeled dataset and self-labels additional unlabeled data to improve its performance."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Scaling Self-Supervised Representation Learning for Symbolic Piano Performance",
+    "author": "Louis Bradshaw (Queen Mary University of London), Honglu Fan (University of Geneva), Alexander Spangher (University of Southern California), Stella Biderman (EleutherAI), Simon Colton (Queen Mary University of London), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The self-supervised learning techniques discussed could be applied to improve audio generation and music modeling, which is relevant to Haohe Liu's research interests in audio processing.",
+    "field": "Applications-Creative AI",
+    "background": "This paper investigates generative modeling and representation learning for symbolic music through self-supervised learning techniques, particularly focusing on piano performances.",
+    "contribution": "This paper introduces a large-scale autoregressive transformer model called Aria, trained on symbolic piano music to enhance generative modeling and representation learning in music, achieving state-of-the-art results in both tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on smaller datasets and had limited generalizability across different music tasks.",
+        "novelty": "This work improves by utilizing a significantly larger dataset (approximately 100k hours of music) and applying self-supervised learning to enhance both generation and classification capabilities."
+    },
+    "key_innovation": "The method leverages a large-scale dataset for training, which enables effective modeling of long-term dependencies and performance attributes in music.",
+    "real_world_impact": "The advancements in symbolic music modeling have the potential to improve automated music generation tools, benefiting composers and enhancing creative processes in music production.",
+    "limitations": "The paper does not address challenges related to incorporating richer metadata in transcriptions that could enhance the generated outputs.",
+    "new_terms": {
+        "autoregressive model": "**Autoregressive model** is a type of model that predicts future values based on past observed values, applied here in the context of music generation.",
+        "self-supervised learning": "**Self-supervised learning** is a form of unsupervised learning where the model learns from unlabeled data by predicting part of the input from other parts."
+    },
+    "open_sourcing": "The code and model are available at: https://github.com/eleutherai/aria"
+}

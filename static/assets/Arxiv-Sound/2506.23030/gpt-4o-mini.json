@@ -1,0 +1,22 @@
+{
+    "title": "VISIONSCORES - A SYSTEM-SEGMENTED IMAGE SCORE DATASET FOR DEEP LEARNING TASKS",
+    "author": "Alejandro Romero Amezcua (Centro de Investigacion en Matematicas A.C.), Mariano Jose Juan Rivera Meraz (Centro de Investigacion en Matematicas A.C.)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The dataset created in this paper enhances machine learning applications in symbolic music processing, which aligns with current investigations into generative AI for music that Haohe Liu is exploring.",
+    "field": "Applications-Creative AI",
+    "background": "Creating a dataset that offers high-quality, structured images of two-handed piano scores to be used in deep learning tasks related to symbolic music processing.",
+    "contribution": "This paper introduces the VisionScores dataset to solve the lack of structured image datasets in symbolic music processing, achieving a total of 24,810 annotated images.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets focused primarily on Optical Music Recognition (OMR), which limited their use in broader music processing tasks and lacked dedicated segmentation features.",
+        "novelty": "This work improves by providing a system-segmented dataset specifically designed for various machine learning applications beyond traditional OMR."
+    },
+    "key_innovation": "Establishes a dataset tailored to symbolic music generation and deep learning, with high structural consistency and detailed metadata.",
+    "real_world_impact": "No immediate real-world impact, but it lays the groundwork for future developments in automated music generation and analysis systems.",
+    "limitations": "The dataset's system numbering may not always align with actual scores due to errors in segmentation.",
+    "new_terms": {
+        "Optical Music Recognition": "**Optical Music Recognition (OMR)** is a technology that translates music notation images into machine-readable formats, similar to how Optical Character Recognition (OCR) works for text.",
+        "system-segmented": "**System-segmented** refers to the method of breaking down music sheets into manageable segments, or systems, each representing a set of musical staves."
+    },
+    "open_sourcing": "VisionScores is freely available in https://github.com/alroamz/VisionScores"
+}

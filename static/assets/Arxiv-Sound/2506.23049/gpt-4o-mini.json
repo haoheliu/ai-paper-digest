@@ -1,0 +1,22 @@
+{
+    "title": "AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice-Driven Tasks",
+    "author": "Leander Melroy Maben (Carnegie Mellon University), Gayathri Ganesh Lakshmy (Carnegie Mellon University), Srijith Radhakrishnan (Carnegie Mellon University), Siddhant Arora (Carnegie Mellon University), Shinji Watanabe (Carnegie Mellon University), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The integration of reasoning and automated tool use in voice-driven tasks could enhance audio processing applications, particularly in dialogue systems which may benefit from real-world information interaction.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a voice-driven assistant that performs multi-turn dialogues and integrates real-time tool usage, such as web searches, calendar management, and email, to complete various tasks.",
+    "contribution": "AURA introduces an open-source, speech-to-speech agent capable of executing complex tasks through integrated reasoning and automated tool use, achieving high accuracy in real-world scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous speech-based systems lacked integrated tool use and extensive multi-turn dialogue capabilities, leading to limited practical applicability.",
+        "novelty": "This work employs a cascaded architecture for better performance, utilizing an automated reasoning model and multiple external APIs to achieve seamless interactions."
+    },
+    "key_innovation": "Combines various speech technologies into a unified system that can dynamically interact with users in natural language while performing real-world tasks.",
+    "real_world_impact": "AURA has the potential to revolutionize how individuals interact with technology through voice, facilitating more effective and hands-free access to digital tools in daily tasks. The modular structure also offers room for future enhancements.",
+    "limitations": "The performance metrics are based on controlled evaluations, and further real-world testing may reveal additional limitations in varied environments.",
+    "new_terms": {
+        "ReAct": "**ReAct** is a methodology for interleaving reasoning and action within task-oriented conversational agents, improving multi-step task execution.",
+        "Dialog State Tracking (DST)": "**Dialog State Tracking** is a process where the system maintains a structured record of the dialogue state throughout an interaction, enabling effective conversation flow."
+    },
+    "open_sourcing": "https://github.com/Sentientia/Aura"
+}

@@ -1,0 +1,18 @@
+{
+    "title": "From Large-scale Audio Tagging to Real-Time Explainable Emergency Vehicle Sirens Detection",
+    "author": "Stefano Giacomelli (University of L'Aquila), Marco Giordano (University of L'Aquila), Claudia Rinaldi (University of L'Aquila), Fabio Graziosi (University of L'Aquila), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper discusses efficient neural network architectures and training pipelines that could inform the development of generative models for audio synthesis and processing, relevant to my research on audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work focuses on real-time detection of emergency vehicle sirens using efficient Convolutional Neural Networks to improve safety and navigation systems.",
+    "contribution": "This paper introduces Efficient/Emergency Pre-trained Audio Neural Networks (E2PANNs) to solve the problem of real-time detection of emergency vehicle sirens, achieving state-of-the-art efficiency and accuracy on limited-device deployment.",
+    "technical_comparison": "Previous methods relied on heavier architectures, which often resulted in high computational demands and latency, unsuitable for real-time applications. This work improves by developing a lightweight CNN that maintains high performance while being deployable on resource-constrained devices.",
+    "key_innovation": "The model's ability to be fine-tuned on specific tasks while maintaining low latency makes it particularly suitable for real-world applications in safety-critical environments.",
+    "real_world_impact": "The successful implementation of E2PANNs can enhance emergency vehicle detection in urban settings, potentially saving lives by improving traffic safety. Its deployment on edge devices furthers accessibility in smart city infrastructures.",
+    "limitations": "The paper does not address the generalization of the model across diverse acoustic environments outside the tested datasets.",
+    "new_terms": {
+        "E2PANNs": "**Efficient/Emergency Pre-trained Audio Neural Networks** are optimized lightweight neural network architectures designed specifically for the efficient detection of emergency vehicle audio signals."
+    },
+    "open_sourcing": "A subset of the dataset, AudioSet-EV, is publicly available for benchmarking."
+}

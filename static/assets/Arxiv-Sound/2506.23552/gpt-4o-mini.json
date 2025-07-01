@@ -1,0 +1,22 @@
+{
+    "title": "JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching",
+    "author": "Mingi Kwon (Yonsei University), Joonghyuk Shin (Seoul National University), Jaeseok Jeong (Yonsei University), Jaesik Park (Seoul National University), Youngjung Uh (Yonsei University), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper's joint architecture for audio and facial motion generation aligns closely with my work on audio generation and processing. The techniques and insights could be leveraged to enhance the quality and robustness of generated audio in multimodal contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to generate synchronized facial motion and speech from various condition inputs like text and audio, reflecting natural human communication.",
+    "contribution": "JAM-Flow introduces a unified architecture for generating and conditioning audio and facial motion, achieving improved synchronization and flexibility in multimodal outputs.",
+    "technical_comparison": {
+        "prior_work": "Prior methods treat talking head generation and text-to-speech as separate tasks, often neglecting the interplay between audio and motion.",
+        "novelty": "This work improves upon existing frameworks by allowing for joint generation and conditioning of both modalities within a single model."
+    },
+    "key_innovation": "The integration of specialized modules for facial motion and audio synthesis allows for seamless and synchronized generative modeling.",
+    "real_world_impact": "This framework has significant potential applications in areas such as automated dubbing, virtual avatars, and enhancing human-computer interaction with expressive multimodal outputs.",
+    "limitations": "The training data quality may limit performance, and there could be issues with capturing complex facial motions.",
+    "new_terms": {
+        "Flow Matching": "**Flow Matching** is a technique used in generative models to match a distribution transformation through a learnable vector field, facilitating effective sample generation.",
+        "Joint Attention": "**Joint Attention** refers to a mechanism in neural networks that allows for cross-modal interactions, enhancing the model's ability to process and synthesize information from multiple sources."
+    },
+    "open_sourcing": "https://joonghyuk.com/jamflow-web/"
+}

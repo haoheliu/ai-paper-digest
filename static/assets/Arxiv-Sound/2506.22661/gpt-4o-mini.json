@@ -1,0 +1,22 @@
+{
+    "title": "Enhancing Neural Audio Fingerprint Robustness to Audio Degradation for Music Identification",
+    "author": "R. Oguz Araz (Music Technology Group, Universitat Pompeu Fabra), Guillem Cort\u00e8s-Sebasti\u00e0 (BMAT Licensing S.L.), Emilio Molina (BMAT Licensing S.L.), Joan Serr\u00e0 (Music Technology Group, Universitat Pompeu Fabra), Xavier Serra (Music Technology Group, Universitat Pompeu Fabra), Yuki Mitsufuji (Sony AI), Dmitry Bogdanov (Music Technology Group, Universitat Pompeu Fabra), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The paper discusses enhancements in audio fingerprinting relevant to Haohe Liu's interests in audio processing, particularly in improving robustness against real-world degradation, which can apply to tasks like audio restoration and generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of accurately identifying music tracks in the presence of audio degradations like noise and reverberation.",
+    "contribution": "This paper introduces techniques to improve self-supervision in audio fingerprinting, achieving state-of-the-art performance against both synthetic and real-world audio degradations.",
+    "technical_comparison": {
+        "prior_work": "Previous models often used standard losses like NT-Xent and simulated degradations that did not reflect real-world scenarios effectively.",
+        "novelty": "This work employs a more realistic simulation of audio degradations, alongside the introduction of a self-supervised adaptation of the triplet loss, improving robustness."
+    },
+    "key_innovation": "Utilizes a detailed approach to audio degradation and loss function optimization, focusing on real-world relevance.",
+    "real_world_impact": "The research demonstrates a significant improvement in audio identification capabilities in realistic environments, which could enhance applications in music streaming and copyright monitoring.",
+    "limitations": "The paper does not discuss potential scalability issues in extremely large datasets beyond those tested.",
+    "new_terms": {
+        "audio fingerprinting": "**Audio fingerprinting** is a process of identifying audio content by extracting features that can uniquely represent the audio signal.",
+        "self-supervised learning": "**Self-supervised learning** is a type of machine learning where the model learns to predict parts of the data from other parts, using the structure in the data itself for supervision."
+    },
+    "open_sourcing": "The authors share pre-trained model weights and open-source code, available at https://github.com/raraz15/neural-music-fp"
+}

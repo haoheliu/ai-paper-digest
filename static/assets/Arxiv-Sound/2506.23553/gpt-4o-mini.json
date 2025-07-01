@@ -1,0 +1,19 @@
+{
+    "title": "Human-CLAP: Human-perception-based contrastive language\u2013audio pretraining",
+    "author": "Taisei Takano (The University of Tokyo), Yuki Okamoto (The University of Tokyo), Yusuke Kanamori (The University of Tokyo), Yuki Saito (The University of Tokyo), Ryotaro Nagase (Ritsumeikan University), Hiroshi Saruwatari (The University of Tokyo)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed Human-CLAP model directly incorporates human perception metrics, which can enhance audio-text evaluation tasks relevant to Haohe Liu's research focus on audio generation and processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates the correlation between an automated score for audio-text relevance and human subjective evaluations, enhancing audio generation through more aligned scoring mechanisms.",
+    "contribution": "This paper introduces Human-CLAP to improve the alignment of automated audio-text pairing scores with human evaluations, achieving a correlation improvement of over 0.25 compared to conventional models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like conventional CLAP lack a strong correlation with human evaluations, often yielding unreliable scores.",
+        "novelty": "This work integrates human subjective scores into the training of CLAP, enabling a model that portrays human-like audio relevance assessment."
+    },
+    "key_innovation": "Human-CLAP uniquely fine-tunes audio-text scoring by leveraging subjective human assessments, enhancing its applicability for evaluation tasks.",
+    "real_world_impact": "With enhanced evaluation accuracy of audio-text pairs, this method has practical implications for applications in audio generation, allowing for more human-like assessments, potentially improving user experiences.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {},
+    "open_sourcing": ""
+}

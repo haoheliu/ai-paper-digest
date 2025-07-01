@@ -1,0 +1,21 @@
+{
+    "title": "Speaker Targeting via Self-Speaker Adaptation for Multi-talker ASR",
+    "author": "Weiqing Wang (NVIDIA), Taejin Park (NVIDIA), Ivan Medennikov (NVIDIA), Jinhan Wang (NVIDIA), Kunal Dhawan (NVIDIA), He Huang (NVIDIA), Nithin Rao Koluguri (NVIDIA), Jagadeesh Balam (NVIDIA), Boris Ginsburg (NVIDIA)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper introduces a novel self-speaker adaptation method that could enhance audio transcription tasks, particularly in scenarios involving overlapping speech, which is relevant to Haohe Liu's research in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of transcribing overlapping speech in multi-talker automatic speech recognition (ASR) without the need for explicit speaker queries.",
+    "contribution": "The paper introduces a self-speaker adaptation technique that dynamically adjusts ASR models to recognize a specific speaker's speech characteristics, achieving state-of-the-art performance in multi-talker ASR scenarios.",
+    "technical_comparison": {
+        "prior_work": "Previous methods rely heavily on explicit speaker embeddings or enrollment audio to adapt ASR systems, which can hinder performance in noisy or overlapping speech conditions.",
+        "novelty": "This work eliminates the need for external speaker profiles by utilizing inherent speaker characteristics from input audio, significantly improving adaptability during inference."
+    },
+    "key_innovation": "The method injects speaker-specific kernels into ASR encoder layers based solely on speech activity, allowing it to handle overlapping speech more effectively.",
+    "real_world_impact": "This approach can enhance real-time transcription in environments like video conferencing and parliamentary sessions, where overlapping speech often occurs, thereby improving accessibility and communication.",
+    "limitations": "No",
+    "new_terms": {
+        "self-speaker adaptation": "**Self-speaker adaptation** refers to a method where an ASR system dynamically adjusts to the characteristics of a specific speaker during operation, without relying on pre-existing speaker data."
+    },
+    "open_sourcing": ""
+}

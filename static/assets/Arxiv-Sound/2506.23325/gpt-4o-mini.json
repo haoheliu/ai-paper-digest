@@ -1,0 +1,22 @@
+{
+    "title": "XY-Tokenizer: Mitigating the Semantic-Acoustic Conflict in Low-Bitrate Speech Codecs",
+    "author": "Yitian Gong (Fudan University), Luozhijie Jin (Fudan University), Ruifan Deng (Fudan University), Dong Zhang (Fudan University), Xin Zhang (Fudan University), Qinyuan Cheng (Fudan University), Zhaoye Fei (Fudan University), Shimin Li (Fudan University), Xipeng Qiu (Fudan University)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The work introduces a novel codec capable of balancing semantic and acoustic fidelity at low bitrates, which could benefit Haohe Liu's research on audio generation, restoration, and codec development.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves developing a speech codec that effectively captures both linguistic meaning and audio fidelity while operating at low bitrates, which is a challenge due to conflicting objectives.",
+    "contribution": "XY-Tokenizer introduces a dual-tower architecture in a multi-stage, multi-task learning framework to solve the conflict between semantic and acoustic information, achieving competitive performance at low bitrates.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled by either optimizing for acoustic fidelity or semantic alignment but not both.",
+        "novelty": "This work mitigates conflicts through a structured training approach that extracts separate acoustic and semantic features within a unified architecture."
+    },
+    "key_innovation": "Combines dual-channel processing with generative adversarial training to enhance both audio quality and semantic understanding simultaneously.",
+    "real_world_impact": "The development of XY-Tokenizer could significantly improve applications in speech recognition and audio transmission over limited bandwidths, making it valuable for various telecommunications and media technologies.",
+    "limitations": "No",
+    "new_terms": {
+        "multi-task learning": "**Multi-task learning** is an approach in machine learning where a model is trained on multiple related tasks simultaneously to improve generalization across those tasks.",
+        "dual-tower architecture": "**Dual-tower architecture** refers to a model structure where two parallel networks are used to separately process different types of data or tasks before combining their outputs."
+    },
+    "open_sourcing": "Code and models are available at https://github.com/gyt1145028706/XY-Tokenizer"
+}

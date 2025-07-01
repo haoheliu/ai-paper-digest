@@ -1,0 +1,22 @@
+{
+    "title": "The Florence Price Art Song Dataset and Piano Accompaniment Generator",
+    "author": "Tao-Tao He (Vanderbilt University), Martin E. Malandro (Sam Houston State University), Douglas Shadle (Vanderbilt University), ..., Douglas Shadle (Vanderbilt University)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a novel dataset for art songs and a generative model for piano accompaniments, which could inform and enhance Haohe Liu's work on audio generation and machine learning models in music.",
+    "field": "Applications-Creative AI",
+    "background": "This work creates a dataset for Florence B. Price's art songs and develops a model to generate piano accompaniments reflective of her compositional style.",
+    "contribution": "This paper introduces a digital catalog of 112 art songs by Florence Price and a fine-tuned model that generates piano accompaniments, achieving a demonstration of aesthetic alignment with Price's style.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for music generation often lack specificity to a single composer\u2019s style and struggle with small datasets.",
+        "novelty": "This work fine-tunes a generative model specifically on Price's works and compares model outputs against baseline methods to evaluate stylistic fidelity."
+    },
+    "key_innovation": "The unique combination of a curated dataset with a specialized generative model that captures the intricate style of an underrepresented composer in classical music.",
+    "real_world_impact": "This research increases accessibility to Florence Price's music and offers tools for composers to explore her style, potentially revitalizing interest in her works and their performance.",
+    "limitations": "The generated accompaniments may sometimes contain errors due to the small dataset size, which could restrict quality.",
+    "new_terms": {
+        "art song": "**Art song** is a vocal music composition typically written for solo voice accompanied by piano, setting poetry to music within the Western classical tradition.",
+        "generative model": "**Generative model** refers to a type of statistical model that generates new data points by learning patterns from existing data."
+    },
+    "open_sourcing": "The dataset and model are available at https://github.com/TT515/Florence_Price_Art_Song_Dataset"
+}

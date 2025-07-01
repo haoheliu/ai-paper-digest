@@ -1,0 +1,22 @@
+{
+    "title": "StreamFlow: Streaming Flow Matching with Block-wise Guided Attention Mask for Speech Token Decoding",
+    "author": "Dake Guo (Northwestern Polytechnical University), Jixun Yao (Northwestern Polytechnical University), Linhan Ma (Northwestern Polytechnical University), Wang He (Northwestern Polytechnical University), Lei Xie (Northwestern Polytechnical University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed method addresses real-time speech generation efficiently, which is relevant to Haohe Liu's research in speech synthesis and restoration. The focus on streaming generation aligns with the needs for low-latency applications in audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Streaming speech synthesis: generating speech tokens in real-time using an efficient framework that maintains high audio quality.",
+    "contribution": "This paper introduces StreamFlow, a streaming flow matching model that utilizes block-wise guided attention masks to enhance the efficiency of speech token decoding, achieving a low first-packet latency of 180ms.",
+    "technical_comparison": {
+        "prior_work": "Previous methods struggled with generating high-quality speech in real-time due to their reliance on a global receptive field, leading to delays.",
+        "novelty": "This work improves by segmenting the input into blocks and applying hierarchical attention masks to balance the receptive fields, allowing for smooth and efficient streaming of audio."
+    },
+    "key_innovation": "The use of block-wise guided attention masks effectively captures local information while allowing for contextual consistency across chunks during streaming synthesis.",
+    "real_world_impact": "By achieving high-quality audio generation with low latency, this method has strong potential for improving interactive speech applications like virtual assistants and conversational agents.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "block-wise attention masks": "**Block-wise attention masks** are mechanisms that control which parts of the input can influence each other during processing, allowing localized information exchange while maintaining a structured flow.",
+        "streaming flow matching": "**Streaming flow matching** refers to the process of generating audio in real-time by matching incoming speech tokens to a desired audio output within a efficient framework."
+    },
+    "open_sourcing": "Speech samples are available at https://dukguo.github.io/StreamFlow/"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Less is More: Data Curation Matters in Scaling Speech Enhancement",
+    "author": "Chenda Li (Shanghai Jiao Tong University, China), Wangyou Zhang (Shanghai Jiao Tong University, China), Wei Wang (Shanghai Jiao Tong University, China), Robin Scheibler (Google DeepMind, Japan), Kohei Saijo (Waseda University, Japan), Samuele Cornell (Carnegie Mellon University, USA), Yihui Fu (Technische Universitat Braunschweig, Germany), Marvin Sach (Technische Universitat Braunschweig, Germany), Shinji Watanabe (Carnegie Mellon University, USA), Yanmin Qian (Shanghai Jiao Tong University, China)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The focus on data curation directly aligns with the need for high-quality training data in Haohe Liu's research on audio restoration and enhancement, particularly in improving the performance of speech enhancement systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates how the quality of training data affects the performance of speech enhancement models, finding that high-quality data is more impactful than simply increasing data volume.",
+    "contribution": "This paper introduces a data curation approach that prioritizes data quality over quantity, achieving performance improvements with a smaller dataset.",
+    "technical_comparison": {
+        "prior_work": "Previous methods emphasized the correlation between dataset size and model performance, often leveraging large-scale data indiscriminately.",
+        "novelty": "This work demonstrates that a carefully curated dataset of just 700 hours can outperform models trained on a 2,500-hour dataset, highlighting the importance of data curation."
+    },
+    "key_innovation": "The method introduces a threshold-based filtering approach leveraging non-intrusive speech quality metrics to select high-fidelity training samples.",
+    "real_world_impact": "By emphasizing data quality, this work has the potential to guide future speech enhancement research and applications, improving real-world audio processing systems.",
+    "limitations": "No",
+    "new_terms": {
+        "threshold-based filtering": "**Threshold-based filtering** refers to a data curation technique where data samples are filtered out based on predefined quality metrics, ensuring only high-quality data points are selected for training.",
+        "non-intrusive metrics": "**Non-intrusive metrics** are quality assessment methods that evaluate audio signals without requiring a reference signal for comparison."
+    },
+    "open_sourcing": ""
+}

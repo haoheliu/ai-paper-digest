@@ -1,0 +1,21 @@
+{
+    "title": "Boosting CTC-Based ASR Using LLM-Based Intermediate Loss Regularization",
+    "author": "Duygu Altinok (Independent Researcher, Germany)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The combination of Connectionist Temporal Classification (CTC) models with large language models (LLMs) has potential applications in audio-language alignment and enhancing automatic speech recognition (ASR), which are relevant to Haohe Liu's work in audio processing and machine learning.",
+    "field": "Applications-Speech and Audio",
+    "background": "Improving the performance of automatic speech recognition systems that use CTC models while maintaining fast decoding speeds.",
+    "contribution": "This paper introduces a Language-Aware Intermediate Loss (LAIL) to enhance CTC-based automatic speech recognition models, achieving significant reductions in Word Error Rate (WER) across various datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on improving CTC models individually or with language modeling but often sacrificed decoding speed.",
+        "novelty": "This work enhances linguistic modeling while retaining the efficiency of CTC decoding by integrating LLMs during training without altering inference processes."
+    },
+    "key_innovation": "Integrates linguistic knowledge from large language models into the training of CTC-based ASR systems through an auxiliary loss mechanism.",
+    "real_world_impact": "The approach demonstrates tangible improvements in speech recognition accuracy, particularly in noise-affected environments, which could enhance user experiences in speech-based applications.",
+    "limitations": "No specific limitations were mentioned by the author.",
+    "new_terms": {
+        "Language-Aware Intermediate Loss": "**Language-Aware Intermediate Loss (LAIL)** is a novel auxiliary loss framework that incorporates linguistic knowledge from large language models into CTC-based automatic speech recognition to improve performance during training."
+    },
+    "open_sourcing": "Implementation details are available on GitHub."
+}
