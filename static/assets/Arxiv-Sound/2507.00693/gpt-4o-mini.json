@@ -1,0 +1,22 @@
+{
+    "title": "Leveraging Large Language Models for Spontaneous Speech-Based Suicide Risk Detection",
+    "author": "Yifan Gao (Sichuan University), Jiao Fu (Sichuan University), Long Guo (Sichuan University), Hong Liu (Sichuan University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper uses techniques that could inform the development of audio and speech processing models for mental health applications, which aligns with my interest in innovations for speech and audio processing tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on developing an automated approach to detect suicide risk in adolescents based on analyzing spontaneous speech using advanced machine learning models.",
+    "contribution": "This paper introduces a multimodal framework that leverages large language models and traditional acoustic features to effectively detect suicide risk from speech, achieving 74% accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on acoustic and basic linguistic features for risk prediction but lacked the integration of advanced models for feature extraction.",
+        "novelty": "This work combines large language models for semantic feature extraction with conventional techniques, significantly enhancing interpretability and performance."
+    },
+    "key_innovation": "Integrates multimodal feature extraction to improve accuracy and interpretability in suicide risk detection from spontaneous speech.",
+    "real_world_impact": "This approach could enhance early detection of suicide risk in clinical settings, allowing for more timely interventions and support for at-risk adolescents.",
+    "limitations": "The study bases findings on a specific dataset and assessment framework, which may limit generalizability to broader populations and contexts.",
+    "new_terms": {
+        "large language models": "**Large Language Models (LLMs)** are advanced neural networks trained on diverse datasets to understand and generate human-like language, effectively capturing complex patterns in text.",
+        "acoustic features": "**Acoustic features** refer to measurable attributes of audio signals, such as pitch, loudness, and tone, used to analyze speech and other sound patterns."
+    },
+    "open_sourcing": ""
+}

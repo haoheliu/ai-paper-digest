@@ -1,0 +1,22 @@
+{
+    "title": "MuteSwap: Silent Face-based Voice Conversion",
+    "author": "Yifan Liu (LUMIA Lab, Shanghai Jiao Tong University), Yu Fang (ShanghaiTech University), Zhouhan Lin (LUMIA Lab, Shanghai Jiao Tong University), ..., Yifan Liu (LUMIA Lab, Shanghai Jiao Tong University)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper introduces novel methodologies for voice conversion using only visual input, directly applicable to Haohe Liu's work in audio and speech processing, especially in the context of speech restoration and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Silent Face-based Voice Conversion (SFVC) synthesizes speech from silent videos while converting speaker identities, addressing scenarios where audio is unavailable or corrupted.",
+    "contribution": "MuteSwap introduces a framework for SFVC that enables voice conversion solely based on visual cues, achieving robust speech synthesis even in noisy conditions.",
+    "technical_comparison": {
+        "prior_work": "Previous voice conversion methods typically require high-quality audio input for effective content extraction and speaker identity conversion.",
+        "novelty": "This work improves by using only visual input, leveraging contrastive learning for audio-visual alignment, and minimizing mutual information for disentangled representation."
+    },
+    "key_innovation": "The unique approach of using silent lip movements and facial images to drive voice conversion is innovative, allowing for zero-shot identity conversion without audio.",
+    "real_world_impact": "This advancement could significantly enhance applications in silent film production, assistive technologies for the hearing impaired, and privacy-preserving communication systems by enabling speech synthesis without audio recording.",
+    "limitations": "The paper does not extensively address constraints in real-time applicability and possibly necessitates high-quality visual data.",
+    "new_terms": {
+        "silent videos": "**Silent videos** refer to video recordings that do not include any accompanying audio track, making it challenging to extract spoken content.",
+        "mutual information minimization": "**Mutual information minimization** is a technique used to reduce redundancy between two variables, ensuring that they capture distinct aspects of the underlying data."
+    },
+    "open_sourcing": "Demo \u2014<https://pussycat0700.github.io/MuteSwap-Demo> Code \u2014<https://github.com/PussyCat0700/DiVISe>"
+}

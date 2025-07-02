@@ -1,0 +1,22 @@
+{
+    "title": "Do Music Source Separation Models Preserve Spatial Information in Binaural Audio?",
+    "author": "Richa Namballa (New York University), Agnieszka Roginska (New York University), Magdalena Fuentes (New York University), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper investigates music source separation in binaural audio, which is relevant to Haohe Liu's research interests in audio processing and enhancement techniques. Insights from this study could inform better spatial audio separation methodologies in future work.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research evaluates the ability of music source separation models to maintain spatial audio fidelity when applied to binaural audio recordings.",
+    "contribution": "This paper introduces an evaluation of existing music source separation models on binaural audio datasets to determine their effectiveness in preserving spatial audio characteristics.",
+    "technical_comparison": {
+        "prior_work": "Previous models focused mainly on stereo audio separation without much emphasis on spatial information in binaural contexts, leading to performance gaps in immersive audio applications.",
+        "novelty": "This study assesses various models' performance using specific metrics that reflect spatial fidelity, revealing significant shortcomings in stereo-trained models when adapted to binaural audio."
+    },
+    "key_innovation": "Highlights the need for specialized metrics that can accurately evaluate the preservation of spatial cues (like interaural time and level differences) in binaural audio during the separation process.",
+    "real_world_impact": "The findings have implications for enhancing immersive audio experiences in virtual reality and accessibility applications, making music and sound environments clearer for users.",
+    "limitations": "The study primarily focuses on specific models and positions for spatial placement; results may not generalize across all audio conditions and types.",
+    "new_terms": {
+        "binaural audio": "**Binaural audio** simulates the experience of hearing sound from different spatial locations using two microphones or channels to replicate human auditory perception.",
+        "Head-Related Transfer Function (HRTF)": "**Head-Related Transfer Function (HRTF)** refers to the acoustic filter that characterizes how sound waves interact with the human head and ears, used to achieve spatial audio effects."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Musical Source Separation of Brazilian Percussion",
+    "author": "Richa Namballa (New York University), Giovana Morais (New York University), Magdalena Fuentes (New York University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper addresses music source separation, a related area to Haohe Liu's work in audio processing. The methods explored could offer insights into improving existing techniques for source separation in various audio contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "Separating individual musical instruments from audio mixtures, specifically targeting non-Western instruments within Brazilian samba music.",
+    "contribution": "This paper introduces a U-Net model trained on artificially generated mixtures from a limited dataset of Brazilian percussion, achieving successful isolation of the surdo drum.",
+    "technical_comparison": {
+        "prior_work": "Most previous methods focus on Western music datasets and struggle with non-Western instruments due to data limitations.",
+        "novelty": "This work effectively employs a simplified model without extensive training data, illustrating successful musical source separation in a culturally diverse context."
+    },
+    "key_innovation": "Demonstrates the effectiveness of a straightforward model architecture even with limited training data, leveraging the repetitive nature of the target instrument's patterns.",
+    "real_world_impact": "This research contributes to a more inclusive approach in music information retrieval, potentially enabling broader applications in various cultural contexts of music production and analysis.",
+    "limitations": "The study relies on a relatively small dataset, which may affect the robustness of the results in very diverse musical situations.",
+    "new_terms": {
+        "U-Net": "**U-Net** is a convolutional network architecture designed primarily for biomedical image segmentation, now adapted for audio processing tasks.",
+        "SDR": "**Source-to-Distortion Ratio** is a metric used to evaluate the performance of audio separation models, indicating the clear separation of sounds."
+    },
+    "open_sourcing": "Demo available online at https://richa-namballa.github.io/mss-demo/"
+}

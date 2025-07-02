@@ -1,0 +1,21 @@
+{
+    "title": "Multi-interaction TTS toward professional recording reproduction",
+    "author": "Hiroki Kanagawa (NTT, Inc.), Kenichi Fujita (NTT, Inc.), Aya Watanabe, Yusuke Ijima, ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces a multi-step interaction framework for text-to-speech synthesis, which aligns closely with my interests in audio and speech processing, potentially enhancing the capabilities of generative models in synthesizing high-quality speech.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating high-quality synthetic speech that allows for iterative user feedback and refinement, improving alignment with specific speaking styles.",
+    "contribution": "This paper introduces a multi-interaction text-to-speech (TTS) synthesis method to solve the issue of style deviation in synthesized speech, achieving more accurate representations of user intentions in synthesis.",
+    "technical_comparison": {
+        "prior_work": "Previous TTS systems have focused on single-step synthesis, which limits the ability to refine and adjust output based on user feedback.",
+        "novelty": "This work improves by integrating an iterative feedback mechanism with a unique dataset of interaction examples that replicate real-world voice direction scenarios."
+    },
+    "key_innovation": "The framework allows users to refine stylistic elements of synthesized speech interactively by providing step-by-step feedback, akin to directing a voice actor.",
+    "real_world_impact": "This method could lead to significant improvements in applications requiring natural and adaptable speech synthesis, such as virtual assistants, audio books, and therapeutic voice applications.",
+    "limitations": "The paper mentions challenges with dealing with ambiguous expressions and specific positioning in sentences that could complicate style adjustments.",
+    "new_terms": {
+        "style refiner": "**Style refiner** refers to a specific model component designed to adjust the style of synthesized speech according to user directions, enhancing the expressive capability of the TTS system."
+    },
+    "open_sourcing": ""
+}

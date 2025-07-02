@@ -1,0 +1,22 @@
+{
+    "title": "AudioBERTScore: Objective Evaluation of Environmental Sound Synthesis Based on Similarity of Audio Embedding Sequences",
+    "author": "Minoru Kishi (Keio University), Ryosuke Sakai (Keio University), Shinnosuke Takamichi (Keio University), Yusuke Kanamori (The University of Tokyo), Yuki Okamoto (The University of Tokyo)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed AudioBERTScore metric for evaluating synthesized audio directly aligns with Haohe Liu's interests in audio synthesis and quality assessment, particularly in the context of text-to-audio generation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Evaluating synthesized environmental sounds based on their similarity to reference audio using embedding sequences extracted from audio models.",
+    "contribution": "This paper introduces AudioBERTScore to solve the problem of insufficient correlations in existing evaluation metrics for synthesized audio, achieving a higher correlation with subjective evaluation scores.",
+    "technical_comparison": {
+        "prior_work": "Previous metrics like Mel-Cepstral Distortion and WARP-Q provide weak correlations to subjective evaluations, limiting their effectiveness.",
+        "novelty": "This work enhances evaluation accuracy by employing both max-norm and p-norm methods for analyzing audio embedding sequences, allowing for capturing both local and non-local sound characteristics."
+    },
+    "key_innovation": "The dual-norm approach to similarity scoring captures both localized and distributed audio information, improving the evaluation of complex environmental sounds.",
+    "real_world_impact": "The method has the potential to enhance evaluation practices in audio synthesis, benefiting applications in media content creation, gaming, and virtual reality environments.",
+    "limitations": "The study does not fully address how AudioBERTScore can be universally applied to all audio types, suggesting room for improvement.",
+    "new_terms": {
+        "max-norm": "**Max-norm** refers to a measure that takes the maximum similarity score, assuming locality in the data.",
+        "p-norm": "**P-norm** is a generalization of measuring distances that can emphasize local features or provide a more holistic view of similarity based on the parameter p."
+    },
+    "open_sourcing": "The code is open-sourced at the project's GitHub page: https://github.com/lourson1091/audiobertscore"
+}

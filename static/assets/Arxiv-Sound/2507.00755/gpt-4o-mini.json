@@ -1,0 +1,22 @@
+{
+    "title": "LearnAFE: Circuit-Algorithm Co-design Framework for Learnable Audio Analog Front-End",
+    "author": "Jinhai Hu (Nanyang Technological University), Zhongyi Zhang (Nanyang Technological University), Cong Sheng Leow (University of Michigan), Wang Ling Goh (Nanyang Technological University), Yuan Gao (Agency for Science, Technology and Research (A*STAR)), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper presents a novel co-design framework that integrates an analog front-end with neural networks, relevant to audio classification and processing, directly applicable to Haohe Liu's research focus on audio generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study addresses the challenge of optimizing analog front-ends and neural network classifiers jointly for effectively classifying audio signals in noisy environments.",
+    "contribution": "This paper introduces a circuit-algorithm co-design framework for learnable audio analog front-ends to optimize performance for audio classification tasks in low-Signal-to-Noise Ratio (SNR) conditions.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically design analog front-ends and classifiers independently, lacking system-level optimization which may result in suboptimal performance.",
+        "novelty": "This work improves upon prior methods by employing a joint optimization strategy that integrates analog filter design with backend classifiers, achieved through a novel co-design loss function."
+    },
+    "key_innovation": "Combines signal processing and machine learning at the circuit level, allowing for real-time adaptation and higher accuracy in noisy environments.",
+    "real_world_impact": "The proposed framework has the potential to enhance keyword spotting applications in IoT devices, offering energy-efficient solutions while maintaining high accuracy across varying noise conditions.",
+    "limitations": "The trade-off between optimizing for power consumption and classification accuracy may limit application in more complex tasks or scenarios with wider SNR ranges.",
+    "new_terms": {
+        "Signal-to-Noise Ratio (SNR)": "**Signal-to-Noise Ratio (SNR)** is the measure used to compare the level of a desired signal to the level of background noise, often expressed in decibels (dB).",
+        "Analog Front-End (AFE)": "**Analog Front-End (AFE)** refers to the circuitry designed to process analog signals before converting them into digital formats."
+    },
+    "open_sourcing": "The implementation details are based on the open-source SKY130 130nm CMOS process."
+}

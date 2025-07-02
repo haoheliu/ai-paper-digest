@@ -1,0 +1,22 @@
+{
+    "title": "A High-Fidelity Speech Super Resolution Network using a Complex Global Attention Module with Spectro-Temporal Loss",
+    "author": "Tarikul Islam Tamiti (George Mason University), Biraj Joshi (George Mason University), Rida Hasan (George Mason University), Rashedul Hasan (Chittagong University of Engineering & Technology), Taieba Athay (Chittagong University of Engineering & Technology), Nursad Mamun (Chittagong University of Engineering & Technology), Anomadarshi Barua (George Mason University), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper addresses speech super-resolution, a key area in audio quality enhancement, which directly aligns with my focus on audio processing and speech enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Speech super-resolution is the task of reconstructing high-frequency components from low-resolution speech signals to improve perceptual quality.",
+    "contribution": "This paper introduces the Complex Time-Frequency Transformation Network (CTFT-Net) to solve the complex challenges of phase and magnitude reconstruction in speech super-resolution, achieving significant improvements in audio quality metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on either spectral or time-domain features, often neglecting important phase information, which could lead to degraded audio quality.",
+        "novelty": "This work improves upon existing techniques by integrating complex-valued processing and dual-path attention mechanisms to jointly model both phase and frequency information."
+    },
+    "key_innovation": "CTFT-Net's ability to handle amplitude and phase reconstruction in complex domains represents a significant advancement in speech super-resolution methodologies.",
+    "real_world_impact": "This research has the potential to enhance various applications like telecommunication, voice recognition systems, and assistive technologies, improving the clarity and naturalness of synthesized speech.",
+    "limitations": "No",
+    "new_terms": {
+        "Complex Time-Frequency Transformation Network (CTFT-Net)": "CTFT-Net is a neural network architecture designed to perform speech super-resolution in the complex domain, effectively reconstructing frequency and phase components.",
+        "Complex Global Attention Block (CGAB)": "CGAB is a novel attention mechanism that captures dependencies across both time and frequency dimensions in a complex-valued spectrogram."
+    },
+    "open_sourcing": "Source code of the model will be available after acceptance."
+}
