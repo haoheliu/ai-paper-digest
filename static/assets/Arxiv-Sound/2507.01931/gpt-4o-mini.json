@@ -1,0 +1,21 @@
+{
+    "title": "Adaptability of ASR Models on Low-Resource Language: A Comparative Study of Whisper and Wav2Vec-BERT on Bangla",
+    "author": "Md Sazzadul Islam Ridoy (Ahsanullah University of Science and Technology), Sumi Akter (Ahsanullah University of Science and Technology), Md. Aminur Rahman (Ahsanullah University of Science and Technology), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The comparative analysis of ASR models like Wav2Vec-BERT and Whisper may inform the development of more efficient audio processing and speech recognition systems relevant to Haohe Liu's research in audio and speech.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study explores the performance of two Automatic Speech Recognition (ASR) models on Bangla, focusing on their adaptability in low-resource settings and under varying data conditions.",
+    "contribution": "This paper introduces a comparative evaluation of Wav2Vec-BERT and Whisper for Bangla ASR, achieving insights into model performance and efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous ASR models often struggled with low-resource languages and required extensive labeled datasets.",
+        "novelty": "This study employs systematic fine-tuning and hyperparameter optimization, demonstrating that Wav2Vec-BERT outperforms Whisper across key metrics in low-resource settings."
+    },
+    "key_innovation": "The study systematically cross-evaluates ASR models in a low-resource context, revealing significant insights that could lead to more accessible speech technology development.",
+    "real_world_impact": "The findings could enhance ASR systems for Bangla, leading to improved applications in areas such as education and healthcare for Bangla speakers. This could bridge technological gaps in underserved linguistic communities.",
+    "limitations": "No major limitations were discussed, though the models' performances heavily depend on the quantity and quality of the training datasets available.",
+    "new_terms": {
+        "Automatic Speech Recognition (ASR)": "**Automatic Speech Recognition (ASR)** refers to technology that enables the recognition and translation of spoken language into text, often utilized in various applications like voice commands and transcription services."
+    },
+    "open_sourcing": ""
+}

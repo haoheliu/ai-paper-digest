@@ -1,0 +1,22 @@
+{
+    "title": "A Review on Sound Source Localization in Robotics: Focusing on Deep Learning methods",
+    "author": "Reza Jalayer (Politecnico di Milano), Masoud Jalayer (University of Turku), Amirali Baniasadi (University of Victoria), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The review discusses innovative deep learning methods for sound source localization, which could inform Haohe's research in audio generation and enhancement techniques.",
+    "field": "Applications-Speech and Audio",
+    "background": "This review summarizes advancements in sound source localization (SSL) using deep learning methods, applicable to robotic systems navigating noisy environments.",
+    "contribution": "This paper introduces a comprehensive overview of deep learning techniques in SSL for robotics, focusing on established and emerging methodologies.",
+    "technical_comparison": {
+        "prior_work": "Traditional methods like TDOA and beamforming typically fail under complex acoustic conditions, limiting their applicability in robotics.",
+        "novelty": "The review highlights the transition to deep learning approaches that better handle noisy and reverberant environments and offers a categorized perspective by robot types and application domains."
+    },
+    "key_innovation": "Emphasizes the significance of deep learning in overcoming the limitations of traditional SSL techniques, showing the potential for improved accuracy and adaptability in real-world applications.",
+    "real_world_impact": "Suggesting practical pathways for implementing deep learning in SSL systems enhances robotic interaction with sound, making them more effective in dynamic environments.",
+    "limitations": "While extensive, the review highlights ongoing challenges like environmental robustness and multiple sound sources in localization tasks.",
+    "new_terms": {
+        "sound source localization (SSL)": "**Sound Source Localization (SSL)** is the process of determining the location of a sound-emitting source relative to an array of microphones.",
+        "Time Difference of Arrival (TDOA)": "**Time Difference of Arrival (TDOA)** is a method used in SSL that calculates the time difference for sound to reach various microphones to estimate the source's direction."
+    },
+    "open_sourcing": ""
+}

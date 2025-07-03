@@ -1,0 +1,22 @@
+{
+    "title": "Real-Time Emergency Vehicle Siren Detection with Efficient CNNs on Embedded Hardware",
+    "author": "Marco Giordano (Dpt. of Information Engineering, University of L'Aquila), Stefano Giacomelli (Dpt. of Information Engineering, University of L'Aquila), Claudia Rinaldi (National Inter-University Consortium for Telecommunications, University of L'Aquila), Fabio Graziosi (Dpt. of Information Engineering, University of L'Aquila), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses sound event detection with a focus on real-time processing on embedded systems, which could be relevant for developing efficient audio processing systems in various applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on detecting emergency vehicle sirens from audio streams in real-time using efficient convolutional neural networks on embedded hardware.",
+    "contribution": "This paper introduces a full-stack system for real-time detection of emergency vehicle sirens utilizing Efficient/Emergency Pre-trained Audio Neural Networks (E2PANNs) optimized for embedded platforms.",
+    "technical_comparison": {
+        "prior_work": "Existing models often require high computational resources or sacrifice accuracy for real-time capabilities, making them unsuitable for embedded deployment.",
+        "novelty": "This work improves upon traditional methods by employing an optimized CNN architecture and adaptive frame inference strategies, achieving effective detection on a Raspberry Pi."
+    },
+    "key_innovation": "Utilizes an adaptive frame-length mechanism and a multithreaded system to balance real-time performance with detection accuracy.",
+    "real_world_impact": "The implementation demonstrates how low-cost, efficient audio detection systems can support smart city applications for emergency response, potentially enhancing public safety.",
+    "limitations": "The accuracy dependency on refined dataset quality highlights a potential issue that may limit generalizability to varied real-world environments.",
+    "new_terms": {
+        "E2PANNs": "**Efficient/Emergency Pre-trained Audio Neural Networks** are a specialized type of convolutional neural network designed for audio event detection, emphasizing efficiency on embedded systems.",
+        "WebSocket": "**WebSocket** is a protocol providing full-duplex communication channels over a single TCP connection, suitable for real-time applications."
+    },
+    "open_sourcing": ""
+}

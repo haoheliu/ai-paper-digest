@@ -1,0 +1,19 @@
+{
+    "title": "SpeechAccentLLM: A Unified Framework for Foreign Accent Conversion and Text to Speech",
+    "author": "Zhuangfei Cheng (Southeast University), Guangyan Zhang (LIGHTSPEED), Zehai Tu (LIGHTSPEED), Yangyang Song (Southeast University), Shuiyang Mao (Tencent Hunyuan), Xiaoqi Jiao (LIGHTSPEED), Jingyu Li (LIGHTSPEED), Jiasong Wu (Southeast University, Tencent Hunyuan)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents a new framework for foreign accent conversion, which could provide insights into enhancing speech synthesis techniques applicable to Haohe Liu's research on audio generation and restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves converting nonnative accented speech into a native accent while maintaining the linguistic content and speaker identity using a unified model for both foreign accent conversion and text-to-speech functionalities.",
+    "contribution": "SpeechAccentLLM introduces a CTC-regularized SpeechCodeVAE model to solve the foreign accent conversion challenge, achieving significant improvements in accentedness reduction and speech quality.",
+    "technical_comparison": "Previous methods struggled with data scarcity and accent variation handling. This work improves by integrating multitask learning for concurrent training of foreign accent conversion and text-to-speech, leading to better adaptation and performance without extensive native accented data.",
+    "key_innovation": "The framework features a unique combination of connectionist temporal classification and vector quantization to generate speech tokens, which possess improved locality and robustness.",
+    "real_world_impact": "The proposed system could facilitate better communication and comprehension in language learning and multilingual environments by reducing accent-related barriers, thereby enhancing cross-cultural interactions.",
+    "limitations": "The model faces challenges in comprehensive prosody modeling and still struggles with issues of word skipping and repetition in output speech.",
+    "new_terms": {
+        "Connectionist Temporal Classification (CTC)": "**Connectionist Temporal Classification (CTC)** is a type of neural network output layer designed for sequence-to-sequence problems, allowing models to work with unaligned input-output pairs.",
+        "Variational Autoencoder (VAE)": "**Variational Autoencoder (VAE)** is a generative model that learns to represent data in a latent space, enabling tasks like generation and interpolation of data while enforcing distributions."
+    },
+    "open_sourcing": ""
+}

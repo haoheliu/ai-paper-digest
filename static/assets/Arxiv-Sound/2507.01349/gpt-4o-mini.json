@@ -1,0 +1,21 @@
+{
+    "title": "IdolSongsJp Corpus: A Multi-Singer Song Corpus in the Style of Japanese Idol Groups",
+    "author": "Hitoshi Suda (National Institute of Advanced Industrial Science and Technology), Junya Koguchi (Meiji University), Shunsuke Yoshida (The University of Tokyo), Tomohiko Nakamura (National Institute of Advanced Industrial Science and Technology), Satoru Fukayama (National Institute of Advanced Industrial Science and Technology), Jun Ogata (National Institute of Advanced Industrial Science and Technology), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The corpus addresses challenges in music information processing such as music source separation and automatic chord estimation, which could complement Haohe Liu's research on audio generation and processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a benchmark dataset of multi-singer songs to facilitate advancements in music analysis and processing tasks.",
+    "contribution": "The IdolSongsJp corpus introduces a diverse set of 15 multi-singer songs to solve the lack of high-loudness and complex multi-singer datasets, achieving improved performance in music information retrieval tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing music source separation corpora often lack high loudness levels and realistic song structures.",
+        "novelty": "This work provides mastered tracks and stems in a volume consistent with commercial songs, enhancing usability for various audio processing methods."
+    },
+    "key_innovation": "Features song division structures to reflect collaborative singing in idol groups, allowing for more nuanced analysis of vocal arrangements.",
+    "real_world_impact": "The corpus serves as a valuable resource for both academic research and industry applications in music processing, potentially enhancing user experiences in audio-related technologies.",
+    "limitations": "The authors mention that some mastering effects complicate sources separation performance.",
+    "new_terms": {
+        "utawari": "**Utawari** is a Japanese term referring to song division structures where multiple singers alternate vocal parts in a song, enhancing engagement and individual expression."
+    },
+    "open_sourcing": "The corpus is publicly distributable for non-commercial research and entertainment purposes."
+}

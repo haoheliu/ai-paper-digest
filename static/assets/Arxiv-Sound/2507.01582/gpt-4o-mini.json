@@ -1,0 +1,22 @@
+{
+    "title": "Exploring Classical Piano Performance Generation with Expressive Music Variational AutoEncoder",
+    "author": "Jing Luo (Xi'an Jiaotong University), Xinyu Yang (Xi'an Jiaotong University), Jie Wei (China Mobile Group Shaanxi Co., Ltd.), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces innovative techniques for generating expressive music performances, which could be beneficial for Dr. Liu's research in music generation and enhancement.",
+    "field": "Applications-Creative AI",
+    "background": "Generating classical piano performances that blend musical composition and expressive interpretation from scratch, facilitating more immersive musical creation.",
+    "contribution": "This paper introduces the Expressive Compound Word representation and the Expressive Music Variational AutoEncoder model to solve the challenge of generating expressive piano performances, achieving superior musical quality compared to state-of-the-art models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on MIDI-like representations that lacked metrical structures and often did not effectively separate compositional and performative tasks.",
+        "novelty": "This work employs a two-branch architecture that distinctly models the composer and pianist roles, integrating beat-level context and utilizing an advanced token decoding process."
+    },
+    "key_innovation": "Combining score-related content generation and expressive details through a novel two-branch Variational AutoEncoder architecture.",
+    "real_world_impact": "The techniques developed could enhance tools for musicians and enable virtual performers, making music generation more accessible and expressive.",
+    "limitations": "No",
+    "new_terms": {
+        "Expressive Compound Word (ECP)": "**Expressive Compound Word (ECP)** is a novel music representation capturing both metrical structures and expressive nuances within a single tokenized format.",
+        "Vector Quantized Variational AutoEncoder (VQ-VAE)": "**Vector Quantized Variational AutoEncoder** is a model that quantizes input data into discrete latent variables, facilitating high-quality content generation."
+    },
+    "open_sourcing": ""
+}

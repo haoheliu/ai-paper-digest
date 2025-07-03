@@ -1,0 +1,22 @@
+{
+    "title": "A Dataset for Automatic Assessment of TTS Quality in Spanish",
+    "author": "Alejandro Sosa Welford (Ingenier\u00eda de Sonido, Universidad Nacional de Tres de Febrero), Leonardo Pepino (Departamento de Computaci\u00f3n, Universidad de Buenos Aires), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The development of a dataset for assessing TTS systems in Spanish aligns with the focus on speech technologies in Haohe Liu's work, especially in improving automated quality assessments in audio production.",
+    "field": "Applications-Speech and Audio",
+    "background": "Creating a dataset to evaluate the naturalness of text-to-speech systems in Spanish using subjective ratings as a reference.",
+    "contribution": "This paper introduces a comprehensive dataset and evaluation methodology to assess TTS quality, achieving a mean absolute error of 0.8 on a five-point mean opinion score scale.",
+    "technical_comparison": {
+        "prior_work": "Most existing TTS quality assessments focus on English or Mandarin and rely heavily on human evaluations without automated alternatives.",
+        "novelty": "This work provides a first-of-its-kind Spanish dataset and models specifically fine-tuned for evaluating TTS naturalness, greatly enhancing the practicality of TTS evaluations."
+    },
+    "key_innovation": "The unique combination of TTS systems and human voice samples in a well-structured dataset promotes the establishment of automated assessments tailored for Spanish.",
+    "real_world_impact": "This dataset could significantly improve the development of Spanish TTS systems, impacting applications in accessibility, voice assistants, and content production.",
+    "limitations": "The models show bias towards predicting the mean MOS score and struggle with scores around 4 due to a lack of representation.",
+    "new_terms": {
+        "mean opinion score (MOS)": "**Mean Opinion Score (MOS)** is a metric used to evaluate the perceived quality of synthesized speech, typically rated on a scale from 1 (poor) to 5 (excellent).",
+        "vocoders": "**Vocoders** are signal processing techniques that synthesize human speech or other sounds by modulating a carrier signal based on the audio input."
+    },
+    "open_sourcing": "The dataset and source codes were made publicly available."
+}

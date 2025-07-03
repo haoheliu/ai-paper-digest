@@ -1,0 +1,22 @@
+{
+    "title": "Voice Conversion for Likability Control via Automated Rating of Speech Synthesis Corpora",
+    "author": "Hitoshi Suda (National Institute of Advanced Industrial Science and Technology), Shinnosuke Takamichi (Keio University), Satoru Fukayama (National Institute of Advanced Industrial Science and Technology), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The techniques presented in this work for controlling voice likability could be directly applied to enhance audio synthesis tasks in Haohe Liu's research, particularly in improving the contextual alignment and emotional appeal of generated audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study aims to adjust the likability of synthesized speech while maintaining speaker identity, facilitating better social interactions in various applications such as advertising.",
+    "contribution": "This paper introduces a voice conversion method that can control voice likability while preserving speaker identity and linguistic content, achieving significant correlations with human-like ratings.",
+    "technical_comparison": {
+        "prior_work": "Previous voice conversion methods mainly relied on manual ratings or limited datasets, often leading to scalability issues.",
+        "novelty": "This work improves by utilizing an automated likability predictor that allows for scalable annotations across large speech datasets, enabling robust training for the conversion model."
+    },
+    "key_innovation": "The integration of time-delay neural networks for likability prediction combined with a voice conversion method dependent on discrete speech units makes the approach unique.",
+    "real_world_impact": "The findings can significantly enhance product marketing strategies through voice tuning, ultimately leading to improved user engagement in applications that utilize synthesized speech.",
+    "limitations": "The specific trade-off between likability and speaker identity preservation may need further exploration to enhance user experience.",
+    "new_terms": {
+        "likability predictor": "**Likability predictor** is a model that estimates the perceived likability of a voice through learned acoustic features, allowing for automated adjustments in voice synthesis.",
+        "time-delay neural networks": "**Time-delay neural networks (TDNNs)** are a type of neural network designed to process sequential data, capturing temporal structures effectively by delaying signal input across multiple time frames."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Hello Afrika!: Speech Commands in Kinyarwanda",
+    "author": "George Igwegbe (Carnegie Mellon University, Africa), Martins Awojide (Carnegie Mellon University, Africa), Mboh Bless (Carnegie Mellon University, Africa), Nirel Kadzo (Carnegie Mellon University, Africa), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "This project addresses speech recognition in Kinyarwanda, potentially impacting the field of audio processing and language modeling, which aligns with Haohe's interests in audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Developing a speech command model for the Kinyarwanda language to enable voice-activated functionalities in smart devices.",
+    "contribution": "This paper introduces a speech command model for Kinyarwanda to solve the lack of speech recognition technologies for African languages, achieving deployment across multiple devices.",
+    "technical_comparison": {
+        "prior_work": "Existing models focus on popular languages, neglecting African languages with limited datasets.",
+        "novelty": "This work employs a custom speech command corpus and utilizes a combination of Convolutional Neural Networks and Long Short-Term Memory models to optimize keyword detection."
+    },
+    "key_innovation": "The project establishes a dedicated corpus and model for Kinyarwanda, enabling voice control functionalities in native languages, which is unprecedented for this linguistic group.",
+    "real_world_impact": "The successful implementation can significantly enhance the usability of smart devices for native Kinyarwanda speakers, particularly benefiting individuals with disabilities.",
+    "limitations": "The model's performance varied significantly across datasets, indicating challenges in dataset diversity and possible overfitting.",
+    "new_terms": {
+        "keyword spotting": "**Keyword spotting** refers to the ability of a system to recognize predefined words or phrases from audio input.",
+        "Long Short-Term Memory (LSTM)": "**Long Short-Term Memory** is a type of recurrent neural network architecture capable of learning long-term dependencies, commonly used in sequence prediction tasks."
+    },
+    "open_sourcing": "Code and guidance are available on GitHub: https://github.com/gigwegbe/hello_afrika_speech_commands"
+}

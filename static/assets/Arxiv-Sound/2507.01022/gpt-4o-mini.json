@@ -1,0 +1,21 @@
+{
+    "title": "Workflow-based evaluation of Music Generation Systems",
+    "author": "Shayan Dadman (Department of Computer Science, UiT), Bernt Arild Bremdal (Department of Computer Science, UiT), Andreas Bergsland (Department of Music, NTNU), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper evaluates Music Generation Systems (MGS) which are highly relevant to my work on generative audio models, particularly in understanding how these systems improve collaborative workflows in music production.",
+    "field": "Applications-Creative AI",
+    "background": "This study assesses various Music Generation Systems by examining their technical traits and practical applications within contemporary music production workflows.",
+    "contribution": "The paper introduces a mixed-method evaluation framework to analyze Music Generation Systems (MGS) and their capabilities, identifying both their limitations and strengths in creative contexts.",
+    "technical_comparison": {
+        "prior_work": "Previously, evaluations of music generation focused either on purely technical capabilities or on subjective user experiences without a systematic approach.",
+        "novelty": "This work combines qualitative and quantitative assessments, providing a more comprehensive understanding of MGS within real-world music production workflows."
+    },
+    "key_innovation": "Develops an evaluation framework that integrates theoretical and practical aspects of music generation, making it adaptable to various production contexts.",
+    "real_world_impact": "This research provides empirical insights that can guide future developments in AI music tools, improving capabilities and user experience in creative workflows.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "Music Generation Systems (MGS)": "**Music Generation Systems (MGS)** are AI tools designed to assist in various aspects of music creation, including composition and sound design."
+    },
+    "open_sourcing": ""
+}

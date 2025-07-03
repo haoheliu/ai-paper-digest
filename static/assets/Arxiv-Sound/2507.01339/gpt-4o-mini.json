@@ -1,0 +1,22 @@
+{
+    "title": "User-Guided Generative Source Separation",
+    "author": "Yutong Wen (University of Illinois at Urbana-Champaign), Minje Kim (University of Illinois at Urbana-Champaign), Paris Smaragdis (University of Illinois at Urbana-Champaign), ...",
+    "quality": 8,
+    "relevance": 6,
+    "relevance_why": "The paper introduces innovative conditioning techniques for music source separation, which could enhance audio generation tasks and improve techniques for audio restoration, areas central to Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Music source separation aims to extract individual instrument sources from mixed audio, which is useful for applications like music editing and remixing.",
+    "contribution": "This paper introduces GuideSep, a diffusion-based model that separates music sources beyond traditional setups, achieving high-quality and flexible instrument extraction.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied heavily on fixed class labels or sound queries that limited flexibility in instrument separation.",
+        "novelty": "This work improves on those methods by using waveform mimicry and mel-spectrogram domain masks as conditions, allowing for more instrument-agnostic separation."
+    },
+    "key_innovation": "The unique approach combines multiple user-guided inputs, enabling high adaptability in separating various musical sources based on user interaction.",
+    "real_world_impact": "This method demonstrates significant potential for practical applications in music production and interactive sound design, enabling users to generate desired audio outputs easily.",
+    "limitations": "The results show that while effective, the model struggles with polyphonic sources where the mimicry condition is monophonic, possibly leading to extraction inaccuracies.",
+    "new_terms": {
+        "diffusion model": "**Diffusion model** is a type of generative model that iteratively transforms noise into data samples by reversing a gradual noise-adding process.",
+        "mel-spectrogram": "**Mel-spectrogram** is a representation of audio where the frequency axis is mapped to the Mel scale, which approximates human auditory perception more closely than linear frequency scales."
+    },
+    "open_sourcing": "Code and demo page available at https://yutongwen.github.io/GuideSep/"
+}

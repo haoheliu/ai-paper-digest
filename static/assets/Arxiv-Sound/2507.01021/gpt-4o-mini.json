@@ -1,0 +1,22 @@
+{
+    "title": "Scalable Offline ASR for Command-Style Dictation in Courtrooms",
+    "author": "Kumarmanas Nethil (Adalat AI), Vaibhav Mishra (Adalat AI), Kriti Anandan (Adalat AI), Kavya Manohar (Adalat AI), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The proposed framework utilizes Voice Activity Detection (VAD) and multiplexing techniques that could enhance transcription efficiency for audio-related tasks in Haohe's research, particularly in real-time audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Command-style dictation enables real-time documentation of discrete segments of text, particularly in judicial settings, where latency is critical.",
+    "contribution": "This paper introduces an open-source framework that combines Voice Activity Detection with parallel ASR transcription to solve the latency issue in command-style dictation, achieving improved scalability and efficiency.",
+    "technical_comparison": {
+        "prior_work": "Previous systems like WhisperX process audio sequentially or rely on intensive online ASR, leading to latency issues.",
+        "novelty": "This work implements a multiplexing strategy allowing parallel processing of multiple audio segments, significantly reducing overall latency, especially under high concurrency."
+    },
+    "key_innovation": "Decouples VAD from transcription, enabling real-time response in multi-user environments without the heavy compute costs of traditional online ASR systems.",
+    "real_world_impact": "Deployed in 15% of India's courtrooms, this framework could transform transcription practices, making them faster and more efficient in legal and other fast-paced settings.",
+    "limitations": "No",
+    "new_terms": {
+        "multiplexing": "**Multiplexing** in this context refers to the technique of combining multiple input signals into one output signal to improve resource utilization during audio processing.",
+        "Voice Activity Detection (VAD)": "**Voice Activity Detection** is a technology used to detect the presence or absence of human speech in audio signals, crucial for effective audio segmentation."
+    },
+    "open_sourcing": "The framework is open-source and available for real-time interaction."
+}
