@@ -1,0 +1,22 @@
+{
+    "title": "TAGF: Time-aware Gated Fusion for Multimodal Valence-Arousal Estimation",
+    "author": "Yubeen Lee (Sungkyunkwan University), Chaewon Park (Sungkyunkwan University), Sangeun Lee (Electronics and Telecommunications Research Institute), Junyeop Cha (Sungkyunkwan University), Eunil Park (Sungkyunkwan University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper addresses multimodal emotion recognition, which can be applicable in audio-based emotion detection tasks, especially by enhancing audio-visual synchronization and understanding emotional dynamics.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task focuses on estimating continuous emotional values related to valence and arousal from audiovisual data captured in videos.",
+    "contribution": "The paper introduces the TAGF framework that effectively integrates temporal dynamics into the fusion of audio and visual features for improved valence-arousal estimation.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often use fixed cross-attention weights across time steps, limiting adaptability to emotional transitions.",
+        "novelty": "TAGF improves by implementing a temporal gating mechanism that dynamically adjusts the importance of different time-step outputs in the fusion process."
+    },
+    "key_innovation": "Incorporates a BiLSTM-based temporal gating mechanism to adaptively modulate the contribution of recursive attention outputs based on temporal context.",
+    "real_world_impact": "The framework shows competitive performance and robustness in emotional recognition tasks in real-world settings, potentially benefiting applications like empathetic AI and audiovisual content analysis.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Valence-Arousal (VA) estimation": "**Valence-Arousal (VA) estimation** refers to a method of representing emotions in a two-dimensional space that accounts for pleasantness (valence) and intensity (arousal).",
+        "BiLSTM": "**Bidirectional Long Short-Term Memory (BiLSTM)** is a type of recurrent neural network that processes data in both forward and backward directions to capture context from both past and future inputs."
+    },
+    "open_sourcing": ""
+}

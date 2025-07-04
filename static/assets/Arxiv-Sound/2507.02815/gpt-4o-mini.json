@@ -1,0 +1,22 @@
+{
+    "title": "Towards Perception-Informed Latent HRTF Representations",
+    "author": "You Zhang (University of Rochester), Andrew Francl (Meta Reality Labs Research), Ruohan Gao (University of Maryland, College Park), Paul Calamia (Meta Reality Labs Research), Zhiyao Duan (University of Rochester), Ishwarya Ananthabhotla (Meta Reality Labs Research)",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The paper explores methods for improving head-related transfer function (HRTF) personalization, which is directly relevant to audio processing tasks, including personalized audio experiences and sound localization.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research investigates how to enhance individualized audio rendering through advanced machine learning techniques applied to head-related transfer functions, which are critical for spatial audio performance.",
+    "contribution": "This paper introduces a method for embedding head-related transfer functions into a perception-informed latent space to solve the problem of aligning spectral and perceptual representations, achieving improved correlations with perceptual metrics.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily optimized for spectral similarity, potentially ignoring perceptual relevance, which often leads to discrepancies in subjective audio experience.",
+        "novelty": "This work improves by explicitly incorporating perceptual alignment through Metric Multidimensional Scaling (MMDS) supervision and a perceptual loss function in the representation learning process."
+    },
+    "key_innovation": "The integration of perceptual metrics into latent space representation learning allows for better and more intuitive personalization of auditory experiences.",
+    "real_world_impact": "The findings hold potential for significantly enhancing user experiences in spatial audio applications, such as virtual reality and personalized audio rendering, which are increasingly relevant in media consumption.",
+    "limitations": "The current implementation only addresses magnitude representation of HRTFs without considering phase information, which may limit the fidelity of audio reproduction.",
+    "new_terms": {
+        "Head-Related Transfer Functions (HRTFs)": "**HRTFs** are functions that describe how a particular sound is filtered by the unique shape and size of a person's ears and head, which affects sound localization and quality when heard through headphones.",
+        "Metric Multidimensional Scaling (MMDS)": "**MMDS** is a statistical technique that converts a distance matrix into a set of coordinates while preserving the original distances among the points as closely as possible."
+    },
+    "open_sourcing": ""
+}

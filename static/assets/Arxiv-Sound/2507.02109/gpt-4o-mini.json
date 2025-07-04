@@ -1,0 +1,22 @@
+{
+    "title": "Parametric Neural Amp Modeling with Active Learning",
+    "author": "Florian Gr\u00f6tschla (ETH Zurich), Luca A. Lanzend\u00f6rfer (ETH Zurich), Longxiang Jiao (ETH Zurich), Roger Wattenhofer (ETH Zurich), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper introduces an active learning framework for training parametric guitar amp models, which can inform innovative approaches for generative audio modeling in Haohe Liu's research.",
+    "field": "Deep Learning-Generative Models",
+    "background": "Training machine learning models for generating guitar amplifier sounds by optimizing the selection of amp settings through active learning techniques.",
+    "contribution": "PANAMA introduces an active learning strategy to significantly reduce the number of samples needed for effective model training while maintaining performance.",
+    "technical_comparison": {
+        "prior_work": "Previous models relied heavily on extensive, uniformly random sampling of amplifier settings, leading to inefficiencies in data collection.",
+        "novelty": "This work improves by applying gradient-based optimization to actively select the most informative data points based on model disagreement within ensembles."
+    },
+    "key_innovation": "Leveraging active learning techniques allows for efficient data collection and model training, reducing the number of required samples while maximizing model performance.",
+    "real_world_impact": "The framework can streamline the process of creating virtual amplifiers, making it easier for developers and musicians to access high-quality guitar sounds without extensive data collection.",
+    "limitations": "The authors do not explicitly mention limitations in the paper.",
+    "new_terms": {
+        "parametric guitar amp model": "**Parametric guitar amp model** refers to a model that generates audio effects based on adjustable amplifier parameters or settings, allowing for dynamic sound manipulation.",
+        "active learning": "**Active learning** is a machine learning approach that selectively chooses the most informative samples to label, improving model performance with fewer training examples."
+    },
+    "open_sourcing": "https://github.com/ETH-DISCO/neural_amp_modelling"
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Benchmarking Akan ASR Models Across Domain-Specific Datasets: A Comparative Evaluation of Performance, Scalability, and Adaptability",
+    "author": "Mark Atta Mensah (University of Ghana), Isaac Wiafe (University of Ghana), Akon Ekpezu (University of Oulu), Justice Kwame Appati (University of Ghana), Jamal-Deen Abdulai (University of Ghana), Akosua Nyarkoa Wiafe-Akenten (University of Ghana), Frank Ernest Yeboah (Expeditors International Inc.), Gifty Odame (University of Ghana)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper discusses ASR models and their adaptability across different datasets, which aligns with my work in audio context and model evaluation techniques, particularly for enhancing automatic recognition capabilities.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study evaluates the performance of automatic speech recognition models on diverse Akan speech datasets, assessing their generalization across various speech contexts.",
+    "contribution": "This paper introduces a comparative evaluation of seven Akan automatic speech recognition models to solve the challenge of limited generalization across diverse speech domains, achieving insights into performance trade-offs and adaptation strategies.",
+    "technical_comparison": {
+        "prior_work": "Typically, ASR models are evaluated on in-domain datasets, resulting in limited insights into their adaptability across different contexts.",
+        "novelty": "This work expands the evaluation to include cross-dataset performance data, revealing how models struggle with out-of-domain speech and highlighting the need for targeted domain adaptation strategies."
+    },
+    "key_innovation": "The unique approach of benchmarking the models across diverse Akan speech datasets shines light on domain-specific biases and provides a framework for future low-resource language ASR model development.",
+    "real_world_impact": "The findings support the development of more robust and adaptable ASR systems for underrepresented languages, facilitating better accessibility and engagement with technology in diverse language communities.",
+    "limitations": "The study may be limited by the scope of available datasets and the degree of fine-tuning performed on each model.",
+    "new_terms": {
+        "low-resource languages": "**Low-resource languages (LRLs)** are languages that lack sufficient data and resources for effectively developing machine learning models, particularly in natural language processing and automatic speech recognition contexts.",
+        "word error rate (WER)": "**Word error rate (WER)** is a common metric for measuring the accuracy of an automatic speech recognition system, calculated as the ratio of the number of incorrect words to the total number of words."
+    },
+    "open_sourcing": ""
+}

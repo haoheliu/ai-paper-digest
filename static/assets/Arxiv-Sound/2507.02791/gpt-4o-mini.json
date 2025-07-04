@@ -1,0 +1,22 @@
+{
+    "title": "Self-Steering Deep Non-Linear Spatially Selective Filters for Efficient Extraction of Moving Speakers under Weak Guidance",
+    "author": "Jakob Kienegger (University of Hamburg, Germany), Alina Mannanova (University of Hamburg, Germany), Huajian Fang (University of Hamburg, Germany), Timo Gerkmann (University of Hamburg, Germany), ..., Timo Gerkmann (University of Hamburg, Germany)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper introduces a self-steering mechanism for speech enhancement, which could be applicable to Haohe Liu's work on audio quality enhancement, particularly in real-time scenarios with moving speakers.",
+    "field": "Applications-Speech and Audio",
+    "background": "Target speaker extraction (TSE) aims to identify and enhance a specific speaker's voice in a noisy environment with multiple speakers present.",
+    "contribution": "This paper introduces a low-complexity self-steering approach that integrates a temporal feedback mechanism to enhance tracking accuracy of speaker localization, leading to improved speech extraction performance.",
+    "technical_comparison": {
+        "prior_work": "Existing methods often rely on resource-intensive tracking algorithms which limit real-time applicability.",
+        "novelty": "This work employs a particle filter in combination with a spatially selective filter, significantly reducing computational overhead while improving tracking and enhancement performance."
+    },
+    "key_innovation": "The integration of temporal feedback from the speech extraction process enhances the accuracy of the tracking algorithm without heavy computational costs.",
+    "real_world_impact": "This approach has potential applications in real-time speech enhancement systems used in telecommunications and assistive technologies, improving user experiences in noisy environments.",
+    "limitations": "The paper does not mention specific limitations.",
+    "new_terms": {
+        "target speaker extraction (TSE)": "**Target speaker extraction (TSE)** is the process of isolating the speech of a designated speaker from a mixture of multiple speech sources and background noise.",
+        "particle filter (PF)": "**Particle filter (PF)** is a method for implementing a recursive Bayesian filter by Monte Carlo simulations, used to estimate the state of a dynamic system affected by noise."
+    },
+    "open_sourcing": ""
+}

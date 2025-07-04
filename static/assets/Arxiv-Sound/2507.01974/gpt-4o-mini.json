@@ -1,0 +1,22 @@
+{
+    "title": "Acoustic evaluation of a neural network dedicated to the detection of animal vocalisations",
+    "author": "J. Rouch (ENES Bioacoustics Research Lab, CNRS), M. Ducrettet (BioPhonia), S. Haupert (Institut Syst\u00e9matique Evolution Biodiversit\u00e9), R. Emonet (Laboratoire Hubert Curien), F. S\u00e8be (Office Fran\u00e7ais de la Biodiversit\u00e9), ...",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "This paper details neural network-based methods for audio signal detection in ecological monitoring, which may inspire methods applicable to audio processing and generation tasks in Haohe Liu's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on enhancing detection of animal vocalizations using a convolutional neural network while evaluating performance metrics across various noise levels.",
+    "contribution": "This paper introduces a method for estimating detection probability based on signal-to-noise ratios in neural networks, achieving improved models for monitoring animal populations.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on machine learning metrics like precision and recall without considering noise effects in performance evaluation.",
+        "novelty": "This work enhances performance evaluation by integrating acoustic analysis with machine learning metrics, providing a more comprehensive understanding of the neural network's capabilities under varying noise conditions."
+    },
+    "key_innovation": "The integration of signal-to-noise ratio analysis into neural network performance evaluation to optimize detection of specific animal vocalizations.",
+    "real_world_impact": "By improving monitoring techniques in ecological studies, this research could facilitate better conservation efforts and wildlife management strategies.",
+    "limitations": "No explicit limitations were mentioned.",
+    "new_terms": {
+        "signal-to-noise ratio": "**Signal-to-noise ratio (SNR)** is a measure used in science and engineering to quantify how much a signal has been corrupted by noise, expressed in decibels (dB).",
+        "convolutional neural network": "**Convolutional Neural Networks (CNNs)** are a class of deep neural networks that are particularly effective for processing structured grid data such as images and audio spectrograms."
+    },
+    "open_sourcing": ""
+}
