@@ -1,0 +1,22 @@
+{
+    "title": "Hear-Your-Click: Interactive Video-to-Audio Generation via Object-aware Contrastive Audio-Visual Fine-tuning",
+    "author": "Yingshan Liang (Shenzhen International Graduate School, Tsinghua University), Yiran Wang (Shenzhen International Graduate School, Tsinghua University), Keyu Fan (Shenzhen International Graduate School, Tsinghua University), Qingyang Shi (Shenzhen International Graduate School, Tsinghua University), Jiasheng Lu (Huawei Technologies Co., Ltd.), Zhicheng Du (Shenzhen International Graduate School, Tsinghua University), Xinyu Zhang (Shenzhen International Graduate School, Tsinghua University), ..., Haohe Liu",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The framework introduces innovative methods for audio generation from video, which aligns with Dr. Liu's interest in audio-related research. The use of object-aware techniques could provide insights into improving audio-visual integration in generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of generating audio tailored to specific objects in complex video scenes, which is essential for applications like film production and interactive media.",
+    "contribution": "This paper introduces the Hear-Your-Click framework to solve the issue of generating object-specific sounds from videos, achieving improved synchronization and alignment of audio with visual content.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily depended on global video information, often failing to handle multi-object scenes effectively.",
+        "novelty": "This work improves upon existing methods by enabling users to interactively select objects in the video, thus allowing for tailored audio generation."
+    },
+    "key_innovation": "The interactive component of letting users click on objects to generate corresponding sounds is a unique approach in Video-to-Audio generation.",
+    "real_world_impact": "This work significantly enhances the usability of video-audio generation systems in practical applications like film production and interactive media design.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "Mask-guided Visual Encoder": "**Mask-guided Visual Encoder** is a model component that utilizes binary masks to focus on object-specific visual features during audio generation.",
+        "Random Video Stitching": "**Random Video Stitching** is a data augmentation technique where frames from different videos are combined to improve model performance."
+    },
+    "open_sourcing": "Project Page: https://github.com/SynapGrid/Hear-Your-Click"
+}

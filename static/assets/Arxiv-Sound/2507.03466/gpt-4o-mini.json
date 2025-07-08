@@ -1,0 +1,21 @@
+{
+    "title": "Direction Estimation of Sound Sources Using Microphone Arrays and Signal Strength",
+    "author": "Mahdi Ali Pour (Computer Science & Engineering, Sabanc\u0131 University), Utku Gunay Acer (Computer Network, Sabanc\u0131 University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper presents an innovative method for sound source localization that could leverage similar techniques in Haohe Liu's audio generation and processing work, particularly in enhancing interactive systems with real-time audio capabilities.",
+    "field": "Applications-Speech and Audio",
+    "background": "Determining the direction of sound sources using an algorithm that analyzes signal strength from multiple microphones arranged in a specific configuration.",
+    "contribution": "This paper introduces a low-cost sound tracking system using three electret microphones to analyze sound intensity, achieving a directional accuracy of less than 6 degrees.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often require complex setups, high computational power, or extensive signal processing.",
+        "novelty": "This work simplifies sound tracking using a basic sensor array and a straightforward intensity-based methodology, making it practical for real-time applications."
+    },
+    "key_innovation": "Employs a lightweight approach using three microphones placed at strategic angles to collectively analyze signal strength, enabling precise directional estimation.",
+    "real_world_impact": "The method presents a cost-effective alternative for sound direction detection in applications such as smart homes and security systems, potentially enhancing responsive technologies.",
+    "limitations": "The paper does not address potential impacts of environmental noise on accuracy in varied real-world settings.",
+    "new_terms": {
+        "electret microphones": "**Electret microphones** are a type of condenser microphone where the capacitor's diaphragm is coated with a permanent electret material, which allows them to be compact and cost-effective while providing good sound quality."
+    },
+    "open_sourcing": "The source code of the project is available on their GitHub repository: https://github.com/mahdi943/soundlocalization"
+}

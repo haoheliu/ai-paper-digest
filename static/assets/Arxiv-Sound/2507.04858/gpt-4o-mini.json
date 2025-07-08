@@ -1,0 +1,22 @@
+{
+    "title": "TOWARDS HUMAN-IN-THE-LOOP ONSET DETECTION: A TRANSFER LEARNING APPROACH FOR MARACATU",
+    "author": "Ant\u00f3nio S\u00e1 Pinto (Faculdade de Engenharia da Universidade do Porto), Ant\u00f3nio S\u00e1 Pinto (INESC TEC), ..., A. S. Pinto",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper discusses transfer learning and user-influenced methodologies for musical onset detection in non-Western music traditions, which aligns with research in improving audio processing techniques, particularly in diverse musical contexts.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on detecting the moment musical notes begin in Afro-Brazilian Maracatu music, a task complicated by complex rhythms and the need for accurate onset detection.",
+    "contribution": "This paper introduces a transfer learning approach using user-provided short audio snippets for fine-tuning onset detection models, achieving significant improvements in accuracy for the unique rhythms of Maracatu.",
+    "technical_comparison": {
+        "prior_work": "Previous methods of onset detection often struggled with non-Western music due to insufficient training data and model adaptability.",
+        "novelty": "This work improves upon prior methods by integrating a human-in-the-loop method that allows end-users to quickly enhance model accuracy with minimal data."
+    },
+    "key_innovation": "The study's key innovation lies in applying transfer learning from existing models and adjusting them using human-driven fine-tuning, allowing for rapid adaptation to unique musical characteristics.",
+    "real_world_impact": "The findings could improve music information retrieval systems for underrepresented musical genres, promoting inclusivity and accessibility in music analysis and education.",
+    "limitations": "The study's approach may require extensive validation across more musical contexts to confirm its generalizability.",
+    "new_terms": {
+        "human-in-the-loop": "**Human-in-the-loop** refers to systems that integrate human input to improve machine learning processes, enhancing accuracy and relevance.",
+        "transfer learning": "**Transfer learning** is a technique where a model developed for a particular task is reused as the starting point for a model on a second task, facilitating faster and more effective learning."
+    },
+    "open_sourcing": "https://github.com/asapsmc/HIILOnsetDetection"
+}

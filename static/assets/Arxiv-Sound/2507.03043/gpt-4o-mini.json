@@ -1,0 +1,23 @@
+{
+    "title": "K-Function: Joint Pronunciation Transcription and Feedback for Evaluating Kids Language Function",
+    "author": "Shuhe Li (Zhejiang University), Chenxu Guo (UC Berkeley), Jiachen Lian (UC Berkeley), Cheol Jun Cho (University of California, Berkeley), Wenshuo Zhao (Zhejiang University), Xuanru Zhou (Zhejiang University), Dingkun Zhou (SCUT), Sam Wang (UC Berkeley), Grace Wang (UC Berkeley), Jingze Yang (Zhejiang University), Jingyi Xu (Zhejiang University), Ruohan Bao (Zhejiang University), Elise Brenner (UCSF), Brandon In (UCSF), Francesca Pei (UCSF), Maria Luisa Gorno-Tempini (UCSF), Gopala Anumanchipalli (University of California, Berkeley)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "This paper directly addresses children's speech transcription and evaluation, aligning closely with Dr. Liu's interests in speech processing and machine learning applications for audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study focuses on evaluating children's language function by improving phoneme transcription accuracy, which is critical for diagnosing speech and language disorders.",
+    "contribution": "K-Function introduces a novel framework for children's speech evaluation that combines accurate phoneme transcription with actionable feedback, achieving significant improvements in phoneme error rates.",
+    "technical_comparison": {
+        "prior_work": "Previous automatic speech recognition (ASR) systems for children struggled with accuracy due to unique speech characteristics, often masking sub-word pronunciation errors.",
+        "novelty": "This work enhances existing models by implementing a phoneme-similarity mechanism that adapts to children\u2019s speech, allowing for better recognition of dysfluencies and phonetic variations."
+    },
+    "key_innovation": "The adaptive phoneme similarity scoring method enables the transcription system to dynamically adjust to the specific speech patterns of children, enhancing its robustness.",
+    "real_world_impact": "This framework has the potential to significantly improve early diagnostics and educational support for children with speech and language disorders, facilitating effective intervention strategies.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "Dysfluent WFST": "**Dysfluent Weighted Finite-State Transducer** is a model that accounts for atypical speech patterns, aiding in the transcription of disfluent speech.",
+        "phoneme error rate": "**Phoneme Error Rate (PER)** is a metric for evaluating the accuracy of phoneme recognition systems by measuring the rate of incorrect phonetic outputs.",
+        "articulatory visualization": "**Articulatory visualization** refers to visual representations of speech production mechanisms, such as tongue and lip movements, to help diagnose pronunciation challenges."
+    },
+    "open_sourcing": "The K-Function system demo is available at https://chenxukwok.github.io/K-function/"
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Audio-JEPA: Joint-Embedding Predictive Architecture for Audio Representation Learning",
+    "author": "Ludovic Tuncay (IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP), Etienne Labbe (IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP), Emmanouil Benetos (Queen Mary University of London), Thomas Pellegrini (IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper's exploration of self-supervised audio representation learning through the Joint-Embedding Predictive Architecture can provide insights into efficient methods for audio generation and processing tasks, which is directly related to Haohe Liu's focus on audio and speech innovations.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work focuses on audio representation learning, specifically predicting masked spectral components from audio signals to improve the model's understanding of sound data.",
+    "contribution": "Audio-JEPA introduces a novel architecture to solve audio representation learning by predicting latent representations from masked spectrogram patches, achieving competitive performance against state-of-the-art audio models with significantly less training data.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like wav2vec 2.0 required extensive labeled data and emphasized raw waveform reconstruction, leading to inefficiencies.",
+        "novelty": "This work emphasizes latent representation prediction rather than texture reconstruction, requiring less data and no extensive hyperparameter tuning."
+    },
+    "key_innovation": "The use of a lightweight Vision Transformer backbone for predicting masked latent audio representations offers a new approach to handling audio data efficiency.",
+    "real_world_impact": "This method provides a promising foundation for developing efficient audio classification and processing systems, potentially benefiting applications in speech recognition and music analysis.",
+    "limitations": "There are indications that the model underperforms in fine-grained speech discrimination tasks, suggesting limitations in handling complex audio nuances.",
+    "new_terms": {
+        "Joint-Embedding Predictive Architecture": "**Joint-Embedding Predictive Architecture (JEPA)** is a framework that predicts latent representations from masked inputs rather than reconstructing input details, allowing for better abstraction in feature learning."
+    },
+    "open_sourcing": "All code and pretrained checkpoints will be released on GitHub."
+}

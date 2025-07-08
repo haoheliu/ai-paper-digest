@@ -1,0 +1,21 @@
+{
+    "title": "Modeling the Difficulty of Saxophone Music",
+    "author": "\u0160imon Librick\u00fd (Institute of Formal and Applied Linguistics, Charles University), Jan Haji\u010d Jr. (Institute of Formal and Applied Linguistics, Charles University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This study presents a novel approach for estimating the difficulty of music for wind instruments, which could inform methods for modeling similar difficulties in audio generation and processing tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research focuses on estimating the difficulty of saxophone music pieces to aid learners in choosing appropriate repertoire and practice strategies.",
+    "contribution": "This paper introduces a cost-of-traversal model of saxophone performance difficulty, leveraging trill speed data and establishing transition costs between note pairs.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on piano and string instruments with limited applicability to woodwinds, often relying on musician annotations or expert rules.",
+        "novelty": "This research utilizes real-world recorded data to estimate transition costs, enabling a more data-driven approach for difficulty estimation applicable to various woodwind instruments."
+    },
+    "key_innovation": "Combines empirical data collection with a novel cost-of-traversal model, allowing dynamic difficulty assessment based on actual player performance.",
+    "real_world_impact": "The findings can significantly enhance music education for saxophone players, providing automated tools for difficulty assessment that could improve learner engagement and effectiveness in practice.",
+    "limitations": "The model requires initial data collection from expert performers and may not accurately reflect the difficulty experienced by less skilled players.",
+    "new_terms": {
+        "cost-of-traversal": "**Cost-of-traversal** is a model for evaluating the difficulty of musical passages based on the transitions between different states or note pairs, akin to finding the least expensive route on a graph."
+    },
+    "open_sourcing": "The code and data used in this research are available at www.github.com/Vobludalib/SaxophoneDifficultyModel/tree/ISMIR2025."
+}

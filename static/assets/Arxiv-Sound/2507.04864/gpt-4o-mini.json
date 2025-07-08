@@ -1,0 +1,21 @@
+{
+    "title": "MUSIC BOOMERANG: REUSING DIFFUSION MODELS FOR DATA AUGMENTATION AND AUDIO MANIPULATION",
+    "author": "Alexander Fichtinger (Institute of Computational Perception, Johannes Kepler University Linz), Jan Schl\u00fcter (Institute of Computational Perception, Johannes Kepler University Linz), Gerhard Widmer (Institute of Computational Perception, Johannes Kepler University Linz, LIT AI Lab, Linz Institute of Technology), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "This paper details an innovative approach to modular audio manipulation using diffusion models, useful for Haohe Liu's generative audio work, especially regarding data augmentation and audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study explores techniques in audio manipulation and data augmentation, focusing on generative audio models to enhance training data and facilitate controlled content transformation.",
+    "contribution": "This paper introduces Boomerang sampling for audio, which leverages pretrained diffusion models to generate slight variations in audio samples for data augmentation and content manipulation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods mainly focused on global noise sampling strategies, which are computationally intensive and less tailored for fine-tuning discrete audio features.",
+        "novelty": "This work improves sampling efficiency by employing a local adjustment technique, allowing for faster variations with preserved audio qualities."
+    },
+    "key_innovation": "The adaptation of Boomerang sampling from images to audio enables localized divergence while maintaining core rhythmic and melodic characteristics, providing a unique augmentation strategy.",
+    "real_world_impact": "This method could significantly improve machine learning models for audio processing by offering richer and varied training datasets, ultimately enhancing modern audio applications.",
+    "limitations": "The performance heavily relies on the quality of initial audio samples, and transformations can distort original vocals or complex harmonic structures.",
+    "new_terms": {
+        "Boomerang sampling": "**Boomerang sampling** is a technique that generates audio variations by applying controlled noise perturbations to existing samples, allowing for local adjustments instead of random global sampling."
+    },
+    "open_sourcing": "The implementation and audio samples are available at https://github.com/malex1106/boomify."
+}

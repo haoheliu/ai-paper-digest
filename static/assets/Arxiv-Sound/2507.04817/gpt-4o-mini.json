@@ -1,0 +1,22 @@
+{
+    "title": "Fast-VGAN: Lightweight Voice Conversion with Explicit Control of F0 and Duration Parameters",
+    "author": "Mathilde Abrassart (1STMS Lab, IRCAM, CNRS, Sorbonne Universite), Nicolas Obin (1STMS Lab, IRCAM, CNRS, Sorbonne Universite), Axel Roebel (1STMS Lab, IRCAM, CNRS, Sorbonne Universite), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The proposed Fast-VGAN model provides explicit control over prosodic features like fundamental frequency and duration, aligning well with Haohe Liu's research in audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "Voice conversion aims to transform a source speaker's voice to sound like that of a target speaker while retaining the original linguistic content.",
+    "contribution": "Fast-VGAN introduces a convolutional neural network-based approach for voice conversion that enables precise manipulation of pitch and speech duration, achieving high intelligibility and speaker similarity.",
+    "technical_comparison": {
+        "prior_work": "Traditional voice conversion methods primarily focused on spectral features with limited prosodic control. Recent models have attempted to integrate prosodic features but often involve complex architectures.",
+        "novelty": "Fast-VGAN simplifies the architecture while allowing direct control over prosodic features, resulting in faster inference and less computational demand."
+    },
+    "key_innovation": "The use of an adversarial training framework to generate high-quality spectrograms from interpretable feature inputs, allowing for real-time voice conversion.",
+    "real_world_impact": "This approach has potential applications in personalized voice assistants, dubbing for media, and general speech synthesis, making voice conversion technology more accessible and efficient.",
+    "limitations": "The study does not address the performance of the model on unseen speakers, and generalizability beyond training data may be limited.",
+    "new_terms": {
+        "mel spectrograms": "**Mel spectrograms** are a representation of the frequency spectrum of sounds, modified to reflect human auditory perception more closely than linear frequency scales.",
+        "adversarial training": "**Adversarial training** is a technique where two neural networks, a generator and a discriminator, are trained simultaneously, leading to improved output quality through competition."
+    },
+    "open_sourcing": "A demo page of Fast-VGAN is available at the following link: https://abrassartm.github.io/Fast-VGAN"
+}

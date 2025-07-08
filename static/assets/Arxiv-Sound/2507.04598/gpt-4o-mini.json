@@ -1,0 +1,22 @@
+{
+    "title": "Multi-Step Prediction and Control of Hierarchical Emotion Distribution in Text-to-Speech Synthesis",
+    "author": "Sho Inoue (School of Data Science, The Chinese University of Hong Kong, Shenzhen), Kun Zhou (Tongyi Speech Lab, Alibaba Group), Shuai Wang (School of Intelligence Science and Technology, Nanjing University), Haizhou Li (School of Data Science, The Chinese University of Hong Kong, Shenzhen), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper proposes a methodology for hierarchical emotion distribution prediction in text-to-speech (TTS) synthesis, which could inform similar approaches in audio generation and emotional manipulation for Haohe Liu's research on text-to-audio generation and restoration tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of integrating emotional nuances into TTS synthesis by developing a framework that predicts hierarchical emotional variation across different speech levels.",
+    "contribution": "This paper introduces a multi-step hierarchical emotion distribution prediction framework to solve the limitations in emotion rendering in TTS, achieving enhanced expressiveness and control over emotional nuances.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically relied on single-step predictions or were limited to utterance-level emotion control, failing to capture the hierarchical dependencies within speech emotions.",
+        "novelty": "This work improves by employing a multi-step prediction strategy that successively derives emotions at utterance, word, and phoneme levels, ensuring contextual guidance from higher-level emotions to lower-level prosodic details."
+    },
+    "key_innovation": "The unique aspect of this method lies in its ability to sequentially predict emotional distributions, allowing for fine-grained control that closely emulates human speech modulation.",
+    "real_world_impact": "This framework enhances the capability of TTS systems to generate emotionally nuanced speech, which could significantly benefit applications in conversational agents, emotional storytelling, and audiobooks.",
+    "limitations": "No",
+    "new_terms": {
+        "text-to-speech (TTS)": "**Text-to-Speech (TTS)** refers to the technology that converts written text into spoken words, often used to produce synthesized speech in various applications.",
+        "hierarchical emotion distribution (ED)": "**Hierarchical Emotion Distribution (ED)** is a method of quantifying emotions at different levels (utterance, word, phoneme) to improve the emotional expressiveness of synthesized speech."
+    },
+    "open_sourcing": ""
+}

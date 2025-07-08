@@ -1,0 +1,22 @@
+{
+    "title": "DeepGesture: A conversational gesture synthesis system based on emotions and semantics",
+    "author": "Thanh Hoang-Minh (VNUHCM - University of Science), ..., Thanh Hoang-Minh (OpenHuman.ai)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The emotional and semantic aspects of gesture synthesis could enhance multimodal generative tasks in Haohe Liu's research, particularly in integrating audio with expressive gesture generation.",
+    "field": "Applications-Creative AI",
+    "background": "Generating realistic character gestures in sync with audio and text inputs to create more lifelike digital interactions.",
+    "contribution": "DeepGesture introduces a diffusion-based framework for gesture synthesis that accounts for multimodal inputs such as text, speech, and emotion, achieving improved expressive gesture generation.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often rely on simple data mappings without the consideration of emotional context, leading to less nuanced gestures.",
+        "novelty": "This work enhances gesture generation by integrating classifier-free diffusion and a lightweight transformer for effective feature fusion across multiple modalities."
+    },
+    "key_innovation": "Combines emotional state control and semantic alignment within a single diffusion model to improve the contextual appropriateness of generated gestures.",
+    "real_world_impact": "This method significantly contributes to advancing human-computer interaction technologies, particularly in creating more engaging AI assistants and animated characters.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "classifier-free diffusion": "**Classifier-free diffusion** is a method in generative modeling that allows for conditional outputs without needing a separate classification layer, enabling smoother integration of conditions during generation.",
+        "BVH (Biovision Hierarchy)": "**BVH (Biovision Hierarchy)** files are a format used in motion capture to represent 3D movements of animated characters, detailing the structure of a character's skeleton."
+    },
+    "open_sourcing": ""
+}

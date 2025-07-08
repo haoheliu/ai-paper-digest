@@ -1,0 +1,21 @@
+{
+    "title": "MusGO: A Community-Driven Framework for Assessing Openness in Music-Generative AI",
+    "author": "Roser Batlle-Roca (Music Technology Group, Universitat Pompeu Fabra), Laura Ib\u00e1\u00f1ez-Mart\u00ednez (Music Technology Group, Universitat Pompeu Fabra), Xavier Serra (Music Technology Group, Universitat Pompeu Fabra), Emilia G\u00f3mez (Music Technology Group, Universitat Pompeu Fabra), Mart\u00edn Rocamora (Music Technology Group, Universitat Pompeu Fabra), ..., European Commission",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper presents a framework (MusGO) that assesses openness in music-generative AI models, which is relevant to your work in music generation. Understanding and improving the transparency and accountability of generative models can aid in your research on generative AI and creative applications.",
+    "field": "Applications-Creative AI",
+    "background": "The framework is designed to evaluate various aspects of openness in models used for generating music, ensuring that these models can be scrutinized and utilized responsibly.",
+    "contribution": "MusGO introduces a structured method to evaluate the openness of music-generative AI models, achieving a publicly accessible leaderboard that tracks model openness.",
+    "technical_comparison": {
+        "prior_work": "Previous frameworks for assessing openness in AI models are often single-dimensional or lack community engagement.",
+        "novelty": "MusGO offers a composite, graded approach that involves community input and reflects the specific needs of the music domain."
+    },
+    "key_innovation": "It integrates feedback from the music information retrieval community to adapt and refine assessment criteria specifically for music-generative AI.",
+    "real_world_impact": "By promoting openness in music-generative AI, this framework could lead to more ethically responsible practices in the industry, potentially supporting innovations that align with musicians' rights and creative processes.",
+    "limitations": "The paper mentions challenges related to evaluating training data due to copyright issues, which could limit the framework's applicability.",
+    "new_terms": {
+        "MusGO": "**MusGO** refers to a community-driven framework for evaluating openness in music-generative AI, focusing on transparency and accountability."
+    },
+    "open_sourcing": "The framework and its evaluation leaderboard are publicly available on GitHub for community contributions."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "LAPS-Diff: A Diffusion-Based Framework for Singing Voice Synthesis With Language Aware Prosody-Style Guided Learning",
+    "author": "Sandipan Dhar (Indian Institute of Technology Bombay), Mayank Gupta (Indian Institute of Technology Bombay), Preeti Rao (Indian Institute of Technology Bombay), ..., ",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces techniques for enhancing singing voice synthesis, which could leverage similar methodologies in Haohe Liu's audio generation and enhancement research.",
+    "field": "Applications-Speech and Audio",
+    "background": "Singing voice synthesis involves generating realistic singing audio from musical scores and lyrical text, with a focus on capturing vocal style and pitch variations.",
+    "contribution": "LAPS-Diff introduces a diffusion model combined with language-aware embeddings and prosody-style guidance to improve the expressiveness of synthesized singing voices, achieving better quality results compared to baseline models.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for singing voice synthesis often depend heavily on large datasets and struggle with low-resource languages while capturing vocal nuances.",
+        "novelty": "This work improves upon these limitations by integrating a style encoder and pitch extraction model, along with conditional embeddings, enhancing the dataset's capability in generating high-quality Hindi singing."
+    },
+    "key_innovation": "Incorporates language-aware embeddings and novel loss functions to refine the synthesis of expressive vocal characteristics, making it more applicable to low-resource singing voice synthesis.",
+    "real_world_impact": "The model could be beneficial in applications like music production, automated singing voice generation for films, or personalized vocal dubbing, particularly in Hindi music contexts.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "mel-spectrogram": "**Mel-spectrogram** is a time-frequency representation of audio that captures the energy of different frequency bands perceived by human ears, commonly used in audio processing.",
+        "prosody": "**Prosody** refers to the rhythm, stress, and intonation of speech, which is crucial for making synthesized voices sound more natural and expressive."
+    },
+    "open_sourcing": ""
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Latent FXLMS: Accelerating Active Noise Control with Neural Adaptive Filters",
+    "author": "Kanad Sarkar (University of Illinois Urbana-Champaign), Austin Lu (University of Illinois Urbana-Champaign), Manan Mittal (Stony Brook University), Yongjie Zhuang (University of Illinois Urbana-Champaign), Ryan M. Corey (University of Illinois Chicago), Andrew C. Singer (University of Illinois Urbana-Champaign), ..., Amazon Web Services",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The proposed Latent Filtered-x Least Mean Squares algorithm leverages neural adaptive filters which could enhance Haohe Liu's research in audio generation and enhancement by potentially improving sound cancellation techniques during audio manipulation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Active Noise Control aims to reduce unwanted sound at a listener's location using adaptive filters calculated based on noise characteristics.",
+    "contribution": "This paper introduces the Latent FXLMS algorithm that accelerates the convergence of active noise control systems by adapting filter weights in a lower-dimensional latent space instead of directly updating them, achieving faster convergence with comparable steady-state error to traditional methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like the standard Filtered-x Least Mean Squares (FxLMS) directly adapted weight coefficients, which led to slower convergence in dynamically changing environments.",
+        "novelty": "This work improves by constraining the adaptive filter weights to a learned manifold via an autoencoder, leading to an evident faster convergence in filter adaptation."
+    },
+    "key_innovation": "Utilizes a neural network-based approach to constrain the adaptation of filter weights, enabling efficient convergence and robustness in dynamic acoustic environments.",
+    "real_world_impact": "By integrating neural networks with adaptive noise control, this research has potential applications in enhancing noise cancellation technologies in consumer electronics and automotive systems.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "Latent FXLMS": "**Latent Filtered-x Least Mean Squares** is a novel adaptation of the traditional FxLMS algorithm that operates in a constrained latent space, improving convergence speed in active noise control applications."
+    },
+    "open_sourcing": ""
+}

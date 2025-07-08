@@ -1,0 +1,23 @@
+{
+    "title": "A Unified Speech LLM for Diarization and Speech Recognition in Multilingual Conversations",
+    "author": "Phurich Saengthong (Institute of Science Tokyo), Boonnithi Jiaramaneepinit (Institute of Science Tokyo), Sheng Li (Institute of Science Tokyo), Manabu Okumura (Institute of Science Tokyo), Takahiro Shinozaki (Institute of Science Tokyo)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The techniques discussed for joint speaker diarization and automatic speech recognition (ASR) may provide insights into multimodal integration and could inform improvements in audio-text alignment tasks relevant to Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper presents a new model for speech recognition that can simultaneously identify speakers and transcribe what they are saying in multilingual conversations.",
+    "contribution": "This paper introduces a unified speech Large Language Model (LLM) that performs diarization and ASR simultaneously, achieving a 54.87% relative improvement in transcription and recognition accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods separate the tasks of diarization and recognition, which often leads to loss of context and inaccuracies in speaker assignment.",
+        "novelty": "This work integrates these processes into a single model, allowing for context-aware predictions that resolve ambiguities more effectively."
+    },
+    "key_innovation": "Utilizes a novel locally sliding inference window combined with prompt-based context to enhance the prediction of speaker identity and speech content.",
+    "real_world_impact": "Improving the accuracy and fluency of speech recognition systems in diverse real-time multilingual settings could significantly enhance communication tools and services.",
+    "limitations": "The model may still exhibit discrepancies in speaker assignments across longer conversations due to local context limitations.",
+    "new_terms": {
+        "tcpWER": "**Transcription Character Error Rate** is a metric for assessing transcription accuracy by measuring the character errors in the output compared to the reference.",
+        "Diarization Error Rate (DER)": "**Diarization Error Rate (DER)** is a measure of how accurately a system can segment and label speakers in a given audio.",
+        "Local Diarization and Recognition": "**Local Diarization and Recognition** refers to a method where each speaker's turns are identified and transcribed using local context rather than analyzing the full conversation."
+    },
+    "open_sourcing": ""
+}

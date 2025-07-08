@@ -1,0 +1,22 @@
+{
+    "title": "TTS-CtrlNet: Time varying emotion aligned text-to-speech generation with ControlNet",
+    "author": "Jaeseok Jeong (Yonsei University), Yuna Lee (KT Corporation), Mingi Kwon (Yonsei University), Youngjung Uh (Yonsei University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "This paper explores time-varying emotion control in text-to-speech synthesis, a relevant area for improving audio quality and expressiveness in generated speech, which could complement Haohe Liu's work on audio-related generative models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves synthesizing speech that can accurately express varying emotions over time, enhancing the naturalness and expressiveness of computer-generated speech.",
+    "contribution": "TTS-CtrlNet introduces a ControlNet-based conditioning method for flow-matching text-to-speech, enabling fine-grained, time-varying emotion control with minimal training data.",
+    "technical_comparison": {
+        "prior_work": "Existing TTS methods often limit emotion control to the utterance level and require extensive fine-tuning on large emotion-labeled datasets.",
+        "novelty": "This work preserves the original TTS model's quality and zero-shot capabilities while introducing emotion control with a trained copy of the model, leveraging fewer data."
+    },
+    "key_innovation": "Employs a trainable ControlNet that connects with the original model to apply additional emotion conditioning without significant retraining.",
+    "real_world_impact": "The ability to manipulate emotions in synthesized speech can enhance user experiences in applications like virtual assistants, entertainment, and language learning. It positions TTS technology closer to human-like communication.",
+    "limitations": "No",
+    "new_terms": {
+        "ControlNet": "**ControlNet** is a framework that allows additional conditioning inputs to influence the output of pre-trained models without altering their base parameters.",
+        "flow-matching": "**Flow-matching** refers to a generative modeling technique that progressively transforms a simple distribution (like Gaussian noise) into a complex data distribution (like speech) through a series of flow steps."
+    },
+    "open_sourcing": "Project page is available at: https://curryjung.github.io/ttsctrlnet_project_page"
+}

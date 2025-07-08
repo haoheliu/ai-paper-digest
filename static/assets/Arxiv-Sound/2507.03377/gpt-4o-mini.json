@@ -1,0 +1,22 @@
+{
+    "title": "Eigenvoice Synthesis based on Model Editing for Speaker Generation",
+    "author": "Masato Murata (CyberAgent, Japan), Koichi Miyazaki (CyberAgent, Japan), Tomoki Koriyama (CyberAgent, Japan), Tomoki Toda (Nagoya University, Japan)",
+    "quality": 6,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on eigenvoice synthesis and model editing techniques can be applied to Haohe Liu's work on audio generation, especially in enhancing speaker diversity and quality in synthetic voices.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task is to generate novel speaker voices without requiring reference speech, utilizing model parameters in a defined speaker space.",
+    "contribution": "This paper introduces a novel deep neural network-based eigenvoice synthesis method to solve the problem of generating unseen speaker voices, achieving diverse speaker generation and control over speaker attributes like gender.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied on speaker embeddings or additional modules, making them complex and requiring extensive training.",
+        "novelty": "The proposed method uses model editing to define a speaker space within the DNN parameter space, enabling independent sampling of speaker characteristics."
+    },
+    "key_innovation": "Defines a low-dimensional speaker space in the deep neural network model parameter space, allowing the direct generation of diverse speaker voices.",
+    "real_world_impact": "The approach could enhance applications in audio synthesis and voiceover technologies, allowing for the creation of unique and diverse voices tailored to specific user needs.",
+    "limitations": "No limitations are explicitly mentioned by the authors.",
+    "new_terms": {
+        "eigenvoice synthesis": "**Eigenvoice synthesis** refers to a technique that utilizes a low-dimensional speaker space based on pre-stored speaker representations to generate new speaker voices.",
+        "model editing": "**Model editing** encompasses methods that modify the parameters of a machine learning model without retraining, often leveraging arithmetic on model weights to achieve specific outputs."
+    },
+    "open_sourcing": "Audio samples are available on the demo page."
+}

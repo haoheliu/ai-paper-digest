@@ -1,0 +1,21 @@
+{
+    "title": "Navigating Speech Recording Collections with AI-Generated Illustrations",
+    "author": "Sirina H\u00e5land (University of Stavanger), Trond Karlsen Str\u00f8m (University of Stavanger), Petra Galu\u0161\u010d\u00e1kov\u00e1 (University of Stavanger), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The approach of utilizing visual representations to improve the navigation of spoken content could inspire similar methods for the enhancement of audio generation tasks, where understanding audio contexts visually may facilitate better model training.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper addresses how to facilitate exploration of audio recordings by generating visual summaries for speech collections, allowing users to quickly identify topics of interest.",
+    "contribution": "This work introduces a novel navigation interface utilizing interactive mind maps and generative models for visual representation of audio content, achieving a more intuitive user experience.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied solely on metadata and keyword searches for navigating audio content.",
+        "novelty": "This method improves by integrating AI-generated illustrations to provide a clearer and more engaging representation of the audio topics."
+    },
+    "key_innovation": "Combines audio transcript analysis with generative image models to create visual summaries, enhancing user engagement and understanding.",
+    "real_world_impact": "This approach could fundamentally reshape how users discover and interact with audio content online, resulting in improved accessibility and user satisfaction.",
+    "limitations": "Some users found the system complex, indicating that user interface refinements are needed for better usability.",
+    "new_terms": {
+        "generative models": "**Generative models** are a class of statistical models that are capable of generating new data points based on the learned patterns from existing data."
+    },
+    "open_sourcing": "https://github.com/SirinaHaaland/mind-map"
+}

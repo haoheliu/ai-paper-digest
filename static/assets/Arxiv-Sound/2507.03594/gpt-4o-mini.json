@@ -1,0 +1,22 @@
+{
+    "title": "RECA-PD: A Robust Explainable Cross-Attention Method for Speech-based Parkinson's Disease Classification",
+    "author": "Terry Yi Zhong (Centre for Language Studies, Radboud University), Cristian Tejedor-Garcia (Centre for Language Studies, Radboud University), Martha Larson (Centre for Language Studies, Radboud University), Bastiaan R. Bloem (Center of Expertise for Parkinson and Movement Disorders, Radboud University Medical Center), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This work utilizes explainable AI in speech classification for Parkinson's Disease, which aligns with Dr. Liu's interests in audio processing and could inform methodologies for improving audio diagnosis systems.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the classification of Parkinson's Disease using speech analysis to identify alterations in speech patterns, which often signal the onset of the disease.",
+    "contribution": "RECA-PD introduces a novel cross-attention architecture integrating interpretable speech features with self-supervised learning representations to improve early detection of Parkinson's Disease while enhancing explainability.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often sacrificed explainability for performance, relying heavily on black-box models which are unsuitable for clinical contexts.",
+        "novelty": "This work enhances explainability by incorporating specific interpretable tokens into the attention mechanism, thereby aligning the model's decision-making process with clinically relevant speech aspects."
+    },
+    "key_innovation": "The unique integration of interpretable speech features with robust self-supervised embeddings, allowing the model to provide meaningful explanations tied to speech aspects that clinicians understand.",
+    "real_world_impact": "The findings could lead to improved tools for early diagnosis of Parkinson's Disease, ultimately benefiting healthcare by enabling timely patient support and interventions.",
+    "limitations": "Some explanations may still be abstract for general practitioners and may not address the severity of identified speech issues.",
+    "new_terms": {
+        "self-supervised learning": "**Self-supervised learning** is a type of machine learning where the model learns from unlabeled data by generating labels from the training data itself, allowing for significant scaling without the need for extensive hand-labeled datasets.",
+        "cross-attention": "**Cross-attention** is a mechanism where a model attends to different input spaces (e.g., speech features and SSL embeddings) to optimize information flow during training."
+    },
+    "open_sourcing": "https://github.com/terryyizhongru/RECA-PD"
+}

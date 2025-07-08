@@ -1,0 +1,21 @@
+{
+    "title": "High-Resolution Sustain Pedal Depth Estimation from Piano Audio Across Room Acoustics",
+    "author": "Kun Fang (McGill University), Hanwen Zhang (McGill University), Ziyu Wang (New York University), Ichiro Fujinaga (McGill University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper's approach to continuous pedal depth estimation could inform Haohe Liu's work on audio processing techniques, particularly in controlling audio features for generative tasks in music.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research focuses on estimating the sustain pedal depth in piano performances by analyzing audio recordings, providing a continuous range of depth rather than a binary on/off state.",
+    "contribution": "This paper introduces a Transformer-based model for continuous sustain pedal depth estimation to solve the problem of binary pedal detection, achieving better performance in capturing expressive nuances of piano playing.",
+    "technical_comparison": {
+        "prior_work": "Previous models primarily addressed pedal detection as a binary classification task, focusing on on/off states which miss the subtleties of continuous depth.",
+        "novelty": "This work utilizes a Transformer architecture to effectively predict a range of pedal depths, addressing limitations of binary-only approaches."
+    },
+    "key_innovation": "The integration of Transformer encoders for modeling continuous departal depth, allowing for nuanced analysis and representation of piano performances.",
+    "real_world_impact": "Improves the fidelity of piano transcription and performance analysis, potentially influencing educational tools and performance technologies that rely on expressive pedaling.",
+    "limitations": "Models struggle to generalize across various acoustic environments and exhibit bias towards reverberation effects.",
+    "new_terms": {
+        "Transformer": "**Transformer** is a deep learning model architecture primarily used for processing sequences of data, utilizing self-attention mechanisms to capture dependencies regardless of distance."
+    },
+    "open_sourcing": "Available at https://github.com/kunfang98927/PedalDetection."
+}

@@ -1,0 +1,18 @@
+{
+    "title": "WSCoach: Wearable Real-time Auditory Feedback for Reducing Unwanted Words in Daily Communication",
+    "author": "Zhang Youpeng (School of Creative Media, City University of Hong Kong), Nuwan Janaka (Smart Systems Institute, National University of Singapore), Ashwin Ram (HCl Lab, Saarland Informatics Campus, Saarland University), Yin Peilin (Zhejiang University), Tian Yang (Guangxi University), Shengdong Zhao (School of Creative Media & Department of Computer Science, City University of Hong Kong), Pierre Dragicevic (INRIA, France)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper explores wearable auditory feedback for speech improvement, which aligns with my focus on audio generation and quality enhancement. The methodology could inform real-time applications in audio processing and speech synthesis.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves reducing the frequency of unwanted words like filler words and swearing during conversations using auditory feedback through wearable technology.",
+    "contribution": "WSCoach introduces a novel wearable feedback system to solve the issue of unwanted speech, achieving improved long-term reduction in usage compared to traditional mobile applications.",
+    "technical_comparison": "Previous methods primarily relied on mobile applications for post-hoc analysis of speech patterns, lacking real-time intervention. This work improves by providing immediate auditory feedback via wearable devices, enhancing user awareness during conversation.",
+    "key_innovation": "Utilizes smart audio glasses to deliver nuanced, near-real-time auditory speech feedback, which is less intrusive and more socially acceptable than traditional visual cues.",
+    "real_world_impact": "WSCoach has the potential to enhance communication effectiveness in both personal and professional settings, leading to better conversational skills and reduced social blunders.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "spearcon": "**Spearcon** is a type of auditory feedback created by speeding up spoken words to a point where they are barely recognizable as language, providing quick and immediate feedback without social disruption."
+    },
+    "open_sourcing": "Source code and implementation details are available at META Appendix."
+}

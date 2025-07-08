@@ -1,0 +1,22 @@
+{
+    "title": "Prosody Labeling with Phoneme-BERT and Speech Foundation Models",
+    "author": "Tomoki Koriyama (CyberAgent, Japan)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This paper introduces an innovative automatic prosody annotation model that combines speech and linguistic foundation models, which could enhance audio processing tasks relevant to Haohe Liu's research in text-to-audio generation and audio quality enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automatic annotation of prosodic labels in speech to improve the quality and control of text-to-speech systems, particularly for Japanese language prosody.",
+    "contribution": "This paper introduces a model that combines linguistic and acoustic features for phoneme-level prosodic label prediction for speech synthesis applications, achieving high prediction accuracy.",
+    "technical_comparison": {
+        "prior_work": "Previous methods typically relied on either acoustic features alone or linguistic models separated from speech, limiting their effectiveness in accurately capturing prosody.",
+        "novelty": "This work improves upon these methods by utilizing a concatenated feature set from both types of models, thereby enhancing prediction accuracy significantly."
+    },
+    "key_innovation": "The proposed model leverages acoustic information from self-supervised learning models and phoneme-level linguistic features to predict prosody labels, making it adaptable and accurate for speech synthesis.",
+    "real_world_impact": "The developments in accurate prosody labeling can improve the naturalness and expressiveness of synthetic speech, enhancing user experience in various applications, including virtual assistants and automated voice systems.",
+    "limitations": "No limitations were explicitly mentioned by the authors.",
+    "new_terms": {
+        "phoneme-level": "**Phoneme-level** refers to the analysis or processing of individual phonemes in spoken language, the smallest units of sound that distinguish words.",
+        "self-supervised learning": "**Self-supervised learning** is a type of machine learning where the model learns to represent data without explicit labels by predicting parts of the input from other parts."
+    },
+    "open_sourcing": ""
+}

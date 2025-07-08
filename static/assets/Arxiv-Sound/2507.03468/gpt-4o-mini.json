@@ -1,0 +1,22 @@
+{
+    "title": "Robust Localization of Partially Fake Speech: Metrics, Models, and Out-of-Domain Evaluation",
+    "author": "Hieu-Thi Luong (Nanyang Technological University), Inbal Rimon (Ben Gurion University), Haim Permuter (Ben Gurion University), Kong Aik Lee (Hong Kong Polytechnic University), Eng Siong Chng (Nanyang Technological University), ...",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper discusses metrics and models for the localization of partially fake speech, which may provide insights applicable to generative audio tasks, especially in creating robust models for audio generation and manipulation.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves detecting and localizing segments of audio that have been manipulated or generated, distinguishing them from genuine segments.",
+    "contribution": "[Robust Localization of Partially Fake Speech] introduces a framing of the localization task as a sequential anomaly detection problem to improve evaluation metrics, achieving more interpretable assessment methods.",
+    "technical_comparison": {
+        "prior_work": "Previous methods relied largely on Equal Error Rate (EER) metrics which do not effectively evaluate generalization to out-of-domain data.",
+        "novelty": "This work employs threshold-dependent metrics such as precision, recall, and F1-score that are more aligned with real-world applications."
+    },
+    "key_innovation": "The approach transforms the assessment of audio forgery localization into a sequential anomaly detection framework, improving robustness in performance evaluation across diverse datasets.",
+    "real_world_impact": "The findings emphasize the necessity for robust models in detecting manipulated audio, which is crucial for applications like voice authentication and misinformation detection.",
+    "limitations": "The paper notes that adding more bona fide or fully synthetic utterances can degrade performance, indicating potential issues with model training.",
+    "new_terms": {
+        "Equal Error Rate (EER)": "**Equal Error Rate (EER)** is a common performance metric for classification tasks where the false acceptance rate equals the false rejection rate at a certain threshold.",
+        "sequencial anomaly detection": "**Sequential anomaly detection** identifies outliers in time series data, where the notion of normality shifts dynamically over time."
+    },
+    "open_sourcing": "The authors have open-sourced their library of partial spoofing metrics."
+}

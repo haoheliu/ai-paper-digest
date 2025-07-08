@@ -1,0 +1,22 @@
+{
+    "title": "Speaker-agnostic Emotion Vector for Cross-speaker Emotion Intensity Control",
+    "author": "Masato Murata (CyberAgent, Japan), Koichi Miyazaki (CyberAgent, Japan), Tomoki Koriyama (CyberAgent, Japan), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents a method for cross-speaker emotion intensity control, which could enhance Haohe Liu's work on speech enhancement and audio generation. Techniques for generating controllable emotional speech from neutral data may be useful in applications requiring emotional expressiveness in generated audio content.",
+    "field": "Applications-Speech and Audio",
+    "background": "Cross-speaker emotion intensity control enables the generation of emotional speech from a target speaker using only their neutral speech, allowing for flexibility in emotion expression.",
+    "contribution": "This paper introduces a speaker-agnostic emotion vector to solve issues related to speaker consistency in cross-speaker emotion intensity control, achieving improved speech quality and controllability.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like emotion arithmetic lost speaker consistency due to speaker-specific emotion vectors.",
+        "novelty": "This work enhances performance by utilizing a speaker-agnostic emotion vector that captures shared emotional expressions across various speakers."
+    },
+    "key_innovation": "The method employs a multi-speaker TTS model to derive a universally applicable emotion vector, allowing for consistent emotional expression across different speakers.",
+    "real_world_impact": "The ability to generate high-quality emotional speech from neutral data can significantly impact industries such as interactive entertainment, virtual assistants, and audiobooks, improving user engagement.",
+    "limitations": "No explicit limitations mentioned by the authors.",
+    "new_terms": {
+        "emotional speech synthesis": "**Emotional speech synthesis** refers to the generation of speech that conveys specific emotions, enhancing the expressiveness and engaging nature of synthesized voices.",
+        "x-vector conditioning": "**X-vector conditioning** is a technique used to capture speaker identity features, applied here to maintain speaker characteristics during emotion synthesis."
+    },
+    "open_sourcing": "Audio samples are available on their demo page."
+}

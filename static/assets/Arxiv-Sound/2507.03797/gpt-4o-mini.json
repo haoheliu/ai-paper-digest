@@ -1,0 +1,21 @@
+{
+    "title": "Empirical Evaluation of Wave Field Synthesis in Virtual Reality for Sound Localization Studies",
+    "author": "Benjamin Kahl (Max Planck Institute for Human Development), ..., Max Planck Institute for Human Development",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper explores Wave Field Synthesis (WFS) in virtual reality, which directly relates to audio rendering aspects pertinent to Haohe Liu's research. Techniques for improving spatial audio rendering can enhance generative AI models for audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating sound localization accuracy using Wave Field Synthesis in a controlled virtual reality setup against traditional stereo headphones.",
+    "contribution": "This paper introduces an empirical comparison between WFS and conventional audio rendering methods to assess their effectiveness in a sound localization task, achieving insights into auditory perception in immersive environments.",
+    "technical_comparison": {
+        "prior_work": "Traditional audio rendering methods rely heavily on Head-Related Transfer Functions (HRTFs), leading to inter-subject variability in sound localization.",
+        "novelty": "The adoption of Wave Field Synthesis circumvents these limitations by providing a listener-agnostic sound field, improving auditory immersion and localization accuracy."
+    },
+    "key_innovation": "Integrates wave field synthesis for audio rendering in virtual reality to create highly immersive sound environments for cognitive studies.",
+    "real_world_impact": "The findings could revolutionize how sound is rendered in virtual environments, influencing applications in gaming, simulation training, and rehabilitation, where precise auditory cues are critical.",
+    "limitations": "The WFS setup requires considerable hardware and is sensitive to room acoustics, which could limit its widespread adoption.",
+    "new_terms": {
+        "Wave Field Synthesis": "**Wave Field Synthesis (WFS)** is an advanced audio rendering technique that recreates sound fields using multiple speaker arrays to generate spatial audio cues independent of listener position."
+    },
+    "open_sourcing": ""
+}
