@@ -1,0 +1,21 @@
+{
+    "title": "Non-Intrusive Binaural Speech Intelligibility Prediction Using Mamba for Hearing-Impaired Listeners",
+    "author": "Katsuhiko Yamamoto (CyberAgent, Japan), Koichi Miyazaki (CyberAgent, Japan)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The paper proposes a novel model for speech intelligibility prediction which could lead to advancements in audio processing and restoration tasks, particularly for hearing-impaired listeners.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research investigates methods to predict how well hearing-impaired individuals can understand speech in challenging auditory environments using models that process binaural signals non-intrusively.",
+    "contribution": "This paper introduces a Mamba-based speech intelligibility prediction model to solve the limitations of transformer-based models, achieving competitive performance with fewer parameters.",
+    "technical_comparison": {
+        "prior_work": "Existing transformer-based models require extensive computational resources due to the self-attention mechanism, making them less suitable for low-latency applications.",
+        "novelty": "This work utilizes the Mamba architecture which operates in linear time, improving both efficiency and temporal processing in binaural speech intelligibility predictions."
+    },
+    "key_innovation": "The Mamba model allows for effective time-series processing in speech applications with reduced computational costs, enabling real-time performance suitable for implementation in hearing aids.",
+    "real_world_impact": "The findings could significantly enhance speech intelligibility for hearing-impaired individuals in noisy environments, improving their everyday communication capabilities.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "Mamba": "**Mamba** is a state-space modeling framework that allows for efficient sequence processing, offering linear time complexity and reduced memory usage compared to traditional transformer architectures."
+    },
+    "open_sourcing": ""
+}

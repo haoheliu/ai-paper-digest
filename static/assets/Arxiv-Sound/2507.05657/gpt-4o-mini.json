@@ -1,0 +1,22 @@
+{
+    "title": "Adaptive Linearly Constrained Minimum Variance Volumetric Active Noise Control",
+    "author": "Manan Mittal (Stony Brook University), Ryan M. Corey (University of Illinois Chicago), Andrew C. Singer (Stony Brook University), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper introduces an adaptive algorithm for active noise control which could enhance the restoration and enhancement of audio signals, applicable in Haohe Liu's work on speech and audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing audio environments by using adaptive algorithms to minimize unwanted noise throughout a three-dimensional space instead of just at specific locations.",
+    "contribution": "This paper introduces a time-domain formulation for linearly constrained minimum variance active noise control (LCMV-ANC) to solve the problem of ineffective spatial response shaping, achieving effective noise suppression with spatial constraints.",
+    "technical_comparison": {
+        "prior_work": "Prior methods typically focused only on uniformly weighted error minimization or required ideal assumptions about acoustic paths, limiting flexibility.",
+        "novelty": "This work allows for constraints at specific locations, enhancing flexibility and effectiveness in noise suppression without rigid assumptions."
+    },
+    "key_innovation": "The method employs a time-domain structure for adaptive filtering that directly incorporates spatial constraints, leading to more effective volumetric noise control.",
+    "real_world_impact": "The proposed adaptive noise control method can significantly improve noise suppression in environments like vehicles or public spaces, enhancing user experience and communication clarity.",
+    "limitations": "No explicit limitations are mentioned by the author.",
+    "new_terms": {
+        "linearly constrained minimum variance": "**Linearly constrained minimum variance** refers to an optimization approach that minimizes signal variance while meeting certain predefined conditions.",
+        "filtered-X least mean squares": "**Filtered-X Least Mean Squares (FxLMS)** is an adaptive filtering algorithm that compensates for distortions in the secondary path before updating filter coefficients."
+    },
+    "open_sourcing": ""
+}

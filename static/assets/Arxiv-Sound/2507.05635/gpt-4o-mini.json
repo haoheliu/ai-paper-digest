@@ -1,0 +1,22 @@
+{
+    "title": "Frequency-Specific Neural Response and Cross-Correlation Analysis of Envelope Following Responses to Native Speech and Music Using Multichannel EEG Signals: A Case Study",
+    "author": "Md. Mahbub Hasan (Khulna University of Engineering & Technology), Md Rakibul Hasan (Curtin University), Md Zakir Hossain (BRAC University), Tom Gedeon (Curtin University), ...",
+    "quality": 6,
+    "relevance": 5,
+    "relevance_why": "The analysis of envelope following responses (EFRs) and cross-correlation could inform audio processing tasks and contribute to understanding auditory perception mechanisms applicable to Haohe Liu's music and speech-oriented technologies.",
+    "field": "Applications-Speech and Audio",
+    "background": "Analyzing the neural responses to speech and music stimuli via electroencephalography (EEG) to understand auditory processing in different frequency ranges.",
+    "contribution": "This paper introduces a comparison of envelope following responses to speech and music to identify dominant frequency bands and inter-channel coherence, contributing to insights into auditory processing.",
+    "technical_comparison": {
+        "prior_work": "Previous methods examined neural responses to speech without a focus on frequency-specific analysis or cross-correlation among EEG channels.",
+        "novelty": "This work leverages multichannel EEG signals to establish a frequency-specific response profile and spatial coherence among various brain regions."
+    },
+    "key_innovation": "Provides a comprehensive analysis of how different brain regions respond to the spectral components of speech and music envelopes, revealing dominant frequency bands associated with cognitive functions.",
+    "real_world_impact": "The findings could enhance auditory processing techniques, informing the design of hearing aids and auditory training programs, thus improving speech perception in challenging acoustic environments.",
+    "limitations": "No specific limitations are mentioned by the authors.",
+    "new_terms": {
+        "Envelope Following Responses (EFRs)": "**Envelope Following Responses** refer to brain responses that reflect how well the brain tracks the amplitude modulations of sound signals.",
+        "Cross-Spectral Density (CSD)": "**Cross-Spectral Density** is a method of analyzing the correlation between different signals in the frequency domain, estimating how synchronized two EEG channels are during auditory processing."
+    },
+    "open_sourcing": ""
+}

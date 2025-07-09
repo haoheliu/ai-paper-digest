@@ -1,0 +1,21 @@
+{
+    "title": "ContextASR-Bench: A Massive Contextual Speech Recognition Benchmark",
+    "author": "He Wang (Alibaba Group), Linhan Ma (Alibaba Group), Dake Guo (Alibaba Group), Xiong Wang (Alibaba Group), Lei Xie (Alibaba Group), Jin Xu (Alibaba Group), Junyang Lin (Alibaba Group)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The benchmark focuses on contextual speech recognition, which includes capturing complex domain-specific terminology and named entities that can enhance Haohe Liu's research in audio and speech generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The benchmark evaluates speech recognition systems in recognizing spoken content with and without context, emphasizing world knowledge and contextual understanding.",
+    "contribution": "ContextASR-Bench introduces a new evaluative framework for Automatic Speech Recognition (ASR) that integrates contextual factors, achieving better assessment of model performance across diverse domains.",
+    "technical_comparison": {
+        "prior_work": "Previous ASR benchmarks often focus on context-less paradigms which underutilize the capabilities of advanced models like Large Audio Language Models (LALMs).",
+        "novelty": "This work enhances evaluation by including context-rich scenarios and emphasizes recognition of named entities and technical terms, providing a more practical testing ground."
+    },
+    "key_innovation": "The benchmark allows for contextual evaluation settings and incorporates a large variety of data from multiple domains, facilitating comprehensive assessment of ASR systems.",
+    "real_world_impact": "By improving the evaluation of ASR systems, ContextASR-Bench can influence future developments in speech technology, making it more effective in practical applications such as virtual assistants and automated transcription.",
+    "limitations": "The authors acknowledge limitations such as using fully synthesized speech, which might lack diversity compared to real-world recordings.",
+    "new_terms": {
+        "Large Audio Language Models (LALMs)": "**Large Audio Language Models (LALMs)** are advanced models that combine audio processing capabilities with natural language understanding, enabling more robust contextual interpretation in speech tasks."
+    },
+    "open_sourcing": "The dataset and evaluation code have been released at https://github.com/MrSupW/ContextASR-Bench."
+}

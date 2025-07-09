@@ -1,0 +1,22 @@
+{
+    "title": "Stereo Reproduction in the Presence of Sample Rate Offsets",
+    "author": "Srikanth Korse (International Audio Laboratories Erlangen), Andreas Walther (Fraunhofer IIS), Emanuel A. P. Habets (International Audio Laboratories Erlangen), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed audio-domain compensation method for sample rate offsets (SROs) can be beneficial for audio quality enhancement and restoration tasks, particularly in multi-device sound reproduction settings common in music and speech processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the challenge of synchronizing audio playback across wireless loudspeakers, where sample rate offsets lead to perceptual degradation of spatial cues important for spatial audio.",
+    "contribution": "This paper introduces a method for compensating sample rate offsets in stereo reproduction to preserve spatial audio cues, achieving improved listener experience in distributed playback settings.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily relied on network-based protocols for clock synchronization, which often did not address the perceptual impact of SROs directly.",
+        "novelty": "This work uniquely estimates SROs through spatial filtering and compensates for their effects directly in the audio domain, which avoids the need for strict clock synchronization."
+    },
+    "key_innovation": "The integration of spatial filtering to isolate loudspeaker contributions for accurate SRO estimation is a novel approach in this field.",
+    "real_world_impact": "This method has the potential to greatly enhance the quality of spatial audio reproduction in home theater systems and wireless music setups, promoting wider adoption of immersive audio technologies.",
+    "limitations": "No",
+    "new_terms": {
+        "sample rate offsets": "**Sample Rate Offsets (SROs)** refer to the differences in playback sample rates between multiple audio devices, which can lead to timing discrepancies in sound reproduction.",
+        "dynamic weighted average coherence drift": "**Dynamic Weighted Average Coherence Drift (DWACD)** is an algorithm used to estimate SROs and analyze the coherence of audio signals over time."
+    },
+    "open_sourcing": ""
+}

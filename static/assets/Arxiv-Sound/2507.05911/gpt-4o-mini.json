@@ -1,0 +1,22 @@
+{
+    "title": "Differentiable Reward Optimization for LLM based TTS system",
+    "author": "Changfeng Gao (Alibaba Group), Zhihao Du (Alibaba Group), Shiliang Zhang (Alibaba Group), ... , Haohe Liu (University of Surrey)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The paper introduces a novel Differentiable Reward Optimization method that directly influences text-to-speech synthesis by optimizing neural codec tokens which could enhance Haohe Liu's work on text-to-audio generation and audio restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "This study addresses the challenges in improving text-to-speech systems by optimizing the generated audio quality using differentiable rewards instead of relying solely on synthesized audio outputs.",
+    "contribution": "This paper introduces the Differentiable Reward Optimization method to solve reinforcement learning challenges in text-to-speech systems, achieving significant improvements in pronunciation accuracy and emotional control.",
+    "technical_comparison": {
+        "prior_work": "Previous methods like Direct Preference Optimization rely on synthesizing audio to gather rewards, making them computationally expensive and less efficient.",
+        "novelty": "This work simplifies the training process by allowing the reward model to be derived directly from neural codec tokens, enhancing efficiency and performance."
+    },
+    "key_innovation": "The use of Gumbel-Softmax to render the reward function differentiable enables direct optimization of language model parameters without complex sampling strategies, streamlining the training process.",
+    "real_world_impact": "The introduced methodology could lead to improved quality and expressiveness in TTS systems, making them more effective in real-world applications such as audiobooks and virtual assistants.",
+    "limitations": "The paper mentions that while the system improves pronunciation accuracy and emotional expression, it may not fully capture all aspects of speech quality due to its reliance on codec tokens rather than raw audio.",
+    "new_terms": {
+        "Gumbel-Softmax": "**Gumbel-Softmax** is a technique that allows for differentiation through discrete random variables, enabling better training of models that output categorical distributions.",
+        "Differentiable Reward Optimization": "**Differentiable Reward Optimization (DiffRO)** is a novel method for reinforcement learning that calculates rewards directly from lower-level tokens instead of higher-level outputs like audio."
+    },
+    "open_sourcing": ""
+}
