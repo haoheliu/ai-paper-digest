@@ -1,0 +1,22 @@
+{
+    "title": "Deep Feed-Forward Neural Network for Bangla Isolated Speech Recognition",
+    "author": "Dipayan Bhadra (Power Grid Company of Bangladesh Limited), Mehrab Hosain (Louisiana Tech University), Fatema Alam (Jahangirnagar University), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The implementation of a Deep Feed-Forward Neural Network and use of Mel Frequency Cepstral Coefficients could inform methodologies for audio processing and generative modeling, particularly in Bangla language applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "Isolated speech recognition involves identifying distinct spoken words from recordings, which can be particularly challenging in non-English languages like Bangla.",
+    "contribution": "This paper introduces a dataset and a 7-layer Deep Feed-Forward Neural Network to solve isolated speech recognition for Bangla, achieving a recognition accuracy of 93.42%.",
+    "technical_comparison": {
+        "prior_work": "Previous Bangla speech recognition systems mostly utilized simpler models or focused on fewer classes with less robustness.",
+        "novelty": "This work employs a deeper network architecture for a larger number of classes (60), showcasing improved performance through advanced feature extraction and compression methods."
+    },
+    "key_innovation": "The use of a 7-layer deep feed-forward architecture for isolated speech recognition in Bangla represents a significant advancement over prior research, which largely relied on shallower networks.",
+    "real_world_impact": "The developed system can aid in creating more efficient Bangla language recognition applications, improving interactions in technology for millions of speakers.",
+    "limitations": "The proposed system performs well in low-noise environments, but lacks robustness against noisy real-world conditions.",
+    "new_terms": {
+        "Mel Frequency Cepstral Coefficient (MFCC)": "**Mel Frequency Cepstral Coefficient** is a representation of the short-term power spectrum of sound, commonly used in speech recognition due to its effectiveness in approximating human auditory perception.",
+        "Deep Feed-Forward Neural Network (DFFNN)": "**Deep Feed-Forward Neural Network** refers to a multi-layered neural network where information flows in one direction\u2014from input to output\u2014without cycles, allowing for complex mapping between inputs and outputs."
+    },
+    "open_sourcing": ""
+}

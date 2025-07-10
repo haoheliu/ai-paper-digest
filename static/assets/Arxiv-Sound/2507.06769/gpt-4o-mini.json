@@ -1,0 +1,22 @@
+{
+    "title": "Constraint Optimized Multichannel Mixer-limiter Design",
+    "author": "Yuancheng Luo (Amazon.com), Dmitriy Yamkovoy (Amazon.com), Guillermo Garcia (Amazon.com), ..., Mikeluo (Amazon.com)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "This work addresses multichannel audio processing, which resonates with Dr. Liu's interests in audio enhancement and restoration, potentially providing insights on mixer-limiter designs applicable to music and speech.",
+    "field": "Applications-Speech and Audio",
+    "background": "Designing a multichannel audio mixer and limiter to manage dynamic range and prevent distortion while reproducing audio over speaker arrays.",
+    "contribution": "This paper introduces a quadratic programming formulation for coupled mixer-limiter design to optimize distortion while adhering to dynamic range constraints, achieving reduced audio distortion.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often separated mixing and limiting stages, leading to potential distortion and inefficiencies in resource-constrained environments.",
+        "novelty": "This work couples the mixer and limiter stages, using a linear-constrained quadratic programming approach to enhance real-time performance and minimize distortion."
+    },
+    "key_innovation": "The proposed method effectively integrates mixer and limiter functionalities, applying time-varying gain adjustments linked to audio constraints for better audio fidelity in multichannel settings.",
+    "real_world_impact": "The practical applications of this design could improve audio experiences in consumer electronics, enhancing sound quality in everyday devices such as smart speakers and soundbars.",
+    "limitations": "The paper does not address hardware limitations or real-world implementational complexities that could affect the design's efficiency.",
+    "new_terms": {
+        "quadratic programming": "**Quadratic programming** is an optimization technique where the objective function is quadratic and constraints are linear, commonly used for optimizing a specific outcome under defined limits.",
+        "constant overlap-add": "**Constant overlap-add** is a method for efficiently processing overlapping segments of a digital signal to reduce artifacts during audio mixing or transformation."
+    },
+    "open_sourcing": ""
+}

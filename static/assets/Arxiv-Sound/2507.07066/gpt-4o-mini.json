@@ -1,0 +1,22 @@
+{
+    "title": "Latent Acoustic Mapping for Direction of Arrival Estimation: A Self-Supervised Approach",
+    "author": "Adrian S. Roman (University of Southern California), Iran R. Roman (Queen Mary University of London), Juan P. Bello (New York University), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper addresses robust acoustic mapping and direction of arrival estimation, which are crucial in sound event localization tasks, relevant to Haohe Liu's work on audio generation and audio-language models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research focuses on estimating the direction of sound sources in an environment using microphone arrays, which is crucial for applications in spatial audio and sound event recognition.",
+    "contribution": "This paper introduces the Latent Acoustic Mapping (LAM) model to solve the challenges of robust and high-resolution acoustic mapping, achieving competitive localization performance across various datasets.",
+    "technical_comparison": {
+        "prior_work": "Previous methods such as traditional beamforming and deep learning approaches require large labeled datasets and often lack generalization across different acoustic setups.",
+        "novelty": "LAM offers a self-supervised learning approach that learns directly from raw audio data, allowing for better adaptability and without the constraints of pre-computed labels."
+    },
+    "key_innovation": "LAM's use of self-supervised learning for generating high-resolution acoustic maps and its adaptability to varying microphone configurations sets it apart from prior methods.",
+    "real_world_impact": "The proposed LAM model can significantly advance sound localization systems, improving applications like robotic hearing, augmented reality, and surveillance.",
+    "limitations": "The paper does not explicitly mention any limitations.",
+    "new_terms": {
+        "Direction of Arrival Estimation": "**Direction of Arrival Estimation (DoAE)** is the process of determining the origin angle of incoming sound waves using sensor arrays.",
+        "Spherical Acoustic Maps": "**Spherical Acoustic Maps (SAMs)** are spatial representations that visualize sound intensity and directionality in a three-dimensional space."
+    },
+    "open_sourcing": "https://github.com/adrianSRoman/LAM"
+}

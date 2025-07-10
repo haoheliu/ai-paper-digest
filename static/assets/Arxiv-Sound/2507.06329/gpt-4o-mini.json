@@ -1,0 +1,21 @@
+{
+    "title": "MixAssist: An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing",
+    "author": "Michael Clemens (University of Utah), Ana Marasovi\u0107 (University of Utah), ...",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The MIXASSIST dataset focuses on the interaction between expert and amateur music producers, which aligns with Haohe Liu's interests in audio generation and modeling. This dataset could be instrumental in developing systems for music source separation and enhancement.",
+    "field": "Applications-Creative AI",
+    "background": "The paper outlines a dataset designed for capturing instructional dialogues in music mixing tasks, which involves multi-turn conversations about audio processing to aid novices in improving their mixing skills.",
+    "contribution": "This research introduces the MIXASSIST dataset to solve the gap in co-creative AI tools for music mixing, achieving enhanced instructional dialogue modeling between experts and amateurs.",
+    "technical_comparison": {
+        "prior_work": "Previous datasets focused on static annotations or single-turn interactions, lacking dynamic conversational structures and audio-grounded dialogues.",
+        "novelty": "MIXASSIST improves by capturing the nuanced, multi-turn interactions and grounding them in actual audio sessions, allowing for more contextual AI training."
+    },
+    "key_innovation": "The dataset\u2019s design highlights expert-amateur relationships in music mixing, showcasing how thoughtful dialogue can foster learning and creativity.",
+    "real_world_impact": "The MIXASSIST dataset aims to enhance AI tools for music production, potentially empowering amateurs to improve their skills through collaborative learning, thus benefiting the creative industry.",
+    "limitations": "No explicit limitations were mentioned by the authors.",
+    "new_terms": {
+        "audio-grounded": "**Audio-grounded** refers to interactions or dialogues that are specifically tied to and influenced by actual audio content, ensuring that conversations are relevant to the auditory experience."
+    },
+    "open_sourcing": "The MIXASSIST dataset and associated resources will be made publicly available upon publication."
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Physics-Informed Direction-Aware Neural Acoustic Fields",
+    "author": "Yoshiki Masuyama (Mitsubishi Electric Research Laboratories), Fran\u00e7ois G. Germain (Mitsubishi Electric Research Laboratories), Gordon Wichern (Mitsubishi Electric Research Laboratories), Christopher Ick (Mitsubishi Electric Research Laboratories, Music and Audio Research Laboratory at New York University), Jonathan Le Roux (Mitsubishi Electric Research Laboratories) ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The approaches detailed in this paper for generating acoustically valid first-order Ambisonic room impulse responses could enhance Haohe Liu's work on audio generation and restoration methods, particularly in the context of spatial audio.",
+    "field": "Applications-Speech and Audio",
+    "background": "The task involves modeling and reconstructing sound fields in room acoustics using physics-informed neural networks to accurately simulate and predict room impulse responses.",
+    "contribution": "This paper introduces physics-informed priors based on physical principles to improve the modeling of first-order Ambisonic room impulse responses, achieving better accuracy in sound field reconstruction compared to standard neural networks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods used neural networks to predict sound pressure without integrating physical principles, leading to issues of generalization and validity in unmeasured positions.",
+        "novelty": "The proposed method incorporates physics-informed priors that connect multiple output channels and enforce physical consistency in the predictions."
+    },
+    "key_innovation": "By establishing links between particle velocity and sound pressure through derived equations, the method ensures the acoustic field predictions remain physically plausible.",
+    "real_world_impact": "This work could significantly improve audio reproduction technologies in virtual and augmented reality environments, enhancing the realism of soundscapes significantly.",
+    "limitations": "No specific limitations were mentioned in the paper.",
+    "new_terms": {
+        "First-Order Ambisonics (FOA)": "**First-Order Ambisonics** is an audio format that captures spatial sound characteristics using spherical harmonics up to the first order, facilitating immersive audio experiences.",
+        "Physics-Informed Neural Networks (PINNs)": "**Physics-Informed Neural Networks** are models that incorporate physical laws into the training process, helping to enforce constraints derived from differential equations."
+    },
+    "open_sourcing": ""
+}

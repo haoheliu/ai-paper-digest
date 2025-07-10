@@ -1,0 +1,22 @@
+{
+    "title": "Attacker's Noise Can Manipulate Your Audio-based LLM in the Real World",
+    "author": "Vinu Sankar Sadasivan (Google DeepMind), Soheil Feizi (The University of Maryland, College Park), Rajiv Mathews (Google DeepMind), Lun Wang (Google DeepMind), ...",
+    "quality": 7,
+    "relevance": 5,
+    "relevance_why": "The paper explores adversarial attacks on audio-based models, which could inform robust design strategies for audio generation and recognition models like those Haohe Liu develops.",
+    "field": "Applications-Speech and Audio",
+    "background": "Investigating how adversarial audio inputs can exploit vulnerabilities in audio-based large language models, leading to targeted or degraded responses.",
+    "contribution": "This paper introduces methods to create adversarial audio signals that manipulate audio-based large language models, achieving significant impacts on model responses.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused primarily on isolated scenarios without considering real-world implementations of audio inputs.",
+        "novelty": "This work incorporates real-world factors like background noise and microphone distortion, enhancing the model's vulnerability assessment."
+    },
+    "key_innovation": "Combines adversarial audio generation and real-world applicability for testing audio model robustness against live threats.",
+    "real_world_impact": "Raises awareness of significant vulnerabilities in audio-based models in real-world scenarios, potentially influencing security protocols for AI systems in public use.",
+    "limitations": "The paper assumes white-box access and does not explore all possible defensive measures extensively.",
+    "new_terms": {
+        "jailbreaking": "**Jailbreaking** refers to the practice of bypassing the limitations or restrictions programmed into a model to produce unintended or harmful outputs.",
+        "ALLM": "**Audio-based Large Language Model (ALLM)** is a model capable of processing and generating audio data in response to textual prompts."
+    },
+    "open_sourcing": ""
+}

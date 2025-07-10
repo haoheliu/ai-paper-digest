@@ -1,0 +1,22 @@
+{
+    "title": "IMPACT: Industrial Machine Perception via Acoustic Cognitive Transformer",
+    "author": "Changheon Han (School of Mechanical Engineering, Purdue University), Yuseop Sim (School of Mechanical Engineering, Purdue University), Hoin Jung (Elmore Family School of Electrical and Computer Engineering, Purdue University), Jiho Lee (School of Mechanical Engineering, Purdue University), Hojun Lee (School of Mechanical Engineering, Purdue University), Yunseok Kang (Department of Mechanical Engineering, UNIST), Sucheol Woo (Polytechnic Institute, Purdue University), Garam Kim (The School of Aviation and Transportation Technology, Purdue University), ..., Martin Byung-Guk Jun (School of Mechanical Engineering, Purdue University)",
+    "quality": 9,
+    "relevance": 7,
+    "relevance_why": "This paper's focus on self-supervised learning for industrial acoustic signals aligns with Haohe Liu's interests in audio domain applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study investigates machine sound signals to detect anomalies, enhance predictive maintenance, and improve operational efficiency in industrial settings.",
+    "contribution": "This paper introduces the DINOS dataset and the IMPACT model to solve challenges in industrial acoustic analysis, achieving superior performance across multiple machine classification tasks.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on general audio datasets, limiting their effectiveness in industrial contexts.",
+        "novelty": "This work improves accuracy and generalization through a large-scale dataset tailored for industrial sound and a transformer-based model trained via self-supervised learning."
+    },
+    "key_innovation": "The dual-optimizing approach effectively captures both global semantics and fine-grained acoustic features, enhancing robustness in diverse industrial scenarios.",
+    "real_world_impact": "IMPACT provides a foundational model for industrial sound analysis, potentially transforming maintenance diagnostics and operational practices in manufacturing environments.",
+    "limitations": "The authors mention that the model's performance is still limited in distinguishing some subtle operational variations.",
+    "new_terms": {
+        "DINOS": "**Diverse INdustrial Operation Sounds** is a large-scale open-access dataset with over 74,149 audio samples tailored for industrial sound analysis.",
+        "IMPACT": "**Industrial Machine Perception via Acoustic Cognitive Transformer** refers to a transformer-based foundation model specifically designed for analyzing industrial acoustic signals."
+    },
+    "open_sourcing": "The code and datasets are publicly available at https://github.com/hanprd/IMPACT and https://doi.org/10.7910/DVN/FWAZBQ."
+}

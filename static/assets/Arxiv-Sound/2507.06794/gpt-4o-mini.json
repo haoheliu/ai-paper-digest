@@ -1,0 +1,22 @@
+{
+    "title": "Revealing the Hidden Temporal Structure of HubertSoft Embeddings based on the Russian Phonetic Corpus",
+    "author": "Anastasia Ananeva (ITMO University), Anton Tomilov (STC-innovations Ltd.), Marina Volkova (STC-innovations Ltd.)",
+    "quality": 7,
+    "relevance": 6,
+    "relevance_why": "The study investigates temporal structure in speech embeddings, which could enhance Haohe Liu's work in audio processing, particularly in tasks like phonetic segmentation and improvement in audio-language models.",
+    "field": "Applications-Speech and Audio",
+    "background": "The research explores whether self-supervised learning embeddings can accurately capture phoneme identities and transitions at the boundaries, which is crucial for tasks requiring precise phonetic segmentation.",
+    "contribution": "This paper introduces boundary-sensitive embeddings from HubertSoft to solve the problem of phoneme transition accuracy, achieved through structured probing that assesses phonetic content and temporal order.",
+    "technical_comparison": {
+        "prior_work": "Previous studies indicated that self-supervised models like HuBERT capture phonetic features but did not directly assess their temporality at phoneme boundaries.",
+        "novelty": "This work specifically employs a triplet-label probing method to assess embeddings' ability to encode phoneme boundaries and transitions effectively."
+    },
+    "key_innovation": "Introduces a novel probing method focusing on boundary-sensitive embeddings that captures the temporal arrangement of phonemes.",
+    "real_world_impact": "The findings enhance the utility of self-supervised embeddings in fine-grained phonetics, facilitating improved speech recognition systems and phonetic transcription applications.",
+    "limitations": "No",
+    "new_terms": {
+        "self-supervised learning": "**Self-supervised learning** is a type of machine learning where the model is trained on data without manual labeling, instead learning to predict parts of the data itself.",
+        "phoneme boundaries": "**Phoneme boundaries** refer to the points in speech where one phoneme ends and another begins, crucial for understanding speech flow and transitions."
+    },
+    "open_sourcing": ""
+}

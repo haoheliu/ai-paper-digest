@@ -1,0 +1,22 @@
+{
+    "title": "STARS: A Unified Framework for Singing Transcription, Alignment, and Refined Style Annotation",
+    "author": "Wenxiang Guo (Zhejiang University), Yu Zhang (Zhejiang University), Changhao Pan (Zhejiang University), Zhiyuan Zhu (Zhejiang University), Ruiqi Li (Zhejiang University), Zhetao Chen (Zhejiang University), Wenhao Xu (Zhejiang University), Fei Wu (Zhejiang University), Zhou Zhao (Zhejiang University)",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The framework proposed in this paper offers advanced methodologies for singing voice synthesis and annotation, which can be integrated into Haohe Liu's research on audio signal processing and can enhance the quality and style control in audio generation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "Automatic Singing Annotation involves extracting key vocal features from singing recordings for synthesis models, such as phonetic transcriptions and stylistic attributes.",
+    "contribution": "The paper introduces STARS, a unified framework to simultaneously perform singing transcription, alignment, and refined style annotation, achieving improved accuracy and rich annotations.",
+    "technical_comparison": {
+        "prior_work": "Existing methods for singing annotation are fragmented, requiring separate tools for various tasks, which leads to cascading errors and inefficiencies.",
+        "novelty": "This work improves by providing a comprehensive end-to-end solution that processes multiple levels of singing data, avoiding error propagation and enhancing overall annotation quality."
+    },
+    "key_innovation": "STARS integrates multiple annotation tasks into a single framework, utilizing hierarchical processing and local acoustic encoders to enhance feature extraction and representation.",
+    "real_world_impact": "This framework has the potential to significantly enhance the quality of singing voice synthesis applications, making it easier to generate expressive and stylistically varied singing voices at scale.",
+    "limitations": "The model currently operates only on English and Chinese datasets, limiting its applicability to other languages.",
+    "new_terms": {
+        "phoneme": "**Phoneme** is the smallest unit of sound in speech that can distinguish one word from another.",
+        "multitask automated annotation": "**Multitask automated annotation** refers to the ability to predict multiple linguistic features and attributes from audio signals simultaneously using a single model."
+    },
+    "open_sourcing": "Audio samples are available at https://gwx314.github.io/stars-demo/"
+}

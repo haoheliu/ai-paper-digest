@@ -1,0 +1,22 @@
+{
+    "title": "Open-Set Source Tracing of Audio Deepfake Systems",
+    "author": "Nicholas Klein (Pindrop), Hemlata Tak (Pindrop), Elie Khoury (Pindrop), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper presents advanced methodologies for open-set source tracing of audio deepfakes, which can contribute to Haohe Liu's research on audio quality enhancement and restoration through potential applications in detecting synthesis artifacts.",
+    "field": "Applications-Speech and Audio",
+    "background": "Detecting the source or origin of manipulated audio in scenarios where not all systems have been trained on can critically improve forensic analysis, IP protection, and trust in audio technologies.",
+    "contribution": "This paper introduces a new adaptation to energy-based detection scores for out-of-distribution detection, termed softmax energy (SME), to enhance open-set source tracing performance in audio deepfakes, achieving a false positive rate of 8.3%.",
+    "technical_comparison": {
+        "prior_work": "Previous methods in source tracing mainly considered closed-set scenarios and had limited efficacy in open-set contexts.",
+        "novelty": "This work improves open-set performance by utilizing SME, achieving a 31% better average false positive rate compared to traditional energy scores."
+    },
+    "key_innovation": "The introduction of softmax energy effectively highlights the difference between in-distribution (ID) and out-of-distribution (OOD) samples by enhancing score discrimination.",
+    "real_world_impact": "By accurately tracing the sources of audio deepfakes, this research has significant implications for improving verification systems in communication and media, potentially increasing trust and accountability in audio technologies.",
+    "limitations": "The study may require further evaluations to address challenges in distinguishing OOD systems closely related to ID systems in training.",
+    "new_terms": {
+        "open-set source tracing": "**Open-set source tracing** refers to the ability to identify the source of manipulated audio when some source systems are not included in the training data, challenging traditional identification methods.",
+        "softmax energy (SME)": "**Softmax energy (SME)** is a novel metric that improves out-of-distribution sample detection by utilizing softmax outputs to better distinguish between in-domain and out-of-domain audio samples."
+    },
+    "open_sourcing": ""
+}

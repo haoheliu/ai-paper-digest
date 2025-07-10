@@ -1,0 +1,22 @@
+{
+    "title": "Super Kawaii Vocalics: Amplifying the 'Cute' Factor in Computer Voice",
+    "author": "Yuto Mandai (Institute of Science Tokyo), Xin Sun (University of Amsterdam), Katie Seaborn (Institute of Science Tokyo), Yijia Wang (Institute of Science Tokyo), Tomoyasu Nakano (AIST), Jun Kato (AIST), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The study of kawaii vocalics provides insights into manipulating voice characteristics, which could enhance audio synthesis and voice interactions in applications relevant to Haohe's research.",
+    "field": "Applications-Speech and Audio",
+    "background": "The study explores how altering voice frequencies can make computer-generated voices sound 'cute', aimed at improving user experience in voice interactions.",
+    "contribution": "This paper introduces the concept of kawaii vocalics to manipulate voice characteristics in computer voices, achieving measurable increases in perceived kawaiiness.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on visual aspects of kawaii and lacked empirical studies on voice manipulation.",
+        "novelty": "This work combines manual and automated frequency manipulation techniques for voice design, moving beyond visual to auditory cues in kawaii perception."
+    },
+    "key_innovation": "Utilizes specific frequency adjustments in both fundamental and formant frequencies to enhance perceptions of voice cuteness.",
+    "real_world_impact": "This research could significantly improve the appeal and effectiveness of voice assistants and game characters, making them more relatable and engaging for users.",
+    "limitations": "The study experiences a ceiling effect for certain voices and does not explore broader cultural implications beyond Japanese contexts.",
+    "new_terms": {
+        "kawaii": "**Kawaii** is a Japanese term meaning cute, which in this context relates to design elements eliciting emotional responses.",
+        "vocalics": "**Vocalics** refer to the vocal features that contribute to communication, especially in the context of perceived social identity."
+    },
+    "open_sourcing": ""
+}

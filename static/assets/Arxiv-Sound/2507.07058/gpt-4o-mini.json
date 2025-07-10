@@ -1,0 +1,22 @@
+{
+    "title": "Comparative Analysis of CNN and Transformer Architectures with Heart Cycle Normalization for Automated Phonocardiogram Classification",
+    "author": "Martin Sondermann (Fraunhofer Institute for Software and Systems Engineering ISST), Pinar Bisgin (Fraunhofer Institute for Software and Systems Engineering ISST), Niklas Tschorn (Fraunhofer Institute for Software and Systems Engineering ISST), Anja Burmann (Fraunhofer Institute for Software and Systems Engineering ISST), Christoph M. Friedrich (University of Applied Sciences and Arts Dortmund), ...",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The exploration of convolutional neural networks (CNNs) and transformer architectures in automated phonocardiogram classification directly relates to advancements in audio processing techniques applicable to Haohe Liu's work in audio generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research compares different deep learning architectures for classifying heart sounds from phonocardiogram recordings to improve cardiovascular diagnostics.",
+    "contribution": "This paper introduces a systematic comparison of CNN and transformer models, applying heart cycle normalization to enhance classification performance of phonocardiograms.",
+    "technical_comparison": {
+        "prior_work": "Previous methods primarily focused on using CNNs for heart sound classification but lacked comprehensive comparisons with transformer models and evaluations of normalization techniques.",
+        "novelty": "This work systematically evaluates both architectures under different normalization methods, highlighting how physiological factors affect model performance."
+    },
+    "key_innovation": "The introduction of a custom heart cycle normalization technique for phonocardiogram data, preserving physiological boundaries to enhance detection accuracy across different models.",
+    "real_world_impact": "This research has the potential to significantly advance the accuracy of automated cardiac diagnostics, improving patient care and accessibility in resource-limited healthcare settings.",
+    "limitations": "The reliance on high-quality annotations for heart cycles in the dataset restricts the application of the normalization method, leading to reduced data utilization.",
+    "new_terms": {
+        "phonocardiogram": "**Phonocardiogram** is a graphical representation of heart sounds captured through a microphone, useful for diagnosing cardiac conditions.",
+        "heart cycle normalization": "**Heart cycle normalization** is a preprocessing technique that aligns audio signals with heart cycles to improve classification accuracy by maintaining physiological integrity."
+    },
+    "open_sourcing": ""
+}
