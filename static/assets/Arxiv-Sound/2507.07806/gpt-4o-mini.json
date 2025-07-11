@@ -1,0 +1,22 @@
+{
+    "title": "End-to-end Acoustic-linguistic Emotion and Intent Recognition Enhanced by Semi-supervised Learning",
+    "author": "Zhao Ren (University of Bremen), Rathi Adarshi Rammohan (University of Bremen), Kevin Scheck (University of Bremen), Sheng Li (Institute of Science Tokyo), Tanja Schultz (University of Bremen)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "The proposed semi-supervised learning techniques using large amounts of unlabelled data can greatly enhance model training for various tasks in audio processing, which aligns with Dr. Liu's research on audio generation and enhancement.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper addresses the tasks of recognizing emotions and intents from speech by leveraging both labelled and unlabelled data using semi-supervised learning strategies.",
+    "contribution": "This paper introduces two semi-supervised learning approaches to improve emotion and intent recognition in speech, achieving a significant performance increase over existing models.",
+    "technical_comparison": {
+        "prior_work": "Previous methods often relied heavily on labelled data, limiting model performance and generalizability.",
+        "novelty": "This work incorporates large unlabelled datasets through fix-match and full-match learning strategies, allowing for improved performance with less labelled data."
+    },
+    "key_innovation": "The combination of multi-task learning with semi-supervised techniques enables more effective utilization of both speech and text modalities, resulting in better emotion and intent recognition.",
+    "real_world_impact": "Improved recognition of emotions and intents in speech can enhance applications in mental health care, customer service, and human-computer interaction, leading to more responsive technology.",
+    "limitations": "The paper does not explicitly mention any limitations encountered in their approach.",
+    "new_terms": {
+        "fix-match learning": "**Fix-match learning** is a semi-supervised learning strategy that generates pseudo-labels for unlabelled data based on the predictions of weakly augmented samples.",
+        "full-match learning": "**Full-match learning** is a more advanced semi-supervised learning approach that considers the full distribution of class probabilities, enhancing model confidence."
+    },
+    "open_sourcing": ""
+}

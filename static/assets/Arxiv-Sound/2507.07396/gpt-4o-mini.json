@@ -1,0 +1,22 @@
+{
+    "title": "IML-Spikeformer: Input-aware Multi-Level Spiking Transformer for Speech Processing",
+    "author": "Zeyang Song (National University of Singapore), Shimin Zhang (The Hong Kong Polytechnic University), Yuhong Chou (The Hong Kong Polytechnic University), Jibin Wu (The Hong Kong Polytechnic University), Haizhou Li (National University of Singapore), ..., Haizhou Li (Guangdong Provincial Key Laboratory of Big Data Computing)",
+    "quality": 8,
+    "relevance": 9,
+    "relevance_why": "The proposed IML-Spikeformer directly addresses large-scale speech processing tasks utilizing spiking neural networks, which aligns with my research interests in speech and audio processing.",
+    "field": "Applications-Speech and Audio",
+    "background": "This paper presents the IML-Spikeformer, a spiking Transformer architecture designed for efficient automatic speech recognition and related speech tasks.",
+    "contribution": "IML-Spikeformer introduces the Input-aware Multi-Level Spike firing mechanism to improve the efficiency of training while maintaining competitive performance in speech recognition tasks.",
+    "technical_comparison": {
+        "prior_work": "Existing spiking Transformer models often suffer from high computational costs and inefficiencies due to multi-timestep firing during training.",
+        "novelty": "This work improves upon these limitations by simulating multi-timestep firing within a single timestep using adaptive, input-aware thresholds, optimizing both training dynamics and inference efficiency."
+    },
+    "key_innovation": "The unique Input-aware Multi-Level Spike mechanism dynamically adjusts firing thresholds based on input characteristics, stabilizing training and enhancing representational power.",
+    "real_world_impact": "IML-Spikeformer could significantly enhance automatic speech recognition technologies, offering energy-efficient solutions beneficial in resource-constrained environments like mobile devices.",
+    "limitations": "The architecture and training mechanisms could become complex if scaling to significantly larger datasets or real-time processing scenarios.",
+    "new_terms": {
+        "Input-aware Multi-Level Spike": "**Input-aware Multi-Level Spike** refers to a novel firing method in spiking neural networks that compresses multi-timestep firing into a single timestep while adapting the firing threshold based on input statistics.",
+        "Hierarchical Decay Mask": "**Hierarchical Decay Mask** is an attentional mechanism that modulates the attention weights based on token distances in a hierarchical manner, emphasizing local interactions in shallow layers and global patterns in deeper layers."
+    },
+    "open_sourcing": ""
+}

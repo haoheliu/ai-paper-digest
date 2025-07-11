@@ -1,0 +1,22 @@
+{
+    "title": "SecureSpeech: Prompt-based Speaker and Content Protection",
+    "author": "Belinda Soh Hui Hui (Singapore Institute of Technology), Xiaoxiao Miao (Duke Kunshan University), Xin Wang (National Institute of Informatics), ...",
+    "quality": 6,
+    "relevance": 8,
+    "relevance_why": "The proposed method for dual anonymization of speech could be pivotal for Haohe Liu's work in audio processing, particularly in maintaining speaker privacy while preserving content quality in applications such as text-to-audio generation and audio restoration.",
+    "field": "Applications-Speech and Audio",
+    "background": "This work addresses the challenge of protecting both speaker identity and sensitive content in shared speech data, which is crucial for maintaining privacy.",
+    "contribution": "The paper introduces a prompt-based generation pipeline that enables the anonymization of both speaker identity and spoken content, achieving significant privacy protection along with high audio quality.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused either on speaker anonymization through voice conversion or content anonymization through simplistic techniques that degrade speech quality.",
+        "novelty": "This work improves upon these methods by using a combination of automatic speech recognition (ASR), named entity recognition (NER), and a large language model for more contextual and user-driven content replacement."
+    },
+    "key_innovation": "Employs a novel ASR + NER + large language model pipeline that allows for customizable speaker attributes and effective content anonymization.",
+    "real_world_impact": "This approach has the potential to enhance privacy in voice interactions within various applications, including assistive technologies and voice-activated services, ensuring safer user experiences.",
+    "limitations": "The pipeline may struggle with ASR encoding errors and lacks the ability to preserve prosody while ensuring anonymity.",
+    "new_terms": {
+        "automatic speech recognition (ASR)": "**Automatic Speech Recognition** is technology that converts spoken language into text, enabling voice commands and transcription services.",
+        "named entity recognition (NER)": "**Named Entity Recognition** refers to the process of identifying and classifying key entities in text, such as names, organizations, and locations."
+    },
+    "open_sourcing": "Code sample is available at https://github.com/pixelable/SecureSpeech.git"
+}

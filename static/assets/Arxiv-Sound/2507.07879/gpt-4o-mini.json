@@ -1,0 +1,21 @@
+{
+    "title": "LISTEN: Lightweight Industrial Soundrepresentable Transformer for Edge Notification",
+    "author": "Changheon Han (Purdue University), Yun Seok Kang (UNIST), Yuseop Sim (Purdue University), Martin Byung-Guk Jun (Purdue University), Hyung Wook Park (UNIST), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The study focuses on lightweight sound models designed for real-time industrial monitoring, aligning closely with Dr. Liu's interests in audio processing and generative methods for sound applications.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a new approach for monitoring industrial machinery through audio signal analysis, enabling anomaly detection and predictive maintenance.",
+    "contribution": "This paper introduces LISTEN, a kilobyte-sized lightweight sound foundation model for real-time monitoring, achieving comparable performance to larger models with significantly lower resource demands.",
+    "technical_comparison": {
+        "prior_work": "Previous models like IMPACT are too large for real-time deployment on edge devices, requiring substantial computational resources.",
+        "novelty": "LISTEN is developed using knowledge distillation, dramatically reducing its size while maintaining performance, allowing for efficient on-device intelligence."
+    },
+    "key_innovation": "The use of knowledge distillation to create a practical, compact model for edge devices facilitates real-time industrial monitoring without extensive computing power.",
+    "real_world_impact": "By demonstrating effective real-time machine monitoring, LISTEN could significantly enhance operational efficiency and preventive maintenance practices in manufacturing settings.",
+    "limitations": "The method experiences reduced performance in transitional operational states and requires more extensive data for robustness.",
+    "new_terms": {
+        "knowledge distillation": "**Knowledge distillation** is a model compression technique where a smaller model (student) is trained to replicate the behavior of a larger model (teacher), often resulting in reduced size and improved efficiency."
+    },
+    "open_sourcing": ""
+}

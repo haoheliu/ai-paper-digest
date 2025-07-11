@@ -1,0 +1,22 @@
+{
+    "title": "Edge-ASR: Towards Low-Bit Quantization of Automatic Speech Recognition Models",
+    "author": "Chen Feng (Qualcomm AI Research), Yicheng Lin (Qualcomm AI Research), Shaojie Zhuo (Qualcomm AI Research), Chenzheng Su (Qualcomm AI Research), Ramchalam Kinattinkara Ramakrishnan (Qualcomm AI Research), Zhaocong Yuan (Qualcomm AI Research), Xiaopeng Zhang (Qualcomm AI Research), ..., Ramchalam Kinattinkara Ramakrishnan (Qualcomm AI Research)",
+    "quality": 7,
+    "relevance": 8,
+    "relevance_why": "This paper focuses on quantization techniques for Automatic Speech Recognition models, which aligns well with my interests in speech processing and enhancing model efficiency for resource-constrained devices.",
+    "field": "Applications-Speech and Audio",
+    "background": "This research benchmarks various Post-Training Quantization techniques to improve the efficiency and accuracy of Automatic Speech Recognition models running on edge devices with limited computational power.",
+    "contribution": "This paper introduces a comprehensive benchmark of eight advanced Post-Training Quantization methods applied to edge-ASR models, achieving insights on performance trade-offs at different bit-widths.",
+    "technical_comparison": {
+        "prior_work": "Previous methods did not systematically cover quantization techniques for speech recognition, focusing mostly on language models and lacking thorough performance evaluations.",
+        "novelty": "This work provides an extensive evaluation of quantization techniques specifically for Automatic Speech Recognition, revealing how different strategies affect model performance and computational efficiency."
+    },
+    "key_innovation": "Utilizes an integrated calibration and evaluation pipeline to analyze the effects of Post-Training Quantization on Automatic Speech Recognition models across multiple datasets.",
+    "real_world_impact": "The findings can significantly enhance the deployment of ASR systems on low-power devices, improving user experiences in real-world applications like voice commands and live transcription.",
+    "limitations": "The study is limited to two ASR model families and does not explore other potential architectures that may benefit from quantization.",
+    "new_terms": {
+        "Post-Training Quantization": "**Post-Training Quantization** refers to techniques used to reduce the bit-width of weights and activations in a neural network after it has been trained, to optimize model size and computational efficiency for deployment.",
+        "Bit Operations (BOPs)": "**Bit Operations (BOPs)** measure the computational cost based on the number of multiply-accumulate operations and the data bit-width, which impacts the energy consumed per operation."
+    },
+    "open_sourcing": ""
+}

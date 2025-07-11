@@ -1,0 +1,22 @@
+{
+    "title": "VP-SelDoA: Visual-prompted Selective DoA Estimation of Target Sound via Semantic-Spatial Matching",
+    "author": "Yu Chen (School of Data Science, The Chinese University of Hong Kong), Jiadong Wang (Technical University of Munich), Xinyuan Qian (University of Science and Technology Beijing), Kainan Chen (Eigenspace GmbH), Hongxu Zhu (Fano), Haizhou Li (School of Data Science, The Chinese University of Hong Kong), ...",
+    "quality": 8,
+    "relevance": 7,
+    "relevance_why": "The paper's focus on audio-visual localization and the novel use of semantic visual prompts can inform advancements in Dr. Liu's work on audio quality enhancement and restoration by providing better contextual understanding for audio manipulation tasks.",
+    "field": "Applications-Speech and Audio",
+    "background": "The paper presents a method to locate target sound sources in audio streams by leveraging contextual visual information from images, which enhances ability to discern spatial audio in environments with multiple overlapping sounds.",
+    "contribution": "VP-SelDoA introduces a novel approach to audio-visual sound localization by employing semantic-level fusion and selective masking to isolate target sounds in multi-source scenarios, achieving improved accuracy in directional sound estimation.",
+    "technical_comparison": {
+        "prior_work": "Existing methods primarily estimate the direction of arrival for all sound sources without distinguishing between them, often relying heavily on paired audio-visual data.",
+        "novelty": "This work minimizes the dependency on paired data, allowing use of semantic visual cues from different instances to enhance audio localization, significantly improving performance in multi-source environments."
+    },
+    "key_innovation": "The integration of a semantic-spatial matching mechanism that aligns audio and visual information enhances the model's ability to accurately target specific sound sources.",
+    "real_world_impact": "This method can significantly improve applications in robotics, sound event detection, and human-computer interaction by providing more accurate sound localization, which is crucial for effective audio-visual experiences.",
+    "limitations": "The proposed method may face challenges with performance in highly dynamic environments where visual inputs may change rapidly or become occluded.",
+    "new_terms": {
+        "Cross-Instance Audio-Visual Localization (CI-AVL)": "**Cross-Instance Audio-Visual Localization** is a task that combines multiple instances of visual information to assist in identifying and isolating an audio source, enhancing the robustness of sound localization.",
+        "Semantic-Spatial Matching": "**Semantic-Spatial Matching** refers to the process of aligning semantic understanding from visual sources with spatial characteristics of audio, aiding in the accurate identification of sound sources in complex environments."
+    },
+    "open_sourcing": "The authors constructed a dataset named VGG-SSL, which is publicly available for further research and validation."
+}

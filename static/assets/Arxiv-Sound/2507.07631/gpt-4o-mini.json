@@ -1,0 +1,22 @@
+{
+    "title": "Generic Speech Enhancement with Self-Supervised Representation Space Loss",
+    "author": "Hiroshi Sato (NTT Corporation), Tsubasa Ochiai (NTT Corporation), Marc Delcroix (NTT Corporation), Takafumi Moriya (NTT Corporation), Takanori Ashihara (NTT Corporation), Ryo Masumura (NTT Corporation), ...",
+    "quality": 7,
+    "relevance": 9,
+    "relevance_why": "The proposed method for speech enhancement and its integration with self-supervised learning models could inform improvements in Haohe Liu's projects on audio generation and enhancement, promoting better performance in audio tasks, including speech restoration and denoising.",
+    "field": "Applications-Speech and Audio",
+    "background": "Enhancing single-channel speech signals by reducing background noise, thereby improving the performance of subsequent tasks such as speech recognition and speaker verification.",
+    "contribution": "This paper introduces the SSL Mean Square Error (SSL-MSE) loss to solve the challenge of speech enhancement for multiple downstream tasks, achieving improved performance across various speech-related applications.",
+    "technical_comparison": {
+        "prior_work": "Previous methods focused on optimizing speech enhancement primarily using traditional metrics like signal-to-distortion ratio (SDR), which did not always translate to better downstream performance.",
+        "novelty": "This work improves upon traditional methods by using self-supervised learning features to train the speech enhancement model, focusing on preserving high-level speech information relevant to downstream tasks."
+    },
+    "key_innovation": "Utilizes a loss function based on self-supervised learning representations to enhance speech signals, aiming to reduce artifacts that could negatively impact subsequent processing tasks.",
+    "real_world_impact": "This approach could significantly improve communication technologies and automated speech processing systems, making them more robust in real-world noisy environments.",
+    "limitations": "No explicit limitations mentioned.",
+    "new_terms": {
+        "self-supervised learning": "**Self-supervised learning** is a type of machine learning that uses unlabeled data to generate supervisory signals, allowing models to learn representations without manual labeling.",
+        "signal-to-distortion ratio (SDR)": "**Signal-to-distortion ratio (SDR)** is a measure used to evaluate the quality of enhanced signals compared to the original clean signals, focusing on how well distortions are mitigated."
+    },
+    "open_sourcing": ""
+}
